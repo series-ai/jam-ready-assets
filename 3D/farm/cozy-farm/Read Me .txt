@@ -1,0 +1,43 @@
+Hello
+
+
+VERY VERY IMPORTANT Recommandations
+-For this asset specifically I recommend to NOT use a metallic roughness workflow PBR;(it would wash the color?)
+Just use an unlit/emission shader, better result 
+If you don't know how to do this, you can also just use the Emission version of the objects but it's very bright if you add environnement lighting
+Or if you persist to use metallic/roughness workflow : try to see what roughness and metallic works best for you(I recommend to put the roughness value to 1 )
+
+in unity you can change the materials type, standard to unlit/texture
+
+Also if you have problems with some areas like where double faces render is needed, you can always render both faces, disabling backface culling
+
+FOR FBX USERS : 
+Metallic, Roughness, Alpha may NOT WORK properly, 
+you may be need to re plug them or ADJUST the value.
+
+
+FOR UNITY USERS : 
+If material have alpha : you'll need to enable alpha cliping in the material inspector's tab if there's alpha texture 
+or if old rendering pipeline : change opaque to something :)
+and you guys are also FBX USERS so you'll need to replug the materials if needed
+
+FOR GLTF GLB USERS: 
+nothing to do, should work fine :) maybe adjust roughness and metallic value when there's texture map for them
+
+
+UNREAL ENGINE :
+If you are using UNREAL ENGINE please USE GLB,GLTF so you don't have to setup all the materials, 
+but if you persist to use fbx files, then when importing, CHECK FLIPPED -Y FOR NORMAL MAP option.
+If you want to import the model without having all the parts separated, just check the option when importing
+
+
+If you think my work is usefull, consider to donate me a little thing in itch,
+that would help me to make more FREE assets
+
+ 
+https://styloo.itch.io/
+
+:)
+
+if you have any questions 
+https://discord.gg/4PENNKE6yN
