@@ -33,6 +33,8 @@ Assets are sorted first by **dimension** (2D vs 3D), then by **theme**. Inside e
 
 Each pack keeps its own `License.txt` / `Readme` from the original download, so credits and usage notes travel with the art.
 
+> 🤖 **Building with an AI agent?** See [`AGENTS.md`](AGENTS.md) for a machine-friendly guide to finding, choosing, and adding assets.
+
 ---
 
 ## 📦 Working with this repo (Git LFS)
