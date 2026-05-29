@@ -1,6 +1,6 @@
 # 🎮 Jam-Ready Assets
 
-A curated, ready-to-use library of **free game art** for game jams and rapid prototyping — over **340 asset packs** of 2D sprites, tilesets, 3D models, UI kits, icons, fonts, and audio, organized so you can find what you need in seconds.
+A curated, ready-to-use library of **free game art** for building games on the **RUN platform** — over **340 asset packs** of 2D sprites, tilesets, 3D models, UI kits, icons, fonts, and audio, organized so you can find what you need in seconds. Drop them straight into your RUN game.
 
 [![License: CC0](https://img.shields.io/badge/License-CC0_1.0-brightgreen.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
@@ -71,10 +71,10 @@ All packs are CC0 — attribution is **optional but appreciated**. Please consid
 
 ## 💡 Usage notes
 
-- **3D formats** — most 3D packs ship `.gltf`/`.glb`, `.fbx`, and `.obj`. Prefer **glTF/GLB** for modern engines (Godot 4, Three.js, Babylon); use FBX for Unity/Unreal.
+- **3D formats** — most 3D packs ship `.gltf`/`.glb`, `.fbx`, and `.obj`. Use **glTF/GLB** in your RUN game — it's the format the RUN runtime loads directly. The `.fbx`/`.obj` copies are included only as editable source if you want to tweak a model in a 3D tool first.
 - **Cozy Farm shader tip** — for `3D/farm/cozy-farm`, use an **unlit / emission** shader rather than a metallic-roughness PBR workflow (the textures are baked; PBR washes out the colors). If you must use PBR, set roughness to 1.
 - **Pixel art** — keep texture filtering set to **nearest / point** (no bilinear) to avoid blurring sprites and tiles.
-- **Kenney sprite variants** — some Kenney packs include nested `.zip`s with alternate sprite formats (isometric / side / topdown) and engine sample projects; unzip the variant you need.
+- **Kenney sprite variants** — some Kenney packs include nested `.zip`s with alternate sprite formats (isometric / side / topdown) and sample projects; unzip the variant you need.
 
 ---
 
@@ -82,4 +82,4 @@ All packs are CC0 — attribution is **optional but appreciated**. Please consid
 
 - **Mixed-format packs** are filed by their dominant use; a pack tagged one theme often contains props usable elsewhere — browse adjacent themes too.
 - A few Kenney *Mobile Controls* high-DPI ("@2x") variants were omitted because their filenames use characters this filesystem can't store — the standard-resolution versions are all present.
-- Kenney's legacy **Archive** (superseded older versions), promotional **Goodies**, and engine-specific sample projects were left out to keep the library clean. Grab the full original collection from [kenney.nl](https://kenney.nl) if you need them.
+- Kenney's legacy **Archive** (superseded older versions), promotional **Goodies**, and sample projects were left out to keep the library clean. Grab the full original collection from [kenney.nl](https://kenney.nl) if you need them.
