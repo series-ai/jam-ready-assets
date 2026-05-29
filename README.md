@@ -6,6 +6,11 @@ A curated, ready-to-use library of **free game art** for building games on the *
 
 > **Everything here is [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)** — public domain. Use it in personal, educational, or commercial projects. Modify it freely. **No attribution required** (though the creators below deserve a shout-out — see [Credits](#-credits)).
 
+## 🏆 Build on RUN
+
+- **[Upcoming events & contests →](https://events.run.game/)** — game jams and competitions with **real cash prizes**.
+- **[RUN blog →](https://run.game/blog)** — updates on what we're building.
+
 ---
 
 ## 🧭 How to navigate
