@@ -8,8 +8,8 @@ A curated, ready-to-use library of **free game art** for building games on the *
 
 ## 🏆 Build on RUN
 
-- **[Upcoming events & contests →](https://events.run.game/)** — game jams and competitions with **real cash prizes**.
-- **[RUN blog →](https://run.game/blog)** — updates on what we're building.
+- **[Upcoming events & contests →](https://events.run.world/)** — game jams and competitions with **real cash prizes**.
+- **[RUN blog →](https://run.world/blog)** — updates on what we're building.
 
 ---
 
