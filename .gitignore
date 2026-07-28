@@ -4,3 +4,5 @@ __MACOSX/
 *.app/
 .AppleDouble
 Thumbs.db
+manifest/
+.mirror-stage/

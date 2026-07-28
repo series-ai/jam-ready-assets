@@ -61,3 +61,23 @@ fonts/<creator>-<pack>/          bitmap & web fonts
 - **Never commit junk:** no `.DS_Store`, `__MACOSX/`, `*.app/`, `Thumbs.db` (already covered by `.gitignore`).
 - **Update [`README.md`](README.md)** credits + theme lists when you add a new creator or theme.
 - **Don't reference other game engines/platforms** in docs — this library is framed for the RUN platform.
+
+## GCS mirror (CI-owned — do not hand-edit or hand-upload)
+
+Every push to `main` runs `.github/workflows/build-manifest.yml`, which builds a
+JSON manifest of all packs and mirrors game-loadable files to the public bucket
+`gs://run-asset-library`, consumed by RUN.studio:
+
+- `objects/<sha256>` — immutable content-addressed files (the sha256 comes from
+  each file's Git LFS pointer). Only OIDs missing from the bucket are uploaded,
+  so pushes are incremental.
+- `manifest/index.json`, `manifest/packs/*.json`, `manifest/files.json` —
+  regenerated every push (`scripts/build-manifest.mjs`), short cache TTL.
+
+"Runtime" files (what studio imports into games): `.glb` for 3D (gltf/bin/textures
+only when a pack has no glb), `.png`/`.svg`/`.gif` for 2D/UI, `.ogg`/`.mp3` for audio
+(`.wav` only when no compressed version exists), font formats for fonts. Editable
+sources (`.fbx`, `.obj`, `.blend`, `.aseprite`, …) and `Source/`/`Samples/` dirs are
+never mirrored. Adding packs needs no manifest work — CI picks them up as long as
+the standard layout (`2D|3D/<theme>/<creator>-<pack>/`, flat `ui|icons|audio|fonts`)
+is followed.
