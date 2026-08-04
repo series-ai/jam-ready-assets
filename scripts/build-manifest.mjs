@@ -71,14 +71,30 @@ function walk(dir, rel = '') {
   return out;
 }
 
+/** True if the file sits in or below a directory that contains .glb files. */
+function underGlbDir(relPath, glbDirs) {
+  const parts = relPath.split('/');
+  parts.pop();
+  while (true) {
+    if (glbDirs.has(parts.join('/'))) return true;
+    if (parts.length === 0) return false;
+    parts.pop();
+  }
+}
+
 /** Which files RUN games actually load. Editable source formats never ship. */
-function isRuntime(file, category, packHasOggOrMp3, packGlbCount) {
+function isRuntime(file, category, packHasOggOrMp3, glbDirs) {
   if (file.skippedDir) return false;
   const ext = extname(file.path).toLowerCase();
   if (NEVER_RUNTIME.has(ext)) return false;
   if (category === '3d') {
     if (ext === '.glb') return true;
-    if (packGlbCount > 0) return false; // glb is self-contained; skip parallel gltf/texture trees
+    if (glbDirs.size > 0) {
+      // glb geometry is embedded, but Kenney GLBs reference textures by relative
+      // uri (e.g. "Textures/colormap.png"). Ship textures that live under a
+      // glb-containing dir; still skip the duplicate fbx/obj/gltf texture trees.
+      return ['.png', '.jpg'].includes(ext) && underGlbDir(file.path, glbDirs);
+    }
     return ['.gltf', '.bin', '.png', '.jpg'].includes(ext);
   }
   if (category === 'audio') {
@@ -131,11 +147,15 @@ for (const [bucket, category] of Object.entries(BUCKETS)) {
     if (files.length === 0) continue;
     const exts = files.map((f) => extname(f.path).toLowerCase());
     const packHasOggOrMp3 = exts.includes('.ogg') || exts.includes('.mp3');
-    const packGlbCount = exts.filter((e) => e === '.glb').length;
+    const glbDirs = new Set(
+      files
+        .filter((f) => !f.skippedDir && extname(f.path).toLowerCase() === '.glb')
+        .map((f) => (f.path.includes('/') ? f.path.slice(0, f.path.lastIndexOf('/')) : '')),
+    );
     const entries = files.map((f) => ({
       path: f.path,
       ...sizeAndOid(f.abs),
-      runtime: isRuntime(f, category, packHasOggOrMp3, packGlbCount),
+      runtime: isRuntime(f, category, packHasOggOrMp3, glbDirs),
     }));
     const runtime = entries.filter((e) => e.runtime);
     const { key: creatorKey, name: creator } = creatorOf(slug);
