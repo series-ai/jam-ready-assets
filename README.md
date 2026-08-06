@@ -73,6 +73,7 @@ All packs are CC0 — attribution is **optional but appreciated**. Please consid
 | **Alex's Assets** | 2 | *16×16 Outdoors Tileset* & *16×16 RPG Item Pack* | [alexs-assets.itch.io](https://alexs-assets.itch.io) |
 | **Jestan** | 1 | *Classic RPG Tileset* | [jestan.itch.io](https://jestan.itch.io) |
 | **Styloo** | 1 | *Cozy Farm* — 3D farm models (FBX + GLB) | [styloo.itch.io](https://styloo.itch.io) |
+| **Barker** | 2 | *Cant Stop Now* runner & launcher packs — painted 2D characters, emotes, spritesheets & parallax backgrounds | [series.ai](https://series.ai) |
 
 ---
 
