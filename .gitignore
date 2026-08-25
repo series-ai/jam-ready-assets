@@ -6,3 +6,4 @@ __MACOSX/
 Thumbs.db
 manifest/
 .mirror-stage/
+.rejected-packs.json

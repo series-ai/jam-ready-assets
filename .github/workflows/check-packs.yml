@@ -1,0 +1,28 @@
+name: Check packs
+# The licence gate. Deliberately a separate file from build-manifest.yml: that workflow holds
+# `id-token: write` and ends in a write to the live bucket, so attaching `pull_request` to it
+# would publish an unmerged branch's manifest over the one every Studio user reads.
+on:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  packs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: false # pointers carry size and oid, and licence text is not LFS-tracked
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      # No GCP auth here, so the published-manifest regression check cannot run. On a PR every
+      # rejection should block anyway, which the exit code below enforces.
+      - run: SKIP_PUBLISHED_CHECK=1 node scripts/build-manifest.mjs
+      - name: Fail on any rejected pack
+        run: |
+          if [ -f .rejected-packs.json ]; then
+            echo "::error::One or more packs cannot ship. See the REJECTED lines above."
+            cat .rejected-packs.json
+            exit 1
+          fi

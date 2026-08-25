@@ -21,5 +21,16 @@ jobs:
           workload_identity_provider: ${{ vars.GCP_WIF_PROVIDER }}
           service_account: ${{ vars.GCP_SA_EMAIL }}
       - uses: google-github-actions/setup-gcloud@v2
+      # Exits non-zero only when a pack that is already published would be dropped. A pack that
+      # has never shipped is skipped instead, so one bad contribution cannot freeze the whole
+      # catalogue behind a symptom ("new packs don't show up") nobody notices for weeks.
       - run: node scripts/build-manifest.mjs
       - run: node scripts/mirror-to-gcs.mjs
+      - name: Fail on any skipped pack
+        if: always()
+        run: |
+          if [ -f .rejected-packs.json ]; then
+            echo "::error::Published the good packs, but some were skipped. See the REJECTED lines above."
+            cat .rejected-packs.json
+            exit 1
+          fi
