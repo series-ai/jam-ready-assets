@@ -1,0 +1,11 @@
+SPDX-License-Identifier: CC0-1.0
+Source: https://pixelfrog-assets.itch.io/treasure-hunters
+Verified-by: Chelsea Newell, 2026-08-25
+
+itch.io asset license: Creative Commons Zero v1.0 Universal. "These assets are released under a Creative Commons Zero (CC0) license ... even for commercial purposes. Attribution is not required."
+
+This work has been dedicated to the public domain under the Creative Commons
+Zero 1.0 Universal dedication. It is free to use, modify and redistribute in
+personal, educational and commercial projects. No attribution is required.
+
+Full text: https://creativecommons.org/publicdomain/zero/1.0/legalcode

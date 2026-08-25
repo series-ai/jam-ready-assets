@@ -1,0 +1,11 @@
+SPDX-License-Identifier: CC0-1.0
+Source: https://grafxkid.itch.io/
+Verified-by: Chelsea Newell, 2026-08-25
+
+License text carried from GrafxKid's own license file, which covers all of GrafxKid's publicly released pixel art.
+
+--- License text as supplied by the creator ---
+
+GrafxKid's publicly released pixel art assets fall under the CC0 1.0 Universal Public Domain License.
+
+CC0 1.0 terms - https://creativecommons.org/publicdomain/zero/1.0/

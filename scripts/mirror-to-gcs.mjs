@@ -15,9 +15,12 @@ const CONTENT_TYPES = {
   '.ogg': 'audio/ogg', '.mp3': 'audio/mpeg', '.wav': 'audio/wav',
   '.ttf': 'font/ttf', '.otf': 'font/otf', '.woff': 'font/woff', '.woff2': 'font/woff2',
   '.fnt': 'text/plain', '.xml': 'application/xml', '.json': 'application/json',
+  // Licence files ship as text so a creator can open one straight from the CDN. Objects are
+  // uploaded immutable, so a wrong content type here cannot be corrected later.
+  '.txt': 'text/plain', '.md': 'text/plain', '': 'text/plain',
 };
 
-// 1. Wanted objects = every runtime file + each pack's preview/audio-preview.
+// 1. Wanted objects = every runtime file, each pack's licence, and its preview/audio-preview.
 const index = JSON.parse(readFileSync(join(ROOT, 'manifest/index.json'), 'utf8'));
 const byId = new Map(index.packs.map((p) => [p.id, p]));
 const wanted = new Map(); // oid -> { repoPath, ext }
@@ -26,7 +29,7 @@ for (const packFile of readdirSync(join(ROOT, 'manifest/packs'))) {
   const summary = byId.get(pack.id);
   const previewOids = new Set([summary?.previewOid, summary?.audioPreviewOid].filter(Boolean));
   for (const f of pack.files) {
-    if (f.runtime || previewOids.has(f.oid)) {
+    if (f.runtime || f.license || previewOids.has(f.oid)) {
       wanted.set(f.oid, { repoPath: `${pack.id}/${f.path}`, ext: extname(f.path).toLowerCase() });
     }
   }
