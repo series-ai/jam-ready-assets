@@ -4,7 +4,8 @@ A curated, ready-to-use library of **free game art** for building games on the *
 
 > **Free for any RUN game**, personal, educational, or commercial. Modify it freely.
 >
-> There is no single licence across the library. Every pack carries its own `License.txt`, and the library only accepts licences whose obligations a tool can meet for you: **CC0 / public domain, MIT, BSD-2-Clause, BSD-3-Clause, and zlib**. All 292 packs are currently CC0, so nothing here asks anything of you. If a pack under one of the other licences is added later, the only thing it asks is that its licence file travels with the art, and RUN.studio copies that file into your project automatically when you import the pack. Leave it where it lands and you are done.
+> There is no single licence across the library. Every pack carries its own `License.txt`, and the library only accepts licences whose obligations RUN.studio can carry into the published game: **CC0 / public domain, MIT, and BSD-2-Clause**. All 292 packs are currently CC0, so nothing here asks anything of you. If a pack under MIT or BSD-2-Clause is added later, RUN.studio copies its licence file into your published project automatically when you import the pack. Leave it where it lands and you are done.
+> Older RUN.studio builds use a CC0-only schema-v1 catalog. Licence-aware builds use schema v2 with immutable per-commit pack manifests, so a non-CC0 pack cannot reach a client that would strip its notice or pair with another revision's notice.
 >
 > The creators below deserve a shout-out either way, see [Credits](#-credits).
 
