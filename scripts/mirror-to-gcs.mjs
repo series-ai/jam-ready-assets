@@ -21,11 +21,12 @@ const CONTENT_TYPES = {
 };
 
 // 1. Wanted objects = every runtime file, each pack's licence, and its preview/audio-preview.
-const index = JSON.parse(readFileSync(join(ROOT, 'manifest/index.json'), 'utf8'));
+const index = JSON.parse(readFileSync(join(ROOT, 'manifest/v2/index.json'), 'utf8'));
 const byId = new Map(index.packs.map((p) => [p.id, p]));
 const wanted = new Map(); // oid -> { repoPath, ext }
-for (const packFile of readdirSync(join(ROOT, 'manifest/packs'))) {
-  const pack = JSON.parse(readFileSync(join(ROOT, 'manifest/packs', packFile), 'utf8'));
+const versionedPackDir = join(ROOT, 'manifest/v2/commits', index.commit, 'packs');
+for (const packFile of readdirSync(versionedPackDir)) {
+  const pack = JSON.parse(readFileSync(join(versionedPackDir, packFile), 'utf8'));
   const summary = byId.get(pack.id);
   const previewOids = new Set([summary?.previewOid, summary?.audioPreviewOid].filter(Boolean));
   for (const f of pack.files) {
@@ -73,11 +74,31 @@ for (const [type, paths] of byType) {
   ], { input: paths.join('\n'), stdio: ['pipe', 'inherit', 'inherit'] });
 }
 
-// 5. Manifest last, short TTL.
+// 5. Publish manifests after their objects. V2 pack data is immutable by commit, so an
+// index can never pair with another revision. Legacy pack files are pruned because old
+// consumers cache the mutable v1 index and must get a safe 404 after a CC0 reclassification.
+execFileSync('gcloud', [
+  'storage', 'rsync', '--recursive', '--delete-unmatched-destination-objects',
+  '--content-type=application/json',
+  '--cache-control=public, max-age=300',
+  join(ROOT, 'manifest/packs'), `${BUCKET}/manifest/packs`,
+], { stdio: 'inherit' });
 execFileSync('gcloud', [
   'storage', 'cp', '-r',
   '--content-type=application/json',
-  '--cache-control=public, max-age=300',
-  join(ROOT, 'manifest'), `${BUCKET}/`,
+  '--cache-control=public, max-age=31536000, immutable',
+  join(ROOT, 'manifest/v2/commits', index.commit), `${BUCKET}/manifest/v2/commits/`,
 ], { stdio: 'inherit' });
+for (const [source, destination] of [
+  ['manifest/files.json', `${BUCKET}/manifest/files.json`],
+  ['manifest/index.json', `${BUCKET}/manifest/index.json`],
+  ['manifest/v2/index.json', `${BUCKET}/manifest/v2/index.json`],
+]) {
+  execFileSync('gcloud', [
+    'storage', 'cp',
+    '--content-type=application/json',
+    '--cache-control=public, max-age=300',
+    join(ROOT, source), destination,
+  ], { stdio: 'inherit' });
+}
 console.log(`mirrored ${missing.length} new objects + manifest @ ${index.commit}`);

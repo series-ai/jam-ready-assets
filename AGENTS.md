@@ -4,8 +4,9 @@ This repo is a curated library of **free game art** for building games on the **
 
 ## TL;DR for agents
 
-- Everything here is **free to use, modify, and redistribute in any RUN game**, commercially included. There is no single library-wide licence: each pack carries its own `License.txt`, and CI refuses any licence outside **CC0-1.0, MIT, BSD-2-Clause, BSD-3-Clause, Zlib**. All 292 packs are CC0 today.
+- Everything here is **free to use, modify, and redistribute in any RUN game**, commercially included. There is no single library-wide licence: each pack carries its own `License.txt`, and CI refuses any licence outside **CC0-1.0, MIT, and BSD-2-Clause**. All 292 packs are CC0 today.
 - **Never delete or move a pack's `License.txt`.** For CC0 packs it is provenance; for the others it is the whole obligation, and RUN.studio copies it into the creator's project alongside the assets.
+- The public schema-v1 manifest stays **CC0-only** for older Studio builds. Licence-aware consumers use `manifest/v2/`, which may include MIT and BSD-2-Clause packs.
 - Layout is **predictable**: `<dimension>/<theme>/<creator>-<pack>/`. Find assets by globbing themes, not by guessing filenames.
 - For 3D in a RUN game, **use the `.glb`/`.gltf` file** in a pack (the RUN runtime loads it directly). `.fbx`/`.obj` are editable source only.
 - Files are stored with **Git LFS**. After cloning, run `git lfs install && git lfs pull` or you'll only see pointer text, not real assets.
@@ -56,14 +57,14 @@ fonts/<creator>-<pack>/          bitmap & web fonts
 ## Rules for agents modifying this repo
 
 - **Every pack must contain a licence file in its pack root**, named `License.txt` (or `LICENSE`, `COPYING`, `UNLICENSE`). A readme is not licence evidence, even when it mentions a licence: copy the terms into `License.txt`. CI rejects a pack with no licence file, with two of them, or with a licence outside the allowed set, and names the pack in the failure.
-- **Allowed licences: `CC0-1.0`, `MIT`, `BSD-2-Clause`, `BSD-3-Clause`, `Zlib`.** These are the licences whose only obligation is that the licence text ships with the work, which the pipeline does automatically. Anything demanding visible attribution (CC-BY), share-alike, non-commercial terms, a NOTICE file (Apache-2.0), or reserved font names (OFL) is refused. A pack mixing two licences must be split.
+- **Allowed licences: `CC0-1.0`, `MIT`, `BSD-2-Clause`.** MIT and BSD-2-Clause require their copyright and permission notices to ship with the work, which the pipeline handles automatically. Anything demanding visible attribution (CC-BY), share-alike, non-commercial terms, modified-version marking (Zlib), an endorsement restriction (BSD-3-Clause), a NOTICE file (Apache-2.0), or reserved font names (OFL) is refused, as is any public-domain dedication other than CC0 (Unlicense): one dedication keeps the CC0 checks meaningful. A pack mixing two licences must be split.
 - **Head the licence file with its provenance** so the claim is checkable:
   ```
   SPDX-License-Identifier: CC0-1.0
   Source: https://example.itch.io/the-pack
   Verified-by: Your Name, YYYY-MM-DD
   ```
-  CI reads the body as well as that header and fails when they disagree, so the header cannot be used to wave a pack through.
+  CI requires recognisable terms in the body, fails when the body and header disagree, and checks that MIT and BSD-2-Clause carry their full notices plus a real copyright line. An SPDX header cannot admit a pack on its own.
 - **Follow the layout:** `2D|3D/<theme>/<creator>-<pack-slug>/` (lowercase, dash-separated). UI/icons/audio/fonts go in their top-level buckets.
 - **Keep any original `License.txt`/`Readme`** the pack shipped with, alongside the one above.
 - **Binary assets must be LFS-tracked.** Patterns live in `.gitattributes` (png, jpg, gif, fbx, glb, gltf, bin, obj, mtl, blend, ogg, wav, mp3, zip, fonts). If you introduce a new binary extension, add it there before committing.

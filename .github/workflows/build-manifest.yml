@@ -21,6 +21,7 @@ jobs:
           workload_identity_provider: ${{ vars.GCP_WIF_PROVIDER }}
           service_account: ${{ vars.GCP_SA_EMAIL }}
       - uses: google-github-actions/setup-gcloud@v2
+      - run: node --test scripts/license-policy.test.mjs
       # Exits non-zero only when a pack that is already published would be dropped. A pack that
       # has never shipped is skipped instead, so one bad contribution cannot freeze the whole
       # catalogue behind a symptom ("new packs don't show up") nobody notices for weeks.
