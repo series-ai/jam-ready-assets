@@ -57,7 +57,7 @@ fonts/<creator>-<pack>/          bitmap & web fonts
 ## Rules for agents modifying this repo
 
 - **Every pack must contain a licence file in its pack root**, named `License.txt` (or `LICENSE`, `COPYING`, `UNLICENSE`). A readme is not licence evidence, even when it mentions a licence: copy the terms into `License.txt`. CI rejects a pack with no licence file, with two of them, or with a licence outside the allowed set, and names the pack in the failure.
-- **Allowed licences: `CC0-1.0`, `MIT`, `BSD-2-Clause`.** MIT and BSD-2-Clause require their copyright and permission notices to ship with the work, which the pipeline handles automatically. Anything demanding visible attribution (CC-BY), share-alike, non-commercial terms, modified-version marking (Zlib), an endorsement restriction (BSD-3-Clause), a NOTICE file (Apache-2.0), or reserved font names (OFL) is refused. A pack mixing two licences must be split.
+- **Allowed licences: `CC0-1.0`, `MIT`, `BSD-2-Clause`.** MIT and BSD-2-Clause require their copyright and permission notices to ship with the work, which the pipeline handles automatically. Anything demanding visible attribution (CC-BY), share-alike, non-commercial terms, modified-version marking (Zlib), an endorsement restriction (BSD-3-Clause), a NOTICE file (Apache-2.0), or reserved font names (OFL) is refused, as is any public-domain dedication other than CC0 (Unlicense): one dedication keeps the CC0 checks meaningful. A pack mixing two licences must be split.
 - **Head the licence file with its provenance** so the claim is checkable:
   ```
   SPDX-License-Identifier: CC0-1.0

@@ -8,6 +8,7 @@ const DENIED = new Set([
   'OFL-1.1',
   'GPL',
   'Zlib',
+  'Unlicense',
 ]);
 
 export const ALLOWED_LICENSES = Object.freeze([...ALLOWED]);
@@ -49,6 +50,9 @@ export function licensesFromText(text) {
   }
   if (/altered source versions must be plainly marked/.test(t)) found.add('Zlib');
   if (/permission is hereby granted, free of charge/.test(t)) found.add('MIT');
+  if (/unencumbered software released into the public domain/.test(t) || /unlicense\.org/.test(t)) {
+    found.add('Unlicense');
+  }
   if (/apache license/.test(t)) found.add('Apache-2.0');
   if (/sil open font license/.test(t)) found.add('OFL-1.1');
   if (/gnu general public license/.test(t)) found.add('GPL');

@@ -107,6 +107,12 @@ test('rejects BSD-3-Clause and Zlib because carrying a file is not their only re
   assert.match(inspectLicenseText('Altered source versions must be plainly marked as such.').error, /Zlib is not permitted/);
 });
 
+test('rejects the Unlicense as policy rather than as unrecognised text', () => {
+  const unlicense = 'This is free and unencumbered software released into the public domain.\n'
+    + 'For more information, please refer to <https://unlicense.org>';
+  assert.match(inspectLicenseText(unlicense).error, /Unlicense is not permitted/);
+});
+
 test('rejects an allowed licence body mixed with a denied licence', () => {
   for (const denied of [
     'GNU General Public License version 3',
