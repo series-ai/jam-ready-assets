@@ -81,6 +81,17 @@ JSON manifest of all packs and mirrors game-loadable files to the public bucket
 - `objects/<sha256>` - immutable content-addressed files (the sha256 comes from
   each file's Git LFS pointer). Only OIDs missing from the bucket are uploaded,
   so pushes are incremental.
+- `packs/<id>@<version>/<path>` - immutable path-addressed copies of each pack's
+  runtime + licence files, in the pack's original folder shape. These are the
+  URLs published games load at runtime, so relative sibling references resolve
+  (a `.gltf` finds its `.bin`, an atlas its `.png`). `<version>` is derived from
+  the mirrored file contents (`build-manifest.mjs`), not the commit: an unchanged
+  pack keeps its version across pushes, so all games share the same long-cached
+  URLs; a changed pack gets a new `@version` prefix. **Append-only forever:
+  never delete or overwrite anything under `packs/` or `objects/` - shipped
+  games reference these URLs permanently, even for packs later removed from
+  this repo.** (The bucket has object versioning as a backstop, not a licence
+  to delete.)
 - `manifest/index.json`, `manifest/packs/*.json`, `manifest/files.json` -
   regenerated every push (`scripts/build-manifest.mjs`), short cache TTL.
 

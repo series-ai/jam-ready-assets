@@ -21,9 +21,12 @@ const CONTENT_TYPES = {
 };
 
 // 1. Wanted objects = every runtime file, each pack's licence, and its preview/audio-preview.
+// Runtime + licence files are additionally wanted as path-addressed copies under
+// packs/<id>@<version>/<path> — the URLs games reference directly.
 const index = JSON.parse(readFileSync(join(ROOT, 'manifest/v2/index.json'), 'utf8'));
 const byId = new Map(index.packs.map((p) => [p.id, p]));
 const wanted = new Map(); // oid -> { repoPath, ext }
+const wantedPathCopies = new Map(); // 'packs/<id>@<version>/<path>' -> oid
 const versionedPackDir = join(ROOT, 'manifest/v2/commits', index.commit, 'packs');
 for (const packFile of readdirSync(versionedPackDir)) {
   const pack = JSON.parse(readFileSync(join(versionedPackDir, packFile), 'utf8'));
@@ -32,6 +35,9 @@ for (const packFile of readdirSync(versionedPackDir)) {
   for (const f of pack.files) {
     if (f.runtime || f.license || previewOids.has(f.oid)) {
       wanted.set(f.oid, { repoPath: `${pack.id}/${f.path}`, ext: extname(f.path).toLowerCase() });
+    }
+    if (f.runtime || f.license) {
+      wantedPathCopies.set(`packs/${pack.id}@${pack.version}/${f.path}`, f.oid);
     }
   }
 }
@@ -74,7 +80,55 @@ for (const [type, paths] of byType) {
   ], { input: paths.join('\n'), stdio: ['pipe', 'inherit', 'inherit'] });
 }
 
-// 5. Publish manifests after their objects. V2 pack data is immutable by commit, so an
+// 5. Path-addressed copies: packs/<id>@<version>/<path>. Games load these URLs directly,
+// and each version prefix preserves the pack's folder shape so relative sibling
+// references resolve (a .gltf finds its .bin, an atlas its .png). Server-side rewrites
+// move no bytes out of GCS and inherit the source object's content-type and immutable
+// cache-control. Prefixes are append-only: a changed pack gets a new @version and old
+// prefixes are never deleted — shipped games reference them forever.
+const bucketName = BUCKET.replace('gs://', '');
+const existingPathCopies = new Set(
+  execSync(`gcloud storage ls '${BUCKET}/packs/**' 2>/dev/null || true`, {
+    encoding: 'utf8',
+    maxBuffer: 256 * 1024 * 1024,
+  }).split('\n').map((l) => l.trim()).filter(Boolean).map((l) => l.slice(`${BUCKET}/`.length)),
+);
+const pathCopies = [...wantedPathCopies].filter(([dest]) => !existingPathCopies.has(dest));
+console.log(`path copies: ${wantedPathCopies.size} wanted, ${pathCopies.length} to copy`);
+
+const freshToken = () => execSync('gcloud auth print-access-token', { encoding: 'utf8' }).trim();
+let token = pathCopies.length > 0 ? freshToken() : '';
+async function rewriteObject(oid, dest) {
+  const base = `https://storage.googleapis.com/storage/v1/b/${bucketName}/o/`
+    + `${encodeURIComponent(`objects/${oid}`)}/rewriteTo/b/${bucketName}/o/${encodeURIComponent(dest)}`;
+  let rewriteToken;
+  for (let attempt = 0; ; ) {
+    const url = rewriteToken ? `${base}?rewriteToken=${encodeURIComponent(rewriteToken)}` : base;
+    const res = await fetch(url, { method: 'POST', headers: { Authorization: `Bearer ${token}` } });
+    if (res.ok) {
+      const body = await res.json();
+      if (body.done) return;
+      rewriteToken = body.rewriteToken; // >5 GB objects rewrite in chunks; loop until done
+      continue;
+    }
+    if (attempt++ >= 3) throw new Error(`rewrite ${dest}: HTTP ${res.status} ${await res.text()}`);
+    if (res.status === 401) token = freshToken(); // token expired mid-run
+    else if (res.status === 429 || res.status >= 500) await new Promise((r) => setTimeout(r, 1000 * attempt));
+    else throw new Error(`rewrite ${dest}: HTTP ${res.status} ${await res.text()}`);
+  }
+}
+let copied = 0;
+let cursor = 0;
+async function copyWorker() {
+  while (cursor < pathCopies.length) {
+    const [dest, oid] = pathCopies[cursor++];
+    await rewriteObject(oid, dest);
+    if (++copied % 1000 === 0) console.log(`path copies: ${copied}/${pathCopies.length}`);
+  }
+}
+await Promise.all(Array.from({ length: Math.min(32, pathCopies.length) }, copyWorker));
+
+// 6. Publish manifests after their objects. V2 pack data is immutable by commit, so an
 // index can never pair with another revision. Legacy pack files are pruned because old
 // consumers cache the mutable v1 index and must get a safe 404 after a CC0 reclassification.
 execFileSync('gcloud', [

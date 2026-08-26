@@ -222,9 +222,20 @@ for (const [bucket, category] of Object.entries(BUCKETS)) {
       fatal(`slug "${slug}" is used by both ${slugOwner.get(slug)} and ${id}. Imports write to assets/<slug>/, so the second would overwrite the first.`);
     }
     slugOwner.set(slug, id);
+    // Content-derived pack version. The mirror publishes path-addressed copies under
+    // packs/<id>@<version>/, so this must change iff the served file set changes:
+    // derived from the mirrored files (runtime + licence), never the commit. Packs
+    // untouched by a push keep their version, so every game that ever imported an
+    // unchanged pack references identical, immutably-cached URLs.
+    const mirroredFiles = entries
+      .filter((e) => e.runtime || e.path === verdict.licensePath)
+      .map((e) => [e.path, e.oid])
+      .sort((a, b) => a[0].localeCompare(b[0]));
+    const version = createHash('sha256').update(JSON.stringify(mirroredFiles)).digest('hex').slice(0, 12);
     const summary = {
       id, slug, title: titleOf(slug, creatorKey), category, theme, creator,
       license: verdict.license,
+      version,
       fileCount: entries.length,
       runtimeFileCount: runtime.length,
       totalBytes: entries.reduce((s, e) => s + e.bytes, 0),
@@ -236,6 +247,7 @@ for (const [bucket, category] of Object.entries(BUCKETS)) {
     const packManifest = {
       id,
       commit,
+      version,
       // `license: true` marks the one file the mirror must upload and the importer must
       // copy alongside the runtime assets. It is deliberately not a runtime file, so it
       // stays out of runtimeFileCount and out of the paths handed to the agent.
