@@ -1,10 +1,10 @@
 # 🎮 Jam-Ready Assets
 
-A curated, ready-to-use library of **free game art** for building games on the **RUN platform**: **292 asset packs** of 2D sprites, tilesets, 3D models, UI kits, icons, fonts, and audio, organized so you can find what you need in seconds. Drop them straight into your RUN game.
+A curated, ready-to-use library of **free game art** for building games on the **RUN platform**: **296 asset packs** of 2D sprites, tilesets, 3D models, UI kits, icons, fonts, and audio, organized so you can find what you need in seconds. Drop them straight into your RUN game.
 
 > **Free for any RUN game**, personal, educational, or commercial. Modify it freely.
 >
-> There is no single licence across the library. Every pack carries its own `License.txt`, and the library only accepts licences whose obligations RUN.studio can carry into the published game: **CC0 / public domain, MIT, and BSD-2-Clause**. All 292 packs are currently CC0, so nothing here asks anything of you. If a pack under MIT or BSD-2-Clause is added later, RUN.studio copies its licence file into your published project automatically when you import the pack. Leave it where it lands and you are done.
+> There is no single licence across the library. Every pack carries its own `License.txt`, and the library only accepts licences whose obligations RUN.studio can carry into the published game: **CC0 / public domain, MIT, and BSD-2-Clause**. Of 296 packs, 292 are CC0 and 4 are MIT (the Proof of Play *Pirate Nation* set), which asks only that you keep the copyright notice that ships with the pack. If a pack under MIT or BSD-2-Clause is added later, RUN.studio copies its licence file into your published project automatically when you import the pack. Leave it where it lands and you are done.
 > Older RUN.studio builds use a CC0-only schema-v1 catalog. Licence-aware builds use schema v2 with immutable per-commit pack manifests, so a non-CC0 pack cannot reach a client that would strip its notice or pair with another revision's notice.
 >
 > The creators below deserve a shout-out either way, see [Credits](#-credits).
@@ -60,7 +60,7 @@ If you cloned before installing LFS, run `git lfs pull` to fetch the real files.
 
 ## 🙌 Credits
 
-Every pack in the table below is CC0 today, verified pack by pack rather than assumed, so attribution is **optional but appreciated**. Check a pack's own `License.txt` for its licence and the source it was verified against. Please consider supporting these creators.
+Each pack's licence is verified pack by pack rather than assumed, and named in the table below. For the CC0 packs attribution is **optional but appreciated**; the MIT packs require only that their `License.txt` travels with the art, which RUN.studio handles for you. Check a pack's own `License.txt` for its licence and the source it was verified against. Please consider supporting these creators.
 
 | Creator | Packs | Licence | What | Source |
 |---|---|---|---|---|
@@ -77,6 +77,7 @@ Every pack in the table below is CC0 today, verified pack by pack rather than as
 | **Jestan** | 1 | CC0-1.0 | *Classic RPG Tileset* | [jestan.itch.io](https://jestan.itch.io) |
 | **Styloo** | 1 | CC0-1.0 | *Cozy Farm* - 3D farm models (FBX + GLB) | [styloo.itch.io](https://styloo.itch.io) |
 | **Barker** | 2 | CC0-1.0 | *Cant Stop Now* runner & launcher packs - painted 2D characters, emotes, spritesheets & parallax backgrounds | [series.ai](https://series.ai) |
+| **Proof of Play** | 4 | MIT | *Pirate Nation* - voxel ships, buildings, world bosses, harvestables, UI sprites & original soundtrack, from the archival open-source game client | [github.com/proofofplay/piratenation-game](https://github.com/proofofplay/piratenation-game) |
 
 ---
 

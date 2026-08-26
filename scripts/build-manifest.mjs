@@ -24,6 +24,7 @@ const CREATOR_NAMES = {
   kenney: 'Kenney', kaykit: 'KayKit', 'pixel-frog': 'Pixel Frog', grafxkid: 'GrafxKid',
   foozle: 'Foozle', 'pixel-boy': 'Pixel-boy', bakudas: 'Estúdio Vaca Roxa', shade: 'Shade',
   alexs: "Alex's Assets", jestan: 'Jestan', styloo: 'Styloo', isa: 'Isa Lousberg',
+  proofofplay: 'Proof of Play',
 };
 
 const LICENSE_FILE = /^(licen[cs]e|copying|unlicense)(\.[a-z0-9]+)?$/i;
