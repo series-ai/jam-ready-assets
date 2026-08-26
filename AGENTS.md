@@ -4,7 +4,7 @@ This repo is a curated library of **free game art** for building games on the **
 
 ## TL;DR for agents
 
-- Everything here is **free to use, modify, and redistribute in any RUN game**, commercially included. There is no single library-wide licence: each pack carries its own `License.txt`, and CI refuses any licence outside **CC0-1.0, MIT, and BSD-2-Clause**. All 292 packs are CC0 today.
+- Everything here is **free to use, modify, and redistribute in any RUN game**, commercially included. There is no single library-wide licence: each pack carries its own `License.txt`, and CI refuses any licence outside **CC0-1.0, MIT, and BSD-2-Clause**. Of 296 packs, 292 are CC0 and 4 are MIT (Proof of Play *Pirate Nation*).
 - **Never delete or move a pack's `License.txt`.** For CC0 packs it is provenance; for the others it is the whole obligation, and RUN.studio copies it into the creator's project alongside the assets.
 - The public schema-v1 manifest stays **CC0-only** for older Studio builds. Licence-aware consumers use `manifest/v2/`, which may include MIT and BSD-2-Clause packs.
 - Layout is **predictable**: `<dimension>/<theme>/<creator>-<pack>/`. Find assets by globbing themes, not by guessing filenames.
