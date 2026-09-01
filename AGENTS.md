@@ -101,6 +101,44 @@ licence file is flagged `"license": true`. That flag is what gets it mirrored an
 a creator's project; it is deliberately not a runtime file, so it stays out of
 `runtimeFileCount` and out of the asset paths handed to the coding agent.
 
+Each v2 pack summary also carries `addedAt` - the committer date of the first commit that
+added the pack, reconstructed from git history at build time (`scripts/pack-dates.mjs`), so
+adding a pack still needs no manifest work. RUN.studio's "Newest" ordering and NEW badge
+read it. Packs first published before the cutoff in `pack-dates.mjs` are additionally marked
+`"backfilled": true`: their dates arrived in bulk, and without the flag the NEW badge would
+land on the entire library at once. Both fields depend on full git history, so the workflows
+check out with `fetch-depth: 0`; a shallow build omits the dates rather than publishing
+wrong ones.
+
+## Featuring packs for an event (`featured.json`)
+
+To put a curated shelf at the top of RUN.studio's Assets panel (e.g. for a jam), check a
+hand-written `featured.json` into the repo root:
+
+```json
+{
+  "title": "Neon Nights Jam",
+  "blurb": "Packs for night streets, neon and synth. Picked by the RUN team.",
+  "endsAt": "2026-09-06T00:00:00Z",
+  "packIds": [
+    "2D/city/kenney-isometric-tiles-buildings",
+    "audio/kenney-music-jingles"
+  ]
+}
+```
+
+- `packIds` order is shelf order. Every id must exist in the catalogue - a typo fails the
+  build (and the PR gate) rather than silently dropping a pack from the shelf.
+- Copy budget is enforced: `title` ≤ 4 words, `blurb` ≤ 14 words, so the shelf header stays
+  readable at Studio's narrowest 400px column. Sentence case, no exclamation, no emoji.
+- `endsAt` is optional and evaluated client-side by Studio; when it passes, the shelf
+  retires on its own and Studio falls back to Newest. Deleting the file retires it too.
+  Either way there is no Studio deploy in the loop - but the catalogue is cached for 10
+  minutes, so merge-to-visible is 10-15 minutes and the shelf cannot carry anything
+  time-critical inside an hour.
+- The block lands in `manifest/v2/index.json` only; older Studio builds on the legacy
+  manifest never see it. Validation lives in `scripts/featured.mjs`.
+
 "Runtime" files (what studio imports into games): `.glb` for 3D (gltf/bin/textures
 only when a pack has no glb), `.png`/`.svg`/`.gif` for 2D/UI, `.ogg`/`.mp3` for audio
 (`.wav` only when no compressed version exists), font formats for fonts. Editable
