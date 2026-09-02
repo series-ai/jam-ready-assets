@@ -13,6 +13,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           lfs: false   # pointers only — mirror script pulls just the missing objects
+          fetch-depth: 0   # full history — each pack's addedAt is its first-add commit date
       - uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -21,7 +22,7 @@ jobs:
           workload_identity_provider: ${{ vars.GCP_WIF_PROVIDER }}
           service_account: ${{ vars.GCP_SA_EMAIL }}
       - uses: google-github-actions/setup-gcloud@v2
-      - run: node --test scripts/license-policy.test.mjs
+      - run: node --test scripts/license-policy.test.mjs scripts/pack-dates.test.mjs scripts/featured.test.mjs
       # Exits non-zero only when a pack that is already published would be dropped. A pack that
       # has never shipped is skipped instead, so one bad contribution cannot freeze the whole
       # catalogue behind a symptom ("new packs don't show up") nobody notices for weeks.

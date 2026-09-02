@@ -10,6 +10,8 @@ import { execSync } from 'node:child_process';
 import { createHash } from 'node:crypto';
 import { join, extname, basename } from 'node:path';
 import { ALLOWED_LICENSES, inspectLicenseText, legacyCompatiblePacks } from './license-policy.mjs';
+import { isBackfilled, isShallowClone, packAddedAt } from './pack-dates.mjs';
+import { readFeaturedCuration } from './featured.mjs';
 
 const ROOT = process.cwd();
 const BUCKETS = { '3D': '3d', '2D': '2d', ui: 'ui', icons: 'ui', fonts: 'ui', audio: 'audio' };
@@ -161,6 +163,14 @@ async function publishedPackIds() {
 }
 
 const commit = execSync('git rev-parse HEAD', { encoding: 'utf8' }).trim();
+// In a shallow clone every first-add date would wrongly become the date of
+// the oldest available commit, so dates are omitted entirely (Studio then
+// shows no NEW badges) rather than published wrong. CI checks out with
+// fetch-depth: 0.
+const shallowClone = isShallowClone();
+if (shallowClone) {
+  console.warn('shallow clone: omitting pack addedAt dates — fetch full history to publish them');
+}
 const index = [];
 const filesIndex = {};
 const rejected = [];
@@ -233,6 +243,9 @@ for (const [bucket, category] of Object.entries(BUCKETS)) {
       .map((e) => [e.path, e.oid])
       .sort((a, b) => a[0].localeCompare(b[0]));
     const version = createHash('sha256').update(JSON.stringify(mirroredFiles)).digest('hex').slice(0, 12);
+    // First-publish date from git history; `backfilled` marks dates that were
+    // reconstructed in bulk so Studio's NEW badge ignores them (see pack-dates.mjs).
+    const addedAt = shallowClone ? null : packAddedAt(id);
     const summary = {
       id, slug, title: titleOf(slug, creatorKey), category, theme, creator,
       license: verdict.license,
@@ -242,6 +255,8 @@ for (const [bucket, category] of Object.entries(BUCKETS)) {
       totalBytes: entries.reduce((s, e) => s + e.bytes, 0),
       previewOid: preview?.oid ?? null,
       audioPreviewOid: audioPreview?.oid ?? null,
+      ...(addedAt ? { addedAt } : {}),
+      ...(addedAt && isBackfilled(addedAt) ? { backfilled: true } : {}),
     };
     index.push(summary);
     const encoded = id.replaceAll('/', '--');
@@ -282,6 +297,16 @@ if (rejected.length > 0) {
 }
 
 index.sort((a, b) => a.id.localeCompare(b.id));
+
+// The hand-written event curation (featured.json). Invalid is fatal, not
+// filtered: the PR gate runs this script, so a typo'd pack id fails the PR
+// instead of silently dropping that pack from the featured list. v2 only —
+// older Studio builds on the legacy manifest never see it.
+const curation = readFeaturedCuration(ROOT, new Set(index.map((pack) => pack.id)));
+if (curation?.error) fatal(curation.error);
+const featured = curation?.featured ?? null;
+if (featured) console.log(`featured: "${featured.title}" with ${featured.packIds.length} pack(s)`);
+
 const legacyIndex = legacyCompatiblePacks(index);
 const legacyFilesIndex = Object.fromEntries(
   legacyIndex.map((pack) => [pack.id, filesIndex[pack.id]]),
@@ -293,7 +318,17 @@ writeFileSync(
 writeFileSync(join(ROOT, 'manifest/files.json'), JSON.stringify({ commit, packs: legacyFilesIndex }));
 writeFileSync(
   join(ROOT, 'manifest/v2/index.json'),
-  JSON.stringify({ schemaVersion: 2, generatedAt: new Date().toISOString(), commit, packs: index }, null, 1),
+  JSON.stringify(
+    {
+      schemaVersion: 2,
+      generatedAt: new Date().toISOString(),
+      commit,
+      ...(featured ? { featured } : {}),
+      packs: index,
+    },
+    null,
+    1,
+  ),
 );
 writeFileSync(
   join(ROOT, 'manifest/v2/commits', commit, 'files.json'),

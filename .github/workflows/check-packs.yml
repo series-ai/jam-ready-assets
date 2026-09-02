@@ -13,12 +13,13 @@ jobs:
       - uses: actions/checkout@v4
         with:
           lfs: false # pointers carry size and oid, and licence text is not LFS-tracked
+          fetch-depth: 0 # full history — each pack's addedAt is its first-add commit date
       - uses: actions/setup-node@v4
         with:
           node-version: 22
       # No GCP auth here, so the published-manifest regression check cannot run. On a PR every
       # rejection should block anyway, which the exit code below enforces.
-      - run: node --test scripts/license-policy.test.mjs
+      - run: node --test scripts/license-policy.test.mjs scripts/pack-dates.test.mjs scripts/featured.test.mjs
       - run: SKIP_PUBLISHED_CHECK=1 node scripts/build-manifest.mjs
       - name: Fail on any rejected pack
         run: |
