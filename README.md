@@ -18,13 +18,13 @@ A curated, ready-to-use library of **free game art** for building games on the *
 
 ## 🧭 How to navigate
 
-Assets are sorted first by **dimension** (2D vs 3D), then by **theme**. Inside each theme, folders are prefixed by their **creator** (e.g. `kaykit-`, `kenney-`) so you can always tell where a pack came from.
+Every **pack** is a top-level folder, prefixed by its **creator** (e.g. `kaykit-`, `kenney-`) so you can always tell where it came from. Inside a pack, assets are sorted by **dimension** (2D vs 3D) and **theme**, or by flat type buckets — one pack can span several:
 
 ```
-2D/   pixel art, sprites, tilesets        ui/      buttons, panels, cursors, HUD
-3D/   models, kits (.fbx / .glb / .gltf)  icons/   game & input-prompt icons
-                                          fonts/   bitmap & web fonts
-                                          audio/   music, SFX, voice
+<pack>/2D/<theme>/   pixel art, sprites, tilesets     <pack>/ui/      buttons, panels, cursors, HUD
+<pack>/3D/<theme>/   models, kits (.fbx/.glb/.gltf)   <pack>/icons/   game & input-prompt icons
+                                                      <pack>/fonts/   bitmap & web fonts
+                                                      <pack>/audio/   music, SFX, voice
 ```
 
 ### 2D themes
@@ -34,10 +34,10 @@ Assets are sorted first by **dimension** (2D vs 3D), then by **theme**. Inside e
 `characters` · `dungeon` · `city` · `nature` · `farm` · `interior-furniture` · `food` · `fantasy` · `weapons` · `space-scifi` · `vehicles-racing` · `platformer` · `tower-defense` · `strategy-hex` · `pirate` · `seasonal-holiday` · `sports` · `prototype-blocks` · `misc`
 
 **Examples**
-- Making a **mining / adventure** game? → `3D/dungeon/`, `3D/nature/`, `3D/misc/kaykit-resource-bits`, `2D/top-down-rpg/`
-- A **cozy farming sim**? → `3D/farm/cozy-farm`, `3D/interior-furniture/`, `2D/farm/`
-- A **platformer**? → `2D/platformer/` (Pixel Frog, GrafxKid, Kenney) and `3D/platformer/`
-- A **tower-defense**? → `2D/fantasy/foozle-spire-*`, `2D/tower-defense/`, `3D/tower-defense/`
+- Making a **mining / adventure** game? → `ls -d */3D/dungeon */3D/nature */2D/top-down-rpg` plus `kaykit-resource-bits/`
+- A **cozy farming sim**? → `cozy-farm/`, `ls -d */3D/interior-furniture */2D/farm`
+- A **platformer**? → `ls -d */2D/platformer` (Pixel Frog, GrafxKid, Kenney) and `ls -d */3D/platformer`
+- A **tower-defense**? → `foozle-spire-*/`, `ls -d */2D/tower-defense */3D/tower-defense`
 
 Every pack carries its own `License.txt` naming the licence and where it was verified, so provenance travels with the art. Packs that shipped their own licence or readme from the original download keep those too.
 
@@ -84,7 +84,7 @@ Each pack's licence is verified pack by pack rather than assumed, and named in t
 ## 💡 Usage notes
 
 - **3D formats** - most 3D packs ship `.gltf`/`.glb`, `.fbx`, and `.obj`. Use **glTF/GLB** in your RUN game - it's the format the RUN runtime loads directly. The `.fbx`/`.obj` copies are included only as editable source if you want to tweak a model in a 3D tool first.
-- **Cozy Farm shader tip** - for `3D/farm/cozy-farm`, use an **unlit / emission** shader rather than a metallic-roughness PBR workflow (the textures are baked; PBR washes out the colors). If you must use PBR, set roughness to 1.
+- **Cozy Farm shader tip** - for `cozy-farm/3D/farm`, use an **unlit / emission** shader rather than a metallic-roughness PBR workflow (the textures are baked; PBR washes out the colors). If you must use PBR, set roughness to 1.
 - **Pixel art** - keep texture filtering set to **nearest / point** (no bilinear) to avoid blurring sprites and tiles.
 - **Kenney sprite variants** - some Kenney packs include nested `.zip`s with alternate sprite formats (isometric / side / topdown) and sample projects; unzip the variant you need.
 

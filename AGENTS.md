@@ -7,20 +7,28 @@ This repo is a curated library of **free game art** for building games on the **
 - Everything here is **free to use, modify, and redistribute in any RUN game**, commercially included. There is no single library-wide licence: each pack carries its own `License.txt`, and CI refuses any licence outside **CC0-1.0, MIT, and BSD-2-Clause**. Of 296 packs, 292 are CC0 and 4 are MIT (Proof of Play *Pirate Nation*).
 - **Never delete or move a pack's `License.txt`.** For CC0 packs it is provenance; for the others it is the whole obligation, and RUN.studio copies it into the creator's project alongside the assets.
 - The public schema-v1 manifest stays **CC0-only** for older Studio builds. Licence-aware consumers use `manifest/v2/`, which may include MIT and BSD-2-Clause packs.
-- Layout is **predictable**: `<dimension>/<theme>/<creator>-<pack>/`. Find assets by globbing themes, not by guessing filenames.
+- Layout is **predictable and pack-first**: `<creator>-<pack>/<dimension>/<theme>/` (plus flat `<pack>/ui|icons|fonts|audio/` buckets). Find assets by globbing themes across packs (`ls -d */2D/platformer`), not by guessing filenames.
 - For 3D in a RUN game, **use the `.glb`/`.gltf` file** in a pack (the RUN runtime loads it directly). `.fbx`/`.obj` are editable source only.
 - Files are stored with **Git LFS**. After cloning, run `git lfs install && git lfs pull` or you'll only see pointer text, not real assets.
 
 ## Repository layout
 
+Every pack is a top-level directory. Inside it, content is bucketed by dimension
+(with a theme level under `2D/` and `3D/`) or by flat type buckets:
+
 ```
-2D/<theme>/<creator>-<pack>/     pixel art, sprites, tilesets, spritesheets (.png, .aseprite)
-3D/<theme>/<creator>-<pack>/     models & kits (.glb, .gltf, .fbx, .obj, textures)
-ui/<creator>-<pack>/             buttons, panels, cursors, HUD frames
-icons/<creator>-<pack>/          game icons, input-prompt icons
-audio/<creator>-<pack>/          music, SFX, voice (.ogg, .wav, .mp3)
-fonts/<creator>-<pack>/          bitmap & web fonts
+<creator>-<pack>/2D/<theme>/     pixel art, sprites, tilesets, spritesheets (.png, .aseprite)
+<creator>-<pack>/3D/<theme>/     models & kits (.glb, .gltf, .fbx, .obj, textures)
+<creator>-<pack>/ui/             buttons, panels, cursors, HUD frames
+<creator>-<pack>/icons/          game icons, input-prompt icons
+<creator>-<pack>/audio/          music, SFX, voice (.ogg, .wav, .mp3)
+<creator>-<pack>/fonts/          bitmap & web fonts
 ```
+
+Most packs hold a single bucket, but one pack may span several — e.g.
+`proofofplay-pirate-nation/` carries `3D/pirate/`, `ui/`, `icons/`, and
+`audio/` in one place. Each bucket/theme leaf is one catalog pack in the
+manifest, with id `<pack>/<bucket>[/<theme>]`.
 
 - The **creator prefix** on every pack folder (`kenney-`, `kaykit-`, `pixel-frog`/`grafxkid-`, etc.) tells you the source at a glance.
 - Every pack carries a `License.txt` in its root naming its licence and the source it was verified against. Any original licence or readme the pack shipped with is kept alongside it.
@@ -32,17 +40,17 @@ fonts/<creator>-<pack>/          bitmap & web fonts
 
 **3D:** `characters` · `dungeon` · `city` · `nature` · `farm` · `interior-furniture` · `food` · `fantasy` · `weapons` · `space-scifi` · `vehicles-racing` · `platformer` · `tower-defense` · `strategy-hex` · `pirate` · `seasonal-holiday` · `sports` · `prototype-blocks` · `misc`
 
-> Theme contents change over time - enumerate live with `ls 2D/<theme>/` or `ls 3D/<theme>/` rather than assuming a fixed set of packs.
+> Theme contents change over time - enumerate live with `ls -d */2D/<theme>` or `ls -d */3D/<theme>` rather than assuming a fixed set of packs.
 
 ## How to find assets (recommended workflow)
 
-1. **Pick dimension + theme** from the game concept. Examples:
-   - mining / dungeon crawler → `3D/dungeon/`, `3D/misc/kaykit-resource-bits`, `3D/nature/`, `2D/top-down-rpg/`
-   - cozy farming sim → `3D/farm/`, `3D/interior-furniture/`, `2D/farm/`
-   - platformer → `2D/platformer/` (large), `3D/platformer/`
-   - tower defense → `2D/fantasy/foozle-spire-*`, `2D/tower-defense/`, `3D/tower-defense/`
-   - top-down RPG → `2D/top-down-rpg/`, `3D/characters/`, `3D/dungeon/`
-2. **List packs** in that theme: `ls "2D/<theme>/"`.
+1. **Pick dimension + theme** from the game concept, then glob for packs carrying it. Examples:
+   - mining / dungeon crawler → `*/3D/dungeon`, `kaykit-resource-bits/`, `*/3D/nature`, `*/2D/top-down-rpg`
+   - cozy farming sim → `*/3D/farm`, `*/3D/interior-furniture`, `*/2D/farm`
+   - platformer → `*/2D/platformer` (large), `*/3D/platformer`
+   - tower defense → `foozle-spire-*/2D/fantasy`, `*/2D/tower-defense`, `*/3D/tower-defense`
+   - top-down RPG → `*/2D/top-down-rpg`, `*/3D/characters`, `*/3D/dungeon`
+2. **List packs** in that theme: `ls -d */2D/<theme>`.
 3. **Inspect a pack** before using it: `ls "<pack>/"` and read its `Readme`/preview images. Many packs ship preview `.gif`/`.png` files.
 4. **Cross-browse adjacent themes** - packs are filed by dominant use but often contain props usable elsewhere (e.g. `misc/` and `prototype-blocks/` hold particles, UI bits, blockout tiles).
 5. **Note the `*-remastered` / version suffixes** when a creator ships multiple editions of the same set - prefer the newest unless you need pixel-for-pixel parity.
@@ -52,11 +60,11 @@ fonts/<creator>-<pack>/          bitmap & web fonts
 - **3D** - load the **`.glb`** (or `.gltf` + its `.bin`/textures) in your RUN game. Use the bundled `.fbx`/`.obj` only if you need to edit geometry in a 3D tool first, then re-export to glTF.
 - **2D** - use the exported `.png` sprites/sheets. `.aseprite`/`.ase` files are editable source. Keep texture filtering at **nearest/point** so pixel art stays crisp.
 - **Audio** - `.ogg` is the most broadly compatible; `.wav` is uncompressed source.
-- **`cozy-farm` (3D/farm)** - use an unlit/emission material; its textures are baked and a metallic-roughness PBR setup washes out the colors.
+- **`cozy-farm/3D/farm`** - use an unlit/emission material; its textures are baked and a metallic-roughness PBR setup washes out the colors.
 
 ## Rules for agents modifying this repo
 
-- **Every pack must contain a licence file in its pack root**, named `License.txt` (or `LICENSE`, `COPYING`, `UNLICENSE`). A readme is not licence evidence, even when it mentions a licence: copy the terms into `License.txt`. CI rejects a pack with no licence file, with two of them, or with a licence outside the allowed set, and names the pack in the failure.
+- **Every pack must contain a licence file in its pack root** — the bucket/theme leaf dir the assets live in (e.g. `<pack>/3D/pirate/License.txt`), one per leaf when a pack spans buckets — named `License.txt` (or `LICENSE`, `COPYING`, `UNLICENSE`). A readme is not licence evidence, even when it mentions a licence: copy the terms into `License.txt`. CI rejects a pack with no licence file, with two of them, or with a licence outside the allowed set, and names the pack in the failure.
 - **Allowed licences: `CC0-1.0`, `MIT`, `BSD-2-Clause`.** MIT and BSD-2-Clause require their copyright and permission notices to ship with the work, which the pipeline handles automatically. Anything demanding visible attribution (CC-BY), share-alike, non-commercial terms, modified-version marking (Zlib), an endorsement restriction (BSD-3-Clause), a NOTICE file (Apache-2.0), or reserved font names (OFL) is refused, as is any public-domain dedication other than CC0 (Unlicense): one dedication keeps the CC0 checks meaningful. A pack mixing two licences must be split.
 - **Head the licence file with its provenance** so the claim is checkable:
   ```
@@ -65,7 +73,7 @@ fonts/<creator>-<pack>/          bitmap & web fonts
   Verified-by: Your Name, YYYY-MM-DD
   ```
   CI requires recognisable terms in the body, fails when the body and header disagree, and checks that MIT and BSD-2-Clause carry their full notices plus a real copyright line. An SPDX header cannot admit a pack on its own.
-- **Follow the layout:** `2D|3D/<theme>/<creator>-<pack-slug>/` (lowercase, dash-separated). UI/icons/audio/fonts go in their top-level buckets.
+- **Follow the layout:** packs are top-level, `<creator>-<pack-slug>/` (lowercase, dash-separated), holding `2D|3D/<theme>/` and/or flat `ui|icons|audio|fonts/` bucket dirs. Keep everything one pack ships under its single top-level dir, even when it spans buckets. A pack dir may contain **only** bucket dirs — CI rejects anything else at that level.
 - **Keep any original `License.txt`/`Readme`** the pack shipped with, alongside the one above.
 - **Binary assets must be LFS-tracked.** Patterns live in `.gitattributes` (png, jpg, gif, fbx, glb, gltf, bin, obj, mtl, blend, ogg, wav, mp3, zip, fonts). If you introduce a new binary extension, add it there before committing.
 - **Never commit junk:** no `.DS_Store`, `__MACOSX/`, `*.app/`, `Thumbs.db` (already covered by `.gitignore`).
@@ -121,8 +129,8 @@ hand-written `featured.json` into the repo root:
   "blurb": "Packs for night streets, neon and synth. Picked by the RUN team.",
   "endsAt": "2026-09-06T00:00:00Z",
   "packIds": [
-    "2D/city/kenney-isometric-tiles-buildings",
-    "audio/kenney-music-jingles"
+    "kenney-isometric-tiles-buildings/2D/city",
+    "kenney-music-jingles/audio"
   ]
 }
 ```
@@ -144,8 +152,8 @@ only when a pack has no glb), `.png`/`.svg`/`.gif` for 2D/UI, `.ogg`/`.mp3` for 
 (`.wav` only when no compressed version exists), font formats for fonts. Editable
 sources (`.fbx`, `.obj`, `.blend`, `.aseprite`, …) and `Source/`/`Samples/` dirs are
 never mirrored. Adding packs needs no manifest work - CI picks them up as long as
-the standard layout (`2D|3D/<theme>/<creator>-<pack>/`, flat `ui|icons|audio|fonts`)
-is followed and the pack carries a licence file.
+the standard layout (`<pack>/2D|3D/<theme>/`, flat `<pack>/ui|icons|audio|fonts/`)
+is followed and each bucket/theme leaf carries a licence file in its root.
 
 Two gates guard this. `.github/workflows/check-packs.yml` runs on every pull request and
 fails on any pack the licence rules reject: that is where a problem should be caught. On
