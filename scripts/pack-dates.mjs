@@ -1,7 +1,7 @@
 // First-publish dates for packs, reconstructed from git history at build time.
 // Deterministic across pushes: a pack's first-add commit never changes, so an
 // unchanged pack keeps its `addedAt` forever without any registry to maintain.
-import { execSync } from 'node:child_process';
+import { execFileSync, execSync } from 'node:child_process';
 
 /**
  * Packs first published before this moment are marked `backfilled: true` in
@@ -38,13 +38,43 @@ export function isShallowClone() {
 }
 
 /**
- * ISO committer date of the first commit that added files under the pack's
- * directory. Returns null when git has no such commit, which can happen for a
- * renamed pack directory because the log does not follow renames.
+ * ISO committer date of the first commit that added files under any of the
+ * given directories. Callers pass the pack's current path plus its pre-reorg
+ * paths (see preReorgPackPaths), because the log does not follow renames: a
+ * moved pack's current path alone would date it at the move, not its first
+ * publish. Returns null when git has no such commit for any path.
  */
-export function packAddedAt(packId) {
-  const log = execSync(`git log --diff-filter=A --format=%cI -- "${packId}"`, {
+export function packAddedAt(packPaths) {
+  const log = execFileSync('git', ['log', '--diff-filter=A', '--format=%cI', '--', ...packPaths], {
     encoding: 'utf8',
   });
   return oldestDateInLog(log);
+}
+
+/**
+ * Packs that moved without following the mechanical bucket-first-to-pack-first
+ * inversion, mapped from their current id to their pre-reorg directory.
+ */
+const PRE_REORG_ALIASES = {
+  'proofofplay-pirate-nation/3D/pirate': '3D/pirate/proofofplay-pirate-nation-models',
+  'proofofplay-pirate-nation/ui': 'ui/proofofplay-pirate-nation-ui',
+  'proofofplay-pirate-nation/icons': 'ui/proofofplay-pirate-nation-icons',
+  'proofofplay-pirate-nation/audio': 'audio/proofofplay-pirate-nation-audio',
+};
+
+/**
+ * Where a pack lived before the pack-first reorg, for git-history dating.
+ * Inverts <pack>/<2D|3D>/<theme> to <2D|3D>/<theme>/<pack> and <pack>/<bucket>
+ * to <bucket>/<pack>, plus explicit aliases for packs the reorg also renamed.
+ * A path that never existed is harmless — git log just finds no commits for it.
+ */
+export function preReorgPackPaths(packId) {
+  const segments = packId.split('/');
+  const inverted = segments.length === 3
+    ? `${segments[1]}/${segments[2]}/${segments[0]}`
+    : segments.length === 2
+      ? `${segments[1]}/${segments[0]}`
+      : null;
+  const alias = PRE_REORG_ALIASES[packId];
+  return [...(inverted ? [inverted] : []), ...(alias ? [alias] : [])];
 }

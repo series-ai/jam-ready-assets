@@ -1,0 +1,32 @@
+<TextureAtlas imagePath="thick_double.png">
+	<SubTexture name="pattern_0000.png" x="1024" y="1024" width="512" height="512"/>
+	<SubTexture name="pattern_0001.png" x="2048" y="2048" width="512" height="512"/>
+	<SubTexture name="pattern_0002.png" x="2048" y="1536" width="512" height="512"/>
+	<SubTexture name="pattern_0003.png" x="2048" y="1024" width="512" height="512"/>
+	<SubTexture name="pattern_0004.png" x="2048" y="512" width="512" height="512"/>
+	<SubTexture name="pattern_0005.png" x="2048" y="0" width="512" height="512"/>
+	<SubTexture name="pattern_0006.png" x="1536" y="2560" width="512" height="512"/>
+	<SubTexture name="pattern_0007.png" x="1536" y="2048" width="512" height="512"/>
+	<SubTexture name="pattern_0008.png" x="1536" y="1536" width="512" height="512"/>
+	<SubTexture name="pattern_0009.png" x="1536" y="1024" width="512" height="512"/>
+	<SubTexture name="pattern_0010.png" x="1536" y="512" width="512" height="512"/>
+	<SubTexture name="pattern_0011.png" x="1536" y="0" width="512" height="512"/>
+	<SubTexture name="pattern_0012.png" x="1024" y="2560" width="512" height="512"/>
+	<SubTexture name="pattern_0013.png" x="1024" y="2048" width="512" height="512"/>
+	<SubTexture name="pattern_0014.png" x="1024" y="1536" width="512" height="512"/>
+	<SubTexture name="pattern_0015.png" x="2048" y="2560" width="512" height="512"/>
+	<SubTexture name="pattern_0016.png" x="1024" y="512" width="512" height="512"/>
+	<SubTexture name="pattern_0017.png" x="1024" y="0" width="512" height="512"/>
+	<SubTexture name="pattern_0018.png" x="512" y="2560" width="512" height="512"/>
+	<SubTexture name="pattern_0019.png" x="512" y="2048" width="512" height="512"/>
+	<SubTexture name="pattern_0020.png" x="512" y="1536" width="512" height="512"/>
+	<SubTexture name="pattern_0021.png" x="512" y="1024" width="512" height="512"/>
+	<SubTexture name="pattern_0022.png" x="512" y="512" width="512" height="512"/>
+	<SubTexture name="pattern_0023.png" x="512" y="0" width="512" height="512"/>
+	<SubTexture name="pattern_0024.png" x="0" y="2560" width="512" height="512"/>
+	<SubTexture name="pattern_0025.png" x="0" y="2048" width="512" height="512"/>
+	<SubTexture name="pattern_0026.png" x="0" y="1536" width="512" height="512"/>
+	<SubTexture name="pattern_0027.png" x="0" y="1024" width="512" height="512"/>
+	<SubTexture name="pattern_0028.png" x="0" y="512" width="512" height="512"/>
+	<SubTexture name="pattern_0029.png" x="0" y="0" width="512" height="512"/>
+</TextureAtlas>

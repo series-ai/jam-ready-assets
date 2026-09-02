@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs/>
+  <g>
+    <path fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" d="M40 0 L128 0 128 40 128 128 88 128 0 128 0 88 0 0 40 0 40 40 88 40 128 40 M40 40 L40 88 88 88 88 40 M40 88 L0 88 M88 88 L88 128"/>
+  </g>
+</svg>

@@ -3,14 +3,15 @@
 // LFS pointers carry real byte size (`size NNN`) and sha256 OID; non-LFS files are
 // hashed locally, so EVERY file has a content address for the GCS mirror.
 //
-// Layout contract (see AGENTS.md): 2D|3D/<theme>/<creator>-<pack>/ plus flat
-// ui/ icons/ audio/ fonts/ buckets of <creator>-<pack>/.
+// Layout contract (see AGENTS.md): packs are top-level — <pack>/2D|3D/<theme>/
+// for themed content plus <pack>/ui|icons|fonts|audio/ flat buckets. One pack
+// dir may span several buckets; each bucket/theme leaf is one catalog pack.
 import { readdirSync, readFileSync, statSync, mkdirSync, writeFileSync, rmSync } from 'node:fs';
 import { execSync } from 'node:child_process';
 import { createHash } from 'node:crypto';
 import { join, extname, basename } from 'node:path';
 import { ALLOWED_LICENSES, inspectLicenseText, legacyCompatiblePacks } from './license-policy.mjs';
-import { isBackfilled, isShallowClone, packAddedAt } from './pack-dates.mjs';
+import { isBackfilled, isShallowClone, packAddedAt, preReorgPackPaths } from './pack-dates.mjs';
 import { readFeaturedCuration } from './featured.mjs';
 
 const ROOT = process.cwd();
@@ -180,29 +181,51 @@ rmSync(join(ROOT, 'manifest'), { recursive: true, force: true });
 mkdirSync(join(ROOT, 'manifest/packs'), { recursive: true });
 mkdirSync(join(ROOT, 'manifest/v2/commits', commit, 'packs'), { recursive: true });
 
-for (const [bucket, category] of Object.entries(BUCKETS)) {
-  let packDirs = [];
-  try {
-    // Skip loose files (e.g. a bucket-level LICENSE) — only directories are themes/packs.
+// Non-pack top-level dirs. Hidden dirs (.github, .git, .mirror-stage) are skipped by name.
+const RESERVED_TOP_DIRS = new Set(['scripts', 'manifest', 'node_modules']);
+
+const packDirs = [];
+for (const top of readdirSync(ROOT, { withFileTypes: true })) {
+  if (!top.isDirectory() || top.name.startsWith('.') || RESERVED_TOP_DIRS.has(top.name)) continue;
+  const leaves = [];
+  for (const sub of readdirSync(join(ROOT, top.name), { withFileTypes: true })) {
+    // Skip loose files (e.g. a pack-level note) — only bucket directories hold catalog content.
+    if (sub.name.startsWith('.') || !sub.isDirectory()) continue;
+    const bucket = sub.name;
+    const category = BUCKETS[bucket];
+    if (!category) {
+      rejected.push({
+        id: `${top.name}/${bucket}`,
+        error: `${top.name}/${bucket}: "${bucket}" is not a bucket. A pack dir may only contain ${Object.keys(BUCKETS).join(', ')} — themes go inside 2D/ or 3D/. See ${RULES_URL}`,
+      });
+      continue;
+    }
     if (THEMED_BUCKETS.has(bucket)) {
-      for (const theme of readdirSync(join(ROOT, bucket), { withFileTypes: true })) {
+      for (const theme of readdirSync(join(ROOT, top.name, bucket), { withFileTypes: true })) {
         if (theme.name.startsWith('.') || !theme.isDirectory()) continue;
-        for (const pack of readdirSync(join(ROOT, bucket, theme.name), { withFileTypes: true })) {
-          if (!pack.name.startsWith('.') && pack.isDirectory()) {
-            packDirs.push({ id: `${bucket}/${theme.name}/${pack.name}`, theme: theme.name, slug: pack.name });
-          }
-        }
+        leaves.push({ id: `${top.name}/${bucket}/${theme.name}`, bucket, category, theme: theme.name });
       }
     } else {
-      packDirs = readdirSync(join(ROOT, bucket), { withFileTypes: true })
-        .filter((p) => !p.name.startsWith('.') && p.isDirectory())
-        .map((pack) => ({ id: `${bucket}/${pack.name}`, theme: bucket, slug: pack.name }));
+      leaves.push({ id: `${top.name}/${bucket}`, bucket, category, theme: bucket });
     }
-  } catch {
-    continue; // bucket dir absent — tolerate
   }
+  // Slug: the top dir name alone while the pack has a single leaf — every
+  // pre-reorg slug survives unchanged, so existing assets/<slug>/ import dirs
+  // and slug-derived creator/title stay stable. A pack spanning several leaves
+  // qualifies each slug by bucket (and theme, for two themes in one bucket).
+  for (const leaf of leaves) {
+    const bucketSlug = `${top.name}-${leaf.bucket.toLowerCase()}`;
+    const slug = leaves.length === 1
+      ? top.name
+      : leaves.filter((other) => other.bucket === leaf.bucket).length === 1
+        ? bucketSlug
+        : `${bucketSlug}-${leaf.theme}`;
+    packDirs.push({ ...leaf, slug });
+  }
+}
 
-  for (const { id, theme, slug } of packDirs) {
+{
+  for (const { id, theme, slug, category } of packDirs) {
     const files = walk(join(ROOT, id));
     if (files.length === 0) continue;
     const exts = files.map((f) => extname(f.path).toLowerCase());
@@ -245,7 +268,8 @@ for (const [bucket, category] of Object.entries(BUCKETS)) {
     const version = createHash('sha256').update(JSON.stringify(mirroredFiles)).digest('hex').slice(0, 12);
     // First-publish date from git history; `backfilled` marks dates that were
     // reconstructed in bulk so Studio's NEW badge ignores them (see pack-dates.mjs).
-    const addedAt = shallowClone ? null : packAddedAt(id);
+    // Pre-reorg paths ride along so the pack-first move keeps every original date.
+    const addedAt = shallowClone ? null : packAddedAt([id, ...preReorgPackPaths(id)]);
     const summary = {
       id, slug, title: titleOf(slug, creatorKey), category, theme, creator,
       license: verdict.license,
