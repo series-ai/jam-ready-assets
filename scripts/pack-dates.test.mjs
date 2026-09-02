@@ -3,7 +3,9 @@ import test from 'node:test';
 import { BACKFILL_CUTOFF, isBackfilled, oldestDateInLog, preReorgPackPaths } from './pack-dates.mjs';
 
 test('a pack first published before the cutoff is backfilled, after it is not', () => {
-  assert.equal(isBackfilled('2026-08-01T10:00:00Z'), true);
+  assert.equal(isBackfilled('2026-05-28T18:00:29-07:00'), true);
+  // Organic additions after the bulk import keep badge eligibility.
+  assert.equal(isBackfilled('2026-08-26T12:43:15-07:00'), false);
   assert.equal(isBackfilled('2026-09-15T10:00:00Z'), false);
 });
 

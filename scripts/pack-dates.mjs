@@ -5,12 +5,15 @@ import { execFileSync, execSync } from 'node:child_process';
 
 /**
  * Packs first published before this moment are marked `backfilled: true` in
- * the manifest. Their dates were reconstructed in bulk when this feature was
- * added, and hundreds of packs share a handful of import commits — without
- * the flag, RUN.studio would show its NEW badge on almost every pack at once.
- * Only packs added after the cutoff can get the badge.
+ * the manifest, and RUN.studio suppresses their NEW badge forever. The cutoff
+ * sits just after the 2026-05-28 bulk import that seeded the library, whose
+ * hundreds of packs share a handful of import commits — without the flag they
+ * could all badge at once. Packs added organically since then carry real
+ * first-add dates and may badge. The feature-ship date would be the wrong
+ * cutoff: it would also suppress packs genuinely added in the weeks before
+ * the badge launched (barker, pirate-nation).
  */
-export const BACKFILL_CUTOFF = '2026-09-02T00:00:00Z';
+export const BACKFILL_CUTOFF = '2026-06-01T00:00:00Z';
 
 /** Whether a pack's first-publish date predates the backfill cutoff. */
 export function isBackfilled(addedAtIso) {
