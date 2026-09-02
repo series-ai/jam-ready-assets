@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs/>
+  <g>
+    <path fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" d="M96 0 L96 32 112 48 128 32 128 0 M128 128 L128 96 112 80 96 96 96 128 M112 48 L112 80 M64 0 L64 32 80 48 96 32 M32 0 L32 32 48 48 64 32 M0 0 L0 32 16 48 32 32 M32 128 L32 96 16 80 0 96 0 128 M48 48 L48 80 64 96 80 80 80 48 M16 48 L16 80 M48 80 L32 96 M96 96 L80 80 M64 96 L64 128"/>
+  </g>
+</svg>
