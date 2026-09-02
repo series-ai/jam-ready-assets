@@ -1,0 +1,1098 @@
+{
+  "assetId": "mystvale",
+  "displayName": "Mystvale",
+  "version": "1.0.0",
+  "sheet": {
+    "frameWidth": 80,
+    "frameHeight": 80,
+    "sheetCols": 6,
+    "idleFrame": 12,
+    "sheets": [
+      {
+        "id": "main",
+        "name": "Main",
+        "path": "avatar/character/sheet_large.png",
+        "totalRows": 24
+      },
+      {
+        "id": "tools",
+        "name": "Tools overlay",
+        "path": "avatar/tools/sheet_tools.png",
+        "totalRows": 24
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk-right",
+        "name": "Walk Right",
+        "sheetId": "main",
+        "frames": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "frameRate": 10,
+        "loop": true
+      },
+      {
+        "id": "idle-right",
+        "name": "Idle Right",
+        "sheetId": "main",
+        "frames": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "frameRate": 1,
+        "loop": false
+      }
+    ]
+  },
+  "avatar": {
+    "layers": [
+      {
+        "id": "body-greyscale",
+        "label": "Default Body",
+        "slot": "body",
+        "path": "avatar/character/sheet_large.png",
+        "zIndex": 10,
+        "tintable": true,
+        "defaultColor": "#fbd4b4"
+      },
+      {
+        "id": "fem-face",
+        "label": "Fem Face",
+        "slot": "eyes",
+        "path": "avatar/eyes/sheet_female_default_face.png",
+        "zIndex": 12,
+        "tintable": false
+      },
+      {
+        "id": "clothes-default",
+        "label": "Default outfit",
+        "slot": "clothes",
+        "path": "avatar/clothes/sheet_default_tunic.png",
+        "zIndex": 20,
+        "tintable": false
+      },
+      {
+        "id": "clothes-overalls",
+        "label": "Overalls",
+        "slot": "clothes",
+        "path": "avatar/clothes/sheet_farming_overalls.png",
+        "zIndex": 20,
+        "tintable": false
+      },
+      {
+        "id": "cottage-dress",
+        "label": "Cottage Dress",
+        "slot": "clothes",
+        "path": "avatar/clothes/sheet_cottage_dress.png",
+        "zIndex": 20,
+        "tintable": true,
+        "defaultColor": "#c8d6e5"
+      },
+      {
+        "id": "bob-cut",
+        "label": "Bob Cut",
+        "slot": "hair",
+        "path": "avatar/hair/sheet_bobcut_hair.png",
+        "zIndex": 40,
+        "tintable": true,
+        "defaultColor": "#5c3a21"
+      },
+      {
+        "id": "slick-back",
+        "label": "Slick Back",
+        "slot": "hair",
+        "path": "avatar/hair/sheet_slickback_hair.png",
+        "zIndex": 40,
+        "tintable": true,
+        "defaultColor": "#5c3a21"
+      },
+      {
+        "id": "acc-beard",
+        "label": "Beard",
+        "slot": "accessories",
+        "path": "avatar/acc/beard.png",
+        "zIndex": 45,
+        "tintable": false
+      },
+      {
+        "id": "acc-earring-emerald",
+        "label": "Earring (Emerald)",
+        "slot": "accessories",
+        "path": "avatar/acc/earring_emerald.png",
+        "zIndex": 50,
+        "tintable": false
+      },
+      {
+        "id": "acc-earring-emerald-silver",
+        "label": "Earring (Emerald Silver)",
+        "slot": "accessories",
+        "path": "avatar/acc/earring_emerald_silver.png",
+        "zIndex": 50,
+        "tintable": false
+      },
+      {
+        "id": "acc-earring-red",
+        "label": "Earring (Red)",
+        "slot": "accessories",
+        "path": "avatar/acc/earring_red.png",
+        "zIndex": 50,
+        "tintable": false
+      },
+      {
+        "id": "acc-earring-red-silver",
+        "label": "Earring (Red Silver)",
+        "slot": "accessories",
+        "path": "avatar/acc/earring_red_silver.png",
+        "zIndex": 50,
+        "tintable": false
+      },
+      {
+        "id": "acc-glasses",
+        "label": "Glasses",
+        "slot": "accessories",
+        "path": "avatar/acc/glasses.png",
+        "zIndex": 50,
+        "tintable": false
+      },
+      {
+        "id": "acc-glasses-sun",
+        "label": "Sunglasses",
+        "slot": "accessories",
+        "path": "avatar/acc/glasses_sun.png",
+        "zIndex": 50,
+        "tintable": false
+      },
+      {
+        "id": "acc-hat-cowboy",
+        "label": "Cowboy Hat",
+        "slot": "accessories",
+        "path": "avatar/acc/hat_cowboy.png",
+        "zIndex": 60,
+        "tintable": false
+      },
+      {
+        "id": "acc-hat-lucky",
+        "label": "Lucky Hat",
+        "slot": "accessories",
+        "path": "avatar/acc/hat_lucky.png",
+        "zIndex": 60,
+        "tintable": false
+      },
+      {
+        "id": "acc-hat-pumpkin",
+        "label": "Pumpkin Hat",
+        "slot": "accessories",
+        "path": "avatar/acc/hat_pumpkin.png",
+        "zIndex": 60,
+        "tintable": false
+      },
+      {
+        "id": "acc-hat-pumpkin-purple",
+        "label": "Pumpkin Hat (Purple)",
+        "slot": "accessories",
+        "path": "avatar/acc/hat_pumpkin_purple.png",
+        "zIndex": 60,
+        "tintable": false
+      },
+      {
+        "id": "acc-hat-witch",
+        "label": "Witch Hat",
+        "slot": "accessories",
+        "path": "avatar/acc/hat_witch.png",
+        "zIndex": 60,
+        "tintable": false
+      },
+      {
+        "id": "acc-mask-clown-blue",
+        "label": "Clown Mask (Blue)",
+        "slot": "accessories",
+        "path": "avatar/acc/mask_clown_blue.png",
+        "zIndex": 50,
+        "tintable": false
+      },
+      {
+        "id": "acc-mask-clown-red",
+        "label": "Clown Mask (Red)",
+        "slot": "accessories",
+        "path": "avatar/acc/mask_clown_red.png",
+        "zIndex": 50,
+        "tintable": false
+      },
+      {
+        "id": "acc-mask-spooky",
+        "label": "Spooky Mask",
+        "slot": "accessories",
+        "path": "avatar/acc/mask_spooky.png",
+        "zIndex": 50,
+        "tintable": false
+      }
+    ],
+    "defaultAppearance": {
+      "selections": {
+        "body": "body-greyscale",
+        "eyes": "fem-face",
+        "clothes": "clothes-overalls",
+        "hair": "bob-cut",
+        "accessories": "acc-hat-lucky"
+      },
+      "tints": {
+        "skin": "#fbd4b4",
+        "hair": "#5c3a21",
+        "eyes": "#264653",
+        "clothes": "#4a7c59"
+      }
+    }
+  },
+  "crops": [
+    {
+      "id": "wheat",
+      "name": "Wheat",
+      "seedItemId": "wheat_seed",
+      "harvestItemId": "wheat",
+      "harvestAmount": 3,
+      "growDays": 4,
+      "stages": 4,
+      "stageDurations": [
+        3,
+        4,
+        4,
+        5
+      ],
+      "regrows": false,
+      "sellPrice": 12,
+      "seedPrice": 5,
+      "iconId": "crop_wheat",
+      "stageSprites": [
+        "crops/wheat_s0.png",
+        "crops/wheat_s1.png",
+        "crops/wheat_s2.png",
+        "crops/wheat_s3.png"
+      ],
+      "harvestSprite": "crops/wheat_harvest.png"
+    },
+    {
+      "id": "carrot",
+      "name": "Carrot",
+      "seedItemId": "carrot_seed",
+      "harvestItemId": "carrot",
+      "harvestAmount": 2,
+      "growDays": 3,
+      "stages": 3,
+      "stageDurations": [
+        6,
+        10,
+        14
+      ],
+      "regrows": false,
+      "sellPrice": 20,
+      "seedPrice": 8,
+      "iconId": "crop_carrot",
+      "stageSprites": [
+        "crops/carrot_s0.png",
+        "crops/carrot_s1.png",
+        "crops/carrot_s2.png"
+      ],
+      "harvestSprite": "crops/carrot_harvest.png"
+    },
+    {
+      "id": "tomato",
+      "name": "Tomato",
+      "seedItemId": "tomato_seed",
+      "harvestItemId": "tomato",
+      "harvestAmount": 4,
+      "growDays": 4,
+      "stages": 4,
+      "stageDurations": [
+        6,
+        10,
+        10,
+        14
+      ],
+      "regrows": false,
+      "sellPrice": 30,
+      "seedPrice": 12,
+      "iconId": "crop_tomato",
+      "stageSprites": [
+        "crops/tomato_s0.png",
+        "crops/tomato_s1.png",
+        "crops/tomato_s2.png",
+        "crops/tomato_s3.png"
+      ],
+      "harvestSprite": "crops/tomato_harvest.png"
+    },
+    {
+      "id": "corn",
+      "name": "Corn",
+      "seedItemId": "corn_seed",
+      "harvestItemId": "corn",
+      "harvestAmount": 2,
+      "growDays": 4,
+      "stages": 4,
+      "stageDurations": [
+        10,
+        20,
+        20,
+        30
+      ],
+      "regrows": false,
+      "sellPrice": 25,
+      "seedPrice": 10,
+      "iconId": "crop_corn",
+      "stageSprites": [
+        "crops/corn_s0.png",
+        "crops/corn_s1.png",
+        "crops/corn_s2.png",
+        "crops/corn_s3.png"
+      ],
+      "harvestSprite": "crops/corn_harvest.png"
+    },
+    {
+      "id": "pumpkin",
+      "name": "Pumpkin",
+      "seedItemId": "pumpkin_seed",
+      "harvestItemId": "pumpkin",
+      "harvestAmount": 2,
+      "growDays": 4,
+      "stages": 4,
+      "stageDurations": [
+        20,
+        30,
+        40,
+        40
+      ],
+      "regrows": false,
+      "sellPrice": 50,
+      "seedPrice": 20,
+      "iconId": "crop_pumpkin",
+      "stageSprites": [
+        "crops/pumpkin_s0.png",
+        "crops/pumpkin_s1.png",
+        "crops/pumpkin_s2.png",
+        "crops/pumpkin_s3.png"
+      ],
+      "harvestSprite": "crops/pumpkin_harvest.png"
+    },
+    {
+      "id": "herb",
+      "name": "Herb",
+      "seedItemId": "herb_seed",
+      "harvestItemId": "herb",
+      "harvestAmount": 2,
+      "growDays": 3,
+      "stages": 3,
+      "stageDurations": [
+        2,
+        3,
+        3
+      ],
+      "regrows": false,
+      "sellPrice": 15,
+      "seedPrice": 6,
+      "iconId": "crop_herb",
+      "stageSprites": [
+        "crops/herb_s0.png",
+        "crops/herb_s1.png",
+        "crops/herb_s2.png"
+      ],
+      "harvestSprite": "crops/herb_harvest.png"
+    },
+    {
+      "id": "Sky_corn",
+      "name": "Sky Corn",
+      "seedItemId": "sky_corn_seed",
+      "harvestItemId": "sky_corn_harvest",
+      "harvestAmount": 2,
+      "growDays": 3,
+      "stages": 3,
+      "stageDurations": [
+        3,
+        6,
+        9
+      ],
+      "regrows": false,
+      "sellPrice": 28,
+      "seedPrice": 14,
+      "iconId": "crop_wheat",
+      "stageSprites": [
+        "sprites/crops/crop_corn_1.png",
+        "sprites/crops/crop_corn_2.png",
+        "sprites/crops/crop_corn_3.png"
+      ],
+      "harvestSprite": "sprites/crops/crop_corn_icon.png"
+    },
+    {
+      "id": "mintberry",
+      "name": "Mintberry",
+      "seedItemId": "mintberry_seed",
+      "harvestItemId": "mintberry_harvest",
+      "harvestAmount": 2,
+      "growDays": 3,
+      "stages": 3,
+      "stageDurations": [
+        2,
+        4,
+        8
+      ],
+      "regrows": false,
+      "sellPrice": 26,
+      "seedPrice": 16,
+      "iconId": "crop_herb",
+      "stageSprites": [
+        "sprites/crops/crop_mintberry_1.png",
+        "sprites/crops/crop_mintberry_2.png",
+        "sprites/crops/crop_mintberry_3.png"
+      ],
+      "harvestSprite": "sprites/crops/crop_mintberry_icon.png"
+    },
+    {
+      "id": "Shadowfruit",
+      "name": "Shadowfruit",
+      "seedItemId": "shadowfruit_seed",
+      "harvestItemId": "shadowfruit_harvest",
+      "harvestAmount": 2,
+      "growDays": 3,
+      "stages": 3,
+      "stageDurations": [
+        5,
+        10,
+        15
+      ],
+      "regrows": false,
+      "sellPrice": 32,
+      "seedPrice": 18,
+      "iconId": "crop_herb",
+      "stageSprites": [
+        "sprites/crops/crop_nightberry_1.png",
+        "sprites/crops/crop_nightberry_2.png",
+        "sprites/crops/crop_nightberry_3.png"
+      ],
+      "harvestSprite": "sprites/crops/crop_nightberry_icon.png"
+    },
+    {
+      "id": "pyro_pepper",
+      "name": "Pyro Pepper",
+      "seedItemId": "pyro_pepper_seed",
+      "harvestItemId": "pyro_pepper_harvest",
+      "harvestAmount": 2,
+      "growDays": 3,
+      "stages": 3,
+      "stageDurations": [
+        4,
+        4,
+        4
+      ],
+      "regrows": false,
+      "sellPrice": 24,
+      "seedPrice": 15,
+      "iconId": "crop_herb",
+      "stageSprites": [
+        "sprites/crops/crop_pepper_1.png",
+        "sprites/crops/crop_pepper_2.png",
+        "sprites/crops/crop_pepper_3.png"
+      ],
+      "harvestSprite": "sprites/crops/crop_pepper_icon.png"
+    },
+    {
+      "id": "rainberry",
+      "name": "Rainberry",
+      "seedItemId": "rainberry_seed",
+      "harvestItemId": "rainberry_harvest",
+      "harvestAmount": 2,
+      "growDays": 3,
+      "stages": 3,
+      "stageDurations": [
+        5,
+        10,
+        5
+      ],
+      "regrows": false,
+      "sellPrice": 26,
+      "seedPrice": 16,
+      "iconId": "crop_herb",
+      "stageSprites": [
+        "sprites/crops/crop_rainberry_1.png",
+        "sprites/crops/crop_rainberry_2.png",
+        "sprites/crops/crop_rainberry_3.png"
+      ],
+      "harvestSprite": "sprites/crops/crop_rainberry_icon.png"
+    },
+    {
+      "id": "pastel_fruit",
+      "name": "Pastel Fruit",
+      "seedItemId": "pastel_fruit_seed",
+      "harvestItemId": "pastel_fruit_harvest",
+      "harvestAmount": 2,
+      "growDays": 3,
+      "stages": 3,
+      "stageDurations": [
+        7,
+        6,
+        5
+      ],
+      "regrows": false,
+      "sellPrice": 26,
+      "seedPrice": 16,
+      "iconId": "crop_herb",
+      "stageSprites": [
+        "sprites/crops/crop_pinkberry_1.png",
+        "sprites/crops/crop_pinkberry_2.png",
+        "sprites/crops/crop_pinkberry_3.png"
+      ],
+      "harvestSprite": "sprites/crops/crop_pinkberry_icon.png"
+    },
+    {
+      "id": "Tomater",
+      "name": "Tomater",
+      "seedItemId": "tomater_seed",
+      "harvestItemId": "tomater_harvest",
+      "harvestAmount": 2,
+      "growDays": 3,
+      "stages": 3,
+      "stageDurations": [
+        3,
+        4,
+        3
+      ],
+      "regrows": false,
+      "sellPrice": 24,
+      "seedPrice": 14,
+      "iconId": "crop_tomato",
+      "stageSprites": [
+        "sprites/crops/crop_tomatillo_1.png",
+        "sprites/crops/crop_tomatillo_2.png",
+        "sprites/crops/crop_tomatillo_3.png"
+      ],
+      "harvestSprite": "sprites/crops/crop_tomatillo_icon.png"
+    },
+    {
+      "id": "rune_fruit",
+      "name": "Rune Fruit",
+      "seedItemId": "rune_fruit_seed",
+      "harvestItemId": "rune_fruit_harvest",
+      "harvestAmount": 2,
+      "growDays": 3,
+      "stages": 3,
+      "stageDurations": [
+        10,
+        10,
+        10
+      ],
+      "regrows": false,
+      "sellPrice": 36,
+      "seedPrice": 22,
+      "iconId": "crop_tomato",
+      "stageSprites": [
+        "sprites/crops/crop_tomato_1.png",
+        "sprites/crops/crop_tomato_2.png",
+        "sprites/crops/crop_tomato_3.png"
+      ],
+      "harvestSprite": "sprites/crops/crop_tomato_icon.png"
+    }
+  ],
+  "nineSlice": {
+    "panelBrown": {
+      "sprite": "ui/panel-brown.png",
+      "slice": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "borderWidth": [
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    "panelBrownSm": {
+      "sprite": "ui/panel-brown-sm.png",
+      "slice": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "borderWidth": [
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    "panelBig": {
+      "sprite": "ui/panel-big.png",
+      "slice": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "borderWidth": [
+        15,
+        15,
+        15,
+        15
+      ]
+    },
+    "panelMedium": {
+      "sprite": "ui/panel-medium.png",
+      "slice": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "borderWidth": [
+        15,
+        15,
+        15,
+        15
+      ]
+    },
+    "dialoguePanel": {
+      "sprite": "ui/dialogue-panel.png",
+      "slice": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "borderWidth": [
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    "dialogueBubble": {
+      "sprite": "ui/dialogue-speech-bubble.png",
+      "slice": [
+        8,
+        10,
+        8,
+        8
+      ],
+      "borderWidth": [
+        8,
+        10,
+        8,
+        8
+      ]
+    },
+    "buttonBrown": {
+      "sprite": "ui/btn-brown.png",
+      "slice": [
+        5,
+        5,
+        7,
+        5
+      ],
+      "borderWidth": [
+        4,
+        4,
+        5,
+        4
+      ],
+      "pressedSprite": "ui/btn-brown-pressed.png"
+    },
+    "buttonDark": {
+      "sprite": "ui/btn-dark.png",
+      "slice": [
+        5,
+        5,
+        7,
+        5
+      ],
+      "borderWidth": [
+        4,
+        4,
+        5,
+        4
+      ],
+      "pressedSprite": "ui/btn-dark-pressed.png"
+    },
+    "buttonLight": {
+      "sprite": "ui/btn-light.png",
+      "slice": [
+        5,
+        5,
+        7,
+        5
+      ],
+      "borderWidth": [
+        4,
+        4,
+        5,
+        4
+      ],
+      "pressedSprite": "ui/btn-light-pressed.png"
+    },
+    "buttonCream": {
+      "sprite": "ui/btn-cream.png",
+      "slice": [
+        5,
+        5,
+        7,
+        5
+      ],
+      "borderWidth": [
+        4,
+        4,
+        5,
+        4
+      ],
+      "pressedSprite": "ui/btn-cream-pressed.png"
+    },
+    "slotBrown": {
+      "sprite": "ui/slot-brown.png",
+      "slice": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "borderWidth": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "selectedSprite": "ui/slot-brown-dark.png"
+    },
+    "slotCream": {
+      "sprite": "ui/slot-cream.png",
+      "slice": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "borderWidth": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "selectedSprite": "ui/slot-cream-dark.png"
+    },
+    "slotTan": {
+      "sprite": "ui/slot-tan.png",
+      "slice": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "borderWidth": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "selectedSprite": "ui/slot-tan-dark.png"
+    }
+  },
+  "icons": [
+    {
+      "id": "tool_hoe",
+      "category": "tools",
+      "label": "Hoe",
+      "path": "icons/hoe_32x32.png"
+    },
+    {
+      "id": "tool_watering_can",
+      "category": "tools",
+      "label": "Watering Can",
+      "path": "icons/wateringcan_32x32.png"
+    },
+    {
+      "id": "tool_pickaxe",
+      "category": "tools",
+      "label": "Pickaxe",
+      "path": "icons/pickaxe_32x32.png"
+    },
+    {
+      "id": "tool_axe",
+      "category": "tools",
+      "label": "Axe",
+      "path": "icons/axe_32x32.png"
+    },
+    {
+      "id": "tool_fishing_rod",
+      "category": "tools",
+      "label": "Fishing Rod",
+      "path": "icons/fishing_rod.png"
+    },
+    {
+      "id": "crop_wheat",
+      "category": "crops",
+      "label": "Wheat",
+      "path": "crops/wheat_harvest.png"
+    },
+    {
+      "id": "crop_carrot",
+      "category": "crops",
+      "label": "Carrot",
+      "path": "crops/carrot_harvest.png"
+    },
+    {
+      "id": "crop_tomato",
+      "category": "crops",
+      "label": "Tomato",
+      "path": "crops/tomato_harvest.png"
+    },
+    {
+      "id": "crop_corn",
+      "category": "crops",
+      "label": "Corn",
+      "path": "crops/corn_harvest.png"
+    },
+    {
+      "id": "crop_pumpkin",
+      "category": "crops",
+      "label": "Pumpkin",
+      "path": "crops/pumpkin_harvest.png"
+    },
+    {
+      "id": "crop_herb",
+      "category": "crops",
+      "label": "Herb",
+      "path": "icons/herb_32x32.png"
+    },
+    {
+      "id": "res_wood",
+      "category": "resources",
+      "label": "Wood",
+      "path": "icons/wood_32x32.png"
+    },
+    {
+      "id": "res_stone",
+      "category": "resources",
+      "label": "Stone",
+      "path": "icons/stone_32x32.png"
+    },
+    {
+      "id": "res_copper_ore",
+      "category": "resources",
+      "label": "Copper Ore",
+      "path": "icons/copperore_32x32.png"
+    },
+    {
+      "id": "res_iron_ore",
+      "category": "resources",
+      "label": "Iron Ore",
+      "path": "icons/ironore_32x32.png"
+    },
+    {
+      "id": "res_gold_ore",
+      "category": "resources",
+      "label": "Gold Ore",
+      "path": "icons/goldore_32x32.png"
+    },
+    {
+      "id": "res_mythril_ore",
+      "category": "resources",
+      "label": "Mythril Ore",
+      "path": "icons/mythril_ore_32x32.png"
+    },
+    {
+      "id": "misc_coin",
+      "category": "misc",
+      "label": "Coin",
+      "path": "icons/coin_32x32.png"
+    },
+    {
+      "id": "misc_stamina_pot",
+      "category": "misc",
+      "label": "Stamina Potion",
+      "path": "icons/potion_stamina_32x32.png"
+    },
+    {
+      "id": "misc_seed",
+      "category": "misc",
+      "label": "Seed Packet",
+      "path": "icons/seedpacket_32x32.png"
+    }
+  ],
+  "fish": [
+    {
+      "id": "raw_fish",
+      "name": "Common Fish",
+      "rarity": "common",
+      "zone": "any",
+      "weight": 50,
+      "baseValue": 5,
+      "xpReward": 10,
+      "iconId": "tool_fishing_rod",
+      "description": "A common river fish."
+    },
+    {
+      "id": "perch",
+      "name": "Perch",
+      "rarity": "common",
+      "zone": "pond",
+      "weight": 40,
+      "baseValue": 8,
+      "xpReward": 12,
+      "iconId": "tool_fishing_rod",
+      "description": "A striped pond perch."
+    },
+    {
+      "id": "carp",
+      "name": "Carp",
+      "rarity": "common",
+      "zone": "pond",
+      "weight": 35,
+      "baseValue": 10,
+      "xpReward": 15,
+      "iconId": "tool_fishing_rod",
+      "description": "A heavy pond carp."
+    },
+    {
+      "id": "bass",
+      "name": "Largemouth Bass",
+      "rarity": "uncommon",
+      "zone": "pond",
+      "weight": 20,
+      "baseValue": 20,
+      "xpReward": 20,
+      "iconId": "tool_fishing_rod",
+      "description": "A strong pond bass."
+    },
+    {
+      "id": "trout",
+      "name": "Rainbow Trout",
+      "rarity": "uncommon",
+      "zone": "river",
+      "weight": 25,
+      "baseValue": 18,
+      "xpReward": 20,
+      "iconId": "tool_fishing_rod",
+      "description": "A river trout with bright scales."
+    },
+    {
+      "id": "goldfish",
+      "name": "Goldfish",
+      "rarity": "uncommon",
+      "zone": "pond",
+      "weight": 15,
+      "baseValue": 25,
+      "xpReward": 25,
+      "iconId": "tool_fishing_rod",
+      "description": "A bright pond goldfish."
+    },
+    {
+      "id": "salmon",
+      "name": "Salmon",
+      "rarity": "rare",
+      "zone": "river",
+      "weight": 10,
+      "baseValue": 40,
+      "xpReward": 40,
+      "iconId": "tool_fishing_rod",
+      "description": "A rare river salmon."
+    },
+    {
+      "id": "eel",
+      "name": "Eel",
+      "rarity": "rare",
+      "zone": "any",
+      "weight": 8,
+      "baseValue": 35,
+      "xpReward": 35,
+      "iconId": "tool_fishing_rod",
+      "description": "A slippery eel."
+    },
+    {
+      "id": "cave_fish",
+      "name": "Cave Fish",
+      "rarity": "rare",
+      "zone": "cave",
+      "weight": 12,
+      "baseValue": 50,
+      "xpReward": 45,
+      "iconId": "tool_fishing_rod",
+      "description": "A pale fish from cave water."
+    }
+  ],
+  "tiles": [
+    {
+      "id": "tile_grass",
+      "name": "Meadow Grass",
+      "type": "grass",
+      "sprite": "tiles/Grass_Middle.png",
+      "hasGrassBorder": false,
+      "tileSize": 16,
+      "columns": 1,
+      "ninePatch": false
+    },
+    {
+      "id": "tile_dirt",
+      "name": "Farmland Soil",
+      "type": "dirt",
+      "sprite": "tiles/FarmLand_Tile.png",
+      "hasGrassBorder": true,
+      "tileSize": 32,
+      "columns": 14,
+      "ninePatch": false
+    },
+    {
+      "id": "tile_water",
+      "name": "Lake Water",
+      "type": "water",
+      "sprite": "tiles/Water_Tile.png",
+      "hasGrassBorder": true,
+      "tileSize": 32,
+      "columns": 14,
+      "ninePatch": false
+    },
+    {
+      "id": "tile_cliff",
+      "name": "Stone Cliff",
+      "type": "cliff",
+      "sprite": "tiles/Stone_Cliff_1_Tile_x2_smooth.png",
+      "hasGrassBorder": true,
+      "tileSize": 32,
+      "columns": 8,
+      "ninePatch": false
+    },
+    {
+      "id": "tile_stone_path",
+      "name": "Cobble Path",
+      "type": "stone_path",
+      "sprite": "tiles/Path_Middle.png",
+      "hasGrassBorder": true,
+      "tileSize": 16,
+      "columns": 1,
+      "ninePatch": false
+    },
+    {
+      "id": "tile_wood_floor",
+      "name": "Wood Floor",
+      "type": "wood_floor",
+      "sprite": "tiles/Wood_Floor_Tiles_x2_smooth.png",
+      "hasGrassBorder": false,
+      "tileSize": 32,
+      "columns": 8,
+      "ninePatch": false
+    }
+  ],
+  "indexes": {
+    "objects": "object-index.json",
+    "tiles": "tile-index.json",
+    "debris": "debris-index.json",
+    "audio": "audio-index.json",
+    "avatarSheet": "avatar-sheet.json"
+  }
+}

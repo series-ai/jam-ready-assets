@@ -1,0 +1,1314 @@
+{
+  "tiles": [
+    {
+      "id": "grass",
+      "name": "Grass",
+      "path": "tiles/grass_square.png",
+      "tileSize": 64,
+      "tileDefId": 1,
+      "frames": {
+        "topLeft": 0,
+        "top": 0,
+        "topRight": 0,
+        "left": 0,
+        "center": 0,
+        "right": 0,
+        "bottomLeft": 0,
+        "bottom": 0,
+        "bottomRight": 0
+      },
+      "collide": false
+    },
+    {
+      "id": "path",
+      "name": "Path",
+      "path": "tiles/FarmLand_Tile_64_remake.png",
+      "tileSize": 64,
+      "tileDefId": 2,
+      "frames": {
+        "topLeft": 1,
+        "top": 2,
+        "topRight": 3,
+        "left": 8,
+        "center": 9,
+        "right": 10,
+        "bottomLeft": 15,
+        "bottom": 16,
+        "bottomRight": 17,
+        "standalone": 0,
+        "hStripLeft": 22,
+        "hStripMiddle": 23,
+        "hStripRight": 24,
+        "vStripTop": 7,
+        "vStripMiddle": 14,
+        "vStripBottom": 21,
+        "lJunctionTL": 1,
+        "lJunctionTR": 3,
+        "lJunctionBL": 15,
+        "lJunctionBR": 17
+      },
+      "innerCorners": {
+        "topLeft": 25,
+        "topRight": 26,
+        "bottomLeft": 32,
+        "bottomRight": 33
+      },
+      "collide": false
+    },
+    {
+      "id": "cave-floor",
+      "name": "Cave Floor",
+      "path": "tiles/Cave_Floor_2_x2_smooth.png",
+      "tileSize": 32,
+      "tileDefId": 4,
+      "frames": {
+        "topLeft": 6,
+        "top": 7,
+        "topRight": 8,
+        "left": 9,
+        "center": 10,
+        "right": 11,
+        "bottomLeft": 12,
+        "bottom": 13,
+        "bottomRight": 14
+      },
+      "innerCorners": {
+        "topLeft": 0,
+        "topRight": 1,
+        "bottomLeft": 3,
+        "bottomRight": 4
+      },
+      "collide": false
+    },
+    {
+      "id": "cave-wall",
+      "name": "Cave Wall",
+      "path": "tiles/Cave_Walls_x2_smooth.png",
+      "tileSize": 32,
+      "tileDefId": 5,
+      "frames": {
+        "topLeft": 25,
+        "top": 19,
+        "topRight": 26,
+        "left": 13,
+        "center": 12,
+        "right": 11,
+        "bottomLeft": 32,
+        "bottom": 5,
+        "bottomRight": 33
+      },
+      "collide": true
+    },
+    {
+      "id": "cave-water",
+      "name": "Cave Water",
+      "path": "tiles/Cave_Water_x2_smooth.png",
+      "tileSize": 32,
+      "tileDefId": 6,
+      "frames": {
+        "topLeft": 0,
+        "top": 32,
+        "topRight": 1,
+        "left": 20,
+        "center": 2,
+        "right": 16,
+        "bottomLeft": 7,
+        "bottom": 4,
+        "bottomRight": 8
+      },
+      "collide": false
+    },
+    {
+      "id": "water",
+      "name": "Water",
+      "path": "tiles/Water_Tile.png",
+      "tileSize": 64,
+      "tileDefId": 3,
+      "frames": {
+        "topLeft": 4,
+        "top": 2,
+        "topRight": 3,
+        "left": 8,
+        "center": 9,
+        "right": 10,
+        "bottomLeft": 18,
+        "bottom": 16,
+        "bottomRight": 17,
+        "innerTopRight": 10,
+        "innerRight": 13,
+        "innerTop": 1,
+        "innerCenter": 7,
+        "standalone": 0,
+        "hStripLeft": 22,
+        "hStripMiddle": 23,
+        "hStripRight": 24,
+        "vStripTop": 7,
+        "vStripMiddle": 14,
+        "vStripBottom": 21,
+        "lJunctionTL": 4,
+        "lJunctionTR": 6,
+        "lJunctionBL": 18,
+        "lJunctionBR": 20
+      },
+      "innerCorners": {
+        "topLeft": 25,
+        "topRight": 26,
+        "bottomLeft": 32,
+        "bottomRight": 33
+      },
+      "collide": true
+    },
+    {
+      "id": "hedge",
+      "name": "Hedge",
+      "path": "tiles/Hedge_Tiles.png",
+      "tileSize": 32,
+      "tileDefId": 7,
+      "frames": {
+        "topLeft": 5,
+        "top": 2,
+        "topRight": 7,
+        "left": 4,
+        "center": 10,
+        "right": 4,
+        "bottomLeft": 13,
+        "bottom": 2,
+        "bottomRight": 15,
+        "standalone": 12,
+        "hStripLeft": 1,
+        "hStripMiddle": 2,
+        "hStripRight": 3,
+        "vStripTop": 0,
+        "vStripMiddle": 4,
+        "vStripBottom": 8
+      },
+      "collide": true
+    },
+    {
+      "id": "farmland",
+      "name": "Tilled Soil",
+      "path": "tiles/FarmLand_Tile.png",
+      "tileSize": 64,
+      "tileDefId": 8,
+      "frames": {
+        "topLeft": 1,
+        "top": 2,
+        "topRight": 3,
+        "left": 8,
+        "center": 9,
+        "right": 10,
+        "bottomLeft": 15,
+        "bottom": 16,
+        "bottomRight": 17,
+        "standalone": 0,
+        "hStripLeft": 22,
+        "hStripMiddle": 23,
+        "hStripRight": 24,
+        "vStripTop": 7,
+        "vStripMiddle": 14,
+        "vStripBottom": 21,
+        "lJunctionTL": 4,
+        "lJunctionTR": 6,
+        "lJunctionBL": 18,
+        "lJunctionBR": 20
+      },
+      "innerCorners": {
+        "topLeft": 25,
+        "topRight": 26,
+        "bottomLeft": 32,
+        "bottomRight": 33
+      },
+      "collide": false
+    },
+    {
+      "id": "grass-2",
+      "name": "Grass 2",
+      "path": "tiles/Grass_2_Middle_x2_smooth.png",
+      "tileSize": 32,
+      "tileDefId": 9,
+      "frames": {
+        "topLeft": 0,
+        "top": 0,
+        "topRight": 0,
+        "left": 0,
+        "center": 0,
+        "right": 0,
+        "bottomLeft": 0,
+        "bottom": 0,
+        "bottomRight": 0
+      },
+      "collide": false
+    },
+    {
+      "id": "grass-3",
+      "name": "Grass 3",
+      "path": "tiles/Grass_3_Middle_x2_smooth.png",
+      "tileSize": 32,
+      "tileDefId": 10,
+      "frames": {
+        "topLeft": 0,
+        "top": 0,
+        "topRight": 0,
+        "left": 0,
+        "center": 0,
+        "right": 0,
+        "bottomLeft": 0,
+        "bottom": 0,
+        "bottomRight": 0
+      },
+      "collide": false
+    },
+    {
+      "id": "grass-4",
+      "name": "Grass 4",
+      "path": "tiles/Grass_4_Middle_x2_smooth.png",
+      "tileSize": 32,
+      "tileDefId": 11,
+      "frames": {
+        "topLeft": 0,
+        "top": 0,
+        "topRight": 0,
+        "left": 0,
+        "center": 0,
+        "right": 0,
+        "bottomLeft": 0,
+        "bottom": 0,
+        "bottomRight": 0
+      },
+      "collide": false
+    },
+    {
+      "id": "cobble-road-1",
+      "name": "Cobble Road 1",
+      "path": "tiles/Cobble_Road_1_x2_smooth.png",
+      "tileSize": 32,
+      "tileDefId": 12,
+      "frames": {
+        "topLeft": 0,
+        "top": 1,
+        "topRight": 2,
+        "left": 3,
+        "center": 4,
+        "right": 5,
+        "bottomLeft": 6,
+        "bottom": 7,
+        "bottomRight": 8
+      },
+      "innerCorners": {
+        "topLeft": 9,
+        "topRight": 10,
+        "bottomLeft": 12,
+        "bottomRight": 13
+      },
+      "collide": false
+    },
+    {
+      "id": "cobble-road-2",
+      "name": "Cobble Road 2",
+      "path": "tiles/Cobble_Road_2_x2_smooth.png",
+      "tileSize": 32,
+      "tileDefId": 13,
+      "frames": {
+        "topLeft": 0,
+        "top": 1,
+        "topRight": 2,
+        "left": 3,
+        "center": 4,
+        "right": 5,
+        "bottomLeft": 6,
+        "bottom": 7,
+        "bottomRight": 8
+      },
+      "innerCorners": {
+        "topLeft": 9,
+        "topRight": 10,
+        "bottomLeft": 12,
+        "bottomRight": 13
+      },
+      "collide": false
+    },
+    {
+      "id": "cave-floor-1",
+      "name": "Cave Floor 1",
+      "path": "tiles/Cave_Floor_1_x2_smooth.png",
+      "tileSize": 32,
+      "tileDefId": 14,
+      "frames": {
+        "topLeft": 6,
+        "top": 7,
+        "topRight": 8,
+        "left": 9,
+        "center": 10,
+        "right": 11,
+        "bottomLeft": 12,
+        "bottom": 13,
+        "bottomRight": 14
+      },
+      "innerCorners": {
+        "topLeft": 0,
+        "topRight": 1,
+        "bottomLeft": 3,
+        "bottomRight": 4
+      },
+      "collide": false
+    },
+    {
+      "id": "water-tile-3",
+      "name": "Water 3",
+      "path": "tiles/Water_Tile_3_x2_smooth.png",
+      "tileSize": 32,
+      "tileDefId": 16,
+      "frames": {
+        "topLeft": 0,
+        "top": 1,
+        "topRight": 2,
+        "left": 3,
+        "center": 4,
+        "right": 5,
+        "bottomLeft": 6,
+        "bottom": 7,
+        "bottomRight": 8
+      },
+      "innerCorners": {
+        "topLeft": 9,
+        "topRight": 10,
+        "bottomLeft": 12,
+        "bottomRight": 13
+      },
+      "collide": false
+    },
+    {
+      "id": "water-tile-4",
+      "name": "Water 4",
+      "path": "tiles/Water_Stone_Tile_4_x2_smooth.png",
+      "tileSize": 32,
+      "tileDefId": 17,
+      "frames": {
+        "topLeft": 0,
+        "top": 1,
+        "topRight": 2,
+        "left": 3,
+        "center": 4,
+        "right": 5,
+        "bottomLeft": 6,
+        "bottom": 7,
+        "bottomRight": 8
+      },
+      "innerCorners": {
+        "topLeft": 9,
+        "topRight": 10,
+        "bottomLeft": 12,
+        "bottomRight": 13
+      },
+      "collide": true
+    },
+    {
+      "id": "water-stone-1",
+      "name": "Water Stone 1",
+      "path": "tiles/Water_Stone_Tile_4_x2_smooth.png",
+      "tileSize": 32,
+      "tileDefId": 18,
+      "frames": {
+        "topLeft": 0,
+        "top": 1,
+        "topRight": 2,
+        "left": 3,
+        "center": 4,
+        "right": 5,
+        "bottomLeft": 6,
+        "bottom": 7,
+        "bottomRight": 8
+      },
+      "innerCorners": {
+        "topLeft": 9,
+        "topRight": 10,
+        "bottomLeft": 12,
+        "bottomRight": 13
+      },
+      "collide": true
+    },
+    {
+      "id": "water-stone-2",
+      "name": "Water Stone 2",
+      "path": "tiles/Water_Stone_Tile_2_x2_smooth.png",
+      "tileSize": 32,
+      "tileDefId": 19,
+      "frames": {
+        "topLeft": 0,
+        "top": 1,
+        "topRight": 2,
+        "left": 3,
+        "center": 4,
+        "right": 5,
+        "bottomLeft": 6,
+        "bottom": 7,
+        "bottomRight": 8
+      },
+      "innerCorners": {
+        "topLeft": 9,
+        "topRight": 10,
+        "bottomLeft": 12,
+        "bottomRight": 13
+      },
+      "collide": true
+    },
+    {
+      "id": "water-stone-3",
+      "name": "Water Stone 3",
+      "path": "tiles/Water_Stone_Tile_3_x2_smooth.png",
+      "tileSize": 34,
+      "tileDefId": 20,
+      "frames": {
+        "topLeft": 0,
+        "top": 1,
+        "topRight": 2,
+        "left": 3,
+        "center": 4,
+        "right": 5,
+        "bottomLeft": 6,
+        "bottom": 7,
+        "bottomRight": 8
+      },
+      "innerCorners": {
+        "topLeft": 9,
+        "topRight": 10,
+        "bottomLeft": 12,
+        "bottomRight": 13
+      },
+      "collide": true
+    },
+    {
+      "id": "water-stone-4",
+      "name": "Water Stone 4",
+      "path": "tiles/Water_Stone_Tile_4_x2_smooth.png",
+      "tileSize": 32,
+      "tileDefId": 21,
+      "frames": {
+        "topLeft": 0,
+        "top": 1,
+        "topRight": 2,
+        "left": 3,
+        "center": 4,
+        "right": 5,
+        "bottomLeft": 6,
+        "bottom": 7,
+        "bottomRight": 8
+      },
+      "innerCorners": {
+        "topLeft": 9,
+        "topRight": 10,
+        "bottomLeft": 12,
+        "bottomRight": 13
+      },
+      "collide": true
+    },
+    {
+      "id": "farmland-wet",
+      "name": "Wet Farmland",
+      "path": "tiles/FarmLand_Wet_Tile_x2_smooth.png",
+      "tileSize": 64,
+      "tileDefId": 22,
+      "frames": {
+        "topLeft": 1,
+        "top": 2,
+        "topRight": 3,
+        "left": 8,
+        "center": 9,
+        "right": 10,
+        "bottomLeft": 15,
+        "bottom": 16,
+        "bottomRight": 17,
+        "standalone": 0,
+        "hStripLeft": 22,
+        "hStripMiddle": 23,
+        "hStripRight": 24,
+        "vStripTop": 7,
+        "vStripMiddle": 14,
+        "vStripBottom": 21,
+        "lJunctionTL": 4,
+        "lJunctionTR": 6,
+        "lJunctionBL": 18,
+        "lJunctionBR": 20
+      },
+      "innerCorners": {
+        "topLeft": 25,
+        "topRight": 26,
+        "bottomLeft": 32,
+        "bottomRight": 33
+      },
+      "collide": false
+    },
+    {
+      "id": "grass-tiles-1",
+      "name": "Grass Tiles 1",
+      "path": "tiles/Grass_Tiles_1_x2_smooth.png",
+      "tileSize": 32,
+      "tileDefId": 23,
+      "frames": {
+        "topLeft": 80,
+        "top": 81,
+        "topRight": 82,
+        "left": 96,
+        "center": 97,
+        "right": 98,
+        "bottomLeft": 112,
+        "bottom": 113,
+        "bottomRight": 114
+      },
+      "innerCorners": {
+        "topLeft": 128,
+        "topRight": 129,
+        "bottomLeft": 144,
+        "bottomRight": 145
+      },
+      "collide": false
+    },
+    {
+      "id": "grass-tiles-2",
+      "name": "Grass Tiles 2",
+      "path": "tiles/Grass_Tiles_2_x2_smooth.png",
+      "tileSize": 32,
+      "tileDefId": 24,
+      "frames": {
+        "topLeft": 0,
+        "top": 1,
+        "topRight": 2,
+        "left": 16,
+        "center": 17,
+        "right": 18,
+        "bottomLeft": 32,
+        "bottom": 33,
+        "bottomRight": 34
+      },
+      "innerCorners": {
+        "topLeft": 48,
+        "topRight": 49,
+        "bottomLeft": 64,
+        "bottomRight": 65
+      },
+      "collide": false
+    },
+    {
+      "id": "grass-tiles-3",
+      "name": "Grass Tiles 3",
+      "path": "tiles/Grass_Tiles_1_x2_smooth.png",
+      "tileSize": 34,
+      "tileDefId": 25,
+      "frames": {
+        "topLeft": 3,
+        "top": 4,
+        "topRight": 5,
+        "left": 19,
+        "center": 20,
+        "right": 21,
+        "bottomLeft": 35,
+        "bottom": 36,
+        "bottomRight": 37
+      },
+      "innerCorners": {
+        "topLeft": 51,
+        "topRight": 52,
+        "bottomLeft": 67,
+        "bottomRight": 68
+      },
+      "collide": false
+    },
+    {
+      "id": "grass-tiles-4",
+      "name": "Grass Tiles 4",
+      "path": "tiles/Grass_Tiles_4_x2_smooth.png",
+      "tileSize": 32,
+      "tileDefId": 26,
+      "frames": {
+        "topLeft": 0,
+        "top": 1,
+        "topRight": 2,
+        "left": 16,
+        "center": 17,
+        "right": 18,
+        "bottomLeft": 32,
+        "bottom": 33,
+        "bottomRight": 34
+      },
+      "innerCorners": {
+        "topLeft": 48,
+        "topRight": 49,
+        "bottomLeft": 64,
+        "bottomRight": 65
+      },
+      "collide": false
+    },
+    {
+      "id": "pavement",
+      "name": "Pavement",
+      "path": "tiles/Pavement_Tiles_x2_smooth.png",
+      "tileSize": 32,
+      "tileDefId": 27,
+      "frames": {
+        "topLeft": 0,
+        "top": 1,
+        "topRight": 2,
+        "left": 9,
+        "center": 10,
+        "right": 11,
+        "bottomLeft": 18,
+        "bottom": 19,
+        "bottomRight": 20
+      },
+      "collide": false
+    },
+    {
+      "id": "wooden-deck",
+      "name": "Wooden Deck",
+      "path": "tiles/Wooden_Deck_Tiles_x2_smooth.png",
+      "tileSize": 32,
+      "tileDefId": 28,
+      "frames": {
+        "topLeft": 0,
+        "top": 1,
+        "topRight": 2,
+        "left": 5,
+        "center": 6,
+        "right": 7,
+        "bottomLeft": 10,
+        "bottom": 11,
+        "bottomRight": 12
+      },
+      "collide": false
+    },
+    {
+      "id": "beach",
+      "name": "Beach",
+      "path": "tiles/Beach_Tiles_x2_smooth.png",
+      "tileSize": 32,
+      "tileDefId": 29,
+      "frames": {
+        "topLeft": 0,
+        "top": 1,
+        "topRight": 2,
+        "left": 30,
+        "center": 31,
+        "right": 32,
+        "bottomLeft": 60,
+        "bottom": 61,
+        "bottomRight": 62
+      },
+      "collide": false
+    },
+    {
+      "id": "stone-cliff-1",
+      "name": "Stone Cliff 1",
+      "path": "tiles/Stone_Cliff_1_Tile_x2_smooth.png",
+      "tileSize": 32,
+      "tileDefId": 30,
+      "frames": {
+        "topLeft": 0,
+        "top": 1,
+        "topRight": 2,
+        "left": 14,
+        "center": 15,
+        "right": 16,
+        "bottomLeft": 28,
+        "bottom": 29,
+        "bottomRight": 30
+      },
+      "collide": true
+    },
+    {
+      "id": "stone-cliff-2",
+      "name": "Stone Cliff 2",
+      "path": "tiles/Stone_Cliff_2_Tile_x2_smooth.png",
+      "tileSize": 32,
+      "tileDefId": 31,
+      "frames": {
+        "topLeft": 0,
+        "top": 1,
+        "topRight": 2,
+        "left": 14,
+        "center": 15,
+        "right": 16,
+        "bottomLeft": 28,
+        "bottom": 29,
+        "bottomRight": 30
+      },
+      "collide": true
+    },
+    {
+      "id": "stone-cliff-3",
+      "name": "Stone Cliff 3",
+      "path": "tiles/Stone_Cliff_3_Tile_x2_smooth.png",
+      "tileSize": 32,
+      "tileDefId": 32,
+      "frames": {
+        "topLeft": 0,
+        "top": 1,
+        "topRight": 2,
+        "left": 14,
+        "center": 15,
+        "right": 16,
+        "bottomLeft": 28,
+        "bottom": 29,
+        "bottomRight": 30
+      },
+      "collide": true
+    },
+    {
+      "id": "stone-cliff-4",
+      "name": "Stone Cliff 4",
+      "path": "tiles/Stone_Cliff_4_Tile_x2_smooth.png",
+      "tileSize": 32,
+      "tileDefId": 33,
+      "frames": {
+        "topLeft": 0,
+        "top": 1,
+        "topRight": 2,
+        "left": 14,
+        "center": 15,
+        "right": 16,
+        "bottomLeft": 28,
+        "bottom": 29,
+        "bottomRight": 30
+      },
+      "collide": true
+    },
+    {
+      "id": "bridge-wood",
+      "name": "Bridge Wood",
+      "path": "tiles/Bridge_Wood_x2_smooth.png",
+      "tileSize": 32,
+      "tileDefId": 34,
+      "frames": {
+        "topLeft": 0,
+        "top": 1,
+        "topRight": 2,
+        "left": 9,
+        "center": 10,
+        "right": 11,
+        "bottomLeft": 18,
+        "bottom": 19,
+        "bottomRight": 20
+      },
+      "collide": false
+    },
+    {
+      "id": "bridge-wood-alt",
+      "name": "Bridge Wood Alt",
+      "path": "tiles/Bridge_Wood_1_x2_smooth.png",
+      "tileSize": 32,
+      "tileDefId": 35,
+      "frames": {
+        "topLeft": 0,
+        "top": 1,
+        "topRight": 2,
+        "left": 6,
+        "center": 7,
+        "right": 8,
+        "bottomLeft": 12,
+        "bottom": 13,
+        "bottomRight": 14
+      },
+      "collide": false
+    },
+    {
+      "id": "bridge-stone-h",
+      "name": "Bridge Stone (H)",
+      "path": "tiles/Bridge_Stone_Horizontal_x2_smooth.png",
+      "tileSize": 32,
+      "tileDefId": 36,
+      "frames": {
+        "topLeft": 0,
+        "top": 1,
+        "topRight": 2,
+        "left": 12,
+        "center": 13,
+        "right": 14,
+        "bottomLeft": 24,
+        "bottom": 25,
+        "bottomRight": 26
+      },
+      "collide": false
+    },
+    {
+      "id": "bridge-stone-v",
+      "name": "Bridge Stone (V)",
+      "path": "tiles/Bridge_Stone_Vertical_x2_smooth.png",
+      "tileSize": 32,
+      "tileDefId": 37,
+      "frames": {
+        "topLeft": 0,
+        "top": 1,
+        "topRight": 2,
+        "left": 4,
+        "center": 5,
+        "right": 6,
+        "bottomLeft": 8,
+        "bottom": 9,
+        "bottomRight": 10
+      },
+      "collide": false
+    },
+    {
+      "id": "picnic-blankets",
+      "name": "Picnic Blankets",
+      "path": "tiles/Picnic_Blankets_x2_smooth.png",
+      "tileSize": 32,
+      "tileDefId": 38,
+      "frames": {
+        "topLeft": 0,
+        "top": 1,
+        "topRight": 2,
+        "left": 6,
+        "center": 7,
+        "right": 8,
+        "bottomLeft": 12,
+        "bottom": 13,
+        "bottomRight": 14
+      },
+      "collide": false
+    },
+    {
+      "id": "fence-wood",
+      "name": "Wood Fence",
+      "path": "tiles/Fences_x2_smooth.png",
+      "tileSize": 64,
+      "tileDefId": 39,
+      "frames": {
+        "topLeft": 5,
+        "top": 6,
+        "topRight": 7,
+        "left": 9,
+        "center": 10,
+        "right": 11,
+        "bottomLeft": 13,
+        "bottom": 14,
+        "bottomRight": 15,
+        "standalone": 12,
+        "hStripLeft": 1,
+        "hStripMiddle": 2,
+        "hStripRight": 3,
+        "vStripTop": 0,
+        "vStripMiddle": 4,
+        "vStripBottom": 8,
+        "lJunctionTL": 5,
+        "lJunctionTR": 7,
+        "lJunctionBL": 13,
+        "lJunctionBR": 15
+      },
+      "innerCorners": {
+        "topLeft": 5,
+        "topRight": 7,
+        "bottomLeft": 13,
+        "bottomRight": 15
+      },
+      "collide": true
+    },
+    {
+      "id": "fence-wood-big",
+      "name": "Wood Fence (Big)",
+      "path": "tiles/Fence_Big_x2_smooth.png",
+      "tileSize": 64,
+      "tileDefId": 40,
+      "frames": {
+        "topLeft": 5,
+        "top": 6,
+        "topRight": 7,
+        "left": 9,
+        "center": 10,
+        "right": 11,
+        "bottomLeft": 13,
+        "bottom": 14,
+        "bottomRight": 15,
+        "standalone": 12,
+        "hStripLeft": 1,
+        "hStripMiddle": 2,
+        "hStripRight": 3,
+        "vStripTop": 8,
+        "vStripMiddle": 4,
+        "vStripBottom": 0
+      },
+      "innerCorners": {
+        "topLeft": 5,
+        "topRight": 7,
+        "bottomLeft": 13,
+        "bottomRight": 15
+      },
+      "collide": true
+    },
+    {
+      "id": "fence-stone-big",
+      "name": "Stone Fence (Big)",
+      "path": "tiles/Stone_Fence_Big_x2_smooth.png",
+      "tileSize": 32,
+      "tileDefId": 41,
+      "frames": {
+        "topLeft": 5,
+        "top": 2,
+        "topRight": 7,
+        "left": 4,
+        "center": 10,
+        "right": 4,
+        "bottomLeft": 13,
+        "bottom": 2,
+        "bottomRight": 15
+      },
+      "innerCorners": {
+        "topLeft": 9,
+        "topRight": 11,
+        "bottomLeft": 1,
+        "bottomRight": 3
+      },
+      "collide": false
+    },
+    {
+      "id": "fence-stone-small",
+      "name": "Stone Fence (Small)",
+      "path": "tiles/Stone_Fence_Small_x2_smooth.png",
+      "tileSize": 32,
+      "tileDefId": 42,
+      "frames": {
+        "topLeft": 5,
+        "top": 2,
+        "topRight": 7,
+        "left": 4,
+        "center": 10,
+        "right": 4,
+        "bottomLeft": 13,
+        "bottom": 2,
+        "bottomRight": 15
+      },
+      "innerCorners": {
+        "topLeft": 9,
+        "topRight": 11,
+        "bottomLeft": 1,
+        "bottomRight": 3
+      },
+      "collide": false
+    },
+    {
+      "id": "fence-white",
+      "name": "White Fence",
+      "path": "tiles/White_Fence_x2_smooth.png",
+      "tileSize": 32,
+      "tileDefId": 43,
+      "frames": {
+        "topLeft": 6,
+        "top": 2,
+        "topRight": 8,
+        "left": 5,
+        "center": 12,
+        "right": 5,
+        "bottomLeft": 16,
+        "bottom": 2,
+        "bottomRight": 18
+      },
+      "innerCorners": {
+        "topLeft": 11,
+        "topRight": 13,
+        "bottomLeft": 1,
+        "bottomRight": 3
+      },
+      "collide": false
+    },
+    {
+      "id": "wood-floor",
+      "name": "Wood Floor",
+      "path": "tiles/Wood_Floor_Tiles_x2_smooth.png",
+      "tileSize": 32,
+      "tileDefId": 44,
+      "frames": {
+        "topLeft": 0,
+        "top": 0,
+        "topRight": 0,
+        "left": 0,
+        "center": 0,
+        "right": 0,
+        "bottomLeft": 0,
+        "bottom": 0,
+        "bottomRight": 0
+      },
+      "collide": false
+    },
+    {
+      "id": "interior-wall",
+      "name": "Interior Wall",
+      "path": "tiles/Interior_Walls_x2_smooth.png",
+      "tileSize": 34,
+      "tileDefId": 45,
+      "frames": {
+        "topLeft": 50,
+        "top": 45,
+        "topRight": 51,
+        "left": 64,
+        "center": 59,
+        "right": 65,
+        "bottomLeft": 78,
+        "bottom": 73,
+        "bottomRight": 79
+      },
+      "collide": true
+    },
+    {
+      "id": "wood-wall-fill",
+      "name": "Wood Wall Accent",
+      "path": "tiles/Wood_Wall_Fillers_x2_smooth.png",
+      "tileSize": 32,
+      "tileDefId": 46,
+      "frames": {
+        "topLeft": 0,
+        "top": 0,
+        "topRight": 0,
+        "left": 0,
+        "center": 0,
+        "right": 0,
+        "bottomLeft": 0,
+        "bottom": 0,
+        "bottomRight": 0
+      },
+      "collide": true
+    },
+    {
+      "id": "stone-wall-fill",
+      "name": "Stone Wall Accent",
+      "path": "tiles/Stone_Wall_Fillers_x2_smooth.png",
+      "tileSize": 32,
+      "tileDefId": 47,
+      "frames": {
+        "topLeft": 0,
+        "top": 0,
+        "topRight": 0,
+        "left": 0,
+        "center": 0,
+        "right": 0,
+        "bottomLeft": 0,
+        "bottom": 0,
+        "bottomRight": 0
+      },
+      "collide": false
+    },
+    {
+      "id": "cave-rails-tile",
+      "name": "Cave Rails",
+      "path": "sprites/cave/Rails_x2_smooth.png",
+      "tileSize": 32,
+      "tileDefId": 48,
+      "frames": {
+        "center": 10,
+        "topLeft": 2,
+        "top": 3,
+        "topRight": 4,
+        "left": 9,
+        "right": 11,
+        "bottomLeft": 16,
+        "bottom": 17,
+        "bottomRight": 18,
+        "standalone": 1,
+        "hStripLeft": 3,
+        "hStripMiddle": 5,
+        "hStripRight": 6,
+        "vStripTop": 11,
+        "vStripMiddle": 12,
+        "vStripBottom": 13
+      },
+      "collide": false
+    },
+    {
+      "id": "grass_lighten",
+      "name": "grass_patch_light",
+      "path": "tiles/ground_tint.png",
+      "tileSize": 64,
+      "tileDefId": 49,
+      "frames": {
+        "topLeft": 1,
+        "top": 2,
+        "topRight": 3,
+        "left": 8,
+        "center": 9,
+        "right": 10,
+        "bottomLeft": 15,
+        "bottom": 16,
+        "bottomRight": 17,
+        "standalone": 0,
+        "hStripLeft": 22,
+        "hStripMiddle": 23,
+        "hStripRight": 24,
+        "vStripTop": 7,
+        "vStripMiddle": 14,
+        "vStripBottom": 21,
+        "lJunctionTL": 4,
+        "lJunctionTR": 6,
+        "lJunctionBL": 18,
+        "lJunctionBR": 20
+      },
+      "innerCorners": {
+        "topLeft": 25,
+        "topRight": 26,
+        "bottomLeft": 32,
+        "bottomRight": 33
+      },
+      "collide": false
+    },
+    {
+      "id": "grass_pattern_tint",
+      "name": "grass_pattern_dark",
+      "path": "tiles/ground_tint_dark.png",
+      "tileSize": 64,
+      "tileDefId": 50,
+      "frames": {
+        "topLeft": 1,
+        "top": 2,
+        "topRight": 3,
+        "left": 8,
+        "center": 9,
+        "right": 10,
+        "bottomLeft": 15,
+        "bottom": 16,
+        "bottomRight": 17,
+        "standalone": 0,
+        "hStripLeft": 22,
+        "hStripMiddle": 23,
+        "hStripRight": 24,
+        "vStripTop": 7,
+        "vStripMiddle": 14,
+        "vStripBottom": 21,
+        "lJunctionTL": 4,
+        "lJunctionTR": 6,
+        "lJunctionBL": 18,
+        "lJunctionBR": 20
+      },
+      "innerCorners": {
+        "topLeft": 25,
+        "topRight": 26,
+        "bottomLeft": 32,
+        "bottomRight": 33
+      },
+      "collide": false
+    },
+    {
+      "id": "Dirt_patch",
+      "name": "Dir_patch",
+      "path": "tiles/ground_tint_dirt.png",
+      "tileSize": 64,
+      "tileDefId": 51,
+      "frames": {
+        "topLeft": 1,
+        "top": 2,
+        "topRight": 3,
+        "left": 8,
+        "center": 9,
+        "right": 10,
+        "bottomLeft": 15,
+        "bottom": 16,
+        "bottomRight": 17,
+        "standalone": 0,
+        "hStripLeft": 22,
+        "hStripMiddle": 23,
+        "hStripRight": 24,
+        "vStripTop": 7,
+        "vStripMiddle": 14,
+        "vStripBottom": 21,
+        "lJunctionTL": 4,
+        "lJunctionTR": 6,
+        "lJunctionBL": 18,
+        "lJunctionBR": 20
+      },
+      "innerCorners": {
+        "topLeft": 25,
+        "topRight": 26,
+        "bottomLeft": 32,
+        "bottomRight": 33
+      },
+      "collide": false
+    },
+    {
+      "id": "Berry_hedge",
+      "name": "berry_hedge",
+      "path": "tiles/Berry_hedge_Tiles.png",
+      "tileSize": 32,
+      "tileDefId": 52,
+      "frames": {
+        "topLeft": 5,
+        "top": 6,
+        "topRight": 7,
+        "left": 9,
+        "center": 10,
+        "right": 11,
+        "bottomLeft": 13,
+        "bottom": 14,
+        "bottomRight": 15,
+        "standalone": 12,
+        "hStripLeft": 1,
+        "hStripMiddle": 2,
+        "hStripRight": 3,
+        "vStripTop": 0,
+        "vStripMiddle": 4,
+        "vStripBottom": 8,
+        "lJunctionTL": 5,
+        "lJunctionTR": 7,
+        "lJunctionBL": 13,
+        "lJunctionBR": 15
+      },
+      "innerCorners": {
+        "topLeft": 5,
+        "topRight": 7,
+        "bottomLeft": 13,
+        "bottomRight": 15
+      },
+      "collide": true
+    },
+    {
+      "id": "town_brick",
+      "name": "town_brick",
+      "path": "tiles/town_cobble_road.png",
+      "tileSize": 64,
+      "tileDefId": 53,
+      "frames": {
+        "topLeft": 1,
+        "top": 2,
+        "topRight": 3,
+        "left": 8,
+        "center": 9,
+        "right": 10,
+        "bottomLeft": 15,
+        "bottom": 16,
+        "bottomRight": 17,
+        "standalone": 0,
+        "hStripLeft": 22,
+        "hStripMiddle": 23,
+        "hStripRight": 24,
+        "vStripTop": 7,
+        "vStripMiddle": 14,
+        "vStripBottom": 21,
+        "lJunctionTL": 4,
+        "lJunctionTR": 6,
+        "lJunctionBL": 18,
+        "lJunctionBR": 20
+      },
+      "innerCorners": {
+        "topLeft": 25,
+        "topRight": 26,
+        "bottomLeft": 32,
+        "bottomRight": 33
+      },
+      "collide": false
+    }
+  ],
+  "collideTileDefIds": [
+    3,
+    5,
+    7,
+    17,
+    18,
+    19,
+    20,
+    21,
+    30,
+    31,
+    32,
+    33,
+    39,
+    40,
+    45,
+    46,
+    52
+  ]
+}

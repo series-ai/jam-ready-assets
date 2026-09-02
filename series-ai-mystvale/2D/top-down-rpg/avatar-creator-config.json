@@ -1,0 +1,153 @@
+{
+  "version": 1,
+  "layers": {
+    "skin": {
+      "tintEnabled": true
+    },
+    "eyes": {
+      "tintEnabled": false,
+      "enabled": true
+    },
+    "blush": {
+      "tintEnabled": true,
+      "enabled": true
+    },
+    "lipstick": {
+      "tintEnabled": false,
+      "enabled": false
+    },
+    "clothes": {
+      "tintEnabled": true
+    },
+    "hair": {
+      "tintEnabled": true,
+      "enabled": true
+    },
+    "accessories": {
+      "tintEnabled": false,
+      "enabled": true
+    }
+  },
+  "clothesSlots": {
+    "clothes-default": "full",
+    "clothes-overalls": "full",
+    "cottage-dress": "full"
+  },
+  "availableAssets": {
+    "body-greyscale": true,
+    "eyes": false,
+    "blush": true,
+    "lipstick": false,
+    "clothes-default": true,
+    "clothes-overalls": true,
+    "cottage-dress": true,
+    "fem-face": true,
+    "bob-cut": true,
+    "slick-back": true,
+    "mod-button": false,
+    "mod-shoes": false,
+    "mod-gloves": false,
+    "mod-overalls": false,
+    "mod-overalls-detail": false,
+    "mod-floral-base": false,
+    "mod-floral-detail": false,
+    "mod-sporty-detail": false,
+    "mod-stripe-detail": false,
+    "mod-skull-detail": false,
+    "mod-sailor-detail": false,
+    "mod-sailor-ribbon": false,
+    "mod-suit-jacket": false,
+    "mod-suit-shirt": false,
+    "mod-suit-button": false,
+    "mod-suit-tie": false,
+    "mod-witch-base": false,
+    "mod-witch-belt": false,
+    "mod-witch-detail": false,
+    "mod-witch-middle": false,
+    "mod-witch-shoes": false,
+    "mod-spooky-base": false,
+    "mod-spooky-detail": false,
+    "mod-pumpkin-base": false,
+    "mod-clown-base": false,
+    "mod-clown-belt": false,
+    "hair-bob": true,
+    "hair-braids": true,
+    "hair-braids-tie": false,
+    "hair-buzzcut": true,
+    "hair-curly": true,
+    "hair-emo": true,
+    "hair-extra-long": true,
+    "hair-extra-long-skirt": true,
+    "hair-frenchcurl": true,
+    "hair-gentleman": true,
+    "hair-long-straight": true,
+    "hair-long-straight-skirt": true,
+    "hair-midiwave": true,
+    "hair-ponytail": true,
+    "hair-spacebuns": true,
+    "hair-wavy": true,
+    "acc-beard": true,
+    "acc-earring-emerald": true,
+    "acc-earring-emerald-silver": true,
+    "acc-earring-red": true,
+    "acc-earring-red-silver": true,
+    "acc-glasses": true,
+    "acc-glasses-sun": true,
+    "acc-hat-cowboy": true,
+    "acc-hat-lucky": true,
+    "acc-hat-pumpkin": true,
+    "acc-hat-pumpkin-purple": true,
+    "acc-hat-witch": true,
+    "acc-mask-clown-blue": true,
+    "acc-mask-clown-red": true,
+    "acc-mask-spooky": true,
+    "tool-axe-blade": false,
+    "tool-axe-handle": false,
+    "tool-fishingrod-handle": false,
+    "tool-fishingrod-rod": false,
+    "tool-fishingrod-wheel": false,
+    "tool-hoe-blade": false,
+    "tool-hoe-handle": false,
+    "tool-pickaxe-blade": false,
+    "tool-pickaxe-handle": false,
+    "tool-sword-blade": false,
+    "tool-sword-blade-block": false,
+    "tool-sword-handle": false,
+    "tool-sword-handle-block": false,
+    "tool-wateringcan-base": false,
+    "tool-wateringcan-water": false
+  },
+  "tintPalettes": {
+    "skin": [
+      "#d4a574",
+      "#a07050",
+      "#6b4226",
+      "#f4bfa9",
+      "#f8e2d8"
+    ],
+    "blush": [
+      "#e8a0a0",
+      "#f59ed8"
+    ],
+    "clothes": [
+      "#6b8cae",
+      "#4477aa",
+      "#8B4513",
+      "#2ecc71",
+      "#e74c3c",
+      "#9b59b6",
+      "#333333",
+      "#f39c12"
+    ],
+    "hair": [
+      "#f5e6c8",
+      "#c49a6c",
+      "#8B4513",
+      "#5c3317",
+      "#2a1a0a",
+      "#b8d4e8",
+      "#9b59b6",
+      "#cc3333"
+    ]
+  }
+}

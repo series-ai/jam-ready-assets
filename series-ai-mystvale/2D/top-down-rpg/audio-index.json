@@ -1,0 +1,324 @@
+{
+  "clips": [
+    {
+      "id": "audio.ambient.forest-day",
+      "category": "ambient",
+      "path": "audio/ambient/forest-day.ogg"
+    },
+    {
+      "id": "audio.ambient.forest-night",
+      "category": "ambient",
+      "path": "audio/ambient/forest-night.ogg"
+    },
+    {
+      "id": "audio.ambient.interior-day",
+      "category": "ambient",
+      "path": "audio/ambient/interior-day.ogg"
+    },
+    {
+      "id": "audio.ambient.interior-night",
+      "category": "ambient",
+      "path": "audio/ambient/interior-night.ogg"
+    },
+    {
+      "id": "audio.music.autumn-valley",
+      "category": "music",
+      "path": "audio/music/autumn-valley.ogg"
+    },
+    {
+      "id": "audio.music.glass-forest",
+      "category": "music",
+      "path": "audio/music/glass-forest.ogg"
+    },
+    {
+      "id": "audio.music.glowing-bark",
+      "category": "music",
+      "path": "audio/music/glowing-bark.ogg"
+    },
+    {
+      "id": "audio.music.medieval-1",
+      "category": "music",
+      "path": "audio/music/medieval-1.ogg"
+    },
+    {
+      "id": "audio.music.medieval-2",
+      "category": "music",
+      "path": "audio/music/medieval-2.ogg"
+    },
+    {
+      "id": "audio.music.medieval-4",
+      "category": "music",
+      "path": "audio/music/medieval-4.ogg"
+    },
+    {
+      "id": "audio.music.misty-clearing",
+      "category": "music",
+      "path": "audio/music/misty-clearing.ogg"
+    },
+    {
+      "id": "audio.music.tick-tock-trees",
+      "category": "music",
+      "path": "audio/music/tick-tock-trees.ogg"
+    },
+    {
+      "id": "audio.sfx.chest.close-1",
+      "category": "sfx",
+      "path": "audio/sfx/chest/close-1.ogg"
+    },
+    {
+      "id": "audio.sfx.chest.close-2",
+      "category": "sfx",
+      "path": "audio/sfx/chest/close-2.ogg"
+    },
+    {
+      "id": "audio.sfx.chest.open-1",
+      "category": "sfx",
+      "path": "audio/sfx/chest/open-1.ogg"
+    },
+    {
+      "id": "audio.sfx.chest.open-2",
+      "category": "sfx",
+      "path": "audio/sfx/chest/open-2.ogg"
+    },
+    {
+      "id": "audio.sfx.chop.chop-1",
+      "category": "sfx",
+      "path": "audio/sfx/chop/chop-1.ogg"
+    },
+    {
+      "id": "audio.sfx.chop.chop-2",
+      "category": "sfx",
+      "path": "audio/sfx/chop/chop-2.ogg"
+    },
+    {
+      "id": "audio.sfx.chop.chop-3",
+      "category": "sfx",
+      "path": "audio/sfx/chop/chop-3.ogg"
+    },
+    {
+      "id": "audio.sfx.chop.chop-4",
+      "category": "sfx",
+      "path": "audio/sfx/chop/chop-4.ogg"
+    },
+    {
+      "id": "audio.sfx.door.close-1",
+      "category": "sfx",
+      "path": "audio/sfx/door/close-1.ogg"
+    },
+    {
+      "id": "audio.sfx.door.close-2",
+      "category": "sfx",
+      "path": "audio/sfx/door/close-2.ogg"
+    },
+    {
+      "id": "audio.sfx.door.open-1",
+      "category": "sfx",
+      "path": "audio/sfx/door/open-1.ogg"
+    },
+    {
+      "id": "audio.sfx.door.open-2",
+      "category": "sfx",
+      "path": "audio/sfx/door/open-2.ogg"
+    },
+    {
+      "id": "audio.sfx.farm.harvest",
+      "category": "sfx",
+      "path": "audio/sfx/farm/harvest.ogg"
+    },
+    {
+      "id": "audio.sfx.farm.hoe",
+      "category": "sfx",
+      "path": "audio/sfx/farm/hoe.ogg"
+    },
+    {
+      "id": "audio.sfx.farm.seed",
+      "category": "sfx",
+      "path": "audio/sfx/farm/seed.ogg"
+    },
+    {
+      "id": "audio.sfx.farm.watering",
+      "category": "sfx",
+      "path": "audio/sfx/farm/watering.ogg"
+    },
+    {
+      "id": "audio.sfx.fishing.cast",
+      "category": "sfx",
+      "path": "audio/sfx/fishing/cast.ogg"
+    },
+    {
+      "id": "audio.sfx.fishing.catch",
+      "category": "sfx",
+      "path": "audio/sfx/fishing/catch.ogg"
+    },
+    {
+      "id": "audio.sfx.fishing.reel",
+      "category": "sfx",
+      "path": "audio/sfx/fishing/reel.ogg"
+    },
+    {
+      "id": "audio.sfx.footsteps.dirt.walk-1",
+      "category": "sfx",
+      "path": "audio/sfx/footsteps/dirt/walk-1.ogg"
+    },
+    {
+      "id": "audio.sfx.footsteps.dirt.walk-2",
+      "category": "sfx",
+      "path": "audio/sfx/footsteps/dirt/walk-2.ogg"
+    },
+    {
+      "id": "audio.sfx.footsteps.dirt.walk-3",
+      "category": "sfx",
+      "path": "audio/sfx/footsteps/dirt/walk-3.ogg"
+    },
+    {
+      "id": "audio.sfx.footsteps.dirt.walk-4",
+      "category": "sfx",
+      "path": "audio/sfx/footsteps/dirt/walk-4.ogg"
+    },
+    {
+      "id": "audio.sfx.footsteps.dirt.walk-5",
+      "category": "sfx",
+      "path": "audio/sfx/footsteps/dirt/walk-5.ogg"
+    },
+    {
+      "id": "audio.sfx.footsteps.stone.walk-1",
+      "category": "sfx",
+      "path": "audio/sfx/footsteps/stone/walk-1.ogg"
+    },
+    {
+      "id": "audio.sfx.footsteps.stone.walk-2",
+      "category": "sfx",
+      "path": "audio/sfx/footsteps/stone/walk-2.ogg"
+    },
+    {
+      "id": "audio.sfx.footsteps.stone.walk-3",
+      "category": "sfx",
+      "path": "audio/sfx/footsteps/stone/walk-3.ogg"
+    },
+    {
+      "id": "audio.sfx.footsteps.stone.walk-4",
+      "category": "sfx",
+      "path": "audio/sfx/footsteps/stone/walk-4.ogg"
+    },
+    {
+      "id": "audio.sfx.footsteps.stone.walk-5",
+      "category": "sfx",
+      "path": "audio/sfx/footsteps/stone/walk-5.ogg"
+    },
+    {
+      "id": "audio.sfx.footsteps.wood.walk-1",
+      "category": "sfx",
+      "path": "audio/sfx/footsteps/wood/walk-1.ogg"
+    },
+    {
+      "id": "audio.sfx.footsteps.wood.walk-2",
+      "category": "sfx",
+      "path": "audio/sfx/footsteps/wood/walk-2.ogg"
+    },
+    {
+      "id": "audio.sfx.footsteps.wood.walk-3",
+      "category": "sfx",
+      "path": "audio/sfx/footsteps/wood/walk-3.ogg"
+    },
+    {
+      "id": "audio.sfx.footsteps.wood.walk-4",
+      "category": "sfx",
+      "path": "audio/sfx/footsteps/wood/walk-4.ogg"
+    },
+    {
+      "id": "audio.sfx.footsteps.wood.walk-5",
+      "category": "sfx",
+      "path": "audio/sfx/footsteps/wood/walk-5.ogg"
+    },
+    {
+      "id": "audio.sfx.mining.mine-1",
+      "category": "sfx",
+      "path": "audio/sfx/mining/mine-1.ogg"
+    },
+    {
+      "id": "audio.sfx.mining.mine-2",
+      "category": "sfx",
+      "path": "audio/sfx/mining/mine-2.ogg"
+    },
+    {
+      "id": "audio.sfx.mining.mine-3",
+      "category": "sfx",
+      "path": "audio/sfx/mining/mine-3.ogg"
+    },
+    {
+      "id": "audio.sfx.mining.mine-4",
+      "category": "sfx",
+      "path": "audio/sfx/mining/mine-4.ogg"
+    },
+    {
+      "id": "audio.sfx.mining.mine-5",
+      "category": "sfx",
+      "path": "audio/sfx/mining/mine-5.ogg"
+    },
+    {
+      "id": "audio.sfx.sword.blocked-1",
+      "category": "sfx",
+      "path": "audio/sfx/sword/blocked-1.ogg"
+    },
+    {
+      "id": "audio.sfx.sword.blocked-2",
+      "category": "sfx",
+      "path": "audio/sfx/sword/blocked-2.ogg"
+    },
+    {
+      "id": "audio.sfx.sword.blocked-3",
+      "category": "sfx",
+      "path": "audio/sfx/sword/blocked-3.ogg"
+    },
+    {
+      "id": "audio.sfx.sword.hit-1",
+      "category": "sfx",
+      "path": "audio/sfx/sword/hit-1.ogg"
+    },
+    {
+      "id": "audio.sfx.sword.hit-2",
+      "category": "sfx",
+      "path": "audio/sfx/sword/hit-2.ogg"
+    },
+    {
+      "id": "audio.sfx.sword.hit-3",
+      "category": "sfx",
+      "path": "audio/sfx/sword/hit-3.ogg"
+    },
+    {
+      "id": "audio.sfx.ui.buy-sell",
+      "category": "sfx",
+      "path": "audio/sfx/ui/buy-sell.ogg"
+    },
+    {
+      "id": "audio.sfx.ui.confirm",
+      "category": "sfx",
+      "path": "audio/sfx/ui/confirm.ogg"
+    },
+    {
+      "id": "audio.sfx.ui.dialogue-bleep",
+      "category": "sfx",
+      "path": "audio/sfx/ui/dialogue-bleep.ogg"
+    },
+    {
+      "id": "audio.sfx.ui.dialogue-select",
+      "category": "sfx",
+      "path": "audio/sfx/ui/dialogue-select.ogg"
+    },
+    {
+      "id": "audio.sfx.ui.level-up",
+      "category": "sfx",
+      "path": "audio/sfx/ui/level-up.ogg"
+    },
+    {
+      "id": "audio.sfx.ui.quest-complete",
+      "category": "sfx",
+      "path": "audio/sfx/ui/quest-complete.ogg"
+    },
+    {
+      "id": "audio.sfx.ui.use-item",
+      "category": "sfx",
+      "path": "audio/sfx/ui/use-item.ogg"
+    }
+  ]
+}

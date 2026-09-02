@@ -1,0 +1,157 @@
+{
+  "assets": [
+    {
+      "id": "body-greyscale",
+      "name": "Default Body",
+      "path": "character/sheet_large.png",
+      "layer": "body"
+    },
+    {
+      "id": "clothes-default",
+      "name": "Default outfit",
+      "path": "clothes/sheet_default_tunic.png",
+      "layer": "clothes",
+      "noTint": true
+    },
+    {
+      "id": "clothes-overalls",
+      "name": "Overalls",
+      "path": "clothes/sheet_farming_overalls.png",
+      "layer": "clothes",
+      "noTint": true
+    },
+    {
+      "id": "acc-beard",
+      "name": "Beard",
+      "path": "acc/beard.png",
+      "layer": "accessories",
+      "noTint": true
+    },
+    {
+      "id": "acc-earring-emerald",
+      "name": "Earring (Emerald)",
+      "path": "acc/earring_emerald.png",
+      "layer": "accessories",
+      "noTint": true
+    },
+    {
+      "id": "acc-earring-emerald-silver",
+      "name": "Earring (Emerald Silver)",
+      "path": "acc/earring_emerald_silver.png",
+      "layer": "accessories",
+      "noTint": true
+    },
+    {
+      "id": "acc-earring-red",
+      "name": "Earring (Red)",
+      "path": "acc/earring_red.png",
+      "layer": "accessories",
+      "noTint": true
+    },
+    {
+      "id": "acc-earring-red-silver",
+      "name": "Earring (Red Silver)",
+      "path": "acc/earring_red_silver.png",
+      "layer": "accessories",
+      "noTint": true
+    },
+    {
+      "id": "acc-glasses",
+      "name": "Glasses",
+      "path": "acc/glasses.png",
+      "layer": "accessories",
+      "noTint": true
+    },
+    {
+      "id": "acc-glasses-sun",
+      "name": "Sunglasses",
+      "path": "acc/glasses_sun.png",
+      "layer": "accessories",
+      "noTint": true
+    },
+    {
+      "id": "acc-hat-cowboy",
+      "name": "Cowboy Hat",
+      "path": "acc/hat_cowboy.png",
+      "layer": "accessories",
+      "noTint": true
+    },
+    {
+      "id": "acc-hat-lucky",
+      "name": "Lucky Hat",
+      "path": "acc/hat_lucky.png",
+      "layer": "accessories",
+      "noTint": true
+    },
+    {
+      "id": "acc-hat-pumpkin",
+      "name": "Pumpkin Hat",
+      "path": "acc/hat_pumpkin.png",
+      "layer": "accessories",
+      "noTint": true
+    },
+    {
+      "id": "acc-hat-pumpkin-purple",
+      "name": "Pumpkin Hat (Purple)",
+      "path": "acc/hat_pumpkin_purple.png",
+      "layer": "accessories",
+      "noTint": true
+    },
+    {
+      "id": "acc-hat-witch",
+      "name": "Witch Hat",
+      "path": "acc/hat_witch.png",
+      "layer": "accessories",
+      "noTint": true
+    },
+    {
+      "id": "acc-mask-clown-blue",
+      "name": "Clown Mask (Blue)",
+      "path": "acc/mask_clown_blue.png",
+      "layer": "accessories",
+      "noTint": true
+    },
+    {
+      "id": "acc-mask-clown-red",
+      "name": "Clown Mask (Red)",
+      "path": "acc/mask_clown_red.png",
+      "layer": "accessories",
+      "noTint": true
+    },
+    {
+      "id": "acc-mask-spooky",
+      "name": "Spooky Mask",
+      "path": "acc/mask_spooky.png",
+      "layer": "accessories",
+      "noTint": true
+    },
+    {
+      "id": "cottage-dress",
+      "name": "Cottage Dress",
+      "path": "clothes/sheet_cottage_dress.png",
+      "layer": "clothes",
+      "noTint": false
+    },
+    {
+      "id": "fem-face",
+      "name": "Fem Face",
+      "path": "eyes/sheet_female_default_face.png",
+      "layer": "eyes",
+      "noTint": true
+    },
+    {
+      "id": "bob-cut",
+      "name": "Bob Cut",
+      "path": "hair/sheet_bobcut_hair.png",
+      "layer": "hair",
+      "noTint": false
+    },
+    {
+      "id": "slick-back",
+      "name": "Slick Back",
+      "path": "hair/sheet_slickback_hair.png",
+      "layer": "hair",
+      "noTint": false
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "totalDensity": 0.3,
+  "categories": {
+    "grass": {
+      "weight": 5,
+      "exclusionRadius": 2,
+      "regrowthDays": 1
+    },
+    "rocks": {
+      "weight": 2,
+      "exclusionRadius": 2,
+      "regrowthDays": 2,
+      "bonusDrops": [
+        {
+          "itemId": "coal",
+          "chance": 0.15,
+          "amount": 1
+        }
+      ]
+    },
+    "trees": {
+      "weight": 1,
+      "exclusionRadius": 3,
+      "regrowthDays": 1
+    }
+  },
+  "entries": [
+    {
+      "id": "debris-grass-1",
+      "category": "grass",
+      "path": "sprites/Grass_1_Anim_x2_smooth.png",
+      "isSpriteSheet": true,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "tool": "scythe",
+      "maxHits": 1,
+      "drops": [
+        {
+          "itemId": "fiber",
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "spriteScale": 2
+    },
+    {
+      "id": "debris-grass-2",
+      "category": "grass",
+      "path": "sprites/Grass_2_Anim_x2_smooth.png",
+      "isSpriteSheet": true,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "tool": "scythe",
+      "maxHits": 1,
+      "drops": [
+        {
+          "itemId": "fiber",
+          "min": 1,
+          "max": 2
+        }
+      ],
+      "spriteScale": 2
+    },
+    {
+      "id": "debris-grass-3",
+      "category": "grass",
+      "path": "sprites/Grass_3_Anim_x2_smooth.png",
+      "isSpriteSheet": true,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "tool": "scythe",
+      "maxHits": 1,
+      "drops": [
+        {
+          "itemId": "fiber",
+          "min": 1,
+          "max": 3
+        }
+      ],
+      "spriteScale": 2
+    },
+    {
+      "id": "debris-rock-1",
+      "category": "rocks",
+      "path": "sprites/Rock_1_Anim_x2_smooth.png",
+      "isSpriteSheet": true,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "tool": "pickaxe",
+      "maxHits": 1,
+      "drops": [
+        {
+          "itemId": "stone",
+          "min": 1,
+          "max": 2
+        }
+      ],
+      "spriteScale": 2
+    },
+    {
+      "id": "debris-rock-2",
+      "category": "rocks",
+      "path": "sprites/Rock_2_Anim_x2_smooth.png",
+      "isSpriteSheet": true,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "tool": "pickaxe",
+      "maxHits": 1,
+      "drops": [
+        {
+          "itemId": "stone",
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "spriteScale": 2
+    },
+    {
+      "id": "debris-rock-3",
+      "category": "rocks",
+      "path": "sprites/Rock_3_Anim_x2_smooth.png",
+      "isSpriteSheet": true,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "tool": "pickaxe",
+      "maxHits": 3,
+      "drops": [
+        {
+          "itemId": "stone",
+          "min": 1,
+          "max": 4
+        }
+      ],
+      "spriteScale": 2
+    },
+    {
+      "id": "debris-rock-4",
+      "category": "rocks",
+      "path": "sprites/Rock_4_Anim_x2_smooth.png",
+      "isSpriteSheet": true,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "tool": "pickaxe",
+      "maxHits": 3,
+      "drops": [
+        {
+          "itemId": "stone",
+          "min": 1,
+          "max": 3
+        }
+      ],
+      "spriteScale": 2
+    },
+    {
+      "id": "debris-rock-5",
+      "category": "rocks",
+      "path": "sprites/Rock_5_Anim_x2_smooth.png",
+      "isSpriteSheet": true,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "tool": "pickaxe",
+      "maxHits": 2,
+      "drops": [
+        {
+          "itemId": "stone",
+          "min": 1,
+          "max": 2
+        }
+      ],
+      "spriteScale": 2
+    },
+    {
+      "id": "debris-rock-6",
+      "category": "rocks",
+      "path": "sprites/Rock_6_Anim_x2_smooth.png",
+      "isSpriteSheet": true,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "tool": "pickaxe",
+      "maxHits": 2,
+      "drops": [
+        {
+          "itemId": "stone",
+          "min": 1,
+          "max": 2
+        }
+      ],
+      "spriteScale": 2
+    },
+    {
+      "id": "debris-sleeping-stone",
+      "category": "rocks",
+      "path": "sprites/Rock_3_Anim_x2_smooth.png",
+      "isSpriteSheet": true,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "tool": "pickaxe",
+      "maxHits": 3,
+      "drops": [
+        {
+          "itemId": "stone",
+          "min": 2,
+          "max": 4
+        }
+      ],
+      "spriteScale": 2
+    }
+  ]
+}
