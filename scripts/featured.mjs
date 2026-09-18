@@ -2,8 +2,16 @@
 // Assets panel, where they appear in a highlighted section at the top of the
 // pack list. Authored in `featured.json` at the repo root, validated here, and
 // embedded into manifest/v2/index.json. Deleting the file (or letting endsAt
-// pass — Studio checks it client-side) removes the featured section; neither
+// pass, which Studio checks client-side) removes the featured section; neither
 // needs a deploy.
+//
+// `startsAt` is the mirror image and cannot work the same way: Studio only
+// knows about `endsAt`, so a shelf that shipped with a future start would be
+// visible the moment it merged. It is therefore enforced HERE, by leaving the
+// block out of the manifest until its start passes. That makes the manifest
+// time-dependent, which is why the workflow rebuilds on a schedule as well as
+// on push: without it a shelf would wait for whatever commit happened to land
+// next, which might be days late or not at all.
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 
@@ -27,9 +35,9 @@ function wordCount(text) {
  * { error } naming every problem at once. Unknown pack ids are an error, not
  * a filter: a typo that silently dropped a pack would go unnoticed forever.
  */
-export function validateFeaturedCuration(raw, knownPackIds) {
+export function validateFeaturedCuration(raw, knownPackIds, now = new Date()) {
   if (typeof raw !== 'object' || raw === null || Array.isArray(raw)) {
-    return { error: `${FEATURED_FILE}: must be a JSON object with title, blurb, packIds and optional endsAt` };
+    return { error: `${FEATURED_FILE}: must be a JSON object with title, blurb, packIds and optional startsAt/endsAt` };
   }
   const problems = [];
   if (typeof raw.title !== 'string' || raw.title.trim().length === 0) {
@@ -42,8 +50,20 @@ export function validateFeaturedCuration(raw, knownPackIds) {
   } else if (wordCount(raw.blurb) > MAX_BLURB_WORDS) {
     problems.push(`blurb must be at most ${MAX_BLURB_WORDS} words (two lines at 400px), got ${wordCount(raw.blurb)}`);
   }
+  if (raw.startsAt !== undefined && (typeof raw.startsAt !== 'string' || Number.isNaN(Date.parse(raw.startsAt)))) {
+    problems.push('startsAt must be an ISO date string when present, e.g. 2026-10-01T00:00:00Z');
+  }
   if (raw.endsAt !== undefined && (typeof raw.endsAt !== 'string' || Number.isNaN(Date.parse(raw.endsAt)))) {
     problems.push('endsAt must be an ISO date string when present, e.g. 2026-09-06T00:00:00Z');
+  }
+  if (
+    typeof raw.startsAt === 'string' &&
+    typeof raw.endsAt === 'string' &&
+    !Number.isNaN(Date.parse(raw.startsAt)) &&
+    !Number.isNaN(Date.parse(raw.endsAt)) &&
+    Date.parse(raw.startsAt) >= Date.parse(raw.endsAt)
+  ) {
+    problems.push('startsAt must be before endsAt; as written the shelf could never appear');
   }
   if (!Array.isArray(raw.packIds) || raw.packIds.length === 0 || raw.packIds.some((id) => typeof id !== 'string')) {
     problems.push('packIds must be a non-empty array of pack id strings; packs are displayed in array order');
@@ -60,10 +80,17 @@ export function validateFeaturedCuration(raw, knownPackIds) {
   if (problems.length > 0) {
     return { error: `${FEATURED_FILE}: ${problems.join('; ')}` };
   }
+  // Valid, but not due yet: publish nothing and say so, so a build log reads
+  // "scheduled" rather than looking like the curation was silently dropped.
+  if (raw.startsAt !== undefined && now.getTime() < Date.parse(raw.startsAt)) {
+    return { featured: null, scheduledFor: raw.startsAt };
+  }
   return {
     featured: {
       title: raw.title.trim(),
       blurb: raw.blurb.trim(),
+      // `startsAt` is deliberately not published: it has already passed by the
+      // time the block ships, and Studio has no use for it.
       ...(raw.endsAt !== undefined ? { endsAt: raw.endsAt } : {}),
       packIds: raw.packIds,
     },
@@ -75,7 +102,7 @@ export function validateFeaturedCuration(raw, knownPackIds) {
  * does not exist (no curation — the normal state most of the year),
  * { featured } when valid, and { error } for unreadable JSON or an invalid block.
  */
-export function readFeaturedCuration(rootDir, knownPackIds) {
+export function readFeaturedCuration(rootDir, knownPackIds, now = new Date()) {
   let text;
   try {
     text = readFileSync(join(rootDir, FEATURED_FILE), 'utf8');
@@ -89,5 +116,5 @@ export function readFeaturedCuration(rootDir, knownPackIds) {
   } catch (err) {
     return { error: `${FEATURED_FILE}: invalid JSON — ${err.message}` };
   }
-  return validateFeaturedCuration(raw, knownPackIds);
+  return validateFeaturedCuration(raw, knownPackIds, now);
 }

@@ -328,6 +328,7 @@ const curation = readFeaturedCuration(ROOT, new Set(index.map((pack) => pack.id)
 if (curation?.error) fatal(curation.error);
 const featured = curation?.featured ?? null;
 if (featured) console.log(`featured: "${featured.title}" with ${featured.packIds.length} pack(s)`);
+else if (curation?.scheduledFor) console.log(`featured: scheduled for ${curation.scheduledFor}, not published yet`);
 
 const legacyIndex = legacyCompatiblePacks(index);
 const legacyFilesIndex = Object.fromEntries(

@@ -70,3 +70,33 @@ test('rejects non-object roots and collects every problem in one message', () =>
   assert.match(verdict.error, /blurb/);
   assert.match(verdict.error, /packIds/);
 });
+
+test('a shelf whose startsAt is still in the future is not published', () => {
+  const scheduled = { ...VALID, startsAt: '2026-10-01T00:00:00Z', endsAt: '2026-11-04T19:00:00Z' };
+  const verdict = validateFeaturedCuration(scheduled, KNOWN_IDS, new Date('2026-09-18T00:00:00Z'));
+  assert.equal(verdict.error, undefined);
+  assert.equal(verdict.featured, null);
+  assert.equal(verdict.scheduledFor, '2026-10-01T00:00:00Z');
+});
+
+test('the same shelf publishes once startsAt has passed, without startsAt in the block', () => {
+  const scheduled = { ...VALID, startsAt: '2026-10-01T00:00:00Z', endsAt: '2026-11-04T19:00:00Z' };
+  const verdict = validateFeaturedCuration(scheduled, KNOWN_IDS, new Date('2026-10-01T00:00:01Z'));
+  assert.equal(verdict.error, undefined);
+  assert.equal(verdict.featured.title, VALID.title);
+  assert.equal(verdict.featured.startsAt, undefined);
+  assert.equal(verdict.featured.endsAt, '2026-11-04T19:00:00Z');
+});
+
+test('startsAt must be a valid ISO date', () => {
+  const verdict = validateFeaturedCuration({ ...VALID, startsAt: 'october' }, KNOWN_IDS);
+  assert.match(verdict.error, /startsAt must be an ISO date string/);
+});
+
+test('a startsAt at or after endsAt is rejected, since the shelf could never appear', () => {
+  const verdict = validateFeaturedCuration(
+    { ...VALID, startsAt: '2026-11-05T00:00:00Z', endsAt: '2026-11-04T00:00:00Z' },
+    KNOWN_IDS,
+  );
+  assert.match(verdict.error, /startsAt must be before endsAt/);
+});
