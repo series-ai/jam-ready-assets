@@ -1,0 +1,1244 @@
+{
+  "kenney-board-game-icons/icons": {
+    "sourcePath": "scripts/preview-inputs/kenney-board-game-icons.png",
+    "inputs": [
+      {
+        "path": "kenney-board-game-icons/icons/PNG/Double (128px)/arrow_cross_divided.png",
+        "sha256": "1aae955a23b25b39e5ede7c8d4e371f39cb2a3f0a7e5614c0928855a6dd2720f"
+      },
+      {
+        "path": "kenney-board-game-icons/icons/PNG/Double (128px)/card_add.png",
+        "sha256": "8ccf3e7d4d5971e383680f10ffe1b1926d9f427df8ff59de62b511e6bd2db3e8"
+      },
+      {
+        "path": "kenney-board-game-icons/icons/PNG/Double (128px)/card_tap_down.png",
+        "sha256": "5355e2dddad6326854bd79a226284d9f4a694fe0472bd92c16baedc94ed7179f"
+      },
+      {
+        "path": "kenney-board-game-icons/icons/PNG/Double (128px)/cards_shuffle.png",
+        "sha256": "9f0c5eb99b02babdfc3c5389cd3ec7fce823546cc5b07bab5750d7bdda74fc7a"
+      },
+      {
+        "path": "kenney-board-game-icons/icons/PNG/Double (128px)/crown_a.png",
+        "sha256": "67cfe50c77f2120ea3dd98f5cf08eaf329a242daeff0d9ad74825f044530b26a"
+      },
+      {
+        "path": "kenney-board-game-icons/icons/PNG/Double (128px)/d20_outline_number.png",
+        "sha256": "7a11205b5bba2582b98bc16a27de59fee308e4378b2f308388b7cc65ea48c9df"
+      }
+    ]
+  },
+  "kenney-board-game-info/icons": {
+    "sourcePath": "scripts/preview-inputs/kenney-board-game-info.png",
+    "inputs": [
+      {
+        "path": "kenney-board-game-info/icons/PNG/Default (256px)/ages.png",
+        "sha256": "debf729d9c698f8473edecc4556a980b99e84476f377e98e668d13785b0fc473"
+      },
+      {
+        "path": "kenney-board-game-info/icons/PNG/Default (256px)/ages_all.png",
+        "sha256": "81006faf450e3369f4aa0cd1ef261d462de3557ac56695d3fb44d96e6c7a3f57"
+      },
+      {
+        "path": "kenney-board-game-info/icons/PNG/Default (256px)/duration.png",
+        "sha256": "d1bbddf7b9d85b4cd1cf35dc6f3bbf072d508777cd905aee961751eac39629be"
+      },
+      {
+        "path": "kenney-board-game-info/icons/PNG/Default (256px)/duration_60.png",
+        "sha256": "83e27be0c8df55e724593fa1222add927b00c9e12a410e556e9f3b54551039c0"
+      },
+      {
+        "path": "kenney-board-game-info/icons/PNG/Default (256px)/luck.png",
+        "sha256": "40af6c77c61f1bd72918f3cf80cd29ca80fd917cb53b0358e716664bf712f219"
+      },
+      {
+        "path": "kenney-board-game-info/icons/PNG/Default (256px)/players.png",
+        "sha256": "0cbbca8872af5cec611a7c9f5e52efc9d3daada19517134ac16ceb7bfdb10509"
+      }
+    ]
+  },
+  "kenney-car-kit/3D/vehicles-racing": {
+    "sourcePath": "scripts/preview-inputs/kenney-car-kit.png",
+    "inputs": [
+      {
+        "path": "kenney-car-kit/3D/vehicles-racing/Previews/ambulance.png",
+        "sha256": "5c54c176b46b320d594a429260a1b9de8a9b0a5458e4590abe2b3377f9a44fa0"
+      },
+      {
+        "path": "kenney-car-kit/3D/vehicles-racing/Previews/firetruck.png",
+        "sha256": "509ca353534c2535c75d45f7c3a7cda33650cf1778d8d9481be0e8888bb4f1cf"
+      },
+      {
+        "path": "kenney-car-kit/3D/vehicles-racing/Previews/sedan.png",
+        "sha256": "d957628a5689322b152588c1d077c51d0d576b229c788195f4a73d8042177ce4"
+      },
+      {
+        "path": "kenney-car-kit/3D/vehicles-racing/Previews/hatchback-sports.png",
+        "sha256": "cd1f71fc81877bad0fc0bc2590434820a36b399dde4eac5a2134acf41c3fe669"
+      },
+      {
+        "path": "kenney-car-kit/3D/vehicles-racing/Previews/taxi.png",
+        "sha256": "81b31832b68ccdc11b17a7cdecd18b9c75d868ac14e26986af73283b1436b430"
+      },
+      {
+        "path": "kenney-car-kit/3D/vehicles-racing/Previews/truck.png",
+        "sha256": "03f71e138bf85c5919fe30dd4f594fffc3eee4fac15f6f8a37423f9fcb900175"
+      }
+    ]
+  },
+  "kenney-character-pack-facial-hair/2D/characters": {
+    "sourcePath": "scripts/preview-inputs/kenney-character-pack-facial-hair.png",
+    "inputs": [
+      {
+        "path": "kenney-character-pack-facial-hair/2D/characters/PNG/Facial hair/Black/facialHair_black (1).png",
+        "sha256": "36f7f8f28ae9dabacf4801dfd451239f14490eccd492ca2d1384e11cf6325be6"
+      },
+      {
+        "path": "kenney-character-pack-facial-hair/2D/characters/PNG/Facial hair/Black/facialHair_black (12).png",
+        "sha256": "d8903df959d665d4133c4848a931ed87a52c6253dfc29170474740b034acb0be"
+      },
+      {
+        "path": "kenney-character-pack-facial-hair/2D/characters/PNG/Facial hair/Black/facialHair_black (15).png",
+        "sha256": "947f0bc5d11fdafc466a0bf04293e44e49b50488f51509715c5abce47e4bb6f6"
+      },
+      {
+        "path": "kenney-character-pack-facial-hair/2D/characters/PNG/Facial hair/Black/facialHair_black (3).png",
+        "sha256": "6d5c678f651d23b182db49bf9bf5cf9e999289513843668ac3c3e856e04ef5f2"
+      },
+      {
+        "path": "kenney-character-pack-facial-hair/2D/characters/PNG/Facial hair/Black/facialHair_black (6).png",
+        "sha256": "f8864ee5728ab51541a6a63fa8abb62842613ff8bfa651fea83579780a1ecf03"
+      },
+      {
+        "path": "kenney-character-pack-facial-hair/2D/characters/PNG/Facial hair/Black/facialHair_black (9).png",
+        "sha256": "e1d4e7f970fecd32ce2f1739730709485b7355dc3a0efe5bdfc79523d141aaea"
+      }
+    ]
+  },
+  "kenney-cursor-pack/ui": {
+    "sourcePath": "scripts/preview-inputs/kenney-cursor-pack.png",
+    "inputs": [
+      {
+        "path": "kenney-cursor-pack/ui/PNG/Basic/Default/arrow_nw.png",
+        "sha256": "a720a0b751a48c2b9cc33e1f65b526256e3fc3db05c98e6659e58acd62609534"
+      },
+      {
+        "path": "kenney-cursor-pack/ui/PNG/Basic/Default/hand_open.png",
+        "sha256": "328dcaeaaab127f30d2a7fb246f9c376572887e237b2bd1fe0d57f35ff08537c"
+      },
+      {
+        "path": "kenney-cursor-pack/ui/PNG/Basic/Default/hand_point.png",
+        "sha256": "018d0f73379bed7c980e27d72a915970c134a4cbf1ee6c767a2d58dbed5648a4"
+      },
+      {
+        "path": "kenney-cursor-pack/ui/PNG/Basic/Default/cursor_alias.png",
+        "sha256": "50439f05088dd287a0f9aaa761b39257b3b55e976f3928e8e4c346cd6acb4529"
+      },
+      {
+        "path": "kenney-cursor-pack/ui/PNG/Basic/Default/busy_hourglass.png",
+        "sha256": "494b9dd2e8cc207ffce3c6d68a2d5562a0f1f33f2ce27f28f469a5c7bbf7a978"
+      },
+      {
+        "path": "kenney-cursor-pack/ui/PNG/Basic/Default/cross_large.png",
+        "sha256": "7349f25e80b380a1b4b48a4ef951bf6d4886b236d817866b9e2542ebeabc3e7d"
+      }
+    ]
+  },
+  "kenney-cursor-pixel-pack/ui": {
+    "sourcePath": "scripts/preview-inputs/kenney-cursor-pixel-pack.png",
+    "inputs": [
+      {
+        "path": "kenney-cursor-pixel-pack/ui/Tiles/tile_0000.png",
+        "sha256": "07e63ed94a1cae49ec9aac7bf90527770b72d0c2dfd57e251f052d9e664f548f"
+      },
+      {
+        "path": "kenney-cursor-pixel-pack/ui/Tiles/tile_0003.png",
+        "sha256": "c6468b899ee2907d9ea33070d8d0e25f27caaad2291ee56b6592ab3e87f34e01"
+      },
+      {
+        "path": "kenney-cursor-pixel-pack/ui/Tiles/tile_0009.png",
+        "sha256": "60d4819452b1d9fad9f2cfd8176c93b512ffec1d86beac2febde7255772f6860"
+      },
+      {
+        "path": "kenney-cursor-pixel-pack/ui/Tiles/tile_0016.png",
+        "sha256": "f86916e4f9bd2e127875329fe8f5432dace321f7f6c9bd449102b6a461dff8e4"
+      },
+      {
+        "path": "kenney-cursor-pixel-pack/ui/Tiles/tile_0024.png",
+        "sha256": "0a92b1a095565da0e171582fa61d7c87db558ea414f3a215e173df9e38eb7b52"
+      },
+      {
+        "path": "kenney-cursor-pixel-pack/ui/Tiles/tile_0032.png",
+        "sha256": "444c2c2f6c61727dddd3f6bb0670b36dede33bdba2d37f41cc367db95210065b"
+      }
+    ]
+  },
+  "kenney-emote-pack/2D/misc": {
+    "sourcePath": "scripts/preview-inputs/kenney-emote-pack.png",
+    "inputs": [
+      {
+        "path": "kenney-emote-pack/2D/misc/PNG/Vector/Style 1/emote_alert.png",
+        "sha256": "bebdf06bb1c38cab54a4531f78651c61d531ae02c8fd464644eb87862c296b3b"
+      },
+      {
+        "path": "kenney-emote-pack/2D/misc/PNG/Vector/Style 1/emote_heart.png",
+        "sha256": "9a71a6967896c0d30c8735f4e371cba2d3aee91e6a976d2736715ee274a34549"
+      },
+      {
+        "path": "kenney-emote-pack/2D/misc/PNG/Vector/Style 1/emote_faceHappy.png",
+        "sha256": "01bacb8e21e904842a8d593d2d30da86dfd70ae86feb4562c0a151f419975fe1"
+      },
+      {
+        "path": "kenney-emote-pack/2D/misc/PNG/Vector/Style 1/emote_music.png",
+        "sha256": "feb0b6223ac5ad8bc199f70768bc59ad0aaa2b53bb1341b31904db264a0f7b75"
+      },
+      {
+        "path": "kenney-emote-pack/2D/misc/PNG/Vector/Style 1/emote_star.png",
+        "sha256": "41e22f49f486dfec068ffd25f25e860450c33e4ff78787669d405aa2dd168dba"
+      },
+      {
+        "path": "kenney-emote-pack/2D/misc/PNG/Vector/Style 1/emote_sleeps.png",
+        "sha256": "96b7cd344dc595374e9cc110fcc490d72843bf5e6323fc66ea0ac91a7215cfdc"
+      }
+    ]
+  },
+  "kenney-food-kit/3D/food": {
+    "sourcePath": "scripts/preview-inputs/kenney-food-kit.png",
+    "inputs": [
+      {
+        "path": "kenney-food-kit/3D/food/Previews/apple.png",
+        "sha256": "1fa189f9f6e88750743c93e97e548d70a3765c7fb2446edd5ed6355ffabb3259"
+      },
+      {
+        "path": "kenney-food-kit/3D/food/Previews/burger.png",
+        "sha256": "7ca5f6653818982eebf484fa7d20116721894fbfa63007540371e08de571dd64"
+      },
+      {
+        "path": "kenney-food-kit/3D/food/Previews/carrot.png",
+        "sha256": "ba4ed876bc3584fbab2d94dc047d52a3f98cd7b09739adbaa1d671f765d779ba"
+      },
+      {
+        "path": "kenney-food-kit/3D/food/Previews/donut.png",
+        "sha256": "4530e22aeb52a53783910308c5329de68d60aa58318e5504b39e37c143e1999f"
+      },
+      {
+        "path": "kenney-food-kit/3D/food/Previews/pizza.png",
+        "sha256": "17fb50bbe0a2d2d4f9a3dfe712d42fd099386651404806bfa8c160017690d67b"
+      },
+      {
+        "path": "kenney-food-kit/3D/food/Previews/soda.png",
+        "sha256": "a23fc045e897ca866a43029eb402b04629f36aa5eafbc9be5947c0fc7b74c738"
+      }
+    ]
+  },
+  "kenney-game-icons-expansion/icons": {
+    "sourcePath": "scripts/preview-inputs/kenney-game-icons-expansion.png",
+    "inputs": [
+      {
+        "path": "kenney-game-icons-expansion/icons/PNG/White/2x/DPAD.png",
+        "sha256": "c61118ebbec7caaa487818a72127bf1147de36c8977a63b07ac9c26a05ded899"
+      },
+      {
+        "path": "kenney-game-icons-expansion/icons/PNG/White/2x/controllerTilt.png",
+        "sha256": "98707ab6e1ad208e7ef523367c57a9aab714485ff1116077a0520869e35ed49f"
+      },
+      {
+        "path": "kenney-game-icons-expansion/icons/PNG/White/2x/fightFist.png",
+        "sha256": "3a602c3c5a679014768c3ee317e15ea5515610095b568991f8501cc2d12b6f7e"
+      },
+      {
+        "path": "kenney-game-icons-expansion/icons/PNG/White/2x/fightJoy_07.png",
+        "sha256": "ca7fef3ac8325eea1080e77a85fb3fb69f514ea1a0e66cc6e919a82e79188ab5"
+      },
+      {
+        "path": "kenney-game-icons-expansion/icons/PNG/White/2x/fightJoy_17.png",
+        "sha256": "a0fa26b9fcfa76c76c4c615f2356a76086190251bbafd980501510edf672bee5"
+      },
+      {
+        "path": "kenney-game-icons-expansion/icons/PNG/White/2x/fightJoy_27.png",
+        "sha256": "98056e673e77306634135b3449bc8efc9b8c7775d1c09f983db06d0dbee665e3"
+      }
+    ]
+  },
+  "kenney-game-icons-fighter-expansion/icons": {
+    "sourcePath": "scripts/preview-inputs/kenney-game-icons-fighter-expansion.png",
+    "inputs": [
+      {
+        "path": "kenney-game-icons-fighter-expansion/icons/PNG/White/2x/fightJoy_40.png",
+        "sha256": "b33a9ebd4724ef7df4bd84a3f962e7335f28dec52315f6200c74758e9775b293"
+      },
+      {
+        "path": "kenney-game-icons-fighter-expansion/icons/PNG/White/2x/fightJoy_45.png",
+        "sha256": "c6aeac37817de1198608b32283ebd6d7bd1bb89883538cd66346b9990def7892"
+      },
+      {
+        "path": "kenney-game-icons-fighter-expansion/icons/PNG/White/2x/fightJoy_50.png",
+        "sha256": "b43365c177471c15679f312be4fcd35832ae21a0672fdc7d54d932f3b22c8827"
+      },
+      {
+        "path": "kenney-game-icons-fighter-expansion/icons/PNG/White/2x/fightJoy_55.png",
+        "sha256": "f8a81a3e55115a8fb17bfca1dba660336e81df2b33efd2febd9208e74def488b"
+      },
+      {
+        "path": "kenney-game-icons-fighter-expansion/icons/PNG/White/2x/fightJoy_60.png",
+        "sha256": "b92aae952b7cfc1e3d7306707955865885cb38c46b8ba2e73dbba77721fa8bae"
+      },
+      {
+        "path": "kenney-game-icons-fighter-expansion/icons/PNG/White/2x/kickLow.png",
+        "sha256": "9cf657b78519b5c35610e4983e545cd5673f33c9ffe11099b94ae0abf92b3be7"
+      }
+    ]
+  },
+  "kenney-game-icons/icons": {
+    "sourcePath": "scripts/preview-inputs/kenney-game-icons.png",
+    "inputs": [
+      {
+        "path": "kenney-game-icons/icons/PNG/White/2x/audioOn.png",
+        "sha256": "ff94cf2fc26234919f862001fe84104585229213eab148fadef7bfe5d9f72329"
+      },
+      {
+        "path": "kenney-game-icons/icons/PNG/White/2x/home.png",
+        "sha256": "41c7b600a7a4a7dec13cb445288ebbecaa3ecdc69a86e1db794b3282c0e47721"
+      },
+      {
+        "path": "kenney-game-icons/icons/PNG/White/2x/gear.png",
+        "sha256": "d20dd95cb1f0d527671f10ff44259c84527705fcda8ed9d74c043960fca4bb27"
+      },
+      {
+        "path": "kenney-game-icons/icons/PNG/White/2x/star.png",
+        "sha256": "cd4068a305467ff528cdc102b1ddfd8fd8c99c9f4c2e8dde403bfdda225876d7"
+      },
+      {
+        "path": "kenney-game-icons/icons/PNG/White/2x/save.png",
+        "sha256": "dc15ed8348c2138f609b1cc82ef3be51f90d297c3690f72b733d43896c434166"
+      }
+    ]
+  },
+  "kenney-generic-items/2D/misc": {
+    "sourcePath": "scripts/preview-inputs/kenney-generic-items.png",
+    "inputs": [
+      {
+        "path": "kenney-generic-items/2D/misc/PNG/Colored/genericItem_color_001.png",
+        "sha256": "d4d9ae982d1d42c9d0b53014246106e7ceb9d9015e479035b6ec7b823a47ea33"
+      },
+      {
+        "path": "kenney-generic-items/2D/misc/PNG/Colored/genericItem_color_013.png",
+        "sha256": "9b38966c0aa12c3833e8c38a87c9566fd849f46d6472aff2c6fbef2a59ff98ac"
+      },
+      {
+        "path": "kenney-generic-items/2D/misc/PNG/Colored/genericItem_color_025.png",
+        "sha256": "27c3baf0af19e6bcd0903e479e87147bdfe7c07e6817f50066cf941bc298c513"
+      },
+      {
+        "path": "kenney-generic-items/2D/misc/PNG/Colored/genericItem_color_037.png",
+        "sha256": "b320dc0de59b98a3a5a5149348ea04dc25758b1fa49e8265e1935c5d5845c512"
+      },
+      {
+        "path": "kenney-generic-items/2D/misc/PNG/Colored/genericItem_color_049.png",
+        "sha256": "9ed3226838f2b1ddb3c3499d80a30c7b4c6bc2f2b7f29ee20aac62a178168857"
+      },
+      {
+        "path": "kenney-generic-items/2D/misc/PNG/Colored/genericItem_color_061.png",
+        "sha256": "3f6950ef75b3d34818eddf0da91472a9be6ca036dfaa5504adbb7f27d059b939"
+      }
+    ]
+  },
+  "kenney-input-prompts-pixel-1-bit/icons": {
+    "sourcePath": "scripts/preview-inputs/kenney-input-prompts-pixel-1-bit.png",
+    "inputs": [
+      {
+        "path": "kenney-input-prompts-pixel-1-bit/icons/Tiles (White)/tile_0005.png",
+        "sha256": "e7e6e6b960133e5b460f2dafaab612386da9ab9fb270c12f99b8add6af65494c"
+      },
+      {
+        "path": "kenney-input-prompts-pixel-1-bit/icons/Tiles (White)/tile_0017.png",
+        "sha256": "6b9d35bbdc0b27c574883e0c1af5301d90810574bba0bbeb375b2fcf4dea875a"
+      },
+      {
+        "path": "kenney-input-prompts-pixel-1-bit/icons/Tiles (White)/tile_0033.png",
+        "sha256": "b6fc3e37360ae6b4746fe5458bc4a6157cd0e6187ee4a052d8be892880a10a7b"
+      },
+      {
+        "path": "kenney-input-prompts-pixel-1-bit/icons/Tiles (White)/tile_0063.png",
+        "sha256": "c1c9a31b32b44498b6f84ae1221449987d39420ee4bcfc7ce3cc1c2f4c616c49"
+      },
+      {
+        "path": "kenney-input-prompts-pixel-1-bit/icons/Tiles (White)/tile_0316.png",
+        "sha256": "5bd883764961ba474cd5f70c105161a44b484ae17b4ff4ba43d523441f81b644"
+      },
+      {
+        "path": "kenney-input-prompts-pixel-1-bit/icons/Tiles (White)/tile_0568.png",
+        "sha256": "054e7acf77f3f7be41cefb5ad0e0f732f72afec054f8c838bb2fe019a955f15a"
+      }
+    ]
+  },
+  "kenney-input-prompts-pixel/icons": {
+    "sourcePath": "scripts/preview-inputs/kenney-input-prompts-pixel.png",
+    "inputs": [
+      {
+        "path": "kenney-input-prompts-pixel/icons/Tiles/tile_0005.png",
+        "sha256": "578df4e805bb2903eb2e06d1884e738d60e33b3386b781ce798802a85e42d83a"
+      },
+      {
+        "path": "kenney-input-prompts-pixel/icons/Tiles/tile_0017.png",
+        "sha256": "2e70e6a218263d5a48a9f86d60da970a9badd835cc1f25a0aadc811e1d9e521c"
+      },
+      {
+        "path": "kenney-input-prompts-pixel/icons/Tiles/tile_0033.png",
+        "sha256": "7322e7e8c07fc014c04c72bba259536b19b35f1df501f4394001dd0c7c136f1c"
+      },
+      {
+        "path": "kenney-input-prompts-pixel/icons/Tiles/tile_0063.png",
+        "sha256": "0d7ccb004d7aea57bdeecc32be8508e029f8197d522271434c53daacea8cbe1e"
+      },
+      {
+        "path": "kenney-input-prompts-pixel/icons/Tiles/tile_0316.png",
+        "sha256": "e7de88cfe3f30ff297c2343dc63ce9e00707a106f625749af8d19add32aa776a"
+      },
+      {
+        "path": "kenney-input-prompts-pixel/icons/Tiles/tile_0568.png",
+        "sha256": "ee431b81ee1a4f93ac61c0e691b591f52b7440fd34e4b3677e5a90d16ef5d5c4"
+      }
+    ]
+  },
+  "kenney-input-prompts/icons": {
+    "sourcePath": "scripts/preview-inputs/kenney-input-prompts.png",
+    "inputs": [
+      {
+        "path": "kenney-input-prompts/icons/Generic/Double/generic_button.png",
+        "sha256": "c570e156ebed7245c706619988e975e1f235da8a3d3eb20e7d3737e9b0be5dfc"
+      },
+      {
+        "path": "kenney-input-prompts/icons/Generic/Double/generic_button_square.png",
+        "sha256": "af626f7fcab3dfd0ec7440276644f53128d4445f86bce76c3910c17e954952a2"
+      },
+      {
+        "path": "kenney-input-prompts/icons/Generic/Double/generic_button_trigger_b_outline.png",
+        "sha256": "2a1d03b9217c5e6f63c0d152ef83f8f78f5286788bc2883a3d513697358661f6"
+      },
+      {
+        "path": "kenney-input-prompts/icons/Generic/Double/generic_joystick_red_horizontal.png",
+        "sha256": "310f9a934f60f9369ab935b71f338c8da8c653842efae7e11120da6091f26bb6"
+      },
+      {
+        "path": "kenney-input-prompts/icons/Generic/Double/generic_stick_press.png",
+        "sha256": "6b1030078c024e78c39d3094da943d51f0b2d0696e1a5b253c984966a87ddef7"
+      },
+      {
+        "path": "kenney-input-prompts/icons/Generic/Double/generic_button_circle_outline.png",
+        "sha256": "0bc1afdc544e48947ee3dfb521998f8a9fb030a2a6120471c08181a3bb21fc20"
+      }
+    ]
+  },
+  "kenney-isometric-modular-roads/2D/city": {
+    "sourcePath": "scripts/preview-inputs/kenney-isometric-modular-roads.png",
+    "inputs": [
+      {
+        "path": "kenney-isometric-modular-roads/2D/city/PNG/roadTile_001_0.png",
+        "sha256": "05075dcc48bcc4c9f4940143583f534c86fa33724c6841eced774d6ebfcf3ae8"
+      },
+      {
+        "path": "kenney-isometric-modular-roads/2D/city/PNG/roadTile_013_0.png",
+        "sha256": "3c928cebf08f2f2258ad38bf24c3dbae9e0cad699d0a22e962331852a5d6c0f6"
+      },
+      {
+        "path": "kenney-isometric-modular-roads/2D/city/PNG/roadTile_037_0.png",
+        "sha256": "7fc17e654782d57dc046735828d368aa2071586f232b2f260b10edcbfed4f1f8"
+      },
+      {
+        "path": "kenney-isometric-modular-roads/2D/city/PNG/roadTile_061_0.png",
+        "sha256": "7d4d8cbdb3c1fdf69efe23463876765a08fb64d6eae20ee8d2dfccba780df395"
+      },
+      {
+        "path": "kenney-isometric-modular-roads/2D/city/PNG/roadTile_085_0.png",
+        "sha256": "3d4ed422caac994eeef1e7364399dc0baf45aa62abcc0ef80f0e8be6bc775436"
+      },
+      {
+        "path": "kenney-isometric-modular-roads/2D/city/PNG/roadTile_101_0.png",
+        "sha256": "0aed987e37dcf6fb07222b00fd3c12b4a5ce3db23ccdc5c3e5e87e828218af79"
+      }
+    ]
+  },
+  "kenney-isometric-nature/2D/nature": {
+    "sourcePath": "scripts/preview-inputs/kenney-isometric-nature.png",
+    "inputs": [
+      {
+        "path": "kenney-isometric-nature/2D/nature/PNG/naturePack_006_0.png",
+        "sha256": "3b4faa2c65986b4fd0c58231257b2e66902536b6156b43524bc1503f99b1b459"
+      },
+      {
+        "path": "kenney-isometric-nature/2D/nature/PNG/naturePack_026_0.png",
+        "sha256": "b75572401a808a25205c76511ed75d3b2a60209aa7f5de5ab389b72ada0b9036"
+      },
+      {
+        "path": "kenney-isometric-nature/2D/nature/PNG/naturePack_061_0.png",
+        "sha256": "d135aafbf7a8b2eb7d202105a5b7ae4307473fe76389ae99f3287c6601ece8a5"
+      },
+      {
+        "path": "kenney-isometric-nature/2D/nature/PNG/naturePack_091_0.png",
+        "sha256": "7e06d0e028b4766cdea690a96b8805814986ab25110ee1f8566744b88a87bf19"
+      },
+      {
+        "path": "kenney-isometric-nature/2D/nature/PNG/naturePack_121_0.png",
+        "sha256": "20cd68de4bfb10d460d03cdf830a8fbfd3d65f537c6a512ca7801d28a3f019e6"
+      },
+      {
+        "path": "kenney-isometric-nature/2D/nature/PNG/naturePack_161_0.png",
+        "sha256": "58b48283d6705b4a8c41e65808e10fed70239b2f2f84198e8952162e435544e3"
+      }
+    ]
+  },
+  "kenney-isometric-space-interior/2D/space-scifi": {
+    "sourcePath": "scripts/preview-inputs/kenney-isometric-space-interior.png",
+    "inputs": [
+      {
+        "path": "kenney-isometric-space-interior/2D/space-scifi/PNG/spaceInterior_001_0.png",
+        "sha256": "c99fa8c152bd9dcaa3060ec2e544577878e863f3a3f3dc1acd7a23d0a7b2d767"
+      },
+      {
+        "path": "kenney-isometric-space-interior/2D/space-scifi/PNG/spaceInterior_013_0.png",
+        "sha256": "04958c7c0178188d24fd970b1788b849469274d78bb0d3601438729c5642e6e4"
+      },
+      {
+        "path": "kenney-isometric-space-interior/2D/space-scifi/PNG/spaceInterior_025_0.png",
+        "sha256": "8b0ba5d052089ec95a91c475d23f9c9be86a492c3959d9012ff96808b8d8d4c8"
+      },
+      {
+        "path": "kenney-isometric-space-interior/2D/space-scifi/PNG/spaceInterior_037_0.png",
+        "sha256": "fd4053ff857a5ccf67d28e4695aa669eef61fa224581358d410ab438244c7f00"
+      },
+      {
+        "path": "kenney-isometric-space-interior/2D/space-scifi/PNG/spaceInterior_049_0.png",
+        "sha256": "eccac821410b5936a07c9fcf66a61ec5c7299f445679063b2b29ac8705d524d1"
+      },
+      {
+        "path": "kenney-isometric-space-interior/2D/space-scifi/PNG/spaceInterior_066_0.png",
+        "sha256": "e5ddcd669eb93affa7bf32e537565e923eeaa0e9c930cbb6d8961ab4bf2f1eb4"
+      }
+    ]
+  },
+  "kenney-isometric-tower-defense/2D/tower-defense": {
+    "sourcePath": "scripts/preview-inputs/kenney-isometric-tower-defense.png",
+    "inputs": [
+      {
+        "path": "kenney-isometric-tower-defense/2D/tower-defense/PNG/towerDefense_001_0.png",
+        "sha256": "d25097c9cdf7f03322fdd4e34af0507410709aa6400a358e1a7a48bf55eb283d"
+      },
+      {
+        "path": "kenney-isometric-tower-defense/2D/tower-defense/PNG/towerDefense_021_0.png",
+        "sha256": "e1b4d6f92003a9344ae02b9e01391cdff5e59a261c6c9b0fdd5a9e1a80a8bcac"
+      },
+      {
+        "path": "kenney-isometric-tower-defense/2D/tower-defense/PNG/towerDefense_041_0.png",
+        "sha256": "a64234c56782026cf14a3f10a44a866d27c5ecd33f33e1863f46af7e9ef97a04"
+      },
+      {
+        "path": "kenney-isometric-tower-defense/2D/tower-defense/PNG/towerDefense_062_0.png",
+        "sha256": "233c73ae0ede18db26e54dce605d517cad85da2b464d396275a247a3c8ccbd62"
+      },
+      {
+        "path": "kenney-isometric-tower-defense/2D/tower-defense/PNG/towerDefense_082_0.png",
+        "sha256": "b2a03609acdd69dae714d95c987523e62614f80ee7a5b1ac933c3147762602fb"
+      },
+      {
+        "path": "kenney-isometric-tower-defense/2D/tower-defense/PNG/towerDefense_102_0.png",
+        "sha256": "21a5e9a074c6477911458522d161a71121e59a8c663eef680344080ccc7dd053"
+      }
+    ]
+  },
+  "kenney-isometric-watercraft/2D/vehicles-racing": {
+    "sourcePath": "scripts/preview-inputs/kenney-isometric-watercraft.png",
+    "inputs": [
+      {
+        "path": "kenney-isometric-watercraft/2D/vehicles-racing/PNG/watercraftPack_002_0.png",
+        "sha256": "cf404a3df7f91714f30160190567b7e92baf049e90fa52c6bc2453b15a3ec237"
+      },
+      {
+        "path": "kenney-isometric-watercraft/2D/vehicles-racing/PNG/watercraftPack_006_0.png",
+        "sha256": "f3db7f74c2b2de0532a15a8bb38ac64b5777b2065091ab2b0dfdd87067777d6a"
+      },
+      {
+        "path": "kenney-isometric-watercraft/2D/vehicles-racing/PNG/watercraftPack_011_0.png",
+        "sha256": "13b8bbfe327a594e79348ee428b58f0a5fde53e79d2dca1526f4db5f0248711d"
+      },
+      {
+        "path": "kenney-isometric-watercraft/2D/vehicles-racing/PNG/watercraftPack_016_0.png",
+        "sha256": "eccc8dacdc84e0c2d735a2015e7262d11276984ede4c7d0a01d8d0baa8e381a1"
+      },
+      {
+        "path": "kenney-isometric-watercraft/2D/vehicles-racing/PNG/watercraftPack_021_0.png",
+        "sha256": "21166cb664720b7d1b63605740ec40831a5a7364b51ca20eaa841f21a2d36b9a"
+      },
+      {
+        "path": "kenney-isometric-watercraft/2D/vehicles-racing/PNG/watercraftPack_026_0.png",
+        "sha256": "0ffc3dd99cd2915577380230a7d1905bddfffba7f140e3b903abc64ab2b7b6df"
+      }
+    ]
+  },
+  "kenney-light-masks/2D/misc": {
+    "sourcePath": "scripts/preview-inputs/kenney-light-masks.png",
+    "inputs": [
+      {
+        "path": "kenney-light-masks/2D/misc/Default/circle_a.png",
+        "sha256": "57afeb410f3bf31bcc1a8389714853a775eb5a65f969d045ef29f35d1401bea1"
+      },
+      {
+        "path": "kenney-light-masks/2D/misc/Default/circle_b_noise.png",
+        "sha256": "2450b7e27800fbf015880e3057fff913ab5de38b567b186c2c6c614eedc8093a"
+      },
+      {
+        "path": "kenney-light-masks/2D/misc/Default/circle_d.png",
+        "sha256": "a42904beb5418373a7f045778a1b70e5485e1527e45c5523b404829316b0eb01"
+      },
+      {
+        "path": "kenney-light-masks/2D/misc/Default/circle_rings_c.png",
+        "sha256": "eef4af5763375ed48d8c4226ea0b63ecce9ac363257b13c73250179d3c1f851c"
+      },
+      {
+        "path": "kenney-light-masks/2D/misc/Default/cone_b.png",
+        "sha256": "95064e224dc848b15219fae6f384a15ccdc3964cc555ad7ba2cc8c7e369618b9"
+      },
+      {
+        "path": "kenney-light-masks/2D/misc/Default/cone_composed_b.png",
+        "sha256": "0d0aba75d7185de382a261d2966828715b4edc14744acaf6e6cc36348f2490a2"
+      }
+    ]
+  },
+  "kenney-particle-pack/2D/misc": {
+    "sourcePath": "scripts/preview-inputs/kenney-particle-pack.png",
+    "inputs": [
+      {
+        "path": "kenney-particle-pack/2D/misc/PNG (Transparent)/fire_01.png",
+        "sha256": "9727a9743ac6ab8dd4dd79f5fc5b0266290efae45f4d4452279eb5e4bcf3a978"
+      },
+      {
+        "path": "kenney-particle-pack/2D/misc/PNG (Transparent)/flame_01.png",
+        "sha256": "92a70bcb90b1e21c57b2dae42843135703b2e988abee97433f84c3119723d144"
+      },
+      {
+        "path": "kenney-particle-pack/2D/misc/PNG (Transparent)/smoke_01.png",
+        "sha256": "e8724c219e8d35859167fc0a7e207e13c72ccf0c29704909b9bb3d3dc71c6cf7"
+      },
+      {
+        "path": "kenney-particle-pack/2D/misc/PNG (Transparent)/spark_01.png",
+        "sha256": "5902da3a324cad0a4b5a88ce1e3c9cc18fee50922c358ce93d8c9f1ad7708f0a"
+      },
+      {
+        "path": "kenney-particle-pack/2D/misc/PNG (Transparent)/star_01.png",
+        "sha256": "3ba3999c944a0767677449412d306c1f230daa1743b31f929533cf77a22ecf5d"
+      },
+      {
+        "path": "kenney-particle-pack/2D/misc/PNG (Transparent)/magic_01.png",
+        "sha256": "398479ea280c8161d0b6d509ca97eefb27e989c7832b404abcb65faae3e922ff"
+      }
+    ]
+  },
+  "kenney-pattern-pack-pixel/2D/misc": {
+    "sourcePath": "scripts/preview-inputs/kenney-pattern-pack-pixel.png",
+    "inputs": [
+      {
+        "path": "kenney-pattern-pack-pixel/2D/misc/Tiles (Color)/tile_0000.png",
+        "sha256": "33ae57d33c502b0d9036f4b088926e0b7470ef3b7599f98a2ad43ddabbad8f0f"
+      },
+      {
+        "path": "kenney-pattern-pack-pixel/2D/misc/Tiles (Color)/tile_0010.png",
+        "sha256": "82d049e6f0edb6a177c86a7572acb0883af9ab8c95742389a8bfd418b9bca478"
+      },
+      {
+        "path": "kenney-pattern-pack-pixel/2D/misc/Tiles (Color)/tile_0020.png",
+        "sha256": "3d2b69e8326cee75fb119a73a5c26bcfd9291732b702e91d80814e102fbb7af8"
+      },
+      {
+        "path": "kenney-pattern-pack-pixel/2D/misc/Tiles (Color)/tile_0030.png",
+        "sha256": "c67ebbf5fe40233423d9b313a4d3f790be497172a15c2746066e30d97c1b57a0"
+      },
+      {
+        "path": "kenney-pattern-pack-pixel/2D/misc/Tiles (Color)/tile_0040.png",
+        "sha256": "251732f658b4aeaf47359655064e4f9f0bbac8f3e2bbc1d10468904a1d5c390d"
+      },
+      {
+        "path": "kenney-pattern-pack-pixel/2D/misc/Tiles (Color)/tile_0050.png",
+        "sha256": "0a2817d82b4d5452106cb2d6537cf426a8b7f7eb18f09ec638188020f0effbff"
+      }
+    ]
+  },
+  "kenney-pattern-pack/2D/misc": {
+    "sourcePath": "scripts/preview-inputs/kenney-pattern-pack.png",
+    "inputs": [
+      {
+        "path": "kenney-pattern-pack/2D/misc/PNG/Default/pattern_01.png",
+        "sha256": "efd2d1a0e7f823d8e84147e07306f98b163973cbad819a55b4776c33fef1e5cc"
+      },
+      {
+        "path": "kenney-pattern-pack/2D/misc/PNG/Default/pattern_11.png",
+        "sha256": "a6c048e62acdd0b1d6a8ce5d167d6931f23ab238c921b0c123560fa7cb2cb247"
+      },
+      {
+        "path": "kenney-pattern-pack/2D/misc/PNG/Default/pattern_21.png",
+        "sha256": "56c6108d6b0d2311cbba20714539b5682c32382586eb74788205802a6a86d41f"
+      },
+      {
+        "path": "kenney-pattern-pack/2D/misc/PNG/Default/pattern_31.png",
+        "sha256": "5cee5d5633af7db099c6435047072c470107c2423486ab3579d816a94e130142"
+      },
+      {
+        "path": "kenney-pattern-pack/2D/misc/PNG/Default/pattern_41.png",
+        "sha256": "52ed640da25032a8905065b16e0e02068351b255b5579042944e95226d944353"
+      },
+      {
+        "path": "kenney-pattern-pack/2D/misc/PNG/Default/pattern_51.png",
+        "sha256": "e277ea0bb77df0ddc1ccee9690338018601b95d5f26c29b67fbce71dec11b450"
+      }
+    ]
+  },
+  "kenney-pixel-vehicle-pack/2D/vehicles-racing": {
+    "sourcePath": "scripts/preview-inputs/kenney-pixel-vehicle-pack.png",
+    "inputs": [
+      {
+        "path": "kenney-pixel-vehicle-pack/2D/vehicles-racing/PNG/Cars/ambulance.png",
+        "sha256": "c80cebd47bfc363b63df953f17981dadedfc52616c017598bda677ae4effced7"
+      },
+      {
+        "path": "kenney-pixel-vehicle-pack/2D/vehicles-racing/PNG/Cars/bus.png",
+        "sha256": "237460909a5d648639e58ebd10ed0ea93b74f22ed4b9dcdfb40fbbd97a612d4d"
+      },
+      {
+        "path": "kenney-pixel-vehicle-pack/2D/vehicles-racing/PNG/Cars/firetruck.png",
+        "sha256": "948c3cf99020c037b77f4cd280c37f6d5e6cb1a50b6db9d7da749e8dd691ee7e"
+      },
+      {
+        "path": "kenney-pixel-vehicle-pack/2D/vehicles-racing/PNG/Cars/sports_race.png",
+        "sha256": "8ad2db0c825644db82219a2dc754dd16d7feadfc79c97b17d62f74357827a853"
+      },
+      {
+        "path": "kenney-pixel-vehicle-pack/2D/vehicles-racing/PNG/Cars/police.png",
+        "sha256": "a48c237537776b29ec17101aa99216400b447b11a153567101f9cc347e0d773e"
+      },
+      {
+        "path": "kenney-pixel-vehicle-pack/2D/vehicles-racing/PNG/Cars/taxi.png",
+        "sha256": "0f39c03adcfd54066512eafd1a35c75dbb01b367b778880ec6c2e567e4eabd28"
+      }
+    ]
+  },
+  "kenney-playing-cards-pack/2D/misc": {
+    "sourcePath": "scripts/preview-inputs/kenney-playing-cards-pack.png",
+    "inputs": [
+      {
+        "path": "kenney-playing-cards-pack/2D/misc/PNG/Cards (large)/card_hearts_A.png",
+        "sha256": "5e3bdbae26950633ebfced363f810fea91a6fe79c439b3d6e5b717871d65f4a7"
+      },
+      {
+        "path": "kenney-playing-cards-pack/2D/misc/PNG/Cards (large)/card_spades_K.png",
+        "sha256": "39d5f82fa15389774273a06c4f3267f88a5803ec0d94f69dc079e39ab1553c02"
+      },
+      {
+        "path": "kenney-playing-cards-pack/2D/misc/PNG/Cards (large)/card_diamonds_Q.png",
+        "sha256": "e9d4acb20b625140a671b11608bdd5a85334167ca8961cc3fb8eadae9a4c24fc"
+      },
+      {
+        "path": "kenney-playing-cards-pack/2D/misc/PNG/Cards (large)/card_clubs_J.png",
+        "sha256": "1a41c5d8fbd82386b8595213088df399e8f208ba731a565293c361ace8727d9a"
+      },
+      {
+        "path": "kenney-playing-cards-pack/2D/misc/PNG/Cards (large)/card_hearts_10.png",
+        "sha256": "a61b0529df17509eb2acb6b45387edf93b41f7f1ec559cdf967b5c0bd600f0df"
+      },
+      {
+        "path": "kenney-playing-cards-pack/2D/misc/PNG/Cards (large)/card_back.png",
+        "sha256": "a2ab56d55cd08b99933f8997d46b6907ea0b62082931e7adb8b31b9e000ae3c8"
+      }
+    ]
+  },
+  "kenney-ranks-pack/2D/misc": {
+    "sourcePath": "scripts/preview-inputs/kenney-ranks-pack.png",
+    "inputs": [
+      {
+        "path": "kenney-ranks-pack/2D/misc/PNG/Retina/Gold/rank000.png",
+        "sha256": "da296a76b3cde7afd6c79c4812939854c60141a34aa970d8e472b54e6a88efa1"
+      },
+      {
+        "path": "kenney-ranks-pack/2D/misc/PNG/Retina/Gold/rank007.png",
+        "sha256": "a6e46b757cb77d14813f99bdbd71d5fc25c90bed38e23bb66eda148f6ff3e346"
+      },
+      {
+        "path": "kenney-ranks-pack/2D/misc/PNG/Retina/Gold/rank014.png",
+        "sha256": "7631399c88fa119daf6bc2b53ce20cd92151327549f35d33880eb7c9cfdb38cd"
+      },
+      {
+        "path": "kenney-ranks-pack/2D/misc/PNG/Retina/Gold/rank021.png",
+        "sha256": "be3f9a4847bd600eb09d991115395369805d7c27bebd4a4c12af162e011fbdb5"
+      },
+      {
+        "path": "kenney-ranks-pack/2D/misc/PNG/Retina/Gold/rank028.png",
+        "sha256": "e6fb96965931661b141ae2fa88fd3f7b6edb44365328e67202a9c4b1912e7d34"
+      },
+      {
+        "path": "kenney-ranks-pack/2D/misc/PNG/Retina/Gold/rank035.png",
+        "sha256": "318273b1172591bb49b9528eb7825fd9e39b64cde078dae48e9e1a6de73813db"
+      }
+    ]
+  },
+  "kenney-rune-pack/2D/fantasy": {
+    "sourcePath": "scripts/preview-inputs/kenney-rune-pack.png",
+    "inputs": [
+      {
+        "path": "kenney-rune-pack/2D/fantasy/PNG/Blue/Tile/runeBlue_tile_001.png",
+        "sha256": "ab2bf42ee7fc732cd520ca95dd99959a70290a9c99e0f80bf1b618a25b26b9b6"
+      },
+      {
+        "path": "kenney-rune-pack/2D/fantasy/PNG/Blue/Tile/runeBlue_tile_007.png",
+        "sha256": "8d6d12142faa1b6078554c3d96a81f6a8c775d8ba86ae1b3b7f3f5ed010cf508"
+      },
+      {
+        "path": "kenney-rune-pack/2D/fantasy/PNG/Blue/Tile/runeBlue_tile_013.png",
+        "sha256": "9b787fab1d9ec117c1cf45145d92dfcc7df13a2355144249bd821d00ff0315a5"
+      },
+      {
+        "path": "kenney-rune-pack/2D/fantasy/PNG/Blue/Tile/runeBlue_tile_019.png",
+        "sha256": "3a2c246a19bd3ac8f6428e801057e2b1ef01a732df682cad5946cbd9e677174d"
+      },
+      {
+        "path": "kenney-rune-pack/2D/fantasy/PNG/Blue/Tile/runeBlue_tile_025.png",
+        "sha256": "38098228674ed1ee94285dcaa542aab374a88dd9a19d6b8b49ab3b130a3eb502"
+      },
+      {
+        "path": "kenney-rune-pack/2D/fantasy/PNG/Blue/Tile/runeBlue_tile_031.png",
+        "sha256": "6f042261cf69504bae29595cd20db08bcd60ed875e56cad16420c9e7c542393f"
+      }
+    ]
+  },
+  "kenney-smilies/2D/misc": {
+    "sourcePath": "scripts/preview-inputs/kenney-smilies.png",
+    "inputs": [
+      {
+        "path": "kenney-smilies/2D/misc/PNG/angry.png",
+        "sha256": "8d6858329bc33dcf27b72f26f43bb5d1e96842fda9c9e6d592d2e4c48ac3789f"
+      },
+      {
+        "path": "kenney-smilies/2D/misc/PNG/cool.png",
+        "sha256": "6a1824432ea250a920f03684ec0ef480d24896c8f665fc657aeaefb5e388fff0"
+      },
+      {
+        "path": "kenney-smilies/2D/misc/PNG/cry.png",
+        "sha256": "3fcfe03ae995c69860869041af64bf09eea575402046b4f502288840b47714e6"
+      },
+      {
+        "path": "kenney-smilies/2D/misc/PNG/happy.png",
+        "sha256": "c89a24533872634640f4bcd3648aa58f72454978d93409b96864d88e32a70253"
+      },
+      {
+        "path": "kenney-smilies/2D/misc/PNG/wink.png",
+        "sha256": "44df6d49b02ec8bc03729606197145b9f2acbad6aaf740e8a2b56fa9536d4d25"
+      }
+    ]
+  },
+  "kenney-splat-pack/2D/misc": {
+    "sourcePath": "scripts/preview-inputs/kenney-splat-pack.png",
+    "inputs": [
+      {
+        "path": "kenney-splat-pack/2D/misc/PNG/Default (256px)/splat00.png",
+        "sha256": "6cf9e7365a1778aea0bd049bdda98bbc397cb99f9e9837b6b8fff427906fc63f"
+      },
+      {
+        "path": "kenney-splat-pack/2D/misc/PNG/Default (256px)/splat10.png",
+        "sha256": "f54712422fe02640f69fa1b9870db88a8e3a9664cacabc384403979cf6c54666"
+      },
+      {
+        "path": "kenney-splat-pack/2D/misc/PNG/Default (256px)/splat20.png",
+        "sha256": "ae08f85cb1088e3f129b841ebd8074c78037e69764b0e913774d50800ee64d8e"
+      },
+      {
+        "path": "kenney-splat-pack/2D/misc/PNG/Default (256px)/splat30.png",
+        "sha256": "eec0adfc40a2c538fc948f10a8e69e0cbda107f94728882af55ccac80a37d791"
+      },
+      {
+        "path": "kenney-splat-pack/2D/misc/PNG/Default (256px)/splat04.png",
+        "sha256": "cfc50b5e272956c82da3e6e6e9385534c6937a1d1550043152ec44d523cbc101"
+      },
+      {
+        "path": "kenney-splat-pack/2D/misc/PNG/Default (256px)/splat14.png",
+        "sha256": "7b902016c68a63e7ab9232133de74d25d8cdd6015c89a39e36be8696a525612c"
+      }
+    ]
+  },
+  "kenney-voxel-expansion-pack/2D/prototype-blocks": {
+    "sourcePath": "scripts/preview-inputs/kenney-voxel-expansion-pack.png",
+    "inputs": [
+      {
+        "path": "kenney-voxel-expansion-pack/2D/prototype-blocks/PNG/Retina/item_bucketWater.png",
+        "sha256": "0d46b8db78529956abb62bf0b62e8b5bb21d94bea523882aff1c84ac7291564e"
+      },
+      {
+        "path": "kenney-voxel-expansion-pack/2D/prototype-blocks/PNG/Retina/item_pot.png",
+        "sha256": "77664c19139589b524792841cf0011fbd1afeb0e5d84b94e8ab79269646b238d"
+      },
+      {
+        "path": "kenney-voxel-expansion-pack/2D/prototype-blocks/PNG/Retina/item_torchOff.png",
+        "sha256": "fe8ffd05e53e6761147c7ca04a146a0e023c62dce18475409367c7a92cabb676"
+      },
+      {
+        "path": "kenney-voxel-expansion-pack/2D/prototype-blocks/PNG/Retina/item_fishBurned.png",
+        "sha256": "0185959ef313d06388b4a9543008e6deb4ae546d7eeaacf0e36c6d88f7c622bb"
+      },
+      {
+        "path": "kenney-voxel-expansion-pack/2D/prototype-blocks/PNG/Retina/item_clamOpen.png",
+        "sha256": "69c532f5809223a4018f3feca54ec54520ef188c51ed51b4711ee97c873d4d43"
+      }
+    ]
+  },
+  "kenney-weapon-pack/3D/weapons": {
+    "sourcePath": "scripts/preview-inputs/kenney-weapon-pack.png",
+    "inputs": [
+      {
+        "path": "kenney-weapon-pack/3D/weapons/Sprites/Render/pistol.png",
+        "sha256": "a6757e3026e5679f785287f210c5652a4b555ccaf232fa0e5810bc898f7e9a36"
+      },
+      {
+        "path": "kenney-weapon-pack/3D/weapons/Sprites/Render/shotgun.png",
+        "sha256": "40c182e8a3f128a8f1d8de6ae43caf7d007e001c256b0df25a9ecba906a4324a"
+      },
+      {
+        "path": "kenney-weapon-pack/3D/weapons/Sprites/Render/sniper.png",
+        "sha256": "2b865bdd885707e20019e806220f06ac6694ccb5364857ec57d9b5ebc2bd10e5"
+      },
+      {
+        "path": "kenney-weapon-pack/3D/weapons/Sprites/Render/uzi.png",
+        "sha256": "1c137cfa30ae34fae36057e21c015a82685850cc79008a511d41331ce119dcd3"
+      },
+      {
+        "path": "kenney-weapon-pack/3D/weapons/Sprites/Render/grenade.png",
+        "sha256": "4021c875005981a3543f0bcf70273c66d644f312dd801ef09f44f307ecf3e71c"
+      }
+    ]
+  },
+  "kenney-pattern-pack-lines/2D/misc": {
+    "sourcePath": "scripts/preview-inputs/kenney-pattern-pack-lines.png",
+    "inputs": [
+      {
+        "path": "kenney-pattern-pack-lines/2D/misc/PNG/Thick/Default (256px)/pattern_0000.png",
+        "sha256": "64b68757fa142a4b6dc68c02485293993c9eaa5f30b8f8450586a7b479076aec"
+      },
+      {
+        "path": "kenney-pattern-pack-lines/2D/misc/PNG/Thick/Default (256px)/pattern_0002.png",
+        "sha256": "369ddf16891c8e6fd05da4ba848c1f5cb966facac4291640ff2a9233d04dfa82"
+      },
+      {
+        "path": "kenney-pattern-pack-lines/2D/misc/PNG/Thick/Default (256px)/pattern_0005.png",
+        "sha256": "d34e8805a69fd1b3c19e049c2bef9179c2b52b8cd437e88d1a82394005cab871"
+      },
+      {
+        "path": "kenney-pattern-pack-lines/2D/misc/PNG/Thick/Default (256px)/pattern_0008.png",
+        "sha256": "fbdbea85a65c329065fb6102af9151551da2a2db21a7ff8b92410632a9c92f00"
+      },
+      {
+        "path": "kenney-pattern-pack-lines/2D/misc/PNG/Thick/Default (256px)/pattern_0011.png",
+        "sha256": "886f3ced6b0a2c7c45782d331dc7e9ccffff54caf8eed1eb3ee08300f2e51c93"
+      },
+      {
+        "path": "kenney-pattern-pack-lines/2D/misc/PNG/Thick/Default (256px)/pattern_0014.png",
+        "sha256": "112cf14ea650773d35992594e65fc23694cdc256d0367a53741ee32f11f3be7b"
+      }
+    ]
+  },
+  "kenney-crosshair-pack/2D/misc": {
+    "sourcePath": "scripts/preview-inputs/kenney-crosshair-pack.png",
+    "inputs": [
+      {
+        "path": "kenney-crosshair-pack/2D/misc/Tilesheet/crosshairs_tilesheet_white@2.png",
+        "sha256": "6f35f9abead6eda12be3e26036d7a088560d68ab7d05fdbff9a68fe15f4585ed",
+        "frame": {
+          "left": 0,
+          "top": 0,
+          "width": 128,
+          "height": 128
+        }
+      },
+      {
+        "path": "kenney-crosshair-pack/2D/misc/Tilesheet/crosshairs_tilesheet_white@2.png",
+        "sha256": "6f35f9abead6eda12be3e26036d7a088560d68ab7d05fdbff9a68fe15f4585ed",
+        "frame": {
+          "left": 414,
+          "top": 0,
+          "width": 128,
+          "height": 128
+        }
+      },
+      {
+        "path": "kenney-crosshair-pack/2D/misc/Tilesheet/crosshairs_tilesheet_white@2.png",
+        "sha256": "6f35f9abead6eda12be3e26036d7a088560d68ab7d05fdbff9a68fe15f4585ed",
+        "frame": {
+          "left": 1104,
+          "top": 0,
+          "width": 128,
+          "height": 128
+        }
+      },
+      {
+        "path": "kenney-crosshair-pack/2D/misc/Tilesheet/crosshairs_tilesheet_white@2.png",
+        "sha256": "6f35f9abead6eda12be3e26036d7a088560d68ab7d05fdbff9a68fe15f4585ed",
+        "frame": {
+          "left": 2070,
+          "top": 0,
+          "width": 128,
+          "height": 128
+        }
+      },
+      {
+        "path": "kenney-crosshair-pack/2D/misc/Tilesheet/crosshairs_tilesheet_white@2.png",
+        "sha256": "6f35f9abead6eda12be3e26036d7a088560d68ab7d05fdbff9a68fe15f4585ed",
+        "frame": {
+          "left": 966,
+          "top": 138,
+          "width": 128,
+          "height": 128
+        }
+      },
+      {
+        "path": "kenney-crosshair-pack/2D/misc/Tilesheet/crosshairs_tilesheet_white@2.png",
+        "sha256": "6f35f9abead6eda12be3e26036d7a088560d68ab7d05fdbff9a68fe15f4585ed",
+        "frame": {
+          "left": 414,
+          "top": 276,
+          "width": 128,
+          "height": 128
+        }
+      }
+    ]
+  },
+  "kenney-ui-pixel-pack/ui": {
+    "sourcePath": "scripts/preview-inputs/kenney-ui-pixel-pack.png",
+    "inputs": [
+      {
+        "path": "kenney-ui-pixel-pack/ui/Spritesheet/UIpackSheet_transparent.png",
+        "sha256": "97cec1ced8489e2b253f98ae9ec74764bee545f552f5f5d761fd8ea5d26ab712",
+        "frame": {
+          "left": 0,
+          "top": 36,
+          "width": 53,
+          "height": 53
+        }
+      },
+      {
+        "path": "kenney-ui-pixel-pack/ui/Spritesheet/UIpackSheet_transparent.png",
+        "sha256": "97cec1ced8489e2b253f98ae9ec74764bee545f552f5f5d761fd8ea5d26ab712",
+        "frame": {
+          "left": 108,
+          "top": 36,
+          "width": 53,
+          "height": 53
+        }
+      },
+      {
+        "path": "kenney-ui-pixel-pack/ui/Spritesheet/UIpackSheet_transparent.png",
+        "sha256": "97cec1ced8489e2b253f98ae9ec74764bee545f552f5f5d761fd8ea5d26ab712",
+        "frame": {
+          "left": 216,
+          "top": 36,
+          "width": 53,
+          "height": 53
+        }
+      },
+      {
+        "path": "kenney-ui-pixel-pack/ui/Spritesheet/UIpackSheet_transparent.png",
+        "sha256": "97cec1ced8489e2b253f98ae9ec74764bee545f552f5f5d761fd8ea5d26ab712",
+        "frame": {
+          "left": 325,
+          "top": 36,
+          "width": 53,
+          "height": 53
+        }
+      },
+      {
+        "path": "kenney-ui-pixel-pack/ui/Spritesheet/UIpackSheet_transparent.png",
+        "sha256": "97cec1ced8489e2b253f98ae9ec74764bee545f552f5f5d761fd8ea5d26ab712",
+        "frame": {
+          "left": 432,
+          "top": 36,
+          "width": 53,
+          "height": 53
+        }
+      },
+      {
+        "path": "kenney-ui-pixel-pack/ui/Spritesheet/UIpackSheet_transparent.png",
+        "sha256": "97cec1ced8489e2b253f98ae9ec74764bee545f552f5f5d761fd8ea5d26ab712",
+        "frame": {
+          "left": 0,
+          "top": 235,
+          "width": 53,
+          "height": 53
+        }
+      }
+    ]
+  },
+  "barker-cant-stop-now-launcher/2D/platformer": {
+    "sourcePath": "scripts/preview-inputs/barker-cant-stop-now-launcher.png",
+    "inputs": [
+      {
+        "path": "barker-cant-stop-now-launcher/2D/platformer/hero.png",
+        "sha256": "e3c9729a748e47dbb22d6d1cbe056e8e3e04a7777628884a66f0443e69109516",
+        "frame": {
+          "left": 0,
+          "top": 0,
+          "width": 256,
+          "height": 256
+        }
+      },
+      {
+        "path": "barker-cant-stop-now-launcher/2D/platformer/jelly.png",
+        "sha256": "b45353f150f593161be1cf4c7d1932d0865819a248fc7320ccf2c85a50405e7e"
+      },
+      {
+        "path": "barker-cant-stop-now-launcher/2D/platformer/balloon.png",
+        "sha256": "d444c29b8e53e0253b3114c41e9b89873298e5ebb19413e66b335294b78d23e1"
+      },
+      {
+        "path": "barker-cant-stop-now-launcher/2D/platformer/coin_static.png",
+        "sha256": "1340cf6117aa144f0490a1fbb8ff811ebeab9c2dad6c190040b38e48b2875db8"
+      },
+      {
+        "path": "barker-cant-stop-now-launcher/2D/platformer/bench_trim.png",
+        "sha256": "0c021fdf6ee6bb77c6076aa4c87fefb8f2a4d94455f66d6ce77c483271a0f385"
+      },
+      {
+        "path": "barker-cant-stop-now-launcher/2D/platformer/spikemine.png",
+        "sha256": "55e9c20c4edbf1666ece0f89e5ee575eec2f4c04d65bf890a92714772c5df3bc"
+      }
+    ]
+  },
+  "barker-cant-stop-now-runner/2D/platformer": {
+    "sourcePath": "scripts/preview-inputs/barker-cant-stop-now-runner.png",
+    "inputs": [
+      {
+        "path": "barker-cant-stop-now-runner/2D/platformer/character_run.png",
+        "sha256": "c9843011c28871555d7451a89d5c66ff0d9a2adbf9cef444b6789f2221964784",
+        "frame": {
+          "left": 0,
+          "top": 0,
+          "width": 512,
+          "height": 682
+        }
+      },
+      {
+        "path": "barker-cant-stop-now-runner/2D/platformer/character_run.png",
+        "sha256": "c9843011c28871555d7451a89d5c66ff0d9a2adbf9cef444b6789f2221964784",
+        "frame": {
+          "left": 512,
+          "top": 0,
+          "width": 512,
+          "height": 682
+        }
+      },
+      {
+        "path": "barker-cant-stop-now-runner/2D/platformer/crate.png",
+        "sha256": "e94de5bae3ac0cdb1e39a2c4d219d842ce6fd70d542a9519af60532448b9f6ee"
+      },
+      {
+        "path": "barker-cant-stop-now-runner/2D/platformer/coin_static.png",
+        "sha256": "1340cf6117aa144f0490a1fbb8ff811ebeab9c2dad6c190040b38e48b2875db8"
+      },
+      {
+        "path": "barker-cant-stop-now-runner/2D/platformer/spike.png",
+        "sha256": "f09c00a2d156293bd7cc448b135335f3cd9549c52419b01e9b195f54d673cf39"
+      },
+      {
+        "path": "barker-cant-stop-now-runner/2D/platformer/cloud.png",
+        "sha256": "0ff4ac03c2646c45fa5fdfd7a560f3f18e17e93e8ce145f85184db5ef7e3fa3d"
+      }
+    ]
+  },
+  "puny-monsters/2D/top-down-rpg": {
+    "sourcePath": "scripts/preview-inputs/puny-monsters.png",
+    "inputs": [
+      {
+        "path": "puny-monsters/2D/top-down-rpg/Black-Panther-32x32.png",
+        "sha256": "9cb8871d66a098abc789c7d01712da7b44b6b365763dbfcaa6a1f19fbc075921",
+        "frame": {
+          "left": 0,
+          "top": 0,
+          "width": 32,
+          "height": 32
+        }
+      },
+      {
+        "path": "puny-monsters/2D/top-down-rpg/Blonde-Dog-32x32.png",
+        "sha256": "4a94c23d91e29efe8b07eb6f48f00f1fd893f5c0d0a6bf12e01b5de707212046",
+        "frame": {
+          "left": 0,
+          "top": 0,
+          "width": 32,
+          "height": 32
+        }
+      },
+      {
+        "path": "puny-monsters/2D/top-down-rpg/Brown-Boar-32x32.png",
+        "sha256": "a96dcc8ab3bc0a23d5dfc9fa38282e2cdd9b6d4db5ee8303bb60c2be7274b2f0",
+        "frame": {
+          "left": 0,
+          "top": 0,
+          "width": 32,
+          "height": 32
+        }
+      },
+      {
+        "path": "puny-monsters/2D/top-down-rpg/Brown-Spider-32x32.png",
+        "sha256": "f9d2fbe0d343d57d1c3a7abcf4e710ab63f24cc7c623ee596ef786989a91db96",
+        "frame": {
+          "left": 0,
+          "top": 0,
+          "width": 32,
+          "height": 32
+        }
+      },
+      {
+        "path": "puny-monsters/2D/top-down-rpg/Gray-Wolf-32x32.png",
+        "sha256": "b47d5a99c37b93838e597b655d4a7da3cd752938dfb87dccfc1b20c09a8ff45b",
+        "frame": {
+          "left": 0,
+          "top": 0,
+          "width": 32,
+          "height": 32
+        }
+      },
+      {
+        "path": "puny-monsters/2D/top-down-rpg/Navy-Blue-Rat-32x32.png",
+        "sha256": "98e9154614d8980e521b2604730badc1aba79c6f2f029315d918d0bf0f3cf2e4",
+        "frame": {
+          "left": 0,
+          "top": 0,
+          "width": 32,
+          "height": 32
+        }
+      },
+      {
+        "path": "puny-monsters/2D/top-down-rpg/Orange-Cat-32x32.png",
+        "sha256": "a604e68a24f33242d6fc0ba546028f46fac31b1e9fa048876f4cffcbf119d7b4",
+        "frame": {
+          "left": 0,
+          "top": 0,
+          "width": 32,
+          "height": 32
+        }
+      },
+      {
+        "path": "puny-monsters/2D/top-down-rpg/Purple-Spider-32x32.png",
+        "sha256": "91246a5396d190795ff89efa02f116919ac43128dc12319f5967da6b8683efe7",
+        "frame": {
+          "left": 0,
+          "top": 0,
+          "width": 32,
+          "height": 32
+        }
+      },
+      {
+        "path": "puny-monsters/2D/top-down-rpg/Dirty-Gray-Boar-32x32.png",
+        "sha256": "7819b77933a17f7e7d13a2d3ade26b101c88c43c191703682ef7550ba8dcd421",
+        "frame": {
+          "left": 0,
+          "top": 0,
+          "width": 32,
+          "height": 32
+        }
+      }
+    ]
+  }
+}

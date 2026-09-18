@@ -1,0 +1,549 @@
+{
+  "commit": "e93aa129978daafda85f3c907eebc8f1807ec43f",
+  "cdn": "https://storage.googleapis.com/run-asset-library",
+  "sourceRepository": "https://github.com/proofofplay/piratenation-game",
+  "author": "Proof of Play, Inc.",
+  "license": {
+    "path": "LICENSE.pirate-nation.txt",
+    "oid": "24bf08f8d88c54d0b5795912db22ba71ebb837cd3a6bdc650e044e71fa4808de",
+    "spdx": "MIT"
+  },
+  "note": "Representative selections, not a pack inventory. Pack counts are manifest file counts, not unique model counts.",
+  "presentation": [
+    "3D models use separate orthographic views with common camera and lights. Display scales differ for legibility, not real relative size. Geometry and source materials are unchanged.",
+    "The UI sheet includes the original dashboard reference mock plus standalone component samples, not a new playable screen. No 9-slicing, cropping, stretching or repainted artwork.",
+    "Small sprites use nearest-neighbor integer enlargement or native size. Larger raster art and the reference mock use aspect-preserving downsampling.",
+    "Backgrounds, tile shapes, labels and separators are presentation only. Source art is MIT, Proof of Play, Inc."
+  ],
+  "generated": [
+    {
+      "path": "pirate-nation-3d-lineup.png",
+      "width": 1800,
+      "height": 1800,
+      "sha256": "4bfa03ccfc4d1a5a93eef5980f361d6f58beba0cc7a650496c1a03be3fa44a4a"
+    },
+    {
+      "path": "pirate-nation-ui-sample.png",
+      "width": 1800,
+      "height": 1800,
+      "sha256": "d7b289a3e0ea98374319b260d3ab11b3ff8b81551da19c6c279e69891c73c88f"
+    },
+    {
+      "path": "pirate-nation-icon-contact-sheet.png",
+      "width": 1800,
+      "height": 1800,
+      "sha256": "0e1811cecfbe1e4738b5423fd5b4d8246ee9398f5b4fbaf6bb4c42b7ff74838a"
+    }
+  ],
+  "sourceSummary": {
+    "threeD": {
+      "packId": "proofofplay-pirate-nation/3D/pirate",
+      "manifest": "https://storage.googleapis.com/run-asset-library/manifest/v2/commits/e93aa129978daafda85f3c907eebc8f1807ec43f/packs/proofofplay-pirate-nation--3D--pirate.json",
+      "localManifest": "manifests/threeD.json",
+      "packFileCount": 733,
+      "runtimeFileCount": 730,
+      "selectedFileCount": 15
+    },
+    "ui": {
+      "packId": "proofofplay-pirate-nation/ui",
+      "manifest": "https://storage.googleapis.com/run-asset-library/manifest/v2/commits/e93aa129978daafda85f3c907eebc8f1807ec43f/packs/proofofplay-pirate-nation--ui.json",
+      "localManifest": "manifests/ui.json",
+      "packFileCount": 365,
+      "runtimeFileCount": 363,
+      "selectedFileCount": 16
+    },
+    "icons": {
+      "packId": "proofofplay-pirate-nation/icons",
+      "manifest": "https://storage.googleapis.com/run-asset-library/manifest/v2/commits/e93aa129978daafda85f3c907eebc8f1807ec43f/packs/proofofplay-pirate-nation--icons.json",
+      "localManifest": "manifests/icons.json",
+      "packFileCount": 154,
+      "runtimeFileCount": 152,
+      "selectedFileCount": 36
+    }
+  },
+  "renderedSources": {
+    "threeD": [
+      "ships/ships-ship-pirate-large02.glb",
+      "ships/ships-ship-pirate-small.glb",
+      "ships/ships-ship-pirate-xs02.glb",
+      "ships/ships-boat.glb",
+      "buildings/buildings-building-5x5-marketplace.glb",
+      "buildings/buildings-bldg-5x5-tiki-bar.glb",
+      "buildings/buildings-building-4x8-blacksmith.glb",
+      "buildings/buildings-bldg-5x5-bank.glb",
+      "decorations/decorations-chest-common.glb",
+      "decorations/decorations-deco-2x2-sandcastle.glb",
+      "decorations/decorations-deco-2x2-piratestatue-gold.glb",
+      "decorations/decorations-deco-6x3-hammock.glb",
+      "decorations/decorations-deco-flag-skull.glb",
+      "animals/animals-animal-gull.glb",
+      "animals/animals-animal-pigeon-flying.glb"
+    ],
+    "ui": [
+      "ui-general-dashboard-reference-mock.png",
+      "ui-buttons-v2-beige-button-default.png",
+      "ui-buttons-v2-beige-button-hover.png",
+      "ui-buttons-v2-beige-button-pressed.png",
+      "ui-buttons-v2-beige-button-disabled.png",
+      "ui-buttons-v2-blue-button-default.png",
+      "ui-buttons-v2-green-button-default.png",
+      "ui-buttons-v2-yellow-button-default.png",
+      "ui-buttons-v2-red-button-default.png",
+      "ui-buttons-v2-button-tab-blue.png",
+      "ui-buttons-v2-button-tab-green.png",
+      "ui-buttons-v2-button-tab-orange.png",
+      "ui-buttons-v2-button-tab-red.png",
+      "ui-general-frame-pirate.png",
+      "ui-general-frame-pirate-selected.png",
+      "ui-general-captain-hightide.png"
+    ],
+    "icons": [
+      "icon-game-icon-ship-generic.png",
+      "icon-game-icon-currency-gold.png",
+      "icon-game-icon-energy.png",
+      "icon-game-icon-captain.png",
+      "icon-game-icon-pirates.png",
+      "icon-game-icon-marketplace.png",
+      "icon-game-icon-pvp-league-gold.png",
+      "icon-game-icon-pvp-league-ruby.png",
+      "icon-game-icon-pvp-league-diamond.png",
+      "icon-game-icon-pvp-league-wood.png",
+      "icon-game-icon-skill-commanding.png",
+      "icon-game-icon-skill-gathering.png",
+      "icon-game-icon-skill-harvesting.png",
+      "icon-game-icon-skill-mining.png",
+      "icon-game-icon-skill-treasureseeking.png",
+      "icon-game-v2-icon-health.png",
+      "icon-game-v2-icon-levelup.png",
+      "icon-game-v2-icon-lock.png",
+      "icon-game-v2-icon-resource-energy.png",
+      "icon-game-v2-icon-resource-pirate.png",
+      "icon-game-v2-icon-sidebar-bounties.png",
+      "icon-game-v2-icon-sidebar-crafting.png",
+      "icon-game-v2-icon-sidebar-crew.png",
+      "icon-game-v2-icon-sidebar-inventory.png",
+      "icon-game-v2-icon-sidebar-quests.png",
+      "icon-game-v2-icon-sidebar-pvp.png",
+      "icon-game-emote-icon-gg.png",
+      "icon-game-emote-icon-thumbsup.png",
+      "icon-game-emote-icon-whiteflag.png",
+      "icon-game-icon-setting-sound-on.png",
+      "icon-game-icon-settings-sound-muted.png",
+      "icon-game-icon-help.png",
+      "icon-game-v2-warning-icon.png",
+      "icon-game-v2-x-red.png",
+      "icon-game-v2-checkmark-green.png",
+      "icon-game-diamond-border.png"
+    ]
+  },
+  "sources": {
+    "threeD": [
+      {
+        "path": "ships/ships-ship-pirate-large02.glb",
+        "oid": "f0a243982aa4de1b723bb37d236156718f0a23fda99ef966c83ced0e954aeef8",
+        "bytes": 427940,
+        "role": "large ship"
+      },
+      {
+        "path": "ships/ships-ship-pirate-small.glb",
+        "oid": "166c503de7971e424b5984ac9b0a99f27868a2a51f3226ae159497f5ed88c2b7",
+        "bytes": 215124,
+        "role": "small ship"
+      },
+      {
+        "path": "ships/ships-ship-pirate-xs02.glb",
+        "oid": "4d6ed272befc8c3b854d935ef456e3e1cab775cfb27e458ff6e9103015366dcc",
+        "bytes": 109512,
+        "role": "skiff"
+      },
+      {
+        "path": "ships/ships-boat.glb",
+        "oid": "92af3f7cc567f5845c85f3494b943ed6901dc700626759fc1a8735196bfeec88",
+        "bytes": 403924,
+        "role": "boat"
+      },
+      {
+        "path": "buildings/buildings-building-5x5-marketplace.glb",
+        "oid": "1e71d3f451160a45dd31350428a5135b13cf32d9e17a628708cf30b4ae1ecff3",
+        "bytes": 1051408,
+        "role": "marketplace"
+      },
+      {
+        "path": "buildings/buildings-bldg-5x5-tiki-bar.glb",
+        "oid": "0e5daf91a19017db8d35025be48e20af9738649af71216488e2084593d04f7f2",
+        "bytes": 357120,
+        "role": "tiki bar"
+      },
+      {
+        "path": "buildings/buildings-building-4x8-blacksmith.glb",
+        "oid": "ea8d72a2dad1605120f75c9aa56418f758921d8b51070d054520a5094c34c7ec",
+        "bytes": 529408,
+        "role": "blacksmith"
+      },
+      {
+        "path": "buildings/buildings-bldg-5x5-bank.glb",
+        "oid": "ab88feef3b0891d4d92f7e92aefeda50160361889d45a1d1385e9cc43f2becd1",
+        "bytes": 171920,
+        "role": "bank"
+      },
+      {
+        "path": "decorations/decorations-chest-common.glb",
+        "oid": "c10845734522bbb57b9321854251ce36733b155c75a8aecf5b7592e9a298648d",
+        "bytes": 87728,
+        "role": "chest"
+      },
+      {
+        "path": "decorations/decorations-deco-2x2-sandcastle.glb",
+        "oid": "29635a8643dfe101d216364d5a38ac68d2e24c86a84cfb09f871e2cf24d66d98",
+        "bytes": 76328,
+        "role": "sandcastle"
+      },
+      {
+        "path": "decorations/decorations-deco-2x2-piratestatue-gold.glb",
+        "oid": "f587c6add72ed7e12f3f9a29460e6cc0e75ff99b68f95c2a7ee41fb13ea96153",
+        "bytes": 83860,
+        "role": "gold pirate statue"
+      },
+      {
+        "path": "decorations/decorations-deco-6x3-hammock.glb",
+        "oid": "f2a7f09d44cd66059564a3f3df46f22d97ff7d735c6e258ee3a761e3ac5ea1f9",
+        "bytes": 310612,
+        "role": "hammock"
+      },
+      {
+        "path": "decorations/decorations-deco-flag-skull.glb",
+        "oid": "4f8657feda73d8a83c1c4b89201675328e7bc03c00ff69f3a85d309d7d0cef72",
+        "bytes": 30164,
+        "role": "skull flag"
+      },
+      {
+        "path": "animals/animals-animal-gull.glb",
+        "oid": "fcb968fec90f951233ca97671aa2431e8c3f6f14b04cba74147a98b459065458",
+        "bytes": 6700,
+        "role": "gull"
+      },
+      {
+        "path": "animals/animals-animal-pigeon-flying.glb",
+        "oid": "7ed9d97b7ca9da828ee0f2c80b449ed9a88f668e9eef7cfcba3d8de69775299b",
+        "bytes": 23944,
+        "role": "flying pigeon"
+      }
+    ],
+    "ui": [
+      {
+        "path": "ui-general-dashboard-reference-mock.png",
+        "oid": "edf3732160992ad37d16d2bf7bf4ca4e062efc69be000a8f41b27967f559c54b",
+        "bytes": 1596026,
+        "role": "included reference mock"
+      },
+      {
+        "path": "ui-general-frame-pirate.png",
+        "oid": "4de021db683dfe91704fde78bfd178f5a94e2e3f0369733f3a7623eb9460ab28",
+        "bytes": 698,
+        "role": "empty character frame"
+      },
+      {
+        "path": "ui-general-frame-pirate-selected.png",
+        "oid": "b6b61d2db23d627dd4df8cb72e64f3f237f815fea417a6c61b8bde41df4cdb7f",
+        "bytes": 5005,
+        "role": "selected character frame"
+      },
+      {
+        "path": "ui-buttons-v2-beige-button-default.png",
+        "oid": "e0fca86f1ea5fa6c7b85854f61bb86a6c2aa6847d38e690d090dcbe7e2d4fa1c",
+        "bytes": 966,
+        "role": "beige button default"
+      },
+      {
+        "path": "ui-buttons-v2-beige-button-hover.png",
+        "oid": "e6a1fa7db52eb01145a2afb4b1be61864971d93cd3f782c9d7f9e47fedf40e7d",
+        "bytes": 947,
+        "role": "beige button hover"
+      },
+      {
+        "path": "ui-buttons-v2-beige-button-pressed.png",
+        "oid": "3f6331d16b5d49b18305009362dbc2086cc43fc5e0b8311853421ca5ebefa370",
+        "bytes": 961,
+        "role": "beige button pressed"
+      },
+      {
+        "path": "ui-buttons-v2-beige-button-disabled.png",
+        "oid": "739fbe44f40487f64b08e733e99a3685188e1d3f2587994367332a9b77c8c3fb",
+        "bytes": 1111,
+        "role": "beige button disabled"
+      },
+      {
+        "path": "ui-buttons-v2-blue-button-default.png",
+        "oid": "393193a04f5b04567f49fdb2015814b1a8cd0226e7d380c7762ed3bd1f72904e",
+        "bytes": 985,
+        "role": "blue button"
+      },
+      {
+        "path": "ui-buttons-v2-red-button-default.png",
+        "oid": "92efc4c451f4e18b07a18e6b75f213d7506caffa4ff2374a773a321576cc81a1",
+        "bytes": 970,
+        "role": "red button"
+      },
+      {
+        "path": "ui-buttons-v2-green-button-default.png",
+        "oid": "a026d27b5252caa90664be06e818479e0f1717a396efb498333cfc6d832151d0",
+        "bytes": 944,
+        "role": "green button"
+      },
+      {
+        "path": "ui-buttons-v2-yellow-button-default.png",
+        "oid": "8bfaaf7435dfba95ca8c96fc8ad5e3b6186246156a9a0e76258854d6f71163fb",
+        "bytes": 975,
+        "role": "yellow button"
+      },
+      {
+        "path": "ui-buttons-v2-button-tab-blue.png",
+        "oid": "02086e06813c1cc85edb8fa284e9582ab08d041ece04cf54ed3ce985aa550f40",
+        "bytes": 717,
+        "role": "blue tab"
+      },
+      {
+        "path": "ui-buttons-v2-button-tab-green.png",
+        "oid": "1489b27ccd5eed59cfcf0889126ba304e867cbb21044d3c8eaa639a93e12d0cc",
+        "bytes": 410,
+        "role": "green tab"
+      },
+      {
+        "path": "ui-buttons-v2-button-tab-orange.png",
+        "oid": "8593a7013330d52310970f0dc39309f8b56734f1d358013fe47e73f89f16eb80",
+        "bytes": 698,
+        "role": "orange tab"
+      },
+      {
+        "path": "ui-buttons-v2-button-tab-red.png",
+        "oid": "a9c9569f16b74188fd8ff2646adfc9abb687227803e06978fa11656fae943b5d",
+        "bytes": 665,
+        "role": "red tab"
+      },
+      {
+        "path": "ui-general-captain-hightide.png",
+        "oid": "fb3881d1a68692fa06f3fa939933af6cf5029dc7bde040d3c1a1fef3035f87f2",
+        "bytes": 42673,
+        "role": "captain portrait"
+      }
+    ],
+    "icons": [
+      {
+        "path": "icon-game-icon-ship-generic.png",
+        "oid": "312725933b52b094779166be8b1edbd03c0c78f2d70192fc30db607923ce670f",
+        "bytes": 42856,
+        "label": "ship"
+      },
+      {
+        "path": "icon-game-icon-currency-gold.png",
+        "oid": "117faf4adf29995de71a44d4649e2e2d95df292363bd583a0eb0d453bfa5192e",
+        "bytes": 772,
+        "label": "gold"
+      },
+      {
+        "path": "icon-game-icon-energy.png",
+        "oid": "dce362b7a71274fdd70627bb6c143178be4d9254ed8f0087ce3dc112339e6fed",
+        "bytes": 536,
+        "label": "energy"
+      },
+      {
+        "path": "icon-game-icon-captain.png",
+        "oid": "40df2960a93f8fd361852760a8d1a0345a07da98b2b742c0b874936513df0c5f",
+        "bytes": 302,
+        "label": "captain"
+      },
+      {
+        "path": "icon-game-icon-pirates.png",
+        "oid": "c89b9bc427c9dde5fc042d30a9b87f86062ca6b1892c855584a094482d8852e4",
+        "bytes": 1017,
+        "label": "pirates"
+      },
+      {
+        "path": "icon-game-icon-marketplace.png",
+        "oid": "1565c6355d387967bc93417e76f05d13c98f4ef3647fdb96ad953be108d24013",
+        "bytes": 3419,
+        "label": "market"
+      },
+      {
+        "path": "icon-game-icon-pvp-league-gold.png",
+        "oid": "713474c06998a50f8c5ba30883813a8fe3308e683aabc81e1d5421d46f003a82",
+        "bytes": 101977,
+        "label": "gold league"
+      },
+      {
+        "path": "icon-game-icon-pvp-league-ruby.png",
+        "oid": "8015584bf17f790e0b5def9ca1b0f21fe33a0ff4e6dbcb835934afdb7256e9c8",
+        "bytes": 119937,
+        "label": "ruby league"
+      },
+      {
+        "path": "icon-game-icon-pvp-league-diamond.png",
+        "oid": "3fdfd7be6d769ba546964f6d997bf73e097078261ae1a8fed434ead75843a51c",
+        "bytes": 116134,
+        "label": "diamond league"
+      },
+      {
+        "path": "icon-game-icon-pvp-league-wood.png",
+        "oid": "7717b24129fa6e49c625c87fe2a1aa7de6708fcaf935f8389b1e9ba024f53bec",
+        "bytes": 108900,
+        "label": "wood league"
+      },
+      {
+        "path": "icon-game-icon-skill-commanding.png",
+        "oid": "2e560bf7ee8e90b5817c802471bf9b0f9a824f13d1d6450ac44eb635f4f7d539",
+        "bytes": 34140,
+        "label": "command"
+      },
+      {
+        "path": "icon-game-icon-skill-gathering.png",
+        "oid": "6f003ad6a6bf603c3f2ba0caa7990d81c745853a1bce9e3c274dbada06e7dfe3",
+        "bytes": 56597,
+        "label": "gather"
+      },
+      {
+        "path": "icon-game-icon-skill-harvesting.png",
+        "oid": "baf1b366f9c39f2743a35b37c63e2e51d891853a9c73af0a5bc147c1ff3a2795",
+        "bytes": 49737,
+        "label": "harvest"
+      },
+      {
+        "path": "icon-game-icon-skill-mining.png",
+        "oid": "8303436ab23fcfc66fadf2a31ab9d63893461e4516410c172ad9300fead6fca0",
+        "bytes": 51776,
+        "label": "mine"
+      },
+      {
+        "path": "icon-game-icon-skill-treasureseeking.png",
+        "oid": "e48b5b8304b16a409000606852953947b0b71526f7e3071de5aa1d08fd58a2fa",
+        "bytes": 23416,
+        "label": "treasure"
+      },
+      {
+        "path": "icon-game-v2-icon-health.png",
+        "oid": "3aea892d42d81d73987ed43f0731ace6524f93ab33091f1619f288ab703112b9",
+        "bytes": 4962,
+        "label": "health"
+      },
+      {
+        "path": "icon-game-v2-icon-levelup.png",
+        "oid": "2811861d2943d292ae1a0a77d181d999bbe3171f9a31202d5f31ddb07ed3f926",
+        "bytes": 1068,
+        "label": "level up"
+      },
+      {
+        "path": "icon-game-v2-icon-lock.png",
+        "oid": "95367aa954d8918dc8f6a35bb23154bbb3786c38dfd0491b5f448503d0282a1c",
+        "bytes": 12259,
+        "label": "lock"
+      },
+      {
+        "path": "icon-game-v2-icon-resource-energy.png",
+        "oid": "4c1aa8e91e126747e88f5f27f7de314ff4d92c5882c90a3747a4a1ac026f98b9",
+        "bytes": 9203,
+        "label": "energy v2"
+      },
+      {
+        "path": "icon-game-v2-icon-resource-pirate.png",
+        "oid": "ab32acbf6d11881e9a482a8a1b92ccd68ea4e414f4836af95900271612b7f611",
+        "bytes": 3994,
+        "label": "pirate v2"
+      },
+      {
+        "path": "icon-game-v2-icon-sidebar-bounties.png",
+        "oid": "3a51f4faa868b894819bdd4c856092dffcb87f05c7628aa42ebce2ca19c0fd77",
+        "bytes": 22344,
+        "label": "bounties"
+      },
+      {
+        "path": "icon-game-v2-icon-sidebar-crafting.png",
+        "oid": "bdd74eb7ef1df645fa92013c155fcc7d2f327898f392890f982b493526fdec5c",
+        "bytes": 10485,
+        "label": "craft"
+      },
+      {
+        "path": "icon-game-v2-icon-sidebar-crew.png",
+        "oid": "85b3ae962d3cc3448bd9ceed75fb557a5e4bf62ed6c236a52d83acea5d78dae7",
+        "bytes": 66731,
+        "label": "crew"
+      },
+      {
+        "path": "icon-game-v2-icon-sidebar-inventory.png",
+        "oid": "c4f8054f642dcde387cfce5c40d8542888391134c9be0090ff7810c97330a4a2",
+        "bytes": 28543,
+        "label": "inventory"
+      },
+      {
+        "path": "icon-game-v2-icon-sidebar-quests.png",
+        "oid": "d738fbc086ecce76a15c9b51c3b07069d12c59824abc1428c470979c0101a63b",
+        "bytes": 66842,
+        "label": "quests"
+      },
+      {
+        "path": "icon-game-v2-icon-sidebar-pvp.png",
+        "oid": "e94928dc04265148bce724313e83a531fd849c5e3ee61f00e9065c003ca88a1d",
+        "bytes": 23169,
+        "label": "pvp"
+      },
+      {
+        "path": "icon-game-emote-icon-gg.png",
+        "oid": "b173fcfb924ce62c9794e00215c7f6d2a98612c343b7dccb83542f953e66f49e",
+        "bytes": 21596,
+        "label": "gg"
+      },
+      {
+        "path": "icon-game-emote-icon-thumbsup.png",
+        "oid": "9bdce2b6b98ba84c10f55dcff0f2397d7894164bd97346d7dc95d40bcb9b9a4d",
+        "bytes": 16623,
+        "label": "thumbs up"
+      },
+      {
+        "path": "icon-game-emote-icon-whiteflag.png",
+        "oid": "da71753825ef318824ec4e8ac0231dfddee89c2bb92e0118f346d01924fc5753",
+        "bytes": 27039,
+        "label": "white flag"
+      },
+      {
+        "path": "icon-game-icon-setting-sound-on.png",
+        "oid": "f67f76dc372d5d07490aa21f5dfc542c6a2d1822c4de51e858bed8af07dc8e85",
+        "bytes": 1884,
+        "label": "sound"
+      },
+      {
+        "path": "icon-game-icon-settings-sound-muted.png",
+        "oid": "681f4ff779bedec7e3df3c0b76e725e76bbd48a961db96806035df6891a52ce3",
+        "bytes": 1541,
+        "label": "muted"
+      },
+      {
+        "path": "icon-game-icon-help.png",
+        "oid": "05315a4c982c876e91ad9344e4b28351e1ffda4baf46fdb6e4d705936b7b9580",
+        "bytes": 322,
+        "label": "help"
+      },
+      {
+        "path": "icon-game-v2-warning-icon.png",
+        "oid": "64844f1fe6f54a9bc23207b09d33dd9c0d2ed741d48bf951b02c95d02a2ed7a0",
+        "bytes": 715,
+        "label": "warning"
+      },
+      {
+        "path": "icon-game-v2-x-red.png",
+        "oid": "cab43a3ddc902c60233807e28dc8bd5b032dbbdbdebd62480521ee0d01e63bb6",
+        "bytes": 722,
+        "label": "close"
+      },
+      {
+        "path": "icon-game-v2-checkmark-green.png",
+        "oid": "5668f963dd719714c0d27fb14ce08542e515b5e2ab6397453fa14e614e21eca5",
+        "bytes": 1389,
+        "label": "check"
+      },
+      {
+        "path": "icon-game-diamond-border.png",
+        "oid": "e2d421a0932456a66f45d2d7e575c5b2dae13d7c97d6fae888b720daf5e96292",
+        "bytes": 4320,
+        "label": "diamond outline"
+      }
+    ]
+  }
+}

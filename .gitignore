@@ -7,3 +7,7 @@ Thumbs.db
 manifest/
 .mirror-stage/
 .rejected-packs.json
+
+node_modules/
+.preview-sources/
+.preview-review/
