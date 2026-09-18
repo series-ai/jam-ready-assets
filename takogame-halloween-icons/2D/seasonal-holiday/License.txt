@@ -1,6 +1,6 @@
 SPDX-License-Identifier: CC0-1.0
 Source: https://takogame.itch.io/halloween-pixel-icons
-Verified-by: Chelsea Newell, 2026-09-17
+Verified-by: run-workshop maintainers, 2026-09-17
 
 The pack shipped no licence file. Terms recorded from its itch.io asset licence field.
 

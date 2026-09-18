@@ -1,6 +1,6 @@
 SPDX-License-Identifier: CC0-1.0
 Source: https://pixelfrog-assets.itch.io/pixel-adventure-1
-Verified-by: Chelsea Newell, 2026-08-25
+Verified-by: run-workshop maintainers, 2026-08-25
 
 itch.io asset license: Creative Commons Zero v1.0 Universal. "These assets are released under a Creative Commons Zero (CC0) license ... even for commercial purposes. Attribution is not required."
 

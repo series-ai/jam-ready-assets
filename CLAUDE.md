@@ -18,6 +18,9 @@ index them. Treat anything you write here as published under the RUN name, becau
   Make the technical point without the name: "a store licence tag can disagree with the page terms"
   rather than naming who. A rejection note that helps nobody here can cost a small creator real
   standing, and they can find it.
+- **Never put a personal name in a committed file.** `Verified-by` is `run-workshop maintainers`,
+  not a person. These licence files are copied into every creator's project, so a name here travels
+  much further than a commit author line.
 - **No internal references.** No Linear issue keys (`RUN-123`), no references to private repos or
   their pull requests, no internal service names, dashboards, Slack channels, or employee emails.
   Describe the reason, not the ticket.

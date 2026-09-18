@@ -1,6 +1,6 @@
 SPDX-License-Identifier: CC0-1.0
 Source: https://kaylousberg.itch.io/kaykit-series-4
-Verified-by: Chelsea Newell, 2026-08-25
+Verified-by: run-workshop maintainers, 2026-08-25
 
 itch.io asset license: Creative Commons Zero v1.0 Universal. "Licensed for personal and commercial use, no attribution required. (CC0 License)"
 

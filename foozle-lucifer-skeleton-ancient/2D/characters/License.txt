@@ -1,6 +1,6 @@
 SPDX-License-Identifier: CC0-1.0
 Source: https://foozlecc.itch.io/lucifer-skeleton-ancient-boss
-Verified-by: Chelsea Newell, 2026-09-17
+Verified-by: run-workshop maintainers, 2026-09-17
 
 License text carried verbatim from the Readme.txt shipped inside this pack.
 Artwork commissioned from Baldur and distributed by Foozle.

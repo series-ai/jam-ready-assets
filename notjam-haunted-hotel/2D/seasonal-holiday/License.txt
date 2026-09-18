@@ -1,6 +1,6 @@
 SPDX-License-Identifier: CC0-1.0
 Source: https://not-jam.itch.io/haunted-hotel-asset-pack
-Verified-by: Chelsea Newell, 2026-09-17
+Verified-by: run-workshop maintainers, 2026-09-17
 
 License text carried verbatim from the licence.txt shipped inside this pack (full CC0 legal code),
 retained alongside as original-licence.txt (renamed so only one file matches the licence-file name rule).

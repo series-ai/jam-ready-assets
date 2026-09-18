@@ -13,6 +13,9 @@
 >   Make the technical point without the name: "a store licence tag can disagree with the page terms"
 >   rather than naming who. A rejection note that helps nobody here can cost a small creator real
 >   standing, and they can find it.
+> - **Never put a personal name in a committed file.** `Verified-by` is `run-workshop maintainers`,
+>   not a person. These licence files are copied into every creator's project, so a name here travels
+>   much further than a commit author line.
 > - **No internal references.** No Linear issue keys (`RUN-123`), no references to private repos or
 >   their pull requests, no internal service names, dashboards, Slack channels, or employee emails.
 >   Describe the reason, not the ticket.
@@ -96,8 +99,12 @@ manifest, with id `<pack>/<bucket>[/<theme>]`.
   ```
   SPDX-License-Identifier: CC0-1.0
   Source: https://example.itch.io/the-pack
-  Verified-by: Your Name, YYYY-MM-DD
+  Verified-by: run-workshop maintainers, YYYY-MM-DD
   ```
+  **`Verified-by` is always `run-workshop maintainers`, never a person's name.** This repository is
+  public and these files ship into every creator's project, so a real name here is published far
+  more widely than whoever wrote it intended. The line records that the library's maintainers
+  checked the licence on that date, which is the part anyone relying on it needs.
   CI requires recognisable terms in the body, fails when the body and header disagree, and checks that MIT and BSD-2-Clause carry their full notices plus a real copyright line. An SPDX header cannot admit a pack on its own.
 - **Follow the layout:** packs are top-level, `<creator>-<pack-slug>/` (lowercase, dash-separated), holding `2D|3D/<theme>/` and/or flat `ui|icons|audio|fonts/` bucket dirs. Keep everything one pack ships under its single top-level dir, even when it spans buckets. A pack dir may contain **only** bucket dirs; CI rejects anything else at that level.
 - **Keep any original `License.txt`/`Readme`** the pack shipped with, alongside the one above.

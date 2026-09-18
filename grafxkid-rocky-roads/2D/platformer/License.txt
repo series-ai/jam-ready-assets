@@ -1,6 +1,6 @@
 SPDX-License-Identifier: CC0-1.0
 Source: https://grafxkid.itch.io/
-Verified-by: Chelsea Newell, 2026-08-25
+Verified-by: run-workshop maintainers, 2026-08-25
 
 License text carried from GrafxKid's own license file, which covers all of GrafxKid's publicly released pixel art.
 

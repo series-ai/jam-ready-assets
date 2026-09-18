@@ -1,6 +1,6 @@
 SPDX-License-Identifier: CC0-1.0
 Source: https://www.kaylousberg.com/game-assets
-Verified-by: Chelsea Newell, 2026-08-25
+Verified-by: run-workshop maintainers, 2026-08-25
 
 Covered by The Complete KayKit Collection v4 license, previously carried only as a bucket-level file at 3D/LICENSE-kaykit.txt.
 
