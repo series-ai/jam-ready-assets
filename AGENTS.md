@@ -1,5 +1,31 @@
 # AGENTS.md - AI guide to this asset library
 
+> ## ⚠️ This repository is PUBLIC. Everything in it is public communication.
+>
+> `series-ai/jam-ready-assets` is open to the world. Anyone, logged in or not, can read every
+> file, commit message, pull request title and body, issue, and code review comment, and search
+> engines index them. Treat anything you write here as published under the RUN name, because it is.
+>
+> **Write for an outside reader, and assume creators whose work is in the library will read it.**
+>
+> - **Never name a creator or pack in a negative light.** Do not record that a pack was rejected on
+>   taste, that a creator's licence wording is contradictory, or that their art was not good enough.
+>   Make the technical point without the name: "a store licence tag can disagree with the page terms"
+>   rather than naming who. A rejection note that helps nobody here can cost a small creator real
+>   standing, and they can find it.
+> - **No internal references.** No Linear issue keys (`RUN-123`), no references to private repos or
+>   their pull requests, no internal service names, dashboards, Slack channels, or employee emails.
+>   Describe the reason, not the ticket.
+> - **No internal process narration.** Sprint plans, review gates, launch dates, headcount, and
+>   anything about what the company is about to ship stay out.
+> - **Keep the licence reasoning, drop the gossip.** Explaining *why* a pack is admissible is useful
+>   to everyone and belongs here. Explaining *who* failed and how is neither.
+> - **Commit messages are the hard case.** A pull request body can be edited; a commit message that
+>   has been pushed is effectively permanent. Get it right the first time.
+>
+> If something genuinely needs to be said and cannot be said in public, put it in the internal
+> tracker and link nothing.
+
 This repo is a curated library of **free game art** for building games on the **RUN platform**. This file tells an AI agent how to find, choose, and use assets here, and how to add more without breaking the structure.
 
 ## TL;DR for agents
@@ -25,7 +51,7 @@ Every pack is a top-level directory. Inside it, content is bucketed by dimension
 <creator>-<pack>/fonts/          bitmap & web fonts
 ```
 
-Most packs hold a single bucket, but one pack may span several — e.g.
+Most packs hold a single bucket, but one pack may span several, e.g.
 `proofofplay-pirate-nation/` carries `3D/pirate/`, `ui/`, `icons/`, and
 `audio/` in one place. Each bucket/theme leaf is one catalog pack in the
 manifest, with id `<pack>/<bucket>[/<theme>]`.
@@ -64,7 +90,7 @@ manifest, with id `<pack>/<bucket>[/<theme>]`.
 
 ## Rules for agents modifying this repo
 
-- **Every pack must contain a licence file in its pack root** — the bucket/theme leaf dir the assets live in (e.g. `<pack>/3D/pirate/License.txt`), one per leaf when a pack spans buckets — named `License.txt` (or `LICENSE`, `COPYING`, `UNLICENSE`). A readme is not licence evidence, even when it mentions a licence: copy the terms into `License.txt`. CI rejects a pack with no licence file, with two of them, or with a licence outside the allowed set, and names the pack in the failure.
+- **Every pack must contain a licence file in its pack root** (the bucket/theme leaf dir the assets live in, e.g. `<pack>/3D/pirate/License.txt`, one per leaf when a pack spans buckets), named `License.txt` (or `LICENSE`, `COPYING`, `UNLICENSE`). A readme is not licence evidence, even when it mentions a licence: copy the terms into `License.txt`. CI rejects a pack with no licence file, with two of them, or with a licence outside the allowed set, and names the pack in the failure.
 - **Allowed licences: `CC0-1.0`, `MIT`, `BSD-2-Clause`.** MIT and BSD-2-Clause require their copyright and permission notices to ship with the work, which the pipeline handles automatically. Anything demanding visible attribution (CC-BY), share-alike, non-commercial terms, modified-version marking (Zlib), an endorsement restriction (BSD-3-Clause), a NOTICE file (Apache-2.0), or reserved font names (OFL) is refused, as is any public-domain dedication other than CC0 (Unlicense): one dedication keeps the CC0 checks meaningful. A pack mixing two licences must be split.
 - **Head the licence file with its provenance** so the claim is checkable:
   ```
@@ -73,7 +99,7 @@ manifest, with id `<pack>/<bucket>[/<theme>]`.
   Verified-by: Your Name, YYYY-MM-DD
   ```
   CI requires recognisable terms in the body, fails when the body and header disagree, and checks that MIT and BSD-2-Clause carry their full notices plus a real copyright line. An SPDX header cannot admit a pack on its own.
-- **Follow the layout:** packs are top-level, `<creator>-<pack-slug>/` (lowercase, dash-separated), holding `2D|3D/<theme>/` and/or flat `ui|icons|audio|fonts/` bucket dirs. Keep everything one pack ships under its single top-level dir, even when it spans buckets. A pack dir may contain **only** bucket dirs — CI rejects anything else at that level.
+- **Follow the layout:** packs are top-level, `<creator>-<pack-slug>/` (lowercase, dash-separated), holding `2D|3D/<theme>/` and/or flat `ui|icons|audio|fonts/` bucket dirs. Keep everything one pack ships under its single top-level dir, even when it spans buckets. A pack dir may contain **only** bucket dirs; CI rejects anything else at that level.
 - **Keep any original `License.txt`/`Readme`** the pack shipped with, alongside the one above.
 - **Binary assets must be LFS-tracked.** Patterns live in `.gitattributes` (png, jpg, gif, fbx, glb, gltf, bin, obj, mtl, blend, ogg, wav, mp3, zip, fonts). If you introduce a new binary extension, add it there before committing.
 - **Never commit junk:** no `.DS_Store`, `__MACOSX/`, `*.app/`, `Thumbs.db` (already covered by `.gitignore`).

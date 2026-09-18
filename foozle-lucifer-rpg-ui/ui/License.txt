@@ -1,0 +1,35 @@
+SPDX-License-Identifier: CC0-1.0
+Source: https://foozlecc.itch.io/lucifer-rpg-ui
+Verified-by: Chelsea Newell, 2026-09-17
+
+License text carried verbatim from the Readme.txt shipped inside this pack.
+Artwork commissioned from Baldur and distributed by Foozle.
+
+--- License text as supplied by the creator ---
+
+------------------------------	
+	
+	Lucifer RPG UI (1.0)
+
+	Commissioned from: Baldur (https://twitter.com/the__baldur)
+	Distributed by Foozle (www.foozle.io)
+
+			------------------------------
+
+	License: (Creative Commons Zero, CC0)
+	http://creativecommons.org/publicdomain/zero/1.0/
+
+	This content is free to use and modify for all projects, including commercial projects.
+	Attribution not required.  If you would like to support, consider a voluntary donation.
+
+			------------------------------
+
+	Donate:   https://foozlecc.itch.io/
+	Patreon:  https://www.patreon.com/bePatron?u=48464594
+
+	Follow on YouTube and Twitter for updates:
+	https://www.youtube.com/c/FoozleCC
+	http://twitter.com/FoozleCC
+
+Creative Commons Zero v1.0 Universal (CC0 1.0) Public Domain Dedication
+http://creativecommons.org/publicdomain/zero/1.0/

@@ -1,0 +1,25 @@
+SPDX-License-Identifier: CC0-1.0
+Source: https://opengameart.org/content/gothicvania-cemetery-pack
+Verified-by: Chelsea Newell, 2026-09-17
+
+License text carried verbatim from the public-license.txt shipped inside this pack,
+with the creator's music-credit paragraph removed: the original download bundled music
+by Pascal Belisle under an attribution licence, a separate rights holder. That audio and
+the Phaser demo project that used it were removed before this pack was added, so
+everything here is Luis Zuno's CC0 artwork only.
+
+--- License text as supplied by the creator ---
+
+Artwork created by Luis Zuno @ansimuz
+
+License for Everyone. 
+
+Public domain and free to use on whatever you want, personal or commercial. Credit is not required but appreciated.
+
+Feeling Grateful?
+You can support my work at https://www.patreon.com/ansimuz
+
+Get more Free Assetslike these at: http://www.pixelgameart.org
+
+Creative Commons Zero v1.0 Universal (CC0 1.0) Public Domain Dedication
+http://creativecommons.org/publicdomain/zero/1.0/

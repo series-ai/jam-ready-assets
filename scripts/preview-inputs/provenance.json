@@ -1240,5 +1240,176 @@
         }
       }
     ]
+  },
+  "0x72-dungeon-tileset-ii/2D/dungeon": {
+    "sourcePath": "scripts/preview-inputs/0x72-dungeon-tileset-ii.png",
+    "inputs": [
+      {
+        "path": "0x72-dungeon-tileset-ii/2D/dungeon/frames/pumpkin_dude_idle_anim_f0.png",
+        "sha256": "acaf7411f0d73b559c0e12d1cf43230d67fc52d8aa820c71cdc9388f8ad1a344"
+      },
+      {
+        "path": "0x72-dungeon-tileset-ii/2D/dungeon/frames/skelet_idle_anim_f0.png",
+        "sha256": "8e140a74ab56be33cb53280b0f773c9e31435c179405865f0adf5c356b4c99d5"
+      },
+      {
+        "path": "0x72-dungeon-tileset-ii/2D/dungeon/frames/big_zombie_idle_anim_f0.png",
+        "sha256": "cfa24e832f4dd2c205af5a01470d1f1d046346138f43e8340ff740eff15d954c"
+      },
+      {
+        "path": "0x72-dungeon-tileset-ii/2D/dungeon/frames/big_demon_idle_anim_f0.png",
+        "sha256": "d02abfd145917ac647e99b3182762ff3ab966543b7b132ae9191f063d416b4f2"
+      },
+      {
+        "path": "0x72-dungeon-tileset-ii/2D/dungeon/frames/chort_idle_anim_f0.png",
+        "sha256": "b5d0cc0ff28de86bfdadc930be6dfb77f7ef2839c14aa3bce954d1cfd5a79e56"
+      },
+      {
+        "path": "0x72-dungeon-tileset-ii/2D/dungeon/frames/imp_idle_anim_f0.png",
+        "sha256": "93715432a23fd9575c7424894451a998270bfb010a9ff624912d035737370338"
+      },
+      {
+        "path": "0x72-dungeon-tileset-ii/2D/dungeon/frames/orc_shaman_idle_anim_f0.png",
+        "sha256": "5a88c4a10dafd2928d12955ca5479dc7c996962488c284861efee36841cd00ad"
+      },
+      {
+        "path": "0x72-dungeon-tileset-ii/2D/dungeon/frames/goblin_idle_anim_f0.png",
+        "sha256": "9700edcd1ccde34594a8b3f53304c99e7d627a63835e4133c9679ace04646ce3"
+      },
+      {
+        "path": "0x72-dungeon-tileset-ii/2D/dungeon/frames/ogre_idle_anim_f0.png",
+        "sha256": "de35e6fe827711e401d568ebee296316869a0d7e3ed15d4f1aa6e0dddb171d10"
+      }
+    ]
+  },
+  "chaoswitchnikol-skeleton-warrior/2D/characters": {
+    "sourcePath": "scripts/preview-inputs/chaoswitchnikol-skeleton-warrior.png",
+    "inputs": [
+      {
+        "path": "chaoswitchnikol-skeleton-warrior/2D/characters/skleton.png",
+        "sha256": "0b62471eff6c192889438da24f35330d7fc0b08018fef95caa9bc8056ec99fcb",
+        "frame": {
+          "left": 96,
+          "top": 0,
+          "width": 32,
+          "height": 32
+        }
+      },
+      {
+        "path": "chaoswitchnikol-skeleton-warrior/2D/characters/skleton.png",
+        "sha256": "0b62471eff6c192889438da24f35330d7fc0b08018fef95caa9bc8056ec99fcb",
+        "frame": {
+          "left": 0,
+          "top": 32,
+          "width": 32,
+          "height": 32
+        }
+      },
+      {
+        "path": "chaoswitchnikol-skeleton-warrior/2D/characters/skleton.png",
+        "sha256": "0b62471eff6c192889438da24f35330d7fc0b08018fef95caa9bc8056ec99fcb",
+        "frame": {
+          "left": 64,
+          "top": 32,
+          "width": 32,
+          "height": 32
+        }
+      }
+    ]
+  },
+  "favabeans-1-bit-graveyard/icons": {
+    "sourcePath": "scripts/preview-inputs/favabeans-1-bit-graveyard.png",
+    "inputs": [
+      {
+        "path": "favabeans-1-bit-graveyard/icons/Skull.png",
+        "sha256": "81913d771f7310ef6c5fb8e278958d9d84b5543ea0db6449b992672bba076555",
+        "frame": {
+          "left": 0,
+          "top": 0,
+          "width": 16,
+          "height": 16
+        }
+      },
+      {
+        "path": "favabeans-1-bit-graveyard/icons/Key.png",
+        "sha256": "88d51516c05c545dfb3d0173493855bb62e86489553c85d4afb9b40cdfef2709",
+        "frame": {
+          "left": 0,
+          "top": 0,
+          "width": 16,
+          "height": 16
+        }
+      },
+      {
+        "path": "favabeans-1-bit-graveyard/icons/Heart.png",
+        "sha256": "94d612da0a9732496fa4fac229d1834e41276c24d23e9daa0c18aa006955e9f1",
+        "frame": {
+          "left": 0,
+          "top": 0,
+          "width": 16,
+          "height": 16
+        }
+      },
+      {
+        "path": "favabeans-1-bit-graveyard/icons/Money.png",
+        "sha256": "de0e436d531eb1cab815e2d35f1076aa8693c149f94ccfe9b3a76980d66333c6",
+        "frame": {
+          "left": 0,
+          "top": 0,
+          "width": 16,
+          "height": 16
+        }
+      },
+      {
+        "path": "favabeans-1-bit-graveyard/icons/Trophy.png",
+        "sha256": "f52ee47232a833735b171dbbd5e3fbd7e29f6edc740ff1c3c9498230f4a4912b",
+        "frame": {
+          "left": 0,
+          "top": 0,
+          "width": 16,
+          "height": 16
+        }
+      },
+      {
+        "path": "favabeans-1-bit-graveyard/icons/Star.png",
+        "sha256": "9c18bbf1c42d180cbbb253925eae0cef09813b4315db924b406741b429df33a5",
+        "frame": {
+          "left": 0,
+          "top": 0,
+          "width": 16,
+          "height": 16
+        }
+      },
+      {
+        "path": "favabeans-1-bit-graveyard/icons/Play.png",
+        "sha256": "0340ed81267ed3d65ea99765f280f51efa701f73b17974f78ef6f4934a5ac67f",
+        "frame": {
+          "left": 0,
+          "top": 0,
+          "width": 16,
+          "height": 16
+        }
+      },
+      {
+        "path": "favabeans-1-bit-graveyard/icons/Lock.png",
+        "sha256": "d4c2923916b7a633c09b9d26f94e383823f807ac941812973060cc1f7ca8469e",
+        "frame": {
+          "left": 0,
+          "top": 0,
+          "width": 16,
+          "height": 16
+        }
+      },
+      {
+        "path": "favabeans-1-bit-graveyard/icons/Exclamation.png",
+        "sha256": "45be9b9e517aaef31168ba0c52e2ae4171b0dd5b33e568541170742c7aa49630",
+        "frame": {
+          "left": 0,
+          "top": 0,
+          "width": 16,
+          "height": 16
+        }
+      }
+    ]
   }
 }

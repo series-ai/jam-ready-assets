@@ -1,0 +1,12 @@
+SPDX-License-Identifier: CC0-1.0
+Source: https://opengameart.org/content/1-bit-graveyard-pixel-art-asset-pack
+Verified-by: Chelsea Newell, 2026-09-17
+
+The pack shipped no licence file. Terms recorded from its OpenGameArt submission License field.
+
+--- License text as supplied by the creator ---
+
+License: CC0 (submission License field, OpenGameArt). Author: Fava Beans.
+
+Creative Commons Zero v1.0 Universal (CC0 1.0) Public Domain Dedication
+http://creativecommons.org/publicdomain/zero/1.0/
