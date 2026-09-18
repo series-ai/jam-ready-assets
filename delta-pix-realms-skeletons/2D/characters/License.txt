@@ -1,0 +1,18 @@
+SPDX-License-Identifier: CC0-1.0
+Source: https://deltasquib.itch.io/pix-realms-skeleton-pack-1
+Verified-by: Chelsea Newell, 2026-09-17
+
+Three itch.io listings by the same creator (bone, moss and golden palettes of the same
+skeleton set) are filed as one pack, each in its own subdirectory. All three carry the
+same CC0 licence field; none shipped a licence file.
+Sources:
+  https://deltasquib.itch.io/pix-realms-skeleton-pack-1
+  https://deltasquib.itch.io/pix-realms-skeleton-pack-2-moss
+  https://deltasquib.itch.io/pix-realms-skeleton-pack-3-golden
+
+--- License text as supplied by the creator ---
+
+License: Creative Commons Zero v1.0 Universal (itch.io asset licence field). No generative AI was used.
+
+Creative Commons Zero v1.0 Universal (CC0 1.0) Public Domain Dedication
+http://creativecommons.org/publicdomain/zero/1.0/

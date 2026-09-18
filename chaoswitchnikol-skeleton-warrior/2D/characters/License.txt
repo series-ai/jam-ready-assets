@@ -1,0 +1,13 @@
+SPDX-License-Identifier: CC0-1.0
+Source: https://chaoswitchnikol.itch.io/skeleton-warrior
+Verified-by: Chelsea Newell, 2026-09-17
+
+The pack shipped loose files with no licence file. Terms recorded from the creator's itch.io page.
+
+--- License text as supplied by the creator ---
+
+"You can use these assets for whatever you like. Yes even for commercial projects."
+- ChaosWitchNikol, on the pack page. License field: Creative Commons Zero v1.0 Universal.
+
+Creative Commons Zero v1.0 Universal (CC0 1.0) Public Domain Dedication
+http://creativecommons.org/publicdomain/zero/1.0/

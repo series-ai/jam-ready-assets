@@ -1,10 +1,10 @@
 # 🎮 Jam-Ready Assets
 
-A curated, ready-to-use library of **free game art** for building games on the **RUN platform**: **296 asset packs** of 2D sprites, tilesets, 3D models, UI kits, icons, fonts, and audio, organized so you can find what you need in seconds. Drop them straight into your RUN game.
+A curated, ready-to-use library of **free game art** for building games on the **RUN platform**: **322 asset packs** of 2D sprites, tilesets, 3D models, UI kits, icons, fonts, and audio, organized so you can find what you need in seconds. Drop them straight into your RUN game.
 
 > **Free for any RUN game**, personal, educational, or commercial. Modify it freely.
 >
-> There is no single licence across the library. Every pack carries its own `License.txt`, and the library only accepts licences whose obligations RUN.studio can carry into the published game: **CC0 / public domain, MIT, and BSD-2-Clause**. Of 296 packs, 292 are CC0 and 4 are MIT (the Proof of Play *Pirate Nation* set), which asks only that you keep the copyright notice that ships with the pack. If a pack under MIT or BSD-2-Clause is added later, RUN.studio copies its licence file into your published project automatically when you import the pack. Leave it where it lands and you are done.
+> There is no single licence across the library. Every pack carries its own `License.txt`, and the library only accepts licences whose obligations RUN.studio can carry into the published game: **CC0 / public domain, MIT, and BSD-2-Clause**. Of 322 packs, 318 are CC0 and 4 are MIT (the Proof of Play *Pirate Nation* set), which asks only that you keep the copyright notice that ships with the pack. If a pack under MIT or BSD-2-Clause is added later, RUN.studio copies its licence file into your published project automatically when you import the pack. Leave it where it lands and you are done.
 > Older RUN.studio builds use a CC0-only schema-v1 catalog. Licence-aware builds use schema v2 with immutable per-commit pack manifests, so a non-CC0 pack cannot reach a client that would strip its notice or pair with another revision's notice.
 >
 > The creators below deserve a shout-out either way, see [Credits](#-credits).
@@ -18,7 +18,7 @@ A curated, ready-to-use library of **free game art** for building games on the *
 
 ## 🧭 How to navigate
 
-Every **pack** is a top-level folder, prefixed by its **creator** (e.g. `kaykit-`, `kenney-`) so you can always tell where it came from. Inside a pack, assets are sorted by **dimension** (2D vs 3D) and **theme**, or by flat type buckets — one pack can span several:
+Every **pack** is a top-level folder, prefixed by its **creator** (e.g. `kaykit-`, `kenney-`) so you can always tell where it came from. Inside a pack, assets are sorted by **dimension** (2D vs 3D) and **theme**, or by flat type buckets (one pack can span several):
 
 ```
 <pack>/2D/<theme>/   pixel art, sprites, tilesets     <pack>/ui/      buttons, panels, cursors, HUD
@@ -67,7 +67,7 @@ Each pack's licence is verified pack by pack rather than assumed, and named in t
 | **Kenney** | 240 | CC0-1.0 | The legendary *Game Assets All-in-1* - 2D, 3D, UI, icons, fonts & audio, split across every theme | [kenney.nl](https://kenney.nl) |
 | **Kay Lousberg** | 20 | CC0-1.0 | *KayKit* Complete Collection - stylized low-poly 3D kits (dungeon, city, characters, weapons, space…) | [kaylousberg.com](https://kaylousberg.com) |
 | **Isa Lousberg** | 1 | CC0-1.0 | *Tiny Treats* - charming 3D cozy-home & bakery sets | [isalousberg.com](https://www.isalousberg.com) |
-| **Foozle** (commissioned from **Baldur**) | 8 | CC0-1.0 | *Spire* - dark-fantasy 2D enemies, towers, builder & tileset | [foozlecc.itch.io](https://foozlecc.itch.io) |
+| **Foozle** (commissioned from **Baldur**) | 24 | CC0-1.0 | *Spire* - dark-fantasy 2D enemies, towers, builder & tileset; *Lucifer* - undead & cultist characters, dungeon/lava/exterior tilesets, RPG UI, equipment, pickups & effects | [foozlecc.itch.io](https://foozlecc.itch.io) |
 | **Pixel Frog** | 4 | CC0-1.0 | *Pixel Adventure*, *Kings and Pigs*, *Pirate Bomb*, *Treasure Hunters* - polished 2D platformer sets | [pixelfrog-assets.itch.io](https://pixelfrog-assets.itch.io) |
 | **Pixel-boy & AAA** | 1 | CC0-1.0 | *Ninja Adventure* - huge top-down 2D pack (characters, tilesets, FX, music) | [pixel-boy.itch.io](https://pixel-boy.itch.io) |
 | **Estúdio Vaca Roxa** (Bakudas & Gabe Fern) | 2 | CC0-1.0 | *Generic RPG Pack* & *Old West Graphics* - 2D top-down / western | [bakudas.itch.io](https://bakudas.itch.io) |
@@ -77,6 +77,14 @@ Each pack's licence is verified pack by pack rather than assumed, and named in t
 | **Jestan** | 1 | CC0-1.0 | *Classic RPG Tileset* | [jestan.itch.io](https://jestan.itch.io) |
 | **Styloo** | 1 | CC0-1.0 | *Cozy Farm* - 3D farm models (FBX + GLB) | [styloo.itch.io](https://styloo.itch.io) |
 | **Barker** | 2 | CC0-1.0 | *Cant Stop Now* runner & launcher packs - painted 2D characters, emotes, spritesheets & parallax backgrounds | [series.ai](https://series.ai) |
+| **Luis Zuno (ansimuz)** | 2 | CC0-1.0 | *GothicVania* Cemetery & Patreon Collection - Castlevania-style gothic horror 2D (graveyard scene, demons, ghosts, night town) | [opengameart.org/users/ansimuz](https://opengameart.org/users/ansimuz) |
+| **Not Jam** | 1 | CC0-1.0 | *Haunted Hotel* - 8×8 horror tileset, enemy spritesheets, pickups, UI & button prompts | [not-jam.itch.io](https://not-jam.itch.io) |
+| **Fava Beans** | 2 | CC0-1.0 | *1-Bit Graveyard* - 205 sprites of tiles, decor & structures, plus a matching 1-bit UI icon set | [opengameart.org](https://opengameart.org/content/1-bit-graveyard-pixel-art-asset-pack) |
+| **0x72** | 1 | CC0-1.0 | *DungeonTileset II* - 16×16 dungeon tiles with skeleton, zombie, demon, ghost & pumpkin-dude monsters | [0x72.itch.io](https://0x72.itch.io) |
+| **takogame** | 1 | CC0-1.0 | *Halloween Pixel Icons* - 16×16 Halloween decorations, candies & animated creatures | [takogame.itch.io](https://takogame.itch.io) |
+| **Delta** | 1 | CC0-1.0 | *Pix-Realms Skeletons* - bone, moss & golden palettes of a 64×64 skeleton set | [deltasquib.itch.io](https://deltasquib.itch.io) |
+| **Barking Doggos** | 1 | CC0-1.0 | Animated Halloween jack-o-lantern sprite | [barking-doggos.itch.io](https://barking-doggos.itch.io) |
+| **ChaosWitchNikol** | 1 | CC0-1.0 | *Skeleton Warrior* - walk & attack animations with Aseprite source | [chaoswitchnikol.itch.io](https://chaoswitchnikol.itch.io) |
 | **Proof of Play** | 4 | MIT | *Pirate Nation* - voxel ships, buildings, world bosses, harvestables, UI sprites & original soundtrack, from the archival open-source game client | [github.com/proofofplay/piratenation-game](https://github.com/proofofplay/piratenation-game) |
 
 ---

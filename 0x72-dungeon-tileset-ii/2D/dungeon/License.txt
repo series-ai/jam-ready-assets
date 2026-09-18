@@ -1,0 +1,12 @@
+SPDX-License-Identifier: CC0-1.0
+Source: https://0x72.itch.io/dungeontileset-ii
+Verified-by: Chelsea Newell, 2026-09-17
+
+The pack shipped a README with no licence text. Terms recorded from the creator's itch.io page.
+
+--- License text as supplied by the creator ---
+
+"You can use this tileset for whatever you like (CC-0)." - 0x72, on the pack page.
+
+Creative Commons Zero v1.0 Universal (CC0 1.0) Public Domain Dedication
+http://creativecommons.org/publicdomain/zero/1.0/
