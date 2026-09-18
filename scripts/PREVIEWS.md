@@ -71,7 +71,7 @@ sheets plus the explicit small Kenney selections in `kenney-preview-selections.j
 `compose-audio-preview.mjs` uses ffmpeg to extract waveform samples from
 three Pirate Nation tracks. Hydrate their named inputs first. Their provenance
 files record exact source paths and SHA-256 hashes. Pirate Nation's three visual
-proofs reuse the reviewed outputs from Venus PR 4650; their pinned remote URLs and
+proofs reuse previously reviewed outputs; their pinned remote URLs and
 the original proof provenance are retained here.
 
 ## Publication and rollback
