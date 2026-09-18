@@ -13,8 +13,10 @@ import { join, extname, basename } from 'node:path';
 import { ALLOWED_LICENSES, inspectLicenseText, legacyCompatiblePacks } from './license-policy.mjs';
 import { isBackfilled, isShallowClone, packAddedAt, preReorgPackPaths } from './pack-dates.mjs';
 import { readFeaturedCuration } from './featured.mjs';
+import { PREVIEW_FILE, readPreviewSources, selectPreview } from './preview-policy.mjs';
 
 const ROOT = process.cwd();
+const previewSources = readPreviewSources(ROOT).packs;
 const BUCKETS = { '3D': '3d', '2D': '2d', ui: 'ui', icons: 'ui', fonts: 'ui', audio: 'audio' };
 const THEMED_BUCKETS = new Set(['3D', '2D']);
 const SKIP_DIRS = new Set(['source', 'samples', '__macosx']);
@@ -112,7 +114,7 @@ function underGlbDir(relPath, glbDirs) {
 
 /** Which files RUN games actually load. Editable source formats never ship. */
 function isRuntime(file, category, packHasOggOrMp3, glbDirs) {
-  if (file.skippedDir) return false;
+  if (file.skippedDir || file.path === PREVIEW_FILE) return false;
   const ext = extname(file.path).toLowerCase();
   if (NEVER_RUNTIME.has(ext)) return false;
   if (category === '3d') {
@@ -133,14 +135,6 @@ function isRuntime(file, category, packHasOggOrMp3, glbDirs) {
   return ['.png', '.svg', '.gif', '.ttf', '.otf', '.woff', '.woff2', '.fnt', '.xml', '.json'].includes(ext);
 }
 
-function findPreview(files) {
-  const names = ['preview.png', 'contents.png', 'sample.png', 'preview.jpg', 'contents.jpg'];
-  for (const n of names) {
-    const hit = files.find((f) => basename(f.path).toLowerCase() === n);
-    if (hit) return hit.path;
-  }
-  return files.find((f) => extname(f.path).toLowerCase() === '.png')?.path ?? null;
-}
 
 const BUCKET_URL = process.env.ASSET_BUCKET_URL ?? 'https://storage.googleapis.com/run-asset-library';
 
@@ -247,8 +241,8 @@ for (const top of readdirSync(ROOT, { withFileTypes: true })) {
       continue; // resolved against the published index once every pack has been walked
     }
     const { key: creatorKey, name: creator } = creatorOf(slug);
-    const previewPath = findPreview(files);
-    const preview = previewPath ? entries.find((e) => e.path === previewPath) : null;
+    const preview = selectPreview(id, category, entries, previewSources[id]);
+    const assetEntries = entries.filter((entry) => entry.path !== PREVIEW_FILE);
     const audioPreview = category === 'audio'
       ? (runtime.find((e) => ['.ogg', '.mp3'].includes(extname(e.path).toLowerCase())) ?? null)
       : null;
@@ -274,9 +268,9 @@ for (const top of readdirSync(ROOT, { withFileTypes: true })) {
       id, slug, title: titleOf(slug, creatorKey), category, theme, creator,
       license: verdict.license,
       version,
-      fileCount: entries.length,
+      fileCount: assetEntries.length,
       runtimeFileCount: runtime.length,
-      totalBytes: entries.reduce((s, e) => s + e.bytes, 0),
+      totalBytes: assetEntries.reduce((s, e) => s + e.bytes, 0),
       previewOid: preview?.oid ?? null,
       audioPreviewOid: audioPreview?.oid ?? null,
       ...(addedAt ? { addedAt } : {}),
@@ -320,6 +314,10 @@ if (rejected.length > 0) {
   console.error(`\n${rejected.length} pack(s) skipped. The mirror will publish the rest and the job then fails.`);
 }
 
+const packIds = new Set(packDirs.map((pack) => pack.id));
+for (const id of Object.keys(previewSources)) {
+  if (!packIds.has(id)) fatal(`Preview selection names an unknown pack: ${id}`);
+}
 index.sort((a, b) => a.id.localeCompare(b.id));
 
 // The hand-written event curation (featured.json). Invalid is fatal, not

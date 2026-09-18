@@ -1,0 +1,11 @@
+{
+  "name": "run-asset-library-tools",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test scripts/*.test.mjs",
+    "previews:generate": "node scripts/generate-previews.mjs",
+    "previews:check": "node scripts/check-previews.mjs"
+  },
+  "devDependencies": { "sharp": "0.34.5" }
+}

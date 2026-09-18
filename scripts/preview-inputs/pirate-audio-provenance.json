@@ -1,0 +1,17 @@
+{
+  "inputs": [
+    {
+      "path": "proofofplay-pirate-nation/audio/music/music-theme-pop-main-theme-remix-v2-normalized.mp3",
+      "sha256": "bb1f3266fafb1a23a08abbc2fa309a986b350da63d2539a324705e11b0f950c0"
+    },
+    {
+      "path": "proofofplay-pirate-nation/audio/music/music-combat-combat-v16.mp3",
+      "sha256": "4e38aa26aec703fa1ff8092086db1ac75dab019e1edec6b4c241dd79372b6904"
+    },
+    {
+      "path": "proofofplay-pirate-nation/audio/music/music-exploration-exploration-v10-normalized.mp3",
+      "sha256": "fe1668f1ddd73bfce77d6b36cc4a1994ed9253fe4df0253c4148996484b48f7f"
+    }
+  ],
+  "sampleSeconds": 12
+}
