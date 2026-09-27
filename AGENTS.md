@@ -33,7 +33,7 @@ This repo is a curated library of **free game art** for building games on the **
 
 ## TL;DR for agents
 
-- Everything here is **free to use, modify, and redistribute in any RUN game**, commercially included. There is no single library-wide licence: each pack carries its own `License.txt`, and CI refuses any licence outside **CC0-1.0, MIT, and BSD-2-Clause**. Of 296 packs, 292 are CC0 and 4 are MIT (Proof of Play *Pirate Nation*).
+- Everything here is **free to use, modify, and redistribute in any RUN game**, commercially included. There is no single library-wide licence: each pack carries its own `License.txt`, and CI refuses any licence outside **CC0-1.0, MIT, and BSD-2-Clause**. Of 338 packs, 330 are CC0 and 8 are MIT (Proof of Play *Pirate Nation*, and the `3D/characters` avatar rig leaves of the RUN Voxel Packs).
 - **Never delete or move a pack's `License.txt`.** For CC0 packs it is provenance; for the others it is the whole obligation, and RUN.studio copies it into the creator's project alongside the assets.
 - The public schema-v1 manifest stays **CC0-only** for older Studio builds. Licence-aware consumers use `manifest/v2/`, which may include MIT and BSD-2-Clause packs.
 - Layout is **predictable and pack-first**: `<creator>-<pack>/<dimension>/<theme>/` (plus flat `<pack>/ui|icons|fonts|audio/` buckets). Find assets by globbing themes across packs (`ls -d */2D/platformer`), not by guessing filenames.
@@ -67,7 +67,7 @@ manifest, with id `<pack>/<bucket>[/<theme>]`.
 
 **2D:** `platformer` · `top-down-rpg` · `dungeon` · `fantasy` · `western` · `pirate` · `city` · `nature` · `farm` · `food` · `space-scifi` · `vehicles-racing` · `tower-defense` · `strategy-hex` · `characters` · `seasonal-holiday` · `sports` · `prototype-blocks` · `misc`
 
-**3D:** `characters` · `dungeon` · `city` · `nature` · `farm` · `interior-furniture` · `food` · `fantasy` · `weapons` · `space-scifi` · `vehicles-racing` · `platformer` · `tower-defense` · `strategy-hex` · `pirate` · `seasonal-holiday` · `sports` · `prototype-blocks` · `misc`
+**3D:** `characters` · `dungeon` · `city` · `nature` · `farm` · `interior-furniture` · `food` · `fantasy` · `weapons` · `space-scifi` · `vehicles-racing` · `platformer` · `tower-defense` · `strategy-hex` · `pirate` · `monster` · `post-apocalypse` · `seasonal-holiday` · `sports` · `prototype-blocks` · `misc`
 
 > Theme contents change over time - enumerate live with `ls -d */2D/<theme>` or `ls -d */3D/<theme>` rather than assuming a fixed set of packs.
 
