@@ -1,0 +1,3668 @@
+{
+  "pack": "run-inkline",
+  "generatedAt": "2026-09-29T01:21:35.214474+00:00",
+  "totalFiles": 915,
+  "totalBytes": 86759292,
+  "files": {
+    "2D/misc/License.txt": {
+      "bytes": 1279,
+      "sha256": "370fc07dfb7d5d2220432d0afe8e503ab693e2009286c21da48949b5ff567e14"
+    },
+    "2D/misc/Readme.md": {
+      "bytes": 262,
+      "sha256": "c71310751f0cdf6b0f6abadbba71448a427e71dce91466de7568e512fb759624"
+    },
+    "2D/misc/arrow-trail.png": {
+      "bytes": 5331,
+      "sha256": "7bff9af8a883e10a05bab4850c6f7daa515c0c289381c42b87805ecd6f8f18df"
+    },
+    "2D/misc/atlas.json": {
+      "bytes": 14516,
+      "sha256": "c6da1fd3c19beb76e63dba730de45b722d4a301f5672505d65e0eaa91f537e85"
+    },
+    "2D/misc/blade-contact.png": {
+      "bytes": 13569,
+      "sha256": "a75043c6b46f609397a4ec77af537906f561be4c0825ea4f8a7c3cc1a2a88e99"
+    },
+    "2D/misc/block-ring.png": {
+      "bytes": 18884,
+      "sha256": "994526a89db3f61990ee301524322d59c75ae0303c05bce9e00a887b248eb4d4"
+    },
+    "2D/misc/bullet-impact.png": {
+      "bytes": 9923,
+      "sha256": "bfcf323abf41f230066c3df01d70b0e906c6a4c60e8d1cdb1a0cb16befa6d7d8"
+    },
+    "2D/misc/bullet-tracer.png": {
+      "bytes": 5120,
+      "sha256": "540c0a260ba7b5945bb3dd2bb14b7831f4031776fc3e993a2c27e6ea55c1ba58"
+    },
+    "2D/misc/checkpoint.png": {
+      "bytes": 8259,
+      "sha256": "521f591a5fc6bc40a6bf03adef66c37c17e1b23d9b53225b1f86f700b5d3ac13"
+    },
+    "2D/misc/combo-rise.png": {
+      "bytes": 10495,
+      "sha256": "dbf90b589971847990ba76feac8439eb4224fd43589e148e68ea82ce9d4ac6cb"
+    },
+    "2D/misc/concrete-chips.png": {
+      "bytes": 11930,
+      "sha256": "336feb4a031a980a9960be71863ff380230200dec5a6cc7bfd92695c36a0ae5f"
+    },
+    "2D/misc/counter-flash.png": {
+      "bytes": 21041,
+      "sha256": "51e6949b1e7b0541450acb8019636249f83421eb7f5ddf05f6e74207d6b59ae6"
+    },
+    "2D/misc/crate-break.png": {
+      "bytes": 19610,
+      "sha256": "5fea014ba332b7a88afadc1e4dfa39fba6677acd76a569867d796aafef171a78"
+    },
+    "2D/misc/critical-hit.png": {
+      "bytes": 15511,
+      "sha256": "3b24fc4299f8097a81ed237030080279d0cc5af93df8cc1250f6eca230f6aa51"
+    },
+    "2D/misc/damage-pips.png": {
+      "bytes": 10172,
+      "sha256": "637b45538d56262ba06282ea94ca6fc7e85a3135aee6a8cc98962610b8819c47"
+    },
+    "2D/misc/danger-pulse.png": {
+      "bytes": 17568,
+      "sha256": "b4c78544b53a5a1016c14db86b00e16fe52cf2780efd61db40b8e1f78b9e8ce7"
+    },
+    "2D/misc/dash-ring.png": {
+      "bytes": 6825,
+      "sha256": "301c262e68ce6ca028361f71c235abdc5119ac3183536a38bfde1a0e330d7b9d"
+    },
+    "2D/misc/dodge-trail.png": {
+      "bytes": 6853,
+      "sha256": "e0326f06fd40360749894fad2cb1fc9497b59178da79e825836b5bd7f1fd2598"
+    },
+    "2D/misc/double-jump-ring.png": {
+      "bytes": 8450,
+      "sha256": "c9befb90fbc5aaf4105bf3bbe27cc93ca83e85c95f76aeaf6cf37b4a56dde5d3"
+    },
+    "2D/misc/effects.json": {
+      "bytes": 33514,
+      "sha256": "0cd76cb0470fdc1c94ea2a65af0e2926573703b8af3603acd531f56ef769feb7"
+    },
+    "2D/misc/electric-arc.png": {
+      "bytes": 12384,
+      "sha256": "bd63e39aac9e99243e7d5102ac1ec3b443b033e9554479fc816949b6152c2cdc"
+    },
+    "2D/misc/explosion.png": {
+      "bytes": 35973,
+      "sha256": "13737c64f49ec05abd5402418c6c5c0f91615b7ee4ba4c65cdbebfdb657319d7"
+    },
+    "2D/misc/focus-pulse.png": {
+      "bytes": 18096,
+      "sha256": "b535bef268a7b89b6c8dc23957673e0adad7ec40f6280065e641cdb50b8f4df6"
+    },
+    "2D/misc/footstep-dust.png": {
+      "bytes": 34626,
+      "sha256": "7c80d13f69ee05f166bb9cce808b2a37528eb9a673fbc9e82c70e00e018ded09"
+    },
+    "2D/misc/grind-sparks.png": {
+      "bytes": 9995,
+      "sha256": "487e9cacf88b356db9c541a7e18c7b2415351d4ad333bcf2b67d619e09b21250"
+    },
+    "2D/misc/guard-break.png": {
+      "bytes": 12260,
+      "sha256": "602f5ef59c58381496852887407e928b1ced2788c1f111d699a6d041fd47c460"
+    },
+    "2D/misc/guard-shock.png": {
+      "bytes": 9775,
+      "sha256": "d1a70dc0d2ed7f72ec44b0930c09beb3664215fd5501a4af2b227e51a79e95d3"
+    },
+    "2D/misc/hard-stop.png": {
+      "bytes": 21340,
+      "sha256": "36d74010299c5e2148bc0b1303f6f37fb50df4632c964bbd261e1f5786e39a8b"
+    },
+    "2D/misc/hazard-flare.png": {
+      "bytes": 25920,
+      "sha256": "5724b8eba3e883a2539ed2d1352d90e4a4666bf1ed9349ec2008dd03ee72661f"
+    },
+    "2D/misc/health-pulse.png": {
+      "bytes": 10047,
+      "sha256": "e11288915f21d3ed586f0414ef80b9f525d534c0cfd089c6a579f1565f41ae6d"
+    },
+    "2D/misc/heavy-impact.png": {
+      "bytes": 19288,
+      "sha256": "24967bfd6cd56603cb0adebb83672688a44aecfff29f07b4bdc35227c098ad1c"
+    },
+    "2D/misc/jump-puff.png": {
+      "bytes": 34744,
+      "sha256": "ec29aefb7a9835b9923fcdaf6f609299cdecab8e02c0073bec6356f258daacb1"
+    },
+    "2D/misc/kick-impact.png": {
+      "bytes": 9143,
+      "sha256": "d94ad013bcde1ef7d1549389accb72ce6277499ab9333c0f2455af4a8614068d"
+    },
+    "2D/misc/landing-dust.png": {
+      "bytes": 38847,
+      "sha256": "8c051a2e2519b7a72fa7520157f93f428b961a7c83e2191bc69ebbcc2bd66122"
+    },
+    "2D/misc/metal-sparks.png": {
+      "bytes": 9660,
+      "sha256": "5330d900aefa9ed225472d2c6cff8ca50e4e554259c74f7d2f9058c0539d7647"
+    },
+    "2D/misc/muzzle-snap.png": {
+      "bytes": 14193,
+      "sha256": "08cb62541fe50fe81936190a1b1a033af5f939191dd3290e02f83e3ab2380baa"
+    },
+    "2D/misc/oil-splash.png": {
+      "bytes": 11272,
+      "sha256": "4f3474d1888d34c137529923170035737a16bcc7961a9c6ffe8859d9fe6c42e4"
+    },
+    "2D/misc/parry-flash.png": {
+      "bytes": 17263,
+      "sha256": "f690f733047a6ef43d3f105fe8d1cb091584b9477befa5c3905811a7b680be93"
+    },
+    "2D/misc/pickup-sparkle.png": {
+      "bytes": 16761,
+      "sha256": "be6579448d024744f1c5a0d52a9a76723b9170a2ed8b8f44d7f79a8bf2ef98f0"
+    },
+    "2D/misc/pipe-leak.png": {
+      "bytes": 42983,
+      "sha256": "dfe7f327a332d2cf23d4ecd000979556ba0f5f509d92059216dd1f6239749773"
+    },
+    "2D/misc/pistol-flash.png": {
+      "bytes": 14899,
+      "sha256": "935a5c38c814fc4aff48b2052f91fa5ab920f271b25ccf1fd3c3e94e25801e9d"
+    },
+    "2D/misc/plasma-hit.png": {
+      "bytes": 17765,
+      "sha256": "513840a98b350e5d993176015c42e38ccf7ce610f982ccd34af786814923b7da"
+    },
+    "2D/misc/plasma-pulse.png": {
+      "bytes": 19851,
+      "sha256": "666417c5b4a0b3dd8f97ed06554f826f59a0bc09cd5d3b820ac10b0d68b3b3f7"
+    },
+    "2D/misc/preview.png": {
+      "bytes": 9969,
+      "sha256": "4a440ccb1677553b8af967d08c2e850fc5a06b52ae523d3cbdb868d7f137c6eb"
+    },
+    "2D/misc/preview.webp": {
+      "bytes": 11696,
+      "sha256": "db7e0a16de4a1610532b7ec829364744911d5396bdf87b59143e540d2562a80e"
+    },
+    "2D/misc/previews/effect-arrow-trail.png": {
+      "bytes": 5115,
+      "sha256": "da81f38be4687ab75b91b1fc7f67cb6af0566b0dcd084cc9244a796d4cddd34f"
+    },
+    "2D/misc/previews/effect-blade-contact.png": {
+      "bytes": 8161,
+      "sha256": "d0a83044825b3bb565a0e9fd20e2893b226ef46a2c333823aa481479cbf9d451"
+    },
+    "2D/misc/previews/effect-block-ring.png": {
+      "bytes": 9951,
+      "sha256": "d4dcd91e1ac27008a6d2dd5f528d2e29930234b2aadd789cbe738b130637470f"
+    },
+    "2D/misc/previews/effect-bullet-impact.png": {
+      "bytes": 6063,
+      "sha256": "29b83dc86cbf967bf90ac16c44ef84e998f0d088cde033f28828a70c011b9166"
+    },
+    "2D/misc/previews/effect-bullet-tracer.png": {
+      "bytes": 5045,
+      "sha256": "ddbc7e2cbb84f5b6955582f3ca003fe2822f5c6c758ab5d0521d484f6ca1671a"
+    },
+    "2D/misc/previews/effect-checkpoint.png": {
+      "bytes": 7422,
+      "sha256": "5729a780e6be79ea5338b6a12264025459a85765773062924718e69f46d3767b"
+    },
+    "2D/misc/previews/effect-combo-rise.png": {
+      "bytes": 6380,
+      "sha256": "6cfb38a9a149b86044151500eed3f159c7899f2bafa9f6a4dcf0264b59b5c2a7"
+    },
+    "2D/misc/previews/effect-concrete-chips.png": {
+      "bytes": 7039,
+      "sha256": "5d9e844487b03c2cc72ec00752dd677f410c11e55a402e016e1a9b3808c8e20e"
+    },
+    "2D/misc/previews/effect-counter-flash.png": {
+      "bytes": 10273,
+      "sha256": "7bab4fcd6e70d2a50c37273726098cca94ea4707b7a9f49144cfdf3919718423"
+    },
+    "2D/misc/previews/effect-crate-break.png": {
+      "bytes": 8955,
+      "sha256": "b884ac6cdaacefb0399220b4ef18b71d508f83b9127c76f562813e2507d72db3"
+    },
+    "2D/misc/previews/effect-critical-hit.png": {
+      "bytes": 9144,
+      "sha256": "ab384ef35ee68b8bfeeea9267558719dcbd27ee282b3b24b7879fb10607af238"
+    },
+    "2D/misc/previews/effect-damage-pips.png": {
+      "bytes": 6708,
+      "sha256": "2a1c69757aba190744cd6eeaf751ae44622f23c99b01c468c2f6bd06e7dc8825"
+    },
+    "2D/misc/previews/effect-danger-pulse.png": {
+      "bytes": 10056,
+      "sha256": "34ded1ed834193e6a82e667545e415be6aba13cb5b53bfa1b5cd33238b11bc99"
+    },
+    "2D/misc/previews/effect-dash-ring.png": {
+      "bytes": 5779,
+      "sha256": "f1ae1ed8b1db1938be53dfef5121eeb0810b55c9e30558c6cca74bc988e12a85"
+    },
+    "2D/misc/previews/effect-dodge-trail.png": {
+      "bytes": 6217,
+      "sha256": "bbba114ecb5466522d7f5f31819e49f934717e254436a5ba5a3be2138ecb0c40"
+    },
+    "2D/misc/previews/effect-double-jump-ring.png": {
+      "bytes": 7286,
+      "sha256": "d2b0289fa9749aa3fda30ce11fe18d889afbf928763c0c88810575624d6d4a97"
+    },
+    "2D/misc/previews/effect-electric-arc.png": {
+      "bytes": 8758,
+      "sha256": "11beee67402808145f12a03484f5f3407c51b8fa6b2d9fb360eb94d597504c78"
+    },
+    "2D/misc/previews/effect-explosion.png": {
+      "bytes": 11312,
+      "sha256": "d16db925e47ea0c566f394ad44bd048d5ae60099e96bafead495a598c9ba8131"
+    },
+    "2D/misc/previews/effect-focus-pulse.png": {
+      "bytes": 9825,
+      "sha256": "c2c68a7123bc29991bde5a81ace53c3c723ed98d9d0dcfe31007cdc1b57863b1"
+    },
+    "2D/misc/previews/effect-footstep-dust.png": {
+      "bytes": 10251,
+      "sha256": "7d53e5e89e5262f3681a11a1534c2b40ac014046920bb93af3e3aaa7fd9f9c95"
+    },
+    "2D/misc/previews/effect-grind-sparks.png": {
+      "bytes": 7113,
+      "sha256": "283fcb8034308698693fa9b825536cfd31ed13536e264f6be0b477ca0864ee3c"
+    },
+    "2D/misc/previews/effect-guard-break.png": {
+      "bytes": 7293,
+      "sha256": "a4858d0d3d9f97117c4ad675b1c0c2809859ca59f35da28c17e8252d4eee43f2"
+    },
+    "2D/misc/previews/effect-guard-shock.png": {
+      "bytes": 7739,
+      "sha256": "122ed41bf5bfaa11a98a791816f07d29916af5b8424d5629788ffc1ed2483f53"
+    },
+    "2D/misc/previews/effect-hard-stop.png": {
+      "bytes": 9186,
+      "sha256": "e1c49fecdac944a70e9c6530a7213b6213a5dc542ed9e266b8acad9679754426"
+    },
+    "2D/misc/previews/effect-hazard-flare.png": {
+      "bytes": 12446,
+      "sha256": "2fb77eb32093e0fa05dcfa2aee684b5819d94ea4061affaebd002be2fccb0450"
+    },
+    "2D/misc/previews/effect-health-pulse.png": {
+      "bytes": 8930,
+      "sha256": "4dc662844f53a7e011f6f85e905a75ffaad09058f5c0e6694fe0cd37febbbad1"
+    },
+    "2D/misc/previews/effect-heavy-impact.png": {
+      "bytes": 9990,
+      "sha256": "d5ed83c5b5c252d61b1e175b2fd6fa833bfbffbe08d41a3b3017233fa90e9173"
+    },
+    "2D/misc/previews/effect-jump-puff.png": {
+      "bytes": 10481,
+      "sha256": "59ccfc33279cef6217079663ba9728792444e550a0fedb67aaa7e2b8f6a31e3b"
+    },
+    "2D/misc/previews/effect-kick-impact.png": {
+      "bytes": 6887,
+      "sha256": "db5ff02058bd52ba7bdbef01934c3986456ca781fe8bc40bf7245679417f8e25"
+    },
+    "2D/misc/previews/effect-landing-dust.png": {
+      "bytes": 11713,
+      "sha256": "2cdcffbc9f20f5afb4a522b77a6c216e8ecfa035537eae7292c84636b49a474f"
+    },
+    "2D/misc/previews/effect-metal-sparks.png": {
+      "bytes": 6549,
+      "sha256": "3f5c6bd77f48d3a067932af07dd6f7e8c0159af0d183694d851180871935358d"
+    },
+    "2D/misc/previews/effect-muzzle-snap.png": {
+      "bytes": 8175,
+      "sha256": "4927f80bbfb70fbf056fb0116e4c0952d2a8719e8f10ca008b084143460dda27"
+    },
+    "2D/misc/previews/effect-oil-splash.png": {
+      "bytes": 6802,
+      "sha256": "6d6ed3a5ecb85e1245eeb352f93e6c89a99e1398702cfe990133f7a212378c7d"
+    },
+    "2D/misc/previews/effect-parry-flash.png": {
+      "bytes": 9321,
+      "sha256": "57288f0f1be18655908b8f5fb92cc318aa4fac3302272b18c27f9f5e502b8888"
+    },
+    "2D/misc/previews/effect-pickup-sparkle.png": {
+      "bytes": 9168,
+      "sha256": "723c0b5e9b968c75a3864c064d79136013ba12961cc2f5a050bbafaa43137468"
+    },
+    "2D/misc/previews/effect-pipe-leak.png": {
+      "bytes": 12023,
+      "sha256": "02d30ef096243445643222dee2a8bad8a1ed7bffd5b19d884a6d693190c497d3"
+    },
+    "2D/misc/previews/effect-pistol-flash.png": {
+      "bytes": 8586,
+      "sha256": "cc29253df576b0845933da3257ee46511bec065978d0c3e5405ac7ade2a4a1fb"
+    },
+    "2D/misc/previews/effect-plasma-hit.png": {
+      "bytes": 10598,
+      "sha256": "ccd99bbd98b4e246867a39995bd7709fd3df53221f1a8f99008cd69a7f2cfaee"
+    },
+    "2D/misc/previews/effect-plasma-pulse.png": {
+      "bytes": 12165,
+      "sha256": "692a617435f6eab4d05359c359df2e70792cb8fe5d4a630c1f797ca41d74f38e"
+    },
+    "2D/misc/previews/effect-punch-impact.png": {
+      "bytes": 9969,
+      "sha256": "4a440ccb1677553b8af967d08c2e850fc5a06b52ae523d3cbdb868d7f137c6eb"
+    },
+    "2D/misc/previews/effect-ricochet.png": {
+      "bytes": 6916,
+      "sha256": "a1c51b329c3c2f99bc65628c4e163e2163c5060748fba04b22e9fb2e98772b63"
+    },
+    "2D/misc/previews/effect-rifle-flash.png": {
+      "bytes": 7581,
+      "sha256": "bd53631081f631a34023b21fcc585f1c25f85895abf85265bc51417658c5ba00"
+    },
+    "2D/misc/previews/effect-shell-burst.png": {
+      "bytes": 6441,
+      "sha256": "b15dcc704a65cb1b6c7c79ab665ed0bb0a016f6eaa6914d8b1a3d58e8cc196d8"
+    },
+    "2D/misc/previews/effect-shell-eject.png": {
+      "bytes": 5024,
+      "sha256": "5605a647e744620451a5228741f334f646785d27de071f69268cdacdb5231efe"
+    },
+    "2D/misc/previews/effect-shield-bash.png": {
+      "bytes": 10630,
+      "sha256": "7a9d78a5830f835d7e8f6d43ba3c652d3aea21cec0a6fe472bcd0275bed951c8"
+    },
+    "2D/misc/previews/effect-shield.png": {
+      "bytes": 10497,
+      "sha256": "7c7ca4ee409b31961aa55a2c4f77b9ffb3c4c56fc1f1dd7a368e790c84b6ee3b"
+    },
+    "2D/misc/previews/effect-shotgun-flash.png": {
+      "bytes": 9892,
+      "sha256": "11119e04d14e219b254c7df1ee97106fc8822ae5c5a744c7d2bd4add88d8946d"
+    },
+    "2D/misc/previews/effect-slide-dust.png": {
+      "bytes": 12515,
+      "sha256": "83b2102644e2cf35fe93e20ffaa2b2a530ba80cd42884e8dc7b1c6044029dcd1"
+    },
+    "2D/misc/previews/effect-smoke-puff.png": {
+      "bytes": 12058,
+      "sha256": "cfb56b84c8afc69e8052e0a0d2e3f511f5cc0838f2fd1b14db4a8c4afb6b43da"
+    },
+    "2D/misc/previews/effect-spawn-ring.png": {
+      "bytes": 9707,
+      "sha256": "ecd55d4b285f04a370c4634ecb10d78c87db93996faa9dc96d07e99561e24fb3"
+    },
+    "2D/misc/previews/effect-sprint-streak.png": {
+      "bytes": 5896,
+      "sha256": "fa17090ad83c5747ed10eb323dfc7c57fee8ead2edb6f10b07db03dd62f0b362"
+    },
+    "2D/misc/previews/effect-staff-sweep.png": {
+      "bytes": 6421,
+      "sha256": "ad64368c6dd590ac85c6f41ea1ae5a3b73a8233863bc8186968fc0f10361ce60"
+    },
+    "2D/misc/previews/effect-steam-burst.png": {
+      "bytes": 13043,
+      "sha256": "7530a2c7062a4e569b152075329f712b154cd9d73be813f71346b124e4fb479a"
+    },
+    "2D/misc/previews/effect-steam-vent.png": {
+      "bytes": 11728,
+      "sha256": "cfc2d2cee06122efe21b991e13d17f1a0b4438dd6946c40c55c9224d922c949d"
+    },
+    "2D/misc/previews/effect-stun-stars.png": {
+      "bytes": 7150,
+      "sha256": "21e45bc05ff3244887704a44c5e4dd82b4afc3555e557c37792eb1f755dfb5b7"
+    },
+    "2D/misc/previews/effect-sword-cross.png": {
+      "bytes": 8183,
+      "sha256": "6db208cf84fdc9187da7621a5586edaaccaa3ef4cc6d539b3dc4ec0bd5e739e2"
+    },
+    "2D/misc/previews/effect-sword-slash.png": {
+      "bytes": 6533,
+      "sha256": "0383f30f7141dcce283ab6b58431d2789de627295d509c5b76314a5be79c5027"
+    },
+    "2D/misc/previews/effect-uppercut.png": {
+      "bytes": 6630,
+      "sha256": "fdb5feb06da73a2e9787a4af66270b5e2dca9ea1e3bb5fe5c05e4479ecffc187"
+    },
+    "2D/misc/previews/effect-vault-dust.png": {
+      "bytes": 10775,
+      "sha256": "4943f0f0a7d851537ded3f04522dbdb368ce7afc52f38d4e5c037f6cbf8280ca"
+    },
+    "2D/misc/previews/effect-wall-kick.png": {
+      "bytes": 7081,
+      "sha256": "6e94adcd552dcb4ab1312da8ea9707d914d2d0b0b05a92ff27bda953a46cdc17"
+    },
+    "2D/misc/previews/effect-wall-scrape.png": {
+      "bytes": 6761,
+      "sha256": "11344839b733bdf6d21158db4b7b4b0a7d2e0bb4ca4e2adf3f0e8ad2d0cecfe5"
+    },
+    "2D/misc/previews/effect-weapon-clash.png": {
+      "bytes": 9679,
+      "sha256": "66ac8bdd4d6aac1c099bd99c8419f5fb7e5d1ee04d79559e2128fbd1213ce709"
+    },
+    "2D/misc/previews/effect-welding-arc.png": {
+      "bytes": 6846,
+      "sha256": "71d08492c7db1c44d19c2ad862698f1d854e42533e89330f1ac39821f06d203a"
+    },
+    "2D/misc/previews/effect-zipline-streak.png": {
+      "bytes": 6037,
+      "sha256": "81ebc79b78a52ec79f2e210af978867d0358973134ae6c8b6934cce762f60fdd"
+    },
+    "2D/misc/punch-impact.png": {
+      "bytes": 19052,
+      "sha256": "a0d0d3048e224838d495ceb034fbcd03777a5738746b85defadeeaea70e15857"
+    },
+    "2D/misc/ricochet.png": {
+      "bytes": 9467,
+      "sha256": "4e2e8bc433ceb4112e6db4a972477c0be55bcb06d0a1b74a31734430cefb9fd3"
+    },
+    "2D/misc/rifle-flash.png": {
+      "bytes": 10466,
+      "sha256": "9b0c12d487c3459fb49606fdbce84f6c973f789af1186d85dca5c92373272012"
+    },
+    "2D/misc/shell-burst.png": {
+      "bytes": 9257,
+      "sha256": "e49b8b2569093d51e5b26771becf287187facecd9a4be4836eb2c1afe3987019"
+    },
+    "2D/misc/shell-eject.png": {
+      "bytes": 6325,
+      "sha256": "93fad0e695296989fde121e82161adf57843df757848aaa242586c35fc5b25a7"
+    },
+    "2D/misc/shield-bash.png": {
+      "bytes": 20404,
+      "sha256": "fef6aaa15c73024fa12ef34a8b3b593a8d31e6709896df820beb58c7f90f4263"
+    },
+    "2D/misc/shield.png": {
+      "bytes": 17001,
+      "sha256": "c940a7416136b205f047034bff86f07158f1d880f515a65085949643a66848f8"
+    },
+    "2D/misc/shotgun-flash.png": {
+      "bytes": 19906,
+      "sha256": "a1c94a4de64de16bf05e0cdb7081ef38cfcb9a4d972a426cb86b8b8d7210e72f"
+    },
+    "2D/misc/slide-dust.png": {
+      "bytes": 43366,
+      "sha256": "d19d54a97884e8803983f598bbe6b6d12fe88298aca012da9c803680782cc025"
+    },
+    "2D/misc/smoke-puff.png": {
+      "bytes": 43513,
+      "sha256": "0424386b270d16be8e66cd2ebecaa34c77856648ccf1c15c2be54b4330092313"
+    },
+    "2D/misc/spawn-ring.png": {
+      "bytes": 10341,
+      "sha256": "930155cec05a5e5a48aceb6d7c70d6f10df08e9353dab1e246205bc98cc601fd"
+    },
+    "2D/misc/sprint-streak.png": {
+      "bytes": 6255,
+      "sha256": "1127e7b842501635d27026d8b68bb47553fd7fab30d6456c2f7dfb021897eb6a"
+    },
+    "2D/misc/staff-sweep.png": {
+      "bytes": 10914,
+      "sha256": "32dd3f8678fd021e00aca5b56a649c2865d1dfbdd6ba3d604f11e02a485092c7"
+    },
+    "2D/misc/steam-burst.png": {
+      "bytes": 44119,
+      "sha256": "9895f6a058997ab75bdd5b1988f0f737dd97209f9af7e06632cd64f052c440c2"
+    },
+    "2D/misc/steam-vent.png": {
+      "bytes": 39419,
+      "sha256": "1bb43346faf184774d243fe3f426dd8ccdec6cd6b6cc895d6aeb65a66cb9d416"
+    },
+    "2D/misc/stun-stars.png": {
+      "bytes": 13765,
+      "sha256": "2e71bd8e3507e8b2cd500ef009e92ae68271880e923f1369bffa008a10be7703"
+    },
+    "2D/misc/sword-cross.png": {
+      "bytes": 13627,
+      "sha256": "a0c28d6a4e0f955cc0a19ad73bd7024c0c914d68eac66b48fb3cf711b86f29ab"
+    },
+    "2D/misc/sword-slash.png": {
+      "bytes": 11041,
+      "sha256": "3557752b4ec2c9487f65f7825298b305658aa4207024cb9556c1341f76e8ad56"
+    },
+    "2D/misc/uppercut.png": {
+      "bytes": 11190,
+      "sha256": "053a5240d0b56c1e0eef04cc9bd0f1d29a6081ac9fd145a206dd4cc6387b1c62"
+    },
+    "2D/misc/vault-dust.png": {
+      "bytes": 26307,
+      "sha256": "c66e4e42a0c2ec05c3b8a7cf78431244844899eabecd84998ec6f430ab66e51f"
+    },
+    "2D/misc/wall-kick.png": {
+      "bytes": 10461,
+      "sha256": "741459ba098ed26375d48f5ae5f0e88253d0172a71134af1df6943bc4de36ff8"
+    },
+    "2D/misc/wall-scrape.png": {
+      "bytes": 8995,
+      "sha256": "11416983123b307fb13b28445793d5484906d9ac957b75fe20effe9fa8d539e5"
+    },
+    "2D/misc/weapon-clash.png": {
+      "bytes": 17580,
+      "sha256": "e9a5449799e5343a6039f5f37756916a9667ce731031641b558aa8d47b527e71"
+    },
+    "2D/misc/welding-arc.png": {
+      "bytes": 10063,
+      "sha256": "85f88e51330c9cb3859b3a7b34f77309016ce4203ffaccc4c2427a83d043a297"
+    },
+    "2D/misc/zipline-streak.png": {
+      "bytes": 6670,
+      "sha256": "df46955536f56ded6d290c76fd393960f1d04068958d8972e66746d46e9e05d9"
+    },
+    "3D/characters/License.txt": {
+      "bytes": 1279,
+      "sha256": "370fc07dfb7d5d2220432d0afe8e503ab693e2009286c21da48949b5ff567e14"
+    },
+    "3D/characters/Readme.md": {
+      "bytes": 754,
+      "sha256": "3abadd4a68a5b49ed8e18f9b6a1a250af6ecf2ad129fb6a6e70b4fbadd0ce605"
+    },
+    "3D/characters/Source/README.md": {
+      "bytes": 1587,
+      "sha256": "26c3c78e9257ac673f5ac0e4be090e9a444958e91ff85f3401e1828fa3698c0a"
+    },
+    "3D/characters/Source/character-roles.json": {
+      "bytes": 3199,
+      "sha256": "b002a7ea342c91df5d21495ea232eee314c16ab10497c1d9e642e29234a23a9c"
+    },
+    "3D/characters/Source/characters.blend": {
+      "bytes": 36033900,
+      "sha256": "ace35e075433a8deebad72e3a7bf5badc47cf65d2853ce0fa27b86fac010a438"
+    },
+    "3D/characters/Source/characters.json": {
+      "bytes": 83995,
+      "sha256": "741f31075a1247f7b32235ee93d4cf4478f06bc0a2aba00b41ff6f87ff4c57a2"
+    },
+    "3D/characters/Source/characters.py": {
+      "bytes": 295259,
+      "sha256": "b845b723452616f75a9ee4fd250fdb10032417b5c15b417ebdf66b8899e67072"
+    },
+    "3D/characters/Source/docs/animation-expansion.md": {
+      "bytes": 3125,
+      "sha256": "94c9eb5b433ce4f89414647e3450745d966ef833f6583e823073ab771ff3a220"
+    },
+    "3D/characters/Source/docs/art-direction.md": {
+      "bytes": 4575,
+      "sha256": "30048a8a144c94e789ee2c206cfc55ecc09c5488a8275a1e9d25f9c756cda563"
+    },
+    "3D/characters/Source/docs/block-stance.md": {
+      "bytes": 2175,
+      "sha256": "b653bb96dce6006d142a39dcb67a1f84894e713187b6315412c68d6fecc3e6d2"
+    },
+    "3D/characters/Source/docs/character-contract.md": {
+      "bytes": 7535,
+      "sha256": "bb589319938ac5e14432a6519d9d002cbd302795882ac01b5e26c3826d2feb5e"
+    },
+    "3D/characters/Source/docs/combat-stance.md": {
+      "bytes": 1662,
+      "sha256": "92a3703e4cd03e9d165b6a72b09aeb0038243748a2dbc92ba6e3774b0b5883dd"
+    },
+    "3D/characters/Source/docs/effects-expansion.md": {
+      "bytes": 2085,
+      "sha256": "333c71ff38498e9a415495f9d7db4a07ce4e786cb91cc8cbe3c488513c160793"
+    },
+    "3D/characters/Source/docs/effects-motion-polish.md": {
+      "bytes": 3551,
+      "sha256": "57b17219ed2d01270139aeff598f70aedfae1ac668c73a71e9ed1c0db4cf7ff9"
+    },
+    "3D/characters/Source/docs/environment-expansion.md": {
+      "bytes": 4424,
+      "sha256": "76d4475471c1990cfe745dc69063ba2c90f61044674283f6133aa2ff27b43a74"
+    },
+    "3D/characters/Source/docs/environment-layouts.md": {
+      "bytes": 5835,
+      "sha256": "621e84af647ec59daea415eec174780b4d2ca7731ee768e93092330aa6062a5e"
+    },
+    "3D/characters/Source/docs/flash-reference-study.md": {
+      "bytes": 4839,
+      "sha256": "485b2fbb3c164ae9fcbbdf6d67ced0594caecdc1ffe61b99b434f29496f4d391"
+    },
+    "3D/characters/Source/docs/foot-contact.md": {
+      "bytes": 2076,
+      "sha256": "4f603d85ba2060db24b296a6a688c63677a5365c7def0c2e1335e6b68984dd58"
+    },
+    "3D/characters/Source/docs/gun-height.md": {
+      "bytes": 2282,
+      "sha256": "9c27bdf66573a9225630e7eb46e3e51e78bd12de1483c60633a480028e7f2a56"
+    },
+    "3D/characters/Source/docs/joint-shape.md": {
+      "bytes": 3937,
+      "sha256": "be769daa6b2a4b3abde8c2b85cfb6dc213f60e55a192bc41027324b90b4bb6a0"
+    },
+    "3D/characters/Source/docs/kinetic-animation.md": {
+      "bytes": 6553,
+      "sha256": "cdeed8be5d6fde0859d1fa4696444124f1afa2a911248f5a05b2c0700f0a271c"
+    },
+    "3D/characters/Source/docs/kinetic-runtime.md": {
+      "bytes": 5790,
+      "sha256": "133cada476759f99b3fc0721cd649f9e5696ec075a8a9390d472bbabe9173f41"
+    },
+    "3D/characters/Source/docs/level-contract.md": {
+      "bytes": 4605,
+      "sha256": "058bd1883b2893e622cc237f7315f0377cbe9a135c85b91bd2080782f1ef2038"
+    },
+    "3D/characters/Source/docs/pack-content.md": {
+      "bytes": 8528,
+      "sha256": "662f5032d33013935f53808cfa2f565c81c92a0f9be49e8a22eafbb4424665fb"
+    },
+    "3D/characters/Source/docs/performance.md": {
+      "bytes": 8332,
+      "sha256": "01580ee92126fe933be807524554a7b3a9e51b8255418cdd8da4e71f6a608b33"
+    },
+    "3D/characters/Source/docs/prop-contract.md": {
+      "bytes": 3649,
+      "sha256": "8b5207632fe8d7ee5d25325345fed621158636ef3bf05c23350fa8df157452c2"
+    },
+    "3D/characters/Source/docs/reference/body-family.png": {
+      "bytes": 118843,
+      "sha256": "b40c9393f0df6b9a9d78bc5ee450530f8579c4d032b23f0053612515441a1b1a"
+    },
+    "3D/characters/Source/docs/reference/character-family.png": {
+      "bytes": 148899,
+      "sha256": "93808a9f469b986ee5cfb78cbf80f8d59d0d883d27bf49b539f0d4943964c824"
+    },
+    "3D/characters/Source/docs/reference/kinetic-study-stickfight.md": {
+      "bytes": 2305,
+      "sha256": "035529eaa74e188bca99d548ab087cbd6ae903c20523652ac79f04bc437663a3"
+    },
+    "3D/characters/Source/docs/reference/kinetic-study-stickfigurez.md": {
+      "bytes": 4612,
+      "sha256": "8191716d3b3ca8598032facb456a38e087a46943f2b7699eb9b2f96d52ac377e"
+    },
+    "3D/characters/Source/docs/reference/study-03.png": {
+      "bytes": 1361453,
+      "sha256": "687fd459cc61bd46a43fcb8abd6fa3ac8f565905ea5d330f00cc924160dd514b"
+    },
+    "3D/characters/Source/docs/reference/study-04-characters.png": {
+      "bytes": 1469762,
+      "sha256": "d7b36ca54576dbcbfbf1821767d5c706876c0c48cf447f2f4c00c81d1515dc7e"
+    },
+    "3D/characters/Source/docs/reference/study-04-prompt.txt": {
+      "bytes": 886,
+      "sha256": "a32e5ecbd3acaa3c86058ac33505c97ee59358aa1e53b49944dfc6e281ed16fb"
+    },
+    "3D/characters/Source/docs/reuse.md": {
+      "bytes": 12223,
+      "sha256": "aae7504e6e366a404d31f7a496f6fd727818ee3b4cbac7517cdb5dad4d0a9a63"
+    },
+    "3D/characters/Source/docs/style-correction.md": {
+      "bytes": 7019,
+      "sha256": "e63db66127c77b1e9cbb1a1618f8bbadc789bfb5a2486275caac1cd6497a104d"
+    },
+    "3D/characters/Source/manifest.json": {
+      "bytes": 257913,
+      "sha256": "63a309bde3ba07a0e4f879fb629ab9cd7f4eeb11398a3dad987e46d9041f42b3"
+    },
+    "3D/characters/Source/runtime/assets.ts": {
+      "bytes": 32476,
+      "sha256": "75cc8507ef8dcf46c18397bf4c2447c5265be1eeb3a970abe6709b04ed472240"
+    },
+    "3D/characters/Source/runtime/camera.ts": {
+      "bytes": 11400,
+      "sha256": "a5dfe0b3210c257539c944707a3e6d7be35cd6c818dccd27a1f9877d5f5063c2"
+    },
+    "3D/characters/Source/runtime/cutaway.ts": {
+      "bytes": 5218,
+      "sha256": "10c0cb606b00eee1dc24a6def91b8daec9451eb1710d423892d98571bb0c17f8"
+    },
+    "3D/characters/Source/runtime/district.ts": {
+      "bytes": 6719,
+      "sha256": "2bafc41073229b7d77f20d3dedba1413d8e1a8da33675a1886c63b351e3f31b7"
+    },
+    "3D/characters/Source/runtime/effects.ts": {
+      "bytes": 34480,
+      "sha256": "74f620b5f1f637bf8da581b472926d1828d9e1559325a675cd960b22fcb4c9c3"
+    },
+    "3D/characters/Source/runtime/firearms.json": {
+      "bytes": 611,
+      "sha256": "6321ecf8b09f222e7720af0741ac4ab138d8b8fe992c16af154a8a76ea583d42"
+    },
+    "3D/characters/Source/runtime/index.ts": {
+      "bytes": 1503,
+      "sha256": "a32854ae643a1e1e069a1326834d7f2380cae680c50e65d79385adeb50d78073"
+    },
+    "3D/characters/Source/runtime/kinetics.ts": {
+      "bytes": 9295,
+      "sha256": "8712470c57527c7c261c67ef98e718e670b9fea29f875ee44556115ebf2898ad"
+    },
+    "3D/characters/Source/runtime/layouts.ts": {
+      "bytes": 9172,
+      "sha256": "f3a6c7df9a5504699f4311ad319a88ab7330528d66f5f62d1188607b5b676bd2"
+    },
+    "3D/characters/Source/runtime/physics.ts": {
+      "bytes": 4760,
+      "sha256": "b6bf62a75608a650c42ac634f7d3b6fc69bd95d5dd8b4aa7a84e0af19ba2e7d3"
+    },
+    "3D/characters/Source/runtime/presentation.ts": {
+      "bytes": 7090,
+      "sha256": "78fa996d0da36284fc676086a574a2b3649b0afe8b44c8e779b50c7656754199"
+    },
+    "3D/characters/Source/runtime/roles.ts": {
+      "bytes": 3096,
+      "sha256": "5003ee26a43b85486c0c75adfdc6fe993ea4f26c9909d20994985f396c78bf37"
+    },
+    "3D/characters/Source/runtime/trails.ts": {
+      "bytes": 7853,
+      "sha256": "5037eee24af2ec58647d5c9551b4f792cc9f3ef33cf52d5795f83bde51d6f525"
+    },
+    "3D/characters/Source/sample-pose-metrics.json": {
+      "bytes": 882440,
+      "sha256": "e738ddabb80fe6d5c460e366297b17a9dd10521d09b4256ba40ab2f515776dc6"
+    },
+    "3D/characters/Source/types.ts": {
+      "bytes": 2786,
+      "sha256": "3a7f9ba8e88e9d75db55c60b94621b2441de39989467eedfd6f1183277e0559d"
+    },
+    "3D/characters/preview.png": {
+      "bytes": 8033,
+      "sha256": "7d188df6027b2c2773843b4359b1268cc14378a21b5b042124505fceda0e08dc"
+    },
+    "3D/characters/preview.webp": {
+      "bytes": 12292,
+      "sha256": "5bbd07977b3353b2fd352ca3bc935515e83e3f5a920ab81db2c2735f11a9e1ac"
+    },
+    "3D/characters/previews/animation-backfist.png": {
+      "bytes": 8427,
+      "sha256": "5d30bdd2f7286cd5baf38954a865d098e675fed9c3edd5d2c75c5f42af00525f"
+    },
+    "3D/characters/previews/animation-ball-kick.png": {
+      "bytes": 7310,
+      "sha256": "ebaf09e5f3ca5e39d81d97d4bac14570e28a86a950d5498b6d1096233d2cc248"
+    },
+    "3D/characters/previews/animation-ball-throw.png": {
+      "bytes": 8463,
+      "sha256": "c6898e14c90b0f2e5b62e04565b94d66c7e3d277aa4be31529b50596158c480a"
+    },
+    "3D/characters/previews/animation-bat-swing.png": {
+      "bytes": 9610,
+      "sha256": "b8e1847d83613bba9d2e01b70c17c2c4a30c7de3c233817241ffadd3f0516f16"
+    },
+    "3D/characters/previews/animation-block.png": {
+      "bytes": 8035,
+      "sha256": "8c83599fd3dc3b03cae128dff8647bf74d598d9f03789f262f5ada451f47c69b"
+    },
+    "3D/characters/previews/animation-bow-draw.png": {
+      "bytes": 10983,
+      "sha256": "8482efad5c3fe92c349b2ab9d14d3bd03f5ca312ab6a025d1c7ece2a7c682556"
+    },
+    "3D/characters/previews/animation-bow-release.png": {
+      "bytes": 10190,
+      "sha256": "c9e212ecc7caaacca72b587383e0f1e15d2a9f888ddf494f4d7c848ec85ff1c3"
+    },
+    "3D/characters/previews/animation-carry.png": {
+      "bytes": 7521,
+      "sha256": "9088c16b9d31d9deb83a3c4d0478a52e74d85bd0b3fdfb3de93fdacfc23dd362"
+    },
+    "3D/characters/previews/animation-celebrate.png": {
+      "bytes": 6968,
+      "sha256": "042f0c8e97dbf3fc1e2651dc8580ac19dfe7814038f7b2fe6f68ecca869b4750"
+    },
+    "3D/characters/previews/animation-cheer.png": {
+      "bytes": 7000,
+      "sha256": "53e5a4458f88efb86a7dc425948b3ee4b8c9d5d1c045b30b7f6a626f7dda3ad3"
+    },
+    "3D/characters/previews/animation-climb.png": {
+      "bytes": 7514,
+      "sha256": "941fab671dd96df02f22286493bdf84873649dd07a1b5f509d05a285e3ed5f0f"
+    },
+    "3D/characters/previews/animation-crouch-idle.png": {
+      "bytes": 8673,
+      "sha256": "265919d8e6e491ec99e3359f33c18a9e7bce7da0629bb2905a7a70b5522bff1b"
+    },
+    "3D/characters/previews/animation-crouch-walk.png": {
+      "bytes": 8219,
+      "sha256": "99c7d82e282edc70cb66420a581995369da6d678aa4cdb6e32b31f2ffb7d736c"
+    },
+    "3D/characters/previews/animation-dagger-stab.png": {
+      "bytes": 8607,
+      "sha256": "611cab071b658f00a0db4e0acd5d154e993241c1ecc933931e0374bf8f78fac1"
+    },
+    "3D/characters/previews/animation-death.png": {
+      "bytes": 6365,
+      "sha256": "c6b1ec6752fea3062b64bf4b106e8d515412b3c25a2605798d16f4621d7f6c58"
+    },
+    "3D/characters/previews/animation-dodge-left.png": {
+      "bytes": 8192,
+      "sha256": "2a3fec56adf18e6278e7ea9101c525a5d77fd2b3e3414b6d978b5198a4fddfd9"
+    },
+    "3D/characters/previews/animation-dodge-right.png": {
+      "bytes": 7818,
+      "sha256": "099d05528367604cf0a829278ece3f6e1d22f7032df8467e65a1a7c9522f5255"
+    },
+    "3D/characters/previews/animation-double-jump.png": {
+      "bytes": 8689,
+      "sha256": "83b5d3177fcb06df7090f9edcdeb6a7dc096fca2e5ff3e2c8c628b03084c652e"
+    },
+    "3D/characters/previews/animation-elbow-strike.png": {
+      "bytes": 7450,
+      "sha256": "f183405bf4752b46ab15ab44e94a633ca0e8641f0fabc5b8d23d05973e9b357f"
+    },
+    "3D/characters/previews/animation-get-up-forward.png": {
+      "bytes": 9682,
+      "sha256": "33be84f914866a8ca7cf2ec3b7231a5059b18020ae9109fa124b4816360124b6"
+    },
+    "3D/characters/previews/animation-get-up.png": {
+      "bytes": 8154,
+      "sha256": "1ab0fb323af6d8528d7c8fcf26af0e4009280af07b3a67f96893c23f2a341cf9"
+    },
+    "3D/characters/previews/animation-hammer-overhead.png": {
+      "bytes": 9731,
+      "sha256": "ba4e8d6a13f89168afff41d3080b380d7e900c7149c3fa5467722d530e07a402"
+    },
+    "3D/characters/previews/animation-hit-back.png": {
+      "bytes": 8820,
+      "sha256": "3c3f33ec5779a11b78976c56b937530ec2b04de52064af5c80dc49e3bab51aae"
+    },
+    "3D/characters/previews/animation-hit-front.png": {
+      "bytes": 8813,
+      "sha256": "577f1bc2cafd9b5eae13301623ccf659d01098b8b9f7ecd1724dfbe892ca3690"
+    },
+    "3D/characters/previews/animation-hit-left.png": {
+      "bytes": 8184,
+      "sha256": "e1fd7c9a65d1a7d0387cc5644459bea61442cfb2ecb4764c6660a0282d032497"
+    },
+    "3D/characters/previews/animation-hit-right.png": {
+      "bytes": 8418,
+      "sha256": "6c4dacaaa54235b361e9999e2d2ee0c6b1a534b644e1ec72e4934929055406bd"
+    },
+    "3D/characters/previews/animation-idle.png": {
+      "bytes": 8016,
+      "sha256": "356064157f74f1458324a2e4d0e24fc62f90a75e7eefb0f256b566a7a68e1323"
+    },
+    "3D/characters/previews/animation-interact.png": {
+      "bytes": 7696,
+      "sha256": "1cb7ab6a92cb5d02221eb29e690bdd90cd8891ae82490b1f65faf9c95f9ee881"
+    },
+    "3D/characters/previews/animation-jump-land.png": {
+      "bytes": 8069,
+      "sha256": "977e0ec6e32ad7b88b17846101a5ea822e035b0106b4e0543b3045ebeef3565f"
+    },
+    "3D/characters/previews/animation-jump-loop.png": {
+      "bytes": 7395,
+      "sha256": "08d1d9223f1c1426e824e8516717368c716dd26bb47b15a3129693e406545628"
+    },
+    "3D/characters/previews/animation-jump-start.png": {
+      "bytes": 8089,
+      "sha256": "787fedadd5007a235713835b11264c2dd202b45921771f7243be0b8b6ee89512"
+    },
+    "3D/characters/previews/animation-kick-air.png": {
+      "bytes": 7737,
+      "sha256": "d3fd373bedc02a5150943826b3974d006b3027c431850503b33f0ae0f99a0899"
+    },
+    "3D/characters/previews/animation-kick-front.png": {
+      "bytes": 7711,
+      "sha256": "1829bde65f8335d57fb25a480c612163505ca69fd21e98e3cea2df825db5076b"
+    },
+    "3D/characters/previews/animation-kick-roundhouse.png": {
+      "bytes": 7267,
+      "sha256": "9de9f135644970851e624be5f41fd028586486d4562c63296b5b49399622c295"
+    },
+    "3D/characters/previews/animation-knee-strike.png": {
+      "bytes": 7803,
+      "sha256": "0dc75c8f0638349b58134683c549c2db7ad54d13249029f10f3d0eaa9262f5c5"
+    },
+    "3D/characters/previews/animation-knockdown.png": {
+      "bytes": 7276,
+      "sha256": "ac01f38685a40b258e809fee7f3a24d4b644790e408509e321243e72ac2f0578"
+    },
+    "3D/characters/previews/animation-ledge-climb.png": {
+      "bytes": 8833,
+      "sha256": "153ee20960ddc7dfda1d4ab5c9fc8d760583fc8acc686d3efce4af0d6ea32e39"
+    },
+    "3D/characters/previews/animation-parry.png": {
+      "bytes": 7138,
+      "sha256": "9a42a153f98a3fc2a4646be56519ec733e954dc65dfc98a188ec928a4e246735"
+    },
+    "3D/characters/previews/animation-pickup.png": {
+      "bytes": 9098,
+      "sha256": "9b8fd708da099e424209defe7056cc1b5bb621c72652562328953e4a1a242860"
+    },
+    "3D/characters/previews/animation-pistol-fire.png": {
+      "bytes": 8308,
+      "sha256": "52c06e10d71690e8657a25629bc1b0ac143f29810e49a3e60e1e4cae98350a2c"
+    },
+    "3D/characters/previews/animation-pistol-idle.png": {
+      "bytes": 8535,
+      "sha256": "cdc6357510737527b93bf00786d69191b5eea6905be58aa26cb069ab8b56df2a"
+    },
+    "3D/characters/previews/animation-pistol-reload.png": {
+      "bytes": 8652,
+      "sha256": "ddd92bbdd9385902e26e280aa7e43ac50f5ebcb060aecc49fa8fc24baa67597b"
+    },
+    "3D/characters/previews/animation-point.png": {
+      "bytes": 7426,
+      "sha256": "1a6f5098ed7da8bf3e743c4405195e29032f8a3fb1f22402af9979a8af8fffa5"
+    },
+    "3D/characters/previews/animation-punch-heavy.png": {
+      "bytes": 9222,
+      "sha256": "775a7bae4694311a9fa96faf91c376c77ece9e44e728c7ead576d7ffc664945f"
+    },
+    "3D/characters/previews/animation-punch-left.png": {
+      "bytes": 8154,
+      "sha256": "b61cdabd33ebdfb88cd2ea7e278bc68b8265af329a022dfaec556187b92e9738"
+    },
+    "3D/characters/previews/animation-punch-right.png": {
+      "bytes": 8796,
+      "sha256": "11ebe0f532769f92c826d9bafff09bed53e800c120229dc9fc3acbb1ae03ad24"
+    },
+    "3D/characters/previews/animation-rifle-fire.png": {
+      "bytes": 9309,
+      "sha256": "7f13020e8a0606270bd73746ef349fad4f0c335f7c552d0045c10eae164cd38e"
+    },
+    "3D/characters/previews/animation-rifle-idle.png": {
+      "bytes": 9332,
+      "sha256": "f3ce5dfda6647538518625f4f6275d94f7cc507d3b35709fe24f15ef18170365"
+    },
+    "3D/characters/previews/animation-rifle-reload.png": {
+      "bytes": 9890,
+      "sha256": "5c84e4e22bea900f36f26779a3e10761f8468f39127ee47faa481a41ff819415"
+    },
+    "3D/characters/previews/animation-roll.png": {
+      "bytes": 9590,
+      "sha256": "667197048a0ae3b18093f44b68983849c75ac6e0d07c877f31475c9727c483b0"
+    },
+    "3D/characters/previews/animation-run-backward.png": {
+      "bytes": 8004,
+      "sha256": "e3783fa14eaf88cb2087a8aa4da75bbbadfb49715d1b48bc99abcad217ad4495"
+    },
+    "3D/characters/previews/animation-run.png": {
+      "bytes": 8671,
+      "sha256": "a6e5ddb3a157012148c93c49576cf3152e3b306a3a5d75965ea0163a965b9d4c"
+    },
+    "3D/characters/previews/animation-shield-bash.png": {
+      "bytes": 10458,
+      "sha256": "1572fa50457538011ced745b6ecb49129b935e5aeb0b0c558a38973a35f8aed7"
+    },
+    "3D/characters/previews/animation-shield-block.png": {
+      "bytes": 10089,
+      "sha256": "f6f4121bff912abc254cbbdb311333bfc0ed4cd8dc0bba4f32d5747e0109b5ab"
+    },
+    "3D/characters/previews/animation-shield-push.png": {
+      "bytes": 7708,
+      "sha256": "5db5571c7a72eaf3e5f97b98030cd08547da4f75b3bca708f1ced8a62c9ed687"
+    },
+    "3D/characters/previews/animation-shield-slam.png": {
+      "bytes": 10725,
+      "sha256": "c606ab71362fd4434d4857ff0a840c5814009a605dc770a6c142c02f7365ceaa"
+    },
+    "3D/characters/previews/animation-shotgun-fire.png": {
+      "bytes": 8942,
+      "sha256": "6c9083b9df581b80c9449fc814fb3092d91bbe70cc05adf4005dace742eb8ffc"
+    },
+    "3D/characters/previews/animation-shoulder-check.png": {
+      "bytes": 7458,
+      "sha256": "4686141733085372180843604ac9f72b9b70766e34c5748e61e2fb7594d6edad"
+    },
+    "3D/characters/previews/animation-slide.png": {
+      "bytes": 8509,
+      "sha256": "cc6f347807451a1e67f6a9c731790c22c8606cf8ca50a6aa2cfdd3d04bf1111b"
+    },
+    "3D/characters/previews/animation-sprint.png": {
+      "bytes": 8545,
+      "sha256": "62c55cb9367b59a4ad9b74cf0a40a6adce9114b1c55320a5eab3791589e8935f"
+    },
+    "3D/characters/previews/animation-staff-overhead.png": {
+      "bytes": 10434,
+      "sha256": "2dccd11aaad7c83f6ad92295bc2d657faf884fc280290bde9c28a2d79530268e"
+    },
+    "3D/characters/previews/animation-staff-parry.png": {
+      "bytes": 7985,
+      "sha256": "7bd3b235cda055b68e5bf02ca9bbdd075728b5aa5e3b27711a6cd76a45e67484"
+    },
+    "3D/characters/previews/animation-staff-spin.png": {
+      "bytes": 9846,
+      "sha256": "2d5cf0fc7fa9fee631e04aa978ad65432bbfb3d5c4900416cc14d47ecfcc6459"
+    },
+    "3D/characters/previews/animation-staff-sweep.png": {
+      "bytes": 10162,
+      "sha256": "51e30d0f77a5b4a9f5cd0b864326b9d15ca3274c1b3cfa72c073d374670a609f"
+    },
+    "3D/characters/previews/animation-staff-thrust.png": {
+      "bytes": 9451,
+      "sha256": "5bffc2a50a5b5285d6839bb066709e93c30f71e56102e021d7b036b69956bf13"
+    },
+    "3D/characters/previews/animation-strafe-left.png": {
+      "bytes": 7162,
+      "sha256": "f2b328b5a7ee2d29fdd9021148fb21db68d234a794c921efb1658eef8d390976"
+    },
+    "3D/characters/previews/animation-strafe-right.png": {
+      "bytes": 8473,
+      "sha256": "cbab61c1fcb2a2c0da456c21aace87e1566e4860802a49ec0c0058c9eda890fe"
+    },
+    "3D/characters/previews/animation-stun.png": {
+      "bytes": 7894,
+      "sha256": "d4d6f8059592e229cfba484438b26134da887e59fa91c624dfdaa8251c0ee5aa"
+    },
+    "3D/characters/previews/animation-sweep.png": {
+      "bytes": 8900,
+      "sha256": "0250994533432e39736d5ec6b6ab31f77543923dca06f70ca6a083a88244deab"
+    },
+    "3D/characters/previews/animation-sword-diagonal.png": {
+      "bytes": 9290,
+      "sha256": "3a307703162f8b7bc00579d16ce03122be92fc664f3b0d718416bdf2f3223d8c"
+    },
+    "3D/characters/previews/animation-sword-lunge.png": {
+      "bytes": 8953,
+      "sha256": "b66fd7020bbc039dc5b74221edf720948da4cad7b4132f42cc6671603643ef4b"
+    },
+    "3D/characters/previews/animation-sword-overhead.png": {
+      "bytes": 9364,
+      "sha256": "56b50aa65f0d80e8f58fa7061b9790c533a933df07dc600a23e4270ae65a3ff7"
+    },
+    "3D/characters/previews/animation-sword-slash.png": {
+      "bytes": 9553,
+      "sha256": "6209cedc35131975a16b686556649d62e3e63b047862e4ba5d2ee10163ab3c22"
+    },
+    "3D/characters/previews/animation-sword-thrust.png": {
+      "bytes": 9064,
+      "sha256": "795364adada3bd384a5109b6d0532d59ef92b8be2e5c1e8eeec1b4716f92eb62"
+    },
+    "3D/characters/previews/animation-throw.png": {
+      "bytes": 9017,
+      "sha256": "754fa63a902a204101bd02d8f6b1f9eedbda1c628446a5a0dae24e04195be424"
+    },
+    "3D/characters/previews/animation-turn-left.png": {
+      "bytes": 7668,
+      "sha256": "9841969dada9604bb2d337986fefcd5896cba11dc3fdc2515b08026cd4f5cb5e"
+    },
+    "3D/characters/previews/animation-turn-right.png": {
+      "bytes": 8236,
+      "sha256": "aa80effe08f50adf454c99b3d99e75f941e90e82fdc9c2d4f3de5a5e0549b20e"
+    },
+    "3D/characters/previews/animation-uppercut.png": {
+      "bytes": 8848,
+      "sha256": "a045abd05d43ce31249f344226cf475df288d24299bb1a3866b1b317b443e9da"
+    },
+    "3D/characters/previews/animation-vault.png": {
+      "bytes": 8190,
+      "sha256": "a71d0567ad6089480eb7f010bb9e36c91e703bc28ad7a1b788d29d20136124a5"
+    },
+    "3D/characters/previews/animation-walk-backward.png": {
+      "bytes": 7624,
+      "sha256": "0a87327b02e65fbac8f8e752929ecda6a483178928a5a635f375eb8ca496368a"
+    },
+    "3D/characters/previews/animation-walk-left.png": {
+      "bytes": 7279,
+      "sha256": "042e12f50ed95e3ef14fca92ff7bcee5cb7c45c07bf79f47a95303ddbda7821e"
+    },
+    "3D/characters/previews/animation-walk-right.png": {
+      "bytes": 8269,
+      "sha256": "b4976da3870e6b9b7c66567897c842ba26d206e360a2573e3c821f8e09533f2b"
+    },
+    "3D/characters/previews/animation-walk.png": {
+      "bytes": 7809,
+      "sha256": "dadd4d15d62e6bcd063c15d9a87123c32d5869e2d68a05a1c5151c59535db86b"
+    },
+    "3D/characters/previews/animation-wall-run.png": {
+      "bytes": 8181,
+      "sha256": "f72ba98a0963dc5c103a990b3b8af6bebbecbfd6577a3ecdb66a036e2e822880"
+    },
+    "3D/characters/previews/animation-wave.png": {
+      "bytes": 7281,
+      "sha256": "60d5c043275ced30fe9ab947e1d42cd9ea9b613743746df3f3d09ad0d12ae137"
+    },
+    "3D/characters/previews/stick-acrobat.png": {
+      "bytes": 8419,
+      "sha256": "e25d199a9625002cd5b8c533adb15607091804defe958ff9a3ad482b7e6cb437"
+    },
+    "3D/characters/previews/stick-agent.png": {
+      "bytes": 7995,
+      "sha256": "f7404ce048fa8356f8ace2b385931d655f344f0f6f9c561c835fd81e726361d0"
+    },
+    "3D/characters/previews/stick-compact.png": {
+      "bytes": 8276,
+      "sha256": "2c1fd8661a93bdc8693afc552ea7c4c4b95fc7ee321e163c9336202706fa43bb"
+    },
+    "3D/characters/previews/stick-fighter.png": {
+      "bytes": 8095,
+      "sha256": "ab5e0ff827e102aa7a523d606422f20791116a8be27a634816767fe4b82e5387"
+    },
+    "3D/characters/previews/stick-heavy.png": {
+      "bytes": 8600,
+      "sha256": "a21e74b599fb22a5b1da5563914f22225377c77745c58794559056d42019ded2"
+    },
+    "3D/characters/previews/stick-runner.png": {
+      "bytes": 8424,
+      "sha256": "54b090e29c84e63a18b26a791224c68da4c4a7b2070bdb6fe1b7fa7a831d8dd5"
+    },
+    "3D/characters/previews/stick-scout.png": {
+      "bytes": 8537,
+      "sha256": "4c820fb7a1ab92a4b4cd89329d63488f4ea2c7e1d28fad55c297b19d4ab9cb94"
+    },
+    "3D/characters/previews/stick-sentinel.png": {
+      "bytes": 8702,
+      "sha256": "b471d4808f35d133773ff0a0492b3666d2d96f3f7e9188909aada4e39daca0fc"
+    },
+    "3D/characters/previews/stick-standard.png": {
+      "bytes": 8033,
+      "sha256": "7d188df6027b2c2773843b4359b1268cc14378a21b5b042124505fceda0e08dc"
+    },
+    "3D/characters/previews/stick-striker.png": {
+      "bytes": 8239,
+      "sha256": "af533543ba1b4ddbc82c9b2991ceafcd82e76e7dfb6f18a61d60e88de76640d5"
+    },
+    "3D/characters/previews/stick-tall.png": {
+      "bytes": 7861,
+      "sha256": "4005cedd3acb13955e398918fe9b45c6781a3a9f449c003aabb06168d9e4a80b"
+    },
+    "3D/characters/previews/stick-worker.png": {
+      "bytes": 8195,
+      "sha256": "938ce71b40547363a9eb129c7fc1001774bf6bbf513aa7ee22a5b37af0aab553"
+    },
+    "3D/characters/stick-acrobat.glb": {
+      "bytes": 2753260,
+      "sha256": "061a4bfa05605749688696400293f697fe0715b19548a88f0e3ce487d00022d7"
+    },
+    "3D/characters/stick-agent.glb": {
+      "bytes": 2736868,
+      "sha256": "a2fe69b4795234454646efbf58b9d62534b82ff465194ec18d03508941abc465"
+    },
+    "3D/characters/stick-compact.glb": {
+      "bytes": 2784832,
+      "sha256": "f9a2eabdd66c72f3e88f2acd02c5368fbb0b398e208f41a6618ef5001bc9ceee"
+    },
+    "3D/characters/stick-fighter.glb": {
+      "bytes": 2762808,
+      "sha256": "f456bf0ce0b7ee49195db6d7542b10d2dacc749c2a5cc37f549a3ab3c3da94b1"
+    },
+    "3D/characters/stick-heavy.glb": {
+      "bytes": 2768856,
+      "sha256": "a4ef6dbb1db44c4e1ecec7751efb77997886e8fb306aac4347229c2866d13346"
+    },
+    "3D/characters/stick-runner.glb": {
+      "bytes": 2745788,
+      "sha256": "7e1eb64d35e95b06ba18b56286e3b50a25000dee1af6d7cdcce5c9ea005db940"
+    },
+    "3D/characters/stick-scout.glb": {
+      "bytes": 2739028,
+      "sha256": "0df55930c41b175df4948b8a89bf0dc670127f6df0dfc675c11f6064da5ecb1e"
+    },
+    "3D/characters/stick-sentinel.glb": {
+      "bytes": 2750876,
+      "sha256": "70cd52d52e22cab132d9d7cd6f4602be32fce0b2ae9e614d54803f9dd39c9b7b"
+    },
+    "3D/characters/stick-standard.glb": {
+      "bytes": 2707572,
+      "sha256": "e96c80eff5176345a6bb47664fbcb4b64aab4b1fa8151ea91dcab39f415819bc"
+    },
+    "3D/characters/stick-striker.glb": {
+      "bytes": 2760184,
+      "sha256": "2cc676c4fe66521cb09ed1288fc4680f18301a312591bddb13d817550de3ce76"
+    },
+    "3D/characters/stick-tall.glb": {
+      "bytes": 2735268,
+      "sha256": "7dac7754b4b0cf84e5c015e7d7bd234968db732234ce6e083c6f86c067d9c574"
+    },
+    "3D/characters/stick-worker.glb": {
+      "bytes": 2743808,
+      "sha256": "5ebd78f1ca16168eb8b80d2f610ceb18cf30872e69545fb8e967a20f58521ae1"
+    },
+    "3D/city/License.txt": {
+      "bytes": 1279,
+      "sha256": "370fc07dfb7d5d2220432d0afe8e503ab693e2009286c21da48949b5ff567e14"
+    },
+    "3D/city/Readme.md": {
+      "bytes": 8703,
+      "sha256": "39d69385fe15693665ca4adc3df048c63693ec9d8fa28a969ba505d5ed39013c"
+    },
+    "3D/city/Samples/industrial-district.glb": {
+      "bytes": 428784,
+      "sha256": "1fa71aae4b05e5c0a343ec90c2eb54dade4ead81ced2f28913131d509a483b2e"
+    },
+    "3D/city/Samples/roof-works.glb": {
+      "bytes": 462520,
+      "sha256": "d1ab5d1066e20dbc7a4047ea450195d048f53af2997a5ff9a123a15d5e61eeb4"
+    },
+    "3D/city/Samples/service-yard.glb": {
+      "bytes": 480288,
+      "sha256": "fcaaeed0f89f7757a5d974efb953200707dc7fceea01dd1041995c528ecd0011"
+    },
+    "3D/city/Source/effects.json": {
+      "bytes": 33514,
+      "sha256": "0cd76cb0470fdc1c94ea2a65af0e2926573703b8af3603acd531f56ef769feb7"
+    },
+    "3D/city/Source/environment-layouts.json": {
+      "bytes": 993,
+      "sha256": "051011fb20f438fbd2274b13bc750e6946af3c294a752aa853db7bfb7ae0724e"
+    },
+    "3D/city/Source/industrial-district.blend": {
+      "bytes": 168256,
+      "sha256": "768a23402fe28e009cfcc8e8620f5e61dfda8b3993d9670a09058cbe53ae1501"
+    },
+    "3D/city/Source/industrial-district.json": {
+      "bytes": 28385,
+      "sha256": "af19b408feffb016f74a720e30866265cc54bdbe362bd7b1e99dc38a34c363b9"
+    },
+    "3D/city/Source/industrial.blend": {
+      "bytes": 582639,
+      "sha256": "2243b06932b221364f8718f31a3400d37d65159d6f3839e0ddb3b03a393b8e90"
+    },
+    "3D/city/Source/level-contract.md": {
+      "bytes": 4765,
+      "sha256": "eeed830d829d0e2b8b75d0e7a7c8f1e19758d70f2a7594b1e30b6de066ad0ebf"
+    },
+    "3D/city/Source/level.py": {
+      "bytes": 18177,
+      "sha256": "c583abfba685b925685ad045f07d06313829c5037881a86e3ea5b66594d9c69c"
+    },
+    "3D/city/Source/prop-contract.md": {
+      "bytes": 3729,
+      "sha256": "37512cd2ba5f723e7fca415c640b9dbed21330c594717aa962daa18f1cd69387"
+    },
+    "3D/city/Source/props.json": {
+      "bytes": 173917,
+      "sha256": "eed625b8116a284ffe0b1ebbd224301fce5ff8f01bb49bc514babad836b79c9c"
+    },
+    "3D/city/Source/props.py": {
+      "bytes": 237049,
+      "sha256": "9538294e7fc233d350e655124293222fd15d1bfb16e861938e06571d7f39cebc"
+    },
+    "3D/city/Source/roof-works.blend": {
+      "bytes": 163156,
+      "sha256": "8272e74fc5c451f90713a15f74cd88704659c103059a693b963b0806be77b405"
+    },
+    "3D/city/Source/roof-works.json": {
+      "bytes": 17109,
+      "sha256": "6ea7a6378ba919f1cb72933d3a7bfad864ae31d3a197f158e7012adad1a9cf5a"
+    },
+    "3D/city/Source/service-yard.blend": {
+      "bytes": 171345,
+      "sha256": "a5f01cfb9883c2ccef306610b1ff67f3ebec65bfcff05412e8ebd4cd3be9e873"
+    },
+    "3D/city/Source/service-yard.json": {
+      "bytes": 12552,
+      "sha256": "6261e1eb16a44be3dada2821c7e8882f4cb07f3f8e4d0a3d7197a0272739c6bb"
+    },
+    "3D/city/air-compressor.glb": {
+      "bytes": 7648,
+      "sha256": "ef2e291a0f3b0273f378502ed87bf53a14a454960fc683aa63d90ca8b14dd68e"
+    },
+    "3D/city/air-tank-mobile.glb": {
+      "bytes": 9060,
+      "sha256": "c8b0d3366620eb62fb2bbf574f08f9c33529022c437fba56f6d47714789b70d9"
+    },
+    "3D/city/barrel-stack.glb": {
+      "bytes": 14372,
+      "sha256": "43366b43f417acccb5022f4d4a95c6dc8847cddbcf9e85335ac967e530a99cfb"
+    },
+    "3D/city/barrel-toxic.glb": {
+      "bytes": 20044,
+      "sha256": "46f9779373a7ca317f894f1e2d354d130fdae66f25859e801ee570b5764fb590"
+    },
+    "3D/city/barrel.glb": {
+      "bytes": 19020,
+      "sha256": "ddd03bcf805b53f004bade1c68ae4b581c2f493306cb86a9667afac9ef651b1a"
+    },
+    "3D/city/barrier-jersey-concrete.glb": {
+      "bytes": 5000,
+      "sha256": "e2e259b5b614ce75041e725fcd2fe541fd1541148b2c1cdfdcb7cd869308dc75"
+    },
+    "3D/city/barrier-traffic-cone.glb": {
+      "bytes": 6780,
+      "sha256": "ac39b04e894823517b9cbf38c8cd5ac0c3fd0427bc3376ecd785dacd2efcaecd"
+    },
+    "3D/city/barrier-water-fillable.glb": {
+      "bytes": 4556,
+      "sha256": "631a8ced5c7b9bb912876f2bc977978abd027e99f6eca52651f878aaef7b072a"
+    },
+    "3D/city/barrier.glb": {
+      "bytes": 15548,
+      "sha256": "aaf7d5d700121dc069ba6fb94843763ff30252be06deaa1667861fd4d461ae58"
+    },
+    "3D/city/bench-park.glb": {
+      "bytes": 11864,
+      "sha256": "d6bdf0ef37b85c8a31a0281c492c5366bed0e10fac0eee46358bd56b28803020"
+    },
+    "3D/city/bicycle-rack.glb": {
+      "bytes": 19960,
+      "sha256": "c0c36ffeac28c6a3d2de87dfd758772cc80980485b430c701186537be877211e"
+    },
+    "3D/city/billboard-highway.glb": {
+      "bytes": 8584,
+      "sha256": "3201877229d7a2e09bc0e2482e8c79a36bdbbe9527a5ecd0f49a796cedad56a7"
+    },
+    "3D/city/billboard-small.glb": {
+      "bytes": 6736,
+      "sha256": "f109f3447ae539e05d0c0703f2a7cb9ad40689c90eb8e7254fc62377628cc269"
+    },
+    "3D/city/bollard-heavy.glb": {
+      "bytes": 17720,
+      "sha256": "abc4bb2a3315ad8df66375af5e43c554235b7d1f91fe21d8b022584769d34ec4"
+    },
+    "3D/city/bollard-retractable.glb": {
+      "bytes": 8080,
+      "sha256": "127a23c85cbc569cf77bc84953748aa948e3d5017e3383cfd12989e878427b99"
+    },
+    "3D/city/bollard.glb": {
+      "bytes": 9124,
+      "sha256": "9ce3639a50ddce2dfe7d56e912aa9b63f0a46ca8238009939242c97a3a82efb7"
+    },
+    "3D/city/breaker-box.glb": {
+      "bytes": 3604,
+      "sha256": "64d9218b77634350bb575d823a9dcaa373b3b3449427c468bb17b919f5e8a3d2"
+    },
+    "3D/city/bus-stop-shelter.glb": {
+      "bytes": 11944,
+      "sha256": "7c7339dfec4ef2870fd18dc2a9da123349d19ccf9d784ce9a52680be7bcf405b"
+    },
+    "3D/city/cable-spool-metal.glb": {
+      "bytes": 24036,
+      "sha256": "3c138cc15bf54e6ee681161e2939d8b40cec0c9d03a94f3142efbb9d1dac1957"
+    },
+    "3D/city/cable-spool.glb": {
+      "bytes": 15076,
+      "sha256": "40f82f6bdc2c6ab39f7a9388ba6f9b3bb0b8632816bf0f1b7425a7a75c14133e"
+    },
+    "3D/city/cable-tray-straight.glb": {
+      "bytes": 5056,
+      "sha256": "1d5599a582e281d145b94ef30d4d720b21797ad4e2e17ef7c17e77a710fd57f0"
+    },
+    "3D/city/cargo-container-open.glb": {
+      "bytes": 5160,
+      "sha256": "77a8ebbf350f0d87ab1c3899c6dd87cd78c913bd53dd828449b119ed5932c854"
+    },
+    "3D/city/cargo-container-short.glb": {
+      "bytes": 13160,
+      "sha256": "b2f5cb89f76bb35c4081534455ade37c803bb73da6e5473bad8ef2fa4fbf1eb4"
+    },
+    "3D/city/cargo-container.glb": {
+      "bytes": 17032,
+      "sha256": "3a5eab2818738fc5de0da5125ad0fc0a70ce7cfa7559449aa8e9a3b42572364a"
+    },
+    "3D/city/catwalk-bridge.glb": {
+      "bytes": 45908,
+      "sha256": "642dfa8b5b233cdaea1e8836eee07a32bed826412e66fa9048c16174c013f727"
+    },
+    "3D/city/catwalk-grate-long.glb": {
+      "bytes": 39416,
+      "sha256": "21af29ac6190f5dc131bf52e1792dc9c961ef6a42b48db6f7cd89001e91fc5c2"
+    },
+    "3D/city/catwalk-intersection.glb": {
+      "bytes": 14468,
+      "sha256": "87589b3cd77f4919fc74e77cff3eee68502bb46992a168cc4599890ef167eb6c"
+    },
+    "3D/city/catwalk.glb": {
+      "bytes": 32860,
+      "sha256": "0f60d33c95784572fa6deeb843bed00574af31532a5f118c0afe3ee2fdc11e4b"
+    },
+    "3D/city/conveyor-incline.glb": {
+      "bytes": 5176,
+      "sha256": "91bf6f185003ac6245c82a27923871b1d43795eb4da63102353bf123d33c344f"
+    },
+    "3D/city/conveyor-roller-straight.glb": {
+      "bytes": 17960,
+      "sha256": "f8abc5302d5d78d8886d5ce58552ce3bbb40b71d6b1d486748079e9663504370"
+    },
+    "3D/city/conveyor.glb": {
+      "bytes": 8572,
+      "sha256": "91fff26e9a2173532ba5e2fef756f8d00bf5e2620e813a2189d05573ac6b186b"
+    },
+    "3D/city/crane-jib.glb": {
+      "bytes": 13972,
+      "sha256": "f5b0cbeab81284794f5cd13bb41e5565ab719bc9641f88b3388c55dd9bf7ae8f"
+    },
+    "3D/city/crane.glb": {
+      "bytes": 11708,
+      "sha256": "2852caa55a53ff6fd031d84c2f861836d99df9615979b5d1858450762b70ac35"
+    },
+    "3D/city/crate-heavy-wooden.glb": {
+      "bytes": 5820,
+      "sha256": "9d64e386925e98997af3987694e09881ac183d24d1c16970e99ae105774835a7"
+    },
+    "3D/city/crate-military.glb": {
+      "bytes": 4300,
+      "sha256": "40f8ff8cb149bc8fd2e56b5c2d1410457273ba2ff08b76389ceecda006b0e698"
+    },
+    "3D/city/crate-stack.glb": {
+      "bytes": 5108,
+      "sha256": "5e812c1f9448ac174d20f9f6aa5760485bb49baa39a2c6029985f4ce44be609b"
+    },
+    "3D/city/crate.glb": {
+      "bytes": 4244,
+      "sha256": "b09ba4bbf6acbdfc62211f1482dce41835b2322a0ee4756d9a8db851776092c2"
+    },
+    "3D/city/crosswalk-tile.glb": {
+      "bytes": 6388,
+      "sha256": "0b4fdb977aa01213cbf08d7a40a2b65ad61819ed522a446ebe70f52f42cd13fd"
+    },
+    "3D/city/curb-corner.glb": {
+      "bytes": 10544,
+      "sha256": "c4bc8691b799d72d71bd572ed350b45279804af35dab8820d5d23eb73d429850"
+    },
+    "3D/city/curb-straight.glb": {
+      "bytes": 2960,
+      "sha256": "8c0a80a288f811f6f078a521a0e0a05ef7e3e31d448cae81059609078df013e1"
+    },
+    "3D/city/debris-scrap-pile.glb": {
+      "bytes": 5724,
+      "sha256": "b0aa028e6a08ec02ba2d0532bf4779e75a390e001ce1d56e93dd1304dd3ef96f"
+    },
+    "3D/city/door-frame-roll.glb": {
+      "bytes": 12332,
+      "sha256": "fe7161a663693bd2f3ab90efa4a7bbe5a0872b8ed2f5dcadc2d79d11283ae153"
+    },
+    "3D/city/door-frame-steel.glb": {
+      "bytes": 3120,
+      "sha256": "fe54d32aa47db00f964ec4ff2e26ba63de1ed5a06bd28ba399d9ebd77923e5e5"
+    },
+    "3D/city/door-roll-up.glb": {
+      "bytes": 5836,
+      "sha256": "383345771ae8f20a37c24bb2ae0a3a09c46bcbc4b24534c911541cb371da3bbf"
+    },
+    "3D/city/door-security.glb": {
+      "bytes": 14664,
+      "sha256": "c3253e1730dce2261babf0b8298a5af588712f88862800811cd4d1f02c05e78a"
+    },
+    "3D/city/door-steel.glb": {
+      "bytes": 4844,
+      "sha256": "e519162f8492c5de03f64872fafafcc88b47b44b8f3ed4af4e5895c20fe7688f"
+    },
+    "3D/city/duct-elbow.glb": {
+      "bytes": 5776,
+      "sha256": "ff81af1fb21feb3a1e15417abbec96e6bd8c99e3c1de9c34c70ff79f9ada7d38"
+    },
+    "3D/city/duct-exhaust-hood.glb": {
+      "bytes": 12108,
+      "sha256": "71ce48513678970e964fea3539c15246e2a0d3da650dcc52fa78405d65171d08"
+    },
+    "3D/city/duct-straight.glb": {
+      "bytes": 5172,
+      "sha256": "ab831e1c05d2b898adbf12f7448edbfb0b91fc6d9dddcfbae3399410962396e4"
+    },
+    "3D/city/duct-tee.glb": {
+      "bytes": 6692,
+      "sha256": "588b9eff98d2daec8930d7f165f5ad8b2bf731204144c13300b2506a1c8c8a40"
+    },
+    "3D/city/duct-vent.glb": {
+      "bytes": 6472,
+      "sha256": "38c51d5a8825c04b5929d5589b9fdf8168f88fa33091affad872e9a6e6bca994"
+    },
+    "3D/city/dumpster.glb": {
+      "bytes": 9220,
+      "sha256": "d91db39e4170e938d7abede51ea4dfeeea5184c45e9991629c67f74f899c9f3a"
+    },
+    "3D/city/electrical-cabinet.glb": {
+      "bytes": 5372,
+      "sha256": "34b174152b04b6a7fb3e308a8b1b71148eb1d79bacd5a6c9d51be9ce900c6926"
+    },
+    "3D/city/electrical-panel-wall.glb": {
+      "bytes": 4340,
+      "sha256": "686a892228f9b059daef1215e2e1e469e96d0136431329405a78b11e9c4fd0b5"
+    },
+    "3D/city/fence-barbed.glb": {
+      "bytes": 7664,
+      "sha256": "dcc1f644015892caa61601660e358aa9aa4a4921cb181b462197d29b85fc59bc"
+    },
+    "3D/city/fence-gate.glb": {
+      "bytes": 6708,
+      "sha256": "cbfc3d24aef43c314da4c335619f186fe884ac767e19dc4a937956b5112a90de"
+    },
+    "3D/city/fence-panel.glb": {
+      "bytes": 8688,
+      "sha256": "9bbbeca64816e5e431ada61b6659578af139bddc29bbb63d162262138c262f4f"
+    },
+    "3D/city/fence-wire-mesh.glb": {
+      "bytes": 4296,
+      "sha256": "3cdd9bd5a083858236ffd4584436126f7156a6cb460e37724898cd328536302a"
+    },
+    "3D/city/fire-escape.glb": {
+      "bytes": 32264,
+      "sha256": "f54f04994de6e0ae2b45b01a092b2600b9f06c9dc0f0740a1122991e8542692e"
+    },
+    "3D/city/fire-hydrant.glb": {
+      "bytes": 10060,
+      "sha256": "a371b769ee0a73dbfdab41d14dc80b8c097ea6aac99c7dbd9c3f5ece73383d44"
+    },
+    "3D/city/floodlight-tower.glb": {
+      "bytes": 18908,
+      "sha256": "74db90aff38611a5c098d93fe29c33609629fe4c85044419da8b906331519d9f"
+    },
+    "3D/city/floodlight.glb": {
+      "bytes": 7320,
+      "sha256": "5ea6312032bd6bd97d6fb0bc6be76f21c030106fbf903b791c7e10c522524c99"
+    },
+    "3D/city/floor-slab-2x2.glb": {
+      "bytes": 1740,
+      "sha256": "caa574abbbbcddf0196c156e41cbf0917ea1fa3ee9bb4da578c5c05e6ca95bd5"
+    },
+    "3D/city/floor-slab-grate.glb": {
+      "bytes": 10340,
+      "sha256": "642c2ff41655f18b7283c39e7deb7c79c12b7c631dbc3da7d669013bef232bc7"
+    },
+    "3D/city/floor-slab-hazard.glb": {
+      "bytes": 5676,
+      "sha256": "7e10b01cbe7c31501eea782d9acbbb041b3c88051e74cd528180da84a1beae42"
+    },
+    "3D/city/floor-slab.glb": {
+      "bytes": 1732,
+      "sha256": "9e37a01b64b6c73966f5632356966621b540b992be44ffffcaa3bf7d0b02bef7"
+    },
+    "3D/city/fountain-plaza.glb": {
+      "bytes": 12248,
+      "sha256": "10cb80bb4b5b72f5d31eed5043d107634b1a6ae2b48de367751307aaaeb78e44"
+    },
+    "3D/city/gantry-crane.glb": {
+      "bytes": 11920,
+      "sha256": "dffb8e93f089efe72ca299bb194bcc2d68595849dd887c11186a4dc1dcf8546a"
+    },
+    "3D/city/generator-diesel-large.glb": {
+      "bytes": 7344,
+      "sha256": "025b69ed17d4caf1a180345c29b417af0ba03f9fa0e3abe58a0629b964dd48eb"
+    },
+    "3D/city/generator.glb": {
+      "bytes": 6640,
+      "sha256": "74651d7593e34d545df21ed35486b2971b10abd76870db422de55ee032c8b556"
+    },
+    "3D/city/grate-drain.glb": {
+      "bytes": 12680,
+      "sha256": "48b7c06fbbc6479ee7326671e2b9d3a017c861f8900a4d3854010d57fcbb629a"
+    },
+    "3D/city/grate-floor-square.glb": {
+      "bytes": 9700,
+      "sha256": "2251d6bf91b428d5b3b015957558b81cf51111529110f7312a2ca27e8babcfbc"
+    },
+    "3D/city/grate-trench.glb": {
+      "bytes": 12944,
+      "sha256": "d8ead9bd20eb1ef7d30084476807e2ce6d816db9133f0b2a07aa468e8527c8af"
+    },
+    "3D/city/hazard-floor-stripes.glb": {
+      "bytes": 7776,
+      "sha256": "32b0fae75fbd87c48ef1f70d3adcf224c06ca34f54d188d6976a27110d73c22d"
+    },
+    "3D/city/hoist-monorail.glb": {
+      "bytes": 12888,
+      "sha256": "616bde173972e25ccab4381a7d44294ac9ef54f49cb568e8ea79763be74aacf6"
+    },
+    "3D/city/ladder-caged.glb": {
+      "bytes": 82748,
+      "sha256": "9e3b0354934622db116398c47c63c24c9732aaf414227712bb30a5f2dada23bc"
+    },
+    "3D/city/ladder-fire-escape.glb": {
+      "bytes": 15296,
+      "sha256": "4a8eb7f14c2c7ee7adbfbd5dd98ad820abd561cacbdb3958a789a61810484bba"
+    },
+    "3D/city/ladder.glb": {
+      "bytes": 17852,
+      "sha256": "6928f44c5cdf9e56e0d83924469fa57120cc7b1f32d2d6da5abb05f57dcdf492"
+    },
+    "3D/city/loading-dock-bumper.glb": {
+      "bytes": 7644,
+      "sha256": "aee9922780528c4d17b28619a3bdfb470f5f2c0583a457d9c975254509666319"
+    },
+    "3D/city/loading-dock-edge.glb": {
+      "bytes": 5076,
+      "sha256": "76bb1fbc7f79454869186568addeaaf23587c50c3bebff71c75eaa327a08504a"
+    },
+    "3D/city/loading-dock-ladder.glb": {
+      "bytes": 10024,
+      "sha256": "7b3aa58e9ea0da35f60ade8cc9bcb9f7b9f9cfc7b9296aeddd4d51229c52fd5d"
+    },
+    "3D/city/loading-gate.glb": {
+      "bytes": 7960,
+      "sha256": "a663b1dd2889d3ace179a23907abff4a593aca849a292fa9660bdbd71e8f013b"
+    },
+    "3D/city/loading-platform-ramp.glb": {
+      "bytes": 21560,
+      "sha256": "502869fedb9a464c32ef79d71e5d834d1715a0da3d5afbf012d3554953102c6a"
+    },
+    "3D/city/loading-platform.glb": {
+      "bytes": 22312,
+      "sha256": "f9d5332b1be66caa8d9e6f3cbb465fe488e0a88cc4392d808c085038a2726f71"
+    },
+    "3D/city/loading-wheel-stop.glb": {
+      "bytes": 5556,
+      "sha256": "2c779b113cbd8c84e583eba35d4a895c59f931555396e28c4fdfd27d3c83a5d8"
+    },
+    "3D/city/machine-hydraulic-press.glb": {
+      "bytes": 11676,
+      "sha256": "e7f684200165e66e5cf7bd37d8491cbab50fde5f2d18f0f1cdb808d8c1a1e77b"
+    },
+    "3D/city/machine-lathe.glb": {
+      "bytes": 6636,
+      "sha256": "59818191796e5a9ac1faaa3fd36f9d28464fd10fc464c2afba180768d86fc961"
+    },
+    "3D/city/machine-pump.glb": {
+      "bytes": 11356,
+      "sha256": "3762b004b2870d77c437343cc4634427fd2e9fe59bc537eaaf3a6c989f7ed7b6"
+    },
+    "3D/city/machine-transformer.glb": {
+      "bytes": 13532,
+      "sha256": "feb8d0453713a69436d7b5d07810325dd8853983b979e32d916c4c57d9478a71"
+    },
+    "3D/city/mailbox.glb": {
+      "bytes": 6332,
+      "sha256": "f3846eb726844b72ac9844978c9aec158192be365d3898d135b1ebfe957793d4"
+    },
+    "3D/city/manhole-cover.glb": {
+      "bytes": 14412,
+      "sha256": "4af0cbd730230508293d869b6cb4bfd37f6d5ecddc4a6f78b6cd4aab185e9e87"
+    },
+    "3D/city/news-stand.glb": {
+      "bytes": 5168,
+      "sha256": "5ebc93aece497b82c7797c66cd54c336ead2bbee7a4302f7abe59490888a6911"
+    },
+    "3D/city/pallet-broken.glb": {
+      "bytes": 6664,
+      "sha256": "b14e86d6621e9fb007f1b8e12e310c59c790f64b2ec694c08c0dd109b81856e0"
+    },
+    "3D/city/pallet-euro.glb": {
+      "bytes": 12516,
+      "sha256": "9109c7f9a5abb98d048ce9d3dc265d84cc1eef91b95a79628f305f802f9cd95b"
+    },
+    "3D/city/pallet-metal.glb": {
+      "bytes": 4328,
+      "sha256": "66544854d0d711b8839f62b8e646e5b2a36656498a95e96b62e42d5efbc6f731"
+    },
+    "3D/city/pallet.glb": {
+      "bytes": 8592,
+      "sha256": "6ad6520709b21cb7c7093784b9025b99f08e7181a4fdbea99d27acbebde10e75"
+    },
+    "3D/city/parking-meter.glb": {
+      "bytes": 6028,
+      "sha256": "ace88a13e8ee910c793b7c71311f6fb8ed1e020595045a21f43278c437776af5"
+    },
+    "3D/city/pipe-cross.glb": {
+      "bytes": 24024,
+      "sha256": "77b69d860d7c39dc914e21bc6b77f7398b7c2476b60b583cbdca158498ddda44"
+    },
+    "3D/city/pipe-elbow.glb": {
+      "bytes": 20748,
+      "sha256": "f84c918bf1a12ab84b6dc280b62eea443b8912bc1380d33980a08c280eb02a7b"
+    },
+    "3D/city/pipe-flange-pair.glb": {
+      "bytes": 14428,
+      "sha256": "2b0a5805e73d6936324fa7f70b32749eb24abcf1056b848d2dd1f9caa937bc9f"
+    },
+    "3D/city/pipe-flange.glb": {
+      "bytes": 12300,
+      "sha256": "cc1d5b78b9023fa25ef00385c7445e2da98052db848f840f742bdf29f24d2fb3"
+    },
+    "3D/city/pipe-inspection-port.glb": {
+      "bytes": 15404,
+      "sha256": "92c61dd49be92a4ae72f3aa24a562fd40deb5cc2741b58132f13ae2b8b76e6ac"
+    },
+    "3D/city/pipe-junction-box.glb": {
+      "bytes": 9368,
+      "sha256": "6cb759449d569a3f8b131607aad695be54421335de1256fc74c5427d5b1674a7"
+    },
+    "3D/city/pipe-long.glb": {
+      "bytes": 17024,
+      "sha256": "a2787906c3b9c4fe0499683538615dcc74e9c9aa88df073ec81db30740d72801"
+    },
+    "3D/city/pipe-manifold.glb": {
+      "bytes": 32916,
+      "sha256": "d6bd9cb9d4f396fb986743ef1729dc6ec3f632c0e430893c38ae7fc2af8ca957"
+    },
+    "3D/city/pipe-riser.glb": {
+      "bytes": 22304,
+      "sha256": "b74afcb937ef5ab70c2f2335dad4c21f8b3ad9bc57ba3ca4caa0df55cd20fed0"
+    },
+    "3D/city/pipe-short.glb": {
+      "bytes": 14388,
+      "sha256": "8cff3945eedc441df47541f1fb4882e652c534e5d92d0dabc0387024c102ea44"
+    },
+    "3D/city/pipe-straight.glb": {
+      "bytes": 14392,
+      "sha256": "a44b252a63327236e062f4d927ebe79c2c66adc7a0bc21cf57b11ad1d87fbf4a"
+    },
+    "3D/city/pipe-support.glb": {
+      "bytes": 12052,
+      "sha256": "17e77bfd51cd33d5a7a274259079f48324464e70a2a932f053ebdbc777ad0123"
+    },
+    "3D/city/pipe-tee.glb": {
+      "bytes": 22376,
+      "sha256": "265ee5e154de79c64f52a4130c68be00ed3361a6f03effa70af031bb503529fb"
+    },
+    "3D/city/pipe-valve.glb": {
+      "bytes": 19948,
+      "sha256": "d10ac116df2d0f851e8566cff7b33d2f17b803639e4eae9fb16a7457c656361e"
+    },
+    "3D/city/pipe-vertical-elbow.glb": {
+      "bytes": 20784,
+      "sha256": "c8fa48d78818cdb92ed78569db95d9ea95c4d94aa00a4de4b3b1854e1b77f10f"
+    },
+    "3D/city/planter-concrete.glb": {
+      "bytes": 10752,
+      "sha256": "57eab2decfa63ae42be2ab0b220a696cf53e634d545253280b5867d59abb4fec"
+    },
+    "3D/city/platform-grated.glb": {
+      "bytes": 15732,
+      "sha256": "5deda3f3570e9ad095353247f80b0710b68bc52d20b92c632afa07d8d08d329a"
+    },
+    "3D/city/platform-high.glb": {
+      "bytes": 14172,
+      "sha256": "1f704f19876489758fd4309029c642dc4084b43df7891537ea174aa5a1b73d31"
+    },
+    "3D/city/platform-low.glb": {
+      "bytes": 11868,
+      "sha256": "6789e1b91e599007e9de2443d7ace69f56229109eb3834ca0e8a3dbf84609c76"
+    },
+    "3D/city/platform-staging.glb": {
+      "bytes": 4256,
+      "sha256": "a0ff302383f561bf662da550ea778b65ed8c528827d1552c1a10151698b4ddfb"
+    },
+    "3D/city/preview.png": {
+      "bytes": 13887,
+      "sha256": "ab03f932a46d0b89acb72634ea8f75a80cc4bad327933ce7e13a87bafe3469c0"
+    },
+    "3D/city/preview.webp": {
+      "bytes": 13262,
+      "sha256": "c9f2b15c05264a3c9671551c60b1c2c16aceaf4c64221b4e32edea6866c55b91"
+    },
+    "3D/city/previews/air-compressor.png": {
+      "bytes": 10481,
+      "sha256": "885c3fa9a3a6dd63753631adca3b32b3116d45b3e8a0af008fe08476336826c1"
+    },
+    "3D/city/previews/air-tank-mobile.png": {
+      "bytes": 12223,
+      "sha256": "f0f924b93ff32f7780afd708eac6f677cd554e01c34c80a3eb2ef90339a097d2"
+    },
+    "3D/city/previews/barrel-stack.png": {
+      "bytes": 10459,
+      "sha256": "76b813991a55c8cde64fe3735c86554e2dcbb4c2e4f05d1248bf2e2e6fb3b42a"
+    },
+    "3D/city/previews/barrel-toxic.png": {
+      "bytes": 15751,
+      "sha256": "c1bd373a55339184068baf446b3bc2434afa9cdab8bab11d9a040b3d7c464314"
+    },
+    "3D/city/previews/barrel.png": {
+      "bytes": 13451,
+      "sha256": "d4ecae6e434d44a228a2a4005bb6f397a00925acbd1ca2dd64fc71f5603a2738"
+    },
+    "3D/city/previews/barrier-jersey-concrete.png": {
+      "bytes": 10952,
+      "sha256": "3b79ec806db8a2a94478e2d29d1e808fbee5aec9d83c28d812dce1e21fccc31f"
+    },
+    "3D/city/previews/barrier-traffic-cone.png": {
+      "bytes": 12117,
+      "sha256": "a1441c44deb71d3a9240a97be1931152769a865292d77fff3be78dd74f8878e4"
+    },
+    "3D/city/previews/barrier-water-fillable.png": {
+      "bytes": 10267,
+      "sha256": "304dd70b01bdc0130e287de83b39e5cce4b82e8f98e53840a7ea68fdaadd065d"
+    },
+    "3D/city/previews/barrier.png": {
+      "bytes": 12457,
+      "sha256": "e76b098eb406b8ff6d7373425349ff26b63880187973fab2dce4c314aa9bcaa5"
+    },
+    "3D/city/previews/bench-park.png": {
+      "bytes": 17299,
+      "sha256": "ea6640d407efec18f15c27e6658e22b80f53503afd35d3083884f62703873ff2"
+    },
+    "3D/city/previews/bicycle-rack.png": {
+      "bytes": 14342,
+      "sha256": "58ca5ae31530366bf12d39085faf9e64e6b7ef70d802d9dc21d6a1689a6e7c00"
+    },
+    "3D/city/previews/billboard-highway.png": {
+      "bytes": 11443,
+      "sha256": "b59dd950d566b3f311f3fb0748d1078fbd5f6f9f75824bca34823311b9c7652b"
+    },
+    "3D/city/previews/billboard-small.png": {
+      "bytes": 12603,
+      "sha256": "6bd2268e88b20397f631f45dc85544c9ee9689d881915bd6a7931f84bbefcfe5"
+    },
+    "3D/city/previews/bollard-heavy.png": {
+      "bytes": 9872,
+      "sha256": "1cadf76e5bfbafbb0b4b4751f2a9d075406e9334e1235d2f29b02f645b2bb4e8"
+    },
+    "3D/city/previews/bollard-retractable.png": {
+      "bytes": 9042,
+      "sha256": "e8a4b856622d3ab29d377217791b97365920f705d8b317afc4bf4cf7d9a6b19f"
+    },
+    "3D/city/previews/bollard.png": {
+      "bytes": 7302,
+      "sha256": "eb3bab630c5c88e5bfd42534558d220b8c00b487f56348f4b50b168d34b6709d"
+    },
+    "3D/city/previews/breaker-box.png": {
+      "bytes": 9115,
+      "sha256": "73aeeccfc9d4d1899c0c9842727f7693e738a65f9f1f6858a984cf581b8ecf23"
+    },
+    "3D/city/previews/bus-stop-shelter.png": {
+      "bytes": 14789,
+      "sha256": "cfc7c0e85b676f3d1884a72fd0ca746cca07a12e91f63fa5330486427ae56910"
+    },
+    "3D/city/previews/cable-spool-metal.png": {
+      "bytes": 26640,
+      "sha256": "fee668654d51e4665d37c8d1c413a602a9d3332a569e7eed6cb43e0b4b30a0a7"
+    },
+    "3D/city/previews/cable-spool.png": {
+      "bytes": 15892,
+      "sha256": "f5e006cebaded8e03ddd695ef9dbf2596ae38e8201489799928dd9072c3f1f81"
+    },
+    "3D/city/previews/cable-tray-straight.png": {
+      "bytes": 8528,
+      "sha256": "1cc74209e71bd283dc94e742de39ee64d09d7ec3e02b9259f46bd72285d36166"
+    },
+    "3D/city/previews/cargo-container-open.png": {
+      "bytes": 9794,
+      "sha256": "0945cd01cf1e24a032fdd924c24f69d9ec050dc2b65409a7016dde73aae82923"
+    },
+    "3D/city/previews/cargo-container-short.png": {
+      "bytes": 19228,
+      "sha256": "353ae0161cd5cb8d5ebccdd3d35f33ffaaa05643e9a01951f34de86f3db9d77a"
+    },
+    "3D/city/previews/cargo-container.png": {
+      "bytes": 15267,
+      "sha256": "583177b1d49475d96198360804dce0983e1cb834027093619c24220834de1068"
+    },
+    "3D/city/previews/catwalk-bridge.png": {
+      "bytes": 19637,
+      "sha256": "3634ca1203280cb12e03ac76fe2139fb934761e899c3c22799f5f77fa37f6efd"
+    },
+    "3D/city/previews/catwalk-grate-long.png": {
+      "bytes": 19316,
+      "sha256": "ba50375bd3ffabdafebda16a9ebab3e90e90b0e394000bdd9ceb20d9a43d2d0c"
+    },
+    "3D/city/previews/catwalk-intersection.png": {
+      "bytes": 23781,
+      "sha256": "b5bac591e0f1a276e58225399098d37cb9814e44ae3d53f7e214a9a35c1d4232"
+    },
+    "3D/city/previews/catwalk.png": {
+      "bytes": 21464,
+      "sha256": "0ddfbaf0aae25845d34551c2a7f9774139ccd0dc382ddc115aece6f8cac49f6e"
+    },
+    "3D/city/previews/conveyor-incline.png": {
+      "bytes": 9988,
+      "sha256": "05295ec48b287075d314db47e4fd6f08c8ce0b17a344dfe8c2ebdee03914ea07"
+    },
+    "3D/city/previews/conveyor-roller-straight.png": {
+      "bytes": 14772,
+      "sha256": "9b53f51b3207fe27ad4799acbab9e133f50fed31b7cc3d93e6215cc475b29697"
+    },
+    "3D/city/previews/conveyor.png": {
+      "bytes": 10033,
+      "sha256": "633098ebf5ef31ba87a43aa5c6b97dad9a0cec5e4e72c27f3c67598de2eaf47c"
+    },
+    "3D/city/previews/crane-jib.png": {
+      "bytes": 10499,
+      "sha256": "95ea07f49e670eb0310c81d6e70c91dac338fdcbc752f56bc000c757ee9e122a"
+    },
+    "3D/city/previews/crane.png": {
+      "bytes": 10647,
+      "sha256": "f64d492484df22d953769376310d59b57fe391e18e591231e91e65f70e77afc5"
+    },
+    "3D/city/previews/crate-heavy-wooden.png": {
+      "bytes": 10085,
+      "sha256": "b32a16caa175412b1cb9c3cb46ced0f7833f3fdccc3ebba289dbee012139c507"
+    },
+    "3D/city/previews/crate-military.png": {
+      "bytes": 10060,
+      "sha256": "46916c052e4296ca66245dbd1ca3711c7e89b07ca12e6dff9fbb87929c65c0cb"
+    },
+    "3D/city/previews/crate-stack.png": {
+      "bytes": 10913,
+      "sha256": "d83fe2f7c8f4e8e7e91a3e754fc52c29b17b970900dff01035bc88e2f1fc05a0"
+    },
+    "3D/city/previews/crate.png": {
+      "bytes": 10430,
+      "sha256": "7d8a0ae81c6662db7f906271a8b8bb2f29bd45f4826c9197ed0a6edaa883bbc7"
+    },
+    "3D/city/previews/crosswalk-tile.png": {
+      "bytes": 10993,
+      "sha256": "36e3fdc0dcec15ca4fe07bfe7a9acd1ba013d541fa9868e6c7f56d2ab3729e0e"
+    },
+    "3D/city/previews/curb-corner.png": {
+      "bytes": 13262,
+      "sha256": "ac0ba664d918ecbc0daab140c4b255384e5bdf653a5e00a9f9107893ba3a4c80"
+    },
+    "3D/city/previews/curb-straight.png": {
+      "bytes": 7537,
+      "sha256": "60e7499f472cef81f796b093071f19770f65e9ec51a5649ad7310882e3e8a791"
+    },
+    "3D/city/previews/debris-scrap-pile.png": {
+      "bytes": 10361,
+      "sha256": "b4b672ff865283045d37462a02aad1825c85335277cfe5971c3698ed48bb201f"
+    },
+    "3D/city/previews/door-frame-roll.png": {
+      "bytes": 12681,
+      "sha256": "d51119684917fbf7b299994ceb20ff705d170d4bd39acdbb8a25486ac80e2510"
+    },
+    "3D/city/previews/door-frame-steel.png": {
+      "bytes": 8275,
+      "sha256": "74ec06cd49fcc1416de0864f1e0e08eb3eb7707c09f8f1fa58947a6216693b5d"
+    },
+    "3D/city/previews/door-roll-up.png": {
+      "bytes": 11987,
+      "sha256": "802d4050f8b1b44673167bdebfef808299aeafbf8defb3c852b1d6016ac089d5"
+    },
+    "3D/city/previews/door-security.png": {
+      "bytes": 7096,
+      "sha256": "7b8d379a84572c15768a381dfc364ef5b99ac50349c500b270d1440c0f0e2032"
+    },
+    "3D/city/previews/door-steel.png": {
+      "bytes": 7335,
+      "sha256": "9a14c16e6d2cc1be3d7d72527f356e6b63fdc98432093037c984d74482685070"
+    },
+    "3D/city/previews/duct-elbow.png": {
+      "bytes": 12410,
+      "sha256": "22dd9af3fb12a922541950270bb894447b191b5f43906e53d6de77b1651a0ae8"
+    },
+    "3D/city/previews/duct-exhaust-hood.png": {
+      "bytes": 12955,
+      "sha256": "b33ec0e22ee202589ae249594881c6488dffc1918a62a671e719cf37c0ddf2d8"
+    },
+    "3D/city/previews/duct-straight.png": {
+      "bytes": 8531,
+      "sha256": "12331cdd36eef7e05f54afc7a1c24ac4e5bcf5b3df86aa3d2f53f219e1b8529f"
+    },
+    "3D/city/previews/duct-tee.png": {
+      "bytes": 11296,
+      "sha256": "98fd107810b7343b48f733349db7ba881a62309ad48d38b983d218b716411e80"
+    },
+    "3D/city/previews/duct-vent.png": {
+      "bytes": 13658,
+      "sha256": "9b52858f362b9040fa5ae3aea09097c6de06371339846ee6655c19f5db68b21c"
+    },
+    "3D/city/previews/dumpster.png": {
+      "bytes": 13283,
+      "sha256": "8a2ad3237af360b365dd953dafec27bc7b9d140ec5811a55cfb1c33b488efedc"
+    },
+    "3D/city/previews/electrical-cabinet.png": {
+      "bytes": 9874,
+      "sha256": "77a396ae4fab14a9824e5f960d4a8715462cd9ff7f0d5c79e049750291d7e036"
+    },
+    "3D/city/previews/electrical-panel-wall.png": {
+      "bytes": 9279,
+      "sha256": "686eea752907bb1c4f91ea0e0ea238234f0c2ea33116f77dcc0ec9ecb921a52d"
+    },
+    "3D/city/previews/fence-barbed.png": {
+      "bytes": 10652,
+      "sha256": "ebde660196f75cb933c8207497aef80efa7db12927b24e5420877c74dcfabf26"
+    },
+    "3D/city/previews/fence-gate.png": {
+      "bytes": 10054,
+      "sha256": "450404789bf01fb617026eb82762e7a0f043360a44d9377be5428fc7664ffc2f"
+    },
+    "3D/city/previews/fence-panel.png": {
+      "bytes": 11562,
+      "sha256": "d8b3ce06c5167ef06738c249338c991bdd760b6825644ea82ccfe47fef15fb52"
+    },
+    "3D/city/previews/fence-wire-mesh.png": {
+      "bytes": 7902,
+      "sha256": "18c03c26e8870e0ff187fd52a7bf6732cbea1585f4a78dfac05b07d40dbc320b"
+    },
+    "3D/city/previews/fire-escape.png": {
+      "bytes": 26621,
+      "sha256": "abec54c3b06b4e524e9d4937d3ab677779fc33278879d2a2758abcc905a2d638"
+    },
+    "3D/city/previews/fire-hydrant.png": {
+      "bytes": 11953,
+      "sha256": "969b685fee692117231e7093638820cf9dabdde732886d53589a05be00990112"
+    },
+    "3D/city/previews/floodlight-tower.png": {
+      "bytes": 8307,
+      "sha256": "9b1ea1465def38512f9a96583db03871157ffe77c0dca3f0634b6918ed202515"
+    },
+    "3D/city/previews/floodlight.png": {
+      "bytes": 13253,
+      "sha256": "14bc78e51ccb6bd009254230c79d036f4ef4dc4af9606b9fd52c01c14c815467"
+    },
+    "3D/city/previews/floor-slab-2x2.png": {
+      "bytes": 9233,
+      "sha256": "e2b87d2a81f43166dfaffaa16e15f92672aee9b39711906b2bdb54189ae99009"
+    },
+    "3D/city/previews/floor-slab-grate.png": {
+      "bytes": 18292,
+      "sha256": "471737ea329c6769136be23bbba4e987734d088d18033b39bbbbd660b777652e"
+    },
+    "3D/city/previews/floor-slab-hazard.png": {
+      "bytes": 13577,
+      "sha256": "2147285e7a4bb9589c13f90db446ec4ce81a5c571e2685d8971c79a92308906f"
+    },
+    "3D/city/previews/floor-slab.png": {
+      "bytes": 9528,
+      "sha256": "699679719f4844373e7361184eaf354a59ca58cbd6cfeac55241a12be56060d6"
+    },
+    "3D/city/previews/fountain-plaza.png": {
+      "bytes": 13786,
+      "sha256": "e5e2304abb7b9de638648b2de5e668488d6ac4501775c674133b02acbd35a2f7"
+    },
+    "3D/city/previews/gantry-crane.png": {
+      "bytes": 19741,
+      "sha256": "6e5a0d299099e1fa45514d48efd5cf3a728cb6f5988f9201220ba125160a9f38"
+    },
+    "3D/city/previews/generator-diesel-large.png": {
+      "bytes": 11800,
+      "sha256": "76f2f252b8ae40442a13710c7621f9f1e033d5e09956f8d59575b21a3a95a84c"
+    },
+    "3D/city/previews/generator.png": {
+      "bytes": 10914,
+      "sha256": "9a7dc3f1735fb2c232612b691a3775c848e31d99487ad1c8be4cad052242ed55"
+    },
+    "3D/city/previews/grate-drain.png": {
+      "bytes": 12664,
+      "sha256": "ac35c99209e15310f743f1d88fde709674bbf588f6a8ba2855a13087d4ae6047"
+    },
+    "3D/city/previews/grate-floor-square.png": {
+      "bytes": 21180,
+      "sha256": "62ee5643395c4fdd810428beb3322a7590d9a71c6b281ee4d6199396507d00ee"
+    },
+    "3D/city/previews/grate-trench.png": {
+      "bytes": 7342,
+      "sha256": "de658671089c453951c2754c073e01d6fd899d722735aec404034aed73c71fc0"
+    },
+    "3D/city/previews/hazard-floor-stripes.png": {
+      "bytes": 9119,
+      "sha256": "0a41a9681a0f19f4440bb99b42f26c448a3688157732d5fa9cc0355dc4e67a72"
+    },
+    "3D/city/previews/hoist-monorail.png": {
+      "bytes": 8890,
+      "sha256": "f7a94a2bb9fc8513ea1939142c66c3f572b6436213762d2915fcb6d20351f327"
+    },
+    "3D/city/previews/ladder-caged.png": {
+      "bytes": 15400,
+      "sha256": "5ce057c578300f36b3e08b6f2fa080574a980ce174ce0930d6629e4eb4af0555"
+    },
+    "3D/city/previews/ladder-fire-escape.png": {
+      "bytes": 9860,
+      "sha256": "993ed950543beb7ddc75f520cf08390c735f0969bfb40364018e88051d5600fe"
+    },
+    "3D/city/previews/ladder.png": {
+      "bytes": 9719,
+      "sha256": "ad241d3461f0f0f0fa94d3d6a94b2d778a397a6aa94f14d2bf613822f9ef53e6"
+    },
+    "3D/city/previews/loading-dock-bumper.png": {
+      "bytes": 11635,
+      "sha256": "36a739b195e050dfdcee289ebbde69427315593248c20a1fe54591bdfcd74a80"
+    },
+    "3D/city/previews/loading-dock-edge.png": {
+      "bytes": 9545,
+      "sha256": "42e9255e53798af5c0a097a58764c751e0c4dbb2db22a4d51f43c40edfac55bf"
+    },
+    "3D/city/previews/loading-dock-ladder.png": {
+      "bytes": 12006,
+      "sha256": "9a975973ea66914a5a432684603805cedec50a522709f65cfb3ed8bbdd72af77"
+    },
+    "3D/city/previews/loading-gate.png": {
+      "bytes": 10196,
+      "sha256": "61629fcc41087e0f811f13bc60a0e710a0cbc5e5964780f9fd14e3e8087f7baa"
+    },
+    "3D/city/previews/loading-platform-ramp.png": {
+      "bytes": 18678,
+      "sha256": "89262941d4ff55d74487306ec3c45b296541447256b2d26ffc68ff423420da72"
+    },
+    "3D/city/previews/loading-platform.png": {
+      "bytes": 15380,
+      "sha256": "a63fd32d62b70bd322b7b942c59afc0d163fd2550f68bdab847ee7fb00914ce4"
+    },
+    "3D/city/previews/loading-wheel-stop.png": {
+      "bytes": 9079,
+      "sha256": "c8f3d78cc74b7e5489a312338fb2c343b2065c907baf1b68d109b572372e94c4"
+    },
+    "3D/city/previews/machine-hydraulic-press.png": {
+      "bytes": 13113,
+      "sha256": "d7497c4e470b0dbefb922334bf47e06d11037baaf8d5ff1ec214d3877e1a754e"
+    },
+    "3D/city/previews/machine-lathe.png": {
+      "bytes": 11320,
+      "sha256": "3d189b6bf01b80681fb5564f36d8ad0d0811cd4f404596a131816ba2d8034749"
+    },
+    "3D/city/previews/machine-pump.png": {
+      "bytes": 10235,
+      "sha256": "6b81119191995c30a4108dfc17e69232701d28b50bb2dd04b63592e3aed340b1"
+    },
+    "3D/city/previews/machine-transformer.png": {
+      "bytes": 13580,
+      "sha256": "e53e4ad6377c68d96773250bd1644b49f0a48d9c76599b0923cd53a238165c55"
+    },
+    "3D/city/previews/mailbox.png": {
+      "bytes": 10914,
+      "sha256": "bf72c8692bd4bd3cd211548d105bde2a3a1bf47ce977f4d0536ecab8f5935e71"
+    },
+    "3D/city/previews/manhole-cover.png": {
+      "bytes": 13245,
+      "sha256": "219f984d5e8e5d2a890afb57c8aba6e7675d4ea0bc47da74040181f0009580ab"
+    },
+    "3D/city/previews/news-stand.png": {
+      "bytes": 10102,
+      "sha256": "9a14e27659bfae8c2408f40c5ddf2571f0cb201a64afe49d3a634662973077dd"
+    },
+    "3D/city/previews/pallet-broken.png": {
+      "bytes": 14846,
+      "sha256": "485bab283e7e113c283cf503183965d5d3aba5e4205686cc93b3673d9d301bf0"
+    },
+    "3D/city/previews/pallet-euro.png": {
+      "bytes": 15719,
+      "sha256": "b1f4178db539a634c98b689e00d37f414c411f67a618c6a378835ae0bbbc8a77"
+    },
+    "3D/city/previews/pallet-metal.png": {
+      "bytes": 11363,
+      "sha256": "71a40a13968bdf4dd64aa795f5108fdcb82ccc3c9c8e47f5c09bf4fdc6757ea6"
+    },
+    "3D/city/previews/pallet.png": {
+      "bytes": 17645,
+      "sha256": "3018436a725db13c30acd29508372ed6631b734dc6b15aa320ab7e71e3d3816c"
+    },
+    "3D/city/previews/parking-meter.png": {
+      "bytes": 6286,
+      "sha256": "b4d62e5e68cf39501a0c3903f52ba2052150928bba0a49bf2aee6aeb862b18d7"
+    },
+    "3D/city/previews/pipe-cross.png": {
+      "bytes": 15326,
+      "sha256": "10db4e235194e4bb6373991d56ac561f10a3839f7f85247a004349270512843d"
+    },
+    "3D/city/previews/pipe-elbow.png": {
+      "bytes": 13573,
+      "sha256": "df64af8b92099c3ca0665dc3a4e95b3ebb26226d75588c2e73b4b326e47536d4"
+    },
+    "3D/city/previews/pipe-flange-pair.png": {
+      "bytes": 12342,
+      "sha256": "99ebca8e15b8bfb3ed164e30a2830cf25640e5ec7b261859937a2b3c17d133fd"
+    },
+    "3D/city/previews/pipe-flange.png": {
+      "bytes": 11607,
+      "sha256": "fc89b293ecf31edf527002730e7fcbd0f7bb8b8c7a329756c52e825668ae342a"
+    },
+    "3D/city/previews/pipe-inspection-port.png": {
+      "bytes": 12959,
+      "sha256": "66321ae9644f5b460bae025779e7a21cb8ff2270a9ddd85695f69d19e635a43a"
+    },
+    "3D/city/previews/pipe-junction-box.png": {
+      "bytes": 14095,
+      "sha256": "cf538397927412dc8b4459f0d61070e5d699543fffe3d8e9e5a5efff2efe92cd"
+    },
+    "3D/city/previews/pipe-long.png": {
+      "bytes": 8622,
+      "sha256": "8a6cdaf5b7500e3c55675d952fca680e9880e585fd9346f0348b6c10f1a94b86"
+    },
+    "3D/city/previews/pipe-manifold.png": {
+      "bytes": 13889,
+      "sha256": "59756c5b9aa53b0cc1ea2393b7f5e415c50968e87a9ad73c9377e808a3469fe3"
+    },
+    "3D/city/previews/pipe-riser.png": {
+      "bytes": 7482,
+      "sha256": "98055a2ce217f0db83c8859ba5df7f817c8a7fde7a1c5d536866732aee46e54e"
+    },
+    "3D/city/previews/pipe-short.png": {
+      "bytes": 13631,
+      "sha256": "3e95093c1709352667d2230c889a3430f19bef055cdd35992bbf01b81f143bbb"
+    },
+    "3D/city/previews/pipe-straight.png": {
+      "bytes": 9283,
+      "sha256": "0418c8daef1be80085f86156da26033268f32f749b5a489e2954d76249115ee2"
+    },
+    "3D/city/previews/pipe-support.png": {
+      "bytes": 15916,
+      "sha256": "2e29a42d577dc68bddcc7310fb7b0acaaa670205d8dbd89927c2239ed8a5b036"
+    },
+    "3D/city/previews/pipe-tee.png": {
+      "bytes": 13625,
+      "sha256": "1d1ffbbe36cdaf6ec454d2e98e486a9b2172a3d8c779a8fd72ba0de5bb6a43fd"
+    },
+    "3D/city/previews/pipe-valve.png": {
+      "bytes": 12903,
+      "sha256": "9f5e8a8e93f12814dbdf4b856fbd6b4f0782d0edb1af19337023555d4335463e"
+    },
+    "3D/city/previews/pipe-vertical-elbow.png": {
+      "bytes": 11556,
+      "sha256": "0add69c224204b6bf2918103d90245c0428ff086735d53cac0ae5a0353ad86db"
+    },
+    "3D/city/previews/planter-concrete.png": {
+      "bytes": 16495,
+      "sha256": "4ac0492d7f6445aceb9c5f913cf3757dc1ed4b30508d024f12c86915d0a62f56"
+    },
+    "3D/city/previews/platform-grated.png": {
+      "bytes": 18175,
+      "sha256": "19f7650b39df86daec9379357ac2eb63caa47cc3026606f60fc203102e95707b"
+    },
+    "3D/city/previews/platform-high.png": {
+      "bytes": 15544,
+      "sha256": "b13a20338195a2455ddfc9777e00aecf6a674adac570fa1c84d2b846177735c6"
+    },
+    "3D/city/previews/platform-low.png": {
+      "bytes": 13983,
+      "sha256": "800e33a0917b1bb326d097af27c2435c0c703486ea5cebeb315a2fa5d8afe010"
+    },
+    "3D/city/previews/platform-staging.png": {
+      "bytes": 11353,
+      "sha256": "487ede04701589746b2647e981d5e3f966a274c7b7948ee95afa3dd4836eafa5"
+    },
+    "3D/city/previews/rail-corner.png": {
+      "bytes": 19330,
+      "sha256": "f27dec4139c961f8e9e81dcb361f884a54743151e88426785224f0327ee79c72"
+    },
+    "3D/city/previews/rail-endcap.png": {
+      "bytes": 12182,
+      "sha256": "a88d314c9de9deb9e904e3f2689885ae4a9dc7f9d03fcfdac7a260d6166187ac"
+    },
+    "3D/city/previews/rail-industrial-guard.png": {
+      "bytes": 13629,
+      "sha256": "422f58724aa8688b494d5653b68ecbbe87434f547922c427299c2849d974f0b3"
+    },
+    "3D/city/previews/rail-straight.png": {
+      "bytes": 11833,
+      "sha256": "097f46df0c66dbcf35ee64294d05a2f9831578c41c5a154d8f2b4f516fd3c03b"
+    },
+    "3D/city/previews/ramp-curved.png": {
+      "bytes": 10619,
+      "sha256": "2325548db4b7296ff677ba8a84ad45bfb7705c83ce4183b2f7ee469259be4fe8"
+    },
+    "3D/city/previews/ramp-high.png": {
+      "bytes": 22857,
+      "sha256": "6d14c035169af1c7faa3e141e8b1e85804e20693972db0075bbd29566080edc5"
+    },
+    "3D/city/previews/ramp-low.png": {
+      "bytes": 10179,
+      "sha256": "0e9ebf3413392c021fe66901f61f50c73f62874a41cde3b65827eca13b99bb3e"
+    },
+    "3D/city/previews/road-tile-junction.png": {
+      "bytes": 12448,
+      "sha256": "7a8da482bbecbae0d38885659cbb2ea53247c700cbfdd3f9fe1d0cc0baa4e8ad"
+    },
+    "3D/city/previews/road-tile-straight.png": {
+      "bytes": 10399,
+      "sha256": "6eda22280b0a7c77d2bfb380c4cb7ce24ee1662b6e168674ca8eed033053adc0"
+    },
+    "3D/city/previews/roof-access-hatch.png": {
+      "bytes": 16699,
+      "sha256": "c7301b656818dd4cd6ba12e10ae62d2028f61959de4178b58220844a995d8e8a"
+    },
+    "3D/city/previews/roof-antenna-mast.png": {
+      "bytes": 10492,
+      "sha256": "727a0a09abb433b0892139b93518a1cc8d4eaed134395245979ba44d3779b62f"
+    },
+    "3D/city/previews/roof-cable-bridge.png": {
+      "bytes": 11940,
+      "sha256": "2a4f6346a606f21dca201d14ce6691256b1b8c01c341a602b08fd18d306b8b5d"
+    },
+    "3D/city/previews/roof-curb-corner.png": {
+      "bytes": 11345,
+      "sha256": "8d651cc5e6eb7e802882deee32dc1ac962c17d9017b0d30bbd399c3f59f59605"
+    },
+    "3D/city/previews/roof-curb-straight.png": {
+      "bytes": 8321,
+      "sha256": "da18019a9b61e4edb775e27f3ee7ed0d231690630e0f2494860ab2b66010c0cd"
+    },
+    "3D/city/previews/roof-drain-scupper.png": {
+      "bytes": 10926,
+      "sha256": "539881859669741b8eb0a04c0c55365b128a5cd4f187599e595a07b38a402677"
+    },
+    "3D/city/previews/roof-duct-curb.png": {
+      "bytes": 13643,
+      "sha256": "aa45785d24acb1721b0fb3d5ec1e6161093c51ae697a50c247fe324fe0f046e8"
+    },
+    "3D/city/previews/roof-equipment-plinth.png": {
+      "bytes": 14969,
+      "sha256": "ccc00977a4a5359e906f519e0cd60254c94ad8a7a710c4cc75d6dbfc904874cc"
+    },
+    "3D/city/previews/roof-fall-arrest-anchor.png": {
+      "bytes": 19333,
+      "sha256": "ee5d1edbb8dc53c912da427f4f98935aafc71af635cc95e3360e193e37c7f136"
+    },
+    "3D/city/previews/roof-flat-parapet.png": {
+      "bytes": 14551,
+      "sha256": "e4a30665ed3845f55e6b3f4a29c14fb43da1674c9a25844cea8481cdaf60d836"
+    },
+    "3D/city/previews/roof-ladder-landing.png": {
+      "bytes": 33191,
+      "sha256": "792680803ab776a9d7598dcc92bb82bd2e1c6892bb50465d8750b2ceed02c3fa"
+    },
+    "3D/city/previews/roof-safety-post.png": {
+      "bytes": 10694,
+      "sha256": "3d5537b889e0d4b8939d8aa2fba89aa92b56a184535468952f91d6d264a92b7c"
+    },
+    "3D/city/previews/roof-service-vent-stack.png": {
+      "bytes": 11897,
+      "sha256": "59e09cfd56782137a7493595fdb25bbcf09e5d0dec9967390e14ff7abda83594"
+    },
+    "3D/city/previews/roof-skylight.png": {
+      "bytes": 13666,
+      "sha256": "857153cf24cf4d05ab88487bd6d06bf3bbedfdbd3b95467dd34f0b397edf64f9"
+    },
+    "3D/city/previews/roof-truss.png": {
+      "bytes": 11049,
+      "sha256": "0440bacd7265784a1c7b9044246f435697d3d3b694e95fdc15c5b70bc3d976f7"
+    },
+    "3D/city/previews/roof-turbine-vent.png": {
+      "bytes": 14632,
+      "sha256": "8a1ed3626e4f3105fa686683bf79aedf2fd4c840f703d04e8d362d1848fc76db"
+    },
+    "3D/city/previews/scrap-i-beam.png": {
+      "bytes": 8219,
+      "sha256": "1fd41367a2e535222a565c6805110fca4a8acec0e0bb1eab7e028f70839fd1d9"
+    },
+    "3D/city/previews/scrap-sheet-metal.png": {
+      "bytes": 12582,
+      "sha256": "5a3af6b184e9a937dde31a0c20e9af14056bc23020d1926bd81c4afd34f43023"
+    },
+    "3D/city/previews/security-camera-pole.png": {
+      "bytes": 7075,
+      "sha256": "4d71e410855135ae8c147837ee625821e280a497f5c70702839b649d0d160607"
+    },
+    "3D/city/previews/service-bay-arch.png": {
+      "bytes": 14604,
+      "sha256": "857f31eb08bd07b225804484dbaf656e75e6658250941ca59dcf9f66f2c31fc9"
+    },
+    "3D/city/previews/service-bay-canopy.png": {
+      "bytes": 16106,
+      "sha256": "403ef403f96e93f66013aaa97db607fe028fdbcb8df88380be27adc52293e3e1"
+    },
+    "3D/city/previews/service-bay-door-track.png": {
+      "bytes": 10337,
+      "sha256": "136a7c86ce4a7391f2e95e5c1cbff74d197c74fba7336a97f192feb4ea709cea"
+    },
+    "3D/city/previews/service-bay-pillar.png": {
+      "bytes": 8296,
+      "sha256": "b642119aa2a7be15fddc816108da4a410e36703b41761982efaea7bf8ea470b8"
+    },
+    "3D/city/previews/service-bay-tool-board.png": {
+      "bytes": 10789,
+      "sha256": "e5c5afbd4dd1ecc22887251e0cec3c135c364190a501bb75e8ca623ec03b228e"
+    },
+    "3D/city/previews/service-bay-workbench.png": {
+      "bytes": 13015,
+      "sha256": "d6dbebaf197ab39164b6c3fd54a144e14476133ed5a5c9f734ae238acc6caca0"
+    },
+    "3D/city/previews/sidewalk-slab.png": {
+      "bytes": 11664,
+      "sha256": "42b299eb76bf302249e62e974539424eb6529c78609a2aee448343eb61798ae4"
+    },
+    "3D/city/previews/smokestack-tall.png": {
+      "bytes": 8562,
+      "sha256": "d0e68bd62fec68cc60b3bf704a4053666c9981f7e7dd125fa082219430f3a5a4"
+    },
+    "3D/city/previews/smokestack-twin.png": {
+      "bytes": 9068,
+      "sha256": "4967014c5edf481c94887eb2dd187c082d0f2c13630d8560259d212c527c42e8"
+    },
+    "3D/city/previews/smokestack.png": {
+      "bytes": 8674,
+      "sha256": "e4a3d34a1aaafc3b8a6598446dafda85517c66fb253fea76de953876c3f16aab"
+    },
+    "3D/city/previews/stacked-pallets-tall.png": {
+      "bytes": 23695,
+      "sha256": "10edc9c35d28d0e27bb57dccb07fde60190a26832002110fa42e196efd728ef0"
+    },
+    "3D/city/previews/stacked-pallets.png": {
+      "bytes": 19095,
+      "sha256": "d01bb5ac2e82472f9279fedd7649ce96922ba2f71ae2cc231d0afb140437ec8b"
+    },
+    "3D/city/previews/stair-flight-spiral.png": {
+      "bytes": 15634,
+      "sha256": "d3a53500a4dae48d10fd5b0a8d834b714c5f0dee9193f661756804f0b94c86ed"
+    },
+    "3D/city/previews/stair-flight.png": {
+      "bytes": 31280,
+      "sha256": "5155ab626835c947201925c6721f0c03e110e425f84df0becbeea5164ae63faf"
+    },
+    "3D/city/previews/stair-steps-short.png": {
+      "bytes": 13241,
+      "sha256": "2e9b96f3b5f80a3b35532f00b8fa0883fbe3ce1364317e15328c842af9cd9a2d"
+    },
+    "3D/city/previews/street-lamp-double.png": {
+      "bytes": 9233,
+      "sha256": "547a4414abb2801cb8d2c65e7e81614a4d3c757a3a8a2ca25b8805032992b587"
+    },
+    "3D/city/previews/street-lamp.png": {
+      "bytes": 8082,
+      "sha256": "75f4aaacf8b389df20f6ba4ce790ff782169c82b9bdb5a299a2b17266fb9e149"
+    },
+    "3D/city/previews/street-sign-pole.png": {
+      "bytes": 6394,
+      "sha256": "205760c457d1a1750bbf5bf624fbe7ba82049b9c6d6000d7b8ae38d4dcb7478b"
+    },
+    "3D/city/previews/subway-entrance.png": {
+      "bytes": 16486,
+      "sha256": "86dfc36f7e02a764ff092cbb3258dd0966582c772185e37291ef61bed6d63002"
+    },
+    "3D/city/previews/tank-horizontal.png": {
+      "bytes": 14362,
+      "sha256": "0c7e5e28cf8208d05b29c1c8fad031225e889c17bcf75f0f12aab6413d6629c7"
+    },
+    "3D/city/previews/tank-silo.png": {
+      "bytes": 10908,
+      "sha256": "daa6a289f753ffc16a2711480135343a0d515ccbb4d9dbe1d2981072648498a9"
+    },
+    "3D/city/previews/tank-spherical.png": {
+      "bytes": 14465,
+      "sha256": "09073d739856ca9d1de231853cc58845a9a6748f56d6f6db4e1d1a5d4d14fe14"
+    },
+    "3D/city/previews/tank-vertical.png": {
+      "bytes": 11434,
+      "sha256": "a8639a7d4bf7074650cdc9e47970f8397b58e5f6a1ed21dbac0b1134e0f87c8d"
+    },
+    "3D/city/previews/telephone-booth.png": {
+      "bytes": 13625,
+      "sha256": "fbb03ffa01ec82a07e5e782861e822e63ca346f7225869fbfbf3bf54765ec5a5"
+    },
+    "3D/city/previews/traffic-light.png": {
+      "bytes": 7156,
+      "sha256": "fb846a0ce83cecb7a339a8c17fc6f881ce114b200eed012a786c7200dabb995a"
+    },
+    "3D/city/previews/trash-can.png": {
+      "bytes": 11587,
+      "sha256": "e0cf5241379d8d1d1a54f64cf334a51220d9c1658e20e3ef0acba5256871e32b"
+    },
+    "3D/city/previews/turbine-housing.png": {
+      "bytes": 16517,
+      "sha256": "0d84975bae8dfe6269c5f103d14773181ab1e6d81178fc5b3ef9399a8ace3a80"
+    },
+    "3D/city/previews/utility-bench.png": {
+      "bytes": 13172,
+      "sha256": "fe0341dfdbfa2702e20d1f9c0522243872efe59dfb2a36ab5b2c2d24f893ef7e"
+    },
+    "3D/city/previews/utility-cabinet-low.png": {
+      "bytes": 11072,
+      "sha256": "197e03eeb5ea9dbe840d09f5d8efcbe14b99ae8834e6394be7a37dde1b6bff12"
+    },
+    "3D/city/previews/utility-drain-channel.png": {
+      "bytes": 12248,
+      "sha256": "c8d1256a3953159bb68f87c8a27b1ef87a2c81de3040de0610b0efd66b115106"
+    },
+    "3D/city/previews/utility-meter-pedestal.png": {
+      "bytes": 14220,
+      "sha256": "d9fa6e537240111920d81275f54e202656e4d0b8ad8a74988a46eea7873f1134"
+    },
+    "3D/city/previews/utility-panel-double.png": {
+      "bytes": 12829,
+      "sha256": "fb949e1802fb0fb9f3a87735e3314288ee1cccf6a5a654baef9f1c31af21b341"
+    },
+    "3D/city/previews/utility-panel.png": {
+      "bytes": 9550,
+      "sha256": "abeeb4a99a35386e1af61482a398b5aa8635a138db97c270f18bac57484c9001"
+    },
+    "3D/city/previews/utility-sewer-opening.png": {
+      "bytes": 14224,
+      "sha256": "fd4cba68c89ce8c9de51f278a1f37a14dfc98092c5bb737a1bc5f3206488d9fc"
+    },
+    "3D/city/previews/utility-tool-rack.png": {
+      "bytes": 10072,
+      "sha256": "e060ce83dabd6193cafa9bf1073185ff16bc98a61a9a645484abf2b13596e681"
+    },
+    "3D/city/previews/vent-fan.png": {
+      "bytes": 12705,
+      "sha256": "4ba778fd71e1aa4ce14f16002d6c22a0c348799dedd0ae7581eb3a180b798937"
+    },
+    "3D/city/previews/walkway-bridge-narrow.png": {
+      "bytes": 13742,
+      "sha256": "fd25419d713c1d80935142444a792369a40c06396b4115afdf38fd0448c52c87"
+    },
+    "3D/city/previews/walkway-cross-junction.png": {
+      "bytes": 12634,
+      "sha256": "0e860d8be55956d6a0c47bffb8e83cd714862768181338d93462303877c236cc"
+    },
+    "3D/city/previews/walkway-grated-turn.png": {
+      "bytes": 25713,
+      "sha256": "adfecc1c15580722edd82989a86d58811b341241e62fdb82efea0c0a6e94b496"
+    },
+    "3D/city/previews/walkway-l-junction.png": {
+      "bytes": 12486,
+      "sha256": "f56690172b031b1f8f1725ba14a1a879ec2818d3745e04e227ae12f88a2889c5"
+    },
+    "3D/city/previews/walkway-landing.png": {
+      "bytes": 27136,
+      "sha256": "017cdaab94161e6bc2880978117f6cad6d0f68c90fbfac1e91a16ab7ffbe5741"
+    },
+    "3D/city/previews/walkway-rail-gate.png": {
+      "bytes": 13792,
+      "sha256": "c1e6337b3146505c0b6d53b2e2039a510feab9620274b2cabaa7652b89624cc6"
+    },
+    "3D/city/previews/walkway-rail-kickplate.png": {
+      "bytes": 13848,
+      "sha256": "fb0e6dd3df539aee155273897153c5a69056120cb5f1f21d93c74f8fe9abadbf"
+    },
+    "3D/city/previews/walkway-ramp.png": {
+      "bytes": 19730,
+      "sha256": "6f4f01c9c8f4fbe01c306c349d0a0c0782c373f6c70bf922e0a8e4c023966eab"
+    },
+    "3D/city/previews/walkway-service-steps.png": {
+      "bytes": 14697,
+      "sha256": "aa07222be9e4313fb082cfb0f33008ca91a29b524dba186973a63b079574c296"
+    },
+    "3D/city/previews/walkway-stair-short.png": {
+      "bytes": 24330,
+      "sha256": "403b00a1dc746f68fde7a63ae7368ae4b4d6c51f1a8f058a4056441d864effec"
+    },
+    "3D/city/previews/walkway-straight.png": {
+      "bytes": 24727,
+      "sha256": "a9e272abe714371ff4f8d794b174abce2d83e8139810c010b8c069946d7f19ec"
+    },
+    "3D/city/previews/walkway-t-junction.png": {
+      "bytes": 13006,
+      "sha256": "cf38f2e1d4711e0557351e03d92c10e89fe05c7904f1a34ed391871b37061ec1"
+    },
+    "3D/city/previews/wall-corner-inner.png": {
+      "bytes": 8254,
+      "sha256": "9ffba171b6b2c796ed1d7010587ebb4af0ee758d83ca42bfd1059d543678483a"
+    },
+    "3D/city/previews/wall-corner-outer.png": {
+      "bytes": 10346,
+      "sha256": "9f8f36b7eeaebb186645c01c0152838bfd741234869671eb03f90ab650f53cab"
+    },
+    "3D/city/previews/wall-panel-corrugated.png": {
+      "bytes": 20245,
+      "sha256": "e1477a28af42b73d7f6fa5e6d66f6ba8635ce63091452b8fd1dad61008ffd163"
+    },
+    "3D/city/previews/wall-panel-door.png": {
+      "bytes": 8527,
+      "sha256": "ef6512dd35f30c8c41a7b89d34da00703e6c655bffa95349455306cb7bcb0eaa"
+    },
+    "3D/city/previews/wall-panel-reinforced.png": {
+      "bytes": 17896,
+      "sha256": "d4cd3307752a033246667ee216ce01ddec0cdca10f43bca0ed1e4866093eea1d"
+    },
+    "3D/city/previews/wall-panel-window.png": {
+      "bytes": 10021,
+      "sha256": "c345be4dc5bf9bc3d2fbc186882d8d9c471c5f54bb30be363cedd81f76a4a0df"
+    },
+    "3D/city/previews/wall-panel.png": {
+      "bytes": 11060,
+      "sha256": "86aa6036a98f66dbfdf02a9be270b57f245853e9ffbef11439b352dea60502e8"
+    },
+    "3D/city/previews/wall-pillar.png": {
+      "bytes": 7056,
+      "sha256": "899b3d12236ef16e99493a81c5b2ddfe2dd9c6099bc9de8d4425e17f41ed06bd"
+    },
+    "3D/city/previews/wall-vent-louvers.png": {
+      "bytes": 16933,
+      "sha256": "5a12f5bf7b3193f47e68b0e319505c9ad2e604b5c80603fe70fa737c85d30e0e"
+    },
+    "3D/city/previews/warehouse-bay.png": {
+      "bytes": 14055,
+      "sha256": "efed29eff84347892fc75751c800f5e2b8bba1ee9f9afc105af8784e31dfa2c2"
+    },
+    "3D/city/previews/warehouse-office.png": {
+      "bytes": 13768,
+      "sha256": "edc7bbe20567919801f7d646bafef8860defee53d420954a49ecf226d29a88d9"
+    },
+    "3D/city/previews/warehouse-roof.png": {
+      "bytes": 10989,
+      "sha256": "313656776c297d70440f2eefef633b9de9b2b3d888de918b6fe84f63de99f22f"
+    },
+    "3D/city/previews/warehouse.png": {
+      "bytes": 13887,
+      "sha256": "ab03f932a46d0b89acb72634ea8f75a80cc4bad327933ce7e13a87bafe3469c0"
+    },
+    "3D/city/previews/warning-decal-plate.png": {
+      "bytes": 9331,
+      "sha256": "cbebad2daed9b965504dc6eb5d536cb69c01490180eabd9970bccdfa24c095d2"
+    },
+    "3D/city/previews/window-industrial-frame.png": {
+      "bytes": 11570,
+      "sha256": "69a5f8801ff7c4c16eec7799ad63951c4098470e430cf9ed0a5e3870fc0fd8ce"
+    },
+    "3D/city/previews/window-security-bars.png": {
+      "bytes": 7350,
+      "sha256": "dff0beeab8806ea68ddcf0eda367fb14fabf7ecb1f965d55c351f7462e317e14"
+    },
+    "3D/city/previews/work-light-stand.png": {
+      "bytes": 9077,
+      "sha256": "7f4f76fdb50e7096e6b56d6b2c6ff292e4da5c007617dcc3cebc816082072463"
+    },
+    "3D/city/previews/wrench.png": {
+      "bytes": 7610,
+      "sha256": "a040d0656787a0ed3dea6b396fbb320e4bca6bc383fecf2e366bd42668e71a1c"
+    },
+    "3D/city/rail-corner.glb": {
+      "bytes": 17400,
+      "sha256": "7b02a4b08b8fb035ffdd90488c8ea7fafd467455b8f66f28f6046ac65da25474"
+    },
+    "3D/city/rail-endcap.glb": {
+      "bytes": 17184,
+      "sha256": "93e25578005ef17bb3efa14e4be37375e4a214ec7f2072eb71e0ef249241b6a7"
+    },
+    "3D/city/rail-industrial-guard.glb": {
+      "bytes": 8540,
+      "sha256": "75693c505a8adbb391fbdf1f495a77e0d2ca08a5c0f9f8aa59483fce9d08d9b7"
+    },
+    "3D/city/rail-straight.glb": {
+      "bytes": 11204,
+      "sha256": "b87f370c79d88867b8407be7801f8e6c6ae159d72b8521f1624f2c052528bcd5"
+    },
+    "3D/city/ramp-curved.glb": {
+      "bytes": 4480,
+      "sha256": "314f0a30c070638981f9b3ccde1de97e56fe27dcb4217f0c6523121241eddfda"
+    },
+    "3D/city/ramp-high.glb": {
+      "bytes": 24856,
+      "sha256": "5acb2f45671de0c2f4396608c6e707d2a2b420b973ba05802d3755494607c811"
+    },
+    "3D/city/ramp-low.glb": {
+      "bytes": 5116,
+      "sha256": "fe94b4268fde8a8f6e3e73372aaa9dbf1be07e528f80fb279a259e9c44de4db5"
+    },
+    "3D/city/road-tile-junction.glb": {
+      "bytes": 3860,
+      "sha256": "8145851967d5d610212d287e6efae5eb89400bf5517f39b4b82975c9855d31dd"
+    },
+    "3D/city/road-tile-straight.glb": {
+      "bytes": 3836,
+      "sha256": "0d94d1d2557783114acfdebcb3e269600ca1b8b6e2416d149e3a0964163e1652"
+    },
+    "3D/city/roof-access-hatch.glb": {
+      "bytes": 7996,
+      "sha256": "92a7c9a5fa942dcb8f3ae894cfa8ee7733fca54fa7693f92716b6e8636ad47b0"
+    },
+    "3D/city/roof-antenna-mast.glb": {
+      "bytes": 11948,
+      "sha256": "72f9b5260791a2921f67132a91d2e6caa5697b04615c53181a2b766dee1ed5ba"
+    },
+    "3D/city/roof-cable-bridge.glb": {
+      "bytes": 6484,
+      "sha256": "e58eef13d61579e150e9ce0ad1dc883a9ff1c4f719fe90edbd708fb608837646"
+    },
+    "3D/city/roof-curb-corner.glb": {
+      "bytes": 5716,
+      "sha256": "ba542e156d89e1b31aab5fdc750a9e720bac7e925a015f912dc7ef9854fbc6ba"
+    },
+    "3D/city/roof-curb-straight.glb": {
+      "bytes": 4312,
+      "sha256": "caeb9b9c7e1f6ccd82fd9d211e509fe66fa3bef948321362ec829e46bd8fdf7e"
+    },
+    "3D/city/roof-drain-scupper.glb": {
+      "bytes": 12020,
+      "sha256": "427dee715095d602df04040a722c3eef9c7e09ab7dd61751d7d63e82fd3a609c"
+    },
+    "3D/city/roof-duct-curb.glb": {
+      "bytes": 7264,
+      "sha256": "98af7afc85b2d0c0f9bcb90b1145bd6ef19edd93945b34f8dc4bb537f7de27bb"
+    },
+    "3D/city/roof-equipment-plinth.glb": {
+      "bytes": 11984,
+      "sha256": "c106f281c89ce1a6a5e87d4ebcaa8c2384346381be8ea5ad92c87f23cebff82c"
+    },
+    "3D/city/roof-fall-arrest-anchor.glb": {
+      "bytes": 13540,
+      "sha256": "18b9543676f1b45e98c08ddd7ce15bcfa7803b043aaecfcfc02024b6614c7d99"
+    },
+    "3D/city/roof-flat-parapet.glb": {
+      "bytes": 6352,
+      "sha256": "8d4e0277faa0c35f83d879cd5e2615163b4f9922f2b7c57bd7bc961f0732eb1b"
+    },
+    "3D/city/roof-ladder-landing.glb": {
+      "bytes": 31180,
+      "sha256": "806b885fb1045fac9946028200b0e0a8116d03a9f5bdb9224196772a296647fd"
+    },
+    "3D/city/roof-safety-post.glb": {
+      "bytes": 20972,
+      "sha256": "fe4b546408fcfc092db7ad94c54d53d30215a93e3135ce27cc4d1ccacbe6f805"
+    },
+    "3D/city/roof-service-vent-stack.glb": {
+      "bytes": 13404,
+      "sha256": "eba468d72b6a6253fa24b46367c7d4d4dbb4aa5f1c5b69fdfd0a2268e69cd6eb"
+    },
+    "3D/city/roof-skylight.glb": {
+      "bytes": 5424,
+      "sha256": "ff7a59b1dc500776b517b0b27d15f9ab6537ad8c3c88d5df7a5e935983b4bde9"
+    },
+    "3D/city/roof-truss.glb": {
+      "bytes": 11232,
+      "sha256": "9c961530e32dfc391dca303ab4b43e5baf75b693f0c2c7856fabcfd627b110d7"
+    },
+    "3D/city/roof-turbine-vent.glb": {
+      "bytes": 19100,
+      "sha256": "3b2fc312bfbf13dc27c1974f70e5fab6d0083fb78819c4be5ae1301546fe9914"
+    },
+    "3D/city/scrap-i-beam.glb": {
+      "bytes": 6544,
+      "sha256": "64a8dcd35d7da33e547c5f5115f1b7b23e253dfcea3ac6bc85f66a9e44c18cad"
+    },
+    "3D/city/scrap-sheet-metal.glb": {
+      "bytes": 5388,
+      "sha256": "031b1e3ff34069782de2bb850be98e47f59a0874e0b9fc0d83084421efaea8de"
+    },
+    "3D/city/security-camera-pole.glb": {
+      "bytes": 10916,
+      "sha256": "39f06c492c19e950ecd67d3384dfb40acc4e31c90bfbd227be4bcedc7d6a9691"
+    },
+    "3D/city/service-bay-arch.glb": {
+      "bytes": 12524,
+      "sha256": "68b9920173dda5c79790137262ff22a672859ef996bffb03f3016de70a7f82cf"
+    },
+    "3D/city/service-bay-canopy.glb": {
+      "bytes": 13096,
+      "sha256": "7d9b426a5000b521b61849a44771ae7114da4519b09968cf34091e427c52f32e"
+    },
+    "3D/city/service-bay-door-track.glb": {
+      "bytes": 9312,
+      "sha256": "22255c0cf429eca8e35045a27275bc6175a6962ad681f4bc60b1a48946a6f109"
+    },
+    "3D/city/service-bay-pillar.glb": {
+      "bytes": 12684,
+      "sha256": "f2bd36806b0c4b491feea2f7d8202868c81405dd152638b11cb68e860263a7d9"
+    },
+    "3D/city/service-bay-tool-board.glb": {
+      "bytes": 9008,
+      "sha256": "4535f1cd880c509cc94740e3847b5cc2b58efeedb8edfc25cd5be04be859d81e"
+    },
+    "3D/city/service-bay-workbench.glb": {
+      "bytes": 10452,
+      "sha256": "1fe8b10ec0d64e26860e7bf01e2fa606505d025856740e69337198d84e011a3b"
+    },
+    "3D/city/sidewalk-slab.glb": {
+      "bytes": 3852,
+      "sha256": "a26020d970042b7f5e1a9b78fdfe6f7c0ad82f54c5f9f4f45ee134cf0058e8df"
+    },
+    "3D/city/smokestack-tall.glb": {
+      "bytes": 19988,
+      "sha256": "f0df2aec69bb0690a7eb847d6aaf0e4a86d924456b05a84d471c55d390317dcc"
+    },
+    "3D/city/smokestack-twin.glb": {
+      "bytes": 21944,
+      "sha256": "ae2756ad682f52ae8ef772bc6276c4760e380ece76da45a89d5dbbb7eadce6a3"
+    },
+    "3D/city/smokestack.glb": {
+      "bytes": 19344,
+      "sha256": "142cadad41f84e8c05e91420b52de4d6285a6fe878f03407b31090946afc38c4"
+    },
+    "3D/city/stacked-pallets-tall.glb": {
+      "bytes": 9400,
+      "sha256": "e498bd53e8093d4533fc1a2ce4fea58fb8ce6228e36c0a36b3b984462c1b835f"
+    },
+    "3D/city/stacked-pallets.glb": {
+      "bytes": 6628,
+      "sha256": "fefa623bc92184b844b543fa8052abc17b40fdb127f4068e07c49ffbe0518fb2"
+    },
+    "3D/city/stair-flight-spiral.glb": {
+      "bytes": 17232,
+      "sha256": "b23a28064350c24a2629ed2a9cd7db6f574d7381a276803cfecddf679c0c5227"
+    },
+    "3D/city/stair-flight.glb": {
+      "bytes": 27000,
+      "sha256": "23149b7be4306ef5cc0442461108a97156d65abf4bba71c2f4a80f38e2f4d4a4"
+    },
+    "3D/city/stair-steps-short.glb": {
+      "bytes": 5212,
+      "sha256": "580b3b9060d725d9532bced04452824c31f18fb99ddaba52b6a9edc7bf721a5b"
+    },
+    "3D/city/street-lamp-double.glb": {
+      "bytes": 17748,
+      "sha256": "5f53fce0cfce65a366b96c5c2ab4f4a0e6298135d69d234ed5dffa5b37e2ad4a"
+    },
+    "3D/city/street-lamp.glb": {
+      "bytes": 11652,
+      "sha256": "226bd4d110f5c341c2fe18b98ad5db26af80abdefc68fc42b0250b1235df6ef2"
+    },
+    "3D/city/street-sign-pole.glb": {
+      "bytes": 6048,
+      "sha256": "0ab6aa75c0b2ac982ecc9b74d378ac755b301258497a70852528200f66a25119"
+    },
+    "3D/city/subway-entrance.glb": {
+      "bytes": 13096,
+      "sha256": "2687afa54f8ab532c19f7993b046aabdd348624adf931fb942638c26819b5c41"
+    },
+    "3D/city/tank-horizontal.glb": {
+      "bytes": 24368,
+      "sha256": "a5539d436a80c353af1f986b2c133fe434a42b9630bb21d8c1fd1576a0647c31"
+    },
+    "3D/city/tank-silo.glb": {
+      "bytes": 20668,
+      "sha256": "676b16e56772fcf85a090fc173e3d8eb76e531a8bdd2b45fda3ab8173c158b58"
+    },
+    "3D/city/tank-spherical.glb": {
+      "bytes": 24316,
+      "sha256": "cb356510c870aae709c7ae3b5c642149163e895c1fce320d8782cf87a402caf2"
+    },
+    "3D/city/tank-vertical.glb": {
+      "bytes": 19928,
+      "sha256": "f9b8cff5724f82c65160ee495dd217e1745b4f44aceb5e12df5987d31ffe9587"
+    },
+    "3D/city/telephone-booth.glb": {
+      "bytes": 10636,
+      "sha256": "193bb5e592cb29e8c31c1d7f67be3d6689065c432cce62262784dd16812f2e40"
+    },
+    "3D/city/traffic-light.glb": {
+      "bytes": 10156,
+      "sha256": "25d746014275f21c2dd09b767fbe58d9850afcc8275ceb676a868cfc767bc562"
+    },
+    "3D/city/trash-can.glb": {
+      "bytes": 14996,
+      "sha256": "1590f1f57f9fea2bd9b65bd7da0a3f583869489b64d38c76b8daba637b8a36f1"
+    },
+    "3D/city/turbine-housing.glb": {
+      "bytes": 13336,
+      "sha256": "bccd9019e2b1551ee0573d2d45a0439199e99a52864d2df2bec95949911d9d6c"
+    },
+    "3D/city/utility-bench.glb": {
+      "bytes": 9984,
+      "sha256": "4564097ddf0d72035981b7f3473f2558adc45d08946ef713c659a5e1714ce232"
+    },
+    "3D/city/utility-cabinet-low.glb": {
+      "bytes": 6652,
+      "sha256": "9a55e076c821e38f4d7a5cb56a0884a76246f4b1ef92f84f045c9447a175b3e7"
+    },
+    "3D/city/utility-drain-channel.glb": {
+      "bytes": 8672,
+      "sha256": "5f354f942621701a6e5a2923254f74932b9392a81b4532ca28d18b56e34f8ce5"
+    },
+    "3D/city/utility-meter-pedestal.glb": {
+      "bytes": 14376,
+      "sha256": "58f62f64292413b3406d751c4c5f43030405e7effdf985c77e766e5f6e001ff1"
+    },
+    "3D/city/utility-panel-double.glb": {
+      "bytes": 8364,
+      "sha256": "c4b45c126568dce59eebd5359c36c3216e4a15916300e75c3fdbb55c8be07c7c"
+    },
+    "3D/city/utility-panel.glb": {
+      "bytes": 6348,
+      "sha256": "7ce566cd112ff04c1a4a4a1ded34201be90b748dbe2b6bbad81b171cf57f5483"
+    },
+    "3D/city/utility-sewer-opening.glb": {
+      "bytes": 8616,
+      "sha256": "030bc07a185848c9148483ad919218b41d54f807c588bd8807f3382cfe304d10"
+    },
+    "3D/city/utility-tool-rack.glb": {
+      "bytes": 10632,
+      "sha256": "875bcf960acba6cb240052504d9e0a269cd733de64ea4c443675f0cb3cf497e2"
+    },
+    "3D/city/vent-fan.glb": {
+      "bytes": 10584,
+      "sha256": "5855942933367820083aec6827fe06a5c03bca12eae04803d3c137cf5cc06799"
+    },
+    "3D/city/walkway-bridge-narrow.glb": {
+      "bytes": 25020,
+      "sha256": "2071054a7cc46a8b112ccb636b1e3fbadf2e48302bc73bba9897130e9dfb9f4b"
+    },
+    "3D/city/walkway-cross-junction.glb": {
+      "bytes": 10632,
+      "sha256": "90dd552fd5c50dd6f26f0e4dc65b7999823e4aa5e68c9cee2676ae8bfd3a6bc6"
+    },
+    "3D/city/walkway-grated-turn.glb": {
+      "bytes": 33504,
+      "sha256": "8cadc20fabf3bd753a113ec355c9b315ee178e76584464f6f84b7939e99de38d"
+    },
+    "3D/city/walkway-l-junction.glb": {
+      "bytes": 8644,
+      "sha256": "4e11eff4536b4edc0ef31510d60272251c1864ec5348f55cea0235c3a47194e4"
+    },
+    "3D/city/walkway-landing.glb": {
+      "bytes": 23680,
+      "sha256": "0d9004270792705cb9b85c18996f7e53ec00fda3e85e6d9fe3e10dfbbf3a4c53"
+    },
+    "3D/city/walkway-rail-gate.glb": {
+      "bytes": 8264,
+      "sha256": "20b91d10030ca162d50efb1962d9ad3e3390d0e23352b00fb332a45881c4be38"
+    },
+    "3D/city/walkway-rail-kickplate.glb": {
+      "bytes": 12604,
+      "sha256": "e216ae3425c250e0744a8f1a96eb7f0c3e508baa91402b8cfa4716fc513cb1f5"
+    },
+    "3D/city/walkway-ramp.glb": {
+      "bytes": 20952,
+      "sha256": "414e5995246a5a861e999d59c5ef9e756b1e1247251e421253907c2162f567ee"
+    },
+    "3D/city/walkway-service-steps.glb": {
+      "bytes": 7348,
+      "sha256": "c3afe92846a109d35cf7db02865f0a127fa46fc8e0c842cccd02fd54473a5f7c"
+    },
+    "3D/city/walkway-stair-short.glb": {
+      "bytes": 23100,
+      "sha256": "ef20e1c4781bc8b5726b6464ab78bd2eb95a78735c81931abdd7baf96e6ec2b8"
+    },
+    "3D/city/walkway-straight.glb": {
+      "bytes": 29512,
+      "sha256": "555d035148289bf54023baaa3663f36ec89896ba242748b6ca5948b1b8ec30ea"
+    },
+    "3D/city/walkway-t-junction.glb": {
+      "bytes": 8628,
+      "sha256": "a864a2abf0e7c35e7b2034389843043330df1e9404444028d7af30296cad2e03"
+    },
+    "3D/city/wall-corner-inner.glb": {
+      "bytes": 5056,
+      "sha256": "f5c660f1e930960d7e26d4663ac1e2374f863b24f1d592274c6fc750b38ba496"
+    },
+    "3D/city/wall-corner-outer.glb": {
+      "bytes": 5952,
+      "sha256": "c9012f4f2aca72da3abb8378b288390834257976c78ca6ae298ae57715a6ee17"
+    },
+    "3D/city/wall-panel-corrugated.glb": {
+      "bytes": 14416,
+      "sha256": "0cc0a249097e69d18a3208daef1c2852eff6512a6acaa4e234f6d73fb8abe90a"
+    },
+    "3D/city/wall-panel-door.glb": {
+      "bytes": 5128,
+      "sha256": "57c73ed6b845081795bba9b8ada9a1d3949bbc2bba497976e04c5c783baacec2"
+    },
+    "3D/city/wall-panel-reinforced.glb": {
+      "bytes": 7744,
+      "sha256": "2922b463d84617360355307f377c15c6b76fa6c1fd9f3c9bb79d8da88867a1ef"
+    },
+    "3D/city/wall-panel-window.glb": {
+      "bytes": 5164,
+      "sha256": "6dc8e5d091deb2851de94d0fc07dae43d3640dfec8fa178430d9c8b7efdb6d48"
+    },
+    "3D/city/wall-panel.glb": {
+      "bytes": 5164,
+      "sha256": "f2979ecdf9de2a2f1c1c504004e597928fcf457b7b397f3604becaa4c604cca7"
+    },
+    "3D/city/wall-pillar.glb": {
+      "bytes": 5860,
+      "sha256": "2f0612747e461f52bc5a6d8bd963e66aa88ae65796aa7f5b450ac3e220058f3f"
+    },
+    "3D/city/wall-vent-louvers.glb": {
+      "bytes": 7752,
+      "sha256": "cb27735f873ef4d14db84084031ca1e69fa02d32ba266a9f251e2ebac55b91ad"
+    },
+    "3D/city/warehouse-bay.glb": {
+      "bytes": 12352,
+      "sha256": "a0b88d391cb6e0ccd091dacef67df970cac1ef5c46e7737929f8250ac7f8497e"
+    },
+    "3D/city/warehouse-office.glb": {
+      "bytes": 5708,
+      "sha256": "1e87477596340963f51f0c2b9fc3a2cda92438d85b97d702f209598c38d74c4a"
+    },
+    "3D/city/warehouse-roof.glb": {
+      "bytes": 4744,
+      "sha256": "47b41e614620b0c629851932c235c8d17b00cf9a7ad15edb12d6696123bf8a67"
+    },
+    "3D/city/warehouse.glb": {
+      "bytes": 5332,
+      "sha256": "75f7e483f853953ccfd3706025c5c30c96d301f2f3b8b1637a37bf0224f0a897"
+    },
+    "3D/city/warning-decal-plate.glb": {
+      "bytes": 2948,
+      "sha256": "57937af9a18315fc10656f79e131188799741fa2c42fc157b74a700971280bf9"
+    },
+    "3D/city/window-industrial-frame.glb": {
+      "bytes": 5840,
+      "sha256": "eec967d5fde3b846ecc2bc55b7914ce2f26d0e10f9e659e96e2a0c6cb81ed8ba"
+    },
+    "3D/city/window-security-bars.glb": {
+      "bytes": 11292,
+      "sha256": "7a84d792274854fef1318e8092fa0b49f879f9ac3139695f39ce23596214b180"
+    },
+    "3D/city/work-light-stand.glb": {
+      "bytes": 8036,
+      "sha256": "6c9faae65b7f6de4666282b158566f329286468282d8ca4e199dd3f31ef9fa47"
+    },
+    "3D/city/wrench.glb": {
+      "bytes": 4444,
+      "sha256": "3af055f07a9c8ea6a161c2aa6cb0a92036e0d2a3950fbd24704cf19c2592bcb6"
+    },
+    "3D/platformer/License.txt": {
+      "bytes": 1279,
+      "sha256": "370fc07dfb7d5d2220432d0afe8e503ab693e2009286c21da48949b5ff567e14"
+    },
+    "3D/platformer/Readme.md": {
+      "bytes": 954,
+      "sha256": "526b6d96ca7f2e983b73b2f610da82d0f8e3f7da71a116f9735b25b42e9a5fdc"
+    },
+    "3D/platformer/balance-beam.glb": {
+      "bytes": 7944,
+      "sha256": "79571565d5c1ff23970a58b26de75e29005ba47ca329e3cf25d4e92debf68c68"
+    },
+    "3D/platformer/climbing-rope.glb": {
+      "bytes": 14916,
+      "sha256": "d985415d2f76d780b360b4918e4c1919b17fb863a01473abf9bcb6dccb5ccf91"
+    },
+    "3D/platformer/climbing-wall-modular.glb": {
+      "bytes": 14436,
+      "sha256": "98a1b04485d29c565401eb6183afcebbb510666125d8a1c35735a4792f5fa9b7"
+    },
+    "3D/platformer/hurdle-adjustable.glb": {
+      "bytes": 8040,
+      "sha256": "30d245cfd50e412f09b7f0761aa081c01d505613ef38e6015fcb12ffa084ff8a"
+    },
+    "3D/platformer/landing-mat.glb": {
+      "bytes": 4284,
+      "sha256": "bc4f251af03032547ee27e7cc10ff31aaec2027d7c9837869e904f646a0f8c1d"
+    },
+    "3D/platformer/monkey-bars.glb": {
+      "bytes": 29244,
+      "sha256": "89f802f96f9c81081ff41566baf98dc94e7ac1a4c2f6b62b729cb8b9e2e18021"
+    },
+    "3D/platformer/plyo-box-high.glb": {
+      "bytes": 3920,
+      "sha256": "1ea3088df6bc3b3f1bf6321a45333a7b69e46f5e93c7ebeb02694dddfe9c7cb9"
+    },
+    "3D/platformer/plyo-box-low.glb": {
+      "bytes": 4312,
+      "sha256": "e1af4cb6615985c19ae7282b1f089927b8054c74e98b4024e70fbadd28c0bb5e"
+    },
+    "3D/platformer/plyo-box-med.glb": {
+      "bytes": 3920,
+      "sha256": "ec5b57d28afeeef4ca44f0f26d037dc3a525c6648cbfef7dda398457e03cf80d"
+    },
+    "3D/platformer/precision-trainer.glb": {
+      "bytes": 3932,
+      "sha256": "c879d56c0174522b14862978839033c0c48a970fdeb73334b95f0816e54ec32b"
+    },
+    "3D/platformer/preview.png": {
+      "bytes": 10901,
+      "sha256": "cd845e8d9b10458072c28a9ead128069275b04b68c0906b69495f167ad501f6a"
+    },
+    "3D/platformer/preview.webp": {
+      "bytes": 10206,
+      "sha256": "901b6762fe9e0581a2ccd36e5d522a6189403dbb8afcdb759d253591254cb53f"
+    },
+    "3D/platformer/previews/balance-beam.png": {
+      "bytes": 8914,
+      "sha256": "e1240fa4b1c5d11bebb8b36785a5287987c7c715160fdd1ea345fd7cee431a16"
+    },
+    "3D/platformer/previews/climbing-rope.png": {
+      "bytes": 5643,
+      "sha256": "ffc6986c2b1079a52024814beccee1d03d292ae865d2f9838bff8288d92ec084"
+    },
+    "3D/platformer/previews/climbing-wall-modular.png": {
+      "bytes": 11196,
+      "sha256": "94a5110f6e15f3393ce4c8613ba84615d932f990dabcc938b35431dfae046ec7"
+    },
+    "3D/platformer/previews/hurdle-adjustable.png": {
+      "bytes": 12331,
+      "sha256": "c8f8d7da5c27ca48378b798d716e93f3ae606f0d57ff894471aa68a1cb8867ae"
+    },
+    "3D/platformer/previews/landing-mat.png": {
+      "bytes": 11341,
+      "sha256": "d4a11d771ca41d75fc5d48632512095f031c16227c637184f324a6ccad76deab"
+    },
+    "3D/platformer/previews/monkey-bars.png": {
+      "bytes": 16372,
+      "sha256": "1da4e1697b572d47c2a3f7863ad58b6147ead1fae260a8750811f7ee5cc7f9c1"
+    },
+    "3D/platformer/previews/plyo-box-high.png": {
+      "bytes": 11123,
+      "sha256": "1a816a40b70f480256d8dc2db0c25078769c1a8452aef590a4de86b68f1ff697"
+    },
+    "3D/platformer/previews/plyo-box-low.png": {
+      "bytes": 11688,
+      "sha256": "f0dc9f6905e0e1fd8bd6bc7e9796bdebc62af19f9cc95aa9a26dd2e8b63b96cd"
+    },
+    "3D/platformer/previews/plyo-box-med.png": {
+      "bytes": 11807,
+      "sha256": "5803ec3ce9f9664fb758016bdc44a8330d512cdb6ba0df8b1c18246ed1738e55"
+    },
+    "3D/platformer/previews/precision-trainer.png": {
+      "bytes": 11172,
+      "sha256": "730eeda2367ae19389389180d90ea9656294c02f8588aefaa0f067d3869a38f1"
+    },
+    "3D/platformer/previews/rooftop-gap-plank.png": {
+      "bytes": 8601,
+      "sha256": "8169bb9a47904ce1f0977bbfcac3b0ce06f272bac3e736cd8a551ea096866837"
+    },
+    "3D/platformer/previews/scaffolding-tower.png": {
+      "bytes": 15892,
+      "sha256": "57446b5f4a2b9e1292146ff5f32649c71721c9707d3aab8d636acd357111c5b8"
+    },
+    "3D/platformer/previews/slackline-rig.png": {
+      "bytes": 8584,
+      "sha256": "f39f6fe6b2e7fb35dc8cc7b2a4e1a082d3b68a0ecd552f021c8451cae3b9fdc2"
+    },
+    "3D/platformer/previews/springboard.png": {
+      "bytes": 13326,
+      "sha256": "257a86d3c278f3dd25e744e6fd0f4be4519550131ffc116100c9ae0f534551c7"
+    },
+    "3D/platformer/previews/swinging-ring.png": {
+      "bytes": 8705,
+      "sha256": "53a28641191647c6b10929f4f48a6031755321723b59113e611fc18fca3c2226"
+    },
+    "3D/platformer/previews/tire-obstacle.png": {
+      "bytes": 14416,
+      "sha256": "e73d83eb96eba06a8dd2c4f18f880714e5071f2a593b06853b2f99330ddd5bde"
+    },
+    "3D/platformer/previews/tire-stack.png": {
+      "bytes": 19095,
+      "sha256": "02a05bb169ece4f1ffc57bf2d0ee438ad11b19dbeda1168ef80c0093024a74c0"
+    },
+    "3D/platformer/previews/trapeze-bar.png": {
+      "bytes": 7171,
+      "sha256": "584736929c0ae9975ec8291fd1b9cb6be638132ae979f1a6f0c46a62ecef9291"
+    },
+    "3D/platformer/previews/vault-box.png": {
+      "bytes": 10901,
+      "sha256": "cd845e8d9b10458072c28a9ead128069275b04b68c0906b69495f167ad501f6a"
+    },
+    "3D/platformer/previews/vault-rail.png": {
+      "bytes": 10088,
+      "sha256": "7383490d130a1b6b6ea80525f87f27c29324e0cc95bbf318658c747f3872b862"
+    },
+    "3D/platformer/previews/wall-run-wedge.png": {
+      "bytes": 9654,
+      "sha256": "3b1ca0a157429e2fa71f0159e75ccc64ac2b462ece4771da992fd252bb3a44fb"
+    },
+    "3D/platformer/previews/warped-wall.png": {
+      "bytes": 9974,
+      "sha256": "e2b067395de0b48d993101b2c03f40b84b6a98fcf43dbcd7956f4a177dbd2a32"
+    },
+    "3D/platformer/rooftop-gap-plank.glb": {
+      "bytes": 5200,
+      "sha256": "cac20d5be0dbf85a67cac91d9498a638c8687c82ed2a0785c13f6e652bcbd8ba"
+    },
+    "3D/platformer/scaffolding-tower.glb": {
+      "bytes": 17232,
+      "sha256": "05223a3e7b2061c2708e43a52e4d57baa22b5f6a6a1d61092eebd60f390787ad"
+    },
+    "3D/platformer/slackline-rig.glb": {
+      "bytes": 7980,
+      "sha256": "b17e0a3f8c9f1296d7d3eccf947e44eb72ad052cb350e6bdf0402ffd628ac22c"
+    },
+    "3D/platformer/springboard.glb": {
+      "bytes": 6704,
+      "sha256": "c5d40f58578b4b60c96ca1949c80841a5f46f427fa8ceff0da12c2caedb3cba2"
+    },
+    "3D/platformer/swinging-ring.glb": {
+      "bytes": 25276,
+      "sha256": "5263caeb4bfc8a7ffce00d4d204fb9699eb349e20990921ddc7fdde9d2e058bf"
+    },
+    "3D/platformer/tire-obstacle.glb": {
+      "bytes": 17736,
+      "sha256": "d63dea9b40eb98c447ef3d18e619d8c4ca6b01b7153010180916d968804d8e3a"
+    },
+    "3D/platformer/tire-stack.glb": {
+      "bytes": 22504,
+      "sha256": "8fd4d11a1656d45f87b452034b4bc2679a1751298f66b8cfab7c29720f8ac7a4"
+    },
+    "3D/platformer/trapeze-bar.glb": {
+      "bytes": 7428,
+      "sha256": "e5f02aaf4f5249453e2ea0ea481140b1db0b1419dd2fcd8e2e3105e2b815d1ee"
+    },
+    "3D/platformer/vault-box.glb": {
+      "bytes": 4256,
+      "sha256": "8f811bef2a2e7e22ed56fb944bfaa57dd2aa99a9b0d2068cec2ff4127b555db1"
+    },
+    "3D/platformer/vault-rail.glb": {
+      "bytes": 14660,
+      "sha256": "d29a4201fe526af85c7325eae22294eaa4d5cce6a7c7ac39a3b16c4a507919d4"
+    },
+    "3D/platformer/wall-run-wedge.glb": {
+      "bytes": 4340,
+      "sha256": "2dd4873b809efe3de5dddd20ee86148cdf8cb7dfb403244ac9c6a298d4a24a70"
+    },
+    "3D/platformer/warped-wall.glb": {
+      "bytes": 6448,
+      "sha256": "8d29142d89cbb34c34047b5ce8d462365b42bdb66e4115d5f3969c8b08193707"
+    },
+    "3D/space-scifi/License.txt": {
+      "bytes": 1279,
+      "sha256": "370fc07dfb7d5d2220432d0afe8e503ab693e2009286c21da48949b5ff567e14"
+    },
+    "3D/space-scifi/Readme.md": {
+      "bytes": 821,
+      "sha256": "89bbfdbbb177f47e78cdd6dd27f42c0e792695b92b40d483a7097b18b40b7931"
+    },
+    "3D/space-scifi/cryo-capsule.glb": {
+      "bytes": 10064,
+      "sha256": "cb48a1a3f01213d81a743bfe2db7a44889bb9fa409806ab590b32d9ddb25780a"
+    },
+    "3D/space-scifi/drone-scout.glb": {
+      "bytes": 46932,
+      "sha256": "0135fa484074482ca18eb496950a55881d91ee9973c6dbc2d03fad623ebccd75"
+    },
+    "3D/space-scifi/energy-cell.glb": {
+      "bytes": 13512,
+      "sha256": "108fa49ff5a189ed93fa5dfcef69c76baf2bb1a862e3df61463c56f03923326e"
+    },
+    "3D/space-scifi/energy-sword.glb": {
+      "bytes": 6600,
+      "sha256": "c44d3802b6b88ca7f8bf12c0a11a8ff962549910aec7bd3a9ee6eca89ebee1ea"
+    },
+    "3D/space-scifi/gravity-lift.glb": {
+      "bytes": 15992,
+      "sha256": "466ab46f418465b3dd8c175bbf0f6c73252073f4ffa838202fb21b9bcc277c9f"
+    },
+    "3D/space-scifi/hologram-projector.glb": {
+      "bytes": 15368,
+      "sha256": "cfa845fc698b374ea4f6154e773933b9039da3ef176158a0ea2fbb19c4f88c0d"
+    },
+    "3D/space-scifi/laser-cannon.glb": {
+      "bytes": 19860,
+      "sha256": "8ff33da4b1027bbf3b9cee75c1a9775801a5511a9f5fdbb95176b4696caf323e"
+    },
+    "3D/space-scifi/plasma-pistol.glb": {
+      "bytes": 24504,
+      "sha256": "e16975f786ef31eec68861af18cc7eee08cb877ef6a133321bdcba0c0a926a61"
+    },
+    "3D/space-scifi/power-core.glb": {
+      "bytes": 30600,
+      "sha256": "4459236bc4b174285203fc6e40d0c2b14e70416097225c9e1f616085b74152ec"
+    },
+    "3D/space-scifi/preview.png": {
+      "bytes": 9222,
+      "sha256": "9c61f4a5030f19c022334df0fd1a64c6e0be83873bb20174099e3dc11bbf0e9c"
+    },
+    "3D/space-scifi/preview.webp": {
+      "bytes": 8646,
+      "sha256": "0b35b8ec128c262a90568d7d001ce11400389ed3711a0573f5ccb056f1f5950c"
+    },
+    "3D/space-scifi/previews/cryo-capsule.png": {
+      "bytes": 10254,
+      "sha256": "31fe11ebec009a19f7e10e309b26878e93ff2cf842b26d3bb5eaa9e505fd68f1"
+    },
+    "3D/space-scifi/previews/drone-scout.png": {
+      "bytes": 19279,
+      "sha256": "fdd23fcaa40c440021d94cef3a5dda67ff203936fc50d1b36db4d6606ef5a257"
+    },
+    "3D/space-scifi/previews/energy-cell.png": {
+      "bytes": 10459,
+      "sha256": "ae6d64b00223f008d523212f66978c3d14ade92872cbede3d0157f88181accb9"
+    },
+    "3D/space-scifi/previews/energy-sword.png": {
+      "bytes": 5830,
+      "sha256": "96f9bc61bf884c49ec1d3bef5535813579517127d9d711ca2067cd41993185c0"
+    },
+    "3D/space-scifi/previews/gravity-lift.png": {
+      "bytes": 14711,
+      "sha256": "4e04baa6b6a3bca0e2b01b93db35bfc807e0d9e44a18cfbc70cc2d72e4733b7a"
+    },
+    "3D/space-scifi/previews/hologram-projector.png": {
+      "bytes": 14336,
+      "sha256": "0f2ca29e3b9d983fed04a5785fd0a13a5bac5bc850fbb975ab95e4bfdd58b79a"
+    },
+    "3D/space-scifi/previews/laser-cannon.png": {
+      "bytes": 11862,
+      "sha256": "eaf915bae95df81d2d97cd9ae6797a915b1ba51d64be76f6a6d68189191a1e7a"
+    },
+    "3D/space-scifi/previews/plasma-pistol.png": {
+      "bytes": 11886,
+      "sha256": "6dd2ec2dca1b932f7f39e6e8e0c4494c1ecb3541d7c14a5e544c3f4d1fdf66de"
+    },
+    "3D/space-scifi/previews/power-core.png": {
+      "bytes": 17266,
+      "sha256": "becbe87ed0c9afae7a2036235cfcbda9867454ff196b398a57410a112c2880f2"
+    },
+    "3D/space-scifi/previews/sci-fi-rifle.png": {
+      "bytes": 9222,
+      "sha256": "9c61f4a5030f19c022334df0fd1a64c6e0be83873bb20174099e3dc11bbf0e9c"
+    },
+    "3D/space-scifi/previews/server-rack-futuristic.png": {
+      "bytes": 12301,
+      "sha256": "26139b2f3459ed6e28795ad5c9c7bdc68e96724d44d955517fcb14a73bde1f62"
+    },
+    "3D/space-scifi/previews/shield-generator.png": {
+      "bytes": 14920,
+      "sha256": "cb686c4b60c2ee6e7816f677c0a388013c1f4f4edfc5d354c449ae638e2e0965"
+    },
+    "3D/space-scifi/previews/teleporter-pad.png": {
+      "bytes": 17476,
+      "sha256": "35d1b0d50bb065ab6d266a2212660c087553fbdf1d82f28ec600372c5e3e8a5e"
+    },
+    "3D/space-scifi/previews/terminal-console.png": {
+      "bytes": 10874,
+      "sha256": "309f540241731cebd53947879668eaa4c41a98da9cb4ddbc216d50db0dfc8e46"
+    },
+    "3D/space-scifi/previews/turret-automated.png": {
+      "bytes": 14292,
+      "sha256": "e99f4b87d444e837d744c0315179f6fa2beaf9e2b38fb308b67cec0d66c9bde2"
+    },
+    "3D/space-scifi/previews/warp-beacon.png": {
+      "bytes": 8814,
+      "sha256": "4719feb6b096a7ce3b4232e8fd16773ec55dc7ab913e2d4f2090f09a3ff25e20"
+    },
+    "3D/space-scifi/sci-fi-rifle.glb": {
+      "bytes": 9832,
+      "sha256": "f294031577d1c7c126ef27ff1a8ef850c15f9bf0e0b042d977cb18c57f43d096"
+    },
+    "3D/space-scifi/server-rack-futuristic.glb": {
+      "bytes": 11892,
+      "sha256": "221d1027a49c0d0ffa0e1f6c0d6d1f44222a33dd3c0eae2d215a819aa83f9d4b"
+    },
+    "3D/space-scifi/shield-generator.glb": {
+      "bytes": 19568,
+      "sha256": "8d90b7b19b6a6c604c5426da77d09cf652891efa9852224e0545f18390ed9af6"
+    },
+    "3D/space-scifi/teleporter-pad.glb": {
+      "bytes": 18632,
+      "sha256": "636f21f6c84e94fd16a074f48244406178645f4115730de2867be0311b5e38d3"
+    },
+    "3D/space-scifi/terminal-console.glb": {
+      "bytes": 5988,
+      "sha256": "6783c12e19e75098db56dac8882f725e4777a010094c548562ea2b7d7489ac44"
+    },
+    "3D/space-scifi/turret-automated.glb": {
+      "bytes": 10604,
+      "sha256": "bbb877a6a90bd8feb2d913613a0c1c9ed361a77ae8d014b84a4998e40fc04752"
+    },
+    "3D/space-scifi/warp-beacon.glb": {
+      "bytes": 18708,
+      "sha256": "3728dedeee4d7839ea11e0a1c8e9666e0830d7e1c36bbecaabd5c3fc7d001d1c"
+    },
+    "3D/sports/License.txt": {
+      "bytes": 1279,
+      "sha256": "370fc07dfb7d5d2220432d0afe8e503ab693e2009286c21da48949b5ff567e14"
+    },
+    "3D/sports/Readme.md": {
+      "bytes": 713,
+      "sha256": "d7ab285ef2db502965f519b7d1bcba1db75d0141c55d7ad7abcbd4270f902cc2"
+    },
+    "3D/sports/basketball-hoop.glb": {
+      "bytes": 14356,
+      "sha256": "a21c749576d1521ec736588ca81667b98c893e77b1634ba167ec8da44ff9c1b8"
+    },
+    "3D/sports/basketball.glb": {
+      "bytes": 24844,
+      "sha256": "5119b2c3feb0a8204ed0607138208e39fc9d926733bda27db446e8f1fe2cb867"
+    },
+    "3D/sports/bowling-ball.glb": {
+      "bytes": 22048,
+      "sha256": "0df362fbf3678183aeee868a463c755795e0d1ffc519be2d10c2ca3769c89bc5"
+    },
+    "3D/sports/bowling-pin.glb": {
+      "bytes": 25712,
+      "sha256": "d54863efdba97ddba406112b9dd55d274642194d29cf76fed893b710caf8fdcc"
+    },
+    "3D/sports/boxing-glove.glb": {
+      "bytes": 6072,
+      "sha256": "89f97fbffa336e377cba2b40ba14485682eec4f2dcf4f0f1549af10a7158d144"
+    },
+    "3D/sports/football.glb": {
+      "bytes": 12712,
+      "sha256": "469f728abe109f1592c98e4a01a3cddfc23159bdd03b87680f1b7073b43ef7f1"
+    },
+    "3D/sports/golf-club.glb": {
+      "bytes": 6080,
+      "sha256": "8ee3e11bfc49a7bd4a4ec09a688cfe793dd2d5c7e6d7ac149b0baf681d9fb1d3"
+    },
+    "3D/sports/hockey-puck.glb": {
+      "bytes": 5304,
+      "sha256": "22c93072496ed760fde040105d71ef6db277dbab9025e8a330614908d6f4bc6e"
+    },
+    "3D/sports/hockey-stick.glb": {
+      "bytes": 6088,
+      "sha256": "b2d2e89ccba641ef04375ed02a4bd503f7505ab3838055cafa0af4e909ed2307"
+    },
+    "3D/sports/preview.png": {
+      "bytes": 16181,
+      "sha256": "2a0a7a85469d8fed767babfb5a368061a9237f1d7e6f21432d5cf8c08eb0de63"
+    },
+    "3D/sports/preview.webp": {
+      "bytes": 8542,
+      "sha256": "72aca1b82a82ab2cabd1c796ccaeec0c6ea3340bb201025b8192f601a576c9a8"
+    },
+    "3D/sports/previews/basketball-hoop.png": {
+      "bytes": 8218,
+      "sha256": "b637d9c69b2565d086f52fe9d32b4cb05af44941b394181d9da418e96adaf919"
+    },
+    "3D/sports/previews/basketball.png": {
+      "bytes": 16181,
+      "sha256": "2a0a7a85469d8fed767babfb5a368061a9237f1d7e6f21432d5cf8c08eb0de63"
+    },
+    "3D/sports/previews/bowling-ball.png": {
+      "bytes": 14072,
+      "sha256": "3479cac1001bec471e650c43cb05c1eaf58d521d02ddd12bd51174c5e83ffbab"
+    },
+    "3D/sports/previews/bowling-pin.png": {
+      "bytes": 11579,
+      "sha256": "da1d894dc48ea76f5e69567d9133406aaa7036acc30b7611f4a914f38fa27efc"
+    },
+    "3D/sports/previews/boxing-glove.png": {
+      "bytes": 10972,
+      "sha256": "4c1261975bb96fb270e5550f5e434acd9290c89fac1e42d3eb1d13609f45e280"
+    },
+    "3D/sports/previews/football.png": {
+      "bytes": 14108,
+      "sha256": "ead713af9a36f18eb03defe2c54e5f8ece86d5424bfe25313b8b92f44dee20d9"
+    },
+    "3D/sports/previews/golf-club.png": {
+      "bytes": 5770,
+      "sha256": "2aa738c8293b14acf290fc5da4e68bd9999e8cfde83deec79a3912cde981f7ac"
+    },
+    "3D/sports/previews/hockey-puck.png": {
+      "bytes": 9637,
+      "sha256": "91e260c220b0a8b6dca21afddaeaee289f984322cb22615435fd0d98359b1521"
+    },
+    "3D/sports/previews/hockey-stick.png": {
+      "bytes": 6036,
+      "sha256": "8363b1472db8aa81e4a0fb798bab210012c050d7908bf36b1742fd7f424ff9fa"
+    },
+    "3D/sports/previews/punching-bag.png": {
+      "bytes": 9758,
+      "sha256": "b99801e7b1570cbbbacf5480ea0b913df287b8558ce6e7e5242edde7d9d11b1d"
+    },
+    "3D/sports/previews/soccer-ball.png": {
+      "bytes": 14874,
+      "sha256": "054454a597a8c3232c22374ccc17594a443221f430ee3d1fa60f66a98861a450"
+    },
+    "3D/sports/previews/soccer-goal.png": {
+      "bytes": 14564,
+      "sha256": "622fda541266d7fdb642d87158301f751edefcca9a45df677c894076433c3a52"
+    },
+    "3D/sports/previews/tennis-ball.png": {
+      "bytes": 16713,
+      "sha256": "5b24656ec2e8246d4d758c3279093b49fb928a4ec6d02cce0988129d3d9dd611"
+    },
+    "3D/sports/previews/tennis-racket.png": {
+      "bytes": 10227,
+      "sha256": "0a65f43f2f06f13fd3c3ac624ce957395024c3871ebd6530eecce7419bb01ff0"
+    },
+    "3D/sports/previews/volleyball.png": {
+      "bytes": 17005,
+      "sha256": "70e95dee26d1ba1577c72639dbc02b104425689f4aa5d9e86e6421b53d8b3a97"
+    },
+    "3D/sports/previews/weight-dumbbell.png": {
+      "bytes": 9800,
+      "sha256": "1df0b3dec8852f533f051c6ff9ad0470d92928d30829c57cb78f05b4e730016a"
+    },
+    "3D/sports/punching-bag.glb": {
+      "bytes": 25828,
+      "sha256": "eba08f667399678c5eca77f90b0266c994f0163436f6f2344fe8e8282f0697cd"
+    },
+    "3D/sports/soccer-ball.glb": {
+      "bytes": 20720,
+      "sha256": "7efbb4395250cde159391979ec96b1c892f7b3612c4ccab9be17ae1ee3b65ea3"
+    },
+    "3D/sports/soccer-goal.glb": {
+      "bytes": 11012,
+      "sha256": "201d84d346957d355910d93fc75d1666d1b49bb5ba50b615a2a684ecef8143a4"
+    },
+    "3D/sports/tennis-ball.glb": {
+      "bytes": 14504,
+      "sha256": "3c8cf55b1b4295c3689a82f97982f9877e568bd62cbc734b5eb6d28a2ddec162"
+    },
+    "3D/sports/tennis-racket.glb": {
+      "bytes": 19036,
+      "sha256": "293cc44d81d7571c5055fd3f71d28b1df2e103077d16df81882aa8e8473f1cbc"
+    },
+    "3D/sports/volleyball.glb": {
+      "bytes": 25720,
+      "sha256": "355329630a43a92cea0b2811f8e27dd5eeea0069e568f63c5968ca0919f0805f"
+    },
+    "3D/sports/weight-dumbbell.glb": {
+      "bytes": 19372,
+      "sha256": "fd104ab7235aa9b3351bbc91818e70298ae7ed5a38aa86e05b55f9dbebcc16f3"
+    },
+    "3D/weapons/License.txt": {
+      "bytes": 1279,
+      "sha256": "370fc07dfb7d5d2220432d0afe8e503ab693e2009286c21da48949b5ff567e14"
+    },
+    "3D/weapons/Readme.md": {
+      "bytes": 883,
+      "sha256": "4c71257ae3c10ca37c0d7ce071a6c97fa2901164575490bb61c6b44dc2d4b741"
+    },
+    "3D/weapons/axe-battle.glb": {
+      "bytes": 12200,
+      "sha256": "dacc76225ea54949792773452ba1e87fc22f91b3a9beb744eed129127590472b"
+    },
+    "3D/weapons/axe-hatchet.glb": {
+      "bytes": 7348,
+      "sha256": "a9103d6e5b87c9b57b379dc11b7f6feeb3d66e03619a7fdfa6cb0d7fdba58313"
+    },
+    "3D/weapons/bat.glb": {
+      "bytes": 20268,
+      "sha256": "161c2b375531423bf3a5918addba9e428d1c575b8c44fb9c06c391157980fcc5"
+    },
+    "3D/weapons/bow.glb": {
+      "bytes": 11212,
+      "sha256": "ccfeddbfc84cd60c757bc8f3e3162ecca107d53d0a1dbd06fa7ae54b3db26d06"
+    },
+    "3D/weapons/club-spiked.glb": {
+      "bytes": 11928,
+      "sha256": "b46de9326d9c427931ec054a368cb7b8dfa3896b70baaa809f36c1fa47ac47d8"
+    },
+    "3D/weapons/dagger.glb": {
+      "bytes": 7280,
+      "sha256": "b338ec30fef04da9c12dca25717200c043ee8968b17151fd5f7ae20a6bcd3d88"
+    },
+    "3D/weapons/grenade-frag.glb": {
+      "bytes": 11260,
+      "sha256": "b14a6c4e897305d90d8faa3c359d450d204aac6c977dea210bd0b9183678a9bb"
+    },
+    "3D/weapons/halberd.glb": {
+      "bytes": 11300,
+      "sha256": "4581ff9ed7439da0413b08832e4c72b80320ce0ca711efdee495acd58c1659e0"
+    },
+    "3D/weapons/hammer-war.glb": {
+      "bytes": 6032,
+      "sha256": "2998c989672b2183ac5c797c5be465af459a512d3b7c482364f4521c3285e191"
+    },
+    "3D/weapons/katana.glb": {
+      "bytes": 8224,
+      "sha256": "5e0cc7d19cc1f84b5f09dd5d52e3e9a61abc079f529b414f894d7f4538327997"
+    },
+    "3D/weapons/kunai.glb": {
+      "bytes": 11496,
+      "sha256": "217707d7549df6910eda9b07ec30950c2be7c738f265151b46452730970c864a"
+    },
+    "3D/weapons/mace.glb": {
+      "bytes": 12536,
+      "sha256": "6a588e304ad47d64c3e87ac2e92af979f710f38931737a315e85700a1a964a10"
+    },
+    "3D/weapons/nunchaku.glb": {
+      "bytes": 24524,
+      "sha256": "4edfce64073bcdd1329b5089dcd461ead1653d9887d0630dccd33356d7ae2dc7"
+    },
+    "3D/weapons/pistol.glb": {
+      "bytes": 5912,
+      "sha256": "434f1e1eac656a676c874076aaa26ca9cbf50da99789fe078fd1badf95766dc0"
+    },
+    "3D/weapons/preview.png": {
+      "bytes": 6560,
+      "sha256": "48f1295e502a67af9955ba7a3b660706d8279cecf599c5c666d7d85e129d1341"
+    },
+    "3D/weapons/preview.webp": {
+      "bytes": 8442,
+      "sha256": "3e207a389f9a3859a5ff7a96b17e2cf88a118090c4981c9b161fc3d61edbb2a4"
+    },
+    "3D/weapons/previews/axe-battle.png": {
+      "bytes": 7581,
+      "sha256": "2f666698c00a0662b56b398983a9bb929e1392dc0e673682a2745517e06b5a08"
+    },
+    "3D/weapons/previews/axe-hatchet.png": {
+      "bytes": 7569,
+      "sha256": "45e6bbfa3ba900d87f5d204ece0e468f1fd014c893e8e1b74f2827a15a419d19"
+    },
+    "3D/weapons/previews/bat.png": {
+      "bytes": 6786,
+      "sha256": "309d4c6fe1df6734bd75d55d31750cbf24b699eb451604d32ac970d44e9ff0d4"
+    },
+    "3D/weapons/previews/bow.png": {
+      "bytes": 7714,
+      "sha256": "25c7cc09090f89a62ff1d76d2d6de5c233140831c5013b7455c19450718e94d5"
+    },
+    "3D/weapons/previews/club-spiked.png": {
+      "bytes": 8562,
+      "sha256": "877978d98c7cc3938bb3090cf7e943b383d11c996b17825014cc3a09b4f5890d"
+    },
+    "3D/weapons/previews/dagger.png": {
+      "bytes": 6789,
+      "sha256": "7d46a9c4e53ea2d2b27d96399ee20ee5d0018854e7e28b3c10b9fe6960a2652b"
+    },
+    "3D/weapons/previews/grenade-frag.png": {
+      "bytes": 10560,
+      "sha256": "83e145b526d8c30cb18c888e216410a51f6464a7158752698b832805c7549ce2"
+    },
+    "3D/weapons/previews/halberd.png": {
+      "bytes": 5826,
+      "sha256": "df660961868d5dc339b40188e330aa8f2429076d669c421fc75170e5c35015c1"
+    },
+    "3D/weapons/previews/hammer-war.png": {
+      "bytes": 6682,
+      "sha256": "80b2296e3e901fc899b9d39c56d8fba8ab83861a2bca2e73f3b66e1e47a996aa"
+    },
+    "3D/weapons/previews/katana.png": {
+      "bytes": 5937,
+      "sha256": "1d194a842476e01eb141e9f31de5e2ce2505a283f8e11d2218ebe13b3ec58b40"
+    },
+    "3D/weapons/previews/kunai.png": {
+      "bytes": 8615,
+      "sha256": "c52c228382745cd0ae076973a219a6dacd5ce735cc534a831c3309a1d7013708"
+    },
+    "3D/weapons/previews/mace.png": {
+      "bytes": 7530,
+      "sha256": "cb952d978bd48fae294c2e73317c3f375b2d41eded173dcd8e4373b705a3b0a8"
+    },
+    "3D/weapons/previews/nunchaku.png": {
+      "bytes": 11175,
+      "sha256": "9c378c779c83e9c35b9eabaa0ccd8a7a0ffaf3008ede25bce5ac4945f7b7fd24"
+    },
+    "3D/weapons/previews/pistol.png": {
+      "bytes": 9588,
+      "sha256": "f3263441ec1b4ecd4f1908fe57e7198c9104881f2ce1900e5066cebead00be68"
+    },
+    "3D/weapons/previews/revolver.png": {
+      "bytes": 9638,
+      "sha256": "35cf3c4a60e84ad5a983c374e61c22f3656bc46f3f7bc084c6f7cf4faa8e2bdc"
+    },
+    "3D/weapons/previews/rifle.png": {
+      "bytes": 9168,
+      "sha256": "a63b90bac8493c615f42c159bd39d2f933d9659dde7d1b9069b82f3511d4cc2b"
+    },
+    "3D/weapons/previews/sai.png": {
+      "bytes": 7969,
+      "sha256": "f5c45d66443a7fcc1da7eee3f59eb70e2d794994b6bf70920f17fa5ca0de6aad"
+    },
+    "3D/weapons/previews/scythe.png": {
+      "bytes": 8411,
+      "sha256": "67abcf13dec5c4e9321eb3ad2560998b8481dd5fd4c9e2c2a2ba535dac7e9876"
+    },
+    "3D/weapons/previews/shield-riot.png": {
+      "bytes": 7731,
+      "sha256": "c212d2ebdb62f001fc67889d97d2ca7626e8ef3189736f4b02a7a63c6c77e45c"
+    },
+    "3D/weapons/previews/shotgun.png": {
+      "bytes": 8861,
+      "sha256": "52bfc91656a287aaf2110765bd11fc85674c1aaae35fc34566bdecabf312f968"
+    },
+    "3D/weapons/previews/shuriken.png": {
+      "bytes": 9881,
+      "sha256": "6f0b9165cc3a79ff48200dd50ee5875506825b43182621aea791198cf4fd6e39"
+    },
+    "3D/weapons/previews/sniper-rifle.png": {
+      "bytes": 9215,
+      "sha256": "850796f655c9fd6875e112dbf2bcdd8c64f8f27008d794898630d328a1e7b192"
+    },
+    "3D/weapons/previews/spear.png": {
+      "bytes": 5341,
+      "sha256": "a5b5fc016b7cc2630e2cb039b5bb315996004c19cb9c508fd648dfb97ca04177"
+    },
+    "3D/weapons/previews/staff.png": {
+      "bytes": 5436,
+      "sha256": "bf55f589df2f11d76f441e0a459018bf67d1637e7abb7e0dd27ba4e5bd8ea0db"
+    },
+    "3D/weapons/previews/submachine-gun.png": {
+      "bytes": 9255,
+      "sha256": "8c53d61c6db8f5d4c03074c1d0f171f706164426479ef28a6b0341888100fce0"
+    },
+    "3D/weapons/previews/sword.png": {
+      "bytes": 6560,
+      "sha256": "48f1295e502a67af9955ba7a3b660706d8279cecf599c5c666d7d85e129d1341"
+    },
+    "3D/weapons/revolver.glb": {
+      "bytes": 6588,
+      "sha256": "bf58dcd71ddf12f059a156106e9862ad33b76503aa4ed3e79ec651cab35b9392"
+    },
+    "3D/weapons/rifle.glb": {
+      "bytes": 9196,
+      "sha256": "21532d793ab1e2a21d7ac3379a623667fa36e5a1d0da718c9e85485d453dd41b"
+    },
+    "3D/weapons/sai.glb": {
+      "bytes": 14468,
+      "sha256": "7d973762804f088df134236a00074df357bb51956f48ab1b24313fdd20c893d4"
+    },
+    "3D/weapons/scythe.glb": {
+      "bytes": 7880,
+      "sha256": "d4d84366155515e7a079a61edcbb96209ef61afa406318726e4fc28a59a17059"
+    },
+    "3D/weapons/shield-riot.glb": {
+      "bytes": 5892,
+      "sha256": "32e13269b470d2bb4644c80ddd8c5728f5b4fa8f0565e06dd265b7da218eb7d0"
+    },
+    "3D/weapons/shotgun.glb": {
+      "bytes": 9224,
+      "sha256": "e1153d7239f91e085b31335538b920000a835de13dd7b380c3339037c8f2b5d0"
+    },
+    "3D/weapons/shuriken.glb": {
+      "bytes": 5612,
+      "sha256": "d7da1a200627408c79937fcee80bee2cf47e12dd37105eabbaf21ab8b83665a0"
+    },
+    "3D/weapons/sniper-rifle.glb": {
+      "bytes": 16512,
+      "sha256": "7b3e5d51cee9ff118ce4aba98fddbf59009adb6f76dde97684c88e079ab06755"
+    },
+    "3D/weapons/spear.glb": {
+      "bytes": 5672,
+      "sha256": "4e91ff8421a184fb21c429694c16ced184d61860f028236fc1e64517f8e1a2f3"
+    },
+    "3D/weapons/staff.glb": {
+      "bytes": 20540,
+      "sha256": "c767de95896824dc0a43f58ed22f0210c5d1d3359c28aadd3409758fc7c0659c"
+    },
+    "3D/weapons/submachine-gun.glb": {
+      "bytes": 6576,
+      "sha256": "9b451465a17d7b041f0633b2f316446f4958d4ea24f355e73858a182181742d0"
+    },
+    "3D/weapons/sword.glb": {
+      "bytes": 9524,
+      "sha256": "32e17f78a92388e095b46f37ad32369c0f4829271c7d46d0a5d4343d06e0d078"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+Generation mode: built-in image generation.
+Reference: Study 03.
+Output: study-04-characters.png.
+
+Art direction used for the generation:
+Create an original INKLINE 3D stick game character sheet. Use the Study 03 drawn-stick style. Show six body families and twelve roles in two rows at a common scale: Balanced (Core, Agent), Swift (Runner, Scout), Compact (Scrapper, Acrobat), Reach (Staff Adept, Duelist), Power (Heavy, Worker), Guard (Striker, Sentinel). Use round blank black heads close to the torso, continuous narrow limbs, small rounded hands and feet, distinct body proportions, clear poses, and functional gear. Use a light paper background, matte unlit black figures, and small vermilion accents. Avoid faces, muscles, robots, large shoes, random decoration, glossy lighting, and photo textures. The sheet is a concept benchmark. It is not a render of the delivered meshes.

@@ -1,0 +1,20 @@
+{
+  "referenceArmLength": 0.5039,
+  "palmOffset": 0.04,
+  "stockLateralOffset": -0.02,
+  "stockTorsoFraction": 0.6,
+  "weapons": {
+    "rifle": { "scale": 0.9, "stock": [0, 0.02, -0.29], "support": [0, -0.015, 0.19] },
+    "shotgun": { "scale": 0.8, "stock": [0, 0, -0.29], "support": [0, 0.015, 0.29] }
+  },
+  "pump": { "fps": 30, "startFrame": 10, "rearFrame": 15, "returnFrame": 19, "travel": -0.1 },
+  "reload": {
+    "releaseEnd": 0.18,
+    "returnStart": 0.82,
+    "magazine": [0, -0.1, 0.12],
+    "reachFrame": 10,
+    "withdrawFrame": 18,
+    "insertFrame": 26,
+    "withdrawal": [0, -0.12, -0.1]
+  }
+}
