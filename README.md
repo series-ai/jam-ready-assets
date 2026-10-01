@@ -1,10 +1,10 @@
 # 🎮 Jam-Ready Assets
 
-A curated, ready-to-use library of **free game art** for building games on the **RUN platform**: **329 asset packs** of 2D sprites, tilesets, 3D models, UI kits, icons, fonts, and audio, organized so you can find what you need in seconds. Drop them straight into your RUN game.
+A curated, ready-to-use library of **free game art** for building games on the **RUN platform**: **345 asset packs** of 2D sprites, tilesets, 3D models, UI kits, icons, fonts, and audio, organized so you can find what you need in seconds. Drop them straight into your RUN game.
 
 > **Free for any RUN game**, personal, educational, or commercial. Modify it freely.
 >
-> There is no single licence across the library. Every pack carries its own `License.txt`, and the library only accepts licences whose obligations RUN.studio can carry into the published game: **CC0 / public domain, MIT, and BSD-2-Clause**. Of 329 packs, 318 are CC0 and 11 are MIT (the Proof of Play *Pirate Nation* set and the original *INKLINE* set), which asks only that you keep the copyright notice that ships with the pack. If a pack under MIT or BSD-2-Clause is added later, RUN.studio copies its licence file into your published project automatically when you import the pack. Leave it where it lands and you are done.
+> There is no single licence across the library. Every pack carries its own `License.txt`, and the library only accepts licences whose obligations RUN.studio can carry into the published game: **CC0 / public domain, MIT, BSD-2-Clause, and the RUN License** (the RUN Repository Supplemental License v1.0 of [run-workshop](https://github.com/series-ai/run-workshop/blob/main/LICENSE.md)). Of 345 packs, 318 are CC0, 4 are MIT (the Proof of Play *Pirate Nation* set), which asks only that you keep the copyright notice that ships with the pack, and 23 are under the RUN License (every *RUN Voxel Packs* leaf and every *INKLINE* leaf), which allows use in RUN projects only until it converts to MIT on January 1, 2028, and asks that the licence file ships with the pack. The avatar rig leaves of the *RUN Voxel Packs* bind to the Pirate Nation skeleton, so their licence file also keeps Proof of Play's MIT notice for that rig data. If a pack under MIT or BSD-2-Clause is added later, RUN.studio copies its licence file into your published project automatically when you import the pack. Leave it where it lands and you are done.
 > Older RUN.studio builds use a CC0-only schema-v1 catalog. Licence-aware builds use schema v2 with immutable per-commit pack manifests, so a non-CC0 pack cannot reach a client that would strip its notice or pair with another revision's notice.
 >
 > The creators below deserve a shout-out either way, see [Credits](#-credits).
@@ -31,7 +31,7 @@ Every **pack** is a top-level folder, prefixed by its **creator** (e.g. `kaykit-
 `platformer` · `top-down-rpg` · `dungeon` · `fantasy` · `western` · `pirate` · `city` · `nature` · `farm` · `food` · `space-scifi` · `vehicles-racing` · `tower-defense` · `strategy-hex` · `characters` · `seasonal-holiday` · `sports` · `prototype-blocks` · `misc`
 
 ### 3D themes
-`characters` · `dungeon` · `city` · `nature` · `farm` · `interior-furniture` · `food` · `fantasy` · `weapons` · `space-scifi` · `vehicles-racing` · `platformer` · `tower-defense` · `strategy-hex` · `pirate` · `seasonal-holiday` · `sports` · `prototype-blocks` · `misc`
+`characters` · `dungeon` · `city` · `nature` · `farm` · `interior-furniture` · `food` · `fantasy` · `weapons` · `space-scifi` · `vehicles-racing` · `platformer` · `tower-defense` · `strategy-hex` · `pirate` · `monster` · `post-apocalypse` · `seasonal-holiday` · `sports` · `prototype-blocks` · `misc`
 
 **Examples**
 - Making a **mining / adventure** game? → `ls -d */3D/dungeon */3D/nature */2D/top-down-rpg` plus `kaykit-resource-bits/`
@@ -86,7 +86,8 @@ Each pack's licence is verified pack by pack rather than assumed, and named in t
 | **Barking Doggos** | 1 | CC0-1.0 | Animated Halloween jack-o-lantern sprite | [barking-doggos.itch.io](https://barking-doggos.itch.io) |
 | **ChaosWitchNikol** | 1 | CC0-1.0 | *Skeleton Warrior* - walk & attack animations with Aseprite source | [chaoswitchnikol.itch.io](https://chaoswitchnikol.itch.io) |
 | **Proof of Play** | 4 | MIT | *Pirate Nation* - voxel ships, buildings, world bosses, harvestables, UI sprites & original soundtrack, from the archival open-source game client | [github.com/proofofplay/piratenation-game](https://github.com/proofofplay/piratenation-game) |
-| **INKLINE contributors** | 7 | MIT | *INKLINE* - 12 original stick figures, 85 animation clips, 291 props, 3 assembled industrial scenes, and 64 effects | [Pack source and reuse guide](run-inkline/3D/characters/Source/README.md) |
+| **RUN** (Series Entertainment) | 16 | RUN License (the `3D/characters` leaves also keep Proof of Play's MIT notice for the rig data) | *RUN Voxel Packs* - fantasy, space, monster and post-apocalypse voxel kits that match Pirate Nation's scale and palette style: about 100 models each (props, animated props, buildings, terrain, creatures, vehicles, held items, skins), avatar parts and clips on the Pirate Nation rig, icons and UI | [github.com/series-ai/run-workshop](https://github.com/series-ai/run-workshop/tree/main/tools/run-voxel-packs) |
+| **INKLINE contributors** | 7 | RUN License | *INKLINE* - 12 original stick figures, 85 animation clips, 291 props, 3 assembled industrial scenes, and 64 effects | [Pack source and reuse guide](run-inkline/3D/characters/Source/README.md) |
 
 ---
 

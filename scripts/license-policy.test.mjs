@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { inspectLicenseText, legacyCompatiblePacks } from './license-policy.mjs';
+import { readFileSync } from 'node:fs';
+import { inspectLicenseText, legacyCompatiblePacks, RUN_LICENSE } from './license-policy.mjs';
 
 const MIT = `
 Copyright (c) 2026 Example Artist
@@ -144,11 +145,32 @@ test('rejects fragmentary CC0 declarations', () => {
   }
 });
 
-test('keeps MIT and BSD-2-Clause packs out of the legacy CC0-only catalog', () => {
+// A RUN voxel leaf: the whole RUN Repository Supplemental License v1.0 under a provenance header.
+const RUN = readFileSync(new URL('../run-voxel-fantasy/3D/fantasy/License.txt', import.meta.url), 'utf8');
+
+test('accepts the whole RUN licence, although it quotes MIT, CC0 and its own SPDX header', () => {
+  assert.deepEqual(inspectLicenseText(RUN), { license: RUN_LICENSE });
+});
+
+test('rejects a RUN licence without provenance, a copyright line, or any of its terms', () => {
+  assert.match(inspectLicenseText(RUN.replace(/^Source:.*$/m, '')).error, /provenance/);
+  assert.match(inspectLicenseText(RUN.replace(/^Copyright \(c\) 2026 .*$/m, '')).error, /Copyright/);
+  const withoutChangeLicense = RUN.slice(0, RUN.indexOf('11. Change License'));
+  assert.match(inspectLicenseText(withoutChangeLicense).error, /RUN licence text is incomplete/);
+  const withoutRestriction = RUN.replace(/However, before the Change Date[^\n]*\n/, '');
+  assert.match(inspectLicenseText(withoutRestriction).error, /RUN-only restriction/);
+});
+
+test('still rejects two different SPDX ids next to the RUN licence', () => {
+  assert.match(inspectLicenseText(`SPDX-License-Identifier: CC0-1.0\n${RUN}`).error, /multiple SPDX/);
+});
+
+test('keeps MIT, BSD-2-Clause and RUN packs out of the legacy CC0-only catalog', () => {
   const packs = [
     { id: 'cc0', license: 'CC0-1.0' },
     { id: 'mit', license: 'MIT' },
     { id: 'bsd', license: 'BSD-2-Clause' },
+    { id: 'run', license: RUN_LICENSE },
   ];
   assert.deepEqual(legacyCompatiblePacks(packs), [packs[0]]);
 });

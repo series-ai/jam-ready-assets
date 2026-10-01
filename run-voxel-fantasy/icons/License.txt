@@ -1,0 +1,221 @@
+SPDX-License-Identifier: LicenseRef-RUN-Repository-Supplemental-1.0
+Source: https://github.com/series-ai/run-workshop/tree/main/tools/run-voxel-packs
+Verified-by: run-workshop maintainers, 2026-09-29
+
+RUN Voxel Packs — Fantasy icons
+Copyright (c) 2026 Series Entertainment, Inc.
+Made for the RUN platform. Licensed under the RUN Repository Supplemental
+License v1.0 below: use it in RUN projects; it converts to MIT on January 1,
+2028.
+
+RUN Repository Supplemental License v1.0
+
+Copyright (c) Series Entertainment, Inc.
+
+SPDX-License-Identifier: LicenseRef-RUN-Repository-Supplemental-1.0
+
+TLDR
+
+License Summary
+
+This summary is not the license. The full terms below control.
+
+OK before January 1, 2028:
+
+* Use, copy, modify, fork, and share this repository for the RUN version of Your project.
+* Build apps, games, videos, interactive fiction, tools, integrations, plugins, and assets for the RUN Platform.
+* Commercialize Your RUN project. Commercial use on RUN is encouraged.
+* Redistribute modified versions of this repository, as long as this same license stays with it.
+* Build versions of Your project for other platforms, as long as You do not use this repository’s licensed code/assets in those non-RUN versions before January 1, 2028.
+
+NOT OK before January 1, 2028:
+
+* Use this repository’s licensed code/assets in non-RUN platforms, engines, marketplaces, SDKs, tools, apps, videos, interactive fiction, or services.
+* Repackage or sell this repository’s licensed code/assets as a standalone product outside RUN.
+* Remove copyright, license, or attribution notices.
+* Claim Series Entertainment or RUN officially endorses Your project without permission.
+
+MIT later:
+
+* On January 1, 2028, the Series-owned and contributor-owned portions of this repository automatically convert to the MIT License.
+* Third-party materials remain under their own licenses.
+
+License
+
+1. Relationship to the RUN Terms
+
+This RUN Repository Supplemental License v1.0 (the “License”) is a supplemental license for this repository only.
+
+This License does not replace, amend, or supersede the RUN End-User License Agreement, User Terms, Creator Terms, Community Standards, Privacy Policy, or any other terms that apply to the RUN Platform (defined below) including without limitation, terms applying to the RUN Studio, service tools, hosted services, accounts, marketplaces, publishing systems, monetization features, or other RUN Platform services (all such services collectively the “Services” and all of the foregoing terms the “RUN Terms”). If You access or use the RUN Platform or any RUN Services, the applicable RUN Terms continue to apply.
+
+This License grants additional permissions for the repository materials identified below. 
+
+In the event of any conflict or inconsistency between this License and the applicable RUN Terms, the RUN Terms control. 
+
+Without limiting the generality of the foregoing, some of the Licensed Repository Materials (defined below), including premade templates and starter assets, may also be made available as Service Content under the RUN Creator Terms, including Sections 1.1 and 1.2, on a revocable basis. To the extent any materials are both Licensed Repository Materials and Service Content, the RUN Terms govern those materials, and nothing in this License grants broader, separate, or longer-lasting rights in those materials than the RUN Terms allow.
+
+
+2. Definitions
+
+“Licensor” means Series Entertainment, Inc.
+
+“You” and “Your” mean an active, registered user of the RUN Platform who maintains a RUN Platform account in good standing and who has agreed to and remains bound by the applicable RUN Terms. A person or entity that has not registered a RUN Platform account, or that has not agreed to the applicable RUN Terms, is not a “You,” receives no rights under this License, and is not eligible to use, hold, exercise, or rely on any rights in the Licensed Repository Materials under this License. Cloning, forking, downloading, or copying the Repository does not by itself make any person or entity a “You” or grant any rights under this License.
+
+“Repository” means this public source repository and the files made available in it.
+
+“Licensed Repository Materials” means the software, source code, object code, assets, documentation, examples, templates, configurations, and other materials in this Repository that are owned by Licensor or contributed to this Repository under this License.
+
+“RUN Platform” means the platforms and services available at run.tv, run.world, w.run and run.game and all services, apps, tools, SDKs, APIs, marketplaces, publishing systems, distribution channels, integrations, developer services, and related services made available, operated, or approved by Series Entertainment, Inc. or its affiliates thereon and in connection therewith.
+
+“Permitted RUN Use” means using the Licensed Repository Materials solely in connection with creating, testing, publishing, distributing, deploying, monetizing, operating, supporting, or integrating with the RUN version of a project.
+
+“Project” means any game, application, video, interactive fiction work, experience, tool, plugin, integration, asset pack, template, example, service, or other creative or technical work.
+
+“Non-RUN Use” means any use of the Licensed Repository Materials other than a Permitted RUN Use.
+
+“Change Date” means January 1, 2028.
+
+“Change License” means the MIT License included in Section 11.
+
+“Contribution” means any software, source code, object code, assets, documentation, examples, templates, configurations, or other materials of any kind that You contribute to the Repository.
+
+“Third-Party Materials” means any software, source code, object code, assets, documentation, examples, templates, data, or other materials included in this Repository that are owned by third parties or made available under separate license terms.
+
+3. Supplemental License Grant Before the Change Date
+
+Subject to the terms herein and the applicable RUN Terms, Licensor grants You (as defined above) a worldwide, royalty-free, non-exclusive license before the Change Date to do the following, solely for Permitted RUN Uses:
+
+1. use, copy, and modify the Licensed Repository Materials;
+2. create derivative works based on the Licensed Repository Materials;
+3. distribute copies of the Licensed Repository Materials and Your modifications; and
+4. use the Licensed Repository Materials in source, object, compiled, or packaged form.
+
+Your commercial use of the Licensed Repository Materials for Permitted RUN Use is expressly allowed and encouraged.
+
+The rights granted in this Section 3 are personal to You as an eligible RUN Platform user. They are valid only while You maintain an active, registered RUN Platform account in good standing and remain in compliance with the applicable RUN Terms. This License does not grant any rights to any person or entity that does not fall within the definition of “You” in Section 2 above. 
+
+4. Non-RUN Versions of Projects
+
+You may create, publish, distribute, monetize, or support versions of Your Project for platforms other than the RUN Platform.
+
+However, before the Change Date, You may not use the Licensed Repository Materials, or derivative works based on the Licensed Repository Materials, in any non-RUN version of Your Project.
+
+For clarity, this License restricts use of the Licensed Repository Materials before the Change Date. It does not restrict Your independently created code, assets, ideas, gameplay, business, brand, or project concepts that do not use the Licensed Repository Materials.
+
+5. Restrictions Before the Change Date
+
+Before the Change Date, You may not:
+
+1. use the Licensed Repository Materials for any Non-RUN Use;
+2. use the Licensed Repository Materials in or for any platform, engine, marketplace, runtime, SDK, toolchain, application, video, interactive fiction work, service, or distribution channel that is not the RUN Platform;
+3. sublicense the Licensed Repository Materials under different terms before the Change Date;
+4. sell, lease, rent, host, or provide the Licensed Repository Materials as a standalone product or service outside the RUN Platform;
+5. remove, obscure, or alter copyright notices, license notices, attribution notices, or notices identifying Third-Party Materials;
+6. impose additional terms on the Licensed Repository Materials that conflict with this License;
+7. imply endorsement, sponsorship, certification, partnership, or approval by Licensor or RUN unless Licensor has given You prior written permission.
+
+6. Distribution Before the Change Date
+
+Before the Change Date, You may distribute the Licensed Repository Materials or modifications to the Licensed Repository Materials only if:
+
+1. the distribution is for a Permitted RUN Use;
+2. You include a copy of this License;
+3. You preserve all copyright, license, and attribution notices;
+4. You clearly identify any material modifications You made; and
+5. You distribute the Licensed Repository Materials and Your modifications under this same RUN Repository Supplemental License v1.0.
+
+7. Contributions
+
+Unless Licensor has a separate written agreement with You, any Contribution You submit to this Repository is submitted under this RUN Repository Supplemental License v1.0.
+
+By submitting a Contribution, You represent that You have the right to license the Contribution under this License.
+
+You agree that Your Contribution may be used, copied, modified, distributed, sublicensed, and relicensed under this License, including the automatic conversion to the MIT License on and after the Change Date.
+
+You may submit a Contribution only if You are a “You” as defined in Section 2 and You first accept the then-current Contributor License Agreement or Developer Certificate of Origin made available by Licensor through the applicable code-hosting platform. Licensor may decline to accept, or may require the removal of, any Contribution that has not cleared that acceptance step, and a pull request that has not cleared it should not be merged.
+
+By submitting a Contribution, You represent and warrant that: (a) You are the sole author of the Contribution or otherwise have all rights necessary to submit it and to license it under this License; (b) the Contribution is Your original work and does not incorporate code, assets, or other materials owned by any third party, including any current or former employer, except where those materials are clearly identified and accompanied by a license that permits their inclusion and onward licensing under this License; (c) the Contribution does not contain any confidential information of any third party or infringe or misappropriate the intellectual property, confidentiality, or other rights of any third party; and (d) You are not subject to any agreement, obligation, or restriction that conflicts with these representations.
+
+You agree to defend, indemnify, and hold harmless Licensor and its affiliates from and against any claim, loss, damage, cost, or expense, including reasonable legal fees, arising out of or related to (i) Your breach of the terms of this License, including without limitation the representations in this Section 7, or (ii) any Contribution You submit.
+
+If You have accepted a Contributor License Agreement or Developer Certificate of Origin for a Contribution, that instrument governs in the event of any conflict between it and this Section 7 with respect to that Contribution.
+
+8. Third-Party Materials
+
+This License does not apply to Third-Party Materials.
+
+Third-Party Materials remain subject to their original license terms. Nothing in this License limits any rights You already have under any applicable third-party license, including MIT, Apache, BSD, ISC, CC0, Creative Commons, public domain dedication, or other third-party terms.
+
+If there is a conflict between this License and the license for Third-Party Materials, the license for the Third-Party Materials controls with respect to those Third-Party Materials.
+
+9. Automatic Conversion on the Change Date
+
+On and after January 1, 2028, the Licensed Repository Materials are automatically licensed under the Change License.
+
+After the Change Date, the RUN-only restrictions in Sections 3, 4, 5, and 6 no longer apply to the Licensed Repository Materials. The Licensed Repository Materials may be used under the MIT License below.
+
+For clarity, this automatic conversion does not:
+
+1. change the license terms for Third-Party Materials;
+2. grant trademark rights;
+3. grant rights to access hosted services, private APIs, marketplaces, accounts, publishing systems, developer programs, or other RUN services;
+4. affect any separate written agreement You may have with Licensor.
+
+10. Administrative Error; Reservation of Right to Revoke. 
+
+Notwithstanding the automatic conversion described above, Licensor reserves the absolute right, at any time and in its sole discretion, to retroactively revoke this License as to any specific file or material that was added to the Repository in error, including any proprietary system module, unreleased or platform-adjacent code, licensed third-party asset, or any material that Licensor was not authorized to license under this License. A file or material that is the subject of such a revocation is, and is deemed always to have been, excluded from the Licensed Repository Materials and excluded from the automatic conversion to the Change License, and no rights in that file or material pass under this License or under the Change License.
+
+Upon notice of a revocation under this Section, You must cease using, copying, modifying, and distributing the affected file or material and, to the extent practicable, remove it from any copy or fork within Your control. This Section does not limit any other right or remedy of Licensor, including under the RUN Terms or applicable law.
+
+11. Change License: MIT License
+
+Subject to Section 10 above, on and after January 1, 2028, the Licensed Repository Materials are licensed as follows:
+
+MIT License
+
+Copyright (c) Series Entertainment, Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files, assets, and materials covered by this License (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+12. No Warranty
+
+Before the Change Date, the Licensed Repository Materials are provided “as is,” without warranty of any kind, express or implied, including without limitation warranties of merchantability, fitness for a particular purpose, title, quiet enjoyment, and noninfringement.
+
+Licensor is not liable for any claim, damages, losses, costs, expenses, or other liability arising from or related to the Licensed Repository Materials or Your use of the Licensed Repository Materials.
+
+Nothing in this section limits any warranty disclaimer, limitation of liability, indemnity, dispute resolution provision, or other term in the RUN Terms that applies to Your use of the RUN Platform or RUN Services.
+
+13. Termination
+
+Before the Change Date, Your rights under this License terminate automatically if You materially violate this License and fail to cure the violation within thirty (30) days after receiving written notice from Licensor.
+
+After termination, You must stop using, copying, modifying, and distributing the Licensed Repository Materials, except to the extent You have separate rights under the license for Third-Party Materials or under the MIT License after the Change Date.
+
+Termination of this supplemental License does not limit any rights or remedies available under the RUN Terms or applicable law.
+
+14. No Platform Access or Trademark Grant
+
+This License does not grant any rights to use the names, logos, trademarks, trade dress, branding, or service marks of Series Entertainment, Inc., RUN, or any related product or service, except as necessary to accurately describe compatibility with the RUN Platform.
+
+This License does not grant any right to access hosted services, private APIs, developer accounts, marketplaces, app stores, publishing tools, distribution channels, or other services operated by Licensor. Those services may be subject to separate terms.
+
+15. Interpretation
+
+This License applies only to copyright and similar rights in the Licensed Repository Materials.
+
+Any rights not expressly granted in this License are reserved by Licensor.
+
+If any provision of this License is held to be unenforceable, the remaining provisions will remain in effect.
+
+
+16. Recommended File Header
+
+For files covered by this License, Licensor recommends the following source header:
+
+SPDX-License-Identifier: LicenseRef-RUN-Repository-Supplemental-1.0
+
+For files covered by separate third-party licenses, use the applicable third-party SPDX identifier or license notice.
