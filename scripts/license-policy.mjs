@@ -1,4 +1,6 @@
-const ALLOWED = new Set(['CC0-1.0', 'MIT', 'BSD-2-Clause']);
+/** SPDX id of the RUN Repository Supplemental License v1.0 (run-workshop's LICENSE.md). */
+export const RUN_LICENSE = 'LicenseRef-RUN-Repository-Supplemental-1.0';
+const ALLOWED = new Set(['CC0-1.0', 'MIT', 'BSD-2-Clause', RUN_LICENSE]);
 const DENIED = new Set([
   'CC-BY',
   'CC-BY-SA',
@@ -35,6 +37,12 @@ function hasCopyrightNotice(text) {
 /** Every SPDX id recognisable in the licence body. */
 export function licensesFromText(text) {
   const t = normalized(text);
+  // The RUN licence embeds its MIT change licence (Section 11) and names CC0,
+  // MIT and other third-party licences (Section 8), so its text is one licence,
+  // not a mix. Recognise it before the others.
+  if (/run repository supplemental license v1\.0/.test(t) && /licensor" means series entertainment, inc\./.test(t)) {
+    return [RUN_LICENSE];
+  }
   const found = new Set();
   if (/creativecommons\.org\/licenses\/by-nc/.test(t)) found.add('CC-BY-NC');
   else if (/creativecommons\.org\/licenses\/by-sa/.test(t)) found.add('CC-BY-SA');
@@ -110,6 +118,38 @@ function validateBsd2(text) {
   return missing ? `BSD-2-Clause text is incomplete: missing its ${missing[0]}` : null;
 }
 
+/**
+ * The RUN licence must ship whole: its grant, RUN-only restrictions, distribution
+ * conditions, change date and MIT change licence are the obligation that
+ * travels with the pack. Head it with provenance like a CC0 file.
+ */
+function validateRun(text) {
+  const t = normalizedWords(text);
+  if (!hasCopyrightNotice(text)) {
+    return 'RUN licence text must carry a real `Copyright <year> <holder>` notice for the pack';
+  }
+  if (!(/^\s*source:\s*https?:\/\//im.test(text) && /^\s*verified-by:\s*\S/im.test(text))) {
+    return 'RUN licence text must be headed with Source: and Verified-by: provenance lines';
+  }
+  const required = [
+    ['grant', `licensor grants you as defined above a worldwide royalty free non exclusive license before
+      the change date to do the following solely for permitted run uses`],
+    ['RUN-only restriction', `before the change date you may not use the licensed repository materials
+      or derivative works based on the licensed repository materials in any non run version of your project`],
+    ['distribution conditions', `you distribute the licensed repository materials and your modifications
+      under this same run repository supplemental license v1 0`],
+    ['third-party clause', `this license does not apply to third party materials`],
+    ['change date', `on and after january 1 2028 the licensed repository materials are automatically
+      licensed under the change license`],
+    ['MIT change licence', `the above copyright notice and this permission notice shall be included in
+      all copies or substantial portions of the software`],
+    ['warranty disclaimer', `before the change date the licensed repository materials are provided as is
+      without warranty of any kind`],
+  ];
+  const missing = required.find(([, phrase]) => !t.includes(normalizedWords(phrase)));
+  return missing ? `RUN licence text is incomplete: missing its ${missing[0]}` : null;
+}
+
 function validateCc0(text) {
   const t = normalized(text);
   const officialReference = /creativecommons\.org\/publicdomain\/zero\/1\.0/.test(t) ||
@@ -139,10 +179,12 @@ function validateCc0(text) {
  * body, but the body alone must prove the licence and carry every required notice.
  */
 export function inspectLicenseText(text) {
-  const declarations = [...text.matchAll(/^\s*SPDX-License-Identifier:\s*(.+?)\s*$/gim)]
-    .map((match) => match[1].trim());
+  // The same id may repeat (the RUN licence quotes its own header in Section 16);
+  // two different ids are ambiguous.
+  const declarations = [...new Set([...text.matchAll(/^\s*SPDX-License-Identifier:\s*(.+?)\s*$/gim)]
+    .map((match) => match[1].trim()))];
   if (declarations.length > 1) {
-    return { error: 'licence text carries multiple SPDX-License-Identifier declarations; exactly one is permitted' };
+    return { error: 'licence text carries multiple SPDX-License-Identifier declarations; exactly one licence is permitted' };
   }
   const declared = declarations[0] ?? null;
   if (declared && !/^[A-Za-z0-9.+-]+$/.test(declared)) {
@@ -175,6 +217,8 @@ export function inspectLicenseText(text) {
     ? validateMit(text)
     : detected === 'BSD-2-Clause'
       ? validateBsd2(text)
-      : validateCc0(text);
+      : detected === RUN_LICENSE
+        ? validateRun(text)
+        : validateCc0(text);
   return noticeError ? { error: noticeError } : { license: detected };
 }

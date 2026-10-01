@@ -33,9 +33,9 @@ This repo is a curated library of **free game art** for building games on the **
 
 ## TL;DR for agents
 
-- Everything here is **free to use, modify, and redistribute in any RUN game**, commercially included. There is no single library-wide licence: each pack carries its own `License.txt`, and CI refuses any licence outside **CC0-1.0, MIT, and BSD-2-Clause**. Of 338 packs, 330 are CC0 and 8 are MIT (Proof of Play *Pirate Nation*, and the `3D/characters` avatar rig leaves of the RUN Voxel Packs).
+- Everything here is **free to use, modify, and redistribute in any RUN game**, commercially included. There is no single library-wide licence: each pack carries its own `License.txt`, and CI refuses any licence outside **CC0-1.0, MIT, BSD-2-Clause, and the RUN License** (`LicenseRef-RUN-Repository-Supplemental-1.0`, run-workshop's `LICENSE.md`). Of 338 packs, 318 are CC0, 4 are MIT (Proof of Play *Pirate Nation*), and 16 are under the RUN License (every RUN Voxel Packs leaf: RUN projects only until it converts to MIT on 2028-01-01; the `3D/characters` leaves also keep Proof of Play's MIT notice for the Pirate Nation rig data they carry).
 - **Never delete or move a pack's `License.txt`.** For CC0 packs it is provenance; for the others it is the whole obligation, and RUN.studio copies it into the creator's project alongside the assets.
-- The public schema-v1 manifest stays **CC0-only** for older Studio builds. Licence-aware consumers use `manifest/v2/`, which may include MIT and BSD-2-Clause packs.
+- The public schema-v1 manifest stays **CC0-only** for older Studio builds. Licence-aware consumers use `manifest/v2/`, which may include MIT, BSD-2-Clause and RUN License packs.
 - Layout is **predictable and pack-first**: `<creator>-<pack>/<dimension>/<theme>/` (plus flat `<pack>/ui|icons|fonts|audio/` buckets). Find assets by globbing themes across packs (`ls -d */2D/platformer`), not by guessing filenames.
 - For 3D in a RUN game, **use the `.glb`/`.gltf` file** in a pack (the RUN runtime loads it directly). `.fbx`/`.obj` are editable source only.
 - Files are stored with **Git LFS**. After cloning, run `git lfs install && git lfs pull` or you'll only see pointer text, not real assets.
@@ -94,7 +94,7 @@ manifest, with id `<pack>/<bucket>[/<theme>]`.
 ## Rules for agents modifying this repo
 
 - **Every pack must contain a licence file in its pack root** (the bucket/theme leaf dir the assets live in, e.g. `<pack>/3D/pirate/License.txt`, one per leaf when a pack spans buckets), named `License.txt` (or `LICENSE`, `COPYING`, `UNLICENSE`). A readme is not licence evidence, even when it mentions a licence: copy the terms into `License.txt`. CI rejects a pack with no licence file, with two of them, or with a licence outside the allowed set, and names the pack in the failure.
-- **Allowed licences: `CC0-1.0`, `MIT`, `BSD-2-Clause`.** MIT and BSD-2-Clause require their copyright and permission notices to ship with the work, which the pipeline handles automatically. Anything demanding visible attribution (CC-BY), share-alike, non-commercial terms, modified-version marking (Zlib), an endorsement restriction (BSD-3-Clause), a NOTICE file (Apache-2.0), or reserved font names (OFL) is refused, as is any public-domain dedication other than CC0 (Unlicense): one dedication keeps the CC0 checks meaningful. A pack mixing two licences must be split.
+- **Allowed licences: `CC0-1.0`, `MIT`, `BSD-2-Clause`, `LicenseRef-RUN-Repository-Supplemental-1.0` (the RUN License).** MIT and BSD-2-Clause require their copyright and permission notices to ship with the work, and the RUN License requires its whole text to ship with the work, which the pipeline handles automatically. Only Series Entertainment work from run-workshop uses the RUN License. Anything demanding visible attribution (CC-BY), share-alike, non-commercial terms, modified-version marking (Zlib), an endorsement restriction (BSD-3-Clause), a NOTICE file (Apache-2.0), or reserved font names (OFL) is refused, as is any public-domain dedication other than CC0 (Unlicense): one dedication keeps the CC0 checks meaningful. A pack mixing two licences must be split.
 - **Head the licence file with its provenance** so the claim is checkable:
   ```
   SPDX-License-Identifier: CC0-1.0
@@ -105,7 +105,7 @@ manifest, with id `<pack>/<bucket>[/<theme>]`.
   public and these files ship into every creator's project, so a real name here is published far
   more widely than whoever wrote it intended. The line records that the library's maintainers
   checked the licence on that date, which is the part anyone relying on it needs.
-  CI requires recognisable terms in the body, fails when the body and header disagree, and checks that MIT and BSD-2-Clause carry their full notices plus a real copyright line. An SPDX header cannot admit a pack on its own.
+  CI requires recognisable terms in the body, fails when the body and header disagree, and checks that MIT, BSD-2-Clause and the RUN License carry their full terms plus a real copyright line (the RUN License also needs the `Source:` and `Verified-by:` lines). An SPDX header cannot admit a pack on its own.
 - **Follow the layout:** packs are top-level, `<creator>-<pack-slug>/` (lowercase, dash-separated), holding `2D|3D/<theme>/` and/or flat `ui|icons|audio|fonts/` bucket dirs. Keep everything one pack ships under its single top-level dir, even when it spans buckets. A pack dir may contain **only** bucket dirs; CI rejects anything else at that level.
 - **Keep any original `License.txt`/`Readme`** the pack shipped with, alongside the one above.
 - **Binary assets must be LFS-tracked.** Patterns live in `.gitattributes` (png, jpg, gif, fbx, glb, gltf, bin, obj, mtl, blend, ogg, wav, mp3, zip, fonts). If you introduce a new binary extension, add it there before committing.
