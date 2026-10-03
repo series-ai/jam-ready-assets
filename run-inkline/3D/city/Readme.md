@@ -1,0 +1,220 @@
+# INKLINE 3D/city
+
+Original assets for RUN. Keep License.txt with redistributed files.
+
+211 GLB models. Units are meters. Coordinates are +Y up and +Z forward.
+Models use unlit materials. Dimensions and tags are in 3D/characters/Source/manifest.json.
+
+- street-lamp: Street Lamp
+- street-lamp-double: Double Street Lamp
+- bench-park: Park Bench
+- trash-can: Public Trash Can
+- dumpster: City Dumpster
+- fire-hydrant: Fire Hydrant
+- mailbox: Postal Mailbox
+- bus-stop-shelter: Bus Stop Shelter
+- traffic-light: Traffic Light
+- street-sign-pole: Street Sign Pole
+- parking-meter: Parking Meter
+- news-stand: News Box
+- bicycle-rack: Bicycle Rack
+- telephone-booth: Phone Booth
+- planter-concrete: Concrete Planter
+- manhole-cover: Manhole Cover
+- billboard-small: Sidewalk Sign
+- billboard-highway: Highway Billboard
+- fire-escape: Fire Escape Landing
+- subway-entrance: Subway Portal
+- curb-straight: Street Curb Straight
+- curb-corner: Street Curb Corner
+- sidewalk-slab: Sidewalk Slab
+- crosswalk-tile: Crosswalk Tile
+- fountain-plaza: Plaza Fountain
+- security-camera-pole: CCTV Camera Pole
+- floor-slab: Floor Slab
+- floor-slab-grate: Grated Floor Slab
+- floor-slab-hazard: Hazard Floor Slab
+- floor-slab-2x2: Floor Slab 2x2
+- grate-floor-square: Square Floor Grate
+- grate-trench: Trench Grate
+- grate-drain: Sump Drain Grate
+- road-tile-straight: Industrial Road Straight
+- road-tile-junction: Industrial Road Junction
+- loading-dock-edge: Loading Dock Edge
+- hazard-floor-stripes: Hazard Stripes Strip
+- warning-decal-plate: Warning Caution Plate
+- wall-panel: Wall Panel
+- wall-panel-window: Window Wall Panel
+- wall-panel-door: Door Wall Panel
+- wall-panel-corrugated: Corrugated Wall Panel
+- wall-panel-reinforced: Reinforced Blast Wall
+- wall-corner-inner: Inner Wall Corner
+- wall-corner-outer: Outer Wall Corner
+- wall-pillar: Structural I-Beam Pillar
+- window-industrial-frame: Industrial Window Frame
+- window-security-bars: Security Window Bars
+- door-frame-steel: Steel Door Frame
+- door-frame-roll: Roll-Up Door Frame
+- door-steel: Steel Personnel Door
+- door-roll-up: Roll-Up Bay Door
+- door-security: Vault Security Door
+- warehouse: Warehouse Building
+- warehouse-roof: Warehouse Pitched Roof
+- roof-flat-parapet: Flat Roof Parapet
+- roof-skylight: Roof Skylight Module
+- roof-truss: Steel Roof Truss
+- warehouse-bay: Warehouse Bay Bent
+- warehouse-office: Site Office Booth
+- ramp-low: Low Industrial Ramp
+- ramp-high: High Industrial Ramp
+- ramp-curved: Curved Ramp Turn
+- stair-flight: Industrial Stair Flight
+- stair-flight-spiral: Spiral Staircase
+- stair-steps-short: Short Dock Steps
+- platform-low: Low Platform
+- platform-high: High Platform
+- platform-grated: Grated Equipment Platform
+- platform-staging: Maintenance Staging Platform
+- catwalk: Industrial Catwalk
+- catwalk-grate-long: Long Catwalk Grate
+- catwalk-bridge: Spanning Catwalk Bridge
+- catwalk-intersection: Catwalk 4-Way Intersection
+- rail-straight: Safety Handrail Straight
+- rail-corner: Safety Handrail Corner
+- rail-endcap: Handrail End Cap
+- rail-industrial-guard: Heavy Guardrail Barrier
+- ladder: Vertical Steel Ladder
+- ladder-caged: Caged Safety Ladder
+- ladder-fire-escape: Counterbalanced Drop Ladder
+- pipe-straight: Straight Pipe
+- pipe-short: Short Pipe Spool
+- pipe-long: Long Pipe Main
+- pipe-elbow: Pipe 90-Deg Elbow
+- pipe-tee: Pipe 3-Way Tee
+- pipe-cross: Pipe 4-Way Cross
+- pipe-flange: Blind Pipe Flange
+- pipe-valve: Manual Pipe Valve
+- pipe-support: Floor Pipe Support
+- pipe-riser: Vertical Pipe Riser
+- pipe-junction-box: Pipe Junction Manifold
+- tank-vertical: Vertical Storage Tank
+- tank-horizontal: Horizontal Pressure Tank
+- tank-silo: Hopper Grain Silo
+- tank-spherical: Spherical LPG Tank
+- smokestack: Industrial Smokestack
+- smokestack-tall: Massive Chimney Stack
+- smokestack-twin: Twin Exhaust Flues
+- duct-straight: HVAC Air Duct Straight
+- duct-elbow: HVAC Duct 90-Deg Elbow
+- duct-tee: HVAC Duct 3-Way Tee
+- duct-vent: Wall Air Register Vent
+- vent-fan: Industrial Exhaust Fan
+- duct-exhaust-hood: Factory Exhaust Hood
+- wall-vent-louvers: Architectural Storm Louvers
+- roof-turbine-vent: Rooftop Turbine Vent
+- generator: Diesel Generator
+- generator-diesel-large: Heavy Power Station Generator
+- turbine-housing: Steam Turbine Housing
+- machine-lathe: Metalworking Lathe
+- machine-hydraulic-press: Hydraulic Stamping Press
+- machine-transformer: Substation Transformer
+- machine-pump: Centrifugal Water Pump
+- air-compressor: Air Compressor Cabinet
+- air-tank-mobile: Mobile Workshop Compressor
+- conveyor: Motorized Belt Conveyor
+- conveyor-roller-straight: Roller Conveyor Track
+- conveyor-incline: Incline Belt Conveyor
+- crane: Overhead Hoist Crane
+- gantry-crane: Mobile Gantry Crane
+- hoist-monorail: Monorail Beam Hoist
+- crane-jib: Pillar Slewing Jib Crane
+- electrical-cabinet: Electrical Control Cabinet
+- electrical-panel-wall: Wall Electrical Panel
+- breaker-box: Safety Disconnect Switch
+- cable-spool: Wooden Cable Spool
+- cable-spool-metal: Metal Winch Reel
+- cable-tray-straight: Overhead Cable Tray
+- pallet: Wooden Pallet
+- pallet-euro: Euro Block Pallet
+- pallet-metal: Galvanized Steel Pallet
+- stacked-pallets: Stacked Pallets (5x)
+- stacked-pallets-tall: Stacked Pallets Tall (10x)
+- cargo-container: Cargo Container 20ft
+- cargo-container-open: Cargo Container Open
+- cargo-container-short: Cargo Container 10ft
+- barrel: Steel Oil Drum
+- barrel-toxic: Toxic Hazmat Drum
+- barrel-stack: Barrel Pyramid Stack
+- crate: Wooden Shipping Crate
+- crate-heavy-wooden: Heavy Machinery Crate
+- crate-military: Military Ammo Crate
+- crate-stack: Assorted Crate Stack
+- fence-panel: Security Fence Panel
+- fence-gate: Security Fence Gate
+- fence-wire-mesh: Welded Wire Partition
+- fence-barbed: Barbed Wire Fence
+- bollard: Safety Bollard
+- bollard-retractable: Retractable Bollard
+- bollard-heavy: Heavy Crash Bollard
+- barrier: Steel Crowd Barricade
+- barrier-jersey-concrete: Jersey Concrete Barrier
+- barrier-traffic-cone: Traffic Safety Cone
+- barrier-water-fillable: Plastic Water Barrier
+- floodlight: Industrial Floodlight
+- floodlight-tower: Mobile Light Tower
+- work-light-stand: Tripod Work Light
+- debris-scrap-pile: Scrap Metal Pile
+- scrap-i-beam: Bent Scrap I-Beam
+- scrap-sheet-metal: Scrap Metal Sheets
+- pallet-broken: Broken Wooden Pallet
+- roof-curb-straight: Straight Roof Service Curb
+- roof-curb-corner: Roof Curb Corner
+- roof-access-hatch: Roof Access Hatch
+- roof-service-vent-stack: Roof Service Vent Stack
+- roof-equipment-plinth: Roof Equipment Plinth
+- roof-safety-post: Roof Safety Cable Posts
+- roof-drain-scupper: Roof Drain Scupper
+- roof-antenna-mast: Roof Antenna Mast
+- roof-cable-bridge: Roof Cable Bridge
+- roof-fall-arrest-anchor: Roof Fall Arrest Anchor
+- roof-ladder-landing: Roof Ladder Landing
+- roof-duct-curb: Roof HVAC Duct Curb
+- walkway-straight: Wide Service Walkway
+- walkway-t-junction: Walkway T Junction
+- walkway-l-junction: Walkway L Junction
+- walkway-ramp: Walkway Access Ramp
+- walkway-stair-short: Short Walkway Stairs
+- walkway-landing: Elevated Walkway Landing
+- walkway-rail-gate: Walkway Safety Gate
+- walkway-rail-kickplate: Walkway Rail Toe Board
+- walkway-bridge-narrow: Narrow Walkway Bridge
+- walkway-grated-turn: Grated Walkway Turn
+- walkway-service-steps: Walkway Service Steps
+- walkway-cross-junction: Walkway Cross Junction
+- service-bay-arch: Service Bay Arch
+- service-bay-canopy: Service Bay Canopy
+- service-bay-pillar: Service Bay Pillar
+- service-bay-door-track: Service Bay Door Track
+- service-bay-workbench: Service Bay Workbench
+- service-bay-tool-board: Service Bay Tool Board
+- loading-platform: Loading Platform
+- loading-platform-ramp: Loading Platform Ramp
+- loading-dock-bumper: Loading Dock Bumper Set
+- loading-dock-ladder: Loading Dock Ladder
+- loading-gate: Loading Gate Arm
+- loading-wheel-stop: Loading Wheel Stop
+- pipe-manifold: Pipe Distribution Manifold
+- pipe-vertical-elbow: Vertical Pipe Elbow Riser
+- pipe-flange-pair: Pipe Flange Pair
+- pipe-inspection-port: Pipe Inspection Port
+- utility-panel: Utility Control Panel
+- utility-panel-double: Double Utility Panel
+- utility-cabinet-low: Low Utility Cabinet
+- utility-bench: Utility Maintenance Bench
+- utility-tool-rack: Utility Tool Rack
+- utility-drain-channel: Utility Drain Channel
+- utility-sewer-opening: Utility Sewer Opening
+- utility-meter-pedestal: Utility Meter Pedestal
+- wrench: Industrial Wrench
+
+Source contains the prop library and three editable scenes. Samples contains Industrial District, Service Yard, and Roof Works as GLBs. Source/environment-layouts.json lists their GLB, placement, and Blender paths. Origins vary by use. Read Source/prop-contract.md before placing parts.

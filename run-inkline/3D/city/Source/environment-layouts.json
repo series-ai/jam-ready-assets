@@ -1,0 +1,28 @@
+{
+  "version": "1.4.5",
+  "layouts": [
+    {
+      "id": "district",
+      "label": "Industrial District",
+      "file": "3D/city/Samples/industrial-district.glb",
+      "source": "3D/city/Source/industrial-district.blend",
+      "layout": "3D/city/Source/industrial-district.json"
+    },
+    {
+      "id": "service-yard",
+      "label": "Service Yard",
+      "description": "A ground level repair and loading yard with a linked walkway, utility row, and open inspection center.",
+      "file": "3D/city/Samples/service-yard.glb",
+      "source": "3D/city/Source/service-yard.blend",
+      "layout": "3D/city/Source/service-yard.json"
+    },
+    {
+      "id": "roof-works",
+      "label": "Roof Works",
+      "description": "An elevated maintenance roof with perimeter safety hardware, service decks, and a clear inspection court.",
+      "file": "3D/city/Samples/roof-works.glb",
+      "source": "3D/city/Source/roof-works.blend",
+      "layout": "3D/city/Source/roof-works.json"
+    }
+  ]
+}

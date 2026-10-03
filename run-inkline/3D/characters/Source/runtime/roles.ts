@@ -1,0 +1,32 @@
+import { DEFAULT_AVATAR, type AvatarConfig } from '../types'
+
+export interface CharacterRole {
+  id: string
+  label: string
+  family: 'Balanced' | 'Swift' | 'Compact' | 'Reach' | 'Power' | 'Guard'
+  description: string
+  headwear: AvatarConfig['headwear']
+  equipment: string | null
+  preview: string
+}
+
+/** Each role has a body family, a clear action, and a small functional kit. */
+export const CHARACTER_ROLES: CharacterRole[] = [
+  { id: 'stick-standard', label: 'Core', family: 'Balanced', description: 'Balanced reach and an open guard. The base figure for unarmed play.', headwear: 'none', equipment: null, preview: 'block' },
+  { id: 'stick-agent', label: 'Agent', family: 'Balanced', description: 'A straight stance and compact arm movement for precise weapon use.', headwear: 'none', equipment: 'pistol', preview: 'pistol-idle' },
+  { id: 'stick-runner', label: 'Runner', family: 'Swift', description: 'Long legs and a short torso. Built to read clearly at speed.', headwear: 'headband', equipment: null, preview: 'run' },
+  { id: 'stick-scout', label: 'Scout', family: 'Swift', description: 'A light frame and low ready stance for quick changes of direction.', headwear: 'none', equipment: 'dagger', preview: 'dagger-stab' },
+  { id: 'stick-compact', label: 'Scrapper', family: 'Compact', description: 'A short frame with a low guard and close striking reach.', headwear: 'none', equipment: null, preview: 'elbow-strike' },
+  { id: 'stick-acrobat', label: 'Acrobat', family: 'Compact', description: 'A short torso and long arms. Open shapes keep jumps and vaults clear.', headwear: 'none', equipment: null, preview: 'vault' },
+  { id: 'stick-tall', label: 'Staff Adept', family: 'Reach', description: 'Long arms and a tall stance for wide weapon arcs.', headwear: 'none', equipment: 'staff', preview: 'staff-thrust' },
+  { id: 'stick-fighter', label: 'Duelist', family: 'Reach', description: 'An offset guard and narrow frame for controlled blade strikes.', headwear: 'none', equipment: 'sword', preview: 'sword-slash' },
+  { id: 'stick-heavy', label: 'Heavy', family: 'Power', description: 'A broad stroke, short neck, and planted stance for heavy contact.', headwear: 'none', equipment: null, preview: 'punch-heavy' },
+  { id: 'stick-worker', label: 'Worker', family: 'Power', description: 'A sturdy figure with a helmet and wrench for the industrial district.', headwear: 'helmet', equipment: 'wrench', preview: 'idle' },
+  { id: 'stick-striker', label: 'Striker', family: 'Guard', description: 'Long lower legs and a raised guard for clear kick poses.', headwear: 'headband', equipment: null, preview: 'kick-front' },
+  { id: 'stick-sentinel', label: 'Sentinel', family: 'Guard', description: 'A wide base and strong forearms support a defensive shield pose.', headwear: 'none', equipment: 'shield-riot', preview: 'shield-block' },
+]
+export const ROLE_BY_ID = new Map(CHARACTER_ROLES.map(role => [role.id, role]))
+
+export function roleAvatar(role: CharacterRole): AvatarConfig {
+  return { ...DEFAULT_AVATAR, preset: role.id, headwear: role.headwear, equipment: role.equipment }
+}

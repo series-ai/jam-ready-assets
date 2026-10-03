@@ -1,0 +1,1475 @@
+{
+  "version": "1.4.5",
+  "effects": [
+    {
+      "id": "punch-impact",
+      "label": "Punch Impact",
+      "category": "Combat",
+      "description": "A compact ink star and four directional rays mark a direct hit.",
+      "shape": "star",
+      "count": 1,
+      "duration": 0.25,
+      "size": 0.28,
+      "speed": 0.05,
+      "spread": 0.1,
+      "gravity": 0,
+      "accent": false,
+      "layers": [
+        {
+          "shape": "star",
+          "count": 1,
+          "size": 0.14,
+          "speed": 0.04,
+          "duration": 0.2,
+          "spread": 0.12,
+          "colorRole": "paper"
+        },
+        {
+          "shape": "spark",
+          "count": 4,
+          "size": 0.11,
+          "speed": 2.4,
+          "duration": 0.24,
+          "spread": 0.32,
+          "gravity": 0,
+          "colorRole": "accent"
+        }
+      ]
+    },
+    {
+      "id": "heavy-impact",
+      "label": "Heavy Impact",
+      "category": "Combat",
+      "description": "A crisp impact star anchors a short accent burst.",
+      "shape": "star",
+      "count": 1,
+      "duration": 0.34,
+      "size": 0.38,
+      "speed": 0.05,
+      "spread": 0.16,
+      "gravity": 0,
+      "accent": false,
+      "layers": [
+        {
+          "shape": "star",
+          "count": 1,
+          "size": 0.18,
+          "speed": 0.04,
+          "duration": 0.3,
+          "spread": 0.12,
+          "colorRole": "paper"
+        },
+        {
+          "shape": "spark",
+          "count": 5,
+          "size": 0.14,
+          "speed": 3.2,
+          "duration": 0.34,
+          "spread": 0.42,
+          "gravity": 0,
+          "colorRole": "accent"
+        }
+      ]
+    },
+    {
+      "id": "kick-impact",
+      "label": "Kick Impact",
+      "category": "Combat",
+      "description": "Long rays follow a strong kick.",
+      "shape": "stroke",
+      "count": 4,
+      "duration": 0.26,
+      "size": 0.22,
+      "speed": 2.8,
+      "spread": 0.32,
+      "gravity": 0,
+      "accent": false,
+      "layers": []
+    },
+    {
+      "id": "uppercut",
+      "label": "Uppercut",
+      "category": "Combat",
+      "description": "A rising arc and a narrow upward burst.",
+      "shape": "arc",
+      "count": 1,
+      "duration": 0.23,
+      "size": 0.38,
+      "speed": 0.65,
+      "spread": 0.1,
+      "gravity": -0.4,
+      "accent": false,
+      "layers": [
+        {
+          "shape": "spark",
+          "count": 3,
+          "size": 0.1,
+          "speed": 1.8,
+          "spread": 0.2
+        }
+      ]
+    },
+    {
+      "id": "sword-slash",
+      "label": "Sword Slash",
+      "category": "Combat",
+      "description": "One tapered crescent follows the blade.",
+      "shape": "arc",
+      "count": 1,
+      "duration": 0.22,
+      "size": 0.6,
+      "speed": 0.2,
+      "spread": 0.07,
+      "gravity": 0,
+      "accent": false,
+      "layers": []
+    },
+    {
+      "id": "sword-cross",
+      "label": "Sword Cross",
+      "category": "Combat",
+      "description": "Crossed short blade trails.",
+      "shape": "stroke",
+      "count": 1,
+      "duration": 0.2,
+      "size": 0.46,
+      "speed": 0.08,
+      "spread": 0.035,
+      "gravity": 0,
+      "accent": false,
+      "angle": 0.7853981633974483,
+      "layers": [
+        {
+          "shape": "stroke",
+          "count": 1,
+          "angle": -0.7853981633974483
+        }
+      ]
+    },
+    {
+      "id": "staff-sweep",
+      "label": "Staff Sweep",
+      "category": "Combat",
+      "description": "A wide curved stroke follows a staff.",
+      "shape": "arc",
+      "count": 1,
+      "duration": 0.3,
+      "size": 0.78,
+      "speed": 0.2,
+      "spread": 0.08,
+      "gravity": 0,
+      "accent": false,
+      "layers": []
+    },
+    {
+      "id": "parry-flash",
+      "label": "Parry Flash",
+      "category": "Combat",
+      "description": "A sharp accent burst marks a timed block.",
+      "shape": "star",
+      "count": 1,
+      "duration": 0.18,
+      "size": 0.23,
+      "speed": 0.06,
+      "spread": 0.1,
+      "gravity": 0,
+      "accent": true,
+      "layers": [
+        {
+          "shape": "star",
+          "count": 1,
+          "colorRole": "paper"
+        },
+        {
+          "shape": "spark",
+          "count": 3,
+          "size": 0.08,
+          "speed": 2.2,
+          "spread": 0.32
+        }
+      ]
+    },
+    {
+      "id": "block-ring",
+      "label": "Block Ring",
+      "category": "Combat",
+      "description": "A compact ring shows a blocked hit.",
+      "shape": "ring",
+      "count": 1,
+      "duration": 0.22,
+      "size": 0.27,
+      "speed": 0.05,
+      "spread": 0.1,
+      "gravity": 0,
+      "accent": false,
+      "layers": []
+    },
+    {
+      "id": "guard-break",
+      "label": "Guard Break",
+      "category": "Combat",
+      "description": "Broken ink chips move away from the guard.",
+      "shape": "chip",
+      "count": 7,
+      "duration": 0.38,
+      "size": 0.1,
+      "speed": 1.9,
+      "spread": 0.6,
+      "gravity": 3,
+      "accent": false,
+      "layers": [
+        {
+          "shape": "arc",
+          "count": 2,
+          "size": 0.23,
+          "speed": 0.65,
+          "duration": 0.24,
+          "gravity": 0
+        }
+      ]
+    },
+    {
+      "id": "dodge-trail",
+      "label": "Dodge Trail",
+      "category": "Combat",
+      "description": "Fine strokes show a fast side step.",
+      "shape": "stroke",
+      "count": 4,
+      "duration": 0.24,
+      "size": 0.27,
+      "speed": 1.7,
+      "spread": 0.1,
+      "gravity": 0,
+      "accent": false,
+      "layers": []
+    },
+    {
+      "id": "critical-hit",
+      "label": "Critical Hit",
+      "category": "Combat",
+      "description": "An accent star and fast rays mark a critical hit.",
+      "shape": "star",
+      "count": 1,
+      "duration": 0.28,
+      "size": 0.32,
+      "speed": 0.04,
+      "spread": 0.1,
+      "gravity": 0,
+      "accent": true,
+      "layers": [
+        {
+          "shape": "star",
+          "count": 1,
+          "size": 0.15,
+          "speed": 0.04,
+          "duration": 0.28,
+          "spread": 0.14,
+          "colorRole": "paper"
+        },
+        {
+          "shape": "spark",
+          "count": 6,
+          "size": 0.12,
+          "speed": 3.4,
+          "duration": 0.34,
+          "spread": 0.42,
+          "gravity": 0,
+          "colorRole": "ink"
+        }
+      ]
+    },
+    {
+      "id": "blade-contact",
+      "label": "Blade Contact",
+      "category": "Combat",
+      "description": "A short crescent and paper core mark a clean blade contact.",
+      "shape": "arc",
+      "count": 1,
+      "duration": 0.18,
+      "size": 0.24,
+      "speed": 0.12,
+      "spread": 0.1,
+      "gravity": 0,
+      "accent": false,
+      "layers": [
+        {
+          "shape": "star",
+          "count": 1,
+          "size": 0.12,
+          "speed": 0.03,
+          "duration": 0.2,
+          "spread": 0.08,
+          "colorRole": "paper"
+        },
+        {
+          "shape": "spark",
+          "count": 3,
+          "size": 0.07,
+          "speed": 1.9,
+          "duration": 0.2,
+          "spread": 0.25,
+          "gravity": 0,
+          "colorRole": "accent"
+        }
+      ]
+    },
+    {
+      "id": "weapon-clash",
+      "label": "Weapon Clash",
+      "category": "Combat",
+      "description": "A compact clash star and four sparks mark crossed weapons.",
+      "shape": "star",
+      "count": 1,
+      "duration": 0.22,
+      "size": 0.26,
+      "speed": 0.04,
+      "spread": 0.1,
+      "gravity": 0,
+      "accent": false,
+      "layers": [
+        {
+          "shape": "star",
+          "count": 1,
+          "size": 0.13,
+          "speed": 0.04,
+          "duration": 0.24,
+          "spread": 0.1,
+          "colorRole": "paper"
+        },
+        {
+          "shape": "spark",
+          "count": 4,
+          "size": 0.08,
+          "speed": 2.2,
+          "duration": 0.24,
+          "spread": 0.35,
+          "gravity": 0,
+          "colorRole": "accent"
+        }
+      ]
+    },
+    {
+      "id": "shield-bash",
+      "label": "Shield Bash",
+      "category": "Combat",
+      "description": "A tight ring and sparks mark a shield bash.",
+      "shape": "ring",
+      "count": 1,
+      "duration": 0.22,
+      "size": 0.28,
+      "speed": 0.12,
+      "spread": 0.1,
+      "gravity": 0,
+      "accent": false,
+      "layers": [
+        {
+          "shape": "star",
+          "count": 1,
+          "size": 0.1,
+          "speed": 0.04,
+          "duration": 0.18,
+          "spread": 0.1,
+          "colorRole": "paper"
+        },
+        {
+          "shape": "spark",
+          "count": 3,
+          "size": 0.07,
+          "speed": 1.8,
+          "duration": 0.22,
+          "spread": 0.25,
+          "gravity": 0,
+          "colorRole": "accent"
+        }
+      ]
+    },
+    {
+      "id": "guard-shock",
+      "label": "Guard Shock",
+      "category": "Combat",
+      "description": "Short rays push away from a broken guard.",
+      "shape": "spark",
+      "count": 4,
+      "duration": 0.24,
+      "size": 0.1,
+      "speed": 1.9,
+      "spread": 0.32,
+      "gravity": 0,
+      "accent": true,
+      "layers": [
+        {
+          "shape": "spark",
+          "count": 4,
+          "size": 0.08,
+          "speed": 1.9,
+          "duration": 0.3,
+          "spread": 0.36,
+          "gravity": 0,
+          "colorRole": "accent"
+        }
+      ]
+    },
+    {
+      "id": "counter-flash",
+      "label": "Counter Flash",
+      "category": "Combat",
+      "description": "A small accent flash marks a timed counter.",
+      "shape": "star",
+      "count": 1,
+      "duration": 0.24,
+      "size": 0.25,
+      "speed": 0.04,
+      "spread": 0.1,
+      "gravity": 0,
+      "accent": true,
+      "layers": [
+        {
+          "shape": "star",
+          "count": 1,
+          "size": 0.11,
+          "speed": 0.03,
+          "duration": 0.18,
+          "spread": 0.08,
+          "colorRole": "paper"
+        }
+      ]
+    },
+    {
+      "id": "pistol-flash",
+      "label": "Pistol Flash",
+      "category": "Weapons",
+      "description": "A small forward muzzle flash.",
+      "shape": "star",
+      "count": 1,
+      "duration": 0.1,
+      "size": 0.17,
+      "speed": 0.6,
+      "spread": 0.1,
+      "gravity": 0,
+      "accent": true,
+      "layers": []
+    },
+    {
+      "id": "rifle-flash",
+      "label": "Rifle Flash",
+      "category": "Weapons",
+      "description": "A narrow muzzle burst for rapid fire.",
+      "shape": "spark",
+      "count": 3,
+      "duration": 0.1,
+      "size": 0.18,
+      "speed": 1.8,
+      "spread": 0.1,
+      "gravity": 0,
+      "accent": true,
+      "layers": [
+        {
+          "shape": "star",
+          "count": 1,
+          "size": 0.12,
+          "speed": 0.1
+        }
+      ]
+    },
+    {
+      "id": "shotgun-flash",
+      "label": "Shotgun Flash",
+      "category": "Weapons",
+      "description": "A wide short muzzle burst.",
+      "shape": "star",
+      "count": 1,
+      "duration": 0.12,
+      "size": 0.25,
+      "speed": 0.8,
+      "spread": 0.14,
+      "gravity": 0,
+      "accent": true,
+      "layers": [
+        {
+          "shape": "star",
+          "count": 1,
+          "colorRole": "paper"
+        },
+        {
+          "shape": "spark",
+          "count": 4,
+          "size": 0.14,
+          "speed": 2.4,
+          "spread": 0.22
+        }
+      ]
+    },
+    {
+      "id": "bullet-tracer",
+      "label": "Bullet Tracer",
+      "category": "Weapons",
+      "description": "A long narrow stroke follows a shot.",
+      "shape": "stroke",
+      "count": 1,
+      "duration": 0.12,
+      "size": 0.48,
+      "speed": 8,
+      "spread": 0.01,
+      "gravity": 0,
+      "accent": false,
+      "layers": []
+    },
+    {
+      "id": "bullet-impact",
+      "label": "Bullet Impact",
+      "category": "Weapons",
+      "description": "Short chips and rays mark a hard surface.",
+      "shape": "chip",
+      "count": 5,
+      "duration": 0.3,
+      "size": 0.07,
+      "speed": 1.9,
+      "spread": 0.5,
+      "gravity": 4,
+      "accent": false,
+      "layers": []
+    },
+    {
+      "id": "shell-eject",
+      "label": "Shell Eject",
+      "category": "Weapons",
+      "description": "One small falling cartridge mark.",
+      "shape": "chip",
+      "count": 1,
+      "duration": 0.48,
+      "size": 0.06,
+      "speed": 1.3,
+      "spread": 0.3,
+      "gravity": 5,
+      "accent": true,
+      "layers": []
+    },
+    {
+      "id": "arrow-trail",
+      "label": "Arrow Trail",
+      "category": "Weapons",
+      "description": "A fine low-density arrow wake.",
+      "shape": "stroke",
+      "count": 2,
+      "duration": 0.24,
+      "size": 0.34,
+      "speed": 2.3,
+      "spread": 0.035,
+      "gravity": 0,
+      "accent": false,
+      "layers": []
+    },
+    {
+      "id": "plasma-pulse",
+      "label": "Plasma Pulse",
+      "category": "Weapons",
+      "description": "Graphic accent rings form an energy pulse.",
+      "shape": "ring",
+      "count": 2,
+      "duration": 0.32,
+      "size": 0.26,
+      "speed": 1.2,
+      "spread": 0.08,
+      "gravity": 0,
+      "accent": true,
+      "layers": []
+    },
+    {
+      "id": "muzzle-snap",
+      "label": "Muzzle Snap",
+      "category": "Weapons",
+      "description": "A short paper snap clarifies a compact muzzle hit.",
+      "shape": "star",
+      "count": 1,
+      "duration": 0.12,
+      "size": 0.2,
+      "speed": 1.7,
+      "spread": 0.12,
+      "gravity": 0,
+      "accent": true,
+      "layers": [
+        {
+          "shape": "spark",
+          "count": 2,
+          "size": 0.06,
+          "speed": 2.4,
+          "duration": 0.1,
+          "spread": 0.18,
+          "gravity": 0,
+          "colorRole": "paper"
+        }
+      ]
+    },
+    {
+      "id": "ricochet",
+      "label": "Ricochet",
+      "category": "Weapons",
+      "description": "Warm chips turn away from a hard surface.",
+      "shape": "spark",
+      "count": 4,
+      "duration": 0.25,
+      "size": 0.085,
+      "speed": 2.4,
+      "spread": 0.35,
+      "gravity": 0.8,
+      "accent": true,
+      "layers": [
+        {
+          "shape": "star",
+          "count": 1,
+          "size": 0.08,
+          "speed": 0.03,
+          "duration": 0.18,
+          "spread": 0.1,
+          "colorRole": "paper"
+        }
+      ]
+    },
+    {
+      "id": "shell-burst",
+      "label": "Shell Burst",
+      "category": "Weapons",
+      "description": "Small brass marks arc away after a reload.",
+      "shape": "chip",
+      "count": 3,
+      "duration": 0.38,
+      "size": 0.075,
+      "speed": 1.5,
+      "spread": 0.3,
+      "gravity": 4,
+      "accent": true,
+      "layers": [
+        {
+          "shape": "spark",
+          "count": 3,
+          "size": 0.06,
+          "speed": 1.6,
+          "duration": 0.28,
+          "spread": 0.3,
+          "gravity": 3,
+          "colorRole": "accent"
+        }
+      ]
+    },
+    {
+      "id": "plasma-hit",
+      "label": "Plasma Hit",
+      "category": "Weapons",
+      "description": "A tight energy ring opens at a plasma impact.",
+      "shape": "ring",
+      "count": 1,
+      "duration": 0.28,
+      "size": 0.27,
+      "speed": 0.25,
+      "spread": 0.1,
+      "gravity": 0,
+      "accent": true,
+      "layers": [
+        {
+          "shape": "star",
+          "count": 1,
+          "size": 0.14,
+          "speed": 0.04,
+          "duration": 0.26,
+          "spread": 0.1,
+          "colorRole": "paper"
+        },
+        {
+          "shape": "spark",
+          "count": 5,
+          "size": 0.08,
+          "speed": 2.2,
+          "duration": 0.3,
+          "spread": 0.42,
+          "gravity": 0,
+          "colorRole": "accent"
+        }
+      ]
+    },
+    {
+      "id": "footstep-dust",
+      "label": "Footstep Dust",
+      "category": "Movement",
+      "description": "Small outline puffs under a moving foot.",
+      "shape": "dust",
+      "count": 3,
+      "duration": 0.34,
+      "size": 0.12,
+      "speed": 0.5,
+      "spread": 0.7,
+      "gravity": -0.3,
+      "accent": false,
+      "floor": true,
+      "layers": []
+    },
+    {
+      "id": "sprint-streak",
+      "label": "Sprint Streak",
+      "category": "Movement",
+      "description": "Thin trailing strokes show speed.",
+      "shape": "stroke",
+      "count": 4,
+      "duration": 0.23,
+      "size": 0.35,
+      "speed": 2.2,
+      "spread": 0.07,
+      "gravity": 0,
+      "accent": false,
+      "layers": []
+    },
+    {
+      "id": "jump-puff",
+      "label": "Jump Puff",
+      "category": "Movement",
+      "description": "A low puff spreads from a jump.",
+      "shape": "dust",
+      "count": 3,
+      "duration": 0.33,
+      "size": 0.18,
+      "speed": 0.85,
+      "spread": 0.8,
+      "gravity": -0.35,
+      "accent": false,
+      "floor": true,
+      "layers": []
+    },
+    {
+      "id": "landing-dust",
+      "label": "Landing Dust",
+      "category": "Movement",
+      "description": "A wider floor burst marks a landing.",
+      "shape": "dust",
+      "count": 4,
+      "duration": 0.38,
+      "size": 0.23,
+      "speed": 1.2,
+      "spread": 0.8,
+      "gravity": -0.2,
+      "accent": false,
+      "floor": true,
+      "layers": [
+        {
+          "shape": "ring",
+          "count": 1,
+          "size": 0.38,
+          "speed": 0.03,
+          "duration": 0.2,
+          "floor": true
+        }
+      ]
+    },
+    {
+      "id": "double-jump-ring",
+      "label": "Double Jump Ring",
+      "category": "Movement",
+      "description": "A thin ring opens below the figure.",
+      "shape": "ring",
+      "count": 1,
+      "duration": 0.32,
+      "size": 0.5,
+      "speed": 0.06,
+      "spread": 0.2,
+      "gravity": 0,
+      "accent": false,
+      "floor": true,
+      "layers": []
+    },
+    {
+      "id": "slide-dust",
+      "label": "Slide Dust",
+      "category": "Movement",
+      "description": "A low trail follows a slide.",
+      "shape": "dust",
+      "count": 5,
+      "duration": 0.44,
+      "size": 0.15,
+      "speed": 0.9,
+      "spread": 0.2,
+      "gravity": 0,
+      "accent": false,
+      "floor": true,
+      "layers": []
+    },
+    {
+      "id": "wall-scrape",
+      "label": "Wall Scrape",
+      "category": "Movement",
+      "description": "Small sparks mark contact with a wall.",
+      "shape": "spark",
+      "count": 5,
+      "duration": 0.3,
+      "size": 0.095,
+      "speed": 1.65,
+      "spread": 0.25,
+      "gravity": 3,
+      "accent": false,
+      "layers": []
+    },
+    {
+      "id": "dash-ring",
+      "label": "Dash Ring",
+      "category": "Movement",
+      "description": "Short curved lines mark a fast dash.",
+      "shape": "arc",
+      "count": 2,
+      "duration": 0.23,
+      "size": 0.35,
+      "speed": 1.3,
+      "spread": 0.15,
+      "gravity": 0,
+      "accent": false,
+      "floor": true,
+      "layers": []
+    },
+    {
+      "id": "vault-dust",
+      "label": "Vault Dust",
+      "category": "Movement",
+      "description": "A low paper puff marks a vault takeoff.",
+      "shape": "dust",
+      "count": 3,
+      "duration": 0.36,
+      "size": 0.15,
+      "speed": 0.8,
+      "spread": 0.6,
+      "gravity": -0.3,
+      "accent": false,
+      "floor": true,
+      "layers": [
+        {
+          "shape": "ring",
+          "count": 1,
+          "size": 0.36,
+          "speed": 0.04,
+          "duration": 0.3,
+          "spread": 0.1,
+          "floor": true,
+          "colorRole": "paper"
+        }
+      ]
+    },
+    {
+      "id": "wall-kick",
+      "label": "Wall Kick",
+      "category": "Movement",
+      "description": "A short wall mark follows a kick-off.",
+      "shape": "spark",
+      "count": 4,
+      "duration": 0.23,
+      "size": 0.095,
+      "speed": 1.9,
+      "spread": 0.2,
+      "gravity": 1.2,
+      "accent": false,
+      "layers": [
+        {
+          "shape": "arc",
+          "count": 1,
+          "size": 0.34,
+          "speed": 0.45,
+          "duration": 0.24,
+          "spread": 0.1,
+          "gravity": 0,
+          "colorRole": "paper"
+        }
+      ]
+    },
+    {
+      "id": "grind-sparks",
+      "label": "Grind Sparks",
+      "category": "Movement",
+      "description": "Fine sparks follow a rail grind.",
+      "shape": "spark",
+      "count": 6,
+      "duration": 0.3,
+      "size": 0.08,
+      "speed": 2.2,
+      "spread": 0.2,
+      "gravity": 1.8,
+      "accent": true,
+      "layers": [
+        {
+          "shape": "chip",
+          "count": 3,
+          "size": 0.07,
+          "speed": 2.1,
+          "duration": 0.3,
+          "spread": 0.22,
+          "gravity": 1.5,
+          "colorRole": "paper"
+        }
+      ]
+    },
+    {
+      "id": "zipline-streak",
+      "label": "Zipline Streak",
+      "category": "Movement",
+      "description": "Thin strokes follow a fast zipline pass.",
+      "shape": "stroke",
+      "count": 3,
+      "duration": 0.24,
+      "size": 0.24,
+      "speed": 2.8,
+      "spread": 0.06,
+      "gravity": 0,
+      "accent": false,
+      "layers": [
+        {
+          "shape": "spark",
+          "count": 3,
+          "size": 0.06,
+          "speed": 2.4,
+          "duration": 0.24,
+          "spread": 0.12,
+          "gravity": 0,
+          "colorRole": "accent"
+        }
+      ]
+    },
+    {
+      "id": "hard-stop",
+      "label": "Hard Stop",
+      "category": "Movement",
+      "description": "A tight arc and dust mark a sudden stop.",
+      "shape": "arc",
+      "count": 2,
+      "duration": 0.22,
+      "size": 0.24,
+      "speed": 0.7,
+      "spread": 0.25,
+      "gravity": 0,
+      "accent": false,
+      "floor": true,
+      "layers": [
+        {
+          "shape": "dust",
+          "count": 3,
+          "size": 0.1,
+          "speed": 0.8,
+          "duration": 0.3,
+          "spread": 0.3,
+          "gravity": -0.2,
+          "floor": true,
+          "colorRole": "paper"
+        }
+      ]
+    },
+    {
+      "id": "crate-break",
+      "label": "Crate Break",
+      "category": "Destruction",
+      "description": "Angular fragments fall from a broken crate.",
+      "shape": "chip",
+      "count": 10,
+      "duration": 0.64,
+      "size": 0.13,
+      "speed": 1.9,
+      "spread": 0.8,
+      "gravity": 5,
+      "accent": false,
+      "layers": [
+        {
+          "shape": "dust",
+          "count": 3,
+          "size": 0.22,
+          "speed": 0.6,
+          "duration": 0.48,
+          "gravity": -0.2
+        }
+      ]
+    },
+    {
+      "id": "metal-sparks",
+      "label": "Metal Sparks",
+      "category": "Destruction",
+      "description": "Fine warm sparks fall from damaged metal.",
+      "shape": "spark",
+      "count": 12,
+      "duration": 0.45,
+      "size": 0.1,
+      "speed": 2.8,
+      "spread": 0.8,
+      "gravity": 4,
+      "accent": true,
+      "layers": []
+    },
+    {
+      "id": "concrete-chips",
+      "label": "Concrete Chips",
+      "category": "Destruction",
+      "description": "Heavy gray fragments mark a hard impact.",
+      "shape": "chip",
+      "count": 8,
+      "duration": 0.48,
+      "size": 0.14,
+      "speed": 1.6,
+      "spread": 0.8,
+      "gravity": 5,
+      "accent": false,
+      "layers": []
+    },
+    {
+      "id": "steam-vent",
+      "label": "Steam Vent",
+      "category": "Destruction",
+      "description": "Outline steam puffs rise from a pipe.",
+      "shape": "dust",
+      "count": 6,
+      "duration": 1.1,
+      "size": 0.27,
+      "speed": 0.6,
+      "spread": 0.16,
+      "gravity": -0.6,
+      "accent": false,
+      "layers": []
+    },
+    {
+      "id": "smoke-puff",
+      "label": "Smoke Puff",
+      "category": "Destruction",
+      "description": "Loose outline loops rise and spread.",
+      "shape": "dust",
+      "count": 5,
+      "duration": 0.9,
+      "size": 0.3,
+      "speed": 0.5,
+      "spread": 0.55,
+      "gravity": -0.35,
+      "accent": false,
+      "layers": []
+    },
+    {
+      "id": "explosion",
+      "label": "Explosion",
+      "category": "Destruction",
+      "description": "One clear flash, short rays, and four smoke strokes mark an explosion.",
+      "shape": "star",
+      "count": 1,
+      "duration": 0.32,
+      "size": 0.55,
+      "speed": 0.07,
+      "spread": 0.1,
+      "gravity": 0,
+      "accent": true,
+      "layers": [
+        {
+          "shape": "star",
+          "count": 1,
+          "colorRole": "paper"
+        },
+        {
+          "shape": "ring",
+          "count": 1,
+          "size": 0.65,
+          "speed": 0.05,
+          "duration": 0.28,
+          "gravity": 0,
+          "colorRole": "ink"
+        },
+        {
+          "shape": "spark",
+          "count": 6,
+          "size": 0.15,
+          "speed": 3.2,
+          "duration": 0.38,
+          "spread": 1,
+          "colorRole": "accent"
+        },
+        {
+          "shape": "dust",
+          "count": 4,
+          "size": 0.25,
+          "speed": 1.1,
+          "duration": 0.6,
+          "spread": 0.8,
+          "gravity": -0.35,
+          "colorRole": "ink"
+        }
+      ]
+    },
+    {
+      "id": "welding-arc",
+      "label": "Welding Arc",
+      "category": "Destruction",
+      "description": "A tight hot arc and short sparks mark welding.",
+      "shape": "spark",
+      "count": 6,
+      "duration": 0.3,
+      "size": 0.1,
+      "speed": 2.1,
+      "spread": 0.4,
+      "gravity": 2,
+      "accent": true,
+      "layers": [
+        {
+          "shape": "star",
+          "count": 1,
+          "size": 0.1,
+          "speed": 0.03,
+          "duration": 0.2,
+          "spread": 0.1,
+          "colorRole": "paper"
+        },
+        {
+          "shape": "spark",
+          "count": 6,
+          "size": 0.06,
+          "speed": 2.6,
+          "duration": 0.38,
+          "spread": 0.6,
+          "gravity": 2,
+          "colorRole": "accent"
+        }
+      ]
+    },
+    {
+      "id": "steam-burst",
+      "label": "Steam Burst",
+      "category": "Destruction",
+      "description": "A short paper puff vents from a hot joint.",
+      "shape": "dust",
+      "count": 5,
+      "duration": 0.55,
+      "size": 0.19,
+      "speed": 1,
+      "spread": 0.5,
+      "gravity": -0.5,
+      "accent": false,
+      "layers": [
+        {
+          "shape": "ring",
+          "count": 1,
+          "size": 0.18,
+          "speed": 0.05,
+          "duration": 0.35,
+          "spread": 0.1,
+          "gravity": 0,
+          "colorRole": "paper"
+        }
+      ]
+    },
+    {
+      "id": "electric-arc",
+      "label": "Electric Arc",
+      "category": "Destruction",
+      "description": "Jagged strokes mark a brief electrical fault.",
+      "shape": "stroke",
+      "count": 4,
+      "duration": 0.2,
+      "size": 0.14,
+      "speed": 1.1,
+      "spread": 0.35,
+      "gravity": 0,
+      "accent": true,
+      "layers": [
+        {
+          "shape": "star",
+          "count": 1,
+          "size": 0.08,
+          "speed": 0.03,
+          "duration": 0.18,
+          "spread": 0.1,
+          "colorRole": "paper"
+        }
+      ]
+    },
+    {
+      "id": "pipe-leak",
+      "label": "Pipe Leak",
+      "category": "Destruction",
+      "description": "Small marks fall from a leaking pipe.",
+      "shape": "dust",
+      "count": 5,
+      "duration": 0.55,
+      "size": 0.12,
+      "speed": 0.8,
+      "spread": 0.3,
+      "gravity": 0.6,
+      "accent": false,
+      "layers": [
+        {
+          "shape": "spark",
+          "count": 3,
+          "size": 0.05,
+          "speed": 1.1,
+          "duration": 0.32,
+          "spread": 0.25,
+          "gravity": 0.8,
+          "colorRole": "accent"
+        }
+      ]
+    },
+    {
+      "id": "hazard-flare",
+      "label": "Hazard Flare",
+      "category": "Destruction",
+      "description": "An orange star marks an active hazard point.",
+      "shape": "star",
+      "count": 1,
+      "duration": 0.3,
+      "size": 0.18,
+      "speed": 0.15,
+      "spread": 0.1,
+      "gravity": 0,
+      "accent": true,
+      "layers": [
+        {
+          "shape": "ring",
+          "count": 1,
+          "size": 0.22,
+          "speed": 0.2,
+          "duration": 0.26,
+          "spread": 0.1,
+          "gravity": 0,
+          "colorRole": "paper"
+        }
+      ]
+    },
+    {
+      "id": "oil-splash",
+      "label": "Oil Splash",
+      "category": "Destruction",
+      "description": "Dark chips spread from a short oil splash.",
+      "shape": "chip",
+      "count": 6,
+      "duration": 0.38,
+      "size": 0.12,
+      "speed": 1,
+      "spread": 0.6,
+      "gravity": 1.6,
+      "accent": false,
+      "layers": [
+        {
+          "shape": "chip",
+          "count": 3,
+          "size": 0.06,
+          "speed": 1.2,
+          "duration": 0.28,
+          "spread": 0.5,
+          "gravity": 1.2,
+          "colorRole": "ink"
+        }
+      ]
+    },
+    {
+      "id": "pickup-sparkle",
+      "label": "Pickup Sparkle",
+      "category": "Status",
+      "description": "Small accent stars mark a collected object.",
+      "shape": "star",
+      "count": 4,
+      "duration": 0.46,
+      "size": 0.1,
+      "speed": 0.7,
+      "spread": 0.7,
+      "gravity": -0.35,
+      "accent": true,
+      "layers": []
+    },
+    {
+      "id": "health-pulse",
+      "label": "Health Pulse",
+      "category": "Status",
+      "description": "Gentle rings rise around the figure.",
+      "shape": "ring",
+      "count": 2,
+      "duration": 0.65,
+      "size": 0.47,
+      "speed": 0.12,
+      "spread": 0.08,
+      "gravity": -0.2,
+      "accent": true,
+      "floor": true,
+      "layers": []
+    },
+    {
+      "id": "shield",
+      "label": "Shield",
+      "category": "Status",
+      "description": "A thin graphic ring protects the figure.",
+      "shape": "ring",
+      "count": 1,
+      "duration": 0.85,
+      "size": 0.87,
+      "speed": 0.02,
+      "spread": 0.02,
+      "gravity": 0,
+      "accent": true,
+      "layers": []
+    },
+    {
+      "id": "stun-stars",
+      "label": "Stun Stars",
+      "category": "Status",
+      "description": "Small stars orbit above the head.",
+      "shape": "star",
+      "count": 3,
+      "duration": 0.9,
+      "size": 0.09,
+      "speed": 0.08,
+      "spread": 0.45,
+      "gravity": 0,
+      "accent": true,
+      "spiral": 4,
+      "orbitRadius": 0.22,
+      "layers": []
+    },
+    {
+      "id": "checkpoint",
+      "label": "Checkpoint",
+      "category": "Status",
+      "description": "One compact floor ring and small rising marks show progress.",
+      "shape": "ring",
+      "count": 1,
+      "duration": 0.58,
+      "size": 0.34,
+      "speed": 0.04,
+      "spread": 0.12,
+      "gravity": 0,
+      "accent": true,
+      "floor": true,
+      "layers": [
+        {
+          "shape": "spark",
+          "count": 4,
+          "size": 0.1,
+          "speed": 0.65,
+          "duration": 0.62,
+          "spread": 0.34,
+          "gravity": -0.35,
+          "colorRole": "accent"
+        }
+      ]
+    },
+    {
+      "id": "spawn-ring",
+      "label": "Spawn Ring",
+      "category": "Status",
+      "description": "Two compact floor rings mark an arrival.",
+      "shape": "ring",
+      "count": 2,
+      "duration": 0.58,
+      "size": 0.65,
+      "speed": 0.03,
+      "spread": 0.1,
+      "gravity": 0,
+      "accent": true,
+      "floor": true,
+      "layers": [
+        {
+          "shape": "stroke",
+          "count": 4,
+          "size": 0.16,
+          "speed": 0.45,
+          "duration": 0.4,
+          "floor": false
+        }
+      ]
+    },
+    {
+      "id": "combo-rise",
+      "label": "Combo Rise",
+      "category": "Status",
+      "description": "Three rising tapered marks confirm a combo step.",
+      "shape": "spark",
+      "count": 3,
+      "duration": 0.46,
+      "size": 0.16,
+      "speed": 0.9,
+      "spread": 0.1,
+      "gravity": -0.5,
+      "accent": true,
+      "spiral": 2,
+      "orbitRadius": 0.16,
+      "angle": 1.5707963267948966,
+      "layers": [
+        {
+          "shape": "star",
+          "count": 1,
+          "size": 0.08,
+          "speed": 0.1,
+          "duration": 0.34,
+          "spread": 0.1,
+          "colorRole": "paper"
+        }
+      ]
+    },
+    {
+      "id": "damage-pips",
+      "label": "Damage Pips",
+      "category": "Status",
+      "description": "Short pips show a small damage event.",
+      "shape": "chip",
+      "count": 4,
+      "duration": 0.32,
+      "size": 0.08,
+      "speed": 0.9,
+      "spread": 0.3,
+      "gravity": 0.5,
+      "accent": true,
+      "layers": [
+        {
+          "shape": "spark",
+          "count": 3,
+          "size": 0.06,
+          "speed": 1.1,
+          "duration": 0.26,
+          "spread": 0.3,
+          "gravity": 0.4,
+          "colorRole": "paper"
+        }
+      ]
+    },
+    {
+      "id": "focus-pulse",
+      "label": "Focus Pulse",
+      "category": "Status",
+      "description": "A small ring marks a focused state.",
+      "shape": "ring",
+      "count": 1,
+      "duration": 0.46,
+      "size": 0.31,
+      "speed": 0.06,
+      "spread": 0.1,
+      "gravity": 0,
+      "accent": true,
+      "layers": [
+        {
+          "shape": "star",
+          "count": 1,
+          "size": 0.09,
+          "speed": 0.03,
+          "duration": 0.22,
+          "spread": 0.1,
+          "colorRole": "paper"
+        }
+      ]
+    },
+    {
+      "id": "danger-pulse",
+      "label": "Danger Pulse",
+      "category": "Status",
+      "description": "A compact warning ring marks a danger state.",
+      "shape": "ring",
+      "count": 1,
+      "duration": 0.48,
+      "size": 0.35,
+      "speed": 0.08,
+      "spread": 0.1,
+      "gravity": 0,
+      "accent": true,
+      "layers": [
+        {
+          "shape": "spark",
+          "count": 4,
+          "size": 0.06,
+          "speed": 1.1,
+          "duration": 0.3,
+          "spread": 0.4,
+          "gravity": 0,
+          "colorRole": "paper"
+        }
+      ]
+    }
+  ]
+}

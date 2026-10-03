@@ -1,0 +1,4124 @@
+{
+  "models": [
+    {
+      "id": "stick-standard",
+      "label": "Stick Core",
+      "kind": "character",
+      "category": "standard",
+      "file": "3D/characters/stick-standard.glb",
+      "thumbnail": "3D/characters/previews/stick-standard.png",
+      "dimensions": [
+        0.29,
+        1.801,
+        0.29
+      ],
+      "triangles": 2416,
+      "vertices": 1234,
+      "materials": 1,
+      "description": "Balanced core figure with open reach, a balanced stance, and a clean adaptable line of action.",
+      "tags": [
+        "core",
+        "balanced",
+        "neutral",
+        "thin-stroke"
+      ]
+    },
+    {
+      "id": "stick-runner",
+      "label": "Stick Runner",
+      "kind": "character",
+      "category": "athlete",
+      "file": "3D/characters/stick-runner.glb",
+      "thumbnail": "3D/characters/previews/stick-runner.png",
+      "dimensions": [
+        0.28,
+        1.821,
+        0.28
+      ],
+      "triangles": 2416,
+      "vertices": 1234,
+      "materials": 1,
+      "description": "Swift runner with a short torso, long lower legs, and a forward-ready line of action.",
+      "tags": [
+        "runner",
+        "swift",
+        "long-shin",
+        "lightweight"
+      ]
+    },
+    {
+      "id": "stick-fighter",
+      "label": "Stick Duelist",
+      "kind": "character",
+      "category": "combat",
+      "file": "3D/characters/stick-fighter.glb",
+      "thumbnail": "3D/characters/previews/stick-fighter.png",
+      "dimensions": [
+        0.29,
+        1.781,
+        0.29
+      ],
+      "triangles": 2416,
+      "vertices": 1234,
+      "materials": 1,
+      "description": "Reach duelist with a wide guard, long forearms, bent knees, and clear striking hands.",
+      "tags": [
+        "duelist",
+        "reach",
+        "wide-guard",
+        "melee"
+      ]
+    },
+    {
+      "id": "stick-tall",
+      "label": "Stick Staff Adept",
+      "kind": "character",
+      "category": "tall",
+      "file": "3D/characters/stick-tall.glb",
+      "thumbnail": "3D/characters/previews/stick-tall.png",
+      "dimensions": [
+        0.32,
+        2.051,
+        0.32
+      ],
+      "triangles": 2416,
+      "vertices": 1234,
+      "materials": 1,
+      "description": "Reach specialist with visibly long arms, a tall frame, and a controlled staff-ready stance.",
+      "tags": [
+        "staff-adept",
+        "reach",
+        "long-arms",
+        "slender"
+      ]
+    },
+    {
+      "id": "stick-compact",
+      "label": "Stick Scrapper",
+      "kind": "character",
+      "category": "agile",
+      "file": "3D/characters/stick-compact.glb",
+      "thumbnail": "3D/characters/previews/stick-compact.png",
+      "dimensions": [
+        0.26,
+        1.54,
+        0.26
+      ],
+      "triangles": 2416,
+      "vertices": 1234,
+      "materials": 1,
+      "description": "Low-center scrapper with a compact torso, grounded feet, and quick close-range movement.",
+      "tags": [
+        "scrapper",
+        "compact",
+        "low-center",
+        "agile"
+      ]
+    },
+    {
+      "id": "stick-heavy",
+      "label": "Stick Heavy",
+      "kind": "character",
+      "category": "heavy",
+      "file": "3D/characters/stick-heavy.glb",
+      "thumbnail": "3D/characters/previews/stick-heavy.png",
+      "dimensions": [
+        0.317,
+        1.861,
+        0.31
+      ],
+      "triangles": 2416,
+      "vertices": 1234,
+      "materials": 1,
+      "description": "Power frame with broad strokes, a short neck, long forearms, and a wide grounded base.",
+      "tags": [
+        "heavy",
+        "power",
+        "broad-frame",
+        "long-forearms"
+      ]
+    },
+    {
+      "id": "stick-scout",
+      "label": "Stick Scout",
+      "kind": "character",
+      "category": "scout",
+      "file": "3D/characters/stick-scout.glb",
+      "thumbnail": "3D/characters/previews/stick-scout.png",
+      "dimensions": [
+        0.28,
+        1.76,
+        0.28
+      ],
+      "triangles": 2416,
+      "vertices": 1234,
+      "materials": 1,
+      "description": "Swift scout with thin lines, long lower legs, and quick feet.",
+      "tags": [
+        "scout",
+        "swift",
+        "long-shin",
+        "thin-lines"
+      ]
+    },
+    {
+      "id": "stick-acrobat",
+      "label": "Stick Acrobat",
+      "kind": "character",
+      "category": "agile",
+      "file": "3D/characters/stick-acrobat.glb",
+      "thumbnail": "3D/characters/previews/stick-acrobat.png",
+      "dimensions": [
+        0.27,
+        1.701,
+        0.27
+      ],
+      "triangles": 2416,
+      "vertices": 1234,
+      "materials": 1,
+      "description": "Acrobat with a compact torso, long mobile limbs, and a ready open line through the hips.",
+      "tags": [
+        "acrobat",
+        "mobile",
+        "long-limbs",
+        "parkour"
+      ]
+    },
+    {
+      "id": "stick-worker",
+      "label": "Stick Worker",
+      "kind": "character",
+      "category": "utility",
+      "file": "3D/characters/stick-worker.glb",
+      "thumbnail": "3D/characters/previews/stick-worker.png",
+      "dimensions": [
+        0.29,
+        1.801,
+        0.29
+      ],
+      "triangles": 2416,
+      "vertices": 1234,
+      "materials": 1,
+      "description": "Utility worker with a stable base and short arms.",
+      "tags": [
+        "worker",
+        "utility",
+        "sturdy",
+        "short-arms"
+      ]
+    },
+    {
+      "id": "stick-agent",
+      "label": "Stick Agent",
+      "kind": "character",
+      "category": "tactical",
+      "file": "3D/characters/stick-agent.glb",
+      "thumbnail": "3D/characters/previews/stick-agent.png",
+      "dimensions": [
+        0.28,
+        1.831,
+        0.28
+      ],
+      "triangles": 2416,
+      "vertices": 1234,
+      "materials": 1,
+      "description": "Upright agent with thin lines and small controlled movements.",
+      "tags": [
+        "agent",
+        "precise",
+        "upright",
+        "controlled"
+      ]
+    },
+    {
+      "id": "stick-striker",
+      "label": "Stick Striker",
+      "kind": "character",
+      "category": "combat",
+      "file": "3D/characters/stick-striker.glb",
+      "thumbnail": "3D/characters/previews/stick-striker.png",
+      "dimensions": [
+        0.28,
+        1.841,
+        0.28
+      ],
+      "triangles": 2416,
+      "vertices": 1234,
+      "materials": 1,
+      "description": "Striker with a short spine and long lower legs.",
+      "tags": [
+        "striker",
+        "long-shin",
+        "kickboxer",
+        "short-spine"
+      ]
+    },
+    {
+      "id": "stick-sentinel",
+      "label": "Stick Sentinel",
+      "kind": "character",
+      "category": "guardian",
+      "file": "3D/characters/stick-sentinel.glb",
+      "thumbnail": "3D/characters/previews/stick-sentinel.png",
+      "dimensions": [
+        0.33,
+        1.901,
+        0.3
+      ],
+      "triangles": 2416,
+      "vertices": 1234,
+      "materials": 1,
+      "description": "Defense sentinel with thick lines, a low guard, and a stable base.",
+      "tags": [
+        "sentinel",
+        "guard",
+        "broad-defense",
+        "stable-base"
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "id": "idle",
+      "label": "Idle",
+      "category": "movement",
+      "duration": 2,
+      "loop": true,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 60,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 60,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "phases": []
+      }
+    },
+    {
+      "id": "walk",
+      "label": "Walk",
+      "category": "movement",
+      "duration": 1,
+      "loop": true,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 18.4,
+            "velocity": [
+              0,
+              1.25,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 15.5,
+            "endFrame": 30,
+            "velocity": [
+              0,
+              1.25,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 3.8999999999999995,
+            "velocity": [
+              0,
+              1.25,
+              0
+            ]
+          },
+          {
+            "side": "L",
+            "startFrame": 30,
+            "endFrame": 30,
+            "velocity": [
+              0,
+              1.25,
+              0
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "contact",
+            "frame": 1
+          },
+          {
+            "name": "pass",
+            "frame": 8.25
+          },
+          {
+            "name": "opposite",
+            "frame": 15.5
+          },
+          {
+            "name": "pass",
+            "frame": 22.75
+          }
+        ],
+        "locomotion": {
+          "speed": 1.25,
+          "cycleFrames": 29,
+          "stanceFraction": 0.6,
+          "footLift": 0.14,
+          "direction": [
+            0,
+            1
+          ]
+        }
+      },
+      "travelSpeed": 1.25
+    },
+    {
+      "id": "run",
+      "label": "Run",
+      "category": "movement",
+      "duration": 0.733,
+      "loop": true,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 9.82,
+            "velocity": [
+              0,
+              3,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 11.5,
+            "endFrame": 20.32,
+            "velocity": [
+              0,
+              3,
+              0
+            ]
+          },
+          {
+            "side": "L",
+            "startFrame": 22,
+            "endFrame": 22,
+            "velocity": [
+              0,
+              3,
+              0
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "contact",
+            "frame": 1
+          },
+          {
+            "name": "pass",
+            "frame": 6.25
+          },
+          {
+            "name": "opposite",
+            "frame": 11.5
+          },
+          {
+            "name": "pass",
+            "frame": 16.75
+          }
+        ],
+        "locomotion": {
+          "speed": 3,
+          "cycleFrames": 21,
+          "stanceFraction": 0.42,
+          "footLift": 0.3,
+          "direction": [
+            0,
+            1
+          ]
+        }
+      },
+      "travelSpeed": 3
+    },
+    {
+      "id": "sprint",
+      "label": "Sprint",
+      "category": "movement",
+      "duration": 0.533,
+      "loop": true,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 6.1000000000000005,
+            "velocity": [
+              0,
+              4.5,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 8.5,
+            "endFrame": 13.600000000000001,
+            "velocity": [
+              0,
+              4.5,
+              0
+            ]
+          },
+          {
+            "side": "L",
+            "startFrame": 16,
+            "endFrame": 16,
+            "velocity": [
+              0,
+              4.5,
+              0
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "contact",
+            "frame": 1
+          },
+          {
+            "name": "pass",
+            "frame": 4.75
+          },
+          {
+            "name": "opposite",
+            "frame": 8.5
+          },
+          {
+            "name": "pass",
+            "frame": 12.25
+          }
+        ],
+        "locomotion": {
+          "speed": 4.5,
+          "cycleFrames": 15,
+          "stanceFraction": 0.34,
+          "footLift": 0.4,
+          "direction": [
+            0,
+            1
+          ]
+        }
+      },
+      "travelSpeed": 4.5
+    },
+    {
+      "id": "strafe-left",
+      "label": "Strafe Left",
+      "category": "movement",
+      "duration": 0.8,
+      "loop": true,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 12.5,
+            "velocity": [
+              1.1,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 12.5,
+            "endFrame": 24,
+            "velocity": [
+              1.1,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "L",
+            "startFrame": 24,
+            "endFrame": 24,
+            "velocity": [
+              1.1,
+              0,
+              0
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "contact",
+            "frame": 1
+          },
+          {
+            "name": "pass",
+            "frame": 6.75
+          },
+          {
+            "name": "opposite",
+            "frame": 12.5
+          },
+          {
+            "name": "pass",
+            "frame": 18.25
+          }
+        ],
+        "locomotion": {
+          "speed": 1.1,
+          "cycleFrames": 23,
+          "stanceFraction": 0.5,
+          "footLift": 0.15,
+          "direction": [
+            1,
+            0
+          ]
+        }
+      },
+      "travelSpeed": 1.1
+    },
+    {
+      "id": "strafe-right",
+      "label": "Strafe Right",
+      "category": "movement",
+      "duration": 0.8,
+      "loop": true,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 12.5,
+            "velocity": [
+              -1.1,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 12.5,
+            "endFrame": 24,
+            "velocity": [
+              -1.1,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "L",
+            "startFrame": 24,
+            "endFrame": 24,
+            "velocity": [
+              -1.1,
+              0,
+              0
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "contact",
+            "frame": 1
+          },
+          {
+            "name": "pass",
+            "frame": 6.75
+          },
+          {
+            "name": "opposite",
+            "frame": 12.5
+          },
+          {
+            "name": "pass",
+            "frame": 18.25
+          }
+        ],
+        "locomotion": {
+          "speed": 1.1,
+          "cycleFrames": 23,
+          "stanceFraction": 0.5,
+          "footLift": 0.15,
+          "direction": [
+            -1,
+            0
+          ]
+        }
+      },
+      "travelSpeed": 1.1
+    },
+    {
+      "id": "walk-backward",
+      "label": "Walk Backward",
+      "category": "movement",
+      "duration": 1,
+      "loop": true,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 18.4,
+            "velocity": [
+              0,
+              -1.1,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 15.5,
+            "endFrame": 30,
+            "velocity": [
+              0,
+              -1.1,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 3.8999999999999995,
+            "velocity": [
+              0,
+              -1.1,
+              0
+            ]
+          },
+          {
+            "side": "L",
+            "startFrame": 30,
+            "endFrame": 30,
+            "velocity": [
+              0,
+              -1.1,
+              0
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "contact",
+            "frame": 1
+          },
+          {
+            "name": "pass",
+            "frame": 8.25
+          },
+          {
+            "name": "opposite",
+            "frame": 15.5
+          },
+          {
+            "name": "pass",
+            "frame": 22.75
+          }
+        ],
+        "locomotion": {
+          "speed": 1.1,
+          "cycleFrames": 29,
+          "stanceFraction": 0.6,
+          "footLift": 0.13,
+          "direction": [
+            0,
+            -1
+          ]
+        }
+      },
+      "travelSpeed": 1.1
+    },
+    {
+      "id": "jump-start",
+      "label": "Jump Start",
+      "category": "movement",
+      "duration": 0.267,
+      "loop": false,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [],
+        "phases": [
+          {
+            "name": "ready",
+            "frame": 1
+          },
+          {
+            "name": "load",
+            "frame": 5
+          },
+          {
+            "name": "takeoff",
+            "frame": 6
+          },
+          {
+            "name": "clear",
+            "frame": 8
+          }
+        ]
+      }
+    },
+    {
+      "id": "jump-loop",
+      "label": "Jump Loop",
+      "category": "movement",
+      "duration": 0.6,
+      "loop": true
+    },
+    {
+      "id": "jump-land",
+      "label": "Jump Land",
+      "category": "movement",
+      "duration": 0.5,
+      "loop": false
+    },
+    {
+      "id": "double-jump",
+      "label": "Double Jump",
+      "category": "movement",
+      "duration": 0.667,
+      "loop": false
+    },
+    {
+      "id": "slide",
+      "label": "Slide",
+      "category": "movement",
+      "duration": 0.8,
+      "loop": false
+    },
+    {
+      "id": "vault",
+      "label": "Vault",
+      "category": "movement",
+      "duration": 0.733,
+      "loop": false,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [],
+        "phases": [
+          {
+            "name": "approach",
+            "frame": 1
+          },
+          {
+            "name": "plant",
+            "frame": 4
+          },
+          {
+            "name": "tuck",
+            "frame": 7
+          },
+          {
+            "name": "clear",
+            "frame": 11
+          },
+          {
+            "name": "land",
+            "frame": 16
+          },
+          {
+            "name": "settle",
+            "frame": 22
+          }
+        ]
+      }
+    },
+    {
+      "id": "climb",
+      "label": "Climb",
+      "category": "movement",
+      "duration": 1,
+      "loop": true
+    },
+    {
+      "id": "wall-run",
+      "label": "Wall Run",
+      "category": "movement",
+      "duration": 0.667,
+      "loop": true
+    },
+    {
+      "id": "roll",
+      "label": "Roll",
+      "category": "movement",
+      "duration": 0.8,
+      "loop": false,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [],
+        "phases": [
+          {
+            "name": "entry",
+            "frame": 1
+          },
+          {
+            "name": "tuck",
+            "frame": 6
+          },
+          {
+            "name": "invert",
+            "frame": 12
+          },
+          {
+            "name": "open",
+            "frame": 18
+          },
+          {
+            "name": "settle",
+            "frame": 24
+          }
+        ]
+      }
+    },
+    {
+      "id": "punch-left",
+      "label": "Punch Left",
+      "category": "melee",
+      "duration": 0.4,
+      "loop": false,
+      "contactFrame": 5,
+      "contactTime": 0.167,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 12,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 12,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "ready",
+            "frame": 1
+          },
+          {
+            "name": "load",
+            "frame": 3
+          },
+          {
+            "name": "contact",
+            "frame": 5
+          },
+          {
+            "name": "hold",
+            "frame": 7
+          },
+          {
+            "name": "follow",
+            "frame": 8
+          },
+          {
+            "name": "settle",
+            "frame": 12
+          }
+        ]
+      }
+    },
+    {
+      "id": "punch-right",
+      "label": "Punch Right",
+      "category": "melee",
+      "duration": 0.467,
+      "loop": false,
+      "contactFrame": 6,
+      "contactTime": 0.2,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 14,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 14,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "ready",
+            "frame": 1
+          },
+          {
+            "name": "load",
+            "frame": 4
+          },
+          {
+            "name": "contact",
+            "frame": 6
+          },
+          {
+            "name": "hold",
+            "frame": 8
+          },
+          {
+            "name": "follow",
+            "frame": 10
+          },
+          {
+            "name": "settle",
+            "frame": 14
+          }
+        ]
+      }
+    },
+    {
+      "id": "punch-heavy",
+      "label": "Punch Heavy",
+      "category": "melee",
+      "duration": 0.8,
+      "loop": false,
+      "contactFrame": 12,
+      "contactTime": 0.4,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 24,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 24,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "ready",
+            "frame": 1
+          },
+          {
+            "name": "load",
+            "frame": 9
+          },
+          {
+            "name": "contact",
+            "frame": 12
+          },
+          {
+            "name": "hold",
+            "frame": 14
+          },
+          {
+            "name": "follow",
+            "frame": 16
+          },
+          {
+            "name": "settle",
+            "frame": 24
+          }
+        ]
+      }
+    },
+    {
+      "id": "uppercut",
+      "label": "Uppercut",
+      "category": "melee",
+      "duration": 0.5,
+      "loop": false,
+      "contactFrame": 7,
+      "contactTime": 0.233,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 15,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 15,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "load",
+            "frame": 5
+          },
+          {
+            "name": "contact",
+            "frame": 7
+          },
+          {
+            "name": "hold",
+            "frame": 9
+          },
+          {
+            "name": "settle",
+            "frame": 15
+          }
+        ]
+      }
+    },
+    {
+      "id": "kick-front",
+      "label": "Kick Front",
+      "category": "melee",
+      "duration": 0.667,
+      "loop": false,
+      "contactFrame": 9,
+      "contactTime": 0.3,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 20,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "ready",
+            "frame": 1
+          },
+          {
+            "name": "load",
+            "frame": 6
+          },
+          {
+            "name": "contact",
+            "frame": 9
+          },
+          {
+            "name": "hold",
+            "frame": 11
+          },
+          {
+            "name": "follow",
+            "frame": 14
+          },
+          {
+            "name": "settle",
+            "frame": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": "kick-roundhouse",
+      "label": "Kick Roundhouse",
+      "category": "melee",
+      "duration": 0.7,
+      "loop": false,
+      "contactFrame": 8,
+      "contactTime": 0.267,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 21,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "ready",
+            "frame": 1
+          },
+          {
+            "name": "load",
+            "frame": 6
+          },
+          {
+            "name": "contact",
+            "frame": 8
+          },
+          {
+            "name": "hold",
+            "frame": 10
+          },
+          {
+            "name": "follow",
+            "frame": 13
+          },
+          {
+            "name": "settle",
+            "frame": 21
+          }
+        ]
+      }
+    },
+    {
+      "id": "kick-air",
+      "label": "Kick Air",
+      "category": "melee",
+      "duration": 0.733,
+      "loop": false,
+      "contactFrame": 12,
+      "contactTime": 0.4
+    },
+    {
+      "id": "sweep",
+      "label": "Sweep",
+      "category": "melee",
+      "duration": 0.8,
+      "loop": false,
+      "contactFrame": 13,
+      "contactTime": 0.433,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 24,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "load",
+            "frame": 9
+          },
+          {
+            "name": "contact",
+            "frame": 13
+          },
+          {
+            "name": "hold",
+            "frame": 15
+          },
+          {
+            "name": "settle",
+            "frame": 24
+          }
+        ]
+      }
+    },
+    {
+      "id": "block",
+      "label": "Block",
+      "category": "melee",
+      "duration": 1,
+      "loop": true,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 30,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 30,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "phases": []
+      }
+    },
+    {
+      "id": "parry",
+      "label": "Parry",
+      "category": "melee",
+      "duration": 0.4,
+      "loop": false,
+      "contactFrame": 5,
+      "contactTime": 0.167,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 12,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 12,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "ready",
+            "frame": 1
+          },
+          {
+            "name": "load",
+            "frame": 3
+          },
+          {
+            "name": "contact",
+            "frame": 5
+          },
+          {
+            "name": "hold",
+            "frame": 7
+          },
+          {
+            "name": "settle",
+            "frame": 12
+          }
+        ]
+      }
+    },
+    {
+      "id": "dodge-left",
+      "label": "Dodge Left",
+      "category": "melee",
+      "duration": 0.4,
+      "loop": false,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [],
+        "phases": [
+          {
+            "name": "ready",
+            "frame": 1
+          },
+          {
+            "name": "push",
+            "frame": 3
+          },
+          {
+            "name": "peak",
+            "frame": 5
+          },
+          {
+            "name": "catch",
+            "frame": 8
+          },
+          {
+            "name": "settle",
+            "frame": 12
+          }
+        ]
+      }
+    },
+    {
+      "id": "dodge-right",
+      "label": "Dodge Right",
+      "category": "melee",
+      "duration": 0.4,
+      "loop": false,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [],
+        "phases": [
+          {
+            "name": "ready",
+            "frame": 1
+          },
+          {
+            "name": "push",
+            "frame": 3
+          },
+          {
+            "name": "peak",
+            "frame": 5
+          },
+          {
+            "name": "catch",
+            "frame": 8
+          },
+          {
+            "name": "settle",
+            "frame": 12
+          }
+        ]
+      }
+    },
+    {
+      "id": "sword-slash",
+      "label": "Sword Slash",
+      "category": "melee",
+      "duration": 0.6,
+      "loop": false,
+      "contactFrame": 7,
+      "contactTime": 0.233,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 18,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 18,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "ready",
+            "frame": 1
+          },
+          {
+            "name": "load",
+            "frame": 5
+          },
+          {
+            "name": "contact",
+            "frame": 7
+          },
+          {
+            "name": "hold",
+            "frame": 9
+          },
+          {
+            "name": "follow",
+            "frame": 12
+          },
+          {
+            "name": "settle",
+            "frame": 18
+          }
+        ]
+      }
+    },
+    {
+      "id": "sword-overhead",
+      "label": "Sword Overhead",
+      "category": "melee",
+      "duration": 0.8,
+      "loop": false,
+      "contactFrame": 14,
+      "contactTime": 0.467,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 24,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 24,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "ready",
+            "frame": 1
+          },
+          {
+            "name": "load",
+            "frame": 11
+          },
+          {
+            "name": "contact",
+            "frame": 14
+          },
+          {
+            "name": "hold",
+            "frame": 16
+          },
+          {
+            "name": "follow",
+            "frame": 19
+          },
+          {
+            "name": "settle",
+            "frame": 24
+          }
+        ],
+        "grip": {
+          "side": "R",
+          "reference": "punch-heavy",
+          "axis": [
+            0,
+            -0.97,
+            -0.25
+          ]
+        }
+      }
+    },
+    {
+      "id": "sword-thrust",
+      "label": "Sword Thrust",
+      "category": "melee",
+      "duration": 0.5,
+      "loop": false,
+      "contactFrame": 6,
+      "contactTime": 0.2,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 15,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 15,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "ready",
+            "frame": 1
+          },
+          {
+            "name": "load",
+            "frame": 4
+          },
+          {
+            "name": "contact",
+            "frame": 6
+          },
+          {
+            "name": "hold",
+            "frame": 8
+          },
+          {
+            "name": "follow",
+            "frame": 11
+          },
+          {
+            "name": "settle",
+            "frame": 15
+          }
+        ],
+        "grip": {
+          "side": "R",
+          "reference": "punch-heavy",
+          "axis": [
+            0,
+            -1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "staff-spin",
+      "label": "Staff Spin",
+      "category": "melee",
+      "duration": 0.8,
+      "loop": true,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "phases": [],
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 24,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 24,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "pistol-idle",
+      "label": "Pistol Idle",
+      "category": "ranged",
+      "duration": 2,
+      "loop": true,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 60,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 60,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "phases": []
+      }
+    },
+    {
+      "id": "pistol-fire",
+      "label": "Pistol Fire",
+      "category": "ranged",
+      "duration": 0.5,
+      "loop": false,
+      "contactFrame": 3,
+      "contactTime": 0.1,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 15,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 15,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "contact",
+            "frame": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "pistol-reload",
+      "label": "Pistol Reload",
+      "category": "ranged",
+      "duration": 1.2,
+      "loop": false,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "phases": [],
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 36,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 36,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "rifle-idle",
+      "label": "Rifle Idle",
+      "category": "ranged",
+      "duration": 2,
+      "loop": true,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 60,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 60,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "ready",
+            "frame": 1
+          },
+          {
+            "name": "breathe",
+            "frame": 30
+          },
+          {
+            "name": "loop",
+            "frame": 60
+          }
+        ]
+      }
+    },
+    {
+      "id": "rifle-fire",
+      "label": "Rifle Fire",
+      "category": "ranged",
+      "duration": 0.533,
+      "loop": false,
+      "contactFrame": 3,
+      "contactTime": 0.1,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 16,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 16,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "ready",
+            "frame": 1
+          },
+          {
+            "name": "contact",
+            "frame": 3
+          },
+          {
+            "name": "recoil",
+            "frame": 4
+          },
+          {
+            "name": "settle",
+            "frame": 16
+          }
+        ]
+      }
+    },
+    {
+      "id": "rifle-reload",
+      "label": "Rifle Reload",
+      "category": "ranged",
+      "duration": 1.333,
+      "loop": false,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "phases": [
+          {
+            "name": "ready",
+            "frame": 1
+          },
+          {
+            "name": "reach",
+            "frame": 10
+          },
+          {
+            "name": "magazine",
+            "frame": 18
+          },
+          {
+            "name": "insert",
+            "frame": 26
+          },
+          {
+            "name": "return",
+            "frame": 32
+          },
+          {
+            "name": "settle",
+            "frame": 40
+          }
+        ],
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 40,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 40,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "shotgun-fire",
+      "label": "Shotgun Fire",
+      "category": "ranged",
+      "duration": 0.8,
+      "loop": false,
+      "contactFrame": 3,
+      "contactTime": 0.1,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "phases": [
+          {
+            "name": "ready",
+            "frame": 1
+          },
+          {
+            "name": "contact",
+            "frame": 3
+          },
+          {
+            "name": "recoil",
+            "frame": 5
+          },
+          {
+            "name": "pump-back",
+            "frame": 15
+          },
+          {
+            "name": "pump-return",
+            "frame": 19
+          },
+          {
+            "name": "settle",
+            "frame": 24
+          }
+        ],
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 24,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 24,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "bow-draw",
+      "label": "Bow Draw",
+      "category": "ranged",
+      "duration": 0.8,
+      "loop": false,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 24,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 24,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "phases": []
+      }
+    },
+    {
+      "id": "bow-release",
+      "label": "Bow Release",
+      "category": "ranged",
+      "duration": 0.5,
+      "loop": false,
+      "contactFrame": 5,
+      "contactTime": 0.167,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 15,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 15,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "draw",
+            "frame": 4
+          },
+          {
+            "name": "contact",
+            "frame": 5
+          },
+          {
+            "name": "settle",
+            "frame": 15
+          }
+        ]
+      }
+    },
+    {
+      "id": "throw",
+      "label": "Throw",
+      "category": "ranged",
+      "duration": 0.8,
+      "loop": false,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 24,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 24,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "ready",
+            "frame": 1
+          },
+          {
+            "name": "load",
+            "frame": 9
+          },
+          {
+            "name": "contact",
+            "frame": 12
+          },
+          {
+            "name": "hold",
+            "frame": 14
+          },
+          {
+            "name": "follow",
+            "frame": 18
+          },
+          {
+            "name": "settle",
+            "frame": 24
+          }
+        ]
+      }
+    },
+    {
+      "id": "hit-front",
+      "label": "Hit Front",
+      "category": "reactions",
+      "duration": 0.533,
+      "loop": false,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 16,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 16,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "contact",
+            "frame": 3
+          },
+          {
+            "name": "hold",
+            "frame": 7
+          },
+          {
+            "name": "settle",
+            "frame": 16
+          }
+        ]
+      }
+    },
+    {
+      "id": "hit-back",
+      "label": "Hit Back",
+      "category": "reactions",
+      "duration": 0.533,
+      "loop": false,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 16,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 16,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "contact",
+            "frame": 3
+          },
+          {
+            "name": "hold",
+            "frame": 7
+          },
+          {
+            "name": "settle",
+            "frame": 16
+          }
+        ]
+      }
+    },
+    {
+      "id": "hit-left",
+      "label": "Hit Left",
+      "category": "reactions",
+      "duration": 0.533,
+      "loop": false,
+      "motion": {
+        "phases": [],
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 16,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 16,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "hit-right",
+      "label": "Hit Right",
+      "category": "reactions",
+      "duration": 0.533,
+      "loop": false,
+      "motion": {
+        "phases": [],
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 16,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 16,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "knockdown",
+      "label": "Knockdown",
+      "category": "reactions",
+      "duration": 1,
+      "loop": false,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [],
+        "phases": [
+          {
+            "name": "contact",
+            "frame": 16
+          },
+          {
+            "name": "hold",
+            "frame": 30
+          }
+        ]
+      }
+    },
+    {
+      "id": "get-up",
+      "label": "Get Up",
+      "category": "reactions",
+      "duration": 1.2,
+      "loop": false,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [],
+        "phases": [],
+        "continuesFrom": "knockdown"
+      }
+    },
+    {
+      "id": "death",
+      "label": "Death",
+      "category": "reactions",
+      "duration": 1.333,
+      "loop": false,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [],
+        "phases": [
+          {
+            "name": "contact",
+            "frame": 23
+          },
+          {
+            "name": "hold",
+            "frame": 40
+          }
+        ]
+      }
+    },
+    {
+      "id": "stun",
+      "label": "Stun",
+      "category": "reactions",
+      "duration": 1.2,
+      "loop": true,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 36,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 36,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "dazed",
+            "frame": 1
+          },
+          {
+            "name": "sway",
+            "frame": 12
+          },
+          {
+            "name": "sway-back",
+            "frame": 24
+          },
+          {
+            "name": "loop",
+            "frame": 36
+          }
+        ]
+      }
+    },
+    {
+      "id": "wave",
+      "label": "Wave",
+      "category": "interaction",
+      "duration": 1.2,
+      "loop": true,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "phases": [],
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 36,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 36,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "cheer",
+      "label": "Cheer",
+      "category": "interaction",
+      "duration": 1.2,
+      "loop": true,
+      "motion": {
+        "phases": [],
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 36,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 36,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "point",
+      "label": "Point",
+      "category": "interaction",
+      "duration": 1,
+      "loop": false,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "phases": [],
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 30,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 30,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "interact",
+      "label": "Interact",
+      "category": "interaction",
+      "duration": 1,
+      "loop": false,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "phases": [],
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 30,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 30,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "pickup",
+      "label": "Pickup",
+      "category": "interaction",
+      "duration": 1.2,
+      "loop": false,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 36,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 36,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "ready",
+            "frame": 1
+          },
+          {
+            "name": "lower",
+            "frame": 10
+          },
+          {
+            "name": "grasp",
+            "frame": 16
+          },
+          {
+            "name": "hold",
+            "frame": 19
+          },
+          {
+            "name": "lift",
+            "frame": 28
+          },
+          {
+            "name": "settle",
+            "frame": 36
+          }
+        ]
+      }
+    },
+    {
+      "id": "carry",
+      "label": "Carry",
+      "category": "interaction",
+      "duration": 1,
+      "loop": true
+    },
+    {
+      "id": "ball-kick",
+      "label": "Ball Kick",
+      "category": "sport",
+      "duration": 0.8,
+      "loop": false,
+      "motion": {
+        "phases": [],
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 24,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ball-throw",
+      "label": "Ball Throw",
+      "category": "sport",
+      "duration": 0.7,
+      "loop": false,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [],
+        "phases": [
+          {
+            "name": "ready",
+            "frame": 1
+          },
+          {
+            "name": "load",
+            "frame": 5
+          },
+          {
+            "name": "release",
+            "frame": 9
+          },
+          {
+            "name": "follow",
+            "frame": 12
+          },
+          {
+            "name": "settle",
+            "frame": 21
+          }
+        ]
+      }
+    },
+    {
+      "id": "bat-swing",
+      "label": "Bat Swing",
+      "category": "sport",
+      "duration": 0.7,
+      "loop": false,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 21,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 21,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "ready",
+            "frame": 1
+          },
+          {
+            "name": "load",
+            "frame": 6
+          },
+          {
+            "name": "contact",
+            "frame": 8
+          },
+          {
+            "name": "hold",
+            "frame": 10
+          },
+          {
+            "name": "follow",
+            "frame": 14
+          },
+          {
+            "name": "settle",
+            "frame": 21
+          }
+        ],
+        "grip": {
+          "side": "R",
+          "reference": "punch-heavy",
+          "axis": [
+            -0.95,
+            -0.3,
+            0
+          ],
+          "phaseAxes": {
+            "load": [
+              0.55,
+              0.2,
+              0.8
+            ],
+            "contact": [
+              -0.95,
+              -0.3,
+              0
+            ],
+            "hold": [
+              -1,
+              -0.1,
+              0
+            ],
+            "follow": [
+              -0.65,
+              0.7,
+              0.1
+            ],
+            "settle": [
+              0.1,
+              0.15,
+              0.98
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "celebrate",
+      "label": "Celebrate",
+      "category": "sport",
+      "duration": 1.333,
+      "loop": true,
+      "motion": {
+        "phases": [],
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 40,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 40,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "walk-left",
+      "label": "Walk Left",
+      "category": "movement",
+      "duration": 0.8,
+      "loop": true,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 14.799999999999999,
+            "velocity": [
+              0.65,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 12.5,
+            "endFrame": 24,
+            "velocity": [
+              0.65,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 3.2999999999999994,
+            "velocity": [
+              0.65,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "L",
+            "startFrame": 24,
+            "endFrame": 24,
+            "velocity": [
+              0.65,
+              0,
+              0
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "contact",
+            "frame": 1
+          },
+          {
+            "name": "pass",
+            "frame": 6.75
+          },
+          {
+            "name": "opposite",
+            "frame": 12.5
+          },
+          {
+            "name": "pass",
+            "frame": 18.25
+          }
+        ],
+        "locomotion": {
+          "speed": 0.65,
+          "cycleFrames": 23,
+          "stanceFraction": 0.6,
+          "footLift": 0.1,
+          "direction": [
+            1,
+            0
+          ]
+        }
+      },
+      "travelSpeed": 0.65
+    },
+    {
+      "id": "walk-right",
+      "label": "Walk Right",
+      "category": "movement",
+      "duration": 0.8,
+      "loop": true,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 14.799999999999999,
+            "velocity": [
+              -0.65,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 12.5,
+            "endFrame": 24,
+            "velocity": [
+              -0.65,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 3.2999999999999994,
+            "velocity": [
+              -0.65,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "L",
+            "startFrame": 24,
+            "endFrame": 24,
+            "velocity": [
+              -0.65,
+              0,
+              0
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "contact",
+            "frame": 1
+          },
+          {
+            "name": "pass",
+            "frame": 6.75
+          },
+          {
+            "name": "opposite",
+            "frame": 12.5
+          },
+          {
+            "name": "pass",
+            "frame": 18.25
+          }
+        ],
+        "locomotion": {
+          "speed": 0.65,
+          "cycleFrames": 23,
+          "stanceFraction": 0.6,
+          "footLift": 0.1,
+          "direction": [
+            -1,
+            0
+          ]
+        }
+      },
+      "travelSpeed": 0.65
+    },
+    {
+      "id": "run-backward",
+      "label": "Run Backward",
+      "category": "movement",
+      "duration": 0.8,
+      "loop": true,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 11.12,
+            "velocity": [
+              0,
+              -2.6,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 12.5,
+            "endFrame": 22.619999999999997,
+            "velocity": [
+              0,
+              -2.6,
+              0
+            ]
+          },
+          {
+            "side": "L",
+            "startFrame": 24,
+            "endFrame": 24,
+            "velocity": [
+              0,
+              -2.6,
+              0
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "contact",
+            "frame": 1
+          },
+          {
+            "name": "pass",
+            "frame": 6.75
+          },
+          {
+            "name": "opposite",
+            "frame": 12.5
+          },
+          {
+            "name": "pass",
+            "frame": 18.25
+          }
+        ],
+        "locomotion": {
+          "speed": 2.6,
+          "cycleFrames": 23,
+          "stanceFraction": 0.44,
+          "footLift": 0.26,
+          "direction": [
+            0,
+            -1
+          ]
+        }
+      },
+      "travelSpeed": 2.6
+    },
+    {
+      "id": "crouch-idle",
+      "label": "Crouch Idle",
+      "category": "movement",
+      "duration": 0.8,
+      "loop": true,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 24,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 24,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "ready",
+            "frame": 1
+          },
+          {
+            "name": "breathe",
+            "frame": 12
+          },
+          {
+            "name": "loop",
+            "frame": 24
+          }
+        ]
+      }
+    },
+    {
+      "id": "crouch-walk",
+      "label": "Crouch Walk",
+      "category": "movement",
+      "duration": 0.8,
+      "loop": true,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 15.950000000000001,
+            "velocity": [
+              0,
+              0.65,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 12.5,
+            "endFrame": 24,
+            "velocity": [
+              0,
+              0.65,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 4.450000000000001,
+            "velocity": [
+              0,
+              0.65,
+              0
+            ]
+          },
+          {
+            "side": "L",
+            "startFrame": 24,
+            "endFrame": 24,
+            "velocity": [
+              0,
+              0.65,
+              0
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "contact",
+            "frame": 1
+          },
+          {
+            "name": "pass",
+            "frame": 6.75
+          },
+          {
+            "name": "opposite",
+            "frame": 12.5
+          },
+          {
+            "name": "pass",
+            "frame": 18.25
+          }
+        ],
+        "locomotion": {
+          "speed": 0.65,
+          "cycleFrames": 23,
+          "stanceFraction": 0.65,
+          "footLift": 0.08,
+          "direction": [
+            0,
+            1
+          ]
+        }
+      },
+      "travelSpeed": 0.65
+    },
+    {
+      "id": "turn-left",
+      "label": "Turn Left",
+      "category": "movement",
+      "duration": 0.6,
+      "loop": false
+    },
+    {
+      "id": "turn-right",
+      "label": "Turn Right",
+      "category": "movement",
+      "duration": 0.6,
+      "loop": false
+    },
+    {
+      "id": "ledge-climb",
+      "label": "Ledge Climb",
+      "category": "movement",
+      "duration": 0.8,
+      "loop": false,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [],
+        "phases": [
+          {
+            "name": "hang",
+            "frame": 1
+          },
+          {
+            "name": "pull",
+            "frame": 5
+          },
+          {
+            "name": "brace",
+            "frame": 9
+          },
+          {
+            "name": "knee",
+            "frame": 14
+          },
+          {
+            "name": "stand",
+            "frame": 20
+          },
+          {
+            "name": "settle",
+            "frame": 24
+          }
+        ]
+      }
+    },
+    {
+      "id": "elbow-strike",
+      "label": "Elbow Strike",
+      "category": "melee",
+      "duration": 0.467,
+      "loop": false,
+      "contactFrame": 6,
+      "contactTime": 0.2,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "phases": [
+          {
+            "name": "ready",
+            "frame": 1
+          },
+          {
+            "name": "load",
+            "frame": 3
+          },
+          {
+            "name": "contact",
+            "frame": 6
+          },
+          {
+            "name": "hold",
+            "frame": 7
+          },
+          {
+            "name": "follow",
+            "frame": 10
+          },
+          {
+            "name": "settle",
+            "frame": 14
+          }
+        ],
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 14,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 14,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "backfist",
+      "label": "Backfist",
+      "category": "melee",
+      "duration": 0.5,
+      "loop": false,
+      "contactFrame": 6,
+      "contactTime": 0.2,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "phases": [
+          {
+            "name": "load",
+            "frame": 5
+          },
+          {
+            "name": "contact",
+            "frame": 6
+          },
+          {
+            "name": "hold",
+            "frame": 8
+          },
+          {
+            "name": "settle",
+            "frame": 15
+          }
+        ],
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 15,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 15,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "knee-strike",
+      "label": "Knee Strike",
+      "category": "melee",
+      "duration": 0.733,
+      "loop": false,
+      "contactFrame": 10,
+      "contactTime": 0.333,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "phases": [
+          {
+            "name": "load",
+            "frame": 8
+          },
+          {
+            "name": "contact",
+            "frame": 10
+          },
+          {
+            "name": "hold",
+            "frame": 12
+          },
+          {
+            "name": "settle",
+            "frame": 22
+          }
+        ],
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 22,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "shoulder-check",
+      "label": "Shoulder Check",
+      "category": "melee",
+      "duration": 0.8,
+      "loop": false,
+      "contactFrame": 10,
+      "contactTime": 0.333,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "phases": [
+          {
+            "name": "load",
+            "frame": 8
+          },
+          {
+            "name": "contact",
+            "frame": 10
+          },
+          {
+            "name": "hold",
+            "frame": 12
+          },
+          {
+            "name": "settle",
+            "frame": 24
+          }
+        ],
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 24,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 24,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "staff-thrust",
+      "label": "Staff Thrust",
+      "category": "melee",
+      "duration": 0.6,
+      "loop": false,
+      "contactFrame": 7,
+      "contactTime": 0.233,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 18,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 18,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "load",
+            "frame": 6
+          },
+          {
+            "name": "contact",
+            "frame": 7
+          },
+          {
+            "name": "hold",
+            "frame": 9
+          },
+          {
+            "name": "settle",
+            "frame": 18
+          }
+        ]
+      }
+    },
+    {
+      "id": "staff-sweep",
+      "label": "Staff Sweep",
+      "category": "melee",
+      "duration": 0.667,
+      "loop": false,
+      "contactFrame": 8,
+      "contactTime": 0.267,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 20,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 20,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "load",
+            "frame": 7
+          },
+          {
+            "name": "contact",
+            "frame": 8
+          },
+          {
+            "name": "hold",
+            "frame": 10
+          },
+          {
+            "name": "settle",
+            "frame": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": "staff-overhead",
+      "label": "Staff Overhead",
+      "category": "melee",
+      "duration": 0.833,
+      "loop": false,
+      "contactFrame": 13,
+      "contactTime": 0.433,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 25,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 25,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "load",
+            "frame": 11
+          },
+          {
+            "name": "contact",
+            "frame": 13
+          },
+          {
+            "name": "hold",
+            "frame": 15
+          },
+          {
+            "name": "settle",
+            "frame": 25
+          }
+        ]
+      }
+    },
+    {
+      "id": "staff-parry",
+      "label": "Staff Parry",
+      "category": "melee",
+      "duration": 0.667,
+      "loop": false,
+      "contactFrame": 7,
+      "contactTime": 0.233,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 20,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 20,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "load",
+            "frame": 5
+          },
+          {
+            "name": "contact",
+            "frame": 7
+          },
+          {
+            "name": "hold",
+            "frame": 9
+          },
+          {
+            "name": "settle",
+            "frame": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": "sword-diagonal",
+      "label": "Sword Diagonal",
+      "category": "melee",
+      "duration": 0.667,
+      "loop": false,
+      "contactFrame": 8,
+      "contactTime": 0.267,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "phases": [
+          {
+            "name": "load",
+            "frame": 7
+          },
+          {
+            "name": "contact",
+            "frame": 8
+          },
+          {
+            "name": "hold",
+            "frame": 10
+          },
+          {
+            "name": "settle",
+            "frame": 20
+          }
+        ],
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 20,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 20,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "grip": {
+          "side": "R",
+          "reference": "punch-heavy",
+          "axis": [
+            -0.65,
+            -0.67,
+            -0.35
+          ]
+        }
+      }
+    },
+    {
+      "id": "dagger-stab",
+      "label": "Dagger Stab",
+      "category": "melee",
+      "duration": 0.4,
+      "loop": false,
+      "contactFrame": 5,
+      "contactTime": 0.167,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 12,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 12,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "load",
+            "frame": 4
+          },
+          {
+            "name": "contact",
+            "frame": 5
+          },
+          {
+            "name": "hold",
+            "frame": 6
+          },
+          {
+            "name": "settle",
+            "frame": 12
+          }
+        ]
+      }
+    },
+    {
+      "id": "sword-lunge",
+      "label": "Sword Lunge",
+      "category": "melee",
+      "duration": 0.733,
+      "loop": false,
+      "contactFrame": 10,
+      "contactTime": 0.333,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "phases": [
+          {
+            "name": "load",
+            "frame": 8
+          },
+          {
+            "name": "contact",
+            "frame": 10
+          },
+          {
+            "name": "hold",
+            "frame": 12
+          },
+          {
+            "name": "settle",
+            "frame": 22
+          }
+        ],
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 22,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 22,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "grip": {
+          "side": "R",
+          "reference": "punch-heavy",
+          "axis": [
+            0,
+            -1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "hammer-overhead",
+      "label": "Hammer Overhead",
+      "category": "melee",
+      "duration": 0.8,
+      "loop": false,
+      "contactFrame": 12,
+      "contactTime": 0.4,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "phases": [
+          {
+            "name": "ready",
+            "frame": 1
+          },
+          {
+            "name": "load",
+            "frame": 8
+          },
+          {
+            "name": "contact",
+            "frame": 12
+          },
+          {
+            "name": "hold",
+            "frame": 14
+          },
+          {
+            "name": "follow",
+            "frame": 18
+          },
+          {
+            "name": "settle",
+            "frame": 24
+          }
+        ],
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 24,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 24,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "shield-bash",
+      "label": "Shield Bash",
+      "category": "melee",
+      "duration": 0.733,
+      "loop": false,
+      "contactFrame": 10,
+      "contactTime": 0.333,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 22,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 22,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "load",
+            "frame": 8
+          },
+          {
+            "name": "contact",
+            "frame": 10
+          },
+          {
+            "name": "hold",
+            "frame": 12
+          },
+          {
+            "name": "settle",
+            "frame": 22
+          }
+        ]
+      }
+    },
+    {
+      "id": "shield-block",
+      "label": "Shield Block",
+      "category": "melee",
+      "duration": 0.667,
+      "loop": false,
+      "contactFrame": 8,
+      "contactTime": 0.267,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 20,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 20,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "load",
+            "frame": 6
+          },
+          {
+            "name": "contact",
+            "frame": 8
+          },
+          {
+            "name": "hold",
+            "frame": 10
+          },
+          {
+            "name": "settle",
+            "frame": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": "shield-slam",
+      "label": "Shield Slam",
+      "category": "melee",
+      "duration": 0.7,
+      "loop": false,
+      "contactFrame": 11,
+      "contactTime": 0.367,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 21,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 21,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "ready",
+            "frame": 1
+          },
+          {
+            "name": "load",
+            "frame": 8
+          },
+          {
+            "name": "contact",
+            "frame": 11
+          },
+          {
+            "name": "hold",
+            "frame": 13
+          },
+          {
+            "name": "follow",
+            "frame": 16
+          },
+          {
+            "name": "settle",
+            "frame": 21
+          }
+        ],
+        "grip": {
+          "side": "L",
+          "reference": "block",
+          "orientation": [
+            90,
+            0,
+            0
+          ],
+          "phaseOrientations": {
+            "load": [
+              -20,
+              0,
+              0
+            ],
+            "contact": [
+              90,
+              0,
+              0
+            ],
+            "hold": [
+              90,
+              0,
+              0
+            ],
+            "follow": [
+              45,
+              0,
+              0
+            ],
+            "settle": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "shield-push",
+      "label": "Shield Push",
+      "category": "melee",
+      "duration": 0.7,
+      "loop": false,
+      "contactFrame": 8,
+      "contactTime": 0.267,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [
+          {
+            "side": "L",
+            "startFrame": 1,
+            "endFrame": 21,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "side": "R",
+            "startFrame": 1,
+            "endFrame": 21,
+            "velocity": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "load",
+            "frame": 7
+          },
+          {
+            "name": "contact",
+            "frame": 8
+          },
+          {
+            "name": "hold",
+            "frame": 10
+          },
+          {
+            "name": "settle",
+            "frame": 21
+          }
+        ],
+        "grip": {
+          "side": "L",
+          "reference": "block",
+          "orientation": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "get-up-forward",
+      "label": "Get Up Forward",
+      "category": "reactions",
+      "duration": 1.333,
+      "loop": false,
+      "motion": {
+        "coordinateSystem": "Blender Z-up, forward -Y",
+        "plants": [],
+        "phases": [
+          {
+            "name": "floor",
+            "frame": 1
+          },
+          {
+            "name": "hands",
+            "frame": 8
+          },
+          {
+            "name": "kneel",
+            "frame": 16
+          },
+          {
+            "name": "rise",
+            "frame": 27
+          },
+          {
+            "name": "guard",
+            "frame": 40
+          }
+        ],
+        "continuesFrom": "death"
+      }
+    }
+  ]
+}
