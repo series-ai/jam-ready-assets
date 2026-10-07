@@ -14,6 +14,7 @@ import { ALLOWED_LICENSES, inspectLicenseText, legacyCompatiblePacks } from './l
 import { isBackfilled, isShallowClone, packAddedAt, preReorgPackPaths } from './pack-dates.mjs';
 import { readFeaturedCuration } from './featured.mjs';
 import { PREVIEW_FILE, readPreviewSources, selectPreview } from './preview-policy.mjs';
+import { packKeywords } from './pack-keywords.mjs';
 
 const ROOT = process.cwd();
 const previewSources = readPreviewSources(ROOT).packs;
@@ -276,6 +277,8 @@ for (const top of readdirSync(ROOT, { withFileTypes: true })) {
       ...(addedAt ? { addedAt } : {}),
       ...(addedAt && isBackfilled(addedAt) ? { backfilled: true } : {}),
     };
+    const keywords = packKeywords(runtime.map((e) => e.path));
+    if (keywords.length > 0) summary.keywords = keywords;
     index.push(summary);
     const encoded = id.replaceAll('/', '--');
     const packManifest = {
@@ -330,7 +333,8 @@ const featured = curation?.featured ?? null;
 if (featured) console.log(`featured: "${featured.title}" with ${featured.packIds.length} pack(s)`);
 else if (curation?.scheduledFor) console.log(`featured: scheduled for ${curation.scheduledFor}, not published yet`);
 
-const legacyIndex = legacyCompatiblePacks(index);
+// Keywords serve the v2 search only; older Studio builds on the legacy index never read them.
+const legacyIndex = legacyCompatiblePacks(index).map(({ keywords, ...pack }) => pack);
 const legacyFilesIndex = Object.fromEntries(
   legacyIndex.map((pack) => [pack.id, filesIndex[pack.id]]),
 );

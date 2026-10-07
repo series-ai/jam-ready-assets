@@ -107,6 +107,7 @@ manifest, with id `<pack>/<bucket>[/<theme>]`.
   checked the licence on that date, which is the part anyone relying on it needs.
   CI requires recognisable terms in the body, fails when the body and header disagree, and checks that MIT, BSD-2-Clause and the RUN License carry their full terms plus a real copyright line (the RUN License also needs the `Source:` and `Verified-by:` lines). An SPDX header cannot admit a pack on its own.
 - **Follow the layout:** packs are top-level, `<creator>-<pack-slug>/` (lowercase, dash-separated), holding `2D|3D/<theme>/` and/or flat `ui|icons|audio|fonts/` bucket dirs. Keep everything one pack ships under its single top-level dir, even when it spans buckets. A pack dir may contain **only** bucket dirs; CI rejects anything else at that level.
+- **Name files and folders for what they show.** RUN.studio's asset search matches the words in a pack's file and folder names, extracted automatically when the manifest is built, so there is no keyword file to maintain. `coinGold.png` or `Characters/knight.png` is findable; `tile_0001.png` is not. When a source pack numbers its files, keep the original names and group them into descriptively named folders instead. The PR check warns when a pack you add or change gives search fewer than three words.
 - **Keep any original `License.txt`/`Readme`** the pack shipped with, alongside the one above.
 - **Binary assets must be LFS-tracked.** Patterns live in `.gitattributes` (png, jpg, gif, fbx, glb, gltf, bin, obj, mtl, blend, ogg, wav, mp3, zip, fonts). If you introduce a new binary extension, add it there before committing.
 - **Never commit junk:** no `.DS_Store`, `__MACOSX/`, `*.app/`, `Thumbs.db` (already covered by `.gitignore`).
@@ -150,6 +151,12 @@ read it. Packs first published before the cutoff in `pack-dates.mjs` are additio
 land on the entire library at once. Both fields depend on full git history, so the workflows
 check out with `fetch-depth: 0`; a shallow build omits the dates rather than publishing
 wrong ones.
+
+Each v2 pack summary also carries `keywords`: up to 60 lowercase words taken from the pack's
+runtime file and folder names (`scripts/pack-keywords.mjs`), most common first. Pack titles
+rarely say what is inside, so RUN.studio's asset search matches these too, and a search for
+"coin" or "sword" finds the packs that contain one. Clear file names make a pack easier to
+find. Like every manifest field, consumers should treat the words as untrusted text.
 
 ## Featuring packs for an event (`featured.json`)
 
