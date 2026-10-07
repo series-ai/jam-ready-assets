@@ -151,6 +151,12 @@ land on the entire library at once. Both fields depend on full git history, so t
 check out with `fetch-depth: 0`; a shallow build omits the dates rather than publishing
 wrong ones.
 
+Each v2 pack summary also carries `keywords`: up to 60 lowercase words taken from the pack's
+runtime file and folder names (`scripts/pack-keywords.mjs`), most common first. Pack titles
+rarely say what is inside, so RUN.studio's asset search matches these too, and a search for
+"coin" or "sword" finds the packs that contain one. Clear file names make a pack easier to
+find. Like every manifest field, consumers should treat the words as untrusted text.
+
 ## Featuring packs for an event (`featured.json`)
 
 To put a curated shelf at the top of RUN.studio's Assets panel (e.g. for a jam), check a
