@@ -26,6 +26,10 @@ jobs:
           git lfs pull --include='**/preview.webp'
           npm run previews:check
       - run: SKIP_PUBLISHED_CHECK=1 node scripts/build-manifest.mjs
+      - name: Check search keywords
+        env:
+          BASE_REF: ${{ github.base_ref }}
+        run: node scripts/check-keywords.mjs "origin/$BASE_REF"
       - name: Fail on any rejected pack
         run: |
           if [ -f .rejected-packs.json ]; then
