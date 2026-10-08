@@ -16,8 +16,12 @@ import { readFeaturedCuration } from './featured.mjs';
 import { PREVIEW_FILE, readPreviewSources, selectPreview } from './preview-policy.mjs';
 import { packKeywords } from './pack-keywords.mjs';
 import { packVersion } from './pack-version.mjs';
+import { readVisualMetadata, currentLabel } from './visual-metadata.mjs';
+import { appendVisualKeywords, buildAssetSearch } from './asset-search-catalog.mjs';
 
 const ROOT = process.cwd();
+const visualMetadata = readVisualMetadata(ROOT);
+const searchPacks = [];
 const previewSources = readPreviewSources(ROOT).packs;
 const BUCKETS = { '3D': '3d', '2D': '2d', ui: 'ui', icons: 'ui', fonts: 'ui', audio: 'audio' };
 const THEMED_BUCKETS = new Set(['3D', '2D']);
@@ -178,7 +182,7 @@ mkdirSync(join(ROOT, 'manifest/packs'), { recursive: true });
 mkdirSync(join(ROOT, 'manifest/v2/commits', commit, 'packs'), { recursive: true });
 
 // Non-pack top-level dirs. Hidden dirs (.github, .git, .mirror-stage) are skipped by name.
-const RESERVED_TOP_DIRS = new Set(['scripts', 'manifest', 'node_modules']);
+const RESERVED_TOP_DIRS = new Set(['scripts', 'manifest', 'node_modules', 'metadata']);
 
 const packDirs = [];
 for (const top of readdirSync(ROOT, { withFileTypes: true })) {
@@ -278,7 +282,8 @@ for (const top of readdirSync(ROOT, { withFileTypes: true })) {
       ...(addedAt ? { addedAt } : {}),
       ...(addedAt && isBackfilled(addedAt) ? { backfilled: true } : {}),
     };
-    const keywords = packKeywords(runtime.map((e) => e.path));
+    const keywords = appendVisualKeywords(packKeywords(runtime.map((e) => e.path)), runtime.map((file) => currentLabel(visualMetadata, id, file)));
+    searchPacks.push({ summary, files: entries });
     if (keywords.length > 0) summary.keywords = keywords;
     index.push(summary);
     const encoded = id.replaceAll('/', '--');
@@ -332,6 +337,7 @@ if (featured) console.log(`featured: "${featured.title}" with ${featured.packIds
 else if (curation?.scheduledFor) console.log(`featured: scheduled for ${curation.scheduledFor}, not published yet`);
 
 // Keywords serve the v2 search only; older Studio builds on the legacy index never read them.
+const assetSearch = buildAssetSearch(ROOT, commit, searchPacks, visualMetadata);
 const legacyIndex = legacyCompatiblePacks(index).map(({ keywords, ...pack }) => pack);
 const legacyFilesIndex = Object.fromEntries(
   legacyIndex.map((pack) => [pack.id, filesIndex[pack.id]]),
@@ -349,6 +355,7 @@ writeFileSync(
       generatedAt: new Date().toISOString(),
       commit,
       ...(featured ? { featured } : {}),
+      ...(assetSearch ? { assetSearch } : {}),
       packs: index,
     },
     null,

@@ -7,6 +7,9 @@ import { readFileSync, readdirSync, mkdirSync, copyFileSync, rmSync, writeFileSy
 import { execSync, execFileSync } from 'node:child_process';
 import { join, extname } from 'node:path';
 import { VARIANT_NAME, encodePackId, variantMirrorPlan, withoutVariants } from './light-variants.mjs';
+import { readVisualMetadata } from './visual-metadata.mjs';
+import { readThumbnailArchive } from './thumbnail-archive.mjs';
+import sharp from 'sharp';
 
 const BUCKET = process.env.ASSET_BUCKET ?? 'gs://run-asset-library';
 const ROOT = process.cwd();
@@ -27,6 +30,8 @@ const CONTENT_TYPES = {
 const index = JSON.parse(readFileSync(join(ROOT, 'manifest/v2/index.json'), 'utf8'));
 const byId = new Map(index.packs.map((p) => [p.id, p]));
 const wanted = new Map(); // oid -> { repoPath, ext }
+const visualMetadata = readVisualMetadata(ROOT);
+const thumbnailSources = new Map();
 const wantedPathCopies = new Map(); // 'packs/<id>@<version>/<path>' -> oid
 const versionedPackDir = join(ROOT, 'manifest/v2/commits', index.commit, 'packs');
 for (const packFile of readdirSync(versionedPackDir)) {
@@ -37,10 +42,18 @@ for (const packFile of readdirSync(versionedPackDir)) {
     if (f.runtime || f.license || previewOids.has(f.oid)) {
       wanted.set(f.oid, { repoPath: `${pack.id}/${f.path}`, ext: extname(f.path).toLowerCase() });
     }
+    if (f.runtime && visualMetadata.thumbnails[f.oid]) {
+      const thumbnail = visualMetadata.thumbnails[f.oid];
+      thumbnailSources.set(thumbnail.oid, { ...thumbnail, sourceOid: f.oid });
+    }
     if (f.runtime || f.license) {
       wantedPathCopies.set(`packs/${pack.id}@${pack.version}/${f.path}`, f.oid);
     }
   }
+}
+
+for (const [oid, thumbnail] of thumbnailSources) {
+  wanted.set(oid, { repoPath: `metadata/thumbnails/${thumbnail.sourceOid.slice(0, 2)}.tar`, ext: '.webp', thumbnail: true });
 }
 
 // 2. What the bucket already has.
@@ -55,8 +68,9 @@ console.log(`objects: ${wanted.size} wanted, ${existing.size} in bucket, ${missi
 
 // 3. Pull LFS bytes for missing objects only, in batches. Non-LFS files are
 //    already real on disk; including them in --include is harmless.
-for (let i = 0; i < missing.length; i += 200) {
-  const batch = missing.slice(i, i + 200).map(([, m]) => m.repoPath);
+const missingPaths = [...new Set(missing.map(([, m]) => m.repoPath))];
+for (let i = 0; i < missingPaths.length; i += 200) {
+  const batch = missingPaths.slice(i, i + 200);
   execFileSync('git', ['lfs', 'pull', `--include=${batch.join(',')}`], { stdio: 'inherit' });
 }
 
@@ -65,10 +79,27 @@ const stageDir = join(ROOT, '.mirror-stage');
 rmSync(stageDir, { recursive: true, force: true });
 mkdirSync(stageDir, { recursive: true });
 const byType = new Map();
+// Read each shard once, verify every entry before making its content publishable.
+const thumbnailShards = new Map();
+for (const [oid, record] of missing) {
+  if (!record.thumbnail) continue;
+  if (!thumbnailShards.has(record.repoPath)) thumbnailShards.set(record.repoPath, []);
+  thumbnailShards.get(record.repoPath).push(oid);
+}
+for (const [repoPath, oids] of thumbnailShards) {
+  const entries = readThumbnailArchive(join(ROOT, repoPath));
+  for (const oid of oids) {
+    const bytes = entries.get(oid), expected = thumbnailSources.get(oid);
+    if (!bytes || bytes.length !== expected.bytes) throw new Error('Missing or mismatched thumbnail object');
+    const decoded = await sharp(bytes, { animated: true }).metadata();
+    if (decoded.format !== 'webp' || (decoded.pages ?? 1) !== 1 || decoded.width !== expected.width || decoded.height !== expected.height) throw new Error('Thumbnail geometry mismatch');
+    writeFileSync(join(stageDir, oid), bytes);
+  }
+}
 for (const [oid, m] of missing) {
   const type = CONTENT_TYPES[m.ext] ?? 'application/octet-stream';
   const staged = join(stageDir, oid);
-  copyFileSync(join(ROOT, m.repoPath), staged);
+  if (!m.thumbnail) copyFileSync(join(ROOT, m.repoPath), staged);
   if (!byType.has(type)) byType.set(type, []);
   byType.get(type).push(staged);
 }
