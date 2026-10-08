@@ -11,3 +11,4 @@ manifest/
 node_modules/
 .preview-sources/
 .preview-review/
+.variant-dry-run/
