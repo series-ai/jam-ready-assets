@@ -3,9 +3,10 @@
 // need LFS bytes pulled or uploaded. Manifest uploads LAST so readers never see
 // a manifest referencing un-mirrored objects.
 // Requires: gcloud (authed — WIF in CI), git-lfs, and a prior build-manifest run.
-import { readFileSync, readdirSync, mkdirSync, copyFileSync, rmSync } from 'node:fs';
+import { readFileSync, readdirSync, mkdirSync, copyFileSync, rmSync, writeFileSync, existsSync } from 'node:fs';
 import { execSync, execFileSync } from 'node:child_process';
 import { join, extname } from 'node:path';
+import { VARIANT_NAME, encodePackId, variantMirrorPlan, withoutVariants } from './light-variants.mjs';
 
 const BUCKET = process.env.ASSET_BUCKET ?? 'gs://run-asset-library';
 const ROOT = process.cwd();
@@ -78,6 +79,25 @@ for (const [type, paths] of byType) {
     '--cache-control=public, max-age=31536000, immutable',
     `${BUCKET}/objects/`,
   ], { input: paths.join('\n'), stdio: ['pipe', 'inherit', 'inherit'] });
+}
+
+// 4b. Lighter variants (build-light-variants.mjs). Their derived objects were uploaded by that
+// step; here each advertised variant gets path-addressed copies under its own @version, at the
+// same relative paths as the original. A variant with any object missing from the bucket stops
+// being advertised before the index is published, and that pack keeps serving its original.
+const variantDir = join(ROOT, 'manifest/v2/commits', index.commit, 'variants', VARIANT_NAME);
+const variantManifests = existsSync(variantDir)
+  ? readdirSync(variantDir).map((name) => JSON.parse(readFileSync(join(variantDir, name), 'utf8')))
+  : [];
+const uploadedNow = new Set(missing.map(([oid]) => oid));
+const variantPlan = variantMirrorPlan(index, variantManifests, (oid) => existing.has(oid) || uploadedNow.has(oid));
+for (const [dest, oid] of variantPlan.copies) wantedPathCopies.set(dest, oid);
+if (variantPlan.dropped.length > 0) {
+  console.warn(`light variants not advertised (objects missing): ${variantPlan.dropped.join(', ')}`);
+  const dropped = new Set(variantPlan.dropped);
+  index.packs = index.packs.map((pack) => (dropped.has(pack.id) ? withoutVariants(pack) : pack));
+  writeFileSync(join(ROOT, 'manifest/v2/index.json'), JSON.stringify(index, null, 1));
+  for (const id of dropped) rmSync(join(variantDir, `${encodePackId(id)}.json`), { force: true });
 }
 
 // 5. Path-addressed copies: packs/<id>@<version>/<path>. Games load these URLs directly,

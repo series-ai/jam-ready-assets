@@ -12,6 +12,9 @@ on:
 permissions:
   contents: read
   id-token: write   # OIDC for Workload Identity Federation — no stored secret
+concurrency:
+  group: asset-library-mirror
+  cancel-in-progress: false
 jobs:
   manifest:
     runs-on: ubuntu-latest
@@ -38,6 +41,16 @@ jobs:
       # has never shipped is skipped instead, so one bad contribution cannot freeze the whole
       # catalogue behind a symptom ("new packs don't show up") nobody notices for weeks.
       - run: node scripts/build-manifest.mjs
+      - name: Fetch pinned preparation helper
+        id: light-helper
+        continue-on-error: true
+        run: node scripts/fetch-light-helper.mjs
+      - name: Build lighter variants
+        id: light-variants
+        continue-on-error: true
+        env:
+          LIGHT_VARIANT_STORE: gs://run-asset-library
+        run: node scripts/build-light-variants.mjs
       - run: node scripts/mirror-to-gcs.mjs
       - name: Fail on any skipped pack
         if: always()
@@ -47,3 +60,8 @@ jobs:
             cat .rejected-packs.json
             exit 1
           fi
+      - name: Report unavailable variant preparation
+        if: always() && (steps.light-helper.outcome == 'failure' || steps.light-variants.outcome == 'failure')
+        run: |
+          echo "::error::Variant preparation was unavailable. The original catalogue mirror ran independently."
+          exit 1

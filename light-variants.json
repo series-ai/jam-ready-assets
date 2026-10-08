@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "recipeVersion": "light-v1",
+  "helper": {
+    "artifact": "prepare-asset.mjs",
+    "version": null,
+    "sha256": null
+  },
+  "limits": {
+    "maxSourceBytes": 52428800,
+    "maxConversionsPerRun": 400
+  },
+  "packs": {}
+}

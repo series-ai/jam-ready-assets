@@ -15,6 +15,7 @@ import { isBackfilled, isShallowClone, packAddedAt, preReorgPackPaths } from './
 import { readFeaturedCuration } from './featured.mjs';
 import { PREVIEW_FILE, readPreviewSources, selectPreview } from './preview-policy.mjs';
 import { packKeywords } from './pack-keywords.mjs';
+import { packVersion } from './pack-version.mjs';
 
 const ROOT = process.cwd();
 const previewSources = readPreviewSources(ROOT).packs;
@@ -251,16 +252,16 @@ for (const top of readdirSync(ROOT, { withFileTypes: true })) {
       fatal(`slug "${slug}" is used by both ${slugOwner.get(slug)} and ${id}. Imports write to assets/<slug>/, so the second would overwrite the first.`);
     }
     slugOwner.set(slug, id);
+    // `license: true` marks the one file the mirror must upload and the importer must
+    // copy alongside the runtime assets. It is deliberately not a runtime file, so it
+    // stays out of runtimeFileCount and out of the paths handed to the agent.
+    const packFiles = entries.map((e) => (e.path === verdict.licensePath ? { ...e, license: true } : e));
     // Content-derived pack version. The mirror publishes path-addressed copies under
     // packs/<id>@<version>/, so this must change iff the served file set changes:
     // derived from the mirrored files (runtime + licence), never the commit. Packs
     // untouched by a push keep their version, so every game that ever imported an
     // unchanged pack references identical, immutably-cached URLs.
-    const mirroredFiles = entries
-      .filter((e) => e.runtime || e.path === verdict.licensePath)
-      .map((e) => [e.path, e.oid])
-      .sort((a, b) => a[0].localeCompare(b[0]));
-    const version = createHash('sha256').update(JSON.stringify(mirroredFiles)).digest('hex').slice(0, 12);
+    const version = packVersion(packFiles);
     // First-publish date from git history; `backfilled` marks dates that were
     // reconstructed in bulk so Studio's NEW badge ignores them (see pack-dates.mjs).
     // Pre-reorg paths ride along so the pack-first move keeps every original date.
@@ -285,10 +286,7 @@ for (const top of readdirSync(ROOT, { withFileTypes: true })) {
       id,
       commit,
       version,
-      // `license: true` marks the one file the mirror must upload and the importer must
-      // copy alongside the runtime assets. It is deliberately not a runtime file, so it
-      // stays out of runtimeFileCount and out of the paths handed to the agent.
-      files: entries.map((e) => (e.path === verdict.licensePath ? { ...e, license: true } : e)),
+      files: packFiles,
     };
     writeFileSync(
       join(ROOT, 'manifest/v2/commits', commit, 'packs', `${encoded}.json`),

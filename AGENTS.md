@@ -158,6 +158,74 @@ rarely say what is inside, so RUN.studio's asset search matches these too, and a
 "coin" or "sword" finds the packs that contain one. Clear file names make a pack easier to
 find. Like every manifest field, consumers should treat the words as untrusted text.
 
+## Lighter variants (`light-variants.json`)
+
+Big pictures and sounds make a game slower to open. A pack can additionally be published as a
+**lighter variant**: the same files at the same relative paths, with selected pictures and sounds
+made smaller. It is purely additive. The original pack, its `version`, its files, its
+`packs/<id>@<version>/` URLs and the schema-v1 manifest never change, and anything the variant does
+not cover points at the original bytes.
+
+- **Opt-in per pack.** Only packs named in the committed `light-variants.json` get a variant:
+  ```json
+  "packs": {
+    "example-icons/ui": { "images": "lossless" },
+    "example-backdrops/2D/misc": { "images": "resize", "maxDimension": 1024, "exclude": ["Sheets"] },
+    "example-sounds/audio": { "audio": "non-looping" }
+  }
+  ```
+  `lossless` keeps every pixel and only re-encodes. `resize` shrinks pictures to fit
+  `maxDimension`, so use it only where pictures are single images, not gridded sheets. `audio` is
+  re-encoded only when the pack's sounds are known not to loop. `pixelArt: true` keeps hard pixel
+  edges. 3D packs are refused: models reference textures by path and are tuned to them.
+- **Conservative within a pack.** A picture is eligible only when it is a runtime PNG or JPEG
+  that no atlas, bitmap font or map file in the pack names, and (for `resize`) whose path does not
+  say `sheet`, `tile`, `strip`, `frame` or similar. GIFs, SVGs, fonts, licence files and models
+  always stay original. A result is used only when it is the same format, smaller, and the right
+  size (identical for `lossless`, within bounds and the same shape for `resize`). Otherwise the
+  original is kept.
+- **Pinned conversion.** Conversion runs the asset-preparation helper published with RUN CLI
+  releases, pinned by SHA-256 in `helper.sha256`. With no pin, nothing is converted. A different
+  build is refused rather than mixed into the cache.
+- **Converted once.** Every result is stored in the bucket as one immutable record under
+  `variants/results/<recipeVersion>-<helper>/`, keyed by the source file's sha256 and the
+  options. Each run reads that index once, pulls from LFS and converts only sources it has never
+  seen, at most `limits.maxConversionsPerRun` per run, so a daily rebuild with nothing new
+  converts nothing. Changing the recipe version or the helper pin converts again. Like `objects/`
+  and `packs/`, `variants/` is append-only: nothing there is ever overwritten or deleted.
+- **Published.** Smaller files go to `objects/<sha256>` like everything else, then the variant is
+  served under its own `packs/<id>@<variantVersion>/` prefix, its version derived from its own
+  files and licence with the same formula as the original. A pack advertises its variant only once
+  every eligible file has a result, and the mirror stops advertising it if any of its objects is
+  missing from the bucket.
+
+In `manifest/v2/index.json` a pack with a variant gains:
+
+```json
+"variantsVersion": "<12 hex>",
+"variants": {
+  "light": {
+    "version": "<variantVersion>",
+    "recipeVersion": "light-v1-<helper>",
+    "totalBytes": 123456,
+    "runtimeFileCount": 42,
+    "manifestPath": "manifest/v2/commits/<commit>/variants/light/<id with / as -->.json"
+  },
+  "originalUrl": "https://github.com/series-ai/jam-ready-assets/tree/<commit>/<id>"
+}
+```
+
+The variant manifest has the original manifest's shape (`id`, `version`, `files`) plus
+`variant`, `originalVersion` and `recipeVersion`. Changed files carry their new `oid` and `bytes`,
+the original's `sourceOid`/`sourceBytes`, and `width`/`height`; unchanged eligible pictures carry
+their `width`/`height`. `originalUrl` is a commit-pinned page of the pack's original files, so a
+creator can always get the full-size artwork. Consumers that do not know these fields ignore
+them.
+
+To try a recipe without the bucket, build the manifest, then
+`LIGHT_VARIANT_STORE=.variant-dry-run LIGHT_VARIANT_HELPER=<path to helper> node scripts/build-light-variants.mjs`.
+The local directory is laid out like the bucket.
+
 ## Featuring packs for an event (`featured.json`)
 
 To put a curated shelf at the top of RUN.studio's Assets panel (e.g. for a jam), check a
