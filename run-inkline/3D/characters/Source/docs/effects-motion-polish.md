@@ -4,7 +4,7 @@ Version 1.4.0 reviews all 64 effects and all 85 animation clips. The joint mesh,
 
 ## Effects
 
-The review uses the same 1.80 m figure and a fixed camera for every effect. It checks each effect at default size. It also checks effects at game size. The fixed-scale sheets are in [verification/polish/](https://github.com/series-ai/run-workshop/blob/main/games/inkline-showcase/docs/verification/polish/).
+The review uses the same 1.80 m figure and a fixed camera for every effect. It checks each effect at default size. It also checks effects at game size. The fixed-scale sheets are in `verification/polish/`.
 
 - Blade arcs use a thin stroke with tapered ends. Staff sweep uses one main arc.
 - Block and hit rings are smaller. The shield uses one ring around the figure.
@@ -21,7 +21,7 @@ Recipes can set `angle` in radians relative to the trigger direction. Recipes ca
 
 ## Animation review
 
-The initial review covers 85 clips. It ranks 25 pose or timing corrections and records 20 smaller items. The report also records clips that already read clearly. Current changes and exact frame times are listed in [verification/polish/animation-changes.md](https://github.com/series-ai/run-workshop/blob/main/games/inkline-showcase/docs/verification/polish/animation-changes.md) and the timing report.
+The initial review covers 85 clips. It ranks 25 pose or timing corrections and records 20 smaller items. The report also records clips that already read clearly. Current changes and exact frame times are listed in `verification/polish/animation-changes.md` and the timing report.
 
 The rifle foregrip rule now applies only during idle and firing. It leaves the authored reload hand path free. The live jump starts at its authored takeoff phase. This keeps the pose extension aligned with the immediate physics launch. The isolated clip retains its full load phase.
 

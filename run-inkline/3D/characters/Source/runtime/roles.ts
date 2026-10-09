@@ -12,7 +12,7 @@ export interface CharacterRole {
 
 /** Each role has a body family, a clear action, and a small functional kit. */
 export const CHARACTER_ROLES: CharacterRole[] = [
-  { id: 'stick-standard', label: 'Core', family: 'Balanced', description: 'Balanced reach and an open guard. The base figure for unarmed play.', headwear: 'none', equipment: null, preview: 'block' },
+  { id: 'stick-standard', label: 'Core', family: 'Balanced', description: 'Balanced reach and an open guard. The base figure for unarmed play.', headwear: 'none', equipment: null, preview: 'idle' },
   { id: 'stick-agent', label: 'Agent', family: 'Balanced', description: 'A straight stance and compact arm movement for precise weapon use.', headwear: 'none', equipment: 'pistol', preview: 'pistol-idle' },
   { id: 'stick-runner', label: 'Runner', family: 'Swift', description: 'Long legs and a short torso. Built to read clearly at speed.', headwear: 'headband', equipment: null, preview: 'run' },
   { id: 'stick-scout', label: 'Scout', family: 'Swift', description: 'A light frame and low ready stance for quick changes of direction.', headwear: 'none', equipment: 'dagger', preview: 'dagger-stab' },

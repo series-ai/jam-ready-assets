@@ -18,6 +18,7 @@ from typing import Dict, List, Tuple, Any, Optional
 
 import bpy
 import bmesh
+import numpy as np
 from mathutils import Vector, Matrix, Euler, Quaternion
 
 # =============================================================================
@@ -1430,105 +1431,103 @@ def build_animation_expansion_catalog() -> List[Dict[str, Any]]:
         # read clearly with the minimal stick geometry.
         # ---------------------------------------------------------------------
         clip('staff-thrust', 'Staff Thrust', 'melee', False, [
-            (1, {'Hips': (0, 8, 0), 'Spine': (8, 4, 0), 'Chest': (4, 2, 0),
-                 'UpperArm_L': (-52, 0, -18), 'Forearm_L': (-82, 0, 0),
-                 'UpperArm_R': (-44, 0, 18), 'Forearm_R': (-92, 0, 0),
-                 'Thigh_L': (-16, 0, -10), 'Shin_L': (24, 0, 0), 'Thigh_R': (12, 0, 10), 'Shin_R': (14, 0, 0)}, (0, 0, 0)),
-            (4, {'Hips': (0, -26, 0), 'Spine': (-12, -26, 0), 'Chest': (-6, -14, 0),
-                 'UpperArm_L': (-18, 0, -22), 'Forearm_L': (-72, 0, 0),
-                 'UpperArm_R': (28, 0, 20), 'Forearm_R': (-104, 0, 0),
-                 'Thigh_L': (-24, 0, -12), 'Shin_L': (30, 0, 0), 'Thigh_R': (16, 0, 12), 'Shin_R': (18, 0, 0)}, (0, -0.02, -0.02)),
-            (8, {'Hips': (0, 14, 0), 'Spine': (4, 12, 0), 'Chest': (2, 8, 0),
-                  'UpperArm_L': (-48, 0, 18), 'Forearm_L': (-72, 0, 0),
-                  'UpperArm_R': (-58, 0, -12), 'Forearm_R': (-48, 0, 0)}, (0, 0.01, 0)),
-            (10, {'Hips': (0, 12, 0), 'Spine': (12, 6, 0), 'Chest': (4, 3, 0),
-                   'UpperArm_L': (-52, 0, 20), 'Forearm_L': (-72, 0, 0), 'Hand_L': (-8, 0, 0),
-                   'UpperArm_R': (-92, 0, -5), 'Forearm_R': (-4, 0, 0), 'Hand_R': (82.85, 6.16, -20.372),
-                   'Thigh_L': (-30, 0, -18), 'Shin_L': (42, 0, 0), 'Foot_L': (8, 0, 0),
-                   'Thigh_R': (20, 0, 18), 'Shin_R': (26, 0, 0), 'Foot_R': (4, 0, 0)}, (0, 0.02, -0.02)),
-            (11, {'Hips': (0, 11, 0), 'Spine': (11, 6, 0), 'Chest': (4, 3, 0),
-                   'UpperArm_L': (-52, 0, 20), 'Forearm_L': (-73, 0, 0), 'Hand_L': (-8, 0, 0),
-                   'UpperArm_R': (-88, 0, -5), 'Forearm_R': (-6, 0, 0), 'Hand_R': (82.025, 5.788, -21.422)}, (0, 0.02, -0.02)),
-            (16, {'Hips': (0, 8, 0), 'Spine': (8, 6, 0), 'Chest': (3, 3, 0),
-                  'UpperArm_L': (-50, 0, -14), 'Forearm_L': (-66, 0, 0),
-                  'UpperArm_R': (-38, 0, 16), 'Forearm_R': (-76, 0, 0)}, (0, 0, 0)),
-            (22, {'Hips': (0, 0, 0), 'Spine': (8, 0, 0), 'Chest': (4, 0, 0),
-                   'UpperArm_L': (-48, 0, -16), 'Forearm_L': (-78, 0, 0),
-                   'UpperArm_R': (-40, 0, 16), 'Forearm_R': (-84, 0, 0)}, (0, 0, 0)),
-        ], contact_frame=10),
+            (1, {'Hips': (0, 14, 0), 'Spine': (8, 8, 0), 'Chest': (4, 4, 0),
+                 'UpperArm_R': (18, 0, 16), 'Forearm_R': (-88, 0, 0), 'Hand_R': (0, 0, 0),
+                 'UpperArm_L': (-52, 0, 24), 'Forearm_L': (-55, 0, 0), 'Hand_L': (0, 0, 0),
+                 'Thigh_L': (-18, 0, -10), 'Shin_L': (26, 0, 0), 'Thigh_R': (14, 0, 10), 'Shin_R': (16, 0, 0)}, (0, 0, 0)),
+            (4, {'Hips': (0, 26, 0), 'Spine': (-8, 20, 0), 'Chest': (-4, 12, 0),
+                 'UpperArm_R': (26, 0, 20), 'Forearm_R': (-102, 0, 0), 'Hand_R': (0, 0, 0),
+                 'UpperArm_L': (-44, 0, 18), 'Forearm_L': (-66, 0, 0), 'Hand_L': (0, 0, 0),
+                 'Thigh_L': (-24, 0, -12), 'Shin_L': (32, 0, 0), 'Thigh_R': (18, 0, 12), 'Shin_R': (20, 0, 0)}, (0, 0.02, -0.02)),
+            (7, {'Hips': (0, -6, 0), 'Spine': (12, -4, 0), 'Chest': (6, -2, 0),
+                 'UpperArm_R': (-88, 0, 0), 'Forearm_R': (-12, 0, 0), 'Hand_R': (0, 0, 0),
+                 'UpperArm_L': (-60, 0, 28), 'Forearm_L': (-40, 0, 0), 'Hand_L': (0, 0, 0),
+                 'Thigh_L': (-34, 0, -14), 'Shin_L': (48, 0, 0), 'Foot_L': (8, 0, 0),
+                 'Thigh_R': (22, 0, 14), 'Shin_R': (28, 0, 0), 'Foot_R': (4, 0, 0)}, (0, -0.05, -0.03)),
+            (8, {'Hips': (0, -6, 0), 'Spine': (12, -4, 0), 'Chest': (6, -2, 0),
+                 'UpperArm_R': (-88, 0, 0), 'Forearm_R': (-12, 0, 0), 'Hand_R': (0, 0, 0),
+                 'UpperArm_L': (-60, 0, 28), 'Forearm_L': (-40, 0, 0), 'Hand_L': (0, 0, 0)}, (0, -0.05, -0.03)),
+            (12, {'Hips': (0, 8, 0), 'Spine': (8, 6, 0), 'Chest': (4, 4, 0),
+                  'UpperArm_R': (-35, 0, 12), 'Forearm_R': (-65, 0, 0), 'Hand_R': (0, 0, 0),
+                  'UpperArm_L': (-50, 0, 20), 'Forearm_L': (-58, 0, 0), 'Hand_L': (0, 0, 0)}, (0, 0, -0.01)),
+            (18, {'Hips': (0, 14, 0), 'Spine': (8, 8, 0), 'Chest': (4, 4, 0),
+                  'UpperArm_R': (18, 0, 16), 'Forearm_R': (-88, 0, 0), 'Hand_R': (0, 0, 0),
+                  'UpperArm_L': (-52, 0, 24), 'Forearm_L': (-55, 0, 0), 'Hand_L': (0, 0, 0)}, (0, 0, 0)),
+        ], contact_frame=7),
         clip('staff-sweep', 'Staff Sweep', 'melee', False, [
             (1, {'Hips': (0, -4, 0), 'Spine': (8, -4, 0), 'Chest': (4, -2, 0),
-                 'UpperArm_L': (-48, 0, -18), 'Forearm_L': (-74, 0, 0),
-                 'UpperArm_R': (-44, 0, 18), 'Forearm_R': (-86, 0, 0),
-                 'Thigh_L': (-14, 0, -8), 'Shin_L': (22, 0, 0), 'Thigh_R': (12, 0, 8), 'Shin_R': (14, 0, 0)}, (0, 0, 0)),
-            (4, {'Hips': (0, 32, 0), 'Spine': (-10, 30, 0), 'Chest': (-4, 16, 0),
-                  'UpperArm_L': (-68, 0, -30), 'Forearm_L': (-54, 0, 0),
-                  'UpperArm_R': (-62, 0, 28), 'Forearm_R': (-68, 0, 0),
-                  'Thigh_L': (-22, 0, -12), 'Shin_L': (28, 0, 0), 'Thigh_R': (16, 0, 12), 'Shin_R': (18, 0, 0)}, (0, 0.03, -0.02)),
-            (8, {'Hips': (0, -40, 0), 'Spine': (10, -30, 0), 'Chest': (6, -16, 0),
-                  'UpperArm_L': (-46, 0, 24), 'Forearm_L': (-54, 0, 0),
-                  'UpperArm_R': (-56, 0, -28), 'Forearm_R': (-46, 0, 0)}, (0, -0.04, 0)),
-            (11, {'Hips': (0, -38, 0), 'Spine': (12, -18, 0), 'Chest': (5, -8, 0),
-                   'UpperArm_L': (-58, 0, 28), 'Forearm_L': (-46, 0, 0), 'Hand_L': (-8, 0, 0),
-                   'UpperArm_R': (-64, 0, -30), 'Forearm_R': (-26, 0, 0), 'Hand_R': (-12.723, -156.345, -55.053),
-                   'Thigh_L': (-30, 0, -18), 'Shin_L': (42, 0, 0), 'Foot_L': (8, 0, 0),
-                   'Thigh_R': (24, 0, 18), 'Shin_R': (30, 0, 0), 'Foot_R': (4, 0, 0)}, (0, -0.04, 0)),
-            (12, {'Hips': (0, -36, 0), 'Spine': (11, -17, 0), 'Chest': (5, -8, 0),
-                   'UpperArm_L': (-58, 0, 28), 'Forearm_L': (-47, 0, 0), 'Hand_L': (-8, 0, 0),
-                   'UpperArm_R': (-62, 0, -30), 'Forearm_R': (-28, 0, 0), 'Hand_R': (-11.957, -156.504, -52.287)}, (0, -0.04, 0)),
-            (17, {'Hips': (0, -12, 0), 'Spine': (10, -8, 0), 'Chest': (4, -4, 0),
-                   'UpperArm_L': (-46, 0, -12), 'Forearm_L': (-64, 0, 0),
-                   'UpperArm_R': (-40, 0, 12), 'Forearm_R': (-72, 0, 0)}, (0, -0.01, 0)),
-            (24, {'Hips': (0, 0, 0), 'Spine': (8, 0, 0), 'Chest': (4, 0, 0),
-                   'UpperArm_L': (-48, 0, -16), 'Forearm_L': (-78, 0, 0),
-                   'UpperArm_R': (-40, 0, 16), 'Forearm_R': (-84, 0, 0)}, (0, 0, 0)),
-        ], contact_frame=11),
+                 'UpperArm_R': (-40, 0, 18), 'Forearm_R': (-84, 0, 0), 'Hand_R': (0, 0, 0),
+                 'UpperArm_L': (-48, 0, -18), 'Forearm_L': (-74, 0, 0), 'Hand_L': (0, 0, 0),
+                 'Thigh_L': (-16, 0, -8), 'Shin_L': (24, 0, 0), 'Thigh_R': (14, 0, 8), 'Shin_R': (16, 0, 0)}, (0, 0, 0)),
+            (4, {'Hips': (0, 36, 0), 'Spine': (-8, 30, 0), 'Chest': (-4, 18, 0),
+                 'UpperArm_R': (-42, 0, 32), 'Forearm_R': (-78, 0, 0), 'Hand_R': (0, 0, 0),
+                 'UpperArm_L': (-64, 0, -28), 'Forearm_L': (-52, 0, 0), 'Hand_L': (0, 0, 0),
+                 'Thigh_L': (-24, 0, -12), 'Shin_L': (30, 0, 0), 'Thigh_R': (18, 0, 12), 'Shin_R': (20, 0, 0)}, (0, 0.04, -0.03)),
+            (8, {'Hips': (0, -38, 0), 'Spine': (14, -28, 0), 'Chest': (6, -14, 0), 'Head': (-8, 0, 0),
+                 'UpperArm_R': (-68, 0, -24), 'Forearm_R': (-24, 0, 0), 'Hand_R': (0, 0, 0),
+                 'UpperArm_L': (-56, 0, 24), 'Forearm_L': (-42, 0, 0), 'Hand_L': (0, 0, 0),
+                 'Thigh_L': (-36, 0, -16), 'Shin_L': (50, 0, 0), 'Foot_L': (8, 0, 0),
+                 'Thigh_R': (26, 0, 16), 'Shin_R': (32, 0, 0), 'Foot_R': (4, 0, 0)}, (0, -0.04, -0.12)),
+            (9, {'Hips': (0, -38, 0), 'Spine': (14, -28, 0), 'Chest': (6, -14, 0),
+                 'UpperArm_R': (-68, 0, -24), 'Forearm_R': (-24, 0, 0), 'Hand_R': (0, 0, 0),
+                 'UpperArm_L': (-56, 0, 24), 'Forearm_L': (-42, 0, 0), 'Hand_L': (0, 0, 0)}, (0, -0.04, -0.12)),
+            (13, {'Hips': (0, -42, 0), 'Spine': (10, -24, 0), 'Chest': (4, -12, 0),
+                  'UpperArm_R': (-58, 0, -30), 'Forearm_R': (-40, 0, 0), 'Hand_R': (0, 0, 0),
+                  'UpperArm_L': (-48, 0, 18), 'Forearm_L': (-60, 0, 0), 'Hand_L': (0, 0, 0)}, (0, -0.02, -0.06)),
+            (17, {'Hips': (0, -14, 0), 'Spine': (9, -8, 0), 'Chest': (4, -4, 0),
+                  'UpperArm_R': (-42, 0, 10), 'Forearm_R': (-74, 0, 0), 'Hand_R': (0, 0, 0),
+                  'UpperArm_L': (-46, 0, -10), 'Forearm_L': (-68, 0, 0), 'Hand_L': (0, 0, 0)}, (0, -0.01, -0.02)),
+            (20, {'Hips': (0, -4, 0), 'Spine': (8, -4, 0), 'Chest': (4, -2, 0),
+                  'UpperArm_R': (-40, 0, 18), 'Forearm_R': (-84, 0, 0), 'Hand_R': (0, 0, 0),
+                  'UpperArm_L': (-48, 0, -18), 'Forearm_L': (-74, 0, 0), 'Hand_L': (0, 0, 0)}, (0, 0, 0)),
+        ], contact_frame=8),
         clip('staff-overhead', 'Staff Overhead', 'melee', False, [
-            (1, {'Hips': (0, -6, 0), 'Spine': (8, -4, 0), 'Chest': (4, -2, 0),
-                 'UpperArm_L': (-48, 0, -18), 'Forearm_L': (-76, 0, 0),
-                 'UpperArm_R': (-42, 0, 18), 'Forearm_R': (-86, 0, 0),
-                 'Thigh_L': (-18, 0, -10), 'Shin_L': (24, 0, 0), 'Thigh_R': (14, 0, 10), 'Shin_R': (14, 0, 0)}, (0, 0, 0)),
-            (6, {'Hips': (0, 20, 0), 'Spine': (-24, 16, 0), 'Chest': (-8, 8, 0),
-                  'UpperArm_L': (-150, 0, -16), 'Forearm_L': (-74, 0, 0),
-                  'UpperArm_R': (-150, 0, 16), 'Forearm_R': (-74, 0, 0),
-                  'Thigh_L': (-28, 0, -14), 'Shin_L': (38, 0, 0), 'Thigh_R': (20, 0, 14), 'Shin_R': (18, 0, 0)}, (0, 0.03, 0.04)),
-            (10, {'Hips': (0, -12, 0), 'Spine': (10, -8, 0), 'Chest': (4, -4, 0),
-                  'UpperArm_L': (-72, 0, -12), 'Forearm_L': (-28, 0, 0),
-                  'UpperArm_R': (-82, 0, 8), 'Forearm_R': (-12, 0, 0)}, (0, -0.02, -0.05)),
-            (13, {'Hips': (0, -12, 0), 'Spine': (24, -4, 0), 'Chest': (7, -2, 0),
-                   'UpperArm_L': (-72, 0, -12), 'Forearm_L': (-28, 0, 0), 'Hand_L': (-8, 0, 0),
-                   'UpperArm_R': (-82, 0, 8), 'Forearm_R': (-12, 0, 0), 'Hand_R': (80.741, 35.071, -55.323),
-                   'Thigh_L': (-40, 0, -18), 'Shin_L': (54, 0, 0), 'Foot_L': (10, 0, 0),
-                   'Thigh_R': (24, 0, 18), 'Shin_R': (40, 0, 0), 'Foot_R': (6, 0, 0)}, (0, -0.02, -0.08)),
-            (14, {'Hips': (0, -11, 0), 'Spine': (23, -4, 0), 'Chest': (7, -2, 0),
-                   'UpperArm_L': (-72, 0, -12), 'Forearm_L': (-29, 0, 0), 'Hand_L': (-8, 0, 0),
-                   'UpperArm_R': (-82, 0, 8), 'Forearm_R': (-13, 0, 0), 'Hand_R': (81.787, 37.035, -53.884)}, (0, -0.02, -0.08)),
-            (19, {'Hips': (0, -8, 0), 'Spine': (16, 2, 0), 'Chest': (5, 2, 0),
-                   'UpperArm_L': (-38, 0, -12), 'Forearm_L': (-36, 0, 0),
-                   'UpperArm_R': (-36, 0, 12), 'Forearm_R': (-34, 0, 0)}, (0, 0, -0.02)),
-            (25, {'Hips': (0, 0, 0), 'Spine': (8, 0, 0), 'Chest': (4, 0, 0),
-                   'UpperArm_L': (-48, 0, -16), 'Forearm_L': (-78, 0, 0),
-                   'UpperArm_R': (-40, 0, 16), 'Forearm_R': (-84, 0, 0)}, (0, 0, 0)),
+            (1, {'Hips': (0, -4, 0), 'Spine': (8, -4, 0), 'Chest': (4, -2, 0),
+                 'UpperArm_R': (-42, 0, 18), 'Forearm_R': (-86, 0, 0), 'Hand_R': (0, 0, 0),
+                 'UpperArm_L': (-48, 0, -18), 'Forearm_L': (-76, 0, 0), 'Hand_L': (0, 0, 0),
+                 'Thigh_L': (-16, 0, -10), 'Shin_L': (24, 0, 0), 'Thigh_R': (14, 0, 10), 'Shin_R': (14, 0, 0)}, (0, 0, 0)),
+            (6, {'Hips': (0, 12, 0), 'Spine': (-22, 10, 0), 'Chest': (-10, 6, 0), 'Head': (8, 0, 0),
+                 'UpperArm_R': (-150, 0, 14), 'Forearm_R': (-45, 0, 0), 'Hand_R': (0, 0, 0),
+                 'UpperArm_L': (-150, 0, -14), 'Forearm_L': (-45, 0, 0), 'Hand_L': (0, 0, 0),
+                 'Thigh_L': (-24, 0, -12), 'Shin_L': (34, 0, 0), 'Thigh_R': (18, 0, 12), 'Shin_R': (18, 0, 0)}, (0, 0.03, 0.04)),
+            (10, {'Hips': (0, -4, 0), 'Spine': (6, 0, 0), 'Chest': (4, 0, 0),
+                  'UpperArm_R': (-105, 0, 8), 'Forearm_R': (-24, 0, 0), 'Hand_R': (0, 0, 0),
+                  'UpperArm_L': (-105, 0, -8), 'Forearm_L': (-24, 0, 0), 'Hand_L': (0, 0, 0)}, (0, -0.01, -0.04)),
+            (13, {'Hips': (0, -4, 0), 'Spine': (24, 0, 0), 'Chest': (8, 0, 0), 'Head': (-6, 0, 0),
+                  'UpperArm_R': (-74, 0, 8), 'Forearm_R': (-16, 0, 0), 'Hand_R': (0, 0, 0),
+                  'UpperArm_L': (-74, 0, -8), 'Forearm_L': (-16, 0, 0), 'Hand_L': (0, 0, 0),
+                  'Thigh_L': (-38, 0, -14), 'Shin_L': (54, 0, 0), 'Foot_L': (8, 0, 0),
+                  'Thigh_R': (24, 0, 14), 'Shin_R': (38, 0, 0), 'Foot_R': (4, 0, 0)}, (0, -0.02, -0.09)),
+            (15, {'Hips': (0, -4, 0), 'Spine': (24, 0, 0), 'Chest': (8, 0, 0),
+                  'UpperArm_R': (-74, 0, 8), 'Forearm_R': (-16, 0, 0), 'Hand_R': (0, 0, 0),
+                  'UpperArm_L': (-74, 0, -8), 'Forearm_L': (-16, 0, 0), 'Hand_L': (0, 0, 0)}, (0, -0.02, -0.09)),
+            (19, {'Hips': (0, -6, 0), 'Spine': (14, 0, 0), 'Chest': (5, 0, 0),
+                  'UpperArm_R': (-40, 0, 12), 'Forearm_R': (-45, 0, 0), 'Hand_R': (0, 0, 0),
+                  'UpperArm_L': (-40, 0, -12), 'Forearm_L': (-45, 0, 0), 'Hand_L': (0, 0, 0)}, (0, 0, -0.03)),
+            (25, {'Hips': (0, -4, 0), 'Spine': (8, -4, 0), 'Chest': (4, -2, 0),
+                  'UpperArm_R': (-42, 0, 18), 'Forearm_R': (-86, 0, 0), 'Hand_R': (0, 0, 0),
+                  'UpperArm_L': (-48, 0, -18), 'Forearm_L': (-76, 0, 0), 'Hand_L': (0, 0, 0)}, (0, 0, 0)),
         ], contact_frame=13),
         clip('staff-parry', 'Staff Parry', 'melee', False, [
             (1, {'Hips': (0, -4, 0), 'Spine': (8, -4, 0), 'Chest': (4, -2, 0),
-                 'UpperArm_L': (-48, 0, -18), 'Forearm_L': (-74, 0, 0),
-                 'UpperArm_R': (-44, 0, 18), 'Forearm_R': (-84, 0, 0)}, (0, 0, 0)),
-            (3, {'Hips': (0, 18, 0), 'Spine': (-8, 16, 0), 'Chest': (-4, 8, 0),
-                 'UpperArm_L': (-72, 0, -38), 'Forearm_L': (-42, 0, 0),
-                 'UpperArm_R': (-38, 0, 24), 'Forearm_R': (-96, 0, 0)}, (0, 0.01, 0)),
-            (7, {'Hips': (0, -8, 0), 'Spine': (12, -12, 0), 'Chest': (5, -6, 0),
-                 'UpperArm_L': (-104, 0, -22), 'Forearm_L': (-16, 0, 0), 'Hand_L': (-8, 0, 0),
-                   'UpperArm_R': (-58, 0, 24), 'Forearm_R': (-38, 0, 0), 'Hand_R': (91.068, -28.991, -90.996)}, (0, -0.01, 0)),
-            (8, {'Hips': (0, -8, 0), 'Spine': (12, -12, 0), 'Chest': (5, -6, 0),
-                 'UpperArm_L': (-104, 0, -22), 'Forearm_L': (-17, 0, 0), 'Hand_L': (-8, 0, 0),
-                 'UpperArm_R': (-56, 0, 24), 'Forearm_R': (-40, 0, 0), 'Hand_R': (91.063, -28.991, -91.0)}, (0, -0.01, 0)),
-            (13, {'Hips': (0, 8, 0), 'Spine': (4, 6, 0), 'Chest': (2, 3, 0),
-                  'UpperArm_L': (-54, 0, -18), 'Forearm_L': (-62, 0, 0),
-                  'UpperArm_R': (-42, 0, 16), 'Forearm_R': (-76, 0, 0)}, (0, 0, 0)),
-            (20, {'Hips': (0, 0, 0), 'Spine': (8, 0, 0), 'Chest': (4, 0, 0),
-                  'UpperArm_L': (-48, 0, -16), 'Forearm_L': (-78, 0, 0),
-                  'UpperArm_R': (-40, 0, 16), 'Forearm_R': (-84, 0, 0)}, (0, 0, 0)),
+                 'UpperArm_R': (-44, 0, 18), 'Forearm_R': (-84, 0, 0), 'Hand_R': (0, 0, 0),
+                 'UpperArm_L': (-48, 0, -18), 'Forearm_L': (-74, 0, 0), 'Hand_L': (0, 0, 0)}, (0, 0, 0)),
+            (3, {'Hips': (0, 12, 0), 'Spine': (-6, 10, 0), 'Chest': (-2, 6, 0),
+                 'UpperArm_R': (-36, 0, 20), 'Forearm_R': (-90, 0, 0), 'Hand_R': (0, 0, 0),
+                 'UpperArm_L': (-68, 0, -32), 'Forearm_L': (-48, 0, 0), 'Hand_L': (0, 0, 0)}, (0, 0.01, 0)),
+            (7, {'Hips': (0, -10, 0), 'Spine': (10, -10, 0), 'Chest': (5, -6, 0), 'Head': (4, 6, 0),
+                 'UpperArm_R': (-52, 0, 18), 'Forearm_R': (-58, 0, 0), 'Hand_R': (0, 0, 0),
+                 'UpperArm_L': (-102, 0, -18), 'Forearm_L': (-18, 0, 0), 'Hand_L': (0, 0, 0),
+                 'Thigh_L': (-26, 0, -12), 'Shin_L': (38, 0, 0), 'Thigh_R': (18, 0, 12), 'Shin_R': (24, 0, 0)}, (0, -0.01, -0.02)),
+            (9, {'Hips': (0, -10, 0), 'Spine': (10, -10, 0), 'Chest': (5, -6, 0),
+                 'UpperArm_R': (-52, 0, 18), 'Forearm_R': (-58, 0, 0), 'Hand_R': (0, 0, 0),
+                 'UpperArm_L': (-102, 0, -18), 'Forearm_L': (-18, 0, 0), 'Hand_L': (0, 0, 0)}, (0, 0.01, -0.03)),
+            (14, {'Hips': (0, 6, 0), 'Spine': (6, 4, 0), 'Chest': (3, 2, 0),
+                  'UpperArm_R': (-40, 0, 14), 'Forearm_R': (-72, 0, 0), 'Hand_R': (0, 0, 0),
+                  'UpperArm_L': (-54, 0, -16), 'Forearm_L': (-62, 0, 0), 'Hand_L': (0, 0, 0)}, (0, 0, 0)),
+            (20, {'Hips': (0, -4, 0), 'Spine': (8, -4, 0), 'Chest': (4, -2, 0),
+                  'UpperArm_R': (-44, 0, 18), 'Forearm_R': (-84, 0, 0), 'Hand_R': (0, 0, 0),
+                  'UpperArm_L': (-48, 0, -18), 'Forearm_L': (-74, 0, 0), 'Hand_L': (0, 0, 0)}, (0, 0, 0)),
         ], contact_frame=7),
 
         # ---------------------------------------------------------------------
@@ -1821,23 +1820,26 @@ def apply_kinetic_pose_overrides(catalog: List[Dict[str, Any]]) -> None:
 
     # Ground travel. The torso and head lead the step, with opposite arms and
     # legs to preserve a readable line of action at small display size.
-    patch('walk', 1, Hips=(-2, 8, 0), hips_position=(0, 0, -0.018), Spine=(4, -8, 0), Chest=(-1, -5, 0),
+    patch('walk', 1, Hips=(-2, 8, 0), hips_position=(0, 0, -0.008), Spine=(4, -8, 0), Chest=(-1, -5, 0),
           Head=(-3, -4, 0), UpperArm_L=(24, 0, -6), UpperArm_R=(-30, 0, 6))
-    patch('walk', 8, Hips=(0, 0, 0), hips_position=(0, 0, 0.025), Spine=(2, 0, 1), Chest=(1, 0, 0),
+    patch('walk', 8, Hips=(0, 0, 0), hips_position=(0, 0, 0.008), Spine=(2, 0, 1), Chest=(1, 0, 0),
           Head=(-1, 0, 0), Thigh_L=(-6, 0, -4), Thigh_R=(-18, 0, 4),
           Shin_L=(10, 0, 0), Shin_R=(62, 0, 0))
-    patch('walk', 16, Hips=(-2, -8, 0), hips_position=(0, 0, -0.018), Spine=(4, 8, 0), Chest=(-1, 5, 0),
+    patch('walk', 16, Hips=(-2, -8, 0), hips_position=(0, 0, -0.008), Spine=(4, 8, 0), Chest=(-1, 5, 0),
           Head=(-3, 4, 0), UpperArm_L=(-30, 0, -6), UpperArm_R=(24, 0, 6))
-    patch('walk', 23, Hips=(0, 0, 0), hips_position=(0, 0, 0.025), Spine=(2, 0, -1), Chest=(1, 0, 0),
+    patch('walk', 23, Hips=(0, 0, 0), hips_position=(0, 0, 0.008), Spine=(2, 0, -1), Chest=(1, 0, 0),
           Head=(-1, 0, 0), Thigh_L=(0, 0, -2), Thigh_R=(-15, 0, 4),
           Shin_R=(58, 0, 0))
+    patch('walk', 30, Hips=(-2, 8, 0), hips_position=(0, 0, -0.008), Spine=(4, -8, 0), Chest=(-1, -5, 0),
+          Head=(-3, -4, 0), UpperArm_L=(24, 0, -6), UpperArm_R=(-30, 0, 6))
 
-    patch('run', 1, Hips=(-2, -8, 0), hips_position=(0, 0, -0.06), Spine=(20, -15, 0), Head=(-8, -8, 0))
-    patch('run', 6, Hips=(1, 0, 0), hips_position=(0, 0, 0.08), Spine=(14, 2, 0), Head=(-2, 4, 0),
+    patch('run', 1, Hips=(-2, -8, 0), hips_position=(0, 0, -0.025), Spine=(20, -15, 0), Head=(-8, -8, 0))
+    patch('run', 6, Hips=(1, 0, 0), hips_position=(0, 0, 0.030), Spine=(14, 2, 0), Head=(-2, 4, 0),
           Thigh_L=(34, 0, -8), Thigh_R=(-62, 0, 8))
-    patch('run', 12, Hips=(2, 10, 0), hips_position=(0, 0, -0.06), Spine=(20, 15, 0), Head=(-8, 8, 0))
-    patch('run', 17, Hips=(-1, 0, 0), hips_position=(0, 0, 0.08), Spine=(14, -2, 0), Head=(-2, -4, 0),
+    patch('run', 12, Hips=(2, 10, 0), hips_position=(0, 0, -0.025), Spine=(20, 15, 0), Head=(-8, 8, 0))
+    patch('run', 17, Hips=(-1, 0, 0), hips_position=(0, 0, 0.030), Spine=(14, -2, 0), Head=(-2, -4, 0),
           Thigh_L=(-62, 0, -6), Thigh_R=(34, 0, 8))
+    patch('run', 22, Hips=(-2, -8, 0), hips_position=(0, 0, -0.025), Spine=(20, -15, 0), Head=(-8, -8, 0))
 
     patch('sprint', 1, Hips=(-2, -14, 0), hips_position=(0, 0, -0.08), Spine=(31, -20, 0), Head=(-10, -8, 0))
     patch('sprint', 4, Hips=(2, 0, 0), hips_position=(0, 0, 0.10), Spine=(25, 2, 0), Head=(-3, 4, 0),
@@ -2078,11 +2080,6 @@ def apply_kinetic_pose_overrides(catalog: List[Dict[str, Any]]) -> None:
     patch('sword-thrust', 11, Hand_R=(-22.006, 0.983, -11.749), Hand_L=(-48, 0, -12))
     patch('sword-thrust', 12, Hand_R=(-22.006, 0.983, -11.749))
     patch('sword-thrust', 16, Hand_R=(-12, 0, 0))
-    patch('staff-spin', 1, Hand_R=(82.85, 6.16, -20.372))
-    patch('staff-spin', 6, Hand_R=(-12.723, -156.345, -55.053))
-    patch('staff-spin', 12, Hand_R=(80.741, 35.071, -55.323))
-    patch('staff-spin', 18, Hand_R=(91.068, -28.991, -90.996))
-    patch('staff-spin', 24, Hand_R=(82.85, 6.16, -20.372))
 
     # The release is a discrete frame between the drawn string and recovery.
     # The explicit key keeps the contact event visible in exported samplers.
@@ -2769,8 +2766,8 @@ def apply_authored_motion_polish(catalog: List[Dict[str, Any]]) -> None:
     for clip_id, end_frame, contact_frame in [
         ('punch-left', 12, 5), ('punch-right', 14, 6), ('dagger-stab', 12, 5),
         ('sword-thrust', 15, 6), ('sword-slash', 18, 7), ('kick-roundhouse', 21, 8),
-        ('uppercut', 15, 7), ('shield-push', 21, 8), ('staff-sweep', 20, 8),
-        ('sword-diagonal', 20, 8), ('backfist', 15, 6), ('staff-thrust', 18, 7),
+        ('uppercut', 15, 7), ('shield-push', 21, 8),
+        ('sword-diagonal', 20, 8), ('backfist', 15, 6),
     ]:
         _retime_authored_clip(by_id[clip_id], end_frame, contact_frame)
 
@@ -2788,10 +2785,6 @@ def apply_authored_motion_polish(catalog: List[Dict[str, Any]]) -> None:
         'UpperArm_L': (-94, 0, -8), 'Forearm_L': (-8, 0, 0), 'UpperArm_R': (-44, 0, 22), 'Forearm_R': (-76, 0, 0),
     }, (0, -.10, -.13))
     by_id['shield-push']['motion']['grip'] = dict(side='L', reference='block', orientation=[0, 0, 0])
-    _patch_authored_frame(by_id['staff-sweep'], 8, {
-        'Hips': (0, -38, 0), 'Spine': (14, -28, 0), 'Chest': (6, -14, 0), 'Head': (-10, 0, 0),
-        'UpperArm_L': (-58, 0, 28), 'Forearm_L': (-48, 0, 0), 'UpperArm_R': (-64, 0, -30), 'Forearm_R': (-30, 0, 0),
-    }, (0, -.04, -.13))
     _patch_authored_frame(by_id['backfist'], 6, {
         'Hips': (-8, -12, -6), 'Spine': (20, -14, 0), 'Chest': (8, -8, 0), 'Head': (-6, 0, -12),
         'UpperArm_R': (-78, 0, -42), 'Forearm_R': (-62, 0, 0), 'Hand_R': (-12, 0, 0),
@@ -3561,13 +3554,26 @@ def build_animation_catalog() -> List[Dict[str, Any]]:
     catalog.append({
         'id': 'staff-spin', 'label': 'Staff Spin', 'category': 'melee', 'loop': True, 'fps': FPS,
         'frames': [
-            (1, {'Spine': (6, 0, 0), 'UpperArm_R': (-65, 0, 20), 'Forearm_R': (-45, 0, 0), 'UpperArm_L': (-65, 0, -20), 'Forearm_L': (-45, 0, 0),
-                 'Thigh_L': (-8, 0, -4), 'Shin_L': (12, 0, 0), 'Thigh_R': (-8, 0, 4), 'Shin_R': (12, 0, 0)}, (0, 0, 0)),
-            (6, {'Spine': (6, 25, 0), 'UpperArm_R': (-85, 0, -10), 'UpperArm_L': (-45, 0, -25)}, (0, 0, 0)),
-            (12, {'Spine': (6, 0, 0), 'UpperArm_R': (-45, 0, -25), 'UpperArm_L': (-85, 0, 10)}, (0, 0, 0)),
-            (18, {'Spine': (6, -25, 0), 'UpperArm_R': (-65, 0, -20), 'UpperArm_L': (-65, 0, 20)}, (0, 0, 0)),
-            (24, {'Spine': (6, 0, 0), 'UpperArm_R': (-65, 0, 20), 'Forearm_R': (-45, 0, 0), 'UpperArm_L': (-65, 0, -20), 'Forearm_L': (-45, 0, 0),
-                  'Thigh_L': (-8, 0, -4), 'Shin_L': (12, 0, 0), 'Thigh_R': (-8, 0, 4), 'Shin_R': (12, 0, 0)}, (0, 0, 0)),
+            (1, {'Hips': (0, -16, 0), 'Spine': (6, -18, 0), 'Chest': (3, -10, 0),
+                 'UpperArm_R': (-58, 0, 20), 'Forearm_R': (-48, 0, 0), 'Hand_R': (0, 0, 0),
+                 'UpperArm_L': (-50, 0, -30), 'Forearm_L': (-55, 0, 0), 'Hand_L': (0, 0, 0),
+                 'Thigh_L': (-12, 0, -6), 'Shin_L': (18, 0, 0), 'Thigh_R': (10, 0, 6), 'Shin_R': (14, 0, 0)}, (0, 0, 0)),
+            (6, {'Hips': (0, -8, 0), 'Spine': (5, -10, 0), 'Chest': (2, -5, 0),
+                 'UpperArm_R': (-72, 0, -15), 'Forearm_R': (-35, 0, 0), 'Hand_R': (0, 0, 0),
+                 'UpperArm_L': (-60, 0, -15), 'Forearm_L': (-45, 0, 0), 'Hand_L': (0, 0, 0)}, (0, 0, 0)),
+            (12, {'Hips': (0, 0, 0), 'Spine': (4, 0, 0), 'Chest': (2, 0, 0),
+                  'UpperArm_R': (-60, 0, 0), 'Forearm_R': (-45, 0, 0), 'Hand_R': (0, 0, 0),
+                  'UpperArm_L': (-65, 0, 15), 'Forearm_L': (-45, 0, 0), 'Hand_L': (0, 0, 0)}, (0, 0, 0)),
+            (15, {'Hips': (0, 16, 0), 'Spine': (6, 18, 0), 'Chest': (3, 10, 0),
+                  'UpperArm_R': (-68, 0, 22), 'Forearm_R': (-38, 0, 0), 'Hand_R': (0, 0, 0),
+                  'UpperArm_L': (-52, 0, -25), 'Forearm_L': (-55, 0, 0), 'Hand_L': (0, 0, 0)}, (0, 0, 0)),
+            (18, {'Hips': (0, 8, 0), 'Spine': (5, 10, 0), 'Chest': (2, 5, 0),
+                  'UpperArm_R': (-55, 0, 18), 'Forearm_R': (-50, 0, 0), 'Hand_R': (0, 0, 0),
+                  'UpperArm_L': (-68, 0, -20), 'Forearm_L': (-40, 0, 0), 'Hand_L': (0, 0, 0)}, (0, 0, 0)),
+            (24, {'Hips': (0, -16, 0), 'Spine': (6, -18, 0), 'Chest': (3, -10, 0),
+                  'UpperArm_R': (-58, 0, 20), 'Forearm_R': (-48, 0, 0), 'Hand_R': (0, 0, 0),
+                  'UpperArm_L': (-50, 0, -30), 'Forearm_L': (-55, 0, 0), 'Hand_L': (0, 0, 0),
+                  'Thigh_L': (-12, 0, -6), 'Shin_L': (18, 0, 0), 'Thigh_R': (10, 0, 6), 'Shin_R': (14, 0, 0)}, (0, 0, 0)),
         ]
     })
 
@@ -3942,7 +3948,7 @@ def apply_stationary_foot_contacts(catalog):
 
 
 KINETIC_LINEAR_CLIPS = {
-    'sword-slash', 'sword-overhead', 'sword-thrust', 'staff-spin',
+    'sword-slash', 'sword-overhead', 'sword-thrust',
     'kick-air', 'elbow-strike', 'backfist', 'bow-release',
 }
 
@@ -4136,12 +4142,14 @@ def bake_support_plants(arm_obj, definition, cfg):
         bone.matrix = Matrix.LocRotScale(bone.head, rotation @ bone.matrix.to_quaternion(), Vector((1, 1, 1)))
         bpy.context.view_layer.update()
 
-    previous = {}
-    maximum_error = 0.0
-    worst_solve = None
+    # Pass 1: compute hip reach deficits across all frames
+    deficits = []
+    active_per_frame = []
+    raw_hips_locations = []
     for frame, (location, rotations) in zip(frames, samples):
         scene.frame_set(math.floor(frame), subframe=frame % 1)
         hips.location = location
+        raw_hips_locations.append(location.copy())
         for name, rotation in rotations.items():
             bones[name].rotation_quaternion = rotation
         bpy.context.view_layer.update()
@@ -4150,7 +4158,6 @@ def bake_support_plants(arm_obj, definition, cfg):
         if locomotion:
             active = [(dict(side=side, startFrame=frame, velocity=[0, 0, 0]), stride_target(side, frame),
                        bones[f'Foot_{side}'].bone.matrix_local.to_quaternion()) for side in ('L', 'R')]
-        # Check the free foot after each body correction as well.
         for _ in range(2):
             for side in ('L', 'R'):
                 if any(plant['side'] == side for plant, _, _ in active):
@@ -4161,15 +4168,48 @@ def bake_support_plants(arm_obj, definition, cfg):
                     target.z = lm['z_ankle'] + PLANT_CLEARANCE
                     active.append((dict(side=side, startFrame=frame, velocity=[0, 0, 0]), target,
                                    foot.bone.matrix_local.to_quaternion()))
-            for plant, target, rotation in active:
-                side = plant['side']
-                thigh, shin = bones[f'Thigh_{side}'], bones[f'Shin_{side}']
-                reach = (thigh.length + shin.length) * .994
-                horizontal = math.hypot(thigh.head.x - target.x, thigh.head.y - target.y)
-                allowed = target.z + math.sqrt(max(.001, reach * reach - horizontal * horizontal))
-                if thigh.head.z > allowed:
-                    hips.location -= up_local * (thigh.head.z - allowed)
-                    bpy.context.view_layer.update()
+        deficit = 0.0
+        for plant, target, rotation in active:
+            side = plant['side']
+            thigh, shin = bones[f'Thigh_{side}'], bones[f'Shin_{side}']
+            reach = (thigh.length + shin.length) * .994
+            horizontal = math.hypot(thigh.head.x - target.x, thigh.head.y - target.y)
+            allowed = target.z + math.sqrt(max(.001, reach * reach - horizontal * horizontal))
+            if thigh.head.z > allowed:
+                deficit = max(deficit, thigh.head.z - allowed)
+        deficits.append(deficit)
+        active_per_frame.append(active)
+
+    # For locomotion, smooth the total hips Y trajectory across the loop
+    final_hips_locations = [loc - up_local * d for loc, d in zip(raw_hips_locations, deficits)]
+    if locomotion and any(deficits):
+        N = len(final_hips_locations)
+        is_loop = definition.get('loop', False)
+        ys = [loc.y for loc in final_hips_locations]
+        sigma = 4.5
+        W = 12
+        kernel = [math.exp(-0.5 * (x / sigma) ** 2) for x in range(-W, W + 1)]
+        k_sum = sum(kernel)
+        kernel = [k / k_sum for k in kernel]
+
+        filtered_y = []
+        for i in range(N):
+            val = sum(ys[(i + j) % (N - 1) if is_loop else max(0, min(N - 1, i + j))] * kernel[j + W] for j in range(-W, W + 1))
+            filtered_y.append(val)
+
+        # Ensure the smoothed envelope is at least as low as the required deficit positions so legs never overextend
+        too_high = max(0.0, max(f - y for f, y in zip(filtered_y, ys)))
+        final_hips_locations = [Vector((loc.x, f - too_high, loc.z)) for loc, f in zip(final_hips_locations, filtered_y)]
+
+    previous = {}
+    maximum_error = 0.0
+    worst_solve = None
+    for frame, target_hips, (location, rotations), active in zip(frames, final_hips_locations, samples, active_per_frame):
+        scene.frame_set(math.floor(frame), subframe=frame % 1)
+        hips.location = target_hips
+        for name, rotation in rotations.items():
+            bones[name].rotation_quaternion = rotation
+        bpy.context.view_layer.update()
         for plant, fixed_target, foot_rotation in active:
             side = plant['side']
             thigh, shin, foot = bones[f'Thigh_{side}'], bones[f'Shin_{side}'], bones[f'Foot_{side}']
@@ -4205,7 +4245,9 @@ def bake_support_plants(arm_obj, definition, cfg):
         if curve.data_path == 'pose.bones["Hips"].location' or any(
                 curve.data_path == f'pose.bones["{name}"].rotation_quaternion' for name in affected):
             for key in curve.keyframe_points:
-                key.interpolation = 'LINEAR'
+                key.interpolation = 'BEZIER'
+                key.handle_left_type = 'AUTO_CLAMPED'
+                key.handle_right_type = 'AUTO_CLAMPED'
     if maximum_error > .003:
         raise RuntimeError(f"Support solve failed: {arm_obj.name}/{definition['id']}: {maximum_error}; {worst_solve}")
     return [dict(**plant, target=list(target), maximumError=maximum_error) for plant, target, _ in targets]
@@ -4778,7 +4820,7 @@ def verify_exported_glb(glb_path: str, expected_clip_count: int = 85) -> Dict[st
 
 def main():
     argv = sys.argv
-    out_dir = 'games/inkline-showcase/public/assets'
+    out_dir = 'public/assets'
     only_character = None
     if '--' in argv:
         args = argv[argv.index('--') + 1:]

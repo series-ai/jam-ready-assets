@@ -67,9 +67,9 @@ second and a floor band from -1 mm to 15 mm.
 The final GLB check passed all 204 pairs: 17 grounded clips on each of 12
 bodies. The measured floor range was 0.946 mm to 10.645 mm. The check also
 confirmed clip durations and contact keys. The result is in
-[grounded-export.json](https://github.com/series-ai/run-workshop/blob/main/games/inkline-showcase/docs/verification/kinetic/grounded-export.json).
+[grounded-export.json](verification/kinetic/grounded-export.json).
 The earlier 30 Hz export floor failures remain as historical evidence in
-[verification/kinetic/animation-review/grounded-floor.json](https://github.com/series-ai/run-workshop/blob/main/games/inkline-showcase/docs/verification/kinetic/animation-review/grounded-floor.json).
+`verification/kinetic/animation-review/grounded-floor.json`.
 
 The generator command was:
 
@@ -79,7 +79,7 @@ The generator command was:
 
 The completed export contains 12 character GLBs, 84 clips per character, and
 1,008 character clip instances. Each character keeps the 18-bone contract.
-The editable source is [public/assets/source/characters.blend](https://github.com/series-ai/run-workshop/blob/main/games/inkline-showcase/public/assets/source/characters.blend).
+The editable source is `public/assets/source/characters.blend`.
 
 Checks completed:
 
@@ -93,7 +93,7 @@ Checks completed:
 - The metadata check found all 84 requested IDs and no missing ID.
 - Visual inspection of actual GLB captures found no page or console errors. The
   unarmed review covers preparation, contact, recovery, and sampled side
-  pose sequences in [docs/verification/kinetic/animation-review/](https://github.com/series-ai/run-workshop/blob/main/games/inkline-showcase/docs/verification/kinetic/animation-review/).
+  pose sequences in `docs/verification/kinetic/animation-review/`.
 - Visual inspection of the regenerated idle pose covers front and +X side
   views for all 12 bodies in `idle-all-bodies.png`. The GLB pose probe found a
   `0.356 m` standard side joint span across the 11 camera witness bones. The
@@ -111,6 +111,6 @@ staff contacts, and unarmed pose sequences were regenerated from the final
 120 Hz GLBs. Earlier detailed phase sheets remain part of the historical
 visual record. Final browser checks, video decoding, sustained desktop performance, and
 exported consumer checks pass. Archive and installation acceptance is recorded
-after packaging in [docs/verification/package-acceptance.json](https://github.com/series-ai/run-workshop/blob/main/games/inkline-showcase/docs/verification/package-acceptance.json) in the workspace.
+after packaging in `docs/verification/package-acceptance.json` in the workspace.
 That receipt is excluded from both archives. Physical Android performance
 remains unverified.

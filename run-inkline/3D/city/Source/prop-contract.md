@@ -1,6 +1,6 @@
 # INKLINE prop contract
 
-The pack contains 291 static prop GLBs. The models use original procedural geometry and a shared flat color style. [public/assets/props.json](https://github.com/series-ai/run-workshop/blob/main/games/inkline-showcase/public/assets/props.json) lists IDs, dimensions, mesh counts, file paths, and tags.
+The pack contains 291 static prop GLBs. The models use original procedural geometry and a shared flat color style. `public/assets/props.json` lists IDs, dimensions, mesh counts, file paths, and tags.
 
 | Category | Models |
 | --- | ---: |
@@ -54,7 +54,7 @@ For example, `socket:in:-Y:0.3` describes a nominal 0.3-meter opening toward run
 ## Source and limits
 
 - `public/assets/props/*.glb`: static runtime models.
-- [public/assets/source/industrial.blend](https://github.com/series-ai/run-workshop/blob/main/games/inkline-showcase/public/assets/source/industrial.blend): all 291 props in category collections.
+- `public/assets/source/industrial.blend`: all 291 props in category collections.
 - `scripts/blender/props.py`: mesh and material generator.
 - `public/assets/previews/*.png`: rendered model previews.
 
@@ -66,4 +66,4 @@ Run the generator from the app directory:
 
 The source scene places models in a display grid. Individual exports retain their local origins. Regenerate the catalog, previews, and district after a geometry change.
 
-The models do not contain a physics rig, moving machine parts, weapon logic, or collision meshes. The demo supplies selected collision proxies separately. See [level-contract.md](level-contract.md) and [reuse.md](https://github.com/series-ai/run-workshop/blob/main/games/inkline-showcase/docs/reuse.md).
+The models do not contain a physics rig, moving machine parts, weapon logic, or collision meshes. The demo supplies selected collision proxies separately. See [level-contract.md](level-contract.md) and [reuse.md](reuse.md).

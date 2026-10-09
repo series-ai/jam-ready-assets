@@ -1,4 +1,5 @@
-export { AssetLibrary, applyAvatar, animationBounds, addOutlines, disposeInstance, equipmentContactPoint, equipmentPose, mountEquipment, supportEquipment } from './assets'
+export { AssetLibrary, applyAvatar, applyFigureShading, applyPropShading, architecturalMaterial, figureMaterial, animationBounds, addOutlines, disposeInstance, equipmentContactPoint, equipmentPose, mountEquipment, supportEquipment } from './assets'
+export * from './palette'
 export { InkEffects, EFFECTS, EFFECT_BY_ID, effectPreviewRadius, effectPreviewBounds, effectMaxDuration, effectAtlasDuration } from './effects'
 export { createDistrict, DISTRICT_PLACEMENTS, DISTRICT_COLLISION, CHECKPOINTS } from './district'
 export { moveBody, supportAt, surfaceHeight, validateAvatar } from './physics'

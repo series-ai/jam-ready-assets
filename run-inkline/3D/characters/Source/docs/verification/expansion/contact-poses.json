@@ -1,0 +1,889 @@
+{
+  "checkedAt": "2026-10-08T16:14:34.125Z",
+  "pass": false,
+  "checks": [
+    {
+      "name": "staff-thrust: weapon points forward",
+      "pass": true,
+      "value": [
+        -0.000007013262106614131,
+        0.0000017146143637651392,
+        0.9999999999739372
+      ]
+    },
+    {
+      "name": "dagger-stab: weapon points forward",
+      "pass": false,
+      "value": [
+        -0.4493252419438673,
+        0.7569861219334757,
+        0.47442474445606475
+      ]
+    },
+    {
+      "name": "sword-lunge: weapon points forward",
+      "pass": true,
+      "value": [
+        -0.09478984867274691,
+        -0.19217886910177,
+        0.9767712971107222
+      ]
+    },
+    {
+      "name": "shield-bash: shield stays upright",
+      "pass": false,
+      "value": [
+        0.5421107054396367,
+        0.5711963289460492,
+        0.6163203200011306
+      ]
+    },
+    {
+      "name": "shield-bash: shield faces forward",
+      "pass": false,
+      "value": [
+        -0.05554102408809181,
+        -0.7074943639651549,
+        0.7045331217201837
+      ]
+    },
+    {
+      "name": "shield-block: shield stays upright",
+      "pass": true,
+      "value": [
+        0.32961820997900076,
+        0.9240886771952167,
+        0.19342169560272668
+      ]
+    },
+    {
+      "name": "shield-block: shield faces forward",
+      "pass": true,
+      "value": [
+        -0.1975509724135047,
+        -0.13282245746626006,
+        0.9712527004292457
+      ]
+    },
+    {
+      "name": "shield-slam: shield stays upright",
+      "pass": false,
+      "value": [
+        0.024918566007151227,
+        -0.25256516138918733,
+        0.9672589644560554
+      ]
+    },
+    {
+      "name": "shield-slam: shield faces forward",
+      "pass": false,
+      "value": [
+        0.22706096192800063,
+        -0.94084034006668,
+        -0.2515209217372281
+      ]
+    },
+    {
+      "name": "shield-push: shield stays upright",
+      "pass": false,
+      "value": [
+        0.19016688988733244,
+        0.7646327337786316,
+        0.6157705225364359
+      ]
+    },
+    {
+      "name": "shield-push: shield faces forward",
+      "pass": false,
+      "value": [
+        0.5575247456714282,
+        -0.6003740741672908,
+        0.5733385814959407
+      ]
+    },
+    {
+      "name": "knee-strike: knee leads the folded lower leg",
+      "pass": true,
+      "value": {
+        "knee": [
+          -0.03366570437005733,
+          0.9669926642323249,
+          0.42929575352209276
+        ],
+        "ankle": [
+          -0.05250985271141066,
+          0.573819055882411,
+          0.2292762237583885
+        ]
+      }
+    },
+    {
+      "name": "stick-standard: overhead cut reaches forward at body height",
+      "pass": false,
+      "value": {
+        "tip": [
+          -0.42144280712617305,
+          1.761387979799698,
+          1.3546835825513786
+        ],
+        "base": [
+          -0.08300095871600673,
+          0.8826719834034985,
+          0.7860803717098842
+        ],
+        "hips": [
+          0,
+          0.6607847213745117,
+          0.119999997317791
+        ]
+      }
+    },
+    {
+      "name": "stick-standard: overhead cut descends from preparation",
+      "pass": false,
+      "value": {
+        "raised": [
+          -0.843302610061312,
+          1.1392136470829672,
+          -0.3512158089777619
+        ],
+        "contact": [
+          -0.42144280712617305,
+          1.761387979799698,
+          1.3546835825513786
+        ]
+      }
+    },
+    {
+      "name": "stick-runner: overhead cut reaches forward at body height",
+      "pass": true,
+      "value": {
+        "tip": [
+          -0.42570196257474224,
+          1.2602081084042651,
+          1.7311967023167623
+        ],
+        "base": [
+          -0.073838860251591,
+          0.8426580299503657,
+          0.7762906042935913
+        ],
+        "hips": [
+          0,
+          0.7298396825790405,
+          0.119999997317791
+        ]
+      }
+    },
+    {
+      "name": "stick-runner: overhead cut descends from preparation",
+      "pass": true,
+      "value": {
+        "raised": [
+          -0.9063019256333648,
+          1.7092282265593424,
+          -0.4913916499884689
+        ],
+        "contact": [
+          -0.42570196257474224,
+          1.2602081084042651,
+          1.7311967023167623
+        ]
+      }
+    },
+    {
+      "name": "stick-fighter: overhead cut reaches forward at body height",
+      "pass": true,
+      "value": {
+        "tip": [
+          -0.2706390170358518,
+          0.4451042266936526,
+          1.8426108318303043
+        ],
+        "base": [
+          -0.07309511117030257,
+          0.8415029861926181,
+          0.8357136362946571
+        ],
+        "hips": [
+          0,
+          0.6232302188873291,
+          0.119999997317791
+        ]
+      }
+    },
+    {
+      "name": "stick-fighter: overhead cut descends from preparation",
+      "pass": true,
+      "value": {
+        "raised": [
+          -0.47411818079407886,
+          2.4642721465037636,
+          -0.5376539921533249
+        ],
+        "contact": [
+          -0.2706390170358518,
+          0.4451042266936526,
+          1.8426108318303043
+        ]
+      }
+    },
+    {
+      "name": "stick-tall: overhead cut reaches forward at body height",
+      "pass": true,
+      "value": {
+        "tip": [
+          -0.3564366299117434,
+          0.9948272471571774,
+          1.9756417966767508
+        ],
+        "base": [
+          -0.10163833362149619,
+          1.051439475442521,
+          0.9070557965063107
+        ],
+        "hips": [
+          0,
+          0.7719994187355043,
+          0.119999997317791
+        ]
+      }
+    },
+    {
+      "name": "stick-tall: overhead cut descends from preparation",
+      "pass": true,
+      "value": {
+        "raised": [
+          -0.7073890270661469,
+          2.4525119639913537,
+          -0.5986701533553359
+        ],
+        "contact": [
+          -0.3564366299117434,
+          0.9948272471571774,
+          1.9756417966767508
+        ]
+      }
+    },
+    {
+      "name": "stick-compact: overhead cut reaches forward at body height",
+      "pass": true,
+      "value": {
+        "tip": [
+          -0.44680685379719176,
+          0.8908399897136627,
+          1.810536611813756
+        ],
+        "base": [
+          -0.09930016643817582,
+          0.7090323190102922,
+          0.7828254199908725
+        ],
+        "hips": [
+          0,
+          0.4770266796930618,
+          0.11999996918280159
+        ]
+      }
+    },
+    {
+      "name": "stick-compact: overhead cut descends from preparation",
+      "pass": true,
+      "value": {
+        "raised": [
+          -0.8542608793034445,
+          1.7646918693434324,
+          -0.5145771882305563
+        ],
+        "contact": [
+          -0.44680685379719176,
+          0.8908399897136627,
+          1.810536611813756
+        ]
+      }
+    },
+    {
+      "name": "stick-heavy: overhead cut reaches forward at body height",
+      "pass": true,
+      "value": {
+        "tip": [
+          -0.6154942705555446,
+          1.1555773838334504,
+          1.830665713921972
+        ],
+        "base": [
+          -0.08675046853325093,
+          0.9043481015564155,
+          0.8993714675281144
+        ],
+        "hips": [
+          0,
+          0.671910285949707,
+          0.119999997317791
+        ]
+      }
+    },
+    {
+      "name": "stick-heavy: overhead cut descends from preparation",
+      "pass": true,
+      "value": {
+        "raised": [
+          -0.9146267440665546,
+          2.0290096038051626,
+          -0.3769936311454396
+        ],
+        "contact": [
+          -0.6154942705555446,
+          1.1555773838334504,
+          1.830665713921972
+        ]
+      }
+    },
+    {
+      "name": "stick-scout: overhead cut reaches forward at body height",
+      "pass": false,
+      "value": {
+        "tip": [
+          -0.6133202081498603,
+          1.4451721272634002,
+          1.544543905030304
+        ],
+        "base": [
+          -0.09082026771598636,
+          0.8380977723878132,
+          0.7905865263564035
+        ],
+        "hips": [
+          0,
+          0.7148842811584474,
+          0.119999997317791
+        ]
+      }
+    },
+    {
+      "name": "stick-scout: overhead cut descends from preparation",
+      "pass": false,
+      "value": {
+        "raised": [
+          -0.9272946513541767,
+          1.4641605977856609,
+          -0.2683383610266638
+        ],
+        "contact": [
+          -0.6133202081498603,
+          1.4451721272634002,
+          1.544543905030304
+        ]
+      }
+    },
+    {
+      "name": "stick-acrobat: overhead cut reaches forward at body height",
+      "pass": true,
+      "value": {
+        "tip": [
+          -0.40893111747146976,
+          0.34197993528679155,
+          1.787352657068772
+        ],
+        "base": [
+          -0.10301487699741423,
+          0.8238013860462002,
+          0.8470006364254813
+        ],
+        "hips": [
+          0,
+          0.5525557994842529,
+          0.119999997317791
+        ]
+      }
+    },
+    {
+      "name": "stick-acrobat: overhead cut descends from preparation",
+      "pass": true,
+      "value": {
+        "raised": [
+          -0.48025630424006427,
+          2.4909177422787505,
+          -0.41734625577016526
+        ],
+        "contact": [
+          -0.40893111747146976,
+          0.34197993528679155,
+          1.787352657068772
+        ]
+      }
+    },
+    {
+      "name": "stick-worker: overhead cut reaches forward at body height",
+      "pass": true,
+      "value": {
+        "tip": [
+          -0.2923691379113037,
+          1.2064319368612322,
+          1.8716394280715596
+        ],
+        "base": [
+          -0.09948476679925766,
+          0.8795732785902388,
+          0.8391872268799024
+        ],
+        "hips": [
+          0,
+          0.6575893163681031,
+          0.119999997317791
+        ]
+      }
+    },
+    {
+      "name": "stick-worker: overhead cut descends from preparation",
+      "pass": true,
+      "value": {
+        "raised": [
+          -0.8202453216364971,
+          1.8503340708041165,
+          -0.6711535862950542
+        ],
+        "contact": [
+          -0.2923691379113037,
+          1.2064319368612322,
+          1.8716394280715596
+        ]
+      }
+    },
+    {
+      "name": "stick-agent: overhead cut reaches forward at body height",
+      "pass": true,
+      "value": {
+        "tip": [
+          -0.27602232645382346,
+          0.9856906036357408,
+          1.9380401933469589
+        ],
+        "base": [
+          -0.10648605325579875,
+          0.9148916838706673,
+          0.8534933770916654
+        ],
+        "hips": [
+          0,
+          0.6805149316787721,
+          0.119999997317791
+        ]
+      }
+    },
+    {
+      "name": "stick-agent: overhead cut descends from preparation",
+      "pass": true,
+      "value": {
+        "raised": [
+          -0.7268579211158266,
+          2.140638840744515,
+          -0.6768461231665536
+        ],
+        "contact": [
+          -0.27602232645382346,
+          0.9856906036357408,
+          1.9380401933469589
+        ]
+      }
+    },
+    {
+      "name": "stick-striker: overhead cut reaches forward at body height",
+      "pass": true,
+      "value": {
+        "tip": [
+          -0.360448155365877,
+          0.4136027786848593,
+          1.8570417761722835
+        ],
+        "base": [
+          -0.11753466025453414,
+          0.8828182978696689,
+          0.8922453332576192
+        ],
+        "hips": [
+          0,
+          0.6181632280349731,
+          0.119999997317791
+        ]
+      }
+    },
+    {
+      "name": "stick-striker: overhead cut descends from preparation",
+      "pass": true,
+      "value": {
+        "raised": [
+          -0.45231569360013446,
+          2.5864111295233703,
+          -0.4770467538933785
+        ],
+        "contact": [
+          -0.360448155365877,
+          0.4136027786848593,
+          1.8570417761722835
+        ]
+      }
+    },
+    {
+      "name": "stick-sentinel: overhead cut reaches forward at body height",
+      "pass": true,
+      "value": {
+        "tip": [
+          -0.6102310359936819,
+          0.9301696165846848,
+          1.914492012621241
+        ],
+        "base": [
+          -0.12411270508273739,
+          0.9479959374705295,
+          0.9278917883904093
+        ],
+        "hips": [
+          0,
+          0.6998448371887207,
+          0.119999997317791
+        ]
+      }
+    },
+    {
+      "name": "stick-sentinel: overhead cut descends from preparation",
+      "pass": true,
+      "value": {
+        "raised": [
+          -0.7881723976517028,
+          2.313359753338977,
+          -0.3729689641164512
+        ],
+        "contact": [
+          -0.6102310359936819,
+          0.9301696165846848,
+          1.914492012621241
+        ]
+      }
+    },
+    {
+      "name": "stick-standard: staff points forward after attachment at 0s",
+      "pass": true,
+      "value": [
+        0.000004329712487140181,
+        -0.0000011471741987391894,
+        0.9999999999899688
+      ]
+    },
+    {
+      "name": "stick-standard: staff points forward after attachment at 0.15s",
+      "pass": true,
+      "value": [
+        0.000004329712487140181,
+        -0.0000011471741987391894,
+        0.9999999999899688
+      ]
+    },
+    {
+      "name": "stick-standard: staff points forward after attachment at 0.333s",
+      "pass": true,
+      "value": [
+        0.000004329712487140181,
+        -0.0000011471741987391894,
+        0.9999999999899688
+      ]
+    },
+    {
+      "name": "stick-runner: staff points forward after attachment at 0s",
+      "pass": true,
+      "value": [
+        -0.0000016616376690589394,
+        3.7492273807571294e-7,
+        0.9999999999985492
+      ]
+    },
+    {
+      "name": "stick-runner: staff points forward after attachment at 0.15s",
+      "pass": true,
+      "value": [
+        -0.0000016616376690589394,
+        3.7492273807571294e-7,
+        0.9999999999985492
+      ]
+    },
+    {
+      "name": "stick-runner: staff points forward after attachment at 0.333s",
+      "pass": true,
+      "value": [
+        -0.0000016616376690589394,
+        3.7492273807571294e-7,
+        0.9999999999985492
+      ]
+    },
+    {
+      "name": "stick-fighter: staff points forward after attachment at 0s",
+      "pass": true,
+      "value": [
+        0.000006149066743441294,
+        -0.0000016465303557219843,
+        0.9999999999797389
+      ]
+    },
+    {
+      "name": "stick-fighter: staff points forward after attachment at 0.15s",
+      "pass": true,
+      "value": [
+        0.000006149066743441294,
+        -0.0000016465303557219843,
+        0.9999999999797389
+      ]
+    },
+    {
+      "name": "stick-fighter: staff points forward after attachment at 0.333s",
+      "pass": true,
+      "value": [
+        0.000006149066743441294,
+        -0.0000016465303557219843,
+        0.9999999999797389
+      ]
+    },
+    {
+      "name": "stick-tall: staff points forward after attachment at 0s",
+      "pass": true,
+      "value": [
+        -0.000007013262106614131,
+        0.0000017146143637651392,
+        0.9999999999739372
+      ]
+    },
+    {
+      "name": "stick-tall: staff points forward after attachment at 0.15s",
+      "pass": true,
+      "value": [
+        -0.000007013262106614131,
+        0.0000017146143637651392,
+        0.9999999999739372
+      ]
+    },
+    {
+      "name": "stick-tall: staff points forward after attachment at 0.333s",
+      "pass": true,
+      "value": [
+        -0.000007013262106614131,
+        0.0000017146143637651392,
+        0.9999999999739372
+      ]
+    },
+    {
+      "name": "stick-compact: staff points forward after attachment at 0s",
+      "pass": true,
+      "value": [
+        -0.00001206469621379952,
+        0.000002610861700261095,
+        0.9999999999238132
+      ]
+    },
+    {
+      "name": "stick-compact: staff points forward after attachment at 0.15s",
+      "pass": true,
+      "value": [
+        -0.00001206469621379952,
+        0.000002610861700261095,
+        0.9999999999238132
+      ]
+    },
+    {
+      "name": "stick-compact: staff points forward after attachment at 0.333s",
+      "pass": true,
+      "value": [
+        -0.00001206469621379952,
+        0.000002610861700261095,
+        0.9999999999238132
+      ]
+    },
+    {
+      "name": "stick-heavy: staff points forward after attachment at 0s",
+      "pass": true,
+      "value": [
+        0.00000389777551815086,
+        -0.0000010367891587654576,
+        0.9999999999918661
+      ]
+    },
+    {
+      "name": "stick-heavy: staff points forward after attachment at 0.15s",
+      "pass": true,
+      "value": [
+        0.00000389777551815086,
+        -0.0000010367891587654576,
+        0.9999999999918661
+      ]
+    },
+    {
+      "name": "stick-heavy: staff points forward after attachment at 0.333s",
+      "pass": true,
+      "value": [
+        0.00000389777551815086,
+        -0.0000010367891587654576,
+        0.9999999999918661
+      ]
+    },
+    {
+      "name": "stick-scout: staff points forward after attachment at 0s",
+      "pass": true,
+      "value": [
+        0.000002026056512677041,
+        -4.104352234741959e-7,
+        0.9999999999978633
+      ]
+    },
+    {
+      "name": "stick-scout: staff points forward after attachment at 0.15s",
+      "pass": true,
+      "value": [
+        0.000002026056512677041,
+        -4.104352234741959e-7,
+        0.9999999999978633
+      ]
+    },
+    {
+      "name": "stick-scout: staff points forward after attachment at 0.333s",
+      "pass": true,
+      "value": [
+        0.000002026056512677041,
+        -4.104352234741959e-7,
+        0.9999999999978633
+      ]
+    },
+    {
+      "name": "stick-acrobat: staff points forward after attachment at 0s",
+      "pass": true,
+      "value": [
+        0.0000030954411676974694,
+        -6.954055415071062e-7,
+        0.9999999999949675
+      ]
+    },
+    {
+      "name": "stick-acrobat: staff points forward after attachment at 0.15s",
+      "pass": true,
+      "value": [
+        0.0000030954411676974694,
+        -6.954055415071062e-7,
+        0.9999999999949675
+      ]
+    },
+    {
+      "name": "stick-acrobat: staff points forward after attachment at 0.333s",
+      "pass": true,
+      "value": [
+        0.0000030954411676974694,
+        -6.954055415071062e-7,
+        0.9999999999949675
+      ]
+    },
+    {
+      "name": "stick-worker: staff points forward after attachment at 0s",
+      "pass": true,
+      "value": [
+        0.000003127842095585734,
+        -7.386168710985628e-7,
+        0.9999999999948356
+      ]
+    },
+    {
+      "name": "stick-worker: staff points forward after attachment at 0.15s",
+      "pass": true,
+      "value": [
+        0.000003127842095585734,
+        -7.386168710985628e-7,
+        0.9999999999948356
+      ]
+    },
+    {
+      "name": "stick-worker: staff points forward after attachment at 0.333s",
+      "pass": true,
+      "value": [
+        0.000003127842095585734,
+        -7.386168710985628e-7,
+        0.9999999999948356
+      ]
+    },
+    {
+      "name": "stick-agent: staff points forward after attachment at 0s",
+      "pass": true,
+      "value": [
+        0.0000092595102620538,
+        -0.000002100120808075077,
+        0.9999999999549256
+      ]
+    },
+    {
+      "name": "stick-agent: staff points forward after attachment at 0.15s",
+      "pass": true,
+      "value": [
+        0.0000092595102620538,
+        -0.000002100120808075077,
+        0.9999999999549256
+      ]
+    },
+    {
+      "name": "stick-agent: staff points forward after attachment at 0.333s",
+      "pass": true,
+      "value": [
+        0.0000092595102620538,
+        -0.000002100120808075077,
+        0.9999999999549256
+      ]
+    },
+    {
+      "name": "stick-striker: staff points forward after attachment at 0s",
+      "pass": true,
+      "value": [
+        -0.000013742191954930166,
+        0.0000030318873634135953,
+        0.9999999999009799
+      ]
+    },
+    {
+      "name": "stick-striker: staff points forward after attachment at 0.15s",
+      "pass": true,
+      "value": [
+        -0.000013742191954930166,
+        0.0000030318873634135953,
+        0.9999999999009799
+      ]
+    },
+    {
+      "name": "stick-striker: staff points forward after attachment at 0.333s",
+      "pass": true,
+      "value": [
+        -0.000013742191954930166,
+        0.0000030318873634135953,
+        0.9999999999009799
+      ]
+    },
+    {
+      "name": "stick-sentinel: staff points forward after attachment at 0s",
+      "pass": true,
+      "value": [
+        -0.000011998641029818107,
+        0.0000025734311678945933,
+        0.9999999999247049
+      ]
+    },
+    {
+      "name": "stick-sentinel: staff points forward after attachment at 0.15s",
+      "pass": true,
+      "value": [
+        -0.000011998641029818107,
+        0.0000025734311678945933,
+        0.9999999999247049
+      ]
+    },
+    {
+      "name": "stick-sentinel: staff points forward after attachment at 0.333s",
+      "pass": true,
+      "value": [
+        -0.000011998641029818107,
+        0.0000025734311678945933,
+        0.9999999999247049
+      ]
+    }
+  ]
+}

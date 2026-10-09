@@ -20,7 +20,10 @@ export class ForegroundCutaway {
     root.traverse(object => {
       if (!(object instanceof THREE.Mesh || object instanceof THREE.LineSegments)) return
       for (const material of Array.isArray(object.material) ? object.material : [object.material]) {
-        material.onBeforeCompile = (shader: Parameters<THREE.Material['onBeforeCompile']>[0]) => {
+        // Chain the existing hook so surface shading stays under the cutaway.
+        const surface = material.onBeforeCompile.bind(material), surfaceKey = material.customProgramCacheKey()
+        material.onBeforeCompile = (shader: Parameters<THREE.Material['onBeforeCompile']>[0], renderer: THREE.WebGLRenderer) => {
+          surface(shader, renderer)
           shader.uniforms.cutFocus = this.focusView
           shader.uniforms.cutRadius = this.radius
           shader.uniforms.cutActive = this.active
@@ -57,7 +60,7 @@ export class ForegroundCutaway {
             }
           `)
         }
-        material.customProgramCacheKey = () => 'inkline-foreground-cutaway-v2'
+        material.customProgramCacheKey = () => `inkline-foreground-cutaway-v2:${surfaceKey}`
         material.needsUpdate = true
       }
     })

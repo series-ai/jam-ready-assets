@@ -2,7 +2,8 @@ import * as THREE from 'three'
 import { GLTFLoader, type GLTF } from 'three/examples/jsm/loaders/GLTFLoader.js'
 import { clone as cloneSkeleton } from 'three/examples/jsm/utils/SkeletonUtils.js'
 import { mergeGeometries } from 'three/examples/jsm/utils/BufferGeometryUtils.js'
-import type { AnimationEntry, AvatarConfig, ModelEntry, PackManifest } from '../types'
+import { DEFAULT_AVATAR, type AnimationEntry, type AvatarConfig, type ModelEntry, type PackManifest } from '../types'
+import { figureBands, INK, propColor, PROP_OUTLINE, THREAT, THREAT_CONTOUR, type FigureRole } from './palette'
 import firearms from './firearms.json'
 
 export interface LoadedModel { root: THREE.Group; clips: THREE.AnimationClip[]; entry: ModelEntry }
@@ -62,25 +63,108 @@ export function disposeInstance(root: THREE.Object3D): void {
   root.removeFromParent()
 }
 
-function plainMaterial(color: THREE.ColorRepresentation): THREE.MeshBasicMaterial {
-  return new THREE.MeshBasicMaterial({ color })
-}
 function ownMesh(geometry: THREE.BufferGeometry, color: THREE.ColorRepresentation): THREE.Mesh {
-  const mesh = new THREE.Mesh(geometry, plainMaterial(color)); mesh.userData.ownedGeometry = true; return mesh
+  const mesh = new THREE.Mesh(geometry, new THREE.MeshBasicMaterial({ color })); mesh.userData.ownedGeometry = true; return mesh
 }
 interface AvatarMeshData { positions: Float32Array; centers: Float32Array; heads: Uint8Array; headOrigin: THREE.Vector3; headCenter: THREE.Vector3; headRadius: number }
 const avatarMeshData = new WeakMap<THREE.SkinnedMesh, AvatarMeshData>()
-/** A screen-width back-face contour follows the same skin as the pale figure. */
-function updatePaleInkContour(mesh: THREE.SkinnedMesh): void {
+const glslVec = (v: THREE.Vector3) => `vec3(${v.x.toFixed(3)}, ${v.y.toFixed(3)}, ${v.z.toFixed(3)})`
+/** Two-band cel shading with a grazing ink edge. Bands come from the palette role. */
+export function figureMaterial(role: FigureRole, color: THREE.ColorRepresentation): THREE.MeshBasicMaterial {
+  const material = new THREE.MeshBasicMaterial({ color: role === 'threat' ? THREAT : color })
+  const bands = figureBands(role, color)
+  const key = [bands.shadow, bands.mid, bands.lit, bands.ink].map(glslVec).join('')
+  material.onBeforeCompile = shader => {
+    shader.vertexShader = 'varying vec3 vFigureViewNormal;\nvarying vec3 vFigureViewPos;\n' + shader.vertexShader.replace('#include <project_vertex>', `
+      #include <project_vertex>
+      #ifdef USE_SKINNING
+      vFigureViewNormal = normalize(transformedNormal);
+      #else
+      // Rigid pieces (a shattered figure) have no skinning normal pass.
+      vFigureViewNormal = normalize(normalMatrix * normal);
+      #endif
+      vFigureViewPos = mvPosition.xyz;
+    `)
+    shader.fragmentShader = 'varying vec3 vFigureViewNormal;\nvarying vec3 vFigureViewPos;\n' + shader.fragmentShader.replace('#include <dithering_fragment>', `
+      #include <dithering_fragment>
+      vec3 n = normalize(vFigureViewNormal);
+      // View-space key light from the upper right.
+      float nDotL = dot(n, normalize(vec3(0.35, 0.75, 0.55)));
+      vec3 col = mix(${glslVec(bands.shadow)}, ${glslVec(bands.mid)}, smoothstep(-0.05, 0.05, nDotL));
+      col = mix(col, ${glslVec(bands.lit)}, smoothstep(${bands.litStart.toFixed(2)}, ${bands.litEnd.toFixed(2)}, nDotL) * ${bands.litWeight.toFixed(2)});
+      // Grazing limb edges blend to ink so crossed limbs stay separate.
+      float innerEdge = smoothstep(0.12, 0.38, abs(dot(normalize(-vFigureViewPos), n)));
+      gl_FragColor = vec4(mix(${glslVec(bands.ink)}, col, innerEdge), 1.0);
+    `)
+  }
+  material.customProgramCacheKey = () => `inkline-figure-${key}`
+  return material
+}
+
+/** Replace every figure skin material with the cel material for its role. */
+export function applyFigureShading(root: THREE.Object3D, role: FigureRole, color: THREE.ColorRepresentation = DEFAULT_AVATAR.color): void {
+  const meshes: THREE.SkinnedMesh[] = []
+  root.traverse(object => { if (object instanceof THREE.SkinnedMesh && !object.userData.inkContour) meshes.push(object) })
+  for (const mesh of meshes) {
+    const previous = mesh.material
+    mesh.material = figureMaterial(role, color)
+    for (const material of Array.isArray(previous) ? previous : [previous]) material.dispose()
+    updatePaleInkContour(mesh, role)
+  }
+}
+
+/** Flat key-light shading for props. Normals are in world space for baked and placed props. */
+export function architecturalMaterial(color: THREE.Color, side: THREE.Side = THREE.FrontSide): THREE.MeshBasicMaterial {
+  const material = new THREE.MeshBasicMaterial({ color, side })
+  material.onBeforeCompile = shader => {
+    shader.vertexShader = 'varying vec3 vArchNormal;\n' + shader.vertexShader.replace('#include <begin_vertex>', `
+      #include <begin_vertex>
+      vArchNormal = normalize(mat3(modelMatrix) * normal);
+    `)
+    // Shade before fog so distant faces fade to paper, not to a darkened paper.
+    shader.fragmentShader = 'varying vec3 vArchNormal;\n' + shader.fragmentShader.replace('#include <fog_fragment>', `
+      vec3 n = normalize(vArchNormal);
+      float nDotL = dot(n, normalize(vec3(0.35, 0.9, 0.25)));
+      float wallShade = mix(0.70, 0.88, clamp(nDotL * 0.5 + 0.5, 0.0, 1.0));
+      float archFactor = mix(wallShade, 1.08, pow(clamp(n.y, 0.0, 1.0), 1.8));
+      archFactor = mix(archFactor, 0.48, clamp(-n.y, 0.0, 1.0));
+      gl_FragColor.rgb *= archFactor;
+      #include <fog_fragment>
+    `)
+  }
+  material.customProgramCacheKey = () => 'inkline-arch-v2'
+  return material
+}
+
+/** Remap a placed prop or held item to the palette and give it architectural shading. */
+export function applyPropShading(root: THREE.Object3D): void {
+  root.traverse(object => {
+    if (!(object instanceof THREE.Mesh) || object instanceof THREE.SkinnedMesh || object.userData.inkContour) return
+    const list = Array.isArray(object.material) ? object.material : [object.material]
+    const next = list.map(material => {
+      if (!(material instanceof THREE.MeshStandardMaterial || material instanceof THREE.MeshBasicMaterial)) throw new Error(`Prop material type is not supported: ${material.type}`)
+      if (material.transparent || material.map) throw new Error('Prop shading supports opaque untextured materials only.')
+      const shaded = architecturalMaterial(propColor(material.name, material.color), material.side)
+      shaded.name = material.name
+      material.dispose()
+      return shaded
+    })
+    object.material = Array.isArray(object.material) ? next : next[0]
+  })
+}
+
+/** A screen-width back-face contour follows the same skin as the figure. */
+function updatePaleInkContour(mesh: THREE.SkinnedMesh, role: FigureRole): void {
   const materials = Array.isArray(mesh.material) ? mesh.material : [mesh.material]
-  const pale = materials.some(material => material instanceof THREE.MeshBasicMaterial &&
+  const pale = role === 'threat' || materials.some(material => material instanceof THREE.MeshBasicMaterial &&
     material.color.r * .2126 + material.color.g * .7152 + material.color.b * .0722 >= .45)
   let outline = mesh.children.find(child => child.userData.inkContour) as THREE.SkinnedMesh | undefined
   if (!pale) { if (outline) { outline.visible = false; outline.userData.pale = false }; return }
+  const contourColor = role === 'threat' ? THREAT_CONTOUR : INK
   if (!outline) {
     const viewport = new THREE.Vector2(1, 1)
     const width = { value: 1.35 }
-    const material = new THREE.MeshBasicMaterial({ color: '#151716', side: THREE.BackSide })
+    const material = new THREE.MeshBasicMaterial({ color: contourColor, side: THREE.BackSide })
     material.onBeforeCompile = shader => {
       shader.uniforms.inkViewport = { value: viewport }
       shader.uniforms.inkWidth = width
@@ -104,6 +188,8 @@ function updatePaleInkContour(mesh: THREE.SkinnedMesh): void {
       width.value = 1.35 * renderer.getPixelRatio()
     }
     mesh.add(outline)
+  } else if (outline.material instanceof THREE.MeshBasicMaterial) {
+    outline.material.color.set(contourColor)
   }
   outline.geometry = mesh.geometry
   outline.userData.pale = true; outline.visible = true
@@ -118,6 +204,33 @@ function deformAvatar(mesh: THREE.SkinnedMesh, thickness: number, headScale: num
     const inverseBind = mesh.bindMatrix.clone().invert()
     const bindTransforms = mesh.skeleton.boneInverses.map(matrix => new THREE.Matrix4().multiplyMatrices(inverseBind, matrix.clone().invert()))
     const origins = bindTransforms.map(matrix => new THREE.Vector3().setFromMatrixPosition(matrix))
+
+    // Smooth the shoulder cap vertices in bind pose:
+    // Blend weights with Chest bone to create seamless organic connection without bulging hinge caps.
+    // Use origins of UpperArm_L and UpperArm_R so the shoulder threshold is dynamic for every character body type.
+    const bones = mesh.skeleton.bones.map(b => b.name)
+    const chestIdx = bones.indexOf('Chest')
+    const uLIdx = bones.indexOf('UpperArm_L')
+    const uRIdx = bones.indexOf('UpperArm_R')
+    if (chestIdx >= 0 && uLIdx >= 0 && uRIdx >= 0) {
+      const shY_L = origins[uLIdx]?.y ?? 1.4
+      const shY_R = origins[uRIdx]?.y ?? 1.4
+      for (let i = 0; i < position.count; i++) {
+        const b0 = skin.getX(i)
+        const y = position.getY(i)
+        const shY = b0 === uLIdx ? shY_L : b0 === uRIdx ? shY_R : null
+        if (shY !== null && y > shY - 0.026) {
+          const t = Math.min(1.0, Math.max(0.0, (y - (shY - 0.026)) / 0.040))
+          const chestW = t * 0.45
+          const armW = 1.0 - chestW
+          skin.setXYZW(i, b0, chestIdx, 0, 0)
+          weights.setXYZW(i, armW, chestW, 0, 0)
+        }
+      }
+      skin.needsUpdate = true
+      weights.needsUpdate = true
+    }
+
     const segments = mesh.skeleton.bones.map((bone, index) => {
       const child = bone.children.find(item => item instanceof THREE.Bone) as THREE.Bone | undefined
       const childIndex = child ? mesh.skeleton.bones.indexOf(child) : -1
@@ -166,17 +279,12 @@ function deformAvatar(mesh: THREE.SkinnedMesh, thickness: number, headScale: num
   mesh.geometry.computeVertexNormals()
   mesh.geometry.computeBoundingSphere()
 }
-export function applyAvatar(root: THREE.Group, config: AvatarConfig): void {
+export function applyAvatar(root: THREE.Group, config: AvatarConfig, role: FigureRole = 'player'): void {
   root.scale.setScalar(config.height)
   const meshes: THREE.SkinnedMesh[] = []
   root.traverse(object => { if (object instanceof THREE.SkinnedMesh && !object.userData.inkContour) meshes.push(object) })
-  for (const object of meshes) {
-      deformAvatar(object, config.thickness, config.headScale)
-      for (const material of Array.isArray(object.material) ? object.material : [object.material]) {
-        if ('color' in material && material.color instanceof THREE.Color) material.color.set(/accent/i.test(material.name) ? config.accent : config.color)
-      }
-      updatePaleInkContour(object)
-  }
+  for (const object of meshes) deformAvatar(object, config.thickness, config.headScale)
+  applyFigureShading(root, role, config.color)
   const previous = root.getObjectByName('avatar-headwear')
   if (previous) disposeInstance(previous)
   if (config.headwear === 'none') return
@@ -205,7 +313,7 @@ export function applyAvatar(root: THREE.Group, config: AvatarConfig): void {
   accessory.scale.setScalar(config.headScale); head.add(accessory)
 }
 
-export function addOutlines(root: THREE.Object3D, color = '#494c46'): THREE.Group {
+export function addOutlines(root: THREE.Object3D, color = PROP_OUTLINE): THREE.Group {
   const lines = new THREE.Group(); lines.name = 'ink-outlines'
   root.updateMatrixWorld(true)
   const inverse = root.matrixWorld.clone().invert()
@@ -242,9 +350,9 @@ export function bakeStatic(objects: THREE.Object3D[]): THREE.Group {
         const material = list[group.materialIndex ?? 0] ?? list[0]
         if (!('color' in material) || !(material.color instanceof THREE.Color)) throw new Error('Static assets need a flat color material.')
         if (material.transparent || ('map' in material && material.map)) throw new Error('Static batching supports opaque untextured assets only.')
-        const color = material.color
+        const color = propColor(material.name, material.color)
         const key = `${color.getHexString()}:${material.side}`
-        if (!materials.has(key)) { const flat = plainMaterial(color); flat.side = material.side; materials.set(key, { material: flat, geometries: [] }) }
+        if (!materials.has(key)) { const arch = architecturalMaterial(color, material.side); materials.set(key, { material: arch, geometries: [] }) }
         const expanded = source.index ? source.toNonIndexed() : source.clone()
         const input = expanded.getAttribute('position')
         const count = Math.min(group.count, input.count - group.start)
@@ -282,7 +390,8 @@ export function equipmentPose(entry: ModelEntry): string {
   if (entry.id === 'bow') return 'bow-draw'
   if (entry.tags.includes('ranged') || entry.tags.includes('cannon')) return /pistol|revolver/.test(entry.id) ? 'pistol-idle' : 'rifle-idle'
   if (entry.tags.includes('ball') || entry.tags.includes('weight')) return 'carry'
-  return 'block'
+  if (entry.tags.includes('shield')) return 'block'
+  return 'idle'
 }
 
 /** Keep the authored grip origin at the palm. Derive local rotation from a known pose. */

@@ -90,4 +90,4 @@ The generator completed with 84 authored clips. It exported 12 GLBs. Each GLB ha
 
 The generated metadata has 84 unique IDs. The new 16 melee IDs have finite contact times before the clip end. The ground contact report has 84 entries for each character. The minimum sampled floor value for the new clips is 0.003935 m. No new clip has a floor penetration report.
 
-The editable source is [public/assets/source/characters.blend](https://github.com/series-ai/run-workshop/blob/main/games/inkline-showcase/public/assets/source/characters.blend). It contains 84 source actions and 1,008 corrected character actions. Each character has 84 muted NLA tracks.
+The editable source is `public/assets/source/characters.blend`. It contains 84 source actions and 1,008 corrected character actions. Each character has 84 muted NLA tracks.

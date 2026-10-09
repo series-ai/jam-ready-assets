@@ -1,4 +1,5 @@
 import * as THREE from 'three'
+import { ACCENT, DUST, INK, PAPER } from './palette'
 
 type ShapeKind = 'stroke' | 'spark' | 'ring' | 'arc' | 'dust' | 'chip' | 'star'
 export type EffectColorRole = 'paper' | 'ink' | 'accent'
@@ -12,12 +13,14 @@ type EffectLayer = Partial<Pick<EffectPreset, 'shape' | 'count' | 'duration' | '
 }
 const LAYERS: Record<string, EffectLayer[]> = {
   'punch-impact': [
-    { shape: 'star', count: 1, size: .14, speed: .04, duration: .2, spread: .12, colorRole: 'paper' },
-    { shape: 'spark', count: 4, size: .11, speed: 2.4, duration: .24, spread: .32, gravity: 0, colorRole: 'accent' },
+    { shape: 'star', count: 1, size: .20, speed: .04, duration: .22, spread: .12, colorRole: 'paper' },
+    { shape: 'spark', count: 5, size: .12, speed: 2.6, duration: .24, spread: .36, gravity: 0, colorRole: 'accent' },
+    { shape: 'chip', count: 4, size: .09, speed: 2.4, duration: .3, spread: .5, gravity: 1.5, colorRole: 'accent' },
   ],
   'heavy-impact': [
-    { shape: 'star', count: 1, size: .18, speed: .04, duration: .3, spread: .12, colorRole: 'paper' },
-    { shape: 'spark', count: 5, size: .14, speed: 3.2, duration: .34, spread: .42, gravity: 0, colorRole: 'accent' },
+    { shape: 'star', count: 1, size: .26, speed: .04, duration: .3, spread: .12, colorRole: 'paper' },
+    { shape: 'spark', count: 7, size: .15, speed: 3.4, duration: .34, spread: .48, gravity: 0, colorRole: 'accent' },
+    { shape: 'chip', count: 6, size: .11, speed: 3.0, duration: .38, spread: .6, gravity: 2, colorRole: 'accent' },
   ],
   'sword-cross': [{ shape: 'stroke', count: 1, angle: -Math.PI / 4 }],
   'uppercut': [{ shape: 'spark', count: 3, size: .10, speed: 1.8, spread: .2 }],
@@ -269,10 +272,10 @@ export function effectPreviewRadius(effect: EffectPreset, scale = 1, lifetime = 
 }
 
 
-const PAPER_COLOR = '#eeece5'
-const INK_COLOR = '#151716'
-const DUST_COLOR = '#30342f'
-const ACCENT_COLOR = '#d45538'
+const PAPER_COLOR = PAPER
+const INK_COLOR = INK
+const DUST_COLOR = DUST
+const ACCENT_COLOR = ACCENT
 const PAPER_CORE_SCALE = .5
 
 /** Resolve a recipe layer without flattening its paper, ink, and accent roles. */

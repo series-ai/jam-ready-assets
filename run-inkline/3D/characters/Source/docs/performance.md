@@ -2,7 +2,7 @@
 
 The target is 60 FPS at 1280×720 with 20 animated figures and 10 active effects on a high-end Android phone from 2022. A physical 15-minute Android run remains unverified. No phone is connected to this workspace.
 
-The browser harness measures animation-frame intervals. It records frame-time percentiles, draw calls, triangles, geometry counts, texture counts, GPU renderer, browser version, source hashes, and model file hashes. It runs the baseline for 15 minutes. It then runs 100 figures with 40 effects for one minute. It returns to baseline to check resource counts. Results are written to [verification/browser-benchmark.json](https://github.com/series-ai/run-workshop/blob/main/games/inkline-showcase/docs/verification/browser-benchmark.json).
+The browser harness measures animation-frame intervals. It records frame-time percentiles, draw calls, triangles, geometry counts, texture counts, GPU renderer, browser version, source hashes, and model file hashes. It runs the baseline for 15 minutes. It then runs 100 figures with 40 effects for one minute. It returns to baseline to check resource counts. Results are written to `verification/browser-benchmark.json`.
 
 For a repeatable production run, build the isolated harness:
 
@@ -17,7 +17,7 @@ The harness rejects page reloads during a measurement. `INKLINE_BENCH_SECONDS` c
 
 The browser run is a desktop test. It does not measure Android thermals, battery use, touch latency, or mobile driver behavior. Other work on the host can affect frame timings.
 
-The GLB integrity report is [verification/asset-report.json](https://github.com/series-ai/run-workshop/blob/main/games/inkline-showcase/docs/verification/asset-report.json). It records actual geometry counts and file sizes. The pack file sizes and checksums are in `../inventory-checksums.json`. The external [docs/verification/export-report.json](https://github.com/series-ai/run-workshop/blob/main/games/inkline-showcase/docs/verification/export-report.json) is in the workspace and the separate demo source archive. These reports take precedence over estimates.
+The GLB integrity report is `verification/asset-report.json`. It records actual geometry counts and file sizes. The pack file sizes and checksums are in `../inventory-checksums.json`. The external `docs/verification/export-report.json` is in the workspace and the separate demo source archive. These reports take precedence over estimates.
 
 The renderer uses unlit materials and no shadow maps. Each figure has a skinned mesh and a simple ground shadow. A pale figure adds one back-face contour draw. The contour shares the figure geometry and skeleton. Black figures do not draw this contour. Static district meshes are combined by material. Hard edges use line geometry. Effects use seven instanced shape pools with a shared total capacity of 2,048 particles. The procedural effects need no textures.
 
@@ -35,7 +35,7 @@ The corrected character files and firearm runtime passed a new desktop check on 
 | 100 | 40 | 60.3 s | 120.0 | 9.6 ms |
 | 20 | 10 | 15.1 s | 120.0 | 9.2 ms |
 
-The source and model hashes are in [verification/stance/browser-benchmark.json](https://github.com/series-ai/run-workshop/blob/main/games/inkline-showcase/docs/verification/stance/browser-benchmark.json). This desktop result does not verify the Android target.
+The source and model hashes are in `verification/stance/browser-benchmark.json`. This desktop result does not verify the Android target.
 
 ## Version 1.4.0 measurement
 
@@ -47,7 +47,7 @@ The current 12 character files and revised effects were measured on the same App
 | Stress | 100 | 40 | 60.3 s | 120.0 | 10.0 ms |
 | Return | 20 | 10 | 15.1 s | 120.0 | 10.0 ms |
 
-The browser reported 0 page errors. Read [verification/polish/browser-benchmark.json](https://github.com/series-ai/run-workshop/blob/main/games/inkline-showcase/docs/verification/polish/browser-benchmark.json). These results do not establish physical Android performance.
+The browser reported 0 page errors. Read `verification/polish/browser-benchmark.json`. These results do not establish physical Android performance.
 
 | Scene | Duration | Mean FPS | P95 frame time |
 | --- | ---: | ---: | ---: |
@@ -56,7 +56,7 @@ The browser reported 0 page errors. Read [verification/polish/browser-benchmark.
 | service-yard-effects | 30.3 s | 120.0 | 9.9 ms |
 | roof-works-effects | 30.3 s | 120.0 | 9.8 ms |
 
-Read [verification/polish/game-performance.json](https://github.com/series-ai/run-workshop/blob/main/games/inkline-showcase/docs/verification/polish/game-performance.json) for the current moving-scene samples and source hashes.
+Read `verification/polish/game-performance.json` for the current moving-scene samples and source hashes.
 
 ## Earlier 1.3.0 desktop result
 
@@ -96,7 +96,7 @@ The same four scene tests also ran with Chromium CPU throttling set to 4. This c
 | service-yard-effects | 30.2 s | 120.0 | 10.2 ms |
 | roof-works-effects | 30.2 s | 120.0 | 10.2 ms |
 
-Read [verification/kinetic/cpu-stress.json](https://github.com/series-ai/run-workshop/blob/main/games/inkline-showcase/docs/verification/kinetic/cpu-stress.json) for the samples and matching source hashes.
+Read `verification/kinetic/cpu-stress.json` for the samples and matching source hashes.
 
 ## Low-ceiling camera check
 

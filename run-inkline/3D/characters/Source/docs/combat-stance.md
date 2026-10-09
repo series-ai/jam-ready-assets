@@ -8,4 +8,4 @@ The source now bakes both arms against weapon contact points for each body. The 
 
 All 85 clip durations and existing contact times retain their 1.4.0 values. The exported Blender generator reads its adjacent `runtime/firearms.json`. The standalone character clips contain the arm motion. The runtime moves the prop parts and maintains the second hand contact.
 
-Current checks and captures are in [docs/verification/stance](https://github.com/series-ai/run-workshop/blob/main/games/inkline-showcase/docs/verification/stance). Earlier reports in [docs/verification/polish](https://github.com/series-ai/run-workshop/tree/main/games/inkline-showcase/docs/verification/polish) describe the 1.4.0 pass. Physical Android performance remains unverified.
+Current checks and captures are in `docs/verification/stance`. Earlier reports in `polish` describe the 1.4.0 pass. Physical Android performance remains unverified.
