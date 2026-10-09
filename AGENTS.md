@@ -114,6 +114,41 @@ manifest, with id `<pack>/<bucket>[/<theme>]`.
 - **Update [`README.md`](README.md)** credits + theme lists when you add a new creator or theme.
 - **Don't reference other game engines/platforms** in docs - this library is framed for the RUN platform.
 
+## Keep animation assets usable together
+
+An individual selection is one complete, independently usable image. A spritesheet
+stays one file with its original frame grid; never cut it into catalog items. Animation
+frames stored in separate files and sheets with companion descriptors stay searchable,
+but must be imported through the whole pack until grouped imports are supported.
+
+Before adding or updating a pack:
+
+1. Inspect its exported images and original documentation. Distinguish standalone images,
+   complete sheets, separate animation frames, and atlas/font/other companion files.
+   Visual keywords describe appearance; they cannot establish independence.
+2. Preserve original filenames, frame dimensions, order, transparency and relative companion
+   paths. For a new pack, place otherwise ambiguously named related exports together under
+   an `Animations/` or `Frames/` directory. Keep numbered independent tiles and icons separate.
+   Never rename or move already-published assets to influence selection rules; update the
+   shared classifier with a regression fixture instead.
+3. Keep source-provided animation instructions with the pack: clip names, directions, frame
+   order, frame size, margin/spacing, timing and loop behavior where documented. Say which
+   details are unspecified rather than inventing values. Keep complete sheets and descriptors
+   available together. A frame sequence is animated by loading the full clip in numeric order;
+   a sheet uses source rectangles on its original grid, never the entire sheet as a character.
+4. Run `npm test`, `SKIP_PUBLISHED_CHECK=1 node scripts/build-manifest.mjs`, and
+   `node scripts/check-visual-assets.mjs`. Inspect the new pack's generated asset records:
+   related files must have `selectable: false` and a whole-pack reason. An image without
+   accepted visual metadata/thumbnails is still pending individual discovery; filename
+   search alone does not establish individual-import readiness.
+
+Selection rules live in `scripts/asset-search-catalog.mjs`. They recognize camel case,
+attached frame numbers (`walk1.png`), separators (`walk_01.png`), numbered files inside
+an action directory (`Hit/1.png`), and animation/frame directories (`SeparateAnim/`).
+Numbering alone does not make a sequence: numbered tiles, icons and dice remain individual.
+Descriptor directories, including CSS sprite maps, keep their image subtree with the pack.
+Add a positive and a negative regression case when extending these rules.
+
 ## GCS mirror (CI-owned - do not hand-edit or hand-upload)
 
 Every push to `main` runs `.github/workflows/build-manifest.yml`, which builds a

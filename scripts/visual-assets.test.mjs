@@ -231,3 +231,60 @@ test('PNG animation control prevents a multi-frame source being treated as stati
   assert.equal(pngFrameCount(Buffer.concat([header, chunk])), 21);
   assert.throws(() => pngFrameCount(Buffer.concat([header, chunk.subarray(0, 17)])), /Truncated/);
 });
+
+test('animation sequences stay grouped across source naming conventions', () => {
+  const pack = { id: 'example/2D/characters', category: '2d' };
+  for (const paths of [
+    ['hero_walk1.png', 'hero_walk2.png'],
+    ['heroRun01.png', 'heroRun02.png'],
+    ['WALK1.PNG', 'WALK2.PNG'],
+    ['9-Hit/1.png', '9-Hit/2.png'],
+    ['Effects/simpleExplosion01.png', 'Effects/simpleExplosion02.png'],
+    ['enemySwimming1.png', 'enemySwimming2.png'],
+    ['Walk/hero (1).png', 'Walk/hero (2).png'],
+    ['Attack/hero[1].png', 'Attack/hero[2].png'],
+    ['SeparateAnim/Special1.png', 'SeparateAnim/Special2.png'],
+    ['Main Menu animated background 1.png', 'Main Menu animated background 2.png'],
+  ]) {
+    const files = paths.map((path) => ({ path })), evidence = dependencyEvidence(files);
+    for (const file of files) assert.ok(selectionReason(pack, file, label(), evidence), file.path);
+  }
+});
+test('numbered independent art and complete self-contained sheets remain selectable', () => {
+  const pack = { id: 'example/2D/misc', category: '2d' };
+  const files = ['tile_01.png', 'tile_02.png', 'white1.png', 'white2.png',
+    'runeBlue1.png', 'runeBlue2.png', 'dieRed1.png', 'dieRed2.png',
+    'Spritesheets/hero_walk.png', 'icons/attack.png', 'hero_run1.png', 'hero_run2.svg'].map((path) => ({ path }));
+  const evidence = dependencyEvidence(files);
+  for (const file of files) assert.equal(selectionReason(pack, file, label({ kind: 'sheet' }), evidence), null, file.path);
+});
+test('CSS and resource descriptors keep sibling images together without blocking other directories', () => {
+  const pack = { id: 'example/2D/misc', category: '2d' };
+  for (const extension of ['css', 'tres', 'anim', 'frames']) {
+    const files = [{ path: `Character/clip.${extension}` }, { path: 'Character/sheet.png' },
+      { path: 'Character/nested/texture.png' }, { path: 'Characters/icon.png' }];
+    const evidence = dependencyEvidence(files);
+    for (const file of files.slice(1, 3)) assert.match(selectionReason(pack, file, label(), evidence), /Companion/);
+    assert.equal(selectionReason(pack, files[3], label(), evidence), null);
+  }
+});
+test('grouped frames remain searchable with a whole-pack reason in the emitted catalog', (t) => {
+  const root = temp(t), packId = 'example/2D/characters';
+  const metadata = { labels: new Map(), bindings: new Map(), thumbnails: {}, config: { enabled: true, invalidations: {} } };
+  const files = ['hero_walk1.png', 'hero_walk2.png', 'hero.png'].map((path, i) => {
+    const hash = sha256(path);
+    metadata.labels.set(hash, label({ oid: hash, keywords: ['robot'] }));
+    metadata.bindings.set(`${packId}/${path}`, { oid: hash, role: 'runtime' });
+    metadata.thumbnails[hash] = { oid: sha256(`thumb${i}`), width: 32, height: 48, bytes: 100 };
+    return { path, oid: hash, bytes: 100, runtime: true };
+  });
+  const commit = 'e'.repeat(40);
+  buildAssetSearch(root, commit, [{ summary: { id: packId, category: '2d' }, files }], metadata);
+  const base = join(root, 'manifest/v2/commits', commit, 'assets');
+  const items = JSON.parse(readFileSync(join(base, 'pages/0.json'))).items;
+  assert.equal(items.length, 3);
+  for (const item of items) assert.equal(item.selectable, item.path === 'hero.png');
+  assert.ok(items.filter((x) => !x.selectable).every((x) => /Frame sequence/.test(x.selectionReason)));
+  const term = JSON.parse(readFileSync(join(base, 'terms/robot.json')));
+  assert.equal(term.ids?.length ?? Buffer.from(term.bits, 'base64')[0], 3);
+});
