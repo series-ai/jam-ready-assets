@@ -1,0 +1,9 @@
+SPDX-License-Identifier: CC0-1.0
+Source: https://opengameart.org/content/modern-houses-tileset-topdown
+Verified-by: run-workshop maintainers, 2026-10-08
+
+Ritpop publishes this asset pack under CC0 1.0 Universal.
+https://creativecommons.org/publicdomain/zero/1.0/
+
+You may copy, modify, distribute and perform the work, including for commercial
+purposes, without asking permission. Attribution is optional and appreciated.

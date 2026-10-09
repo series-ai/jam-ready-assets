@@ -1,0 +1,12 @@
+{
+  "source": "https://opengameart.org/content/indoor-office-appliances",
+  "license": "CC0-1.0",
+  "downloads": [
+    {
+      "name": "office-tilemap.png",
+      "url": "https://opengameart.org/sites/default/files/office-tilemap_0.png",
+      "sha256": "1bb25303968f89b72039d81e81d22c892d9915cc579f20faedf1541f503807e3",
+      "bytes": 103283
+    }
+  ]
+}

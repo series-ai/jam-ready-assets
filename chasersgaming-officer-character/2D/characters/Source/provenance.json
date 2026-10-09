@@ -1,0 +1,18 @@
+{
+  "source": "https://opengameart.org/content/officer-character",
+  "license": "CC0-1.0",
+  "downloads": [
+    {
+      "name": "Officer_sheet_boxed_0.png",
+      "url": "https://opengameart.org/sites/default/files/Officer_sheet_boxed_0_0.png",
+      "sha256": "0af9e7c1ee61ed477aefafb1f09163256725daa1cc4b3776c7d27020f83b793e",
+      "bytes": 39298
+    },
+    {
+      "name": "Officer_sheet_unboxed_0.png",
+      "url": "https://opengameart.org/sites/default/files/Officer_sheet_unboxed_0_0.png",
+      "sha256": "aa491a7c3e2fa68a22b1e796dd2c8fffee476c103c3cf1bec43a7c4599979485",
+      "bytes": 32877
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "source": "https://opengameart.org/content/pixelated-employee-character",
+  "license": "CC0-1.0",
+  "downloads": [
+    {
+      "name": "Player.png",
+      "url": "https://opengameart.org/sites/default/files/Player_8.png",
+      "sha256": "3fa888685882d8d59baa7e6ba6acfb872a484f8c868e5b33914c559b38a7ec4c",
+      "bytes": 2320
+    }
+  ]
+}
