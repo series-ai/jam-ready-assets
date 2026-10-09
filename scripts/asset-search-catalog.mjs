@@ -21,11 +21,30 @@ export function appendVisualKeywords(original, rows) {
   for (const row of rows) for (const word of visualWords(row)) if (!existing.has(word)) counts.set(word, (counts.get(word) ?? 0) + 1);
   return [...original, ...[...counts].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).slice(0, 40).map(([word]) => word)];
 }
+// These are action words, not substrings: "rune", "white" and "dice" are ordinary assets.
+const ANIMATION_ACTIONS = new Set([
+  'idle', 'run', 'running', 'walk', 'walking', 'jump', 'jumping', 'attack', 'attacking',
+  'death', 'dead', 'dying', 'hurt', 'hit', 'climb', 'climbing', 'swim', 'swimming',
+  'fall', 'falling', 'shoot', 'shooting', 'explode', 'explosion', 'explosions',
+  'destroy', 'destroyed', 'disappear', 'appearing', 'appear', 'swing', 'dash', 'roll',
+  'blink', 'blinking', 'bounce', 'bouncing', 'spin', 'spinning', 'turn', 'turning',
+]);
+const GROUP_WORDS = new Set(['font', 'fonts', 'anim', 'anims', 'animation', 'animations',
+  'animated', 'frame', 'frames', 'sequence', 'sequences']);
+const IMAGE_FILE = /\.(png|jpe?g|svg|gif|webp)$/i;
+function tokens(path) {
+  return path.replace(/([a-z])([A-Z])/g, '$1 $2').toLowerCase().split(/[^a-z]+/);
+}
+function numberedKey(path) {
+  // Match frame1, frame_01, frame (1), frame[1], and a directory of 1.png, 2.png.
+  return path.replace(/[ _-]?[([]?\d+[)\]]?(?=\.[^.]+$)/, '#');
+}
 export function dependencyEvidence(files) {
-  const descriptorDirs = new Set(files.filter((f) => /\.(json|xml|fnt|atlas|plist|tmx|tsx)$/i.test(f.path)).map((f) => dirname(f.path)));
+  const descriptorDirs = new Set(files.filter((f) => /\.(json|xml|fnt|atlas|plist|tmx|tsx|css|tres|anim|frames)$/i.test(f.path)).map((f) => dirname(f.path)));
   const numbered = new Map();
   for (const file of files) {
-    const key = file.path.replace(/([_-]?)(\d+)(?=\.[^.]+$)/, '#');
+    if (!IMAGE_FILE.test(file.path)) continue;
+    const key = numberedKey(file.path);
     if (key !== file.path) numbered.set(key, (numbered.get(key) ?? 0) + 1);
   }
   return { descriptorDirs, numbered };
@@ -34,11 +53,10 @@ export function selectionReason(pack, file, label, evidence) {
   if (!label || label.status !== 'tagged' || label.confidence === 'none') return 'Visual description pending';
   if (!['2d', 'ui'].includes(pack.category)) return 'Available with pack';
   if (!/\.(png|jpe?g|svg)$/i.test(file.path) || label.frameCount !== 1 || label.pageCount !== 1) return 'Animation available with pack';
-  if (/(^|[/ _-])(fonts?|animations?|frames?)([/ _.-]|$)/i.test(`${pack.id}/${file.path}`)) return 'Related files available with pack';
+  if (tokens(`${pack.id}/${file.path}`).some((word) => GROUP_WORDS.has(word))) return 'Related files available with pack';
   // A descriptor may name images in child directories. Refuse the entire subtree.
   if ([...evidence.descriptorDirs].some((dir) => dir === '.' || file.path.startsWith(`${dir}/`))) return 'Companion metadata available with pack';
-  const numberedKey = file.path.replace(/([_-]?)(\d+)(?=\.[^.]+$)/, '#');
-  if ((evidence.numbered.get(numberedKey) ?? 0) > 1 && /(^|[/ _-])(idle|run|walk|jump|attack|death|hurt|anim|cycle)([/ _.-]|$)/i.test(file.path)) return 'Frame sequence available with pack';
+  if ((evidence.numbered.get(numberedKey(file.path)) ?? 0) > 1 && tokens(file.path).some((word) => ANIMATION_ACTIONS.has(word))) return 'Frame sequence available with pack';
   return null;
 }
 function writeJson(path, value, max = Infinity) {

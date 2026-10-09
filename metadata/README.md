@@ -23,7 +23,11 @@ changes a pack's content version or the legacy schema-v1 manifest.
 Labels are asset facts. They do not determine licences or prove that a file can be used
 independently. Selectability also checks the current category, extension, frame count,
 font and animation paths, and companion descriptors. Dependent or uncertain assets stay
-available through their whole pack. A spritesheet is always the complete original file.
+available through their whole pack. A spritesheet is always the complete original file. Attached frame numbers and camel-case
+names are normalized before checking animation sequences. CSS sprite maps and resource
+sidecars keep their image subtree with the pack. Numbered independent tiles, icons and
+dice stay individually selectable. See [the contribution rules](../AGENTS.md#keep-animation-assets-usable-together)
+for required grouping and animation-use evidence.
 
 ## Search format
 

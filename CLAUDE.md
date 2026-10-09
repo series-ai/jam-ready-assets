@@ -43,3 +43,9 @@ tracker and link nothing.
 3. Credit is the point of the Credits table in [`README.md`](README.md). Keep it accurate and keep
    it generous: most packs here are CC0 and ask for nothing, which is exactly why naming the
    creator well is the least we can do.
+
+## Adding animation artwork
+
+Follow [the animation grouping rules in AGENTS.md](AGENTS.md#keep-animation-assets-usable-together).
+Preserve complete sheets, keep related frames and companion files together, and verify
+individual selection in the generated catalog before describing a pack as ready for it.
