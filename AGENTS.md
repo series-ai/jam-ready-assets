@@ -118,8 +118,10 @@ manifest, with id `<pack>/<bucket>[/<theme>]`.
 
 An individual selection is one complete, independently usable image. A spritesheet
 stays one file with its original frame grid; never cut it into catalog items. Animation
-frames stored in separate files and sheets with companion descriptors stay searchable,
-but must be imported through the whole pack until grouped imports are supported.
+frames stored in separate files are grouped: a numbered sequence of 2 to 32 same-size
+frames becomes one search result led by its first frame, and the other frames leave search.
+Selecting a sequence of up to 16 frames imports every frame; longer sequences, font glyphs
+and sheets with companion descriptors still import through the whole pack.
 
 Before adding or updating a pack:
 
@@ -138,7 +140,8 @@ Before adding or updating a pack:
    a sheet uses source rectangles on its original grid, never the entire sheet as a character.
 4. Run `npm test`, `SKIP_PUBLISHED_CHECK=1 node scripts/build-manifest.mjs`, and
    `node scripts/check-visual-assets.mjs`. Inspect the new pack's generated asset records:
-   related files must have `selectable: false` and a whole-pack reason. An image without
+   related files must have `selectable: false` and a whole-pack reason, except the first
+   frame of a selectable sequence, which lists every frame in `animation.frameIds`. An image without
    accepted visual metadata/thumbnails is still pending individual discovery; filename
    search alone does not establish individual-import readiness.
 
@@ -148,6 +151,12 @@ an action directory (`Hit/1.png`), and animation/frame directories (`SeparateAni
 Numbering alone does not make a sequence: numbered tiles, icons and dice remain individual.
 Descriptor directories, including CSS sprite maps, keep their image subtree with the pack.
 Add a positive and a negative regression case when extending these rules.
+
+The same script writes the optional `animation` field that drives previews in the picker:
+`sequence` (frame thumbnails in order), `sheet` (a frame grid) or `animated` (a multi-frame
+GIF, WebP or APNG). Sheets carry a grid only when the file is a single row or column of square
+frames and its path names an action; any other layout keeps a static thumbnail. The catalog
+records no frame rate, since few sources document one.
 
 ## GCS mirror (CI-owned - do not hand-edit or hand-upload)
 
