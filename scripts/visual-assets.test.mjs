@@ -268,23 +268,69 @@ test('CSS and resource descriptors keep sibling images together without blocking
     assert.equal(selectionReason(pack, files[3], label(), evidence), null);
   }
 });
-test('grouped frames remain searchable with a whole-pack reason in the emitted catalog', (t) => {
-  const root = temp(t), packId = 'example/2D/characters';
+const emit = (t, paths, labelFor = () => ({}), category = '2d', packId = 'example/2D/characters') => {
+  const root = temp(t);
   const metadata = { labels: new Map(), bindings: new Map(), thumbnails: {}, config: { enabled: true, invalidations: {} } };
-  const files = ['hero_walk1.png', 'hero_walk2.png', 'hero.png'].map((path, i) => {
+  const files = paths.map((path, i) => {
     const hash = sha256(path);
-    metadata.labels.set(hash, label({ oid: hash, keywords: ['robot'] }));
+    metadata.labels.set(hash, label({ oid: hash, keywords: ['robot'], ...labelFor(path) }));
     metadata.bindings.set(`${packId}/${path}`, { oid: hash, role: 'runtime' });
     metadata.thumbnails[hash] = { oid: sha256(`thumb${i}`), width: 32, height: 48, bytes: 100 };
     return { path, oid: hash, bytes: 100, runtime: true };
   });
   const commit = 'e'.repeat(40);
-  buildAssetSearch(root, commit, [{ summary: { id: packId, category: '2d' }, files }], metadata);
+  buildAssetSearch(root, commit, [{ summary: { id: packId, category }, files }], metadata);
   const base = join(root, 'manifest/v2/commits', commit, 'assets');
   const items = JSON.parse(readFileSync(join(base, 'pages/0.json'))).items;
-  assert.equal(items.length, 3);
-  for (const item of items) assert.equal(item.selectable, item.path === 'hero.png');
-  assert.ok(items.filter((x) => !x.selectable).every((x) => /Frame sequence/.test(x.selectionReason)));
   const term = JSON.parse(readFileSync(join(base, 'terms/robot.json')));
-  assert.equal(term.ids?.length ?? Buffer.from(term.bits, 'base64')[0], 3);
+  const searchable = new Set(term.ids ?? items.filter((x) => Buffer.from(term.bits, 'base64')[x.ordinal >> 3] & (1 << (x.ordinal & 7))).map((x) => x.ordinal));
+  return { packId, metadata, items: new Map(items.map((x) => [x.path, x])), searchable: (x) => searchable.has(x.ordinal) };
+};
+test('a frame sequence becomes one selectable search result that lists every frame in order', (t) => {
+  const { packId, metadata, items, searchable } = emit(t, ['hero_walk2.png', 'hero_walk10.png', 'hero_walk1.png', 'hero.png']);
+  const lead = items.get('hero_walk1.png');
+  assert.equal(lead.selectable, true); assert.equal(lead.selectionReason, undefined);
+  assert.deepEqual(lead.animation, {
+    type: 'sequence', frames: 3,
+    frameThumbnailOids: ['hero_walk1.png', 'hero_walk2.png', 'hero_walk10.png'].map((path) => metadata.thumbnails[sha256(path)].oid),
+    frameIds: ['hero_walk1.png', 'hero_walk2.png', 'hero_walk10.png'].map((path) => sha256(`${packId}\0${path}`)),
+  });
+  for (const path of ['hero_walk2.png', 'hero_walk10.png']) {
+    const frame = items.get(path);
+    assert.equal(frame.selectable, false); assert.match(frame.selectionReason, /Frame sequence/);
+    assert.equal(frame.animation, undefined); assert.equal(searchable(frame), false);
+  }
+  assert.equal(searchable(lead), true); assert.equal(searchable(items.get('hero.png')), true);
+  assert.equal(items.get('hero.png').animation, undefined);
+});
+test('long, mixed-size and descriptor-backed sequences preview without becoming selectable', (t) => {
+  const long = emit(t, Array.from({ length: 17 }, (_, n) => `hero_walk${n + 1}.png`)).items.get('hero_walk1.png');
+  assert.equal(long.selectable, false); assert.equal(long.animation.frames, 17); assert.equal(long.animation.frameIds, undefined);
+  assert.equal(emit(t, Array.from({ length: 33 }, (_, n) => `hero_walk${n + 1}.png`)).items.get('hero_walk1.png').animation, undefined);
+  const mixed = emit(t, ['hero_walk1.png', 'hero_walk2.png'], (path) => (path.endsWith('2.png') ? { dimensions: [32, 32] } : {}));
+  assert.equal(mixed.items.get('hero_walk1.png').animation, undefined);
+  const sheets = emit(t, ['hero_walk1.png', 'hero_walk2.png'], () => ({ kind: 'sheet', dimensions: [128, 32] }));
+  for (const item of sheets.items.values()) assert.deepEqual(item.animation, { type: 'sheet', frames: 4, columns: 4, rows: 1 });
+  const wideFrames = emit(t, ['hero_death1.png', 'hero_death2.png', 'hero_death3.png'], () => ({ dimensions: [96, 32] }));
+  assert.equal(wideFrames.items.get('hero_death1.png').animation.type, 'sequence');
+  assert.equal(wideFrames.items.get('hero_death2.png').animation, undefined);
+  const lone = emit(t, ['hero_walk1.png', 'hero_walk2.png'], (path) => ({ dimensions: path.endsWith('1.png') ? [128, 32] : [64, 32] }));
+  assert.equal(lone.items.get('hero_walk1.png').animation, undefined);
+  const fonts = emit(t, ['fonts/frames/glyph1.png', 'fonts/frames/glyph2.png']).items.get('fonts/frames/glyph1.png');
+  assert.equal(fonts.selectable, false); assert.equal(fonts.animation.type, 'sequence');
+  const fontPack = emit(t, ['frames/a1.png', 'frames/a2.png'], () => ({}), '2d', 'example/2D/fonts').items.get('frames/a1.png');
+  assert.equal(fontPack.selectable, false); assert.equal(fontPack.animation.frameIds, undefined);
+  const described = emit(t, ['anims/hero_run1.png', 'anims/hero_run2.png', 'anims/hero.json']).items.get('anims/hero_run1.png');
+  assert.equal(described.selectable, false); assert.equal(described.animation.frameIds, undefined);
+});
+test('square-frame strips and multi-frame images carry a preview; other shapes stay static', (t) => {
+  const { items } = emit(t, ['hero_run.png', 'hero_jump.png', 'hero_tall_idle.png', 'tiles.png', 'hero_hurt.png', 'portal.gif'], (path) => ({
+    dimensions: { 'hero_run.png': [192, 48], 'hero_jump.png': [200, 48], 'hero_tall_idle.png': [32, 128], 'tiles.png': [192, 48], 'hero_hurt.png': [48, 48] }[path] ?? [32, 32],
+    frameCount: path.endsWith('.gif') ? 12 : 1,
+  }));
+  assert.deepEqual(items.get('hero_run.png').animation, { type: 'sheet', frames: 4, columns: 4, rows: 1 });
+  assert.deepEqual(items.get('hero_tall_idle.png').animation, { type: 'sheet', frames: 4, columns: 1, rows: 4 });
+  assert.deepEqual(items.get('portal.gif').animation, { type: 'animated', frames: 12 });
+  for (const path of ['hero_jump.png', 'tiles.png', 'hero_hurt.png']) assert.equal(items.get(path).animation, undefined, path);
+  assert.equal(items.get('hero_run.png').selectable, true);
 });

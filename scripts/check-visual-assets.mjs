@@ -4,7 +4,7 @@ import { join } from 'node:path';
 import sharp from 'sharp';
 import { readVisualMetadata, currentLabel, sha256 } from './visual-metadata.mjs';
 import { readThumbnailArchive } from './thumbnail-archive.mjs';
-import { dependencyEvidence, selectionReason } from './asset-search-catalog.mjs';
+import { dependencyEvidence, sequenceGroups, assetAnimation, expectedSelectionReason } from './asset-search-catalog.mjs';
 const root = process.cwd(), metadata = readVisualMetadata(root);
 if (!metadata.config) throw new Error('Missing visual metadata');
 const validated = new Set();
@@ -48,13 +48,18 @@ for (let page = 0; page < Math.ceil(descriptor.assetCount / 16); page++) {
     if (item.ordinal !== count || item.id <= lastId || item.id !== sha256(`${item.packId}\0${item.path}`) || descriptor.packIds[membership[count]] !== item.packId || !validated.has(item.thumbnailOid)) throw new Error('Item identity, membership or thumbnail mismatch');
     if (!packEvidence.has(item.packId)) {
       const pack = JSON.parse(readFileSync(join(root, 'manifest/v2/commits', index.commit, 'packs', `${item.packId.replaceAll('/', '--')}.json`), 'utf8'));
-      packEvidence.set(item.packId, { files: new Map(pack.files.map((file) => [file.path, file])), evidence: dependencyEvidence(pack.files) });
+      const summary = summaries.get(item.packId), evidence = dependencyEvidence(pack.files);
+      const groups = sequenceGroups(summary, pack.files, (file) => currentLabel(metadata, item.packId, file), metadata.thumbnails, evidence);
+      packEvidence.set(item.packId, { files: new Map(pack.files.map((file) => [file.path, file])), evidence, groups });
     }
-    const { files, evidence } = packEvidence.get(item.packId);
+    const { files, evidence, groups } = packEvidence.get(item.packId);
     const file = files.get(item.path);
     if (!file || !file.runtime || file.oid !== item.oid) throw new Error('Selected source does not match pack');
-    const reason = selectionReason(summaries.get(item.packId), file, currentLabel(metadata, item.packId, file), evidence);
+    const label = currentLabel(metadata, item.packId, file);
+    const reason = expectedSelectionReason(summaries.get(item.packId), file, label, evidence, groups);
     if (item.selectable !== (reason === null) || (item.selectionReason ?? null) !== reason) throw new Error(`Selection grouping mismatch: ${item.packId}/${item.path}`);
+    const animation = assetAnimation(summaries.get(item.packId), file, label, groups, metadata.thumbnails, evidence);
+    if (JSON.stringify(item.animation ?? null) !== JSON.stringify(animation)) throw new Error(`Animation preview mismatch: ${item.packId}/${item.path}`);
     lastId = item.id; count++;
   }
 }
