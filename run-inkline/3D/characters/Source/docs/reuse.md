@@ -88,7 +88,7 @@ The full assembly is also supplied as GLB and Blender files. Layout positions us
 
 ## License and provenance
 
-The pack is under the RUN License (LicenseRef-RUN-Repository-Supplemental-1.0). Keep the full `License.txt` notice. All pack art was generated from the included original source definitions. Flash animation informed the visual direction. No art from those references is included.
+The pack is licensed under the RUN Repository Supplemental License v1.0 (see root `LICENSE.md`). Keep the full `License.txt` notice. All pack art was generated from the included original source definitions. Flash animation informed the visual direction. No art from those references is included.
 
 ## Additional level scenes
 

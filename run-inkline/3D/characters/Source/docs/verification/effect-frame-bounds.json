@@ -1,0 +1,4483 @@
+{
+  "checkedAt": "2026-10-06T20:26:09.256972+00:00",
+  "frames": 512,
+  "clippedFrames": 0,
+  "minimumMargin": 32,
+  "results": [
+    {
+      "file": "punch-impact-0.png",
+      "bounds": [
+        43,
+        142,
+        214,
+        314
+      ],
+      "margin": 43
+    },
+    {
+      "file": "punch-impact-1.png",
+      "bounds": [
+        44,
+        138,
+        215,
+        310
+      ],
+      "margin": 44
+    },
+    {
+      "file": "punch-impact-2.png",
+      "bounds": [
+        43,
+        133,
+        237,
+        306
+      ],
+      "margin": 43
+    },
+    {
+      "file": "punch-impact-3.png",
+      "bounds": [
+        62,
+        123,
+        248,
+        297
+      ],
+      "margin": 62
+    },
+    {
+      "file": "punch-impact-4.png",
+      "bounds": [
+        115,
+        100,
+        233,
+        241
+      ],
+      "margin": 100
+    },
+    {
+      "file": "punch-impact-5.png",
+      "bounds": [
+        223,
+        237,
+        224,
+        239
+      ],
+      "margin": 145
+    },
+    {
+      "file": "punch-impact-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "punch-impact-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "heavy-impact-0.png",
+      "bounds": [
+        91,
+        159,
+        213,
+        282
+      ],
+      "margin": 91
+    },
+    {
+      "file": "heavy-impact-1.png",
+      "bounds": [
+        90,
+        157,
+        213,
+        279
+      ],
+      "margin": 90
+    },
+    {
+      "file": "heavy-impact-2.png",
+      "bounds": [
+        90,
+        137,
+        234,
+        280
+      ],
+      "margin": 90
+    },
+    {
+      "file": "heavy-impact-3.png",
+      "bounds": [
+        97,
+        107,
+        252,
+        296
+      ],
+      "margin": 88
+    },
+    {
+      "file": "heavy-impact-4.png",
+      "bounds": [
+        113,
+        83,
+        266,
+        300
+      ],
+      "margin": 83
+    },
+    {
+      "file": "heavy-impact-5.png",
+      "bounds": [
+        190,
+        128,
+        233,
+        240
+      ],
+      "margin": 128
+    },
+    {
+      "file": "heavy-impact-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "heavy-impact-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "kick-impact-0.png",
+      "bounds": [
+        73,
+        197,
+        192,
+        246
+      ],
+      "margin": 73
+    },
+    {
+      "file": "kick-impact-1.png",
+      "bounds": [
+        90,
+        178,
+        220,
+        249
+      ],
+      "margin": 90
+    },
+    {
+      "file": "kick-impact-2.png",
+      "bounds": [
+        107,
+        164,
+        248,
+        253
+      ],
+      "margin": 107
+    },
+    {
+      "file": "kick-impact-3.png",
+      "bounds": [
+        125,
+        149,
+        268,
+        255
+      ],
+      "margin": 116
+    },
+    {
+      "file": "kick-impact-4.png",
+      "bounds": [
+        155,
+        141,
+        259,
+        249
+      ],
+      "margin": 125
+    },
+    {
+      "file": "kick-impact-5.png",
+      "bounds": [
+        187,
+        141,
+        228,
+        172
+      ],
+      "margin": 141
+    },
+    {
+      "file": "kick-impact-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "kick-impact-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "uppercut-0.png",
+      "bounds": [
+        134,
+        107,
+        271,
+        283
+      ],
+      "margin": 101
+    },
+    {
+      "file": "uppercut-1.png",
+      "bounds": [
+        147,
+        103,
+        275,
+        280
+      ],
+      "margin": 103
+    },
+    {
+      "file": "uppercut-2.png",
+      "bounds": [
+        161,
+        99,
+        279,
+        277
+      ],
+      "margin": 99
+    },
+    {
+      "file": "uppercut-3.png",
+      "bounds": [
+        165,
+        96,
+        282,
+        273
+      ],
+      "margin": 96
+    },
+    {
+      "file": "uppercut-4.png",
+      "bounds": [
+        171,
+        130,
+        246,
+        244
+      ],
+      "margin": 130
+    },
+    {
+      "file": "uppercut-5.png",
+      "bounds": [
+        177,
+        175,
+        209,
+        205
+      ],
+      "margin": 175
+    },
+    {
+      "file": "uppercut-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "uppercut-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "sword-slash-0.png",
+      "bounds": [
+        187,
+        64,
+        329,
+        290
+      ],
+      "margin": 55
+    },
+    {
+      "file": "sword-slash-1.png",
+      "bounds": [
+        188,
+        61,
+        331,
+        289
+      ],
+      "margin": 53
+    },
+    {
+      "file": "sword-slash-2.png",
+      "bounds": [
+        189,
+        59,
+        332,
+        286
+      ],
+      "margin": 52
+    },
+    {
+      "file": "sword-slash-3.png",
+      "bounds": [
+        190,
+        57,
+        332,
+        283
+      ],
+      "margin": 52
+    },
+    {
+      "file": "sword-slash-4.png",
+      "bounds": [
+        191,
+        102,
+        283,
+        248
+      ],
+      "margin": 101
+    },
+    {
+      "file": "sword-slash-5.png",
+      "bounds": [
+        194,
+        167,
+        215,
+        200
+      ],
+      "margin": 167
+    },
+    {
+      "file": "sword-slash-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "sword-slash-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "sword-cross-0.png",
+      "bounds": [
+        94,
+        92,
+        296,
+        311
+      ],
+      "margin": 73
+    },
+    {
+      "file": "sword-cross-1.png",
+      "bounds": [
+        95,
+        88,
+        297,
+        308
+      ],
+      "margin": 76
+    },
+    {
+      "file": "sword-cross-2.png",
+      "bounds": [
+        95,
+        84,
+        297,
+        304
+      ],
+      "margin": 80
+    },
+    {
+      "file": "sword-cross-3.png",
+      "bounds": [
+        96,
+        81,
+        297,
+        301
+      ],
+      "margin": 81
+    },
+    {
+      "file": "sword-cross-4.png",
+      "bounds": [
+        133,
+        118,
+        261,
+        257
+      ],
+      "margin": 118
+    },
+    {
+      "file": "sword-cross-5.png",
+      "bounds": [
+        183,
+        168,
+        212,
+        200
+      ],
+      "margin": 168
+    },
+    {
+      "file": "sword-cross-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "sword-cross-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "staff-sweep-0.png",
+      "bounds": [
+        186,
+        65,
+        329,
+        289
+      ],
+      "margin": 55
+    },
+    {
+      "file": "staff-sweep-1.png",
+      "bounds": [
+        187,
+        61,
+        331,
+        287
+      ],
+      "margin": 53
+    },
+    {
+      "file": "staff-sweep-2.png",
+      "bounds": [
+        187,
+        59,
+        332,
+        285
+      ],
+      "margin": 52
+    },
+    {
+      "file": "staff-sweep-3.png",
+      "bounds": [
+        188,
+        58,
+        332,
+        282
+      ],
+      "margin": 52
+    },
+    {
+      "file": "staff-sweep-4.png",
+      "bounds": [
+        191,
+        102,
+        283,
+        248
+      ],
+      "margin": 101
+    },
+    {
+      "file": "staff-sweep-5.png",
+      "bounds": [
+        193,
+        166,
+        215,
+        200
+      ],
+      "margin": 166
+    },
+    {
+      "file": "staff-sweep-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "staff-sweep-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "parry-flash-0.png",
+      "bounds": [
+        43,
+        123,
+        243,
+        324
+      ],
+      "margin": 43
+    },
+    {
+      "file": "parry-flash-1.png",
+      "bounds": [
+        42,
+        118,
+        244,
+        321
+      ],
+      "margin": 42
+    },
+    {
+      "file": "parry-flash-2.png",
+      "bounds": [
+        42,
+        114,
+        245,
+        317
+      ],
+      "margin": 42
+    },
+    {
+      "file": "parry-flash-3.png",
+      "bounds": [
+        44,
+        112,
+        244,
+        312
+      ],
+      "margin": 44
+    },
+    {
+      "file": "parry-flash-4.png",
+      "bounds": [
+        80,
+        143,
+        242,
+        273
+      ],
+      "margin": 80
+    },
+    {
+      "file": "parry-flash-5.png",
+      "bounds": [
+        131,
+        153,
+        208,
+        218
+      ],
+      "margin": 131
+    },
+    {
+      "file": "parry-flash-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "parry-flash-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "block-ring-0.png",
+      "bounds": [
+        47,
+        63,
+        334,
+        349
+      ],
+      "margin": 35
+    },
+    {
+      "file": "block-ring-1.png",
+      "bounds": [
+        47,
+        56,
+        336,
+        345
+      ],
+      "margin": 39
+    },
+    {
+      "file": "block-ring-2.png",
+      "bounds": [
+        47,
+        51,
+        336,
+        340
+      ],
+      "margin": 44
+    },
+    {
+      "file": "block-ring-3.png",
+      "bounds": [
+        48,
+        46,
+        336,
+        334
+      ],
+      "margin": 46
+    },
+    {
+      "file": "block-ring-4.png",
+      "bounds": [
+        100,
+        91,
+        286,
+        277
+      ],
+      "margin": 91
+    },
+    {
+      "file": "block-ring-5.png",
+      "bounds": [
+        172,
+        157,
+        215,
+        201
+      ],
+      "margin": 157
+    },
+    {
+      "file": "block-ring-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "block-ring-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "guard-break-0.png",
+      "bounds": [
+        71,
+        94,
+        174,
+        179
+      ],
+      "margin": 71
+    },
+    {
+      "file": "guard-break-1.png",
+      "bounds": [
+        71,
+        81,
+        180,
+        202
+      ],
+      "margin": 71
+    },
+    {
+      "file": "guard-break-2.png",
+      "bounds": [
+        85,
+        85,
+        201,
+        225
+      ],
+      "margin": 85
+    },
+    {
+      "file": "guard-break-3.png",
+      "bounds": [
+        130,
+        98,
+        221,
+        248
+      ],
+      "margin": 98
+    },
+    {
+      "file": "guard-break-4.png",
+      "bounds": [
+        136,
+        90,
+        240,
+        270
+      ],
+      "margin": 90
+    },
+    {
+      "file": "guard-break-5.png",
+      "bounds": [
+        155,
+        90,
+        208,
+        118
+      ],
+      "margin": 90
+    },
+    {
+      "file": "guard-break-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "guard-break-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "dodge-trail-0.png",
+      "bounds": [
+        54,
+        198,
+        253,
+        224
+      ],
+      "margin": 54
+    },
+    {
+      "file": "dodge-trail-1.png",
+      "bounds": [
+        65,
+        188,
+        269,
+        220
+      ],
+      "margin": 65
+    },
+    {
+      "file": "dodge-trail-2.png",
+      "bounds": [
+        80,
+        182,
+        289,
+        216
+      ],
+      "margin": 80
+    },
+    {
+      "file": "dodge-trail-3.png",
+      "bounds": [
+        94,
+        175,
+        294,
+        212
+      ],
+      "margin": 90
+    },
+    {
+      "file": "dodge-trail-4.png",
+      "bounds": [
+        142,
+        172,
+        269,
+        205
+      ],
+      "margin": 115
+    },
+    {
+      "file": "dodge-trail-5.png",
+      "bounds": [
+        193,
+        173,
+        233,
+        184
+      ],
+      "margin": 151
+    },
+    {
+      "file": "dodge-trail-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "dodge-trail-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "critical-hit-0.png",
+      "bounds": [
+        35,
+        125,
+        180,
+        268
+      ],
+      "margin": 35
+    },
+    {
+      "file": "critical-hit-1.png",
+      "bounds": [
+        37,
+        120,
+        180,
+        265
+      ],
+      "margin": 37
+    },
+    {
+      "file": "critical-hit-2.png",
+      "bounds": [
+        37,
+        118,
+        211,
+        264
+      ],
+      "margin": 37
+    },
+    {
+      "file": "critical-hit-3.png",
+      "bounds": [
+        54,
+        117,
+        240,
+        286
+      ],
+      "margin": 54
+    },
+    {
+      "file": "critical-hit-4.png",
+      "bounds": [
+        98,
+        99,
+        260,
+        302
+      ],
+      "margin": 82
+    },
+    {
+      "file": "critical-hit-5.png",
+      "bounds": [
+        174,
+        86,
+        181,
+        95
+      ],
+      "margin": 86
+    },
+    {
+      "file": "critical-hit-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "critical-hit-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "blade-contact-0.png",
+      "bounds": [
+        120,
+        103,
+        253,
+        270
+      ],
+      "margin": 103
+    },
+    {
+      "file": "blade-contact-1.png",
+      "bounds": [
+        105,
+        99,
+        254,
+        267
+      ],
+      "margin": 99
+    },
+    {
+      "file": "blade-contact-2.png",
+      "bounds": [
+        104,
+        95,
+        255,
+        263
+      ],
+      "margin": 95
+    },
+    {
+      "file": "blade-contact-3.png",
+      "bounds": [
+        110,
+        101,
+        246,
+        253
+      ],
+      "margin": 101
+    },
+    {
+      "file": "blade-contact-4.png",
+      "bounds": [
+        132,
+        150,
+        236,
+        240
+      ],
+      "margin": 132
+    },
+    {
+      "file": "blade-contact-5.png",
+      "bounds": [
+        201,
+        148,
+        212,
+        155
+      ],
+      "margin": 148
+    },
+    {
+      "file": "blade-contact-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "blade-contact-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "weapon-clash-0.png",
+      "bounds": [
+        35,
+        103,
+        231,
+        301
+      ],
+      "margin": 35
+    },
+    {
+      "file": "weapon-clash-1.png",
+      "bounds": [
+        34,
+        99,
+        231,
+        296
+      ],
+      "margin": 34
+    },
+    {
+      "file": "weapon-clash-2.png",
+      "bounds": [
+        34,
+        95,
+        232,
+        293
+      ],
+      "margin": 34
+    },
+    {
+      "file": "weapon-clash-3.png",
+      "bounds": [
+        43,
+        97,
+        238,
+        280
+      ],
+      "margin": 43
+    },
+    {
+      "file": "weapon-clash-4.png",
+      "bounds": [
+        92,
+        127,
+        247,
+        270
+      ],
+      "margin": 92
+    },
+    {
+      "file": "weapon-clash-5.png",
+      "bounds": [
+        134,
+        119,
+        201,
+        181
+      ],
+      "margin": 119
+    },
+    {
+      "file": "weapon-clash-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "weapon-clash-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "shield-bash-0.png",
+      "bounds": [
+        35,
+        93,
+        259,
+        317
+      ],
+      "margin": 35
+    },
+    {
+      "file": "shield-bash-1.png",
+      "bounds": [
+        35,
+        88,
+        261,
+        314
+      ],
+      "margin": 35
+    },
+    {
+      "file": "shield-bash-2.png",
+      "bounds": [
+        36,
+        84,
+        262,
+        310
+      ],
+      "margin": 36
+    },
+    {
+      "file": "shield-bash-3.png",
+      "bounds": [
+        37,
+        80,
+        262,
+        305
+      ],
+      "margin": 37
+    },
+    {
+      "file": "shield-bash-4.png",
+      "bounds": [
+        78,
+        116,
+        238,
+        261
+      ],
+      "margin": 78
+    },
+    {
+      "file": "shield-bash-5.png",
+      "bounds": [
+        135,
+        147,
+        212,
+        201
+      ],
+      "margin": 135
+    },
+    {
+      "file": "shield-bash-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "shield-bash-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "guard-shock-0.png",
+      "bounds": [
+        72,
+        193,
+        161,
+        236
+      ],
+      "margin": 72
+    },
+    {
+      "file": "guard-shock-1.png",
+      "bounds": [
+        100,
+        165,
+        189,
+        254
+      ],
+      "margin": 100
+    },
+    {
+      "file": "guard-shock-2.png",
+      "bounds": [
+        117,
+        138,
+        221,
+        271
+      ],
+      "margin": 113
+    },
+    {
+      "file": "guard-shock-3.png",
+      "bounds": [
+        132,
+        113,
+        248,
+        287
+      ],
+      "margin": 97
+    },
+    {
+      "file": "guard-shock-4.png",
+      "bounds": [
+        157,
+        100,
+        264,
+        297
+      ],
+      "margin": 87
+    },
+    {
+      "file": "guard-shock-5.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "guard-shock-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "guard-shock-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "counter-flash-0.png",
+      "bounds": [
+        52,
+        69,
+        330,
+        347
+      ],
+      "margin": 37
+    },
+    {
+      "file": "counter-flash-1.png",
+      "bounds": [
+        52,
+        63,
+        331,
+        341
+      ],
+      "margin": 43
+    },
+    {
+      "file": "counter-flash-2.png",
+      "bounds": [
+        51,
+        55,
+        331,
+        335
+      ],
+      "margin": 49
+    },
+    {
+      "file": "counter-flash-3.png",
+      "bounds": [
+        53,
+        51,
+        332,
+        329
+      ],
+      "margin": 51
+    },
+    {
+      "file": "counter-flash-4.png",
+      "bounds": [
+        103,
+        94,
+        283,
+        273
+      ],
+      "margin": 94
+    },
+    {
+      "file": "counter-flash-5.png",
+      "bounds": [
+        174,
+        157,
+        213,
+        198
+      ],
+      "margin": 157
+    },
+    {
+      "file": "counter-flash-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "counter-flash-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "pistol-flash-0.png",
+      "bounds": [
+        42,
+        64,
+        320,
+        343
+      ],
+      "margin": 41
+    },
+    {
+      "file": "pistol-flash-1.png",
+      "bounds": [
+        44,
+        58,
+        326,
+        339
+      ],
+      "margin": 44
+    },
+    {
+      "file": "pistol-flash-2.png",
+      "bounds": [
+        49,
+        54,
+        330,
+        335
+      ],
+      "margin": 49
+    },
+    {
+      "file": "pistol-flash-3.png",
+      "bounds": [
+        53,
+        50,
+        333,
+        330
+      ],
+      "margin": 50
+    },
+    {
+      "file": "pistol-flash-4.png",
+      "bounds": [
+        107,
+        96,
+        288,
+        277
+      ],
+      "margin": 96
+    },
+    {
+      "file": "pistol-flash-5.png",
+      "bounds": [
+        181,
+        161,
+        222,
+        202
+      ],
+      "margin": 161
+    },
+    {
+      "file": "pistol-flash-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "pistol-flash-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "rifle-flash-0.png",
+      "bounds": [
+        56,
+        134,
+        292,
+        276
+      ],
+      "margin": 56
+    },
+    {
+      "file": "rifle-flash-1.png",
+      "bounds": [
+        65,
+        123,
+        304,
+        282
+      ],
+      "margin": 65
+    },
+    {
+      "file": "rifle-flash-2.png",
+      "bounds": [
+        75,
+        119,
+        314,
+        279
+      ],
+      "margin": 70
+    },
+    {
+      "file": "rifle-flash-3.png",
+      "bounds": [
+        86,
+        128,
+        323,
+        264
+      ],
+      "margin": 61
+    },
+    {
+      "file": "rifle-flash-4.png",
+      "bounds": [
+        138,
+        170,
+        291,
+        213
+      ],
+      "margin": 93
+    },
+    {
+      "file": "rifle-flash-5.png",
+      "bounds": [
+        198,
+        175,
+        246,
+        189
+      ],
+      "margin": 138
+    },
+    {
+      "file": "rifle-flash-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "rifle-flash-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "shotgun-flash-0.png",
+      "bounds": [
+        38,
+        80,
+        276,
+        318
+      ],
+      "margin": 38
+    },
+    {
+      "file": "shotgun-flash-1.png",
+      "bounds": [
+        40,
+        76,
+        281,
+        317
+      ],
+      "margin": 40
+    },
+    {
+      "file": "shotgun-flash-2.png",
+      "bounds": [
+        44,
+        72,
+        286,
+        314
+      ],
+      "margin": 44
+    },
+    {
+      "file": "shotgun-flash-3.png",
+      "bounds": [
+        49,
+        70,
+        288,
+        309
+      ],
+      "margin": 49
+    },
+    {
+      "file": "shotgun-flash-4.png",
+      "bounds": [
+        96,
+        109,
+        250,
+        263
+      ],
+      "margin": 96
+    },
+    {
+      "file": "shotgun-flash-5.png",
+      "bounds": [
+        159,
+        152,
+        223,
+        201
+      ],
+      "margin": 152
+    },
+    {
+      "file": "shotgun-flash-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "shotgun-flash-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "bullet-tracer-0.png",
+      "bounds": [
+        41,
+        192,
+        249,
+        202
+      ],
+      "margin": 41
+    },
+    {
+      "file": "bullet-tracer-1.png",
+      "bounds": [
+        59,
+        190,
+        268,
+        200
+      ],
+      "margin": 59
+    },
+    {
+      "file": "bullet-tracer-2.png",
+      "bounds": [
+        77,
+        189,
+        286,
+        199
+      ],
+      "margin": 77
+    },
+    {
+      "file": "bullet-tracer-3.png",
+      "bounds": [
+        96,
+        187,
+        304,
+        197
+      ],
+      "margin": 80
+    },
+    {
+      "file": "bullet-tracer-4.png",
+      "bounds": [
+        152,
+        187,
+        284,
+        194
+      ],
+      "margin": 100
+    },
+    {
+      "file": "bullet-tracer-5.png",
+      "bounds": [
+        220,
+        187,
+        249,
+        190
+      ],
+      "margin": 135
+    },
+    {
+      "file": "bullet-tracer-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "bullet-tracer-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "bullet-impact-0.png",
+      "bounds": [
+        91,
+        105,
+        136,
+        159
+      ],
+      "margin": 91
+    },
+    {
+      "file": "bullet-impact-1.png",
+      "bounds": [
+        106,
+        86,
+        167,
+        179
+      ],
+      "margin": 86
+    },
+    {
+      "file": "bullet-impact-2.png",
+      "bounds": [
+        118,
+        68,
+        204,
+        217
+      ],
+      "margin": 68
+    },
+    {
+      "file": "bullet-impact-3.png",
+      "bounds": [
+        130,
+        54,
+        237,
+        259
+      ],
+      "margin": 54
+    },
+    {
+      "file": "bullet-impact-4.png",
+      "bounds": [
+        147,
+        47,
+        263,
+        297
+      ],
+      "margin": 47
+    },
+    {
+      "file": "bullet-impact-5.png",
+      "bounds": [
+        166,
+        49,
+        227,
+        94
+      ],
+      "margin": 49
+    },
+    {
+      "file": "bullet-impact-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "bullet-impact-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "shell-eject-0.png",
+      "bounds": [
+        103,
+        76,
+        133,
+        109
+      ],
+      "margin": 76
+    },
+    {
+      "file": "shell-eject-1.png",
+      "bounds": [
+        129,
+        68,
+        165,
+        103
+      ],
+      "margin": 68
+    },
+    {
+      "file": "shell-eject-2.png",
+      "bounds": [
+        156,
+        79,
+        196,
+        116
+      ],
+      "margin": 79
+    },
+    {
+      "file": "shell-eject-3.png",
+      "bounds": [
+        185,
+        110,
+        225,
+        146
+      ],
+      "margin": 110
+    },
+    {
+      "file": "shell-eject-4.png",
+      "bounds": [
+        220,
+        165,
+        244,
+        187
+      ],
+      "margin": 140
+    },
+    {
+      "file": "shell-eject-5.png",
+      "bounds": [
+        255,
+        237,
+        261,
+        242
+      ],
+      "margin": 123
+    },
+    {
+      "file": "shell-eject-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "shell-eject-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "arrow-trail-0.png",
+      "bounds": [
+        42,
+        198,
+        255,
+        209
+      ],
+      "margin": 42
+    },
+    {
+      "file": "arrow-trail-1.png",
+      "bounds": [
+        57,
+        194,
+        271,
+        205
+      ],
+      "margin": 57
+    },
+    {
+      "file": "arrow-trail-2.png",
+      "bounds": [
+        72,
+        190,
+        287,
+        202
+      ],
+      "margin": 72
+    },
+    {
+      "file": "arrow-trail-3.png",
+      "bounds": [
+        88,
+        185,
+        302,
+        199
+      ],
+      "margin": 82
+    },
+    {
+      "file": "arrow-trail-4.png",
+      "bounds": [
+        141,
+        183,
+        277,
+        193
+      ],
+      "margin": 107
+    },
+    {
+      "file": "arrow-trail-5.png",
+      "bounds": [
+        209,
+        181,
+        239,
+        183
+      ],
+      "margin": 145
+    },
+    {
+      "file": "arrow-trail-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "arrow-trail-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "plasma-pulse-0.png",
+      "bounds": [
+        44,
+        101,
+        266,
+        324
+      ],
+      "margin": 44
+    },
+    {
+      "file": "plasma-pulse-1.png",
+      "bounds": [
+        57,
+        93,
+        281,
+        317
+      ],
+      "margin": 57
+    },
+    {
+      "file": "plasma-pulse-2.png",
+      "bounds": [
+        71,
+        85,
+        296,
+        310
+      ],
+      "margin": 71
+    },
+    {
+      "file": "plasma-pulse-3.png",
+      "bounds": [
+        86,
+        78,
+        309,
+        301
+      ],
+      "margin": 75
+    },
+    {
+      "file": "plasma-pulse-4.png",
+      "bounds": [
+        139,
+        110,
+        284,
+        254
+      ],
+      "margin": 100
+    },
+    {
+      "file": "plasma-pulse-5.png",
+      "bounds": [
+        209,
+        157,
+        243,
+        191
+      ],
+      "margin": 141
+    },
+    {
+      "file": "plasma-pulse-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "plasma-pulse-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "muzzle-snap-0.png",
+      "bounds": [
+        45,
+        94,
+        283,
+        332
+      ],
+      "margin": 45
+    },
+    {
+      "file": "muzzle-snap-1.png",
+      "bounds": [
+        55,
+        88,
+        294,
+        329
+      ],
+      "margin": 55
+    },
+    {
+      "file": "muzzle-snap-2.png",
+      "bounds": [
+        65,
+        84,
+        305,
+        324
+      ],
+      "margin": 60
+    },
+    {
+      "file": "muzzle-snap-3.png",
+      "bounds": [
+        77,
+        79,
+        316,
+        318
+      ],
+      "margin": 66
+    },
+    {
+      "file": "muzzle-snap-4.png",
+      "bounds": [
+        130,
+        116,
+        283,
+        270
+      ],
+      "margin": 101
+    },
+    {
+      "file": "muzzle-snap-5.png",
+      "bounds": [
+        200,
+        172,
+        235,
+        206
+      ],
+      "margin": 149
+    },
+    {
+      "file": "muzzle-snap-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "muzzle-snap-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "ricochet-0.png",
+      "bounds": [
+        81,
+        207,
+        155,
+        245
+      ],
+      "margin": 81
+    },
+    {
+      "file": "ricochet-1.png",
+      "bounds": [
+        90,
+        187,
+        185,
+        248
+      ],
+      "margin": 90
+    },
+    {
+      "file": "ricochet-2.png",
+      "bounds": [
+        92,
+        167,
+        221,
+        255
+      ],
+      "margin": 92
+    },
+    {
+      "file": "ricochet-3.png",
+      "bounds": [
+        108,
+        149,
+        251,
+        260
+      ],
+      "margin": 108
+    },
+    {
+      "file": "ricochet-4.png",
+      "bounds": [
+        165,
+        134,
+        266,
+        262
+      ],
+      "margin": 118
+    },
+    {
+      "file": "ricochet-5.png",
+      "bounds": [
+        191,
+        127,
+        233,
+        160
+      ],
+      "margin": 127
+    },
+    {
+      "file": "ricochet-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "ricochet-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "shell-burst-0.png",
+      "bounds": [
+        58,
+        120,
+        145,
+        173
+      ],
+      "margin": 58
+    },
+    {
+      "file": "shell-burst-1.png",
+      "bounds": [
+        103,
+        105,
+        200,
+        201
+      ],
+      "margin": 103
+    },
+    {
+      "file": "shell-burst-2.png",
+      "bounds": [
+        126,
+        93,
+        250,
+        234
+      ],
+      "margin": 93
+    },
+    {
+      "file": "shell-burst-3.png",
+      "bounds": [
+        149,
+        91,
+        277,
+        264
+      ],
+      "margin": 91
+    },
+    {
+      "file": "shell-burst-4.png",
+      "bounds": [
+        177,
+        105,
+        278,
+        227
+      ],
+      "margin": 105
+    },
+    {
+      "file": "shell-burst-5.png",
+      "bounds": [
+        209,
+        132,
+        252,
+        185
+      ],
+      "margin": 132
+    },
+    {
+      "file": "shell-burst-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "shell-burst-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "plasma-hit-0.png",
+      "bounds": [
+        32,
+        112,
+        216,
+        296
+      ],
+      "margin": 32
+    },
+    {
+      "file": "plasma-hit-1.png",
+      "bounds": [
+        34,
+        107,
+        218,
+        291
+      ],
+      "margin": 34
+    },
+    {
+      "file": "plasma-hit-2.png",
+      "bounds": [
+        36,
+        102,
+        220,
+        286
+      ],
+      "margin": 36
+    },
+    {
+      "file": "plasma-hit-3.png",
+      "bounds": [
+        43,
+        102,
+        237,
+        278
+      ],
+      "margin": 43
+    },
+    {
+      "file": "plasma-hit-4.png",
+      "bounds": [
+        88,
+        114,
+        252,
+        288
+      ],
+      "margin": 88
+    },
+    {
+      "file": "plasma-hit-5.png",
+      "bounds": [
+        131,
+        102,
+        186,
+        182
+      ],
+      "margin": 102
+    },
+    {
+      "file": "plasma-hit-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "plasma-hit-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "footstep-dust-0.png",
+      "bounds": [
+        139,
+        182,
+        211,
+        249
+      ],
+      "margin": 135
+    },
+    {
+      "file": "footstep-dust-1.png",
+      "bounds": [
+        135,
+        162,
+        232,
+        257
+      ],
+      "margin": 127
+    },
+    {
+      "file": "footstep-dust-2.png",
+      "bounds": [
+        128,
+        142,
+        254,
+        264
+      ],
+      "margin": 120
+    },
+    {
+      "file": "footstep-dust-3.png",
+      "bounds": [
+        119,
+        120,
+        277,
+        271
+      ],
+      "margin": 107
+    },
+    {
+      "file": "footstep-dust-4.png",
+      "bounds": [
+        112,
+        108,
+        289,
+        267
+      ],
+      "margin": 95
+    },
+    {
+      "file": "footstep-dust-5.png",
+      "bounds": [
+        111,
+        98,
+        298,
+        259
+      ],
+      "margin": 86
+    },
+    {
+      "file": "footstep-dust-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "footstep-dust-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "sprint-streak-0.png",
+      "bounds": [
+        50,
+        197,
+        254,
+        215
+      ],
+      "margin": 50
+    },
+    {
+      "file": "sprint-streak-1.png",
+      "bounds": [
+        63,
+        189,
+        271,
+        212
+      ],
+      "margin": 63
+    },
+    {
+      "file": "sprint-streak-2.png",
+      "bounds": [
+        76,
+        185,
+        292,
+        209
+      ],
+      "margin": 76
+    },
+    {
+      "file": "sprint-streak-3.png",
+      "bounds": [
+        89,
+        180,
+        296,
+        206
+      ],
+      "margin": 88
+    },
+    {
+      "file": "sprint-streak-4.png",
+      "bounds": [
+        140,
+        177,
+        269,
+        201
+      ],
+      "margin": 115
+    },
+    {
+      "file": "sprint-streak-5.png",
+      "bounds": [
+        190,
+        178,
+        232,
+        186
+      ],
+      "margin": 152
+    },
+    {
+      "file": "sprint-streak-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "sprint-streak-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "jump-puff-0.png",
+      "bounds": [
+        131,
+        175,
+        203,
+        240
+      ],
+      "margin": 131
+    },
+    {
+      "file": "jump-puff-1.png",
+      "bounds": [
+        123,
+        159,
+        224,
+        250
+      ],
+      "margin": 123
+    },
+    {
+      "file": "jump-puff-2.png",
+      "bounds": [
+        112,
+        142,
+        246,
+        261
+      ],
+      "margin": 112
+    },
+    {
+      "file": "jump-puff-3.png",
+      "bounds": [
+        97,
+        123,
+        268,
+        271
+      ],
+      "margin": 97
+    },
+    {
+      "file": "jump-puff-4.png",
+      "bounds": [
+        87,
+        115,
+        280,
+        270
+      ],
+      "margin": 87
+    },
+    {
+      "file": "jump-puff-5.png",
+      "bounds": [
+        83,
+        108,
+        288,
+        266
+      ],
+      "margin": 83
+    },
+    {
+      "file": "jump-puff-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "jump-puff-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "landing-dust-0.png",
+      "bounds": [
+        90,
+        175,
+        223,
+        230
+      ],
+      "margin": 90
+    },
+    {
+      "file": "landing-dust-1.png",
+      "bounds": [
+        90,
+        157,
+        223,
+        240
+      ],
+      "margin": 90
+    },
+    {
+      "file": "landing-dust-2.png",
+      "bounds": [
+        115,
+        140,
+        237,
+        249
+      ],
+      "margin": 115
+    },
+    {
+      "file": "landing-dust-3.png",
+      "bounds": [
+        102,
+        126,
+        260,
+        258
+      ],
+      "margin": 102
+    },
+    {
+      "file": "landing-dust-4.png",
+      "bounds": [
+        93,
+        121,
+        273,
+        259
+      ],
+      "margin": 93
+    },
+    {
+      "file": "landing-dust-5.png",
+      "bounds": [
+        89,
+        130,
+        267,
+        258
+      ],
+      "margin": 89
+    },
+    {
+      "file": "landing-dust-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "landing-dust-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "double-jump-ring-0.png",
+      "bounds": [
+        34,
+        175,
+        347,
+        235
+      ],
+      "margin": 34
+    },
+    {
+      "file": "double-jump-ring-1.png",
+      "bounds": [
+        33,
+        173,
+        349,
+        232
+      ],
+      "margin": 33
+    },
+    {
+      "file": "double-jump-ring-2.png",
+      "bounds": [
+        34,
+        171,
+        350,
+        229
+      ],
+      "margin": 34
+    },
+    {
+      "file": "double-jump-ring-3.png",
+      "bounds": [
+        35,
+        169,
+        349,
+        225
+      ],
+      "margin": 35
+    },
+    {
+      "file": "double-jump-ring-4.png",
+      "bounds": [
+        93,
+        174,
+        292,
+        208
+      ],
+      "margin": 92
+    },
+    {
+      "file": "double-jump-ring-5.png",
+      "bounds": [
+        170,
+        182,
+        216,
+        190
+      ],
+      "margin": 168
+    },
+    {
+      "file": "double-jump-ring-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "double-jump-ring-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "slide-dust-0.png",
+      "bounds": [
+        111,
+        176,
+        168,
+        241
+      ],
+      "margin": 111
+    },
+    {
+      "file": "slide-dust-1.png",
+      "bounds": [
+        124,
+        156,
+        194,
+        250
+      ],
+      "margin": 124
+    },
+    {
+      "file": "slide-dust-2.png",
+      "bounds": [
+        130,
+        135,
+        231,
+        258
+      ],
+      "margin": 126
+    },
+    {
+      "file": "slide-dust-3.png",
+      "bounds": [
+        136,
+        118,
+        264,
+        266
+      ],
+      "margin": 118
+    },
+    {
+      "file": "slide-dust-4.png",
+      "bounds": [
+        150,
+        112,
+        289,
+        264
+      ],
+      "margin": 95
+    },
+    {
+      "file": "slide-dust-5.png",
+      "bounds": [
+        166,
+        108,
+        281,
+        260
+      ],
+      "margin": 103
+    },
+    {
+      "file": "slide-dust-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "slide-dust-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "wall-scrape-0.png",
+      "bounds": [
+        60,
+        137,
+        169,
+        171
+      ],
+      "margin": 60
+    },
+    {
+      "file": "wall-scrape-1.png",
+      "bounds": [
+        90,
+        119,
+        199,
+        196
+      ],
+      "margin": 90
+    },
+    {
+      "file": "wall-scrape-2.png",
+      "bounds": [
+        113,
+        106,
+        237,
+        217
+      ],
+      "margin": 106
+    },
+    {
+      "file": "wall-scrape-3.png",
+      "bounds": [
+        136,
+        98,
+        267,
+        238
+      ],
+      "margin": 98
+    },
+    {
+      "file": "wall-scrape-4.png",
+      "bounds": [
+        166,
+        97,
+        273,
+        255
+      ],
+      "margin": 97
+    },
+    {
+      "file": "wall-scrape-5.png",
+      "bounds": [
+        204,
+        108,
+        242,
+        143
+      ],
+      "margin": 108
+    },
+    {
+      "file": "wall-scrape-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "wall-scrape-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "dash-ring-0.png",
+      "bounds": [
+        164,
+        179,
+        293,
+        212
+      ],
+      "margin": 91
+    },
+    {
+      "file": "dash-ring-1.png",
+      "bounds": [
+        171,
+        177,
+        302,
+        210
+      ],
+      "margin": 82
+    },
+    {
+      "file": "dash-ring-2.png",
+      "bounds": [
+        177,
+        176,
+        311,
+        208
+      ],
+      "margin": 73
+    },
+    {
+      "file": "dash-ring-3.png",
+      "bounds": [
+        185,
+        175,
+        319,
+        207
+      ],
+      "margin": 65
+    },
+    {
+      "file": "dash-ring-4.png",
+      "bounds": [
+        197,
+        179,
+        284,
+        200
+      ],
+      "margin": 100
+    },
+    {
+      "file": "dash-ring-5.png",
+      "bounds": [
+        215,
+        186,
+        231,
+        191
+      ],
+      "margin": 153
+    },
+    {
+      "file": "dash-ring-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "dash-ring-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "vault-dust-0.png",
+      "bounds": [
+        38,
+        182,
+        285,
+        230
+      ],
+      "margin": 38
+    },
+    {
+      "file": "vault-dust-1.png",
+      "bounds": [
+        39,
+        171,
+        286,
+        228
+      ],
+      "margin": 39
+    },
+    {
+      "file": "vault-dust-2.png",
+      "bounds": [
+        40,
+        160,
+        286,
+        233
+      ],
+      "margin": 40
+    },
+    {
+      "file": "vault-dust-3.png",
+      "bounds": [
+        111,
+        148,
+        236,
+        237
+      ],
+      "margin": 111
+    },
+    {
+      "file": "vault-dust-4.png",
+      "bounds": [
+        145,
+        142,
+        244,
+        236
+      ],
+      "margin": 140
+    },
+    {
+      "file": "vault-dust-5.png",
+      "bounds": [
+        146,
+        138,
+        251,
+        232
+      ],
+      "margin": 133
+    },
+    {
+      "file": "vault-dust-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "vault-dust-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "wall-kick-0.png",
+      "bounds": [
+        97,
+        200,
+        183,
+        221
+      ],
+      "margin": 97
+    },
+    {
+      "file": "wall-kick-1.png",
+      "bounds": [
+        120,
+        131,
+        231,
+        290
+      ],
+      "margin": 94
+    },
+    {
+      "file": "wall-kick-2.png",
+      "bounds": [
+        136,
+        128,
+        237,
+        287
+      ],
+      "margin": 97
+    },
+    {
+      "file": "wall-kick-3.png",
+      "bounds": [
+        154,
+        134,
+        248,
+        274
+      ],
+      "margin": 110
+    },
+    {
+      "file": "wall-kick-4.png",
+      "bounds": [
+        163,
+        163,
+        250,
+        222
+      ],
+      "margin": 134
+    },
+    {
+      "file": "wall-kick-5.png",
+      "bounds": [
+        211,
+        162,
+        229,
+        179
+      ],
+      "margin": 155
+    },
+    {
+      "file": "wall-kick-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "wall-kick-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "grind-sparks-0.png",
+      "bounds": [
+        65,
+        187,
+        136,
+        213
+      ],
+      "margin": 65
+    },
+    {
+      "file": "grind-sparks-1.png",
+      "bounds": [
+        92,
+        165,
+        180,
+        226
+      ],
+      "margin": 92
+    },
+    {
+      "file": "grind-sparks-2.png",
+      "bounds": [
+        116,
+        146,
+        221,
+        240
+      ],
+      "margin": 116
+    },
+    {
+      "file": "grind-sparks-3.png",
+      "bounds": [
+        138,
+        130,
+        255,
+        255
+      ],
+      "margin": 129
+    },
+    {
+      "file": "grind-sparks-4.png",
+      "bounds": [
+        162,
+        121,
+        278,
+        268
+      ],
+      "margin": 106
+    },
+    {
+      "file": "grind-sparks-5.png",
+      "bounds": [
+        195,
+        144,
+        223,
+        168
+      ],
+      "margin": 144
+    },
+    {
+      "file": "grind-sparks-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "grind-sparks-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "zipline-streak-0.png",
+      "bounds": [
+        43,
+        195,
+        210,
+        208
+      ],
+      "margin": 43
+    },
+    {
+      "file": "zipline-streak-1.png",
+      "bounds": [
+        64,
+        187,
+        231,
+        214
+      ],
+      "margin": 64
+    },
+    {
+      "file": "zipline-streak-2.png",
+      "bounds": [
+        81,
+        181,
+        251,
+        218
+      ],
+      "margin": 81
+    },
+    {
+      "file": "zipline-streak-3.png",
+      "bounds": [
+        105,
+        175,
+        272,
+        221
+      ],
+      "margin": 105
+    },
+    {
+      "file": "zipline-streak-4.png",
+      "bounds": [
+        152,
+        170,
+        262,
+        223
+      ],
+      "margin": 122
+    },
+    {
+      "file": "zipline-streak-5.png",
+      "bounds": [
+        203,
+        168,
+        239,
+        176
+      ],
+      "margin": 145
+    },
+    {
+      "file": "zipline-streak-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "zipline-streak-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "hard-stop-0.png",
+      "bounds": [
+        144,
+        184,
+        288,
+        225
+      ],
+      "margin": 96
+    },
+    {
+      "file": "hard-stop-1.png",
+      "bounds": [
+        152,
+        170,
+        297,
+        230
+      ],
+      "margin": 87
+    },
+    {
+      "file": "hard-stop-2.png",
+      "bounds": [
+        159,
+        157,
+        306,
+        235
+      ],
+      "margin": 78
+    },
+    {
+      "file": "hard-stop-3.png",
+      "bounds": [
+        166,
+        145,
+        253,
+        237
+      ],
+      "margin": 131
+    },
+    {
+      "file": "hard-stop-4.png",
+      "bounds": [
+        170,
+        140,
+        252,
+        231
+      ],
+      "margin": 132
+    },
+    {
+      "file": "hard-stop-5.png",
+      "bounds": [
+        178,
+        152,
+        237,
+        217
+      ],
+      "margin": 147
+    },
+    {
+      "file": "hard-stop-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "hard-stop-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "crate-break-0.png",
+      "bounds": [
+        145,
+        100,
+        177,
+        137
+      ],
+      "margin": 100
+    },
+    {
+      "file": "crate-break-1.png",
+      "bounds": [
+        137,
+        74,
+        196,
+        168
+      ],
+      "margin": 74
+    },
+    {
+      "file": "crate-break-2.png",
+      "bounds": [
+        128,
+        53,
+        215,
+        205
+      ],
+      "margin": 53
+    },
+    {
+      "file": "crate-break-3.png",
+      "bounds": [
+        120,
+        42,
+        239,
+        246
+      ],
+      "margin": 42
+    },
+    {
+      "file": "crate-break-4.png",
+      "bounds": [
+        117,
+        44,
+        257,
+        289
+      ],
+      "margin": 44
+    },
+    {
+      "file": "crate-break-5.png",
+      "bounds": [
+        147,
+        131,
+        241,
+        226
+      ],
+      "margin": 131
+    },
+    {
+      "file": "crate-break-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "crate-break-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "metal-sparks-0.png",
+      "bounds": [
+        153,
+        158,
+        175,
+        197
+      ],
+      "margin": 153
+    },
+    {
+      "file": "metal-sparks-1.png",
+      "bounds": [
+        141,
+        128,
+        196,
+        223
+      ],
+      "margin": 128
+    },
+    {
+      "file": "metal-sparks-2.png",
+      "bounds": [
+        132,
+        100,
+        218,
+        250
+      ],
+      "margin": 100
+    },
+    {
+      "file": "metal-sparks-3.png",
+      "bounds": [
+        123,
+        76,
+        240,
+        277
+      ],
+      "margin": 76
+    },
+    {
+      "file": "metal-sparks-4.png",
+      "bounds": [
+        117,
+        59,
+        257,
+        302
+      ],
+      "margin": 59
+    },
+    {
+      "file": "metal-sparks-5.png",
+      "bounds": [
+        147,
+        124,
+        211,
+        138
+      ],
+      "margin": 124
+    },
+    {
+      "file": "metal-sparks-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "metal-sparks-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "concrete-chips-0.png",
+      "bounds": [
+        145,
+        72,
+        188,
+        127
+      ],
+      "margin": 72
+    },
+    {
+      "file": "concrete-chips-1.png",
+      "bounds": [
+        126,
+        61,
+        205,
+        160
+      ],
+      "margin": 61
+    },
+    {
+      "file": "concrete-chips-2.png",
+      "bounds": [
+        115,
+        51,
+        224,
+        198
+      ],
+      "margin": 51
+    },
+    {
+      "file": "concrete-chips-3.png",
+      "bounds": [
+        107,
+        50,
+        243,
+        236
+      ],
+      "margin": 50
+    },
+    {
+      "file": "concrete-chips-4.png",
+      "bounds": [
+        108,
+        69,
+        261,
+        273
+      ],
+      "margin": 69
+    },
+    {
+      "file": "concrete-chips-5.png",
+      "bounds": [
+        144,
+        95,
+        215,
+        119
+      ],
+      "margin": 95
+    },
+    {
+      "file": "concrete-chips-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "concrete-chips-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "steam-vent-0.png",
+      "bounds": [
+        129,
+        240,
+        168,
+        290
+      ],
+      "margin": 94
+    },
+    {
+      "file": "steam-vent-1.png",
+      "bounds": [
+        135,
+        215,
+        195,
+        292
+      ],
+      "margin": 92
+    },
+    {
+      "file": "steam-vent-2.png",
+      "bounds": [
+        138,
+        186,
+        222,
+        290
+      ],
+      "margin": 94
+    },
+    {
+      "file": "steam-vent-3.png",
+      "bounds": [
+        142,
+        153,
+        247,
+        280
+      ],
+      "margin": 104
+    },
+    {
+      "file": "steam-vent-4.png",
+      "bounds": [
+        151,
+        123,
+        267,
+        259
+      ],
+      "margin": 117
+    },
+    {
+      "file": "steam-vent-5.png",
+      "bounds": [
+        162,
+        90,
+        244,
+        200
+      ],
+      "margin": 90
+    },
+    {
+      "file": "steam-vent-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "steam-vent-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "smoke-puff-0.png",
+      "bounds": [
+        141,
+        222,
+        196,
+        285
+      ],
+      "margin": 99
+    },
+    {
+      "file": "smoke-puff-1.png",
+      "bounds": [
+        142,
+        195,
+        213,
+        295
+      ],
+      "margin": 89
+    },
+    {
+      "file": "smoke-puff-2.png",
+      "bounds": [
+        138,
+        165,
+        236,
+        303
+      ],
+      "margin": 81
+    },
+    {
+      "file": "smoke-puff-3.png",
+      "bounds": [
+        133,
+        134,
+        256,
+        305
+      ],
+      "margin": 79
+    },
+    {
+      "file": "smoke-puff-4.png",
+      "bounds": [
+        133,
+        109,
+        269,
+        296
+      ],
+      "margin": 88
+    },
+    {
+      "file": "smoke-puff-5.png",
+      "bounds": [
+        136,
+        85,
+        264,
+        211
+      ],
+      "margin": 85
+    },
+    {
+      "file": "smoke-puff-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "smoke-puff-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "explosion-0.png",
+      "bounds": [
+        107,
+        93,
+        285,
+        270
+      ],
+      "margin": 93
+    },
+    {
+      "file": "explosion-1.png",
+      "bounds": [
+        107,
+        88,
+        285,
+        265
+      ],
+      "margin": 88
+    },
+    {
+      "file": "explosion-2.png",
+      "bounds": [
+        118,
+        109,
+        268,
+        290
+      ],
+      "margin": 94
+    },
+    {
+      "file": "explosion-3.png",
+      "bounds": [
+        145,
+        88,
+        249,
+        231
+      ],
+      "margin": 88
+    },
+    {
+      "file": "explosion-4.png",
+      "bounds": [
+        172,
+        63,
+        258,
+        238
+      ],
+      "margin": 63
+    },
+    {
+      "file": "explosion-5.png",
+      "bounds": [
+        174,
+        85,
+        266,
+        205
+      ],
+      "margin": 85
+    },
+    {
+      "file": "explosion-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "explosion-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "welding-arc-0.png",
+      "bounds": [
+        119,
+        197,
+        165,
+        232
+      ],
+      "margin": 119
+    },
+    {
+      "file": "welding-arc-1.png",
+      "bounds": [
+        126,
+        164,
+        190,
+        246
+      ],
+      "margin": 126
+    },
+    {
+      "file": "welding-arc-2.png",
+      "bounds": [
+        131,
+        131,
+        213,
+        264
+      ],
+      "margin": 120
+    },
+    {
+      "file": "welding-arc-3.png",
+      "bounds": [
+        131,
+        101,
+        224,
+        287
+      ],
+      "margin": 97
+    },
+    {
+      "file": "welding-arc-4.png",
+      "bounds": [
+        132,
+        75,
+        236,
+        308
+      ],
+      "margin": 75
+    },
+    {
+      "file": "welding-arc-5.png",
+      "bounds": [
+        183,
+        142,
+        235,
+        238
+      ],
+      "margin": 142
+    },
+    {
+      "file": "welding-arc-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "welding-arc-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "steam-burst-0.png",
+      "bounds": [
+        89,
+        189,
+        197,
+        298
+      ],
+      "margin": 86
+    },
+    {
+      "file": "steam-burst-1.png",
+      "bounds": [
+        90,
+        181,
+        199,
+        290
+      ],
+      "margin": 90
+    },
+    {
+      "file": "steam-burst-2.png",
+      "bounds": [
+        117,
+        151,
+        228,
+        299
+      ],
+      "margin": 85
+    },
+    {
+      "file": "steam-burst-3.png",
+      "bounds": [
+        127,
+        119,
+        259,
+        308
+      ],
+      "margin": 76
+    },
+    {
+      "file": "steam-burst-4.png",
+      "bounds": [
+        130,
+        93,
+        281,
+        316
+      ],
+      "margin": 68
+    },
+    {
+      "file": "steam-burst-5.png",
+      "bounds": [
+        137,
+        68,
+        268,
+        187
+      ],
+      "margin": 68
+    },
+    {
+      "file": "steam-burst-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "steam-burst-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "electric-arc-0.png",
+      "bounds": [
+        73,
+        192,
+        247,
+        268
+      ],
+      "margin": 73
+    },
+    {
+      "file": "electric-arc-1.png",
+      "bounds": [
+        84,
+        171,
+        256,
+        259
+      ],
+      "margin": 84
+    },
+    {
+      "file": "electric-arc-2.png",
+      "bounds": [
+        101,
+        160,
+        275,
+        258
+      ],
+      "margin": 101
+    },
+    {
+      "file": "electric-arc-3.png",
+      "bounds": [
+        116,
+        145,
+        281,
+        254
+      ],
+      "margin": 103
+    },
+    {
+      "file": "electric-arc-4.png",
+      "bounds": [
+        158,
+        141,
+        263,
+        238
+      ],
+      "margin": 121
+    },
+    {
+      "file": "electric-arc-5.png",
+      "bounds": [
+        193,
+        148,
+        232,
+        181
+      ],
+      "margin": 148
+    },
+    {
+      "file": "electric-arc-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "electric-arc-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "pipe-leak-0.png",
+      "bounds": [
+        105,
+        176,
+        169,
+        238
+      ],
+      "margin": 105
+    },
+    {
+      "file": "pipe-leak-1.png",
+      "bounds": [
+        122,
+        147,
+        216,
+        248
+      ],
+      "margin": 122
+    },
+    {
+      "file": "pipe-leak-2.png",
+      "bounds": [
+        132,
+        120,
+        246,
+        262
+      ],
+      "margin": 120
+    },
+    {
+      "file": "pipe-leak-3.png",
+      "bounds": [
+        142,
+        96,
+        262,
+        280
+      ],
+      "margin": 96
+    },
+    {
+      "file": "pipe-leak-4.png",
+      "bounds": [
+        155,
+        83,
+        292,
+        296
+      ],
+      "margin": 83
+    },
+    {
+      "file": "pipe-leak-5.png",
+      "bounds": [
+        170,
+        76,
+        277,
+        201
+      ],
+      "margin": 76
+    },
+    {
+      "file": "pipe-leak-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "pipe-leak-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "hazard-flare-0.png",
+      "bounds": [
+        70,
+        95,
+        317,
+        343
+      ],
+      "margin": 41
+    },
+    {
+      "file": "hazard-flare-1.png",
+      "bounds": [
+        72,
+        84,
+        321,
+        335
+      ],
+      "margin": 49
+    },
+    {
+      "file": "hazard-flare-2.png",
+      "bounds": [
+        73,
+        73,
+        325,
+        325
+      ],
+      "margin": 59
+    },
+    {
+      "file": "hazard-flare-3.png",
+      "bounds": [
+        77,
+        65,
+        327,
+        313
+      ],
+      "margin": 57
+    },
+    {
+      "file": "hazard-flare-4.png",
+      "bounds": [
+        124,
+        98,
+        285,
+        260
+      ],
+      "margin": 98
+    },
+    {
+      "file": "hazard-flare-5.png",
+      "bounds": [
+        190,
+        151,
+        225,
+        187
+      ],
+      "margin": 151
+    },
+    {
+      "file": "hazard-flare-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "hazard-flare-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "oil-splash-0.png",
+      "bounds": [
+        119,
+        160,
+        185,
+        233
+      ],
+      "margin": 119
+    },
+    {
+      "file": "oil-splash-1.png",
+      "bounds": [
+        129,
+        143,
+        204,
+        250
+      ],
+      "margin": 129
+    },
+    {
+      "file": "oil-splash-2.png",
+      "bounds": [
+        133,
+        115,
+        222,
+        267
+      ],
+      "margin": 115
+    },
+    {
+      "file": "oil-splash-3.png",
+      "bounds": [
+        136,
+        94,
+        233,
+        279
+      ],
+      "margin": 94
+    },
+    {
+      "file": "oil-splash-4.png",
+      "bounds": [
+        146,
+        116,
+        236,
+        286
+      ],
+      "margin": 98
+    },
+    {
+      "file": "oil-splash-5.png",
+      "bounds": [
+        163,
+        117,
+        214,
+        147
+      ],
+      "margin": 117
+    },
+    {
+      "file": "oil-splash-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "oil-splash-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "pickup-sparkle-0.png",
+      "bounds": [
+        106,
+        230,
+        196,
+        317
+      ],
+      "margin": 67
+    },
+    {
+      "file": "pickup-sparkle-1.png",
+      "bounds": [
+        116,
+        206,
+        210,
+        323
+      ],
+      "margin": 61
+    },
+    {
+      "file": "pickup-sparkle-2.png",
+      "bounds": [
+        117,
+        181,
+        230,
+        323
+      ],
+      "margin": 61
+    },
+    {
+      "file": "pickup-sparkle-3.png",
+      "bounds": [
+        117,
+        154,
+        242,
+        316
+      ],
+      "margin": 68
+    },
+    {
+      "file": "pickup-sparkle-4.png",
+      "bounds": [
+        127,
+        133,
+        238,
+        286
+      ],
+      "margin": 98
+    },
+    {
+      "file": "pickup-sparkle-5.png",
+      "bounds": [
+        146,
+        121,
+        210,
+        145
+      ],
+      "margin": 121
+    },
+    {
+      "file": "pickup-sparkle-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "pickup-sparkle-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "health-pulse-0.png",
+      "bounds": [
+        51,
+        188,
+        330,
+        246
+      ],
+      "margin": 51
+    },
+    {
+      "file": "health-pulse-1.png",
+      "bounds": [
+        52,
+        183,
+        334,
+        240
+      ],
+      "margin": 50
+    },
+    {
+      "file": "health-pulse-2.png",
+      "bounds": [
+        54,
+        178,
+        336,
+        232
+      ],
+      "margin": 48
+    },
+    {
+      "file": "health-pulse-3.png",
+      "bounds": [
+        56,
+        173,
+        337,
+        223
+      ],
+      "margin": 47
+    },
+    {
+      "file": "health-pulse-4.png",
+      "bounds": [
+        109,
+        172,
+        288,
+        203
+      ],
+      "margin": 96
+    },
+    {
+      "file": "health-pulse-5.png",
+      "bounds": [
+        180,
+        174,
+        221,
+        181
+      ],
+      "margin": 163
+    },
+    {
+      "file": "health-pulse-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "health-pulse-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "shield-0.png",
+      "bounds": [
+        51,
+        68,
+        332,
+        349
+      ],
+      "margin": 35
+    },
+    {
+      "file": "shield-1.png",
+      "bounds": [
+        50,
+        60,
+        333,
+        344
+      ],
+      "margin": 40
+    },
+    {
+      "file": "shield-2.png",
+      "bounds": [
+        50,
+        54,
+        334,
+        338
+      ],
+      "margin": 46
+    },
+    {
+      "file": "shield-3.png",
+      "bounds": [
+        51,
+        48,
+        333,
+        331
+      ],
+      "margin": 48
+    },
+    {
+      "file": "shield-4.png",
+      "bounds": [
+        101,
+        92,
+        284,
+        275
+      ],
+      "margin": 92
+    },
+    {
+      "file": "shield-5.png",
+      "bounds": [
+        171,
+        156,
+        214,
+        198
+      ],
+      "margin": 156
+    },
+    {
+      "file": "shield-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "shield-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "stun-stars-0.png",
+      "bounds": [
+        153,
+        203,
+        285,
+        272
+      ],
+      "margin": 99
+    },
+    {
+      "file": "stun-stars-1.png",
+      "bounds": [
+        195,
+        192,
+        319,
+        268
+      ],
+      "margin": 65
+    },
+    {
+      "file": "stun-stars-2.png",
+      "bounds": [
+        234,
+        180,
+        319,
+        262
+      ],
+      "margin": 65
+    },
+    {
+      "file": "stun-stars-3.png",
+      "bounds": [
+        176,
+        160,
+        309,
+        248
+      ],
+      "margin": 75
+    },
+    {
+      "file": "stun-stars-4.png",
+      "bounds": [
+        117,
+        150,
+        264,
+        207
+      ],
+      "margin": 117
+    },
+    {
+      "file": "stun-stars-5.png",
+      "bounds": [
+        94,
+        139,
+        120,
+        155
+      ],
+      "margin": 94
+    },
+    {
+      "file": "stun-stars-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "stun-stars-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "checkpoint-0.png",
+      "bounds": [
+        38,
+        199,
+        269,
+        250
+      ],
+      "margin": 38
+    },
+    {
+      "file": "checkpoint-1.png",
+      "bounds": [
+        39,
+        195,
+        270,
+        244
+      ],
+      "margin": 39
+    },
+    {
+      "file": "checkpoint-2.png",
+      "bounds": [
+        39,
+        190,
+        271,
+        238
+      ],
+      "margin": 39
+    },
+    {
+      "file": "checkpoint-3.png",
+      "bounds": [
+        46,
+        187,
+        266,
+        230
+      ],
+      "margin": 46
+    },
+    {
+      "file": "checkpoint-4.png",
+      "bounds": [
+        102,
+        178,
+        231,
+        211
+      ],
+      "margin": 102
+    },
+    {
+      "file": "checkpoint-5.png",
+      "bounds": [
+        155,
+        180,
+        204,
+        196
+      ],
+      "margin": 155
+    },
+    {
+      "file": "checkpoint-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "checkpoint-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "spawn-ring-0.png",
+      "bounds": [
+        35,
+        182,
+        323,
+        240
+      ],
+      "margin": 35
+    },
+    {
+      "file": "spawn-ring-1.png",
+      "bounds": [
+        34,
+        179,
+        325,
+        236
+      ],
+      "margin": 34
+    },
+    {
+      "file": "spawn-ring-2.png",
+      "bounds": [
+        34,
+        177,
+        325,
+        232
+      ],
+      "margin": 34
+    },
+    {
+      "file": "spawn-ring-3.png",
+      "bounds": [
+        36,
+        174,
+        324,
+        228
+      ],
+      "margin": 36
+    },
+    {
+      "file": "spawn-ring-4.png",
+      "bounds": [
+        88,
+        178,
+        272,
+        211
+      ],
+      "margin": 88
+    },
+    {
+      "file": "spawn-ring-5.png",
+      "bounds": [
+        160,
+        185,
+        202,
+        193
+      ],
+      "margin": 160
+    },
+    {
+      "file": "spawn-ring-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "spawn-ring-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "combo-rise-0.png",
+      "bounds": [
+        176,
+        199,
+        241,
+        330
+      ],
+      "margin": 54
+    },
+    {
+      "file": "combo-rise-1.png",
+      "bounds": [
+        175,
+        176,
+        240,
+        310
+      ],
+      "margin": 74
+    },
+    {
+      "file": "combo-rise-2.png",
+      "bounds": [
+        176,
+        151,
+        236,
+        288
+      ],
+      "margin": 96
+    },
+    {
+      "file": "combo-rise-3.png",
+      "bounds": [
+        186,
+        123,
+        214,
+        262
+      ],
+      "margin": 122
+    },
+    {
+      "file": "combo-rise-4.png",
+      "bounds": [
+        177,
+        118,
+        204,
+        216
+      ],
+      "margin": 118
+    },
+    {
+      "file": "combo-rise-5.png",
+      "bounds": [
+        171,
+        122,
+        183,
+        162
+      ],
+      "margin": 122
+    },
+    {
+      "file": "combo-rise-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "combo-rise-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "damage-pips-0.png",
+      "bounds": [
+        84,
+        187,
+        176,
+        258
+      ],
+      "margin": 84
+    },
+    {
+      "file": "damage-pips-1.png",
+      "bounds": [
+        112,
+        166,
+        217,
+        265
+      ],
+      "margin": 112
+    },
+    {
+      "file": "damage-pips-2.png",
+      "bounds": [
+        131,
+        148,
+        255,
+        279
+      ],
+      "margin": 105
+    },
+    {
+      "file": "damage-pips-3.png",
+      "bounds": [
+        146,
+        131,
+        267,
+        282
+      ],
+      "margin": 102
+    },
+    {
+      "file": "damage-pips-4.png",
+      "bounds": [
+        166,
+        118,
+        241,
+        226
+      ],
+      "margin": 118
+    },
+    {
+      "file": "damage-pips-5.png",
+      "bounds": [
+        194,
+        114,
+        227,
+        145
+      ],
+      "margin": 114
+    },
+    {
+      "file": "damage-pips-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "damage-pips-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "focus-pulse-0.png",
+      "bounds": [
+        64,
+        85,
+        326,
+        347
+      ],
+      "margin": 37
+    },
+    {
+      "file": "focus-pulse-1.png",
+      "bounds": [
+        63,
+        75,
+        328,
+        340
+      ],
+      "margin": 44
+    },
+    {
+      "file": "focus-pulse-2.png",
+      "bounds": [
+        64,
+        65,
+        330,
+        331
+      ],
+      "margin": 53
+    },
+    {
+      "file": "focus-pulse-3.png",
+      "bounds": [
+        66,
+        57,
+        330,
+        321
+      ],
+      "margin": 54
+    },
+    {
+      "file": "focus-pulse-4.png",
+      "bounds": [
+        113,
+        95,
+        284,
+        265
+      ],
+      "margin": 95
+    },
+    {
+      "file": "focus-pulse-5.png",
+      "bounds": [
+        180,
+        151,
+        220,
+        191
+      ],
+      "margin": 151
+    },
+    {
+      "file": "focus-pulse-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "focus-pulse-7.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "danger-pulse-0.png",
+      "bounds": [
+        39,
+        85,
+        285,
+        331
+      ],
+      "margin": 39
+    },
+    {
+      "file": "danger-pulse-1.png",
+      "bounds": [
+        39,
+        76,
+        288,
+        325
+      ],
+      "margin": 39
+    },
+    {
+      "file": "danger-pulse-2.png",
+      "bounds": [
+        40,
+        68,
+        289,
+        317
+      ],
+      "margin": 40
+    },
+    {
+      "file": "danger-pulse-3.png",
+      "bounds": [
+        42,
+        61,
+        289,
+        308
+      ],
+      "margin": 42
+    },
+    {
+      "file": "danger-pulse-4.png",
+      "bounds": [
+        87,
+        97,
+        247,
+        257
+      ],
+      "margin": 87
+    },
+    {
+      "file": "danger-pulse-5.png",
+      "bounds": [
+        149,
+        150,
+        186,
+        187
+      ],
+      "margin": 149
+    },
+    {
+      "file": "danger-pulse-6.png",
+      "bounds": null,
+      "margin": null
+    },
+    {
+      "file": "danger-pulse-7.png",
+      "bounds": null,
+      "margin": null
+    }
+  ]
+}

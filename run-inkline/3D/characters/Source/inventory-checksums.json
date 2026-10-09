@@ -1,12 +1,12 @@
 {
   "pack": "run-inkline",
-  "generatedAt": "2026-09-29T01:21:35.214474+00:00",
-  "totalFiles": 915,
-  "totalBytes": 86759292,
+  "generatedAt": "2026-10-09T21:28:52.904Z",
+  "totalFiles": 1111,
+  "totalBytes": 110292288,
   "files": {
     "2D/misc/License.txt": {
-      "bytes": 1279,
-      "sha256": "370fc07dfb7d5d2220432d0afe8e503ab693e2009286c21da48949b5ff567e14"
+      "bytes": 17746,
+      "sha256": "e42999697b4f0e063752c308d0cc593bb079eb1f0d3889497efd0cc678221e9a"
     },
     "2D/misc/Readme.md": {
       "bytes": 262,
@@ -21,8 +21,8 @@
       "sha256": "c6da1fd3c19beb76e63dba730de45b722d4a301f5672505d65e0eaa91f537e85"
     },
     "2D/misc/blade-contact.png": {
-      "bytes": 13569,
-      "sha256": "a75043c6b46f609397a4ec77af537906f561be4c0825ea4f8a7c3cc1a2a88e99"
+      "bytes": 13457,
+      "sha256": "552ed104b2c3631bf861e5441635f71a75c7167d786db75923fd1c479c50e786"
     },
     "2D/misc/block-ring.png": {
       "bytes": 18884,
@@ -41,32 +41,32 @@
       "sha256": "521f591a5fc6bc40a6bf03adef66c37c17e1b23d9b53225b1f86f700b5d3ac13"
     },
     "2D/misc/combo-rise.png": {
-      "bytes": 10495,
-      "sha256": "dbf90b589971847990ba76feac8439eb4224fd43589e148e68ea82ce9d4ac6cb"
+      "bytes": 10393,
+      "sha256": "dae078e5a331b8ce9777d396ac16e0a07ff6079221cba90e2a3c5f6afac0b430"
     },
     "2D/misc/concrete-chips.png": {
       "bytes": 11930,
       "sha256": "336feb4a031a980a9960be71863ff380230200dec5a6cc7bfd92695c36a0ae5f"
     },
     "2D/misc/counter-flash.png": {
-      "bytes": 21041,
-      "sha256": "51e6949b1e7b0541450acb8019636249f83421eb7f5ddf05f6e74207d6b59ae6"
+      "bytes": 20940,
+      "sha256": "f9e4f7fce1bf4ba33e0679d50379564f46e726b9332d738633a2e77717327f68"
     },
     "2D/misc/crate-break.png": {
-      "bytes": 19610,
-      "sha256": "5fea014ba332b7a88afadc1e4dfa39fba6677acd76a569867d796aafef171a78"
+      "bytes": 19609,
+      "sha256": "df7df21f52a0acc661b01302893a72c17f63747e0b9b9ac36cb95ab6fdafe328"
     },
     "2D/misc/critical-hit.png": {
-      "bytes": 15511,
-      "sha256": "3b24fc4299f8097a81ed237030080279d0cc5af93df8cc1250f6eca230f6aa51"
+      "bytes": 15569,
+      "sha256": "944755e38490162032229e1ad7e55729eda412c35e01ebc60dfe922dcaa57af4"
     },
     "2D/misc/damage-pips.png": {
-      "bytes": 10172,
-      "sha256": "637b45538d56262ba06282ea94ca6fc7e85a3135aee6a8cc98962610b8819c47"
+      "bytes": 10065,
+      "sha256": "e8c36635393f82f5002ec1a54f1f2af42a4e2a514c44932fc9ddfe22f29d4a4e"
     },
     "2D/misc/danger-pulse.png": {
-      "bytes": 17568,
-      "sha256": "b4c78544b53a5a1016c14db86b00e16fe52cf2780efd61db40b8e1f78b9e8ce7"
+      "bytes": 17389,
+      "sha256": "5c0f865c93e1f87a6cff5285486ac48e14be151d7bcdf8ec882685d2979d2d3d"
     },
     "2D/misc/dash-ring.png": {
       "bytes": 6825,
@@ -85,24 +85,24 @@
       "sha256": "0cd76cb0470fdc1c94ea2a65af0e2926573703b8af3603acd531f56ef769feb7"
     },
     "2D/misc/electric-arc.png": {
-      "bytes": 12384,
-      "sha256": "bd63e39aac9e99243e7d5102ac1ec3b443b033e9554479fc816949b6152c2cdc"
+      "bytes": 12323,
+      "sha256": "afb709ec0a33cb588d497a430b18792445e44dbf7eb2010a930494c84ecaca91"
     },
     "2D/misc/explosion.png": {
-      "bytes": 35973,
-      "sha256": "13737c64f49ec05abd5402418c6c5c0f91615b7ee4ba4c65cdbebfdb657319d7"
+      "bytes": 35940,
+      "sha256": "f56b329ab031c7ac97eb71565901b1bc1b0f4e142e25d6a5c6c138426beb3a5c"
     },
     "2D/misc/focus-pulse.png": {
-      "bytes": 18096,
-      "sha256": "b535bef268a7b89b6c8dc23957673e0adad7ec40f6280065e641cdb50b8f4df6"
+      "bytes": 17964,
+      "sha256": "fbd6bb9962da3d37abb2a14efd73f261d268aae276cf877834c9d833cf7dacae"
     },
     "2D/misc/footstep-dust.png": {
-      "bytes": 34626,
-      "sha256": "7c80d13f69ee05f166bb9cce808b2a37528eb9a673fbc9e82c70e00e018ded09"
+      "bytes": 34560,
+      "sha256": "83b9b135be56f61ef6c71c1f99f6a5d2e838f094df65da5bee0a27f5ccdead00"
     },
     "2D/misc/grind-sparks.png": {
-      "bytes": 9995,
-      "sha256": "487e9cacf88b356db9c541a7e18c7b2415351d4ad333bcf2b67d619e09b21250"
+      "bytes": 9882,
+      "sha256": "e2094148fffa2e50e9926e23efc86a8c992cf6d950df1906422b6734aeae2b9e"
     },
     "2D/misc/guard-break.png": {
       "bytes": 12260,
@@ -113,84 +113,80 @@
       "sha256": "d1a70dc0d2ed7f72ec44b0930c09beb3664215fd5501a4af2b227e51a79e95d3"
     },
     "2D/misc/hard-stop.png": {
-      "bytes": 21340,
-      "sha256": "36d74010299c5e2148bc0b1303f6f37fb50df4632c964bbd261e1f5786e39a8b"
+      "bytes": 21005,
+      "sha256": "22427d56554a7e684c3cf61fd915aa21b5a2e6746c40298ee137aed89c0bf0dd"
     },
     "2D/misc/hazard-flare.png": {
-      "bytes": 25920,
-      "sha256": "5724b8eba3e883a2539ed2d1352d90e4a4666bf1ed9349ec2008dd03ee72661f"
+      "bytes": 25207,
+      "sha256": "a4eb02f72502f681303a0c4cf3e27df477d7f412050d413d37374701fad713e1"
     },
     "2D/misc/health-pulse.png": {
       "bytes": 10047,
       "sha256": "e11288915f21d3ed586f0414ef80b9f525d534c0cfd089c6a579f1565f41ae6d"
     },
     "2D/misc/heavy-impact.png": {
-      "bytes": 19288,
-      "sha256": "24967bfd6cd56603cb0adebb83672688a44aecfff29f07b4bdc35227c098ad1c"
+      "bytes": 18501,
+      "sha256": "dd6db03c7a7420dffac42033d08af309491affc18456396254bce6928e11bc51"
     },
     "2D/misc/jump-puff.png": {
-      "bytes": 34744,
-      "sha256": "ec29aefb7a9835b9923fcdaf6f609299cdecab8e02c0073bec6356f258daacb1"
+      "bytes": 34759,
+      "sha256": "5b721bec446e578114a5224f433a7a67dabd35bda0139d82e349dd0224e89f50"
     },
     "2D/misc/kick-impact.png": {
       "bytes": 9143,
       "sha256": "d94ad013bcde1ef7d1549389accb72ce6277499ab9333c0f2455af4a8614068d"
     },
     "2D/misc/landing-dust.png": {
-      "bytes": 38847,
-      "sha256": "8c051a2e2519b7a72fa7520157f93f428b961a7c83e2191bc69ebbcc2bd66122"
+      "bytes": 38905,
+      "sha256": "59a91e49167e387dc115aacea5ba7b266c03ba7918199ca3153fa3e4a9c0a393"
     },
     "2D/misc/metal-sparks.png": {
       "bytes": 9660,
       "sha256": "5330d900aefa9ed225472d2c6cff8ca50e4e554259c74f7d2f9058c0539d7647"
     },
     "2D/misc/muzzle-snap.png": {
-      "bytes": 14193,
-      "sha256": "08cb62541fe50fe81936190a1b1a033af5f939191dd3290e02f83e3ab2380baa"
+      "bytes": 14195,
+      "sha256": "48caa8142e39c17fef24da38a6cf31dfb9597d4d2210ad2fb76f1271daf5c1ad"
     },
     "2D/misc/oil-splash.png": {
       "bytes": 11272,
       "sha256": "4f3474d1888d34c137529923170035737a16bcc7961a9c6ffe8859d9fe6c42e4"
     },
     "2D/misc/parry-flash.png": {
-      "bytes": 17263,
-      "sha256": "f690f733047a6ef43d3f105fe8d1cb091584b9477befa5c3905811a7b680be93"
+      "bytes": 17312,
+      "sha256": "519e8239ac66cd1af64eb125b0a531e7dbc15cc3c1fdcef5a3b4acaafa1f846a"
     },
     "2D/misc/pickup-sparkle.png": {
       "bytes": 16761,
       "sha256": "be6579448d024744f1c5a0d52a9a76723b9170a2ed8b8f44d7f79a8bf2ef98f0"
     },
     "2D/misc/pipe-leak.png": {
-      "bytes": 42983,
-      "sha256": "dfe7f327a332d2cf23d4ecd000979556ba0f5f509d92059216dd1f6239749773"
+      "bytes": 42898,
+      "sha256": "86c8f8cb14f1034a46b1c464685fa673e079b3af373eafffb02090f462d4b5ab"
     },
     "2D/misc/pistol-flash.png": {
       "bytes": 14899,
       "sha256": "935a5c38c814fc4aff48b2052f91fa5ab920f271b25ccf1fd3c3e94e25801e9d"
     },
     "2D/misc/plasma-hit.png": {
-      "bytes": 17765,
-      "sha256": "513840a98b350e5d993176015c42e38ccf7ce610f982ccd34af786814923b7da"
+      "bytes": 17521,
+      "sha256": "9fed78d2e43120b49b52c3ea62fc1db4c911c5d8082f3094d08c06fa15765e82"
     },
     "2D/misc/plasma-pulse.png": {
       "bytes": 19851,
       "sha256": "666417c5b4a0b3dd8f97ed06554f826f59a0bc09cd5d3b820ac10b0d68b3b3f7"
     },
     "2D/misc/preview.png": {
-      "bytes": 9969,
-      "sha256": "4a440ccb1677553b8af967d08c2e850fc5a06b52ae523d3cbdb868d7f137c6eb"
-    },
-    "2D/misc/preview.webp": {
-      "bytes": 11696,
-      "sha256": "db7e0a16de4a1610532b7ec829364744911d5396bdf87b59143e540d2562a80e"
+      "bytes": 10651,
+      "sha256": "25efb3018f3b6093ea72580602aced7b40270b4075178bd8cedcef0cef21bf17"
     },
     "2D/misc/previews/effect-arrow-trail.png": {
       "bytes": 5115,
       "sha256": "da81f38be4687ab75b91b1fc7f67cb6af0566b0dcd084cc9244a796d4cddd34f"
     },
     "2D/misc/previews/effect-blade-contact.png": {
-      "bytes": 8161,
-      "sha256": "d0a83044825b3bb565a0e9fd20e2893b226ef46a2c333823aa481479cbf9d451"
+      "bytes": 8170,
+      "sha256": "ce3bdbb9aab4728f450c81f931c007167687afcf5d306805eb7d6fa94869bc63"
     },
     "2D/misc/previews/effect-block-ring.png": {
       "bytes": 9951,
@@ -209,32 +205,32 @@
       "sha256": "5729a780e6be79ea5338b6a12264025459a85765773062924718e69f46d3767b"
     },
     "2D/misc/previews/effect-combo-rise.png": {
-      "bytes": 6380,
-      "sha256": "6cfb38a9a149b86044151500eed3f159c7899f2bafa9f6a4dcf0264b59b5c2a7"
+      "bytes": 6390,
+      "sha256": "04ba671f9fe77bd48597a16518ea27c8f046581ac56ef85da6a0a971108e89ac"
     },
     "2D/misc/previews/effect-concrete-chips.png": {
       "bytes": 7039,
       "sha256": "5d9e844487b03c2cc72ec00752dd677f410c11e55a402e016e1a9b3808c8e20e"
     },
     "2D/misc/previews/effect-counter-flash.png": {
-      "bytes": 10273,
-      "sha256": "7bab4fcd6e70d2a50c37273726098cca94ea4707b7a9f49144cfdf3919718423"
+      "bytes": 10380,
+      "sha256": "1acfe4f899e9ccabfba0460bab9b720a7944379781b7ed3a78a677754bb95a39"
     },
     "2D/misc/previews/effect-crate-break.png": {
-      "bytes": 8955,
-      "sha256": "b884ac6cdaacefb0399220b4ef18b71d508f83b9127c76f562813e2507d72db3"
+      "bytes": 8983,
+      "sha256": "01d76e023585d94a33474aab889b0c7afbc55e6f748f3721d1182f3b98931198"
     },
     "2D/misc/previews/effect-critical-hit.png": {
-      "bytes": 9144,
-      "sha256": "ab384ef35ee68b8bfeeea9267558719dcbd27ee282b3b24b7879fb10607af238"
+      "bytes": 9184,
+      "sha256": "46ffc4bd9166ff1e09a6b805fe43b86d41de2ce9f3d2aa2e6c0e3479bba5b2d3"
     },
     "2D/misc/previews/effect-damage-pips.png": {
-      "bytes": 6708,
-      "sha256": "2a1c69757aba190744cd6eeaf751ae44622f23c99b01c468c2f6bd06e7dc8825"
+      "bytes": 6673,
+      "sha256": "6b8802a1f9ebbd051c1ad89cfb723501a10df6aa88247fd9635eacfb2e659d3a"
     },
     "2D/misc/previews/effect-danger-pulse.png": {
-      "bytes": 10056,
-      "sha256": "34ded1ed834193e6a82e667545e415be6aba13cb5b53bfa1b5cd33238b11bc99"
+      "bytes": 10078,
+      "sha256": "ee5b7b9922e83d5c5ad1797819732eeffc92c0bb8e1743ebec4b16aa03868373"
     },
     "2D/misc/previews/effect-dash-ring.png": {
       "bytes": 5779,
@@ -249,24 +245,24 @@
       "sha256": "d2b0289fa9749aa3fda30ce11fe18d889afbf928763c0c88810575624d6d4a97"
     },
     "2D/misc/previews/effect-electric-arc.png": {
-      "bytes": 8758,
-      "sha256": "11beee67402808145f12a03484f5f3407c51b8fa6b2d9fb360eb94d597504c78"
+      "bytes": 8751,
+      "sha256": "2c8f000fa0b82ccd3bc51ededfe35d2de7b1eb5c442f0a5332a061bc181c023f"
     },
     "2D/misc/previews/effect-explosion.png": {
-      "bytes": 11312,
-      "sha256": "d16db925e47ea0c566f394ad44bd048d5ae60099e96bafead495a598c9ba8131"
+      "bytes": 11292,
+      "sha256": "8f39582a2010b0ab7169e3b6e69e4d15e4da634ca5fb089c43b4978c75b00015"
     },
     "2D/misc/previews/effect-focus-pulse.png": {
       "bytes": 9825,
       "sha256": "c2c68a7123bc29991bde5a81ace53c3c723ed98d9d0dcfe31007cdc1b57863b1"
     },
     "2D/misc/previews/effect-footstep-dust.png": {
-      "bytes": 10251,
-      "sha256": "7d53e5e89e5262f3681a11a1534c2b40ac014046920bb93af3e3aaa7fd9f9c95"
+      "bytes": 10252,
+      "sha256": "00569c1d43b2a341549572e671615f9fd53f1274b07914010f74725d79fa12d9"
     },
     "2D/misc/previews/effect-grind-sparks.png": {
-      "bytes": 7113,
-      "sha256": "283fcb8034308698693fa9b825536cfd31ed13536e264f6be0b477ca0864ee3c"
+      "bytes": 7090,
+      "sha256": "baf1e3edb8375b483069c400d56064d8e7b6863400010532b252aa3b257daa8a"
     },
     "2D/misc/previews/effect-guard-break.png": {
       "bytes": 7293,
@@ -277,76 +273,76 @@
       "sha256": "122ed41bf5bfaa11a98a791816f07d29916af5b8424d5629788ffc1ed2483f53"
     },
     "2D/misc/previews/effect-hard-stop.png": {
-      "bytes": 9186,
-      "sha256": "e1c49fecdac944a70e9c6530a7213b6213a5dc542ed9e266b8acad9679754426"
+      "bytes": 9187,
+      "sha256": "ab62b9ffb8dce560ea0ade400c01c5a4a667c2003bd64c7ae77ef881ce20b81d"
     },
     "2D/misc/previews/effect-hazard-flare.png": {
-      "bytes": 12446,
-      "sha256": "2fb77eb32093e0fa05dcfa2aee684b5819d94ea4061affaebd002be2fccb0450"
+      "bytes": 12442,
+      "sha256": "aaa790fec84f3810353bab146550a359c3940b6dfac68a33cd9686d668267e99"
     },
     "2D/misc/previews/effect-health-pulse.png": {
       "bytes": 8930,
       "sha256": "4dc662844f53a7e011f6f85e905a75ffaad09058f5c0e6694fe0cd37febbbad1"
     },
     "2D/misc/previews/effect-heavy-impact.png": {
-      "bytes": 9990,
-      "sha256": "d5ed83c5b5c252d61b1e175b2fd6fa833bfbffbe08d41a3b3017233fa90e9173"
+      "bytes": 10299,
+      "sha256": "3641912daa9035f7cfbbdc91340cdebc6d0e8f08e84ad3aaab7f6870afb5bf03"
     },
     "2D/misc/previews/effect-jump-puff.png": {
-      "bytes": 10481,
-      "sha256": "59ccfc33279cef6217079663ba9728792444e550a0fedb67aaa7e2b8f6a31e3b"
+      "bytes": 10424,
+      "sha256": "f2f80e4ce98e001cb909dc5c50b3760e8cd17950a988ae8aa17b21c92eb2ece6"
     },
     "2D/misc/previews/effect-kick-impact.png": {
       "bytes": 6887,
       "sha256": "db5ff02058bd52ba7bdbef01934c3986456ca781fe8bc40bf7245679417f8e25"
     },
     "2D/misc/previews/effect-landing-dust.png": {
-      "bytes": 11713,
-      "sha256": "2cdcffbc9f20f5afb4a522b77a6c216e8ecfa035537eae7292c84636b49a474f"
+      "bytes": 11644,
+      "sha256": "333ec69706df8320e3cc6f90b082fe583981f289f6fd4b7be62a9262dc568040"
     },
     "2D/misc/previews/effect-metal-sparks.png": {
       "bytes": 6549,
       "sha256": "3f5c6bd77f48d3a067932af07dd6f7e8c0159af0d183694d851180871935358d"
     },
     "2D/misc/previews/effect-muzzle-snap.png": {
-      "bytes": 8175,
-      "sha256": "4927f80bbfb70fbf056fb0116e4c0952d2a8719e8f10ca008b084143460dda27"
+      "bytes": 8166,
+      "sha256": "96e5a084dee79da028956be13bcd82e568f7a248d0ee618c10855c9266e325f8"
     },
     "2D/misc/previews/effect-oil-splash.png": {
       "bytes": 6802,
       "sha256": "6d6ed3a5ecb85e1245eeb352f93e6c89a99e1398702cfe990133f7a212378c7d"
     },
     "2D/misc/previews/effect-parry-flash.png": {
-      "bytes": 9321,
-      "sha256": "57288f0f1be18655908b8f5fb92cc318aa4fac3302272b18c27f9f5e502b8888"
+      "bytes": 9405,
+      "sha256": "2fe37ac3ae03446eb78a20ec314fbe6eeabdd37218b1a22d8d2ca37d4355453f"
     },
     "2D/misc/previews/effect-pickup-sparkle.png": {
       "bytes": 9168,
       "sha256": "723c0b5e9b968c75a3864c064d79136013ba12961cc2f5a050bbafaa43137468"
     },
     "2D/misc/previews/effect-pipe-leak.png": {
-      "bytes": 12023,
-      "sha256": "02d30ef096243445643222dee2a8bad8a1ed7bffd5b19d884a6d693190c497d3"
+      "bytes": 12045,
+      "sha256": "1ccf3b415c7d81c96345f6edf98a57e27167bed8c15ac131e55c1b057ae1e6ef"
     },
     "2D/misc/previews/effect-pistol-flash.png": {
       "bytes": 8586,
       "sha256": "cc29253df576b0845933da3257ee46511bec065978d0c3e5405ac7ade2a4a1fb"
     },
     "2D/misc/previews/effect-plasma-hit.png": {
-      "bytes": 10598,
-      "sha256": "ccd99bbd98b4e246867a39995bd7709fd3df53221f1a8f99008cd69a7f2cfaee"
+      "bytes": 10564,
+      "sha256": "3a4736b0eac2a705742a2eb0e9c97287dad3cbafb267feb9bc389a2752a69d39"
     },
     "2D/misc/previews/effect-plasma-pulse.png": {
       "bytes": 12165,
       "sha256": "692a617435f6eab4d05359c359df2e70792cb8fe5d4a630c1f797ca41d74f38e"
     },
     "2D/misc/previews/effect-punch-impact.png": {
-      "bytes": 9969,
-      "sha256": "4a440ccb1677553b8af967d08c2e850fc5a06b52ae523d3cbdb868d7f137c6eb"
+      "bytes": 10651,
+      "sha256": "25efb3018f3b6093ea72580602aced7b40270b4075178bd8cedcef0cef21bf17"
     },
     "2D/misc/previews/effect-ricochet.png": {
-      "bytes": 6916,
-      "sha256": "a1c51b329c3c2f99bc65628c4e163e2163c5060748fba04b22e9fb2e98772b63"
+      "bytes": 6893,
+      "sha256": "be0d70d94797b9f055ac2de2445c155b000b3cf3f0db56a9c395aac2656f5456"
     },
     "2D/misc/previews/effect-rifle-flash.png": {
       "bytes": 7581,
@@ -361,24 +357,24 @@
       "sha256": "5605a647e744620451a5228741f334f646785d27de071f69268cdacdb5231efe"
     },
     "2D/misc/previews/effect-shield-bash.png": {
-      "bytes": 10630,
-      "sha256": "7a9d78a5830f835d7e8f6d43ba3c652d3aea21cec0a6fe472bcd0275bed951c8"
+      "bytes": 10634,
+      "sha256": "84edcd401b3090aa634ebac3be194ccbae1f1d1e703fba8ce9cbc7eebc52f6e5"
     },
     "2D/misc/previews/effect-shield.png": {
       "bytes": 10497,
       "sha256": "7c7ca4ee409b31961aa55a2c4f77b9ffb3c4c56fc1f1dd7a368e790c84b6ee3b"
     },
     "2D/misc/previews/effect-shotgun-flash.png": {
-      "bytes": 9892,
-      "sha256": "11119e04d14e219b254c7df1ee97106fc8822ae5c5a744c7d2bd4add88d8946d"
+      "bytes": 9998,
+      "sha256": "3c98a05cc81278a26b423b5a38377976e246eadf3e557bc358c3bd17e58805c9"
     },
     "2D/misc/previews/effect-slide-dust.png": {
-      "bytes": 12515,
-      "sha256": "83b2102644e2cf35fe93e20ffaa2b2a530ba80cd42884e8dc7b1c6044029dcd1"
+      "bytes": 12460,
+      "sha256": "8958687f47b1e3d241c945b1bce7c3559f17ac527fd8310d74685ab0c3dbd1c6"
     },
     "2D/misc/previews/effect-smoke-puff.png": {
-      "bytes": 12058,
-      "sha256": "cfb56b84c8afc69e8052e0a0d2e3f511f5cc0838f2fd1b14db4a8c4afb6b43da"
+      "bytes": 12157,
+      "sha256": "26d5b6ad84805e90de247a7c17dd4f85894a0a4baec779da98716666c41d224c"
     },
     "2D/misc/previews/effect-spawn-ring.png": {
       "bytes": 9707,
@@ -393,12 +389,12 @@
       "sha256": "ad64368c6dd590ac85c6f41ea1ae5a3b73a8233863bc8186968fc0f10361ce60"
     },
     "2D/misc/previews/effect-steam-burst.png": {
-      "bytes": 13043,
-      "sha256": "7530a2c7062a4e569b152075329f712b154cd9d73be813f71346b124e4fb479a"
+      "bytes": 13145,
+      "sha256": "b0e16a529fdd126f4cb69202c53fff39b4ea31cfab5f204553c8db51118fc11f"
     },
     "2D/misc/previews/effect-steam-vent.png": {
-      "bytes": 11728,
-      "sha256": "cfc2d2cee06122efe21b991e13d17f1a0b4438dd6946c40c55c9224d922c949d"
+      "bytes": 11635,
+      "sha256": "ddb4cc984856633f22d0661907430485546a760b18ea03a6a8141afe04d69b37"
     },
     "2D/misc/previews/effect-stun-stars.png": {
       "bytes": 7150,
@@ -417,36 +413,36 @@
       "sha256": "fdb5feb06da73a2e9787a4af66270b5e2dca9ea1e3bb5fe5c05e4479ecffc187"
     },
     "2D/misc/previews/effect-vault-dust.png": {
-      "bytes": 10775,
-      "sha256": "4943f0f0a7d851537ded3f04522dbdb368ce7afc52f38d4e5c037f6cbf8280ca"
+      "bytes": 10737,
+      "sha256": "2093820f56ce69920edb814ee6041042c2d4d8154311c64d881b79db94a899f3"
     },
     "2D/misc/previews/effect-wall-kick.png": {
-      "bytes": 7081,
-      "sha256": "6e94adcd552dcb4ab1312da8ea9707d914d2d0b0b05a92ff27bda953a46cdc17"
+      "bytes": 7034,
+      "sha256": "2124980d936e8a0ea05bf468025233906f49f1a2681721204e195196588efbdd"
     },
     "2D/misc/previews/effect-wall-scrape.png": {
       "bytes": 6761,
       "sha256": "11344839b733bdf6d21158db4b7b4b0a7d2e0bb4ca4e2adf3f0e8ad2d0cecfe5"
     },
     "2D/misc/previews/effect-weapon-clash.png": {
-      "bytes": 9679,
-      "sha256": "66ac8bdd4d6aac1c099bd99c8419f5fb7e5d1ee04d79559e2128fbd1213ce709"
+      "bytes": 9705,
+      "sha256": "cdfe173c36082088083462531c905ef97cdcee7923edab3bc47d17ea742a8811"
     },
     "2D/misc/previews/effect-welding-arc.png": {
-      "bytes": 6846,
-      "sha256": "71d08492c7db1c44d19c2ad862698f1d854e42533e89330f1ac39821f06d203a"
+      "bytes": 6841,
+      "sha256": "ade3c1cd4d9c9102e53ec668237a38ad00e2c534f86f9cfaaf0a6ffeae43613c"
     },
     "2D/misc/previews/effect-zipline-streak.png": {
       "bytes": 6037,
       "sha256": "81ebc79b78a52ec79f2e210af978867d0358973134ae6c8b6934cce762f60fdd"
     },
     "2D/misc/punch-impact.png": {
-      "bytes": 19052,
-      "sha256": "a0d0d3048e224838d495ceb034fbcd03777a5738746b85defadeeaea70e15857"
+      "bytes": 18388,
+      "sha256": "b6ae89f70ef59437cb40cd718e9507e573340d9f33612506507d807e50edae75"
     },
     "2D/misc/ricochet.png": {
-      "bytes": 9467,
-      "sha256": "4e2e8bc433ceb4112e6db4a972477c0be55bcb06d0a1b74a31734430cefb9fd3"
+      "bytes": 9427,
+      "sha256": "3e1afa3e6140f919c3c1f03b23b602eef7f853b36b0bb0c3ac49df2fdfe19a59"
     },
     "2D/misc/rifle-flash.png": {
       "bytes": 10466,
@@ -461,24 +457,24 @@
       "sha256": "93fad0e695296989fde121e82161adf57843df757848aaa242586c35fc5b25a7"
     },
     "2D/misc/shield-bash.png": {
-      "bytes": 20404,
-      "sha256": "fef6aaa15c73024fa12ef34a8b3b593a8d31e6709896df820beb58c7f90f4263"
+      "bytes": 20211,
+      "sha256": "512cef3b3d540fd4acf859fdba0a297e47a0e0e65ef3c0d395b1bb3fc949b5de"
     },
     "2D/misc/shield.png": {
       "bytes": 17001,
       "sha256": "c940a7416136b205f047034bff86f07158f1d880f515a65085949643a66848f8"
     },
     "2D/misc/shotgun-flash.png": {
-      "bytes": 19906,
-      "sha256": "a1c94a4de64de16bf05e0cdb7081ef38cfcb9a4d972a426cb86b8b8d7210e72f"
+      "bytes": 19900,
+      "sha256": "c31d4b9ed227d907594380d2c8502768b1e783fcd5468b33f4814e312b1ad73e"
     },
     "2D/misc/slide-dust.png": {
-      "bytes": 43366,
-      "sha256": "d19d54a97884e8803983f598bbe6b6d12fe88298aca012da9c803680782cc025"
+      "bytes": 43549,
+      "sha256": "50bf3e96e03254aebd4f712bdef96d62d1494e3194b3a74dabc1f3d6a77b0075"
     },
     "2D/misc/smoke-puff.png": {
-      "bytes": 43513,
-      "sha256": "0424386b270d16be8e66cd2ebecaa34c77856648ccf1c15c2be54b4330092313"
+      "bytes": 43593,
+      "sha256": "d834e1b7f9a6261180fa8f9d23b73d84d41abdd4aa4f08e86d6a2d5e5389963b"
     },
     "2D/misc/spawn-ring.png": {
       "bytes": 10341,
@@ -493,12 +489,12 @@
       "sha256": "32dd3f8678fd021e00aca5b56a649c2865d1dfbdd6ba3d604f11e02a485092c7"
     },
     "2D/misc/steam-burst.png": {
-      "bytes": 44119,
-      "sha256": "9895f6a058997ab75bdd5b1988f0f737dd97209f9af7e06632cd64f052c440c2"
+      "bytes": 44008,
+      "sha256": "4d589224e870b4ad7105e4b2094ccda5b34973e413f0b3a1536d410a0001d67e"
     },
     "2D/misc/steam-vent.png": {
-      "bytes": 39419,
-      "sha256": "1bb43346faf184774d243fe3f426dd8ccdec6cd6b6cc895d6aeb65a66cb9d416"
+      "bytes": 39544,
+      "sha256": "4fd4b67f172ecbacb164c70770f5ba4f8932c65d4511c2553443064701676547"
     },
     "2D/misc/stun-stars.png": {
       "bytes": 13765,
@@ -517,84 +513,84 @@
       "sha256": "053a5240d0b56c1e0eef04cc9bd0f1d29a6081ac9fd145a206dd4cc6387b1c62"
     },
     "2D/misc/vault-dust.png": {
-      "bytes": 26307,
-      "sha256": "c66e4e42a0c2ec05c3b8a7cf78431244844899eabecd84998ec6f430ab66e51f"
+      "bytes": 26122,
+      "sha256": "78ef1fce181bf2c0b2075b089227dd641b58fd6d80db86b5b08bb8b35a00bf46"
     },
     "2D/misc/wall-kick.png": {
-      "bytes": 10461,
-      "sha256": "741459ba098ed26375d48f5ae5f0e88253d0172a71134af1df6943bc4de36ff8"
+      "bytes": 10213,
+      "sha256": "9d01730425d73e5a9e0a38ebc83e42b68d2fb729e7e8e3bb8853a7653ae12870"
     },
     "2D/misc/wall-scrape.png": {
       "bytes": 8995,
       "sha256": "11416983123b307fb13b28445793d5484906d9ac957b75fe20effe9fa8d539e5"
     },
     "2D/misc/weapon-clash.png": {
-      "bytes": 17580,
-      "sha256": "e9a5449799e5343a6039f5f37756916a9667ce731031641b558aa8d47b527e71"
+      "bytes": 17579,
+      "sha256": "908fd47e2a34ac614c7449c1115bc7c1d60ef39a66517269b3f4aec44c40648a"
     },
     "2D/misc/welding-arc.png": {
-      "bytes": 10063,
-      "sha256": "85f88e51330c9cb3859b3a7b34f77309016ce4203ffaccc4c2427a83d043a297"
+      "bytes": 10032,
+      "sha256": "43f1727ceb43ffd9fe74aaf8cf4d121516fe93744db83c63b94a4830b2a588d9"
     },
     "2D/misc/zipline-streak.png": {
       "bytes": 6670,
       "sha256": "df46955536f56ded6d290c76fd393960f1d04068958d8972e66746d46e9e05d9"
     },
     "3D/characters/License.txt": {
-      "bytes": 1279,
-      "sha256": "370fc07dfb7d5d2220432d0afe8e503ab693e2009286c21da48949b5ff567e14"
+      "bytes": 17746,
+      "sha256": "e42999697b4f0e063752c308d0cc593bb079eb1f0d3889497efd0cc678221e9a"
     },
     "3D/characters/Readme.md": {
       "bytes": 754,
       "sha256": "3abadd4a68a5b49ed8e18f9b6a1a250af6ecf2ad129fb6a6e70b4fbadd0ce605"
     },
     "3D/characters/Source/README.md": {
-      "bytes": 1587,
-      "sha256": "26c3c78e9257ac673f5ac0e4be090e9a444958e91ff85f3401e1828fa3698c0a"
+      "bytes": 1756,
+      "sha256": "02591f9c9584539277dad9f0ef15222d531de937d6b93a3a8b127d9618cbf917"
     },
     "3D/characters/Source/character-roles.json": {
       "bytes": 3199,
       "sha256": "b002a7ea342c91df5d21495ea232eee314c16ab10497c1d9e642e29234a23a9c"
     },
     "3D/characters/Source/characters.blend": {
-      "bytes": 36033900,
-      "sha256": "ace35e075433a8deebad72e3a7bf5badc47cf65d2853ce0fa27b86fac010a438"
+      "bytes": 36160583,
+      "sha256": "8a69132b84005d9299e6173d6a02fa9a7937280cc8ca682934817e66bf0185d9"
     },
     "3D/characters/Source/characters.json": {
       "bytes": 83995,
       "sha256": "741f31075a1247f7b32235ee93d4cf4478f06bc0a2aba00b41ff6f87ff4c57a2"
     },
     "3D/characters/Source/characters.py": {
-      "bytes": 295259,
-      "sha256": "b845b723452616f75a9ee4fd250fdb10032417b5c15b417ebdf66b8899e67072"
+      "bytes": 298118,
+      "sha256": "6da20b98a1acb8f4f3efac2e31d9804ca3fa242065460e841597555c5793566b"
     },
     "3D/characters/Source/docs/animation-expansion.md": {
-      "bytes": 3125,
-      "sha256": "94c9eb5b433ce4f89414647e3450745d966ef833f6583e823073ab771ff3a220"
+      "bytes": 3011,
+      "sha256": "809c399f0a8f8e6a5d70e8a05acf20d01e01cf839f2c2b60e9a56750ba036c6e"
     },
     "3D/characters/Source/docs/art-direction.md": {
-      "bytes": 4575,
-      "sha256": "30048a8a144c94e789ee2c206cfc55ecc09c5488a8275a1e9d25f9c756cda563"
+      "bytes": 5235,
+      "sha256": "9aeb692e165791ada4792d62adc7ed286b2bd31de4c3be51fd046c7c4f1f6098"
     },
     "3D/characters/Source/docs/block-stance.md": {
-      "bytes": 2175,
-      "sha256": "b653bb96dce6006d142a39dcb67a1f84894e713187b6315412c68d6fecc3e6d2"
+      "bytes": 1946,
+      "sha256": "4423b69f70517995b501e0e0b7ace3107e472e367a7773aac7b215794e8c1988"
     },
     "3D/characters/Source/docs/character-contract.md": {
-      "bytes": 7535,
-      "sha256": "bb589319938ac5e14432a6519d9d002cbd302795882ac01b5e26c3826d2feb5e"
+      "bytes": 7013,
+      "sha256": "eef7aca59f2d4a1be5f80e21095c91695d3d2975aa52470ddd84c5244ec1f8bc"
     },
     "3D/characters/Source/docs/combat-stance.md": {
-      "bytes": 1662,
-      "sha256": "92a3703e4cd03e9d165b6a72b09aeb0038243748a2dbc92ba6e3774b0b5883dd"
+      "bytes": 1442,
+      "sha256": "0f890f8bd157b31a87580dd37b6a57c54264b10ea6fed15f1ecc9a6b3d0ec2ee"
     },
     "3D/characters/Source/docs/effects-expansion.md": {
       "bytes": 2085,
       "sha256": "333c71ff38498e9a415495f9d7db4a07ce4e786cb91cc8cbe3c488513c160793"
     },
     "3D/characters/Source/docs/effects-motion-polish.md": {
-      "bytes": 3551,
-      "sha256": "57b17219ed2d01270139aeff598f70aedfae1ac668c73a71e9ed1c0db4cf7ff9"
+      "bytes": 3327,
+      "sha256": "1152882884d40d784dc09f23f31f512fa7eb6d2cec1b230b97dabe7d171a3f8b"
     },
     "3D/characters/Source/docs/environment-expansion.md": {
       "bytes": 4424,
@@ -609,40 +605,40 @@
       "sha256": "485b2fbb3c164ae9fcbbdf6d67ced0594caecdc1ffe61b99b434f29496f4d391"
     },
     "3D/characters/Source/docs/foot-contact.md": {
-      "bytes": 2076,
-      "sha256": "4f603d85ba2060db24b296a6a688c63677a5365c7def0c2e1335e6b68984dd58"
+      "bytes": 1887,
+      "sha256": "6eba22a09afa57e4023739220222427f44725e88b034f79162f8583ff25c4c32"
     },
     "3D/characters/Source/docs/gun-height.md": {
-      "bytes": 2282,
-      "sha256": "9c27bdf66573a9225630e7eb46e3e51e78bd12de1483c60633a480028e7f2a56"
+      "bytes": 2048,
+      "sha256": "68143ab658f370757c5c104a696b4c1dd2d2262f1c5d68f6bbd9091e5faf1c73"
     },
     "3D/characters/Source/docs/joint-shape.md": {
-      "bytes": 3937,
-      "sha256": "be769daa6b2a4b3abde8c2b85cfb6dc213f60e55a192bc41027324b90b4bb6a0"
+      "bytes": 3275,
+      "sha256": "5e8dd41f9290937fba3fa24eb89e90b5fdf8f1ed32b61c0691f529f3b010acc7"
     },
     "3D/characters/Source/docs/kinetic-animation.md": {
-      "bytes": 6553,
-      "sha256": "cdeed8be5d6fde0859d1fa4696444124f1afa2a911248f5a05b2c0700f0a271c"
+      "bytes": 5982,
+      "sha256": "285ecfdef1490b6fe3925074953214ccdfd730203189adf940463f04dae31a94"
     },
     "3D/characters/Source/docs/kinetic-runtime.md": {
       "bytes": 5790,
       "sha256": "133cada476759f99b3fc0721cd649f9e5696ec075a8a9390d472bbabe9173f41"
     },
     "3D/characters/Source/docs/level-contract.md": {
-      "bytes": 4605,
-      "sha256": "058bd1883b2893e622cc237f7315f0377cbe9a135c85b91bd2080782f1ef2038"
+      "bytes": 4246,
+      "sha256": "f1163dbb7379650a7bd7b3cd19f9bbe199d933b312284556c450410fdc7d6f50"
     },
     "3D/characters/Source/docs/pack-content.md": {
       "bytes": 8528,
       "sha256": "662f5032d33013935f53808cfa2f565c81c92a0f9be49e8a22eafbb4424665fb"
     },
     "3D/characters/Source/docs/performance.md": {
-      "bytes": 8332,
-      "sha256": "01580ee92126fe933be807524554a7b3a9e51b8255418cdd8da4e71f6a608b33"
+      "bytes": 7501,
+      "sha256": "442e4fb37829a3016ac5f8aa2f3cb5dea7fc7dd6543da2cdeec28cd51e9976a5"
     },
     "3D/characters/Source/docs/prop-contract.md": {
-      "bytes": 3649,
-      "sha256": "8b5207632fe8d7ee5d25325345fed621158636ef3bf05c23350fa8df157452c2"
+      "bytes": 3434,
+      "sha256": "93972ce2119b2b3dead0529994ac502ea0dd446f749d686df2f191c919918296"
     },
     "3D/characters/Source/docs/reference/body-family.png": {
       "bytes": 118843,
@@ -673,52 +669,864 @@
       "sha256": "a32e5ecbd3acaa3c86058ac33505c97ee59358aa1e53b49944dfc6e281ed16fb"
     },
     "3D/characters/Source/docs/reuse.md": {
-      "bytes": 12223,
-      "sha256": "aae7504e6e366a404d31f7a496f6fd727818ee3b4cbac7517cdb5dad4d0a9a63"
+      "bytes": 12301,
+      "sha256": "b7595f3c182dea627e78d84d9955702ae6c8362e2ca0285af7c565da1425f6c4"
     },
     "3D/characters/Source/docs/style-correction.md": {
       "bytes": 7019,
       "sha256": "e63db66127c77b1e9cbb1a1618f8bbadc789bfb5a2486275caac1cd6497a104d"
+    },
+    "3D/characters/Source/docs/verification/README.md": {
+      "bytes": 11850,
+      "sha256": "6624b216a911ada09a0fe1f14bb4fcc1996e2b735f0220bfb69876b140c82b9a"
+    },
+    "3D/characters/Source/docs/verification/art-pass/README.md": {
+      "bytes": 3235,
+      "sha256": "c78499fd2ec69a34c20774ac40539b4c45c633f71dd2b53c08aa2f34360e0558"
+    },
+    "3D/characters/Source/docs/verification/art-pass/before-avatar.png": {
+      "bytes": 196140,
+      "sha256": "de079924987cd98c432bc1baf616de10e9b9177a7e6e23bb23f4d5b5fc162092"
+    },
+    "3D/characters/Source/docs/verification/art-pass/before-combat.png": {
+      "bytes": 160648,
+      "sha256": "55b3dc80cb2a106282d1118dbcd8e92360da75f25572df22449e0c66cd5f673f"
+    },
+    "3D/characters/Source/docs/verification/art-pass/before-parkour.png": {
+      "bytes": 382283,
+      "sha256": "ee02316876dd5e5c47f5a334ecc4126749c33f093eea4aef15ec4c3df0ecf0cc"
+    },
+    "3D/characters/Source/docs/verification/art-pass/combined-impact-desktop.png": {
+      "bytes": 209112,
+      "sha256": "c9b56f3e84e23ea57fce0c3fbb80a53091b9bb62dbb7ec94e6314488887b8527"
+    },
+    "3D/characters/Source/docs/verification/art-pass/combined-impact-phone.png": {
+      "bytes": 63768,
+      "sha256": "38e68fb1ae1cb49a8b845dd32dbb0bed48e61a1c00009589e73d39dc1b542646"
+    },
+    "3D/characters/Source/docs/verification/art-pass/pose-board.png": {
+      "bytes": 168706,
+      "sha256": "7205dc534055ee73fc27f17c10c15996e2928366349bbfdf654269e3743dafa9"
+    },
+    "3D/characters/Source/docs/verification/art-pass/route-checkpoint-05-phone-top.png": {
+      "bytes": 28586,
+      "sha256": "d27c78b463abf9c93630663321264c35951f34dc40500a217d26d675b198da48"
+    },
+    "3D/characters/Source/docs/verification/asset-report.json": {
+      "bytes": 264,
+      "sha256": "7b8f973cf91fce8ac25226841ed1fab2f1f67f40af0d20f5a08c9899def4ec98"
+    },
+    "3D/characters/Source/docs/verification/block/after.png": {
+      "bytes": 102902,
+      "sha256": "25674dd3d0170a2143fe3fb920c04049068b3ac99d6bbfee303ed69cb752e5a5"
+    },
+    "3D/characters/Source/docs/verification/block/before.png": {
+      "bytes": 109753,
+      "sha256": "c03712eb472cf03e5a3523feb6ea162a2dec0a3afd334bcee503f745e8bc2519"
+    },
+    "3D/characters/Source/docs/verification/block/independent-review.md": {
+      "bytes": 2022,
+      "sha256": "57bdc7ecde197783e782b270d83bdd6e84a734c7c3872b95841f55a5bb498260"
+    },
+    "3D/characters/Source/docs/verification/block/sentinel.png": {
+      "bytes": 102024,
+      "sha256": "7dd15d976ca919ce59fe427046933fdded74e6d5ee479fb9823d8e61a8f0eaa1"
+    },
+    "3D/characters/Source/docs/verification/browser-tests.json": {
+      "bytes": 15483,
+      "sha256": "39de860070e5a2662ea562306c7282b29c50c57c858d6682243d4e3060fe7fb4"
+    },
+    "3D/characters/Source/docs/verification/correction/camera-diagnosis.md": {
+      "bytes": 13271,
+      "sha256": "ad70fed6a03451868cf8414f28877325e366583f10ee772f550cf852b6cf4797"
+    },
+    "3D/characters/Source/docs/verification/correction/camera-head-pivot-stick-heavy-pale-cap-0.8-close.png": {
+      "bytes": 3452,
+      "sha256": "2b5aff020035f0f1bb51cc9ed3a798497588efbb07b962b9007f0b5087536355"
+    },
+    "3D/characters/Source/docs/verification/correction/camera-head-pivot-stick-heavy-pale-cap-1.2-close.png": {
+      "bytes": 3896,
+      "sha256": "11dcd7191027de52f2b3d792df5a69c17df0bbc03c45422140160d59ab27ef7e"
+    },
+    "3D/characters/Source/docs/verification/correction/camera-head-pivot-stick-standard-black-none-0.8.png": {
+      "bytes": 8350,
+      "sha256": "72d0dfa56dc4b50e7fa57e7244f1da31871ab262bb0f0555356fb58f77f482ca"
+    },
+    "3D/characters/Source/docs/verification/correction/camera-head-pivot-stick-standard-pale-none-0.8-close.png": {
+      "bytes": 3175,
+      "sha256": "8c4a084e13278f651732993c5e974a473bf5ef61866f370394ed68b800e10377"
+    },
+    "3D/characters/Source/docs/verification/correction/camera-head-pivot-stick-standard-pale-none-0.8.png": {
+      "bytes": 11683,
+      "sha256": "cbc254b11a22e9515977d5b2304c3d532d6d688cc1c75607f4fc168c667af3ed"
+    },
+    "3D/characters/Source/docs/verification/correction/camera-head-pivot-stick-standard-pale-none-1.2-close.png": {
+      "bytes": 3126,
+      "sha256": "ee03beb57631522399aeb75b91f87d620cc2e0f3cd3204bebe797788f4d07598"
+    },
+    "3D/characters/Source/docs/verification/correction/camera-margin-review.md": {
+      "bytes": 3383,
+      "sha256": "3c5c9bfd5e6c44b7a1f70da209088182d73f773160160eac028e71a591619645"
+    },
+    "3D/characters/Source/docs/verification/correction/camera-reactions/front-side.png": {
+      "bytes": 87262,
+      "sha256": "e8718ba4eb214b58abecbb31be71e1ae5d55aea87ef75748656f5387edde542d"
+    },
+    "3D/characters/Source/docs/verification/correction/camera-reactions/rear-side.png": {
+      "bytes": 81097,
+      "sha256": "4317208b0b5251869f0ae117838bab5dc60a8ca64e08181b13df531589293501"
+    },
+    "3D/characters/Source/docs/verification/correction/camera-refit-report.md": {
+      "bytes": 2994,
+      "sha256": "5c3ce6dc5eaba44875e7e8ed3e03769acf18a4136a2fd3eb6f00576c803ac83f"
+    },
+    "3D/characters/Source/docs/verification/correction/camera-route-check/combined-impact-desktop.png": {
+      "bytes": 211237,
+      "sha256": "1b1a0943e97a8eccda1a1914bbcc63526e0f6f2b52b379d17de043965e182c42"
+    },
+    "3D/characters/Source/docs/verification/correction/camera-route-check/combined-impact-phone.png": {
+      "bytes": 62835,
+      "sha256": "4df2b699fa4b04a5235084630607188b5cc7d886f796fc0bbecdd23f748b2177"
+    },
+    "3D/characters/Source/docs/verification/correction/camera-route-check/route-checkpoint-05-phone-top.png": {
+      "bytes": 28506,
+      "sha256": "c9b192bc23401687044b1344086dfb198c0ed0ef64498e3363084e96fd366632"
+    },
+    "3D/characters/Source/docs/verification/correction/camera-side-rail-after.png": {
+      "bytes": 84011,
+      "sha256": "8e358b88d6e0b63c535066a206d7fb94813248771a10fcbf2122bf6e8e3621df"
+    },
+    "3D/characters/Source/docs/verification/correction/camera-side-rail-before.png": {
+      "bytes": 84936,
+      "sha256": "ea505620e80fc82cd8e84be2590e26e508d46a38f29afada397c0d9fd318594f"
+    },
+    "3D/characters/Source/docs/verification/correction/camera-verifier-contract.md": {
+      "bytes": 4120,
+      "sha256": "f85f1f66c54e8b57ec72ad53af3c1bcba86b60590470e88c45ded38d9ed2df09"
+    },
+    "3D/characters/Source/docs/verification/correction/correction-summary.md": {
+      "bytes": 4593,
+      "sha256": "5c47f7cb1c036ee02d1689fe8bd556fa29081d33738e0706dfd0dfefdc3629d8"
+    },
+    "3D/characters/Source/docs/verification/correction/figure-correction.md": {
+      "bytes": 6553,
+      "sha256": "fc15f5b41cb322bdaeb4d19db7d678aca932e4359f11daa2a0834c5c789c70d0"
+    },
+    "3D/characters/Source/docs/verification/correction/figure-diagnosis.md": {
+      "bytes": 7980,
+      "sha256": "fb620b4f5c1e91a943b0c9530a13ad9922e031f96f79a592120d8c7689304ce0"
+    },
+    "3D/characters/Source/docs/verification/correction/figure-family-idle-guard.png": {
+      "bytes": 171180,
+      "sha256": "8dcbb0b3c049e106347aaa71c010ed10d67a464a0c45fa9732c9d4879a8046f4"
+    },
+    "3D/characters/Source/docs/verification/correction/figure-final-all-1.png": {
+      "bytes": 444503,
+      "sha256": "0c7bf265a25e2a20592f674721329b016ba632a71f59c7ede95730bb3ba2a17c"
+    },
+    "3D/characters/Source/docs/verification/correction/figure-final-all-2.png": {
+      "bytes": 470160,
+      "sha256": "e0f35fcced378f93c5cd5d12e35e489345495c9a384c55c83b30852506cb9f7d"
+    },
+    "3D/characters/Source/docs/verification/correction/figure-final-all-3.png": {
+      "bytes": 435750,
+      "sha256": "910fd856aeb57cd57ba2953f2a099226960468bf25f6d3f82687a21ae6baac7c"
+    },
+    "3D/characters/Source/docs/verification/correction/figure-final-all-4.png": {
+      "bytes": 404709,
+      "sha256": "7819776641ebc564465d6c51a7f7ea8b19624ba183074705ef4ecfdd97a035df"
+    },
+    "3D/characters/Source/docs/verification/correction/figure-final-all-5.png": {
+      "bytes": 450037,
+      "sha256": "dfe2736aff262b95f59c16aa014ec34653b1815074b29dd779c124c048ed1cb4"
+    },
+    "3D/characters/Source/docs/verification/correction/figure-final-all-6.png": {
+      "bytes": 326198,
+      "sha256": "dfee60433daaab86cf767d125f3cb432a6f27feae233c5a8635806a46b3b43fd"
+    },
+    "3D/characters/Source/docs/verification/correction/figure-final-combat-filmstrip.png": {
+      "bytes": 1159440,
+      "sha256": "6e53317d72676fc3f09391b65356b689d0cbd1d5bec502d80a4c86b62541eb30"
+    },
+    "3D/characters/Source/docs/verification/correction/figure-grip-family-1.png": {
+      "bytes": 354696,
+      "sha256": "927617323e8f84d7be3e0206da526fd9abfdd48453566feadfbaac03e8ea7882"
+    },
+    "3D/characters/Source/docs/verification/correction/figure-grip-family-2.png": {
+      "bytes": 356862,
+      "sha256": "31c2dd6074dae9ab81cc7a1fc144707a6a76044253143c80db448e698f5e6264"
+    },
+    "3D/characters/Source/docs/verification/correction/header-review.md": {
+      "bytes": 2306,
+      "sha256": "95f1e694d2c1cd90241e4c5d4d2fa50cb823a426695fec962c49fdfca30abb80"
+    },
+    "3D/characters/Source/docs/verification/correction/independent-art-review.md": {
+      "bytes": 7219,
+      "sha256": "2053bb1501848eb6af9bb70e024fff406242580850ff41bdfbca0fb3ce6fc94e"
+    },
+    "3D/characters/Source/docs/verification/correction/joint-line-review.md": {
+      "bytes": 11190,
+      "sha256": "ace7b280f37dd010dc2669918e709da8c835f2b0e7e7b9ce74cdf87e923a5829"
+    },
+    "3D/characters/Source/docs/verification/correction/line-after.png": {
+      "bytes": 367189,
+      "sha256": "6cab19afb80a2493822fc17d6c5c88e1f84bcc7c7c513e4903cd5246e41a500a"
+    },
+    "3D/characters/Source/docs/verification/correction/line-before.png": {
+      "bytes": 366838,
+      "sha256": "32382c59a20db0da60c5af43d18c869210069081858f84f8eccfebc581dbe110"
+    },
+    "3D/characters/Source/docs/verification/correction/line-fixtures-stick-heavy-black.png": {
+      "bytes": 150607,
+      "sha256": "4155205d4c5337942292919649adf327f43234d4c5bb5a87b04add036e5a4958"
+    },
+    "3D/characters/Source/docs/verification/correction/line-fixtures-stick-heavy-pale.png": {
+      "bytes": 176731,
+      "sha256": "e051d0e70e9c5bb67f41499b90660449985116f124184486fdd6f5f951279706"
+    },
+    "3D/characters/Source/docs/verification/correction/line-fixtures-stick-runner-black.png": {
+      "bytes": 148370,
+      "sha256": "6f5e011af02eafc54473300797761a421c83f31964d4cec02280bceeebd0be6b"
+    },
+    "3D/characters/Source/docs/verification/correction/line-fixtures-stick-runner-pale.png": {
+      "bytes": 171750,
+      "sha256": "c89ca15e96c9f161bd95821c68a832b0c9ddf9d7d2625ca26528e7ca71e4df56"
+    },
+    "3D/characters/Source/docs/verification/correction/line-fixtures-stick-standard-black.png": {
+      "bytes": 144971,
+      "sha256": "39738f33362c3382d3471bacf60872af9d306c58457f11bc8039781ce3ce6a63"
+    },
+    "3D/characters/Source/docs/verification/correction/line-fixtures-stick-standard-pale.png": {
+      "bytes": 170233,
+      "sha256": "ce9d719e3b8de467ca04a46b1cd0ae1b4836279ac4aa6412fcf7fe330e4c59c5"
+    },
+    "3D/characters/Source/docs/verification/correction/line-refinement.md": {
+      "bytes": 2414,
+      "sha256": "808278ea826cceba2f45270f008e7b39b2d625b339e94f50c6218e9bb487fd0e"
+    },
+    "3D/characters/Source/docs/verification/correction/outline/1100-perspective-black.png": {
+      "bytes": 32334,
+      "sha256": "1be59f0fccf4e36262a88e286357f1ee0a874f618c7d0d80c055a09aeae10ed4"
+    },
+    "3D/characters/Source/docs/verification/correction/outline/1100-perspective-paper-thin.png": {
+      "bytes": 47500,
+      "sha256": "49e3053ce8a61705a0492fe59fce2603a897afafadaf643de77dfd5c32dd7d98"
+    },
+    "3D/characters/Source/docs/verification/correction/outline/1100-side-white.png": {
+      "bytes": 56667,
+      "sha256": "a1995c21576b36b3e1a33c47b34f05438a3797c2f4f0729f0968a99a224b0fe9"
+    },
+    "3D/characters/Source/docs/verification/correction/outline/390-perspective-paper-thin.png": {
+      "bytes": 24778,
+      "sha256": "963ff14e30550e9c8b7a0fe1c6e0da2f4b904877ee86a02d4967218337536b1b"
+    },
+    "3D/characters/Source/docs/verification/correction/outline/390-perspective-white.png": {
+      "bytes": 25770,
+      "sha256": "d17ccc2ed9ad48cb2c15e6fb3de4ccf156c31a0a40a68b55e94aebb0dc6f58e3"
+    },
+    "3D/characters/Source/docs/verification/correction/outline/390-side-black.png": {
+      "bytes": 19762,
+      "sha256": "ae8055be16ac178f8a4d59138754ad841dd65567577d48dd9b8cad6167cd79f7"
+    },
+    "3D/characters/Source/docs/verification/correction/outline/390-side-paper-thin.png": {
+      "bytes": 28912,
+      "sha256": "078a048fa4aac52daa4764b4db6b690cd0af2d0ed684db2e1e74c4f0e40af507"
+    },
+    "3D/characters/Source/docs/verification/correction/outline/390-third-person-paper-thin.png": {
+      "bytes": 24056,
+      "sha256": "80cf8b278dea8b4b89224d9181f6269eda7ff87bc8a96dbe72ed6283669619aa"
+    },
+    "3D/characters/Source/docs/verification/correction/outline/390-third-person-white-wide.png": {
+      "bytes": 19723,
+      "sha256": "4e036add409849abea4b9af2957063517edd5428eff79112b87e1e6105680818"
+    },
+    "3D/characters/Source/docs/verification/correction/outline/390-top-paper-thin.png": {
+      "bytes": 36182,
+      "sha256": "75b6f283756176dd886fe6b4fd669575e44584fd6fdd19535b18771b53b16360"
+    },
+    "3D/characters/Source/docs/verification/correction/preview-layout-review.md": {
+      "bytes": 3042,
+      "sha256": "d06e3e79ad1419e9cbabc4cee4099ef2aaaf71e26bfc2b906c80567a11339949"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-all-surfaces.md": {
+      "bytes": 157889,
+      "sha256": "905f6739d359427c527cfdbab5b4c6145f6eb24609a86568982791a78da48c91"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-surface-final-5299-loading-gate-front.png": {
+      "bytes": 5217,
+      "sha256": "ec4175137670921322fa7daf221d9852f40469bca08babbc25e72015626d814b"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-surface-final-5299-loading-gate-side.png": {
+      "bytes": 3006,
+      "sha256": "7152bf7f1f2ee86246632f36f20eb57dd9e3725d7aa564e8de49cc3ac1ee3e9a"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-surface-final-5299-loading-platform-ramp-front.png": {
+      "bytes": 10747,
+      "sha256": "d064030b7fa2768aed140482f46306509e8fa65677a4c84fc0a07de8c9f93ec0"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-surface-final-5299-loading-platform-ramp-side.png": {
+      "bytes": 11502,
+      "sha256": "bcc332eba3f2b890c288d8a220da292e15ee1794c8159acc87e25a07b6d3c483"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-surface-final-5299-roof-cable-bridge-front.png": {
+      "bytes": 5987,
+      "sha256": "a4764af22ba9cd14a38450891fd0b3e1b1133ae0595e014a884f7a48d8f2d9d6"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-surface-final-5299-roof-cable-bridge-side.png": {
+      "bytes": 4043,
+      "sha256": "49b1550edfebf371d975f43085fdfed967918b3c730a50c0476376e4643731ec"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-surface-final-5299-service-bay-arch-front.png": {
+      "bytes": 8235,
+      "sha256": "13bc99f001fe59c96e437b09596f0d6d73693f61098ec3a2fbffbe572de1e360"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-surface-final-5299-service-bay-arch-side.png": {
+      "bytes": 3017,
+      "sha256": "bde1cd08dd4c7cf2b9d0164f31bbb08a3315738f30ec028610ecacc2743538f4"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-surface-final-5299-service-bay-workbench-front.png": {
+      "bytes": 6733,
+      "sha256": "14ceb342dcee31420e1ab8f3d6ec4f95716554aa3a61b347ecbb339b7defbf88"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-surface-final-5299-service-bay-workbench-side.png": {
+      "bytes": 4657,
+      "sha256": "d2997fda6c0790406d8b283193e375a9d98d69a73422da3bb7a428fc43bec089"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-surface-final-5299-utility-cabinet-low-front.png": {
+      "bytes": 5421,
+      "sha256": "3618178b408e61ecd937d173e60581f2822203dd1118a5f0d5ef18914b57dad0"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-surface-final-5299-utility-cabinet-low-side.png": {
+      "bytes": 3424,
+      "sha256": "f3cd6658c036b13329d07e671f514c46a676d143d9d7d39cbfa15b0b32131e9f"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-surface-final-5299-walkway-bridge-narrow-front.png": {
+      "bytes": 7400,
+      "sha256": "d91520c69ab692f964b42774ca08679f8707ebc74d0f1c1f66aa5148e5d298fc"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-surface-final-5299-walkway-bridge-narrow-side.png": {
+      "bytes": 3608,
+      "sha256": "c8e7d7707f77be154926298d55c6bf5f8c5e6c4bd278d74b957bb381bec3656a"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-surface-final-5299-walkway-rail-kickplate-front.png": {
+      "bytes": 7285,
+      "sha256": "5d3c745eba1e9531e05a1b758f36dbf7c42fd72f66ebf07f1cb27f706300b552"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-surface-final-5299-walkway-rail-kickplate-side.png": {
+      "bytes": 2625,
+      "sha256": "ce44ba8adf085e123db359aec72b47e0e279c395fe6cb970342838f30be8f4e1"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-surface-final-loading-gate-close.png": {
+      "bytes": 112929,
+      "sha256": "70ec642d36addfa54c7f75808825626c2ccb05b8db810fe2f51b70df7b9e1e2b"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-surface-final-loading-gate-district.png": {
+      "bytes": 91496,
+      "sha256": "e0af50c7cce194144a9ada55d3de031353f3f5cf10941a005ae7ac468182199e"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-surface-final-loading-gate-orbit.png": {
+      "bytes": 94148,
+      "sha256": "ea90eb0f16b2ef0ed60db14cbba4fb1ee34af25e39c3cccc454ca8b8f2939a6c"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-surface-final-loading-platform-ramp-close.png": {
+      "bytes": 128859,
+      "sha256": "3ab5d1360923e6edd3a4107713c8497d373b76f2ed87ac5edf266bf7effe19f6"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-surface-final-loading-platform-ramp-district.png": {
+      "bytes": 99522,
+      "sha256": "50c3452a34b0a9bed24bf67c7234aca9ea6e06657788e79a430de8a5e299993b"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-surface-final-loading-platform-ramp-orbit.png": {
+      "bytes": 105964,
+      "sha256": "1a05ced92efa445459600f224bbe9fad41e6a3c0d7f5b3defec3524660bf46cd"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-surface-final-roof-cable-bridge-close.png": {
+      "bytes": 107421,
+      "sha256": "cbd9b4361ae5cbf949b499914c339fa657a8378d9d9584efc8782db72e504c16"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-surface-final-roof-cable-bridge-district.png": {
+      "bytes": 90905,
+      "sha256": "c79e918fcdbdb32e989fca108fe84a8afe252be1ca6047353df97cd56cf189df"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-surface-final-roof-cable-bridge-orbit.png": {
+      "bytes": 92524,
+      "sha256": "9df7564936b0087ae555c0d052070b91efc749e3630ec44815cdc680a60ce5ba"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-surface-final-service-bay-arch-close.png": {
+      "bytes": 125479,
+      "sha256": "e19ac50c183074c2c0fe582bfb8c67588449847d4851f10962fe7a62d41f6862"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-surface-final-service-bay-arch-district.png": {
+      "bytes": 96361,
+      "sha256": "7a6988949a7714369ce1909d2467c5d737a37fae70650f7211d133961fb8922b"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-surface-final-service-bay-arch-orbit.png": {
+      "bytes": 99528,
+      "sha256": "7aae3009b8fd59f6de7a615c0eed62e0e34c23bfc54b42b85861452a295f909f"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-surface-final-service-bay-workbench-close.png": {
+      "bytes": 110587,
+      "sha256": "0b8fb3bb65592e36a18282beca47d5f835f62e68542f76bfdbc7e99e978d1354"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-surface-final-service-bay-workbench-district.png": {
+      "bytes": 93847,
+      "sha256": "44010effe434b6d9b8658184af8128f967199047aa7fedbdd7b8f9b242e63242"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-surface-final-service-bay-workbench-orbit.png": {
+      "bytes": 94574,
+      "sha256": "9eed9f089a3bea1f236489a4c4e012405fffcbdb940b185132d906809c7b3be8"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-surface-final-utility-cabinet-low-close.png": {
+      "bytes": 98889,
+      "sha256": "b44d7d28cf2fb5d6e43d52ab610b693f19f118929683fefb0c28495d64bea46b"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-surface-final-utility-cabinet-low-district.png": {
+      "bytes": 88443,
+      "sha256": "c06a57fd80aa1e7d0824443b1a0ef057f78cb3efa821f260011cbbf10712cdce"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-surface-final-utility-cabinet-low-orbit.png": {
+      "bytes": 90346,
+      "sha256": "fae09fab1128625720296bec11499dbdad4a48f80153fccf639992366ea40b74"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-surface-final-walkway-bridge-narrow-close.png": {
+      "bytes": 127544,
+      "sha256": "be211eb87d6d4354d5afb13b5ab1924af011ed59322c9901733095005e621d1f"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-surface-final-walkway-bridge-narrow-district.png": {
+      "bytes": 99530,
+      "sha256": "4d44b2f67fda13c1c85e3c79f24712332317d039557a5c4d460b1700e619f19c"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-surface-final-walkway-bridge-narrow-orbit.png": {
+      "bytes": 107044,
+      "sha256": "330d82f22dda77b9803afb0aca9dc7267d2cb7272e239381c8d7cda3325aee10"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-surface-final-walkway-rail-kickplate-close.png": {
+      "bytes": 116337,
+      "sha256": "461eb3278d702f32fdcd365fd0cfd2413c28a0352f22c7898a205660a4538c60"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-surface-final-walkway-rail-kickplate-district.png": {
+      "bytes": 91814,
+      "sha256": "53781310f7a0ab82e5d4b3b590904a2b228611ffdd83e3b34e052f5747a3367b"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-surface-final-walkway-rail-kickplate-orbit.png": {
+      "bytes": 95664,
+      "sha256": "d0dc2d317bfd04a513f7cdf9816e81f8b7c22b6e13131b5fa394a77efa9d8af6"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-surface-fix-all.md": {
+      "bytes": 157889,
+      "sha256": "905f6739d359427c527cfdbab5b4c6145f6eb24609a86568982791a78da48c91"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-surface-fix-orange.md": {
+      "bytes": 568,
+      "sha256": "b9bc690d89832d9e5997173fa27ee57ac33cf72570870ccbe5ad5f6831689f2f"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-surface-render-review.md": {
+      "bytes": 7994,
+      "sha256": "536d2d96a355f04c0c187f0b6d02ed415e127495ce344febd89f3095d302b471"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-surfaces-cache.md": {
+      "bytes": 2346,
+      "sha256": "ec202dce20a3b83596ff504bb1c6fba61d951e81aec362f9c3089bb5f2c49898"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-surfaces-final-report.md": {
+      "bytes": 568,
+      "sha256": "b9bc690d89832d9e5997173fa27ee57ac33cf72570870ccbe5ad5f6831689f2f"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-surfaces-report.md": {
+      "bytes": 568,
+      "sha256": "b9bc690d89832d9e5997173fa27ee57ac33cf72570870ccbe5ad5f6831689f2f"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-surfaces.md": {
+      "bytes": 3697,
+      "sha256": "505dc31c3da4d739797d17a9e5cf703a54860eac40a268257883af17271289ce"
+    },
+    "3D/characters/Source/docs/verification/correction/prop-visible-surfaces.md": {
+      "bytes": 445,
+      "sha256": "8874f3d17e033fc37f60b6c43a39bb195cd20e89365bcae4877b400adfd4c4ec"
+    },
+    "3D/characters/Source/docs/verification/correction/reactions/front-side.png": {
+      "bytes": 86543,
+      "sha256": "6ca81d7394ec19e6d9b1ccd1d8c22486c3169c88e1df545458d6f8edae33bb4d"
+    },
+    "3D/characters/Source/docs/verification/correction/reactions/rear-side.png": {
+      "bytes": 80556,
+      "sha256": "f8ce4cd56764d5f36bcc1e6500b70ecd3ed53b36eb564210fa39eb4858dc2ce3"
+    },
+    "3D/characters/Source/docs/verification/correction/roof-placement-review.md": {
+      "bytes": 2402,
+      "sha256": "f70c577751ea0c831ee3fc043f94ee6005d756e0a1926cb898e2bee4d6eab00e"
+    },
+    "3D/characters/Source/docs/verification/correction/runtime-cutaway-final.md": {
+      "bytes": 3054,
+      "sha256": "34d14cb2b7a4bfa1589a973c19dc0841a3ba4bfe5905488418dd14272f1db2f0"
+    },
+    "3D/characters/Source/docs/verification/correction/runtime-integration-final.md": {
+      "bytes": 3820,
+      "sha256": "ddd120d7f7972d93daa28332786f48b60939e3df4e7f2afe4cf49fde3c64f929"
+    },
+    "3D/characters/Source/docs/verification/correction/runtime-review.md": {
+      "bytes": 9462,
+      "sha256": "083bec29b3be4801c6415ca45f314b38b7fd9556ed349a494d65fbc9a8202e07"
+    },
+    "3D/characters/Source/docs/verification/correction/runtime-travel-loop-report.md": {
+      "bytes": 1686,
+      "sha256": "b3e7b4806395686fd2ffa2f810a1d8ad5471e3f82d8f3637e46d83b02f40d4a9"
+    },
+    "3D/characters/Source/docs/verification/correction/scene-orange-surfaces.md": {
+      "bytes": 4403,
+      "sha256": "fa30b9e4098ac20c1989d984140867c5253a4a04da5e9487a92f0d2fe1f76ec7"
+    },
+    "3D/characters/Source/docs/verification/effect-frame-bounds.json": {
+      "bytes": 67323,
+      "sha256": "7e0b89dedb136412742d63dce574c5d8af8cc0d76d439cc3b4444aff87b21dd5"
+    },
+    "3D/characters/Source/docs/verification/evidence-files.md": {
+      "bytes": 661,
+      "sha256": "732ff7cb62e4235387cd222ecec03f56f8aec11eeac7ba8d53a320d120c444c4"
+    },
+    "3D/characters/Source/docs/verification/expansion/animation-expansion-side-contact-overview.png": {
+      "bytes": 276983,
+      "sha256": "1ad8ce73ee177f02b5eec223d356fdeba76259a3a1db11fb5fbe5cd2c4a0dcf1"
+    },
+    "3D/characters/Source/docs/verification/expansion/contact-poses.json": {
+      "bytes": 20939,
+      "sha256": "799606c5218e1c5dc301bb373052d62531754e4fff28c9162810ae6512e7706f"
+    },
+    "3D/characters/Source/docs/verification/expansion/contact-timing.md": {
+      "bytes": 1011,
+      "sha256": "dad2f05891bee98b048ce31f7e4f2f0ec296af10d05f9adba3f83bcdd59fbe4a"
+    },
+    "3D/characters/Source/docs/verification/feet/independent-pose-projections.png": {
+      "bytes": 31323,
+      "sha256": "bd4391ae4a7cdd6876ca0f0bd0f43a7b5a76c35c86ed661ae08b6de8acdd3c4a"
+    },
+    "3D/characters/Source/docs/verification/feet/independent-review.md": {
+      "bytes": 4241,
+      "sha256": "abe988d31b55f05f6dd72216fadde3dacf661b865a366f9801e10a96aff8ce81"
+    },
+    "3D/characters/Source/docs/verification/feet/punch-left.png": {
+      "bytes": 104466,
+      "sha256": "d93f0460435ad45710c7d825fae8e8bbb7d5f1896ed12d47fa2ca82200701681"
+    },
+    "3D/characters/Source/docs/verification/gun-height/after-rifle.png": {
+      "bytes": 82203,
+      "sha256": "7be5f6ce962534f3b6bc755456ba02c76ddbc8f584eb2a33f588276ebf9f89cd"
+    },
+    "3D/characters/Source/docs/verification/gun-height/after-shotgun.png": {
+      "bytes": 86234,
+      "sha256": "64c4a6479322d9a2844c8c7364f808ee68aee1b5f3d86c3de02d54151f055a10"
+    },
+    "3D/characters/Source/docs/verification/gun-height/before-rifle.png": {
+      "bytes": 81908,
+      "sha256": "0f3ae5c0f6b286029666b7d8a550273d2a0e8566c818ca106c5b6d766096727e"
+    },
+    "3D/characters/Source/docs/verification/gun-height/before-shotgun.png": {
+      "bytes": 86308,
+      "sha256": "52a01008771617fc82c66c4233405d56cb748e679f398e8bdacaac08bc8c3713"
+    },
+    "3D/characters/Source/docs/verification/gun-height/independent-review.md": {
+      "bytes": 1814,
+      "sha256": "46969ab6e68531a9fe9fe627305b0f69005d6b3ed89c3c5d5371c067b6372a47"
+    },
+    "3D/characters/Source/docs/verification/joints/after.png": {
+      "bytes": 65593,
+      "sha256": "163199286ca46394ce045ce75ba624fef618be1c279b4cee8c0e499552d36b4c"
+    },
+    "3D/characters/Source/docs/verification/joints/before.png": {
+      "bytes": 65180,
+      "sha256": "f2c2800c71c56fb7a9c251b1b889d5ff5235ad3e191bbe24efab4aaa8cb948f1"
+    },
+    "3D/characters/Source/docs/verification/joints/independent-review.md": {
+      "bytes": 2557,
+      "sha256": "7ce742a565ea7266fcbb374f11d4b62b4efdf2ab42f4f454c0970ac21db192ae"
+    },
+    "3D/characters/Source/docs/verification/joints/joint-after.png": {
+      "bytes": 68950,
+      "sha256": "7acd127aca517310dee8c13a8aa121c3dcaab25a3febf4471867ba6993cb63ea"
+    },
+    "3D/characters/Source/docs/verification/joints/joint-before.png": {
+      "bytes": 68811,
+      "sha256": "55986d29a50d27a07f7605e3d375de0962d210615906223f7da695c8161f8281"
+    },
+    "3D/characters/Source/docs/verification/joints/pale-elbow.png": {
+      "bytes": 83865,
+      "sha256": "729e8a677ef8e36e2e20982ab8a855935527a195cbb933b5c1c4c1839014a932"
+    },
+    "3D/characters/Source/docs/verification/joints/pale-phone-actual.png": {
+      "bytes": 17704,
+      "sha256": "c560261ac765acf08d09558c6dee994123f696fd53ae95e3a441c8d271e58cbc"
+    },
+    "3D/characters/Source/docs/verification/kinetic/animation-review/idle-all-bodies.png": {
+      "bytes": 211794,
+      "sha256": "91a0499469e9d7ae7c7b8293256d2ff233dc054071884ecbf1b4bd9ee703c576"
+    },
+    "3D/characters/Source/docs/verification/kinetic/animation-review/kinetic-contact-overview.png": {
+      "bytes": 216904,
+      "sha256": "b7f7a7d3e2ec3e113278de5d3dd98a5524b5f4d584920ae95e439b1f6f782105"
+    },
+    "3D/characters/Source/docs/verification/kinetic/animation-review/kinetic-review-01.png": {
+      "bytes": 197528,
+      "sha256": "bad2296a2ec2c46163565cb303690328140c8b7377f220133162371a32d537b2"
+    },
+    "3D/characters/Source/docs/verification/kinetic/animation-review/unarmed-review-overview.png": {
+      "bytes": 263306,
+      "sha256": "787563278f323a33972430136ff1cb244ca29f6e82e4047b048e8e5809491487"
+    },
+    "3D/characters/Source/docs/verification/kinetic/art-review/combat-desktop-contact.png": {
+      "bytes": 222862,
+      "sha256": "f321d08a2538504f05e158d8be28e5dc66117799f23ceb6a1430c9f8926fe662"
+    },
+    "3D/characters/Source/docs/verification/kinetic/art-review/combat-phone-contact.png": {
+      "bytes": 64613,
+      "sha256": "2cb6ebca0b060969086cbc9527ba5ceffb68f553757ff52ea1b001b371923864"
+    },
+    "3D/characters/Source/docs/verification/kinetic/art-review/final-combat-desktop-contact.png": {
+      "bytes": 220782,
+      "sha256": "216b8dacee406f15f9dd5d1a37f223b84d628908c55a211c3b99c8cb44b12187"
+    },
+    "3D/characters/Source/docs/verification/kinetic/art-review/final-combat-desktop-near-contact.png": {
+      "bytes": 218326,
+      "sha256": "b054cee8fae71b175a30ed9b28ba632305c8668978f8ee1e9803cc5b3281e2c6"
+    },
+    "3D/characters/Source/docs/verification/kinetic/art-review/final-combat-desktop-recovery.png": {
+      "bytes": 220295,
+      "sha256": "3373b71d55156efa9a574cde01bbe7330ae89f1a83427eee95eedd779c752252"
+    },
+    "3D/characters/Source/docs/verification/kinetic/art-review/final-combat-desktop-windup.png": {
+      "bytes": 228199,
+      "sha256": "4e3ff9cc0ed3ea4d97cd617ddc3dcd65a98948db4c190ebfd15af553391271dd"
+    },
+    "3D/characters/Source/docs/verification/kinetic/art-review/final-combat-phone-contact.png": {
+      "bytes": 62860,
+      "sha256": "2a1b8d261f33d1b38a7a4e70de1ab7a146c2f623300cd4be5b1ec1fafd643434"
+    },
+    "3D/characters/Source/docs/verification/kinetic/art-review/final-overview-desktop-heavy.png": {
+      "bytes": 115670,
+      "sha256": "6735f60d889cd449220caf37f29d4046749c0d480960033825435f8bd38a654d"
+    },
+    "3D/characters/Source/docs/verification/kinetic/art-review/final-overview-desktop-kick.png": {
+      "bytes": 107750,
+      "sha256": "818771e434a0e6484d4475c722060723f71740485f74c1ed6d46dcaa8f70d532"
+    },
+    "3D/characters/Source/docs/verification/kinetic/art-review/final-overview-phone-heavy.png": {
+      "bytes": 40009,
+      "sha256": "d3ae499b5ef507e3d9670e54ef703928ab29f85b0f3e7d1f210c58b01755fd8f"
+    },
+    "3D/characters/Source/docs/verification/kinetic/art-review/final-ui-phone-combat-close.png": {
+      "bytes": 45591,
+      "sha256": "8543b900bdbd5bce64f94acd089b6a9cbdb5e88285e5d1abbc3eef6f9d1f383c"
+    },
+    "3D/characters/Source/docs/verification/kinetic/art-review/final-ui-phone-combat-panel.png": {
+      "bytes": 60567,
+      "sha256": "8c884138c0f927232a3a9b2d6103ba7f199b13fe18bcc2b5b5263d6574f8a047"
+    },
+    "3D/characters/Source/docs/verification/kinetic/art-review/overview-desktop.png": {
+      "bytes": 127477,
+      "sha256": "c181971d4b052f0a1eacf1a004893e979b09b0d55dc7344706887f4e2e649944"
+    },
+    "3D/characters/Source/docs/verification/kinetic/art-review/overview-phone.png": {
+      "bytes": 42052,
+      "sha256": "5a697f09b54522edf71d468b9ad334c9dec5dd813dda1e6f6fbe89d7150ce6c0"
+    },
+    "3D/characters/Source/docs/verification/kinetic/art-review/phone-ui-combat.png": {
+      "bytes": 44397,
+      "sha256": "dcf28ef63828a4893b204eae7a362eb2279aba542f7781cce6bf44f292cd8235"
+    },
+    "3D/characters/Source/docs/verification/kinetic/art-review/phone-ui-overview.png": {
+      "bytes": 27504,
+      "sha256": "0c1e6e6ab7dea293bb9aea7765fe0202e9fd643957f0bcec3e38f9f7381b7cc4"
+    },
+    "3D/characters/Source/docs/verification/kinetic/consumer.json": {
+      "bytes": 7801,
+      "sha256": "86715aca54d7c643e35c42f3f8f09267cc381c192face3ac9c8032b2f5d31e98"
+    },
+    "3D/characters/Source/docs/verification/kinetic/final-review.md": {
+      "bytes": 6631,
+      "sha256": "55ebf9f0e0f3b3dac63e8dd96d97e455e8fed9eafb7bac0cb0e177bd118d85bb"
+    },
+    "3D/characters/Source/docs/verification/kinetic/weapon-alignment-review.md": {
+      "bytes": 4290,
+      "sha256": "dd9352931dc2c5414af49df6fcc3ad72132720d1f954ad61c005d9de4265b37c"
+    },
+    "3D/characters/Source/docs/verification/polish/animation-changes.md": {
+      "bytes": 4949,
+      "sha256": "15d883ce8d2ec5d66e9c5c09c6d537ccb38c171a5c1c6d0aefe7eaf896c3ab71"
+    },
+    "3D/characters/Source/docs/verification/polish/animation-final-review.md": {
+      "bytes": 6498,
+      "sha256": "0443b3117ba8d3dca5463a2d52c09be0346d3096df1f216e6e7902e42a74ad88"
+    },
+    "3D/characters/Source/docs/verification/polish/animation-triage.md": {
+      "bytes": 29504,
+      "sha256": "ef5fed2c059f70890eb8e27ad23e7d35ba358a963587761d8f9d3fe278822ded"
+    },
+    "3D/characters/Source/docs/verification/polish/combat-triage-1.png": {
+      "bytes": 384115,
+      "sha256": "7cc770f22df75ba8c268ca775fd829ee1e0fef39a09782bb2acc5e7bff3a86fe"
+    },
+    "3D/characters/Source/docs/verification/polish/combat-triage-2.png": {
+      "bytes": 339726,
+      "sha256": "ae17bedd4e07237972eaea58bdff15fc849006410d7c0c24d9050cd58aec0ae9"
+    },
+    "3D/characters/Source/docs/verification/polish/combat-triage-3.png": {
+      "bytes": 271294,
+      "sha256": "4bc2a766afa1ef0a8eb5473f22237a33fd2a28695ad110466005d31f35ab3051"
+    },
+    "3D/characters/Source/docs/verification/polish/combat-triage-4.png": {
+      "bytes": 220348,
+      "sha256": "89b53b8cb560893371cf81d339a8fe406a956ae3ec3e05830553331f01c784a6"
+    },
+    "3D/characters/Source/docs/verification/polish/combat-triage-5.png": {
+      "bytes": 347250,
+      "sha256": "922668d46d149f8594812ba9ed3eb0701d1e242fe130fa54d0cdf31cac79600e"
+    },
+    "3D/characters/Source/docs/verification/polish/combat-triage-6.png": {
+      "bytes": 290550,
+      "sha256": "d0407d31c52f97ce0d9207a5c62950fa9142d645eb8ee87b6e8f67b13635c8c3"
+    },
+    "3D/characters/Source/docs/verification/polish/combat-triage-7.png": {
+      "bytes": 301802,
+      "sha256": "70cb9bd2c1cde9e6d1d7e2219af3d195e4ad0928c5e208e027f56e30a75677c9"
+    },
+    "3D/characters/Source/docs/verification/polish/effect-film-combo-rise-phone.jpg": {
+      "bytes": 136636,
+      "sha256": "604f27be9ef1792fbc79cfffa93c7b6f7f42e68c942e31ae9f7d4db65d4faf72"
+    },
+    "3D/characters/Source/docs/verification/polish/effect-film-explosion-phone.jpg": {
+      "bytes": 143338,
+      "sha256": "7a0c540d17cc6cac4109d519f03cb3fffe5392db5d8971668603ab8f633e2c8e"
+    },
+    "3D/characters/Source/docs/verification/polish/effect-film-footstep-dust-phone.jpg": {
+      "bytes": 140022,
+      "sha256": "f27886cf4f23d20ab9c9d040da442f5cc5e609303ca69ae204e92824e7231042"
+    },
+    "3D/characters/Source/docs/verification/polish/effect-film-sword-cross-phone.jpg": {
+      "bytes": 137626,
+      "sha256": "c26c4dae3fb24a87037aca0db95cad0a8cce712271a691fc60d6bf55b6e23351"
+    },
+    "3D/characters/Source/docs/verification/polish/effect-independent-review.md": {
+      "bytes": 12751,
+      "sha256": "b869d339886240c89a5a689c9eb25ff2c5913d99c4c36f3b53dab0e57ee21d1d"
+    },
+    "3D/characters/Source/docs/verification/polish/final-combat-triage-1.png": {
+      "bytes": 372350,
+      "sha256": "bbbc6be1803d8506610b81328f261fa7aad91514bc8617a9dd440ae130ae9222"
+    },
+    "3D/characters/Source/docs/verification/polish/final-combat-triage-4.png": {
+      "bytes": 245855,
+      "sha256": "301077f6e778419d3a6fde1b442fd4165f7460a0aaa52299eb651400ae6d9f7f"
+    },
+    "3D/characters/Source/docs/verification/polish/final-movement-triage-1.png": {
+      "bytes": 345518,
+      "sha256": "8beff92bec2e74e4a833a935e26df0a4dc2f2da86ce52445ae97002341aba475"
+    },
+    "3D/characters/Source/docs/verification/polish/final-other-triage-1.png": {
+      "bytes": 327233,
+      "sha256": "5e2838debb96f4116b2b0517162af433332141eb765b333281e0ac084f4dfd9c"
+    },
+    "3D/characters/Source/docs/verification/polish/firearm-diagnosis.md": {
+      "bytes": 5454,
+      "sha256": "888a6bfeb4d8aa0f902ff68779fb7f51158f68427b5bb066f3d394d24fec5685"
+    },
+    "3D/characters/Source/docs/verification/polish/firearm-film-review.png": {
+      "bytes": 241057,
+      "sha256": "083cb506608cd890f3e42022c90b5da61f05cf7be306b0a972e2d999d6e2df78"
+    },
+    "3D/characters/Source/docs/verification/polish/firearm-runtime-change.md": {
+      "bytes": 3350,
+      "sha256": "1b14cfcb681f36925baaa26a396279a9320b537392aa66e743c610fc1fc7fba8"
+    },
+    "3D/characters/Source/docs/verification/polish/movement-triage-1.png": {
+      "bytes": 347078,
+      "sha256": "e0a51e97d8e47dac0059c324e0c7d45290306c24e305126c3ed965b26c178e19"
+    },
+    "3D/characters/Source/docs/verification/polish/movement-triage-2.png": {
+      "bytes": 353982,
+      "sha256": "2c56868c6b66e41f8161b43aa42f4be197e93e612f60570e594af3d03c668048"
+    },
+    "3D/characters/Source/docs/verification/polish/movement-triage-3.png": {
+      "bytes": 345149,
+      "sha256": "05c5098cb666c7fe811786126751c09a64d52d1ddb0284ae40b93c43c41450ac"
+    },
+    "3D/characters/Source/docs/verification/polish/movement-triage-4.png": {
+      "bytes": 336524,
+      "sha256": "d76f9f3cd52ccddeae2f990d37bfabb6e05d34df03ff353d2b6127f37ae77d46"
+    },
+    "3D/characters/Source/docs/verification/polish/other-triage-1.png": {
+      "bytes": 330210,
+      "sha256": "d46926528c97604ba0d0dde544c5ff71607dcf5cd0559e7757c580e2c97f66fb"
+    },
+    "3D/characters/Source/docs/verification/polish/other-triage-2.png": {
+      "bytes": 297649,
+      "sha256": "84ef6da1878cd1f8fd96cef675c37148633b69fe34342d4aab073a724ef7f84e"
+    },
+    "3D/characters/Source/docs/verification/polish/other-triage-3.png": {
+      "bytes": 321863,
+      "sha256": "86c9a639a750647afbf7c5b99695ba24a87c0e06836e0d2fb2154e4e997dcbe6"
+    },
+    "3D/characters/Source/docs/verification/polish/other-triage-4.png": {
+      "bytes": 66554,
+      "sha256": "c23be412302a624f3c672ea99e46e72739f79c42be808b910333a08f615ccf85"
+    },
+    "3D/characters/Source/docs/verification/polish/phone-jump.png": {
+      "bytes": 27333,
+      "sha256": "1a6e7b7551a4174bdc505f91afc4c2540ca467c1ffdd7a8e71eb903415a1d52a"
+    },
+    "3D/characters/Source/docs/verification/polish/phone-scene.png": {
+      "bytes": 19192,
+      "sha256": "80e4085e06f50a10b10d10ab7175132bd9fb651ddc1225f0ebc9c4fbe6757da1"
+    },
+    "3D/characters/Source/docs/verification/polish/prototype-art-review.md": {
+      "bytes": 8501,
+      "sha256": "f2c6d350cb06e96b7ed428fdd9b60f2201729efc7be49e13ad4e01598b24eb21"
+    },
+    "3D/characters/Source/docs/verification/polish/runtime-independent-review.md": {
+      "bytes": 5296,
+      "sha256": "985123294f9342a33cd6a2df9b104c3c91c9bef916b91b171dda90abdbe98abd"
     },
     "3D/characters/Source/manifest.json": {
       "bytes": 257913,
       "sha256": "63a309bde3ba07a0e4f879fb629ab9cd7f4eeb11398a3dad987e46d9041f42b3"
     },
     "3D/characters/Source/runtime/assets.ts": {
-      "bytes": 32476,
-      "sha256": "75cc8507ef8dcf46c18397bf4c2447c5265be1eeb3a970abe6709b04ed472240"
+      "bytes": 38550,
+      "sha256": "1dabd2352045c02944c34e788732c9aa215a336e60e7343d51a943ae6dd0ed2e"
     },
     "3D/characters/Source/runtime/camera.ts": {
       "bytes": 11400,
       "sha256": "a5dfe0b3210c257539c944707a3e6d7be35cd6c818dccd27a1f9877d5f5063c2"
     },
     "3D/characters/Source/runtime/cutaway.ts": {
-      "bytes": 5218,
-      "sha256": "10c0cb606b00eee1dc24a6def91b8daec9451eb1710d423892d98571bb0c17f8"
+      "bytes": 5489,
+      "sha256": "f5191c8194f2a62333873c48099640f3db378843391f74cbc5e16d87027822ae"
     },
     "3D/characters/Source/runtime/district.ts": {
-      "bytes": 6719,
-      "sha256": "2bafc41073229b7d77f20d3dedba1413d8e1a8da33675a1886c63b351e3f31b7"
+      "bytes": 6784,
+      "sha256": "196c5671bd0e65a4fbef94fde462f1b2e8d3ecacb896ebb684b0ca1132628241"
     },
     "3D/characters/Source/runtime/effects.ts": {
-      "bytes": 34480,
-      "sha256": "74f620b5f1f637bf8da581b472926d1828d9e1559325a675cd960b22fcb4c9c3"
+      "bytes": 34749,
+      "sha256": "10a6ffdb766f47568b54036f8275734346ef54b17d56e72a4e05b1cd8bbabd47"
     },
     "3D/characters/Source/runtime/firearms.json": {
       "bytes": 611,
       "sha256": "6321ecf8b09f222e7720af0741ac4ab138d8b8fe992c16af154a8a76ea583d42"
     },
     "3D/characters/Source/runtime/index.ts": {
-      "bytes": 1503,
-      "sha256": "a32854ae643a1e1e069a1326834d7f2380cae680c50e65d79385adeb50d78073"
+      "bytes": 1606,
+      "sha256": "c1b6394d823fb6f0b17b67698c556bb3d49df2a6708ae145160d383e3cd85ec3"
     },
     "3D/characters/Source/runtime/kinetics.ts": {
-      "bytes": 9295,
-      "sha256": "8712470c57527c7c261c67ef98e718e670b9fea29f875ee44556115ebf2898ad"
+      "bytes": 12910,
+      "sha256": "b194e95670511fa1d589f617c62fb8a8827ac0e10dd9e253023b13f5a66bf181"
     },
     "3D/characters/Source/runtime/layouts.ts": {
       "bytes": 9172,
       "sha256": "f3a6c7df9a5504699f4311ad319a88ab7330528d66f5f62d1188607b5b676bd2"
+    },
+    "3D/characters/Source/runtime/palette.ts": {
+      "bytes": 3415,
+      "sha256": "bdec823c18fdf8bbee8431568bca7ea2314dd181fde4f93c812f740c9661f027"
     },
     "3D/characters/Source/runtime/physics.ts": {
       "bytes": 4760,
@@ -729,468 +1537,464 @@
       "sha256": "78fa996d0da36284fc676086a574a2b3649b0afe8b44c8e779b50c7656754199"
     },
     "3D/characters/Source/runtime/roles.ts": {
-      "bytes": 3096,
-      "sha256": "5003ee26a43b85486c0c75adfdc6fe993ea4f26c9909d20994985f396c78bf37"
+      "bytes": 3095,
+      "sha256": "cfc953d085e12435087f8acf159b37eea4f1ab363bbe1bf7a2a6a9ffc89c68e0"
     },
     "3D/characters/Source/runtime/trails.ts": {
-      "bytes": 7853,
-      "sha256": "5037eee24af2ec58647d5c9551b4f792cc9f3ef33cf52d5795f83bde51d6f525"
+      "bytes": 7881,
+      "sha256": "291da45bc05d8472040648d23e78ff414d710753257419b94607edde1982d24d"
     },
     "3D/characters/Source/sample-pose-metrics.json": {
-      "bytes": 882440,
-      "sha256": "e738ddabb80fe6d5c460e366297b17a9dd10521d09b4256ba40ab2f515776dc6"
+      "bytes": 882328,
+      "sha256": "5a36000fecb1b6afa09c640cff310de0335213ed952dfae6f149ce4c8616cebb"
     },
     "3D/characters/Source/types.ts": {
       "bytes": 2786,
       "sha256": "3a7f9ba8e88e9d75db55c60b94621b2441de39989467eedfd6f1183277e0559d"
     },
     "3D/characters/preview.png": {
-      "bytes": 8033,
-      "sha256": "7d188df6027b2c2773843b4359b1268cc14378a21b5b042124505fceda0e08dc"
-    },
-    "3D/characters/preview.webp": {
-      "bytes": 12292,
-      "sha256": "5bbd07977b3353b2fd352ca3bc935515e83e3f5a920ab81db2c2735f11a9e1ac"
+      "bytes": 16885,
+      "sha256": "a52796ff6a4253d7f5f326b24992530a84205db02ee0776a5a55eb200f4a0395"
     },
     "3D/characters/previews/animation-backfist.png": {
-      "bytes": 8427,
-      "sha256": "5d30bdd2f7286cd5baf38954a865d098e675fed9c3edd5d2c75c5f42af00525f"
+      "bytes": 19178,
+      "sha256": "d4a54547deb9b003b69fec5f3b5085e13ba6b03c2ab343bc288d1ac3515551c7"
     },
     "3D/characters/previews/animation-ball-kick.png": {
-      "bytes": 7310,
-      "sha256": "ebaf09e5f3ca5e39d81d97d4bac14570e28a86a950d5498b6d1096233d2cc248"
+      "bytes": 15765,
+      "sha256": "cdb55e1425f15c8cd2f50689f110a767064712eb9fb4ff59bd98c74ec7dd3e87"
     },
     "3D/characters/previews/animation-ball-throw.png": {
-      "bytes": 8463,
-      "sha256": "c6898e14c90b0f2e5b62e04565b94d66c7e3d277aa4be31529b50596158c480a"
+      "bytes": 14464,
+      "sha256": "ec341f904e649a18cc647e9c88716625f1f2286990ddcd0f20fd2fe83f443f71"
     },
     "3D/characters/previews/animation-bat-swing.png": {
-      "bytes": 9610,
-      "sha256": "b8e1847d83613bba9d2e01b70c17c2c4a30c7de3c233817241ffadd3f0516f16"
+      "bytes": 18219,
+      "sha256": "d4bd58a1356c902c9a31cd4a6c251b192281e6b57005abad45314b725917023b"
     },
     "3D/characters/previews/animation-block.png": {
-      "bytes": 8035,
-      "sha256": "8c83599fd3dc3b03cae128dff8647bf74d598d9f03789f262f5ada451f47c69b"
+      "bytes": 17470,
+      "sha256": "9c1d203fb5603307ad58da70ea48f15df5ae469710731069553f90cb8d0e1d16"
     },
     "3D/characters/previews/animation-bow-draw.png": {
-      "bytes": 10983,
-      "sha256": "8482efad5c3fe92c349b2ab9d14d3bd03f5ca312ab6a025d1c7ece2a7c682556"
+      "bytes": 18479,
+      "sha256": "76e838f1c5d10091d89ae8571f090998cb23b47f572fc0ec1a8dc71dc2c445b4"
     },
     "3D/characters/previews/animation-bow-release.png": {
-      "bytes": 10190,
-      "sha256": "c9e212ecc7caaacca72b587383e0f1e15d2a9f888ddf494f4d7c848ec85ff1c3"
+      "bytes": 17934,
+      "sha256": "aab7d81192e08f51af5cfd222099e82eb496dede8cac1f15937424b45cf763d2"
     },
     "3D/characters/previews/animation-carry.png": {
-      "bytes": 7521,
-      "sha256": "9088c16b9d31d9deb83a3c4d0478a52e74d85bd0b3fdfb3de93fdacfc23dd362"
+      "bytes": 17196,
+      "sha256": "c2ca024421d2becf19f4f17ad5a55ef2ff1b2551649af03ad266b4315642ae73"
     },
     "3D/characters/previews/animation-celebrate.png": {
-      "bytes": 6968,
-      "sha256": "042f0c8e97dbf3fc1e2651dc8580ac19dfe7814038f7b2fe6f68ecca869b4750"
+      "bytes": 14627,
+      "sha256": "1f43053ec1f98e8cea640c2a9980b99c50baa3456ca660ec854197ee0529ebc2"
     },
     "3D/characters/previews/animation-cheer.png": {
-      "bytes": 7000,
-      "sha256": "53e5a4458f88efb86a7dc425948b3ee4b8c9d5d1c045b30b7f6a626f7dda3ad3"
+      "bytes": 14517,
+      "sha256": "d0c072763bbccc1c2a54498ad0a481cb16a216d21000766b0043c0ab33f5ed32"
     },
     "3D/characters/previews/animation-climb.png": {
-      "bytes": 7514,
-      "sha256": "941fab671dd96df02f22286493bdf84873649dd07a1b5f509d05a285e3ed5f0f"
+      "bytes": 16666,
+      "sha256": "8f50f2a6284c5490016ccf4e26fde33832ccc5c6e04dc3e27f3a9b041b6b14e1"
     },
     "3D/characters/previews/animation-crouch-idle.png": {
-      "bytes": 8673,
-      "sha256": "265919d8e6e491ec99e3359f33c18a9e7bce7da0629bb2905a7a70b5522bff1b"
+      "bytes": 20630,
+      "sha256": "0e914cbb5a4a85d61689aa01fe9c9141954208b8680966b38751c2840a90892e"
     },
     "3D/characters/previews/animation-crouch-walk.png": {
-      "bytes": 8219,
-      "sha256": "99c7d82e282edc70cb66420a581995369da6d678aa4cdb6e32b31f2ffb7d736c"
+      "bytes": 19346,
+      "sha256": "480cc4783ea5bf96d0c4af9c4052f0710c180dd91a8d19661f1d4584db70a479"
     },
     "3D/characters/previews/animation-dagger-stab.png": {
-      "bytes": 8607,
-      "sha256": "611cab071b658f00a0db4e0acd5d154e993241c1ecc933931e0374bf8f78fac1"
+      "bytes": 15735,
+      "sha256": "892f08d74abf63f826414319f81c354912621f2da40be5aeb9f2de17f476a68b"
     },
     "3D/characters/previews/animation-death.png": {
-      "bytes": 6365,
-      "sha256": "c6b1ec6752fea3062b64bf4b106e8d515412b3c25a2605798d16f4621d7f6c58"
+      "bytes": 12751,
+      "sha256": "3cda76f2cc48de09485919b8eeba14c8c22a32b062b0eb805c8ee0388fc1694c"
     },
     "3D/characters/previews/animation-dodge-left.png": {
-      "bytes": 8192,
-      "sha256": "2a3fec56adf18e6278e7ea9101c525a5d77fd2b3e3414b6d978b5198a4fddfd9"
+      "bytes": 17852,
+      "sha256": "8595912c225029d4deae423f57efb4b62e8cde870ca5d9023c8fba64134e4ad5"
     },
     "3D/characters/previews/animation-dodge-right.png": {
-      "bytes": 7818,
-      "sha256": "099d05528367604cf0a829278ece3f6e1d22f7032df8467e65a1a7c9522f5255"
+      "bytes": 17840,
+      "sha256": "c1e0bfe65ae9c57c6117488c9593d973237fe14f0ab0225371090adc10e1b34d"
     },
     "3D/characters/previews/animation-double-jump.png": {
-      "bytes": 8689,
-      "sha256": "83b5d3177fcb06df7090f9edcdeb6a7dc096fca2e5ff3e2c8c628b03084c652e"
+      "bytes": 19583,
+      "sha256": "18db361e3aaa2e7e62db87079007edcd150a00590cb8d88e2d732400a727d79c"
     },
     "3D/characters/previews/animation-elbow-strike.png": {
-      "bytes": 7450,
-      "sha256": "f183405bf4752b46ab15ab44e94a633ca0e8641f0fabc5b8d23d05973e9b357f"
+      "bytes": 16404,
+      "sha256": "42cd808dcaafbfc3c098f0c1d14bb04018ee5e6956ee4f127f372abde35ca03e"
     },
     "3D/characters/previews/animation-get-up-forward.png": {
-      "bytes": 9682,
-      "sha256": "33be84f914866a8ca7cf2ec3b7231a5059b18020ae9109fa124b4816360124b6"
+      "bytes": 25694,
+      "sha256": "51444de6ee2ab79c14fc64c5df69aa82424d71b148170b3d01cdddb390a10847"
     },
     "3D/characters/previews/animation-get-up.png": {
-      "bytes": 8154,
-      "sha256": "1ab0fb323af6d8528d7c8fcf26af0e4009280af07b3a67f96893c23f2a341cf9"
+      "bytes": 17899,
+      "sha256": "db1d5d020e6047ca3571ebaadc31d92aeb8e842cf92faa332a3efecd10c4b333"
     },
     "3D/characters/previews/animation-hammer-overhead.png": {
-      "bytes": 9731,
-      "sha256": "ba4e8d6a13f89168afff41d3080b380d7e900c7149c3fa5467722d530e07a402"
+      "bytes": 19939,
+      "sha256": "387c4c11bcdd7f721d7a528501263301ea87bb56fb04e6d51c459e7c4ea03821"
     },
     "3D/characters/previews/animation-hit-back.png": {
-      "bytes": 8820,
-      "sha256": "3c3f33ec5779a11b78976c56b937530ec2b04de52064af5c80dc49e3bab51aae"
+      "bytes": 20616,
+      "sha256": "82426d431750f9a0228470d07f9a679dcbeb3bbe9ce1d49595ccbf05d913fb04"
     },
     "3D/characters/previews/animation-hit-front.png": {
-      "bytes": 8813,
-      "sha256": "577f1bc2cafd9b5eae13301623ccf659d01098b8b9f7ecd1724dfbe892ca3690"
+      "bytes": 20177,
+      "sha256": "1cc46f921efb1b6841792a8f51b391d1174478b95e75476dc4abf2c9918ee69c"
     },
     "3D/characters/previews/animation-hit-left.png": {
-      "bytes": 8184,
-      "sha256": "e1fd7c9a65d1a7d0387cc5644459bea61442cfb2ecb4764c6660a0282d032497"
+      "bytes": 17083,
+      "sha256": "3253139eaaf2de2949325897d2b85c044dc54948bb6595485c807b5f89bfd4f4"
     },
     "3D/characters/previews/animation-hit-right.png": {
-      "bytes": 8418,
-      "sha256": "6c4dacaaa54235b361e9999e2d2ee0c6b1a534b644e1ec72e4934929055406bd"
+      "bytes": 18317,
+      "sha256": "e010978b10c5f32eb352b219a581d551d18a459c394a1379407bc31339454e52"
     },
     "3D/characters/previews/animation-idle.png": {
-      "bytes": 8016,
-      "sha256": "356064157f74f1458324a2e4d0e24fc62f90a75e7eefb0f256b566a7a68e1323"
+      "bytes": 16848,
+      "sha256": "20737a21f265d5640fd661553ecd5eb2d135f6388c117375c7153bc2fb80759c"
     },
     "3D/characters/previews/animation-interact.png": {
-      "bytes": 7696,
-      "sha256": "1cb7ab6a92cb5d02221eb29e690bdd90cd8891ae82490b1f65faf9c95f9ee881"
+      "bytes": 16851,
+      "sha256": "de3b0341adcfca3ee04d9e4f69fbc16122d7864ed4b0e61ae4b044416b80dbce"
     },
     "3D/characters/previews/animation-jump-land.png": {
-      "bytes": 8069,
-      "sha256": "977e0ec6e32ad7b88b17846101a5ea822e035b0106b4e0543b3045ebeef3565f"
+      "bytes": 18056,
+      "sha256": "7e614bd917014cb7dde77dca41f1d4ce39e331f83d4c7cc02e356446256beca5"
     },
     "3D/characters/previews/animation-jump-loop.png": {
-      "bytes": 7395,
-      "sha256": "08d1d9223f1c1426e824e8516717368c716dd26bb47b15a3129693e406545628"
+      "bytes": 16334,
+      "sha256": "fcd8695c1d294a478a38d39b0139697cbedf0cfd6b95d08d6042a9a44bbef8c1"
     },
     "3D/characters/previews/animation-jump-start.png": {
-      "bytes": 8089,
-      "sha256": "787fedadd5007a235713835b11264c2dd202b45921771f7243be0b8b6ee89512"
+      "bytes": 17902,
+      "sha256": "55f86796c10d0e3630962e6245167b8460d0de00966242c6d80531c2c1fc9d29"
     },
     "3D/characters/previews/animation-kick-air.png": {
-      "bytes": 7737,
-      "sha256": "d3fd373bedc02a5150943826b3974d006b3027c431850503b33f0ae0f99a0899"
+      "bytes": 17463,
+      "sha256": "55a9a6bedcfc20ad512b492b48ac2ea67cc459d058f6f012e8bd82eac6c62a82"
     },
     "3D/characters/previews/animation-kick-front.png": {
-      "bytes": 7711,
-      "sha256": "1829bde65f8335d57fb25a480c612163505ca69fd21e98e3cea2df825db5076b"
+      "bytes": 16975,
+      "sha256": "39e80e2c88d2f350cb3c0babcbcb0c77374c5122502afd3a611bf5568655c8ee"
     },
     "3D/characters/previews/animation-kick-roundhouse.png": {
-      "bytes": 7267,
-      "sha256": "9de9f135644970851e624be5f41fd028586486d4562c63296b5b49399622c295"
+      "bytes": 14506,
+      "sha256": "587c9c398986ef4ee60baa8ca7f06e79ac212fc8f8111b3f77da3545d759350e"
     },
     "3D/characters/previews/animation-knee-strike.png": {
-      "bytes": 7803,
-      "sha256": "0dc75c8f0638349b58134683c549c2db7ad54d13249029f10f3d0eaa9262f5c5"
+      "bytes": 17338,
+      "sha256": "471187055277ebec9b5178757fd4f3874684d544aa487048ad76cc6714eec479"
     },
     "3D/characters/previews/animation-knockdown.png": {
-      "bytes": 7276,
-      "sha256": "ac01f38685a40b258e809fee7f3a24d4b644790e408509e321243e72ac2f0578"
+      "bytes": 15450,
+      "sha256": "6f6604320590d539a4514e12c6cfe379165f3abf8c9c5476f352bc456fe99240"
     },
     "3D/characters/previews/animation-ledge-climb.png": {
-      "bytes": 8833,
-      "sha256": "153ee20960ddc7dfda1d4ab5c9fc8d760583fc8acc686d3efce4af0d6ea32e39"
+      "bytes": 19877,
+      "sha256": "1cfd50ad32e10b4102e605159a52e1ae5906347a96800884ab68e69420e64195"
     },
     "3D/characters/previews/animation-parry.png": {
-      "bytes": 7138,
-      "sha256": "9a42a153f98a3fc2a4646be56519ec733e954dc65dfc98a188ec928a4e246735"
+      "bytes": 15207,
+      "sha256": "bc9eb3a5aa9ff848c2c582dd0e1bb65e528f63285db0c1c64c989133578cb763"
     },
     "3D/characters/previews/animation-pickup.png": {
-      "bytes": 9098,
-      "sha256": "9b8fd708da099e424209defe7056cc1b5bb621c72652562328953e4a1a242860"
+      "bytes": 25690,
+      "sha256": "430cb130cb7c4fc868a2cfc56ff0c141897057f5b0c3b1aa18baa9c25deed238"
     },
     "3D/characters/previews/animation-pistol-fire.png": {
-      "bytes": 8308,
-      "sha256": "52c06e10d71690e8657a25629bc1b0ac143f29810e49a3e60e1e4cae98350a2c"
+      "bytes": 15681,
+      "sha256": "47874d36eb9853ea30fc1a9a8c1601abea2f149aebcca35fee2f1272a09e8b1e"
     },
     "3D/characters/previews/animation-pistol-idle.png": {
-      "bytes": 8535,
-      "sha256": "cdc6357510737527b93bf00786d69191b5eea6905be58aa26cb069ab8b56df2a"
+      "bytes": 16519,
+      "sha256": "9f332ad1c50afe9a705289f78cfcb450698881bff36d7287f91cc5e7fde8a0dd"
     },
     "3D/characters/previews/animation-pistol-reload.png": {
-      "bytes": 8652,
-      "sha256": "ddd92bbdd9385902e26e280aa7e43ac50f5ebcb060aecc49fa8fc24baa67597b"
+      "bytes": 17126,
+      "sha256": "454050fc21e30d971bd276aefbee69a20c5c1e79303976cb5264584efa77630f"
     },
     "3D/characters/previews/animation-point.png": {
-      "bytes": 7426,
-      "sha256": "1a6f5098ed7da8bf3e743c4405195e29032f8a3fb1f22402af9979a8af8fffa5"
+      "bytes": 16157,
+      "sha256": "0afa62f6a71117236feec4a7c4d25d09c933ea89a87fa1ec9f4b0870a656088a"
     },
     "3D/characters/previews/animation-punch-heavy.png": {
-      "bytes": 9222,
-      "sha256": "775a7bae4694311a9fa96faf91c376c77ece9e44e728c7ead576d7ffc664945f"
+      "bytes": 21990,
+      "sha256": "f91c01c2319f20c7c3b7ffdaf909091c21e3f3fc9cec934c13bd30eb67594b1e"
     },
     "3D/characters/previews/animation-punch-left.png": {
-      "bytes": 8154,
-      "sha256": "b61cdabd33ebdfb88cd2ea7e278bc68b8265af329a022dfaec556187b92e9738"
+      "bytes": 17823,
+      "sha256": "51161f2aec48b643d904c644c316a37d91d3bd6eee8342f3d97d0e9ee0e09cbf"
     },
     "3D/characters/previews/animation-punch-right.png": {
-      "bytes": 8796,
-      "sha256": "11ebe0f532769f92c826d9bafff09bed53e800c120229dc9fc3acbb1ae03ad24"
+      "bytes": 20168,
+      "sha256": "04d34eec747a0c992212aaeb35d3dc60db8db67305e0a22a77524fb6797cd1b3"
     },
     "3D/characters/previews/animation-rifle-fire.png": {
-      "bytes": 9309,
-      "sha256": "7f13020e8a0606270bd73746ef349fad4f0c335f7c552d0045c10eae164cd38e"
+      "bytes": 16524,
+      "sha256": "be2024e7ea5299bc493705f5e5a0ce4509c75297646201a8d1750dc196ade0d8"
     },
     "3D/characters/previews/animation-rifle-idle.png": {
-      "bytes": 9332,
-      "sha256": "f3ce5dfda6647538518625f4f6275d94f7cc507d3b35709fe24f15ef18170365"
+      "bytes": 16608,
+      "sha256": "a9adad229acb9fbd13b865968c3a7a75f1a19ae373fae7bc05854adba87a090f"
     },
     "3D/characters/previews/animation-rifle-reload.png": {
-      "bytes": 9890,
-      "sha256": "5c84e4e22bea900f36f26779a3e10761f8468f39127ee47faa481a41ff819415"
+      "bytes": 17559,
+      "sha256": "b7795e5302ccf82aaa0917dc7d9cfc8e93660d29b78e1cee6aa1d0fe13468b27"
     },
     "3D/characters/previews/animation-roll.png": {
-      "bytes": 9590,
-      "sha256": "667197048a0ae3b18093f44b68983849c75ac6e0d07c877f31475c9727c483b0"
+      "bytes": 29293,
+      "sha256": "dae6b6a90f573e52f0bf0d828a1c9000ee3a901716d795784125af89aafbd56e"
     },
     "3D/characters/previews/animation-run-backward.png": {
-      "bytes": 8004,
-      "sha256": "e3783fa14eaf88cb2087a8aa4da75bbbadfb49715d1b48bc99abcad217ad4495"
+      "bytes": 17862,
+      "sha256": "c4fb48ffa462f0a34164c595ae820277e264507a2229f61098f328331ce2912e"
     },
     "3D/characters/previews/animation-run.png": {
-      "bytes": 8671,
-      "sha256": "a6e5ddb3a157012148c93c49576cf3152e3b306a3a5d75965ea0163a965b9d4c"
+      "bytes": 18972,
+      "sha256": "769f1e3fa690099dfcde0de189a42906af62d528418c9a47c4ced7b729802c02"
     },
     "3D/characters/previews/animation-shield-bash.png": {
-      "bytes": 10458,
-      "sha256": "1572fa50457538011ced745b6ecb49129b935e5aeb0b0c558a38973a35f8aed7"
+      "bytes": 15456,
+      "sha256": "c9f0d98df1dca826a2fc87da0efbe3903cf3f9257a711fa58832c2665e3cd203"
     },
     "3D/characters/previews/animation-shield-block.png": {
-      "bytes": 10089,
-      "sha256": "f6f4121bff912abc254cbbdb311333bfc0ed4cd8dc0bba4f32d5747e0109b5ab"
+      "bytes": 16759,
+      "sha256": "82905af9ab7fca3c9f1ceb671eca3fe47302fb5978f9ff316375380db0e0d87a"
     },
     "3D/characters/previews/animation-shield-push.png": {
-      "bytes": 7708,
-      "sha256": "5db5571c7a72eaf3e5f97b98030cd08547da4f75b3bca708f1ced8a62c9ed687"
+      "bytes": 11497,
+      "sha256": "195e244bc42d23ec937d0f2557f979289e9c12bd17a0ec3b6c774d25fb96945a"
     },
     "3D/characters/previews/animation-shield-slam.png": {
-      "bytes": 10725,
-      "sha256": "c606ab71362fd4434d4857ff0a840c5814009a605dc770a6c142c02f7365ceaa"
+      "bytes": 18966,
+      "sha256": "4b9ec1cff3c3be32795ccaca91ab8b5ab2b222830fc11333f930ee01d86c3b01"
     },
     "3D/characters/previews/animation-shotgun-fire.png": {
-      "bytes": 8942,
-      "sha256": "6c9083b9df581b80c9449fc814fb3092d91bbe70cc05adf4005dace742eb8ffc"
+      "bytes": 16446,
+      "sha256": "630b3639c595ed30f98368277052f68828686e68d8494c069bc9d8ef56645e96"
     },
     "3D/characters/previews/animation-shoulder-check.png": {
-      "bytes": 7458,
-      "sha256": "4686141733085372180843604ac9f72b9b70766e34c5748e61e2fb7594d6edad"
+      "bytes": 17205,
+      "sha256": "337f809a0c1ff5cb7594e38c0475a7bbb137472ab7b4b3e353a4b1ed9700287b"
     },
     "3D/characters/previews/animation-slide.png": {
-      "bytes": 8509,
-      "sha256": "cc6f347807451a1e67f6a9c731790c22c8606cf8ca50a6aa2cfdd3d04bf1111b"
+      "bytes": 19561,
+      "sha256": "18c28b992a82f4d2a4ff0e7b9de419036309dfc44afe5a5528d084559f292ae5"
     },
     "3D/characters/previews/animation-sprint.png": {
-      "bytes": 8545,
-      "sha256": "62c55cb9367b59a4ad9b74cf0a40a6adce9114b1c55320a5eab3791589e8935f"
+      "bytes": 18653,
+      "sha256": "155809ff1b8f9b97fd52d91c46839063f61e4c648074ae490caadd7d26b951b0"
     },
     "3D/characters/previews/animation-staff-overhead.png": {
-      "bytes": 10434,
-      "sha256": "2dccd11aaad7c83f6ad92295bc2d657faf884fc280290bde9c28a2d79530268e"
+      "bytes": 16744,
+      "sha256": "d24601f09ae9a7df770c44326991b784eac92e92c86588d95d6e11ce8cc8364a"
     },
     "3D/characters/previews/animation-staff-parry.png": {
-      "bytes": 7985,
-      "sha256": "7bd3b235cda055b68e5bf02ca9bbdd075728b5aa5e3b27711a6cd76a45e67484"
+      "bytes": 14429,
+      "sha256": "9efba661a7bd0e9b7e5d3b968eb83283e628c58f113f03b0cef879e04a25091e"
     },
     "3D/characters/previews/animation-staff-spin.png": {
-      "bytes": 9846,
-      "sha256": "2d5cf0fc7fa9fee631e04aa978ad65432bbfb3d5c4900416cc14d47ecfcc6459"
+      "bytes": 15475,
+      "sha256": "a7641975072757260cdd0122b1d59431667b4239964ef2a2945d9bc7ad393451"
     },
     "3D/characters/previews/animation-staff-sweep.png": {
-      "bytes": 10162,
-      "sha256": "51e30d0f77a5b4a9f5cd0b864326b9d15ca3274c1b3cfa72c073d374670a609f"
+      "bytes": 17255,
+      "sha256": "a82c2765e7ed89d0fb19fbb32b9f174b2a23c734d90eb8ad72939a106bf44b19"
     },
     "3D/characters/previews/animation-staff-thrust.png": {
-      "bytes": 9451,
-      "sha256": "5bffc2a50a5b5285d6839bb066709e93c30f71e56102e021d7b036b69956bf13"
+      "bytes": 14903,
+      "sha256": "db7d94474c231210aa94a463b6b44d366a425dd52d9537e5c2ebede2424a8aa6"
     },
     "3D/characters/previews/animation-strafe-left.png": {
-      "bytes": 7162,
-      "sha256": "f2b328b5a7ee2d29fdd9021148fb21db68d234a794c921efb1658eef8d390976"
+      "bytes": 16182,
+      "sha256": "c9783471d6f1ca7e4b12b913d43ecd73801606252f353c94f1e88ead632d1824"
     },
     "3D/characters/previews/animation-strafe-right.png": {
-      "bytes": 8473,
-      "sha256": "cbab61c1fcb2a2c0da456c21aace87e1566e4860802a49ec0c0058c9eda890fe"
+      "bytes": 17895,
+      "sha256": "cb329e71adcba0301b03c2c266fb53d78a363d922282c5a4f821c60fb1f1b01d"
     },
     "3D/characters/previews/animation-stun.png": {
-      "bytes": 7894,
-      "sha256": "d4d6f8059592e229cfba484438b26134da887e59fa91c624dfdaa8251c0ee5aa"
+      "bytes": 17606,
+      "sha256": "1a5d26917679fb220e2aaf058f0aa14d1915bcba4ed3c50853e7aa6af8ad2d3d"
     },
     "3D/characters/previews/animation-sweep.png": {
-      "bytes": 8900,
-      "sha256": "0250994533432e39736d5ec6b6ab31f77543923dca06f70ca6a083a88244deab"
+      "bytes": 20853,
+      "sha256": "731976902e40e8b8b39854ad56dd2d7e9edabdc1536dec95e388e068fed36d20"
     },
     "3D/characters/previews/animation-sword-diagonal.png": {
-      "bytes": 9290,
-      "sha256": "3a307703162f8b7bc00579d16ce03122be92fc664f3b0d718416bdf2f3223d8c"
+      "bytes": 15128,
+      "sha256": "6d96b66bb5955c805c797c1611ab1bfc0467a184a7ece3d396f7edca6475031a"
     },
     "3D/characters/previews/animation-sword-lunge.png": {
-      "bytes": 8953,
-      "sha256": "b66fd7020bbc039dc5b74221edf720948da4cad7b4132f42cc6671603643ef4b"
+      "bytes": 14051,
+      "sha256": "e21b030cc9a230e9fd153f3b196c92a9b2fe4dce7d9bd258f63deca8f1c55fc5"
     },
     "3D/characters/previews/animation-sword-overhead.png": {
-      "bytes": 9364,
-      "sha256": "56b50aa65f0d80e8f58fa7061b9790c533a933df07dc600a23e4270ae65a3ff7"
+      "bytes": 14905,
+      "sha256": "ae3d2a3fd69cb40cc365f4e5c25127888e42840e3626758b1c15a5e3817319c6"
     },
     "3D/characters/previews/animation-sword-slash.png": {
-      "bytes": 9553,
-      "sha256": "6209cedc35131975a16b686556649d62e3e63b047862e4ba5d2ee10163ab3c22"
+      "bytes": 15535,
+      "sha256": "5f9ebbe0fadf0b3223f97b238a09f511f642ff50c2a66e9a911016867a8e4562"
     },
     "3D/characters/previews/animation-sword-thrust.png": {
-      "bytes": 9064,
-      "sha256": "795364adada3bd384a5109b6d0532d59ef92b8be2e5c1e8eeec1b4716f92eb62"
+      "bytes": 14368,
+      "sha256": "d9076a49578bb5acb22221ef48cf0eb258713b1f6fdf1d362b078ea02945abf3"
     },
     "3D/characters/previews/animation-throw.png": {
-      "bytes": 9017,
-      "sha256": "754fa63a902a204101bd02d8f6b1f9eedbda1c628446a5a0dae24e04195be424"
+      "bytes": 17391,
+      "sha256": "bcb6963ea008e8e4acd0e2a4b98caba805546827b69fcb2f2a83d34eb024e02b"
     },
     "3D/characters/previews/animation-turn-left.png": {
-      "bytes": 7668,
-      "sha256": "9841969dada9604bb2d337986fefcd5896cba11dc3fdc2515b08026cd4f5cb5e"
+      "bytes": 17577,
+      "sha256": "f540c708112856d3336230b9dea0b55a60494ea9efbbb4ad992917a7cff67c77"
     },
     "3D/characters/previews/animation-turn-right.png": {
-      "bytes": 8236,
-      "sha256": "aa80effe08f50adf454c99b3d99e75f941e90e82fdc9c2d4f3de5a5e0549b20e"
+      "bytes": 17056,
+      "sha256": "5e7cc38cef9bcb4e4d8c68f643c976f16f27042c1931597d0a24767cb3142278"
     },
     "3D/characters/previews/animation-uppercut.png": {
-      "bytes": 8848,
-      "sha256": "a045abd05d43ce31249f344226cf475df288d24299bb1a3866b1b317b443e9da"
+      "bytes": 20824,
+      "sha256": "7c40ea8ff5369a88ad075de3affc746da69ca0daabe4ed6c0a2ff3dc57cbb678"
     },
     "3D/characters/previews/animation-vault.png": {
-      "bytes": 8190,
-      "sha256": "a71d0567ad6089480eb7f010bb9e36c91e703bc28ad7a1b788d29d20136124a5"
+      "bytes": 19769,
+      "sha256": "f6354d3eed25ae8367e6668a9013b4091fb8891c7a2bf13d08a2c7649e427607"
     },
     "3D/characters/previews/animation-walk-backward.png": {
-      "bytes": 7624,
-      "sha256": "0a87327b02e65fbac8f8e752929ecda6a483178928a5a635f375eb8ca496368a"
+      "bytes": 16582,
+      "sha256": "d78cd8a034138b2806f3e71a56d56ac9115445176796fcfc10fb66520de386a1"
     },
     "3D/characters/previews/animation-walk-left.png": {
-      "bytes": 7279,
-      "sha256": "042e12f50ed95e3ef14fca92ff7bcee5cb7c45c07bf79f47a95303ddbda7821e"
+      "bytes": 15869,
+      "sha256": "7f7eb386a2d5221b29c6b7fe48d187685c1a3af5f82676aba6298c8376fdafbe"
     },
     "3D/characters/previews/animation-walk-right.png": {
-      "bytes": 8269,
-      "sha256": "b4976da3870e6b9b7c66567897c842ba26d206e360a2573e3c821f8e09533f2b"
+      "bytes": 16726,
+      "sha256": "1bae833def58a6394fe881d2f405327bb01437fd35c9d4c642bac0565d7b1c7b"
     },
     "3D/characters/previews/animation-walk.png": {
-      "bytes": 7809,
-      "sha256": "dadd4d15d62e6bcd063c15d9a87123c32d5869e2d68a05a1c5151c59535db86b"
+      "bytes": 17092,
+      "sha256": "7ecbabdd4f89dd4e4712ca21fed0414522fa7c88b46446b5ccf7ce9730e3e989"
     },
     "3D/characters/previews/animation-wall-run.png": {
-      "bytes": 8181,
-      "sha256": "f72ba98a0963dc5c103a990b3b8af6bebbecbfd6577a3ecdb66a036e2e822880"
+      "bytes": 18826,
+      "sha256": "3badd8371852d32a37309f1cbcdfadaf440980e4d2b60a5bbe3bfe0fe11ef510"
     },
     "3D/characters/previews/animation-wave.png": {
-      "bytes": 7281,
-      "sha256": "60d5c043275ced30fe9ab947e1d42cd9ea9b613743746df3f3d09ad0d12ae137"
+      "bytes": 15317,
+      "sha256": "dc6373e22f6a48c52457432dd009098a35b8f3035726a0c805a3dcd194ac8f01"
     },
     "3D/characters/previews/stick-acrobat.png": {
-      "bytes": 8419,
-      "sha256": "e25d199a9625002cd5b8c533adb15607091804defe958ff9a3ad482b7e6cb437"
+      "bytes": 17556,
+      "sha256": "3105419408f5106bae2dd1e90ce232aea3f44d26fdda52382f8b2486f5f2b831"
     },
     "3D/characters/previews/stick-agent.png": {
-      "bytes": 7995,
-      "sha256": "f7404ce048fa8356f8ace2b385931d655f344f0f6f9c561c835fd81e726361d0"
+      "bytes": 16096,
+      "sha256": "43490b1e6f11164afbd90747d1b9edc4e37c0f9523cf5e31d09c48b9e368cdf5"
     },
     "3D/characters/previews/stick-compact.png": {
-      "bytes": 8276,
-      "sha256": "2c1fd8661a93bdc8693afc552ea7c4c4b95fc7ee321e163c9336202706fa43bb"
+      "bytes": 17744,
+      "sha256": "38d28784d3a12c921c845124169fb997dbb1cb817673eb21416ec90a002e801b"
     },
     "3D/characters/previews/stick-fighter.png": {
-      "bytes": 8095,
-      "sha256": "ab5e0ff827e102aa7a523d606422f20791116a8be27a634816767fe4b82e5387"
+      "bytes": 16909,
+      "sha256": "449aa0097ccce7fd8ecd4978c4f4b3e91b6df03535103cb2a9309132576f7845"
     },
     "3D/characters/previews/stick-heavy.png": {
-      "bytes": 8600,
-      "sha256": "a21e74b599fb22a5b1da5563914f22225377c77745c58794559056d42019ded2"
+      "bytes": 18821,
+      "sha256": "3a14810a56094fa9cbb7aa870f53bb934f84af3a0f17ed0b671ae94011feccb6"
     },
     "3D/characters/previews/stick-runner.png": {
-      "bytes": 8424,
-      "sha256": "54b090e29c84e63a18b26a791224c68da4c4a7b2070bdb6fe1b7fa7a831d8dd5"
+      "bytes": 16707,
+      "sha256": "3d50b6c2aec45d824af6ddcbcfdfff9a593413f8fcba201222f2e6a352772c39"
     },
     "3D/characters/previews/stick-scout.png": {
-      "bytes": 8537,
-      "sha256": "4c820fb7a1ab92a4b4cd89329d63488f4ea2c7e1d28fad55c297b19d4ab9cb94"
+      "bytes": 17051,
+      "sha256": "30e4b42e13c8d214beae7b57c9b7e2e53a9fc83f539324d7d4e0becd6b64990f"
     },
     "3D/characters/previews/stick-sentinel.png": {
-      "bytes": 8702,
-      "sha256": "b471d4808f35d133773ff0a0492b3666d2d96f3f7e9188909aada4e39daca0fc"
+      "bytes": 19388,
+      "sha256": "12d941ff3558bb5b95ce2d93c886e9c4ed28ebfe4324841172632bf27652765f"
     },
     "3D/characters/previews/stick-standard.png": {
-      "bytes": 8033,
-      "sha256": "7d188df6027b2c2773843b4359b1268cc14378a21b5b042124505fceda0e08dc"
+      "bytes": 16885,
+      "sha256": "a52796ff6a4253d7f5f326b24992530a84205db02ee0776a5a55eb200f4a0395"
     },
     "3D/characters/previews/stick-striker.png": {
-      "bytes": 8239,
-      "sha256": "af533543ba1b4ddbc82c9b2991ceafcd82e76e7dfb6f18a61d60e88de76640d5"
+      "bytes": 16936,
+      "sha256": "dd26d24b6728c1debd08900ad74cadc9ab724089bed07a57c546f4813777f8d5"
     },
     "3D/characters/previews/stick-tall.png": {
-      "bytes": 7861,
-      "sha256": "4005cedd3acb13955e398918fe9b45c6781a3a9f449c003aabb06168d9e4a80b"
+      "bytes": 15666,
+      "sha256": "349843668509ed2fdbfbec7bf6e830eb96495826530a82856dc4a499eb5dc79c"
     },
     "3D/characters/previews/stick-worker.png": {
-      "bytes": 8195,
-      "sha256": "938ce71b40547363a9eb129c7fc1001774bf6bbf513aa7ee22a5b37af0aab553"
+      "bytes": 17786,
+      "sha256": "a1d6aa666d10bd5a5a4dca35b473f7e4eb570686ca8972c4bbe02480355b5067"
     },
     "3D/characters/stick-acrobat.glb": {
-      "bytes": 2753260,
-      "sha256": "061a4bfa05605749688696400293f697fe0715b19548a88f0e3ce487d00022d7"
+      "bytes": 2755528,
+      "sha256": "62df244bd8d2a5576e70ba19e8306df04f3f6e37ac1ccbe5f2eceb07732fe839"
     },
     "3D/characters/stick-agent.glb": {
-      "bytes": 2736868,
-      "sha256": "a2fe69b4795234454646efbf58b9d62534b82ff465194ec18d03508941abc465"
+      "bytes": 2739632,
+      "sha256": "ca3d12b6629185c5338aaf5ca2e05037540cd691bea86a1fdcbf1d37e8fa20bd"
     },
     "3D/characters/stick-compact.glb": {
-      "bytes": 2784832,
-      "sha256": "f9a2eabdd66c72f3e88f2acd02c5368fbb0b398e208f41a6618ef5001bc9ceee"
+      "bytes": 2784000,
+      "sha256": "6e40bc018a4f095d499be52a4d6b1843ac1b28235767dd4b1a8d5775fc01986e"
     },
     "3D/characters/stick-fighter.glb": {
-      "bytes": 2762808,
-      "sha256": "f456bf0ce0b7ee49195db6d7542b10d2dacc749c2a5cc37f549a3ab3c3da94b1"
+      "bytes": 2760896,
+      "sha256": "022390547b6af071b4d7177d7fe6585a45db4f9b58f3146b79c81410b09f4bbd"
     },
     "3D/characters/stick-heavy.glb": {
-      "bytes": 2768856,
-      "sha256": "a4ef6dbb1db44c4e1ecec7751efb77997886e8fb306aac4347229c2866d13346"
+      "bytes": 2765252,
+      "sha256": "65ddd28b392fd609866aef1350462cf0ba86a2c2b11a6e67d2c292d7d3e27fa3"
     },
     "3D/characters/stick-runner.glb": {
-      "bytes": 2745788,
-      "sha256": "7e1eb64d35e95b06ba18b56286e3b50a25000dee1af6d7cdcce5c9ea005db940"
+      "bytes": 2750348,
+      "sha256": "f7f1102d8b913aed34d6708b87632970a9209ae549c2b907f7a42cb7d46f1d00"
     },
     "3D/characters/stick-scout.glb": {
-      "bytes": 2739028,
-      "sha256": "0df55930c41b175df4948b8a89bf0dc670127f6df0dfc675c11f6064da5ecb1e"
+      "bytes": 2742032,
+      "sha256": "e1808c681e54a77a072b0035a9ce60f930326c0d254fa846100a65e98b2abac8"
     },
     "3D/characters/stick-sentinel.glb": {
-      "bytes": 2750876,
-      "sha256": "70cd52d52e22cab132d9d7cd6f4602be32fce0b2ae9e614d54803f9dd39c9b7b"
+      "bytes": 2748792,
+      "sha256": "c0b20baa3d076b7e190cbe33027b9baf2d1a1e8dfd2e837e158fdb715ec72561"
     },
     "3D/characters/stick-standard.glb": {
-      "bytes": 2707572,
-      "sha256": "e96c80eff5176345a6bb47664fbcb4b64aab4b1fa8151ea91dcab39f415819bc"
+      "bytes": 2706972,
+      "sha256": "8847196368826440a7cbd75b78e7d1f3c0a63886856e4f6b922a4a7d92b263c0"
     },
     "3D/characters/stick-striker.glb": {
-      "bytes": 2760184,
-      "sha256": "2cc676c4fe66521cb09ed1288fc4680f18301a312591bddb13d817550de3ce76"
+      "bytes": 2761084,
+      "sha256": "fc02255be75150f535a645f0846bfe01c35b0faa2978d272852b705f91f767a9"
     },
     "3D/characters/stick-tall.glb": {
-      "bytes": 2735268,
-      "sha256": "7dac7754b4b0cf84e5c015e7d7bd234968db732234ce6e083c6f86c067d9c574"
+      "bytes": 2737500,
+      "sha256": "cd15a198ed0fd639242763c2bd63ddccf2463dd18ef1389580f46544156e1f84"
     },
     "3D/characters/stick-worker.glb": {
-      "bytes": 2743808,
-      "sha256": "5ebd78f1ca16168eb8b80d2f610ceb18cf30872e69545fb8e967a20f58521ae1"
+      "bytes": 2743268,
+      "sha256": "6093b53f63e0439b86d0f13fc4341336b865086655c955d538f7f5e7c07be6de"
     },
     "3D/city/License.txt": {
-      "bytes": 1279,
-      "sha256": "370fc07dfb7d5d2220432d0afe8e503ab693e2009286c21da48949b5ff567e14"
+      "bytes": 17746,
+      "sha256": "e42999697b4f0e063752c308d0cc593bb079eb1f0d3889497efd0cc678221e9a"
     },
     "3D/city/Readme.md": {
       "bytes": 8703,
@@ -1225,28 +2029,28 @@
       "sha256": "af19b408feffb016f74a720e30866265cc54bdbe362bd7b1e99dc38a34c363b9"
     },
     "3D/city/Source/industrial.blend": {
-      "bytes": 582639,
-      "sha256": "2243b06932b221364f8718f31a3400d37d65159d6f3839e0ddb3b03a393b8e90"
+      "bytes": 139591,
+      "sha256": "7ed98e705acd30e2ed423fb55016d28c84fee6694fbaa6d00584d40d98b1992b"
     },
     "3D/city/Source/level-contract.md": {
-      "bytes": 4765,
-      "sha256": "eeed830d829d0e2b8b75d0e7a7c8f1e19758d70f2a7594b1e30b6de066ad0ebf"
+      "bytes": 4246,
+      "sha256": "f1163dbb7379650a7bd7b3cd19f9bbe199d933b312284556c450410fdc7d6f50"
     },
     "3D/city/Source/level.py": {
       "bytes": 18177,
       "sha256": "c583abfba685b925685ad045f07d06313829c5037881a86e3ea5b66594d9c69c"
     },
     "3D/city/Source/prop-contract.md": {
-      "bytes": 3729,
-      "sha256": "37512cd2ba5f723e7fca415c640b9dbed21330c594717aa962daa18f1cd69387"
+      "bytes": 3434,
+      "sha256": "93972ce2119b2b3dead0529994ac502ea0dd446f749d686df2f191c919918296"
     },
     "3D/city/Source/props.json": {
       "bytes": 173917,
       "sha256": "eed625b8116a284ffe0b1ebbd224301fce5ff8f01bb49bc514babad836b79c9c"
     },
     "3D/city/Source/props.py": {
-      "bytes": 237049,
-      "sha256": "9538294e7fc233d350e655124293222fd15d1bfb16e861938e06571d7f39cebc"
+      "bytes": 238877,
+      "sha256": "47bfc83418ad1ea8aa685a32d2fd66f08549f461da076eb5aa9f73d6dc9669b7"
     },
     "3D/city/Source/roof-works.blend": {
       "bytes": 163156,
@@ -1733,856 +2537,852 @@
       "sha256": "a0ff302383f561bf662da550ea778b65ed8c528827d1552c1a10151698b4ddfb"
     },
     "3D/city/preview.png": {
-      "bytes": 13887,
-      "sha256": "ab03f932a46d0b89acb72634ea8f75a80cc4bad327933ce7e13a87bafe3469c0"
-    },
-    "3D/city/preview.webp": {
-      "bytes": 13262,
-      "sha256": "c9f2b15c05264a3c9671551c60b1c2c16aceaf4c64221b4e32edea6866c55b91"
+      "bytes": 14387,
+      "sha256": "8bdbc8b2c16b5e320a87c17948af6f350b5a79144ae59ec1fabdf30949e40783"
     },
     "3D/city/previews/air-compressor.png": {
-      "bytes": 10481,
-      "sha256": "885c3fa9a3a6dd63753631adca3b32b3116d45b3e8a0af008fe08476336826c1"
+      "bytes": 10752,
+      "sha256": "0766e92b1399dec16fc15a67c43d25e037b3759e289d366fb6222527fc9871d0"
     },
     "3D/city/previews/air-tank-mobile.png": {
-      "bytes": 12223,
-      "sha256": "f0f924b93ff32f7780afd708eac6f677cd554e01c34c80a3eb2ef90339a097d2"
+      "bytes": 12745,
+      "sha256": "ac62a85ada05f60cc6c4df3f51c8a84fa4a70fc4751598cde3d8e4a111052ab2"
     },
     "3D/city/previews/barrel-stack.png": {
-      "bytes": 10459,
-      "sha256": "76b813991a55c8cde64fe3735c86554e2dcbb4c2e4f05d1248bf2e2e6fb3b42a"
+      "bytes": 11174,
+      "sha256": "52eb1f014cf0a9f6f57e2aca428a2f9b3f30bd36f6a1328e201ae2f5b4d4e881"
     },
     "3D/city/previews/barrel-toxic.png": {
-      "bytes": 15751,
-      "sha256": "c1bd373a55339184068baf446b3bc2434afa9cdab8bab11d9a040b3d7c464314"
+      "bytes": 16787,
+      "sha256": "cf09c244ecdbf58078fd69fc58f191513a7607eef609f8fd969a7e29a67c76fb"
     },
     "3D/city/previews/barrel.png": {
-      "bytes": 13451,
-      "sha256": "d4ecae6e434d44a228a2a4005bb6f397a00925acbd1ca2dd64fc71f5603a2738"
+      "bytes": 14551,
+      "sha256": "6c9930724beeba365162dd2cdaa96e59cdfd26ce4bf820877d0658167ef5de37"
     },
     "3D/city/previews/barrier-jersey-concrete.png": {
-      "bytes": 10952,
-      "sha256": "3b79ec806db8a2a94478e2d29d1e808fbee5aec9d83c28d812dce1e21fccc31f"
+      "bytes": 11185,
+      "sha256": "13e029e2ce7d082b823ea050ac91e4b78bfb2d63d03f852d2d3fd5e2d64a53e8"
     },
     "3D/city/previews/barrier-traffic-cone.png": {
-      "bytes": 12117,
-      "sha256": "a1441c44deb71d3a9240a97be1931152769a865292d77fff3be78dd74f8878e4"
+      "bytes": 12455,
+      "sha256": "fb43bfb96f58a546850892ba28bd61819660d2c20356562ee2bc8fd479972ef0"
     },
     "3D/city/previews/barrier-water-fillable.png": {
-      "bytes": 10267,
-      "sha256": "304dd70b01bdc0130e287de83b39e5cce4b82e8f98e53840a7ea68fdaadd065d"
+      "bytes": 10544,
+      "sha256": "b2579e2a426b914cf9a2d118667a03e5efc8b19a60fa8f26ce923faaecdc7201"
     },
     "3D/city/previews/barrier.png": {
-      "bytes": 12457,
-      "sha256": "e76b098eb406b8ff6d7373425349ff26b63880187973fab2dce4c314aa9bcaa5"
+      "bytes": 13354,
+      "sha256": "f36f6384abacb4b245c74fd1c1b4f985c351d68326b8ba3ee2a303aa25316193"
     },
     "3D/city/previews/bench-park.png": {
-      "bytes": 17299,
-      "sha256": "ea6640d407efec18f15c27e6658e22b80f53503afd35d3083884f62703873ff2"
+      "bytes": 17278,
+      "sha256": "dc269ee213c030a8f3ae92759e4270086135568c70ccdce9d482067fb6dd79dd"
     },
     "3D/city/previews/bicycle-rack.png": {
-      "bytes": 14342,
-      "sha256": "58ca5ae31530366bf12d39085faf9e64e6b7ef70d802d9dc21d6a1689a6e7c00"
+      "bytes": 15498,
+      "sha256": "f1227436361702521fd35185c2384ee5fb0347b4ee2072841411c9de7e3207ac"
     },
     "3D/city/previews/billboard-highway.png": {
-      "bytes": 11443,
-      "sha256": "b59dd950d566b3f311f3fb0748d1078fbd5f6f9f75824bca34823311b9c7652b"
+      "bytes": 12163,
+      "sha256": "15ef3fa0123dbb360ddca58aa95a6c039d7b577524aa1c8b6c778e70b8d1c99f"
     },
     "3D/city/previews/billboard-small.png": {
-      "bytes": 12603,
-      "sha256": "6bd2268e88b20397f631f45dc85544c9ee9689d881915bd6a7931f84bbefcfe5"
+      "bytes": 13460,
+      "sha256": "a39c55f3daf14ceeba2ba7dc2daedcb876160fb7154229ac23cf48444b5c8eb5"
     },
     "3D/city/previews/bollard-heavy.png": {
-      "bytes": 9872,
-      "sha256": "1cadf76e5bfbafbb0b4b4751f2a9d075406e9334e1235d2f29b02f645b2bb4e8"
+      "bytes": 10784,
+      "sha256": "823c1c2e5871ad961d0fa2a60193578e913dc737a59cb51f559c70519da80ee1"
     },
     "3D/city/previews/bollard-retractable.png": {
-      "bytes": 9042,
-      "sha256": "e8a4b856622d3ab29d377217791b97365920f705d8b317afc4bf4cf7d9a6b19f"
+      "bytes": 9577,
+      "sha256": "52f15944e21e24da9baeb0cf5247b5707faeba5474274996d8f6a4fb47d6021b"
     },
     "3D/city/previews/bollard.png": {
-      "bytes": 7302,
-      "sha256": "eb3bab630c5c88e5bfd42534558d220b8c00b487f56348f4b50b168d34b6709d"
+      "bytes": 7782,
+      "sha256": "3626b20aa2ff287380021545db592cbfc98e35fafaace1a669c4e2ab95967b22"
     },
     "3D/city/previews/breaker-box.png": {
-      "bytes": 9115,
-      "sha256": "73aeeccfc9d4d1899c0c9842727f7693e738a65f9f1f6858a984cf581b8ecf23"
+      "bytes": 9139,
+      "sha256": "2c00c586cb9004f4b94775dd2572001021a9d5e049a2f7195b3b695b54275d02"
     },
     "3D/city/previews/bus-stop-shelter.png": {
-      "bytes": 14789,
-      "sha256": "cfc7c0e85b676f3d1884a72fd0ca746cca07a12e91f63fa5330486427ae56910"
+      "bytes": 15192,
+      "sha256": "493dd20f21bc82d469f3fae48a24ea18a545dc809c878d92d540afa11e7b0c3a"
     },
     "3D/city/previews/cable-spool-metal.png": {
-      "bytes": 26640,
-      "sha256": "fee668654d51e4665d37c8d1c413a602a9d3332a569e7eed6cb43e0b4b30a0a7"
+      "bytes": 27548,
+      "sha256": "486c8622335da870058b69046ded5e2fb5c0afa5b085fac4df5938ce1af45072"
     },
     "3D/city/previews/cable-spool.png": {
-      "bytes": 15892,
-      "sha256": "f5e006cebaded8e03ddd695ef9dbf2596ae38e8201489799928dd9072c3f1f81"
+      "bytes": 16359,
+      "sha256": "4ce716c8c9a85524267f57f1193ed7efec3d9e100219fe6276a39a4e91df9b15"
     },
     "3D/city/previews/cable-tray-straight.png": {
-      "bytes": 8528,
-      "sha256": "1cc74209e71bd283dc94e742de39ee64d09d7ec3e02b9259f46bd72285d36166"
+      "bytes": 8582,
+      "sha256": "e75b0bb550f2ca2e2102f9ada4dcd43477d3513c432ec4de27f643eeeba41c2e"
     },
     "3D/city/previews/cargo-container-open.png": {
-      "bytes": 9794,
-      "sha256": "0945cd01cf1e24a032fdd924c24f69d9ec050dc2b65409a7016dde73aae82923"
+      "bytes": 9934,
+      "sha256": "14a48a26c011dfab4383ebc72b4c03bb6d92c09a3494401746f398aa4b2b5b35"
     },
     "3D/city/previews/cargo-container-short.png": {
-      "bytes": 19228,
-      "sha256": "353ae0161cd5cb8d5ebccdd3d35f33ffaaa05643e9a01951f34de86f3db9d77a"
+      "bytes": 20176,
+      "sha256": "9647414df8b446379a3112d182533329d5404c9ac853c929ae31bfe431c17c40"
     },
     "3D/city/previews/cargo-container.png": {
-      "bytes": 15267,
-      "sha256": "583177b1d49475d96198360804dce0983e1cb834027093619c24220834de1068"
+      "bytes": 16401,
+      "sha256": "ec4f7a12f57a820dc1351c232ca6c0e61708ced75aa7050ba9dbae7eb7c60302"
     },
     "3D/city/previews/catwalk-bridge.png": {
-      "bytes": 19637,
-      "sha256": "3634ca1203280cb12e03ac76fe2139fb934761e899c3c22799f5f77fa37f6efd"
+      "bytes": 21201,
+      "sha256": "9a8628c12d89d31f4a8aa2551cfca519a6fdf5ac4def26ec6c27f05622ece22c"
     },
     "3D/city/previews/catwalk-grate-long.png": {
-      "bytes": 19316,
-      "sha256": "ba50375bd3ffabdafebda16a9ebab3e90e90b0e394000bdd9ceb20d9a43d2d0c"
+      "bytes": 20972,
+      "sha256": "3ebd5a4f422959b52c07280f70a86bedfcf7e3e1c6f183a85d3223e2f174a3f1"
     },
     "3D/city/previews/catwalk-intersection.png": {
-      "bytes": 23781,
-      "sha256": "b5bac591e0f1a276e58225399098d37cb9814e44ae3d53f7e214a9a35c1d4232"
+      "bytes": 25171,
+      "sha256": "99ec1ff680fbdffbfc83337f6545dcf9a5445ed773bc8165378fb0d917bc6ad5"
     },
     "3D/city/previews/catwalk.png": {
-      "bytes": 21464,
-      "sha256": "0ddfbaf0aae25845d34551c2a7f9774139ccd0dc382ddc115aece6f8cac49f6e"
+      "bytes": 23525,
+      "sha256": "60590064d848391e9e3294bdc1be3f386049ca4bdec673364232e438765046d0"
     },
     "3D/city/previews/conveyor-incline.png": {
-      "bytes": 9988,
-      "sha256": "05295ec48b287075d314db47e4fd6f08c8ce0b17a344dfe8c2ebdee03914ea07"
+      "bytes": 10494,
+      "sha256": "0d5d3eb07699e0eaf59c5ce763978dc321d8e63be8d438e5120ac70c639a8b04"
     },
     "3D/city/previews/conveyor-roller-straight.png": {
-      "bytes": 14772,
-      "sha256": "9b53f51b3207fe27ad4799acbab9e133f50fed31b7cc3d93e6215cc475b29697"
+      "bytes": 15103,
+      "sha256": "9d9fee0109055899c47116d2963153dfc65f727945deb711424826c93ea92b31"
     },
     "3D/city/previews/conveyor.png": {
-      "bytes": 10033,
-      "sha256": "633098ebf5ef31ba87a43aa5c6b97dad9a0cec5e4e72c27f3c67598de2eaf47c"
+      "bytes": 10337,
+      "sha256": "2af5757cb0e9a7d312564a450b8ee0f26b2d2c9dd5a2c306321dcfd2ed823ee9"
     },
     "3D/city/previews/crane-jib.png": {
-      "bytes": 10499,
-      "sha256": "95ea07f49e670eb0310c81d6e70c91dac338fdcbc752f56bc000c757ee9e122a"
+      "bytes": 10860,
+      "sha256": "46d7836162b8a8471607be23a47e5d1d9d3e1276a0918b26d2c9d197286937fa"
     },
     "3D/city/previews/crane.png": {
-      "bytes": 10647,
-      "sha256": "f64d492484df22d953769376310d59b57fe391e18e591231e91e65f70e77afc5"
+      "bytes": 10658,
+      "sha256": "e3c42e849e6c94d094b967685a2f88838c98b830c8e4ceb16c996beb52ff7c6b"
     },
     "3D/city/previews/crate-heavy-wooden.png": {
-      "bytes": 10085,
-      "sha256": "b32a16caa175412b1cb9c3cb46ced0f7833f3fdccc3ebba289dbee012139c507"
+      "bytes": 10106,
+      "sha256": "9dfd5338e33149052c7db6ecaa5344154e568dccd22273649385c0cc862f1c77"
     },
     "3D/city/previews/crate-military.png": {
-      "bytes": 10060,
-      "sha256": "46916c052e4296ca66245dbd1ca3711c7e89b07ca12e6dff9fbb87929c65c0cb"
+      "bytes": 10021,
+      "sha256": "265bf5cc77a0de81af937e0edd024d3ad65c4df4a38b8da9e15fdec28216626d"
     },
     "3D/city/previews/crate-stack.png": {
-      "bytes": 10913,
-      "sha256": "d83fe2f7c8f4e8e7e91a3e754fc52c29b17b970900dff01035bc88e2f1fc05a0"
+      "bytes": 11329,
+      "sha256": "5df0a45b615b61aab0e6ab64c835881cc12bc1fb71902b784f69c4267c0a329c"
     },
     "3D/city/previews/crate.png": {
-      "bytes": 10430,
-      "sha256": "7d8a0ae81c6662db7f906271a8b8bb2f29bd45f4826c9197ed0a6edaa883bbc7"
+      "bytes": 10403,
+      "sha256": "4903ddd79e5f7695457d26a9a43c1a302d9055864148fe8f384c2e4d2bbd2b3a"
     },
     "3D/city/previews/crosswalk-tile.png": {
-      "bytes": 10993,
-      "sha256": "36e3fdc0dcec15ca4fe07bfe7a9acd1ba013d541fa9868e6c7f56d2ab3729e0e"
+      "bytes": 11300,
+      "sha256": "609000bdbf77f8913b32f698c4629a3d79ca7843be4c66af3cd7c209daa88831"
     },
     "3D/city/previews/curb-corner.png": {
-      "bytes": 13262,
-      "sha256": "ac0ba664d918ecbc0daab140c4b255384e5bdf653a5e00a9f9107893ba3a4c80"
+      "bytes": 14243,
+      "sha256": "a731224fd10c17ff18107226f7942e0b98a936ff4a64d378fe1cd326fd4de26f"
     },
     "3D/city/previews/curb-straight.png": {
-      "bytes": 7537,
-      "sha256": "60e7499f472cef81f796b093071f19770f65e9ec51a5649ad7310882e3e8a791"
+      "bytes": 7763,
+      "sha256": "fc8fa5916343a8f0b355165d47f061119d8d3c6db8f79f13d3dbd51c96d1a833"
     },
     "3D/city/previews/debris-scrap-pile.png": {
-      "bytes": 10361,
-      "sha256": "b4b672ff865283045d37462a02aad1825c85335277cfe5971c3698ed48bb201f"
+      "bytes": 10461,
+      "sha256": "45f9a52b86cd0232be59f1215d0a3c47fc703afdb0b78ea026629d95d3913402"
     },
     "3D/city/previews/door-frame-roll.png": {
-      "bytes": 12681,
-      "sha256": "d51119684917fbf7b299994ceb20ff705d170d4bd39acdbb8a25486ac80e2510"
+      "bytes": 13018,
+      "sha256": "98996837ab95345303284deb017e48bbcac537532a13cec6753b9d5fbe298dab"
     },
     "3D/city/previews/door-frame-steel.png": {
-      "bytes": 8275,
-      "sha256": "74ec06cd49fcc1416de0864f1e0e08eb3eb7707c09f8f1fa58947a6216693b5d"
+      "bytes": 8476,
+      "sha256": "8d591515a428407f43ef74e0c166725329814c358a39a32f71792c13404dcc21"
     },
     "3D/city/previews/door-roll-up.png": {
-      "bytes": 11987,
-      "sha256": "802d4050f8b1b44673167bdebfef808299aeafbf8defb3c852b1d6016ac089d5"
+      "bytes": 12497,
+      "sha256": "3592eebc8aff32660b8d1cbb78df7e89208bf5697b31ae5d7f36c1f62b548c15"
     },
     "3D/city/previews/door-security.png": {
-      "bytes": 7096,
-      "sha256": "7b8d379a84572c15768a381dfc364ef5b99ac50349c500b270d1440c0f0e2032"
+      "bytes": 7286,
+      "sha256": "02f337092645e1124721f0f4a999d038e08d23223b85de173495093e5bd05919"
     },
     "3D/city/previews/door-steel.png": {
-      "bytes": 7335,
-      "sha256": "9a14c16e6d2cc1be3d7d72527f356e6b63fdc98432093037c984d74482685070"
+      "bytes": 7672,
+      "sha256": "417d302a1c16d1ebbe00fe627faaeba514178b64a4ad3ce4af2c5671c0ddabe3"
     },
     "3D/city/previews/duct-elbow.png": {
-      "bytes": 12410,
-      "sha256": "22dd9af3fb12a922541950270bb894447b191b5f43906e53d6de77b1651a0ae8"
+      "bytes": 12433,
+      "sha256": "c2ae4c41f77f24955cdd134d5225748417b30209adb740be3fc5c7edda4bb812"
     },
     "3D/city/previews/duct-exhaust-hood.png": {
-      "bytes": 12955,
-      "sha256": "b33ec0e22ee202589ae249594881c6488dffc1918a62a671e719cf37c0ddf2d8"
+      "bytes": 13749,
+      "sha256": "1daf8e228c76ec8d86758931c7a5fa1207d7550f5d9ed1ee214c3523a430c1c6"
     },
     "3D/city/previews/duct-straight.png": {
-      "bytes": 8531,
-      "sha256": "12331cdd36eef7e05f54afc7a1c24ac4e5bcf5b3df86aa3d2f53f219e1b8529f"
+      "bytes": 8730,
+      "sha256": "c941fc60c04ed5299c2c6695f66cfbaf4057e87d4e41ce7fa4b1e65435eddbce"
     },
     "3D/city/previews/duct-tee.png": {
-      "bytes": 11296,
-      "sha256": "98fd107810b7343b48f733349db7ba881a62309ad48d38b983d218b716411e80"
+      "bytes": 11730,
+      "sha256": "57e2feb3a1abefa17b1b189d6bc2d205ee54d6217b5c5fb1c5351d1989dd8cc4"
     },
     "3D/city/previews/duct-vent.png": {
-      "bytes": 13658,
-      "sha256": "9b52858f362b9040fa5ae3aea09097c6de06371339846ee6655c19f5db68b21c"
+      "bytes": 13992,
+      "sha256": "2955ae030f7ba607664573cc59f43a0f27f9b7ea593f77e66ebe81502c1081e8"
     },
     "3D/city/previews/dumpster.png": {
-      "bytes": 13283,
-      "sha256": "8a2ad3237af360b365dd953dafec27bc7b9d140ec5811a55cfb1c33b488efedc"
+      "bytes": 13936,
+      "sha256": "13aaa86d6a061cdf1a407b7b7e1458067c5f832f48ab2e4894810fdad437de95"
     },
     "3D/city/previews/electrical-cabinet.png": {
-      "bytes": 9874,
-      "sha256": "77a396ae4fab14a9824e5f960d4a8715462cd9ff7f0d5c79e049750291d7e036"
+      "bytes": 10269,
+      "sha256": "f94eb4a44e208902cb64ba346a38811926799a7d4e642d3a14f1837d6bdedae0"
     },
     "3D/city/previews/electrical-panel-wall.png": {
-      "bytes": 9279,
-      "sha256": "686eea752907bb1c4f91ea0e0ea238234f0c2ea33116f77dcc0ec9ecb921a52d"
+      "bytes": 9521,
+      "sha256": "1cdf3a46ec2777381cb31e1d9a937688983116403ba71ef8e747e584f61f41b8"
     },
     "3D/city/previews/fence-barbed.png": {
-      "bytes": 10652,
-      "sha256": "ebde660196f75cb933c8207497aef80efa7db12927b24e5420877c74dcfabf26"
+      "bytes": 11089,
+      "sha256": "ce34f9e8f7bfb7946ed5b1b5b5264a3c1c20a1392920b92913c96e8013287901"
     },
     "3D/city/previews/fence-gate.png": {
-      "bytes": 10054,
-      "sha256": "450404789bf01fb617026eb82762e7a0f043360a44d9377be5428fc7664ffc2f"
+      "bytes": 10408,
+      "sha256": "19fb2db435ea4f6539a729a69df03e2b2989a84e230cf4fa9c01f96681de9ae7"
     },
     "3D/city/previews/fence-panel.png": {
-      "bytes": 11562,
-      "sha256": "d8b3ce06c5167ef06738c249338c991bdd760b6825644ea82ccfe47fef15fb52"
+      "bytes": 12176,
+      "sha256": "2597f648ce54b2c8bcd5b30b2b067260f4caad1ad642aa949237b52213c29e8f"
     },
     "3D/city/previews/fence-wire-mesh.png": {
-      "bytes": 7902,
-      "sha256": "18c03c26e8870e0ff187fd52a7bf6732cbea1585f4a78dfac05b07d40dbc320b"
+      "bytes": 8016,
+      "sha256": "cd09e414956026aa128003b24f6528c11ebf0455808ba61adf1b9b08e8245548"
     },
     "3D/city/previews/fire-escape.png": {
-      "bytes": 26621,
-      "sha256": "abec54c3b06b4e524e9d4937d3ab677779fc33278879d2a2758abcc905a2d638"
+      "bytes": 28895,
+      "sha256": "032fdac8cdba76bf4955aaea5eb442a4788210928dd1bf77f4a2c4df8e261b95"
     },
     "3D/city/previews/fire-hydrant.png": {
-      "bytes": 11953,
-      "sha256": "969b685fee692117231e7093638820cf9dabdde732886d53589a05be00990112"
+      "bytes": 12724,
+      "sha256": "03fa893dd9c2a42783b76e7cc473836cbad17f2b666a7bec09bf0358bd5e0b6f"
     },
     "3D/city/previews/floodlight-tower.png": {
-      "bytes": 8307,
-      "sha256": "9b1ea1465def38512f9a96583db03871157ffe77c0dca3f0634b6918ed202515"
+      "bytes": 8548,
+      "sha256": "c026a9762560d7759d25eb9cba6a661eaa4ce9dc9e5aa99cd05e4d4687141169"
     },
     "3D/city/previews/floodlight.png": {
-      "bytes": 13253,
-      "sha256": "14bc78e51ccb6bd009254230c79d036f4ef4dc4af9606b9fd52c01c14c815467"
+      "bytes": 13455,
+      "sha256": "d5ce8838270b37028d0d69730cad209d16429cc720f125e3b3fbeea84f4d5087"
     },
     "3D/city/previews/floor-slab-2x2.png": {
-      "bytes": 9233,
-      "sha256": "e2b87d2a81f43166dfaffaa16e15f92672aee9b39711906b2bdb54189ae99009"
+      "bytes": 9187,
+      "sha256": "267997184355a607448b21596c32bf1589065e023a393a09255dd0cc3507c162"
     },
     "3D/city/previews/floor-slab-grate.png": {
-      "bytes": 18292,
-      "sha256": "471737ea329c6769136be23bbba4e987734d088d18033b39bbbbd660b777652e"
+      "bytes": 18962,
+      "sha256": "5615778b1508deb319e72a61261955d4bfa9ce4457a760cc7443189df1975180"
     },
     "3D/city/previews/floor-slab-hazard.png": {
-      "bytes": 13577,
-      "sha256": "2147285e7a4bb9589c13f90db446ec4ce81a5c571e2685d8971c79a92308906f"
+      "bytes": 14217,
+      "sha256": "ef63e461754501cb2036f020c8ceec965e7ddb8e410df716204e0344c813474d"
     },
     "3D/city/previews/floor-slab.png": {
-      "bytes": 9528,
-      "sha256": "699679719f4844373e7361184eaf354a59ca58cbd6cfeac55241a12be56060d6"
+      "bytes": 9579,
+      "sha256": "80aeff729d0e05c102e368f389fccc7246417ba6a9dc3efa23b61e1448cb257b"
     },
     "3D/city/previews/fountain-plaza.png": {
-      "bytes": 13786,
-      "sha256": "e5e2304abb7b9de638648b2de5e668488d6ac4501775c674133b02acbd35a2f7"
+      "bytes": 14289,
+      "sha256": "770debbd62d600c2fbe33113cad6503fca56c8400075e396a1706a6e6874d70b"
     },
     "3D/city/previews/gantry-crane.png": {
-      "bytes": 19741,
-      "sha256": "6e5a0d299099e1fa45514d48efd5cf3a728cb6f5988f9201220ba125160a9f38"
+      "bytes": 21268,
+      "sha256": "a03ed9a17b73ca78927e626b7baaf8b1aff28520dea1182d4a3ed6033290431d"
     },
     "3D/city/previews/generator-diesel-large.png": {
-      "bytes": 11800,
-      "sha256": "76f2f252b8ae40442a13710c7621f9f1e033d5e09956f8d59575b21a3a95a84c"
+      "bytes": 12040,
+      "sha256": "ccd329adba9f3667464c1343689e1581c6a5297a4f228ecaa81c86d72e01d31b"
     },
     "3D/city/previews/generator.png": {
-      "bytes": 10914,
-      "sha256": "9a7dc3f1735fb2c232612b691a3775c848e31d99487ad1c8be4cad052242ed55"
+      "bytes": 11167,
+      "sha256": "425a2645d0efe132c031dcb4db792781a54e3697ef9b9d6317b5f822ca28bd39"
     },
     "3D/city/previews/grate-drain.png": {
-      "bytes": 12664,
-      "sha256": "ac35c99209e15310f743f1d88fde709674bbf588f6a8ba2855a13087d4ae6047"
+      "bytes": 13207,
+      "sha256": "11cc2f56e8482dc079a2afb7ad9097c578046e02b50e00743c9c37a8df46d900"
     },
     "3D/city/previews/grate-floor-square.png": {
-      "bytes": 21180,
-      "sha256": "62ee5643395c4fdd810428beb3322a7590d9a71c6b281ee4d6199396507d00ee"
+      "bytes": 21386,
+      "sha256": "0fcb944a520d1be55729588bc8a2b8112931ce627ca7d3702b1b8c27069a0e69"
     },
     "3D/city/previews/grate-trench.png": {
-      "bytes": 7342,
-      "sha256": "de658671089c453951c2754c073e01d6fd899d722735aec404034aed73c71fc0"
+      "bytes": 7598,
+      "sha256": "5976981636b5862511636c7b9244c4c68c10d128483c5c595cd5e70e63108fbd"
     },
     "3D/city/previews/hazard-floor-stripes.png": {
-      "bytes": 9119,
-      "sha256": "0a41a9681a0f19f4440bb99b42f26c448a3688157732d5fa9cc0355dc4e67a72"
+      "bytes": 9344,
+      "sha256": "b05de7b587921ee229e0bc81ab30a00ae29eb6c0958b77fa0453035dad872052"
     },
     "3D/city/previews/hoist-monorail.png": {
-      "bytes": 8890,
-      "sha256": "f7a94a2bb9fc8513ea1939142c66c3f572b6436213762d2915fcb6d20351f327"
+      "bytes": 9268,
+      "sha256": "e32ddf92fa56407ef97bb6104164af3136cc2b60e1d8f2fc2e83fd04565a63b9"
     },
     "3D/city/previews/ladder-caged.png": {
-      "bytes": 15400,
-      "sha256": "5ce057c578300f36b3e08b6f2fa080574a980ce174ce0930d6629e4eb4af0555"
+      "bytes": 16071,
+      "sha256": "2e7bcada5506454131ec2c634d59f2ccdaaa85b224a1feba45c3541318c9925f"
     },
     "3D/city/previews/ladder-fire-escape.png": {
-      "bytes": 9860,
-      "sha256": "993ed950543beb7ddc75f520cf08390c735f0969bfb40364018e88051d5600fe"
+      "bytes": 10211,
+      "sha256": "6a8211d45a5dea282987980718e2a0cc6d7339d233a500bb3dd3b6cf4d0443a4"
     },
     "3D/city/previews/ladder.png": {
-      "bytes": 9719,
-      "sha256": "ad241d3461f0f0f0fa94d3d6a94b2d778a397a6aa94f14d2bf613822f9ef53e6"
+      "bytes": 10170,
+      "sha256": "c8d54efd8355bff258ce3b86c483bfbf9e8180692dbef229f6fa0aa44b510111"
     },
     "3D/city/previews/loading-dock-bumper.png": {
-      "bytes": 11635,
-      "sha256": "36a739b195e050dfdcee289ebbde69427315593248c20a1fe54591bdfcd74a80"
+      "bytes": 11986,
+      "sha256": "859e0a131161a1ad23c7b76b44d025f6a160cf385fd86f3390fbb670074d4079"
     },
     "3D/city/previews/loading-dock-edge.png": {
-      "bytes": 9545,
-      "sha256": "42e9255e53798af5c0a097a58764c751e0c4dbb2db22a4d51f43c40edfac55bf"
+      "bytes": 9907,
+      "sha256": "1ef8222090043766023faeedd84d549e04b344feb5f4a5f73eb73d4cb7751342"
     },
     "3D/city/previews/loading-dock-ladder.png": {
-      "bytes": 12006,
-      "sha256": "9a975973ea66914a5a432684603805cedec50a522709f65cfb3ed8bbdd72af77"
+      "bytes": 12525,
+      "sha256": "13a9ea95714d846467bbf78004408ad84ef2c20e63f37de2dd33f78e31eeaea0"
     },
     "3D/city/previews/loading-gate.png": {
-      "bytes": 10196,
-      "sha256": "61629fcc41087e0f811f13bc60a0e710a0cbc5e5964780f9fd14e3e8087f7baa"
+      "bytes": 10714,
+      "sha256": "f847f92949b7df8c1ae6983d965675550f7f2228db773bb54cbaae2ca2137335"
     },
     "3D/city/previews/loading-platform-ramp.png": {
-      "bytes": 18678,
-      "sha256": "89262941d4ff55d74487306ec3c45b296541447256b2d26ffc68ff423420da72"
+      "bytes": 20374,
+      "sha256": "df00468f77ee711750858c2ffa19288f105e2aa464200a6a27ece6fe31dd7f8c"
     },
     "3D/city/previews/loading-platform.png": {
-      "bytes": 15380,
-      "sha256": "a63fd32d62b70bd322b7b942c59afc0d163fd2550f68bdab847ee7fb00914ce4"
+      "bytes": 16164,
+      "sha256": "3bb7412289c87e7d7aa7f62eab438f7b3613cd10a47eb2e8cc48e88051d447aa"
     },
     "3D/city/previews/loading-wheel-stop.png": {
-      "bytes": 9079,
-      "sha256": "c8f3d78cc74b7e5489a312338fb2c343b2065c907baf1b68d109b572372e94c4"
+      "bytes": 9174,
+      "sha256": "e0ce17b0b1150544e663964cc3ebae8e5eff993983fbb458f0d256a99647e475"
     },
     "3D/city/previews/machine-hydraulic-press.png": {
-      "bytes": 13113,
-      "sha256": "d7497c4e470b0dbefb922334bf47e06d11037baaf8d5ff1ec214d3877e1a754e"
+      "bytes": 13868,
+      "sha256": "3e1cba552cc8e606be88b8d6d6b2736c376260be6f8d2d813f3b407bdaa295ea"
     },
     "3D/city/previews/machine-lathe.png": {
-      "bytes": 11320,
-      "sha256": "3d189b6bf01b80681fb5564f36d8ad0d0811cd4f404596a131816ba2d8034749"
+      "bytes": 11695,
+      "sha256": "5703d4eb4398509817aa3b221b689a65aeda814524135b4db418a8ef277c0923"
     },
     "3D/city/previews/machine-pump.png": {
-      "bytes": 10235,
-      "sha256": "6b81119191995c30a4108dfc17e69232701d28b50bb2dd04b63592e3aed340b1"
+      "bytes": 10561,
+      "sha256": "53c6c9563f2321846086bd3d9139e261912e75101c9c4c79e982372a02f61346"
     },
     "3D/city/previews/machine-transformer.png": {
-      "bytes": 13580,
-      "sha256": "e53e4ad6377c68d96773250bd1644b49f0a48d9c76599b0923cd53a238165c55"
+      "bytes": 13966,
+      "sha256": "838b720fb521fad3bfdaeb3d95a3f8251e4ca6d53b3905c69fb3c1309f78ce09"
     },
     "3D/city/previews/mailbox.png": {
-      "bytes": 10914,
-      "sha256": "bf72c8692bd4bd3cd211548d105bde2a3a1bf47ce977f4d0536ecab8f5935e71"
+      "bytes": 11377,
+      "sha256": "e606d965cfa89dd111bab67560c1148af5ab451d2e99fcb9eb4eae16a8262b47"
     },
     "3D/city/previews/manhole-cover.png": {
-      "bytes": 13245,
-      "sha256": "219f984d5e8e5d2a890afb57c8aba6e7675d4ea0bc47da74040181f0009580ab"
+      "bytes": 14092,
+      "sha256": "6922eeb3b52955d593b53cc5766ce799b1b93cf7a90baa9e69369eabb66d494e"
     },
     "3D/city/previews/news-stand.png": {
-      "bytes": 10102,
-      "sha256": "9a14e27659bfae8c2408f40c5ddf2571f0cb201a64afe49d3a634662973077dd"
+      "bytes": 10258,
+      "sha256": "eca58a242e5b71f533332fb4ebacfaa1d8d4207c1c53f7d9e05538757956d39f"
     },
     "3D/city/previews/pallet-broken.png": {
-      "bytes": 14846,
-      "sha256": "485bab283e7e113c283cf503183965d5d3aba5e4205686cc93b3673d9d301bf0"
+      "bytes": 15669,
+      "sha256": "4df0794ce4d921df1ec9d084ebb73a0b19c8f544252822f92540aa214c02ecd3"
     },
     "3D/city/previews/pallet-euro.png": {
-      "bytes": 15719,
-      "sha256": "b1f4178db539a634c98b689e00d37f414c411f67a618c6a378835ae0bbbc8a77"
+      "bytes": 16343,
+      "sha256": "db46cc0b0b367600a42c7c0e93b6ffe844103357eaa18c4726ef788ad983204e"
     },
     "3D/city/previews/pallet-metal.png": {
-      "bytes": 11363,
-      "sha256": "71a40a13968bdf4dd64aa795f5108fdcb82ccc3c9c8e47f5c09bf4fdc6757ea6"
+      "bytes": 11257,
+      "sha256": "fa61a8cac361e63ee19dd328247b0547810c45221b8af146cc07d5392938054e"
     },
     "3D/city/previews/pallet.png": {
-      "bytes": 17645,
-      "sha256": "3018436a725db13c30acd29508372ed6631b734dc6b15aa320ab7e71e3d3816c"
+      "bytes": 18440,
+      "sha256": "f20c13d82d3bb23cdb592847bba993287e72741e97d61bf0eaca35886f5d2123"
     },
     "3D/city/previews/parking-meter.png": {
-      "bytes": 6286,
-      "sha256": "b4d62e5e68cf39501a0c3903f52ba2052150928bba0a49bf2aee6aeb862b18d7"
+      "bytes": 6372,
+      "sha256": "cef856ac252841c444c73b6dd74102675aee163aac9784f9f9f026ffec07071d"
     },
     "3D/city/previews/pipe-cross.png": {
-      "bytes": 15326,
-      "sha256": "10db4e235194e4bb6373991d56ac561f10a3839f7f85247a004349270512843d"
+      "bytes": 16435,
+      "sha256": "2726f51d2eea986d980bea3d78b2ec7ef01a1048e0396b007cb042f5b71807f5"
     },
     "3D/city/previews/pipe-elbow.png": {
-      "bytes": 13573,
-      "sha256": "df64af8b92099c3ca0665dc3a4e95b3ebb26226d75588c2e73b4b326e47536d4"
+      "bytes": 13977,
+      "sha256": "de9bedab0728ccbcb6e8c8697b11a350c8f2572d4909867765b3b7f3a9e673c6"
     },
     "3D/city/previews/pipe-flange-pair.png": {
-      "bytes": 12342,
-      "sha256": "99ebca8e15b8bfb3ed164e30a2830cf25640e5ec7b261859937a2b3c17d133fd"
+      "bytes": 12824,
+      "sha256": "f9af574c2dbb41e8908f0308a24f65cdd59876065b175b25c30abe3cca1d40b8"
     },
     "3D/city/previews/pipe-flange.png": {
-      "bytes": 11607,
-      "sha256": "fc89b293ecf31edf527002730e7fcbd0f7bb8b8c7a329756c52e825668ae342a"
+      "bytes": 11938,
+      "sha256": "02ce8fb1a73b1fc6214f0cf4edc908a7f111567da66714e33826ccdb0d24416c"
     },
     "3D/city/previews/pipe-inspection-port.png": {
-      "bytes": 12959,
-      "sha256": "66321ae9644f5b460bae025779e7a21cb8ff2270a9ddd85695f69d19e635a43a"
+      "bytes": 13972,
+      "sha256": "16efcded6c0682e5b71ecbfe1361628360d07176c04c19010578b3210eecf06b"
     },
     "3D/city/previews/pipe-junction-box.png": {
-      "bytes": 14095,
-      "sha256": "cf538397927412dc8b4459f0d61070e5d699543fffe3d8e9e5a5efff2efe92cd"
+      "bytes": 14317,
+      "sha256": "1e96274d7623d3fa4e5959bb5d5acac4c1ee1f41be7f438bf6a6d8ec397afb80"
     },
     "3D/city/previews/pipe-long.png": {
-      "bytes": 8622,
-      "sha256": "8a6cdaf5b7500e3c55675d952fca680e9880e585fd9346f0348b6c10f1a94b86"
+      "bytes": 8766,
+      "sha256": "b15f42de59e3bf9adc9d1e5510af9b576b7d92b5ca8f432c3afca21aedffffd4"
     },
     "3D/city/previews/pipe-manifold.png": {
-      "bytes": 13889,
-      "sha256": "59756c5b9aa53b0cc1ea2393b7f5e415c50968e87a9ad73c9377e808a3469fe3"
+      "bytes": 14814,
+      "sha256": "9a63fbee224443161a9bc250f31e9d119dbf0bfd157d10d0be99ba17fdb38210"
     },
     "3D/city/previews/pipe-riser.png": {
-      "bytes": 7482,
-      "sha256": "98055a2ce217f0db83c8859ba5df7f817c8a7fde7a1c5d536866732aee46e54e"
+      "bytes": 7684,
+      "sha256": "5dd4e1a0fcce583b50b8ab0728ca4483db45e2e507d86c62000f9277f4ffc54e"
     },
     "3D/city/previews/pipe-short.png": {
-      "bytes": 13631,
-      "sha256": "3e95093c1709352667d2230c889a3430f19bef055cdd35992bbf01b81f143bbb"
+      "bytes": 14254,
+      "sha256": "7f98fc4876127df770373b4cc86e5b924909b28e82e3e15fa92f4694d386eeac"
     },
     "3D/city/previews/pipe-straight.png": {
-      "bytes": 9283,
-      "sha256": "0418c8daef1be80085f86156da26033268f32f749b5a489e2954d76249115ee2"
+      "bytes": 9499,
+      "sha256": "c890cfeba26a9cc52efb12070a0660d05ffb7943f6cb7ed4aad00728a4257558"
     },
     "3D/city/previews/pipe-support.png": {
-      "bytes": 15916,
-      "sha256": "2e29a42d577dc68bddcc7310fb7b0acaaa670205d8dbd89927c2239ed8a5b036"
+      "bytes": 16561,
+      "sha256": "bdbf8c02e122df650f4fa08f09f14f09d83105dbf0c915b8640c422f3fa5ba16"
     },
     "3D/city/previews/pipe-tee.png": {
-      "bytes": 13625,
-      "sha256": "1d1ffbbe36cdaf6ec454d2e98e486a9b2172a3d8c779a8fd72ba0de5bb6a43fd"
+      "bytes": 14045,
+      "sha256": "2b4c2648136e3903c5a079261f79d8cf8083701fec6ca4c0b1a91f6bd93cbe96"
     },
     "3D/city/previews/pipe-valve.png": {
-      "bytes": 12903,
-      "sha256": "9f5e8a8e93f12814dbdf4b856fbd6b4f0782d0edb1af19337023555d4335463e"
+      "bytes": 13619,
+      "sha256": "ee5895451b915f9295913adeffa6edda525f275a9febef8ff7586d1def7755f4"
     },
     "3D/city/previews/pipe-vertical-elbow.png": {
-      "bytes": 11556,
-      "sha256": "0add69c224204b6bf2918103d90245c0428ff086735d53cac0ae5a0353ad86db"
+      "bytes": 12897,
+      "sha256": "eb3e69912f9d49210dc4e29426e07ea42c4944e9885bc44f9cf4092a61baa6d7"
     },
     "3D/city/previews/planter-concrete.png": {
-      "bytes": 16495,
-      "sha256": "4ac0492d7f6445aceb9c5f913cf3757dc1ed4b30508d024f12c86915d0a62f56"
+      "bytes": 17094,
+      "sha256": "46d7b4f71e9e0c489bf9d67e74fb34c16c9268a4c1caf9b8fede23503d84ff0b"
     },
     "3D/city/previews/platform-grated.png": {
-      "bytes": 18175,
-      "sha256": "19f7650b39df86daec9379357ac2eb63caa47cc3026606f60fc203102e95707b"
+      "bytes": 19247,
+      "sha256": "fc7256b3ccacca34ed7a93e84296fddaca077ec14aca195bec229b4b99860b3c"
     },
     "3D/city/previews/platform-high.png": {
-      "bytes": 15544,
-      "sha256": "b13a20338195a2455ddfc9777e00aecf6a674adac570fa1c84d2b846177735c6"
+      "bytes": 16630,
+      "sha256": "6a566071bc57ef72c48f077faa5bf9f1000a47c71f80a39182c1ace5e6d0a4d9"
     },
     "3D/city/previews/platform-low.png": {
-      "bytes": 13983,
-      "sha256": "800e33a0917b1bb326d097af27c2435c0c703486ea5cebeb315a2fa5d8afe010"
+      "bytes": 14717,
+      "sha256": "588adea6e37581a3c9c6a66f96aec355b92546ea49db4394ad74e80f817e231c"
     },
     "3D/city/previews/platform-staging.png": {
-      "bytes": 11353,
-      "sha256": "487ede04701589746b2647e981d5e3f966a274c7b7948ee95afa3dd4836eafa5"
+      "bytes": 11465,
+      "sha256": "c95c3e26aaf0221c8e6d54f0ac3c07e551009311a13c5932beee01f96f283af1"
     },
     "3D/city/previews/rail-corner.png": {
-      "bytes": 19330,
-      "sha256": "f27dec4139c961f8e9e81dcb361f884a54743151e88426785224f0327ee79c72"
+      "bytes": 20855,
+      "sha256": "253981a4a58cae860ef88b122fb2a590a0a991dd04ee8a05220e228bc042e211"
     },
     "3D/city/previews/rail-endcap.png": {
-      "bytes": 12182,
-      "sha256": "a88d314c9de9deb9e904e3f2689885ae4a9dc7f9d03fcfdac7a260d6166187ac"
+      "bytes": 12690,
+      "sha256": "e977dc5bb73595106985b72b2ab1704af5241eba8e1c236b714a3c27695f7b86"
     },
     "3D/city/previews/rail-industrial-guard.png": {
-      "bytes": 13629,
-      "sha256": "422f58724aa8688b494d5653b68ecbbe87434f547922c427299c2849d974f0b3"
+      "bytes": 14186,
+      "sha256": "e1aa5c1ec5f608b1f738843ca934e27a090e56cc175774453d22ac0e9942cb6e"
     },
     "3D/city/previews/rail-straight.png": {
-      "bytes": 11833,
-      "sha256": "097f46df0c66dbcf35ee64294d05a2f9831578c41c5a154d8f2b4f516fd3c03b"
+      "bytes": 12761,
+      "sha256": "77dc94c8256f4ddd3c973deeb33f898c59c36706027a7cc9c608e73a4599a6b9"
     },
     "3D/city/previews/ramp-curved.png": {
-      "bytes": 10619,
-      "sha256": "2325548db4b7296ff677ba8a84ad45bfb7705c83ce4183b2f7ee469259be4fe8"
+      "bytes": 10841,
+      "sha256": "bbf121ca10ae24e147d7e748e03d34a43152a641eb1794bd7431c664915af8c2"
     },
     "3D/city/previews/ramp-high.png": {
-      "bytes": 22857,
-      "sha256": "6d14c035169af1c7faa3e141e8b1e85804e20693972db0075bbd29566080edc5"
+      "bytes": 24889,
+      "sha256": "24d68670e01d791e6203aba7ad4522d42b285022a3e5b98517a815e3138b6f08"
     },
     "3D/city/previews/ramp-low.png": {
-      "bytes": 10179,
-      "sha256": "0e9ebf3413392c021fe66901f61f50c73f62874a41cde3b65827eca13b99bb3e"
+      "bytes": 10287,
+      "sha256": "6e6b0dc042e1a4d9beb259e806d8fccaa1b0eaecabaefcca33e347b9ff94828f"
     },
     "3D/city/previews/road-tile-junction.png": {
-      "bytes": 12448,
-      "sha256": "7a8da482bbecbae0d38885659cbb2ea53247c700cbfdd3f9fe1d0cc0baa4e8ad"
+      "bytes": 12668,
+      "sha256": "47c1c7504e82d7039b29854b0df465e171a84cee1c5308e4ca2e2259907ab4fc"
     },
     "3D/city/previews/road-tile-straight.png": {
-      "bytes": 10399,
-      "sha256": "6eda22280b0a7c77d2bfb380c4cb7ce24ee1662b6e168674ca8eed033053adc0"
+      "bytes": 10437,
+      "sha256": "d261ef40fcb11f5f2c729f9409a9307cbe30bfcf1bf67d49718ba5576c52070d"
     },
     "3D/city/previews/roof-access-hatch.png": {
-      "bytes": 16699,
-      "sha256": "c7301b656818dd4cd6ba12e10ae62d2028f61959de4178b58220844a995d8e8a"
+      "bytes": 17067,
+      "sha256": "c2e91fcab396ba72570995bbd373e44667857910228e8f122159929888a35add"
     },
     "3D/city/previews/roof-antenna-mast.png": {
-      "bytes": 10492,
-      "sha256": "727a0a09abb433b0892139b93518a1cc8d4eaed134395245979ba44d3779b62f"
+      "bytes": 10900,
+      "sha256": "d6cb0ad83dc2f13065da4a8e8d7a27446a10fd1a14c7f38ceb58b68feebad54f"
     },
     "3D/city/previews/roof-cable-bridge.png": {
-      "bytes": 11940,
-      "sha256": "2a4f6346a606f21dca201d14ce6691256b1b8c01c341a602b08fd18d306b8b5d"
+      "bytes": 12233,
+      "sha256": "cd137c6cdde887e6a791c8a0fadbd9993e0935d0c11723bc3e0ad627bb926ed0"
     },
     "3D/city/previews/roof-curb-corner.png": {
-      "bytes": 11345,
-      "sha256": "8d651cc5e6eb7e802882deee32dc1ac962c17d9017b0d30bbd399c3f59f59605"
+      "bytes": 11523,
+      "sha256": "14b3c7f0936b73b0249ac739fce94a30ede8760d33dd9b0b9bc710d96b796288"
     },
     "3D/city/previews/roof-curb-straight.png": {
-      "bytes": 8321,
-      "sha256": "da18019a9b61e4edb775e27f3ee7ed0d231690630e0f2494860ab2b66010c0cd"
+      "bytes": 8578,
+      "sha256": "3f987b7717006792951c1071b9aa0d219c26d3fed55199dfd51875df1919a67c"
     },
     "3D/city/previews/roof-drain-scupper.png": {
-      "bytes": 10926,
-      "sha256": "539881859669741b8eb0a04c0c55365b128a5cd4f187599e595a07b38a402677"
+      "bytes": 11917,
+      "sha256": "ebfe7853af9a1093862497bc1cad5ba2d375a1d326a0c19e0e348cfd8d8753bf"
     },
     "3D/city/previews/roof-duct-curb.png": {
-      "bytes": 13643,
-      "sha256": "aa45785d24acb1721b0fb3d5ec1e6161093c51ae697a50c247fe324fe0f046e8"
+      "bytes": 13623,
+      "sha256": "45cbde923d0b0ba8992f2ae6f98ddf12d7d6fb66ebd58b3e387d568449aee0f0"
     },
     "3D/city/previews/roof-equipment-plinth.png": {
-      "bytes": 14969,
-      "sha256": "ccc00977a4a5359e906f519e0cd60254c94ad8a7a710c4cc75d6dbfc904874cc"
+      "bytes": 14972,
+      "sha256": "022fa628e1cc4cc7a2c6d77f46a6e43cab591a613cb6c4bae10cff465b83d586"
     },
     "3D/city/previews/roof-fall-arrest-anchor.png": {
-      "bytes": 19333,
-      "sha256": "ee5d1edbb8dc53c912da427f4f98935aafc71af635cc95e3360e193e37c7f136"
+      "bytes": 20712,
+      "sha256": "b42f9624f3dc95151b7644c8cd5bcd633c5677acd6e73d001079a4b33a8b0110"
     },
     "3D/city/previews/roof-flat-parapet.png": {
-      "bytes": 14551,
-      "sha256": "e4a30665ed3845f55e6b3f4a29c14fb43da1674c9a25844cea8481cdaf60d836"
+      "bytes": 14792,
+      "sha256": "5a034fdb5f5f286afcc80b1f44d6bcd2b0c0fb6bbb1839d10de1de30ac1eb325"
     },
     "3D/city/previews/roof-ladder-landing.png": {
-      "bytes": 33191,
-      "sha256": "792680803ab776a9d7598dcc92bb82bd2e1c6892bb50465d8750b2ceed02c3fa"
+      "bytes": 33787,
+      "sha256": "e63a9a2627ac4d4e8c9320911ef642ea3bb26c5494752779dffc8b0e805ef4d6"
     },
     "3D/city/previews/roof-safety-post.png": {
-      "bytes": 10694,
-      "sha256": "3d5537b889e0d4b8939d8aa2fba89aa92b56a184535468952f91d6d264a92b7c"
+      "bytes": 11232,
+      "sha256": "33ae9da868f2cca6e6d619cb3910b0b86bee13b3b30adcf197b8d1aa7bd12858"
     },
     "3D/city/previews/roof-service-vent-stack.png": {
-      "bytes": 11897,
-      "sha256": "59e09cfd56782137a7493595fdb25bbcf09e5d0dec9967390e14ff7abda83594"
+      "bytes": 12707,
+      "sha256": "2ca56b83316d9537393013f0ee5c07c57b8d1a10fb39ebdd42d6a86d10e0532d"
     },
     "3D/city/previews/roof-skylight.png": {
-      "bytes": 13666,
-      "sha256": "857153cf24cf4d05ab88487bd6d06bf3bbedfdbd3b95467dd34f0b397edf64f9"
+      "bytes": 13762,
+      "sha256": "f8596ed1649373a747daddfcea74d295d3dc0c33a259292565975c4db3654a40"
     },
     "3D/city/previews/roof-truss.png": {
-      "bytes": 11049,
-      "sha256": "0440bacd7265784a1c7b9044246f435697d3d3b694e95fdc15c5b70bc3d976f7"
+      "bytes": 11867,
+      "sha256": "ac4bf8c0b12a0c0387fc0610db45503b426ccffc6d833b6e9e7637ecc78c754c"
     },
     "3D/city/previews/roof-turbine-vent.png": {
-      "bytes": 14632,
-      "sha256": "8a1ed3626e4f3105fa686683bf79aedf2fd4c840f703d04e8d362d1848fc76db"
+      "bytes": 17846,
+      "sha256": "f4ffad07ff464fc2bf431ef4d07bc81dade3a331626b40015262957d896708ff"
     },
     "3D/city/previews/scrap-i-beam.png": {
-      "bytes": 8219,
-      "sha256": "1fd41367a2e535222a565c6805110fca4a8acec0e0bb1eab7e028f70839fd1d9"
+      "bytes": 8743,
+      "sha256": "b0ee4a595f38b32b9dad220000ca5c770c862c8e7a63ee97e56c15432a294271"
     },
     "3D/city/previews/scrap-sheet-metal.png": {
-      "bytes": 12582,
-      "sha256": "5a3af6b184e9a937dde31a0c20e9af14056bc23020d1926bd81c4afd34f43023"
+      "bytes": 12684,
+      "sha256": "34637535a522e307a7aa6baac513e23583b26f8b887cea89ce7e2e2d8dd261d2"
     },
     "3D/city/previews/security-camera-pole.png": {
-      "bytes": 7075,
-      "sha256": "4d71e410855135ae8c147837ee625821e280a497f5c70702839b649d0d160607"
+      "bytes": 7316,
+      "sha256": "58f8cc59cecf043591a11e377f9298af8058fdf383d5a5d47bfd1e335a3a1bf3"
     },
     "3D/city/previews/service-bay-arch.png": {
-      "bytes": 14604,
-      "sha256": "857f31eb08bd07b225804484dbaf656e75e6658250941ca59dcf9f66f2c31fc9"
+      "bytes": 15491,
+      "sha256": "7e96556a6be9867e943cbcab86acb3017856125d8d877a629eba9234136378a2"
     },
     "3D/city/previews/service-bay-canopy.png": {
-      "bytes": 16106,
-      "sha256": "403ef403f96e93f66013aaa97db607fe028fdbcb8df88380be27adc52293e3e1"
+      "bytes": 17072,
+      "sha256": "04d3089aae541b25996d595ae2cca7e17875415c09818fe435401aab98a804fc"
     },
     "3D/city/previews/service-bay-door-track.png": {
-      "bytes": 10337,
-      "sha256": "136a7c86ce4a7391f2e95e5c1cbff74d197c74fba7336a97f192feb4ea709cea"
+      "bytes": 10600,
+      "sha256": "9adb1f4ad158f27779030db94c1a6f477091a3965907f637e3520326a5eef643"
     },
     "3D/city/previews/service-bay-pillar.png": {
-      "bytes": 8296,
-      "sha256": "b642119aa2a7be15fddc816108da4a410e36703b41761982efaea7bf8ea470b8"
+      "bytes": 8567,
+      "sha256": "44f1125d1cec211f049cd2ed1466e76bf2362506eef95e6130b494b336aeaea1"
     },
     "3D/city/previews/service-bay-tool-board.png": {
-      "bytes": 10789,
-      "sha256": "e5c5afbd4dd1ecc22887251e0cec3c135c364190a501bb75e8ca623ec03b228e"
+      "bytes": 11092,
+      "sha256": "b4bcccd7e54694c39d876656f8ef102fab96dd7d184d0410f60ad5d0fc8e90ba"
     },
     "3D/city/previews/service-bay-workbench.png": {
-      "bytes": 13015,
-      "sha256": "d6dbebaf197ab39164b6c3fd54a144e14476133ed5a5c9f734ae238acc6caca0"
+      "bytes": 13527,
+      "sha256": "4ce965ab8a3028444e85ce6f2a24df3b66e926a0c386754b9dd3efd8d528a34d"
     },
     "3D/city/previews/sidewalk-slab.png": {
-      "bytes": 11664,
-      "sha256": "42b299eb76bf302249e62e974539424eb6529c78609a2aee448343eb61798ae4"
+      "bytes": 11706,
+      "sha256": "8f2ffbacb8fa5dd8014b2a200d58229f6878da228592faa642a7d4d6823f9e77"
     },
     "3D/city/previews/smokestack-tall.png": {
-      "bytes": 8562,
-      "sha256": "d0e68bd62fec68cc60b3bf704a4053666c9981f7e7dd125fa082219430f3a5a4"
+      "bytes": 9159,
+      "sha256": "579f122c01ddd789583447d698c6ea4261d1e0f9a262c4d2bc3c9113ed51ff15"
     },
     "3D/city/previews/smokestack-twin.png": {
-      "bytes": 9068,
-      "sha256": "4967014c5edf481c94887eb2dd187c082d0f2c13630d8560259d212c527c42e8"
+      "bytes": 9496,
+      "sha256": "96d139a5da7918dd629518a0791d0f6ec33896f8287040834fa12e474078c338"
     },
     "3D/city/previews/smokestack.png": {
-      "bytes": 8674,
-      "sha256": "e4a3d34a1aaafc3b8a6598446dafda85517c66fb253fea76de953876c3f16aab"
+      "bytes": 9141,
+      "sha256": "abba9891e20385a6413a15e81ab4b5523be275bf7edee247c70416d0af2f8ec6"
     },
     "3D/city/previews/stacked-pallets-tall.png": {
-      "bytes": 23695,
-      "sha256": "10edc9c35d28d0e27bb57dccb07fde60190a26832002110fa42e196efd728ef0"
+      "bytes": 24017,
+      "sha256": "0f45d1b3c90454f4ca49cb217302f6427b03f1430d2291062e3aa1dd44d6a50f"
     },
     "3D/city/previews/stacked-pallets.png": {
-      "bytes": 19095,
-      "sha256": "d01bb5ac2e82472f9279fedd7649ce96922ba2f71ae2cc231d0afb140437ec8b"
+      "bytes": 19003,
+      "sha256": "bc53fc0c7ebd19434f2f3a28e7ed67f1b90a42e13a3c6a9d249eb2e50b8f1e1e"
     },
     "3D/city/previews/stair-flight-spiral.png": {
-      "bytes": 15634,
-      "sha256": "d3a53500a4dae48d10fd5b0a8d834b714c5f0dee9193f661756804f0b94c86ed"
+      "bytes": 16816,
+      "sha256": "8cfae84b4a6153dcfeb49875e0607bb88ac0a7e7e2e11872ec7657aea9ed6e68"
     },
     "3D/city/previews/stair-flight.png": {
-      "bytes": 31280,
-      "sha256": "5155ab626835c947201925c6721f0c03e110e425f84df0becbeea5164ae63faf"
+      "bytes": 33321,
+      "sha256": "72042acce09a61f2db62bee5eef6a6cd5dbef33abc2c3d26038c4a90358664e7"
     },
     "3D/city/previews/stair-steps-short.png": {
-      "bytes": 13241,
-      "sha256": "2e9b96f3b5f80a3b35532f00b8fa0883fbe3ce1364317e15328c842af9cd9a2d"
+      "bytes": 14493,
+      "sha256": "c154fd4e2cf404910b384461614464861915a2d67042cb7abe4cdc15171ad905"
     },
     "3D/city/previews/street-lamp-double.png": {
-      "bytes": 9233,
-      "sha256": "547a4414abb2801cb8d2c65e7e81614a4d3c757a3a8a2ca25b8805032992b587"
+      "bytes": 9870,
+      "sha256": "88f9a370b268f1704d3440b39000466586b43d9f716d45a9ba3568afae0c51dc"
     },
     "3D/city/previews/street-lamp.png": {
-      "bytes": 8082,
-      "sha256": "75f4aaacf8b389df20f6ba4ce790ff782169c82b9bdb5a299a2b17266fb9e149"
+      "bytes": 8431,
+      "sha256": "b2eec2ba27dc524495dd7d849f8917fa307ec94ad56350d1aedcd8ddfe293c8c"
     },
     "3D/city/previews/street-sign-pole.png": {
-      "bytes": 6394,
-      "sha256": "205760c457d1a1750bbf5bf624fbe7ba82049b9c6d6000d7b8ae38d4dcb7478b"
+      "bytes": 6588,
+      "sha256": "94f5881eab9f556a4947df40f389510e0b15e7caa044168703cefcd96720e5e0"
     },
     "3D/city/previews/subway-entrance.png": {
-      "bytes": 16486,
-      "sha256": "86dfc36f7e02a764ff092cbb3258dd0966582c772185e37291ef61bed6d63002"
+      "bytes": 16795,
+      "sha256": "185ec282f370db133a44b37a5e6a358f6dd5eff17417a95a2ce0e70b798c9273"
     },
     "3D/city/previews/tank-horizontal.png": {
-      "bytes": 14362,
-      "sha256": "0c7e5e28cf8208d05b29c1c8fad031225e889c17bcf75f0f12aab6413d6629c7"
+      "bytes": 15770,
+      "sha256": "e32235fe5622dd5954b5f5dce1259220ae9d7d37c7469b1ea3ec281e9e9ac3e4"
     },
     "3D/city/previews/tank-silo.png": {
-      "bytes": 10908,
-      "sha256": "daa6a289f753ffc16a2711480135343a0d515ccbb4d9dbe1d2981072648498a9"
+      "bytes": 11988,
+      "sha256": "429f75a4a26d275865382410490f7b1f50be4ec3294a360478fb74fa3914af27"
     },
     "3D/city/previews/tank-spherical.png": {
-      "bytes": 14465,
-      "sha256": "09073d739856ca9d1de231853cc58845a9a6748f56d6f6db4e1d1a5d4d14fe14"
+      "bytes": 17705,
+      "sha256": "aa3382f96a3bad977db9fe435f6b059942fdef9dde43357ee707afbe1ad1cbf2"
     },
     "3D/city/previews/tank-vertical.png": {
-      "bytes": 11434,
-      "sha256": "a8639a7d4bf7074650cdc9e47970f8397b58e5f6a1ed21dbac0b1134e0f87c8d"
+      "bytes": 12749,
+      "sha256": "c8b395b22f130ced3dcbc7bd0c0bb56089f21b5742972ef2e3c29eb4cdbd50d8"
     },
     "3D/city/previews/telephone-booth.png": {
-      "bytes": 13625,
-      "sha256": "fbb03ffa01ec82a07e5e782861e822e63ca346f7225869fbfbf3bf54765ec5a5"
+      "bytes": 14185,
+      "sha256": "451ca1146a3cd188b3a75258dfa9dc5bc844d290083cb2d2eed70607ba40a984"
     },
     "3D/city/previews/traffic-light.png": {
-      "bytes": 7156,
-      "sha256": "fb846a0ce83cecb7a339a8c17fc6f881ce114b200eed012a786c7200dabb995a"
+      "bytes": 7376,
+      "sha256": "5c3b23bdce9436f6b4b9d39dec3f5e144c1cd8d6ea457beed0be07d60d42cfe1"
     },
     "3D/city/previews/trash-can.png": {
-      "bytes": 11587,
-      "sha256": "e0cf5241379d8d1d1a54f64cf334a51220d9c1658e20e3ef0acba5256871e32b"
+      "bytes": 12779,
+      "sha256": "3b5fe029c7ada15ab63184aaafffcadb3f55825e4f949f81e24a6ef69ff0f86b"
     },
     "3D/city/previews/turbine-housing.png": {
-      "bytes": 16517,
-      "sha256": "0d84975bae8dfe6269c5f103d14773181ab1e6d81178fc5b3ef9399a8ace3a80"
+      "bytes": 17008,
+      "sha256": "470cfb694fc74b9e39526c50e68ca805ee376e44b3663757f5e4610c07af8fa9"
     },
     "3D/city/previews/utility-bench.png": {
-      "bytes": 13172,
-      "sha256": "fe0341dfdbfa2702e20d1f9c0522243872efe59dfb2a36ab5b2c2d24f893ef7e"
+      "bytes": 13744,
+      "sha256": "201b28a2e7d9ab0002f107bdccc81eb0bff8b97a1f706ddd3cc8992bf79cd080"
     },
     "3D/city/previews/utility-cabinet-low.png": {
-      "bytes": 11072,
-      "sha256": "197e03eeb5ea9dbe840d09f5d8efcbe14b99ae8834e6394be7a37dde1b6bff12"
+      "bytes": 11223,
+      "sha256": "f9389ae79bf84ce1001248d0139dd70b60989d543b6590f4ba4cb4d7ed6082d7"
     },
     "3D/city/previews/utility-drain-channel.png": {
-      "bytes": 12248,
-      "sha256": "c8d1256a3953159bb68f87c8a27b1ef87a2c81de3040de0610b0efd66b115106"
+      "bytes": 12677,
+      "sha256": "7d86c1d55e312b965de3e10e54b41b56c65be07e9341cda668f844903d61d1f0"
     },
     "3D/city/previews/utility-meter-pedestal.png": {
-      "bytes": 14220,
-      "sha256": "d9fa6e537240111920d81275f54e202656e4d0b8ad8a74988a46eea7873f1134"
+      "bytes": 15264,
+      "sha256": "473a76b0455eda68f087fbf042cbcc9581149fa63cf2b2817c4f7a28bcd169dd"
     },
     "3D/city/previews/utility-panel-double.png": {
-      "bytes": 12829,
-      "sha256": "fb949e1802fb0fb9f3a87735e3314288ee1cccf6a5a654baef9f1c31af21b341"
+      "bytes": 13362,
+      "sha256": "aa846cc0bc5899aa13e00b5d7b0097080ffc34aa8f5adb58e79d2d11f7ca4d27"
     },
     "3D/city/previews/utility-panel.png": {
-      "bytes": 9550,
-      "sha256": "abeeb4a99a35386e1af61482a398b5aa8635a138db97c270f18bac57484c9001"
+      "bytes": 10126,
+      "sha256": "4e32304d164d25bea3842f2c269b357cdd596fc4741de344404b339f7833dd1f"
     },
     "3D/city/previews/utility-sewer-opening.png": {
-      "bytes": 14224,
-      "sha256": "fd4cba68c89ce8c9de51f278a1f37a14dfc98092c5bb737a1bc5f3206488d9fc"
+      "bytes": 14405,
+      "sha256": "4877b41abdd5dd8e9daed5ff7a5719fd31e0d611c6a752033247353a01f57b0b"
     },
     "3D/city/previews/utility-tool-rack.png": {
-      "bytes": 10072,
-      "sha256": "e060ce83dabd6193cafa9bf1073185ff16bc98a61a9a645484abf2b13596e681"
+      "bytes": 10414,
+      "sha256": "04e57b63ab4835e977e08e618ba6bda2a58e8ba94cbaa33331d42c3c223c2901"
     },
     "3D/city/previews/vent-fan.png": {
-      "bytes": 12705,
-      "sha256": "4ba778fd71e1aa4ce14f16002d6c22a0c348799dedd0ae7581eb3a180b798937"
+      "bytes": 12835,
+      "sha256": "d1ef199f4d7f954b9830eb6fab29e12398efaad82bda208d9626f4f3988b7d51"
     },
     "3D/city/previews/walkway-bridge-narrow.png": {
-      "bytes": 13742,
-      "sha256": "fd25419d713c1d80935142444a792369a40c06396b4115afdf38fd0448c52c87"
+      "bytes": 14566,
+      "sha256": "16c95ca6d72fb19648a246312f6586d796294ff98ad2fec7003d1a1a10302988"
     },
     "3D/city/previews/walkway-cross-junction.png": {
-      "bytes": 12634,
-      "sha256": "0e860d8be55956d6a0c47bffb8e83cd714862768181338d93462303877c236cc"
+      "bytes": 12925,
+      "sha256": "1f821bfcf2fb01287e291317e5ffa0024d0065a0de6ae70f06e3be7f236908a4"
     },
     "3D/city/previews/walkway-grated-turn.png": {
-      "bytes": 25713,
-      "sha256": "adfecc1c15580722edd82989a86d58811b341241e62fdb82efea0c0a6e94b496"
+      "bytes": 27800,
+      "sha256": "e5bdcf7f8477f3ebe7deb169fd1996b7d11863cc54fbaa2144c3162f1bdc6101"
     },
     "3D/city/previews/walkway-l-junction.png": {
-      "bytes": 12486,
-      "sha256": "f56690172b031b1f8f1725ba14a1a879ec2818d3745e04e227ae12f88a2889c5"
+      "bytes": 12926,
+      "sha256": "b6c2ba1c44e5c40c5e0c837c7ffe38031d185d0493987c1b7c3e20e563809b26"
     },
     "3D/city/previews/walkway-landing.png": {
-      "bytes": 27136,
-      "sha256": "017cdaab94161e6bc2880978117f6cad6d0f68c90fbfac1e91a16ab7ffbe5741"
+      "bytes": 28137,
+      "sha256": "bd065a57fef3d01c13420598e6a89221603f8a5b76102567941a0dbdbf62a57a"
     },
     "3D/city/previews/walkway-rail-gate.png": {
-      "bytes": 13792,
-      "sha256": "c1e6337b3146505c0b6d53b2e2039a510feab9620274b2cabaa7652b89624cc6"
+      "bytes": 14549,
+      "sha256": "1a2fa534f28a7d3717cf96c571fb9e622842320cb4121f04b0285350a2211bc1"
     },
     "3D/city/previews/walkway-rail-kickplate.png": {
-      "bytes": 13848,
-      "sha256": "fb0e6dd3df539aee155273897153c5a69056120cb5f1f21d93c74f8fe9abadbf"
+      "bytes": 14505,
+      "sha256": "0fa659ad3fe4a5be9aff435b3a448cdad4de956d7d24c265a05ca5e8ee61fd33"
     },
     "3D/city/previews/walkway-ramp.png": {
-      "bytes": 19730,
-      "sha256": "6f4f01c9c8f4fbe01c306c349d0a0c0782c373f6c70bf922e0a8e4c023966eab"
+      "bytes": 21436,
+      "sha256": "99850a2d0f9a9d95d22fa85c0ae2a00dfea3ddd69af5fc461eefb7f5683e3740"
     },
     "3D/city/previews/walkway-service-steps.png": {
-      "bytes": 14697,
-      "sha256": "aa07222be9e4313fb082cfb0f33008ca91a29b524dba186973a63b079574c296"
+      "bytes": 15904,
+      "sha256": "6c18ef2aa32009d0aff61b48dd69b0a09cd633dd1d0055eda7d84ca360b425b6"
     },
     "3D/city/previews/walkway-stair-short.png": {
-      "bytes": 24330,
-      "sha256": "403b00a1dc746f68fde7a63ae7368ae4b4d6c51f1a8f058a4056441d864effec"
+      "bytes": 27287,
+      "sha256": "e113d9b8b41ed7d4ddcd15a94a504f85b9c273f7bec3f8a56c869e4e0e001527"
     },
     "3D/city/previews/walkway-straight.png": {
-      "bytes": 24727,
-      "sha256": "a9e272abe714371ff4f8d794b174abce2d83e8139810c010b8c069946d7f19ec"
+      "bytes": 26998,
+      "sha256": "dee10ff6635315f19dcc9b851b4f1c89633b543293d3faa733d2311dc4447279"
     },
     "3D/city/previews/walkway-t-junction.png": {
-      "bytes": 13006,
-      "sha256": "cf38f2e1d4711e0557351e03d92c10e89fe05c7904f1a34ed391871b37061ec1"
+      "bytes": 13087,
+      "sha256": "b1aa02453a00fff4a8a94faa65104e306361c68ed789e8468da6a0b50392b8d2"
     },
     "3D/city/previews/wall-corner-inner.png": {
-      "bytes": 8254,
-      "sha256": "9ffba171b6b2c796ed1d7010587ebb4af0ee758d83ca42bfd1059d543678483a"
+      "bytes": 8815,
+      "sha256": "de2a52ce80f7d043a7939a4c6fdb37477beee6f3af320beda8bb0cd540157253"
     },
     "3D/city/previews/wall-corner-outer.png": {
-      "bytes": 10346,
-      "sha256": "9f8f36b7eeaebb186645c01c0152838bfd741234869671eb03f90ab650f53cab"
+      "bytes": 10998,
+      "sha256": "d558c220255cd6e1b7746f39e21ad8200c1c3dff22e09f1e4ad1f22432d2c9dd"
     },
     "3D/city/previews/wall-panel-corrugated.png": {
-      "bytes": 20245,
-      "sha256": "e1477a28af42b73d7f6fa5e6d66f6ba8635ce63091452b8fd1dad61008ffd163"
+      "bytes": 22097,
+      "sha256": "5116de70e10a7b93b4d302ce589fbf79de5c0110fc905995bab7da1f1951a49e"
     },
     "3D/city/previews/wall-panel-door.png": {
-      "bytes": 8527,
-      "sha256": "ef6512dd35f30c8c41a7b89d34da00703e6c655bffa95349455306cb7bcb0eaa"
+      "bytes": 8942,
+      "sha256": "4c162a0f89ddf9964371f89a3073f49eaf4bf93a59cc278eff00451d1b91c280"
     },
     "3D/city/previews/wall-panel-reinforced.png": {
-      "bytes": 17896,
-      "sha256": "d4cd3307752a033246667ee216ce01ddec0cdca10f43bca0ed1e4866093eea1d"
+      "bytes": 18972,
+      "sha256": "cf54c6d80671bbbf1c33c84a7f4418c30ed183c9d6a7aff4719ec87edbc6211d"
     },
     "3D/city/previews/wall-panel-window.png": {
-      "bytes": 10021,
-      "sha256": "c345be4dc5bf9bc3d2fbc186882d8d9c471c5f54bb30be363cedd81f76a4a0df"
+      "bytes": 10759,
+      "sha256": "894ecd624143d6bec450d2e2ddb883e0aa21e7003e7e06ee081b3034fab92651"
     },
     "3D/city/previews/wall-panel.png": {
-      "bytes": 11060,
-      "sha256": "86aa6036a98f66dbfdf02a9be270b57f245853e9ffbef11439b352dea60502e8"
+      "bytes": 11652,
+      "sha256": "498c9cbb1a59f7af9ac54cbe776a0f47ed33d6536805f445ba9ed8d68bda26da"
     },
     "3D/city/previews/wall-pillar.png": {
-      "bytes": 7056,
-      "sha256": "899b3d12236ef16e99493a81c5b2ddfe2dd9c6099bc9de8d4425e17f41ed06bd"
+      "bytes": 7407,
+      "sha256": "a46eeda50748ea96d445f2514340eaab3a8594c37cbc7bddfe5942e2adb7a7fb"
     },
     "3D/city/previews/wall-vent-louvers.png": {
-      "bytes": 16933,
-      "sha256": "5a12f5bf7b3193f47e68b0e319505c9ad2e604b5c80603fe70fa737c85d30e0e"
+      "bytes": 17768,
+      "sha256": "a2ddbd340dd3f563ba247236bed5972a187f0f80af28dd6eb424c08f50da3114"
     },
     "3D/city/previews/warehouse-bay.png": {
-      "bytes": 14055,
-      "sha256": "efed29eff84347892fc75751c800f5e2b8bba1ee9f9afc105af8784e31dfa2c2"
+      "bytes": 14995,
+      "sha256": "c0ced34b196901bbafc54a23d7f78f2e944207d8bf6f5785bd3f5e9f2cb73731"
     },
     "3D/city/previews/warehouse-office.png": {
-      "bytes": 13768,
-      "sha256": "edc7bbe20567919801f7d646bafef8860defee53d420954a49ecf226d29a88d9"
+      "bytes": 14288,
+      "sha256": "edf0b4bedda78d5e71f16a9bbb9ba2c6a7f43a0ff01ce344125d5bfabf315066"
     },
     "3D/city/previews/warehouse-roof.png": {
-      "bytes": 10989,
-      "sha256": "313656776c297d70440f2eefef633b9de9b2b3d888de918b6fe84f63de99f22f"
+      "bytes": 11085,
+      "sha256": "78247cba88b80d85b1dd7070c3ac0ba34989f3f19f1fb36a15c7dff742c8bcde"
     },
     "3D/city/previews/warehouse.png": {
-      "bytes": 13887,
-      "sha256": "ab03f932a46d0b89acb72634ea8f75a80cc4bad327933ce7e13a87bafe3469c0"
+      "bytes": 14387,
+      "sha256": "8bdbc8b2c16b5e320a87c17948af6f350b5a79144ae59ec1fabdf30949e40783"
     },
     "3D/city/previews/warning-decal-plate.png": {
-      "bytes": 9331,
-      "sha256": "cbebad2daed9b965504dc6eb5d536cb69c01490180eabd9970bccdfa24c095d2"
+      "bytes": 9093,
+      "sha256": "079a4848093a19dd63316b6803dd880493fd60985d1d04f1d56b600c3fcdbe08"
     },
     "3D/city/previews/window-industrial-frame.png": {
-      "bytes": 11570,
-      "sha256": "69a5f8801ff7c4c16eec7799ad63951c4098470e430cf9ed0a5e3870fc0fd8ce"
+      "bytes": 12191,
+      "sha256": "2546df4dae33b681c7cbc7c4e68762b797776a7935bc0a7f3723c46bdf8c7c27"
     },
     "3D/city/previews/window-security-bars.png": {
-      "bytes": 7350,
-      "sha256": "dff0beeab8806ea68ddcf0eda367fb14fabf7ecb1f965d55c351f7462e317e14"
+      "bytes": 7355,
+      "sha256": "f68f7239185f0d34b7bce62f683f09d85546e6c25b0974923e307304f1ab1225"
     },
     "3D/city/previews/work-light-stand.png": {
-      "bytes": 9077,
-      "sha256": "7f4f76fdb50e7096e6b56d6b2c6ff292e4da5c007617dcc3cebc816082072463"
+      "bytes": 9457,
+      "sha256": "38f880826105b6f7fc577ffc91dc664fc1289e68e28854148a4fca8c0e7a7a6f"
     },
     "3D/city/previews/wrench.png": {
-      "bytes": 7610,
-      "sha256": "a040d0656787a0ed3dea6b396fbb320e4bca6bc383fecf2e366bd42668e71a1c"
+      "bytes": 7842,
+      "sha256": "7c8a396fb3c22fb6ef44427ea03bb0c7884e00e8fe5ceab020ce90ce73c9afab"
     },
     "3D/city/rail-corner.glb": {
       "bytes": 17400,
@@ -2961,8 +3761,8 @@
       "sha256": "3af055f07a9c8ea6a161c2aa6cb0a92036e0d2a3950fbd24704cf19c2592bcb6"
     },
     "3D/platformer/License.txt": {
-      "bytes": 1279,
-      "sha256": "370fc07dfb7d5d2220432d0afe8e503ab693e2009286c21da48949b5ff567e14"
+      "bytes": 17746,
+      "sha256": "e42999697b4f0e063752c308d0cc593bb079eb1f0d3889497efd0cc678221e9a"
     },
     "3D/platformer/Readme.md": {
       "bytes": 954,
@@ -3009,100 +3809,96 @@
       "sha256": "c879d56c0174522b14862978839033c0c48a970fdeb73334b95f0816e54ec32b"
     },
     "3D/platformer/preview.png": {
-      "bytes": 10901,
-      "sha256": "cd845e8d9b10458072c28a9ead128069275b04b68c0906b69495f167ad501f6a"
-    },
-    "3D/platformer/preview.webp": {
-      "bytes": 10206,
-      "sha256": "901b6762fe9e0581a2ccd36e5d522a6189403dbb8afcdb759d253591254cb53f"
+      "bytes": 10595,
+      "sha256": "a810d0aa997ff9c11957f3f9f23e5f68569f4dce633bb98aeff18cf20ba5c8ec"
     },
     "3D/platformer/previews/balance-beam.png": {
-      "bytes": 8914,
-      "sha256": "e1240fa4b1c5d11bebb8b36785a5287987c7c715160fdd1ea345fd7cee431a16"
+      "bytes": 9099,
+      "sha256": "394726502cbedff6fc39f0426ae6b532aa430ad48088cb5aad5709b61b6699d5"
     },
     "3D/platformer/previews/climbing-rope.png": {
-      "bytes": 5643,
-      "sha256": "ffc6986c2b1079a52024814beccee1d03d292ae865d2f9838bff8288d92ec084"
+      "bytes": 5740,
+      "sha256": "40c203fa746588c57f94857878b01f81fe0e01785875e71d76dce71ad05c2960"
     },
     "3D/platformer/previews/climbing-wall-modular.png": {
-      "bytes": 11196,
-      "sha256": "94a5110f6e15f3393ce4c8613ba84615d932f990dabcc938b35431dfae046ec7"
+      "bytes": 11723,
+      "sha256": "053e8874f281dc7cbfac196e9f2507174ae9dc96cebeae66365c6cf77327b138"
     },
     "3D/platformer/previews/hurdle-adjustable.png": {
-      "bytes": 12331,
-      "sha256": "c8f8d7da5c27ca48378b798d716e93f3ae606f0d57ff894471aa68a1cb8867ae"
+      "bytes": 12979,
+      "sha256": "736cdcd9159c3612afbfcf98e88c04f8e8bd601abb4218b6928b3e7173c745eb"
     },
     "3D/platformer/previews/landing-mat.png": {
-      "bytes": 11341,
-      "sha256": "d4a11d771ca41d75fc5d48632512095f031c16227c637184f324a6ccad76deab"
+      "bytes": 11619,
+      "sha256": "ec0321745763b28af2589ccde7e1ec0ea267bc9091aab636d7c0fa6093a7c916"
     },
     "3D/platformer/previews/monkey-bars.png": {
-      "bytes": 16372,
-      "sha256": "1da4e1697b572d47c2a3f7863ad58b6147ead1fae260a8750811f7ee5cc7f9c1"
+      "bytes": 17732,
+      "sha256": "b8b64dcff83f4ea477cf2147804969ac5da8906e7156f7b2054806351195db3e"
     },
     "3D/platformer/previews/plyo-box-high.png": {
-      "bytes": 11123,
-      "sha256": "1a816a40b70f480256d8dc2db0c25078769c1a8452aef590a4de86b68f1ff697"
+      "bytes": 11499,
+      "sha256": "987f796812f1f9dd03c81fab9977c50c229ab890e9843815d27bc990cc71ffa5"
     },
     "3D/platformer/previews/plyo-box-low.png": {
-      "bytes": 11688,
-      "sha256": "f0dc9f6905e0e1fd8bd6bc7e9796bdebc62af19f9cc95aa9a26dd2e8b63b96cd"
+      "bytes": 11494,
+      "sha256": "3777b14c2bd47274274f8684d510c986ebfdd389e4b936ae438cbf4b7071ff22"
     },
     "3D/platformer/previews/plyo-box-med.png": {
-      "bytes": 11807,
-      "sha256": "5803ec3ce9f9664fb758016bdc44a8330d512cdb6ba0df8b1c18246ed1738e55"
+      "bytes": 12173,
+      "sha256": "eec6de5db9104f488d8a33472c1b66de74b619191dc1d5ef83dcc0a104bf3788"
     },
     "3D/platformer/previews/precision-trainer.png": {
-      "bytes": 11172,
-      "sha256": "730eeda2367ae19389389180d90ea9656294c02f8588aefaa0f067d3869a38f1"
+      "bytes": 11200,
+      "sha256": "b39e1ac65df7cafdf7fc767cdfa043a139741b977363c0cc5c2f8e1ed19c2ec1"
     },
     "3D/platformer/previews/rooftop-gap-plank.png": {
-      "bytes": 8601,
-      "sha256": "8169bb9a47904ce1f0977bbfcac3b0ce06f272bac3e736cd8a551ea096866837"
+      "bytes": 8731,
+      "sha256": "95218c8ac0f299f09de558f9d0bd7700443f5a506829823a2baa5f5617ef1b81"
     },
     "3D/platformer/previews/scaffolding-tower.png": {
-      "bytes": 15892,
-      "sha256": "57446b5f4a2b9e1292146ff5f32649c71721c9707d3aab8d636acd357111c5b8"
+      "bytes": 16968,
+      "sha256": "c02acd1851ac4e0c2ffe71598307b3ce05de76dcf158424ca6ab3c6f020e0ad4"
     },
     "3D/platformer/previews/slackline-rig.png": {
-      "bytes": 8584,
-      "sha256": "f39f6fe6b2e7fb35dc8cc7b2a4e1a082d3b68a0ecd552f021c8451cae3b9fdc2"
+      "bytes": 8909,
+      "sha256": "b886f5c2fe168bac9b83b8ae212271bf551f4e0b841779a4be2cbeb78e69366f"
     },
     "3D/platformer/previews/springboard.png": {
-      "bytes": 13326,
-      "sha256": "257a86d3c278f3dd25e744e6fd0f4be4519550131ffc116100c9ae0f534551c7"
+      "bytes": 13583,
+      "sha256": "23c28dc31f1dd2704ce537f4166452978c47de3f8047242a3fb1dc9cdf49e547"
     },
     "3D/platformer/previews/swinging-ring.png": {
-      "bytes": 8705,
-      "sha256": "53a28641191647c6b10929f4f48a6031755321723b59113e611fc18fca3c2226"
+      "bytes": 9145,
+      "sha256": "9300b4b6cc71204da2427bccfdd79ce6ea5b3baa2da1a35823c95bfe1c7c8834"
     },
     "3D/platformer/previews/tire-obstacle.png": {
-      "bytes": 14416,
-      "sha256": "e73d83eb96eba06a8dd2c4f18f880714e5071f2a593b06853b2f99330ddd5bde"
+      "bytes": 15504,
+      "sha256": "520400c329e0f4a3d25e5803325cc83a24495003b90974b23ec8b1fbe5ee3905"
     },
     "3D/platformer/previews/tire-stack.png": {
-      "bytes": 19095,
-      "sha256": "02a05bb169ece4f1ffc57bf2d0ee438ad11b19dbeda1168ef80c0093024a74c0"
+      "bytes": 21306,
+      "sha256": "6c3cb750512168147c3e5d7ce054ff14ba60ba7e976e8ceae2d5903a56b231c6"
     },
     "3D/platformer/previews/trapeze-bar.png": {
-      "bytes": 7171,
-      "sha256": "584736929c0ae9975ec8291fd1b9cb6be638132ae979f1a6f0c46a62ecef9291"
+      "bytes": 7411,
+      "sha256": "79ede6ab58da3703e050d9efa4a17370fdee65c2caafe3880cc6c4dad45f760c"
     },
     "3D/platformer/previews/vault-box.png": {
-      "bytes": 10901,
-      "sha256": "cd845e8d9b10458072c28a9ead128069275b04b68c0906b69495f167ad501f6a"
+      "bytes": 10595,
+      "sha256": "a810d0aa997ff9c11957f3f9f23e5f68569f4dce633bb98aeff18cf20ba5c8ec"
     },
     "3D/platformer/previews/vault-rail.png": {
-      "bytes": 10088,
-      "sha256": "7383490d130a1b6b6ea80525f87f27c29324e0cc95bbf318658c747f3872b862"
+      "bytes": 10575,
+      "sha256": "3e7f40dde5ba78af52dc91e11d58821e8bb5b59c564ec804ea613d2e55a518a0"
     },
     "3D/platformer/previews/wall-run-wedge.png": {
-      "bytes": 9654,
-      "sha256": "3b1ca0a157429e2fa71f0159e75ccc64ac2b462ece4771da992fd252bb3a44fb"
+      "bytes": 10007,
+      "sha256": "0a72d72be5c411280c5f51da733ef1b4913ad1bfc1fbef3ef9f9fbd798394b7c"
     },
     "3D/platformer/previews/warped-wall.png": {
-      "bytes": 9974,
-      "sha256": "e2b067395de0b48d993101b2c03f40b84b6a98fcf43dbcd7956f4a177dbd2a32"
+      "bytes": 10432,
+      "sha256": "9522c713d152ecb8ac646f5ef8ff7e818356f43c7a13866778c82eea4535def8"
     },
     "3D/platformer/rooftop-gap-plank.glb": {
       "bytes": 5200,
@@ -3153,8 +3949,8 @@
       "sha256": "8d29142d89cbb34c34047b5ce8d462365b42bdb66e4115d5f3969c8b08193707"
     },
     "3D/space-scifi/License.txt": {
-      "bytes": 1279,
-      "sha256": "370fc07dfb7d5d2220432d0afe8e503ab693e2009286c21da48949b5ff567e14"
+      "bytes": 17746,
+      "sha256": "e42999697b4f0e063752c308d0cc593bb079eb1f0d3889497efd0cc678221e9a"
     },
     "3D/space-scifi/Readme.md": {
       "bytes": 821,
@@ -3197,76 +3993,72 @@
       "sha256": "4459236bc4b174285203fc6e40d0c2b14e70416097225c9e1f616085b74152ec"
     },
     "3D/space-scifi/preview.png": {
-      "bytes": 9222,
-      "sha256": "9c61f4a5030f19c022334df0fd1a64c6e0be83873bb20174099e3dc11bbf0e9c"
-    },
-    "3D/space-scifi/preview.webp": {
-      "bytes": 8646,
-      "sha256": "0b35b8ec128c262a90568d7d001ce11400389ed3711a0573f5ccb056f1f5950c"
+      "bytes": 9496,
+      "sha256": "b46370dc7ca87b59591a2ff98c40295d05ce0f0afc7e8bf810b738a5673d97ce"
     },
     "3D/space-scifi/previews/cryo-capsule.png": {
-      "bytes": 10254,
-      "sha256": "31fe11ebec009a19f7e10e309b26878e93ff2cf842b26d3bb5eaa9e505fd68f1"
+      "bytes": 10899,
+      "sha256": "b5a3411be8b182644647abc946576291c6c70483e1797557a7412045810891e3"
     },
     "3D/space-scifi/previews/drone-scout.png": {
-      "bytes": 19279,
-      "sha256": "fdd23fcaa40c440021d94cef3a5dda67ff203936fc50d1b36db4d6606ef5a257"
+      "bytes": 22194,
+      "sha256": "6a90e44c6b8f811475b749cc5a8b19252cdaf3ebf05e61cf0c73aea785e63a0e"
     },
     "3D/space-scifi/previews/energy-cell.png": {
-      "bytes": 10459,
-      "sha256": "ae6d64b00223f008d523212f66978c3d14ade92872cbede3d0157f88181accb9"
+      "bytes": 11291,
+      "sha256": "8ceb4ef1b7cee3714192b308a5bd7796a748bdea5fa6414701cb80f39f2c9fee"
     },
     "3D/space-scifi/previews/energy-sword.png": {
-      "bytes": 5830,
-      "sha256": "96f9bc61bf884c49ec1d3bef5535813579517127d9d711ca2067cd41993185c0"
+      "bytes": 5862,
+      "sha256": "d4f280621d6d4ea8a8fd34819e52b7607388fb3babbe42efa038ee3467238f25"
     },
     "3D/space-scifi/previews/gravity-lift.png": {
-      "bytes": 14711,
-      "sha256": "4e04baa6b6a3bca0e2b01b93db35bfc807e0d9e44a18cfbc70cc2d72e4733b7a"
+      "bytes": 15852,
+      "sha256": "de92a85f49d8f46c635faecdbed880357c67ae128c383ff66ccf6d17288cff72"
     },
     "3D/space-scifi/previews/hologram-projector.png": {
-      "bytes": 14336,
-      "sha256": "0f2ca29e3b9d983fed04a5785fd0a13a5bac5bc850fbb975ab95e4bfdd58b79a"
+      "bytes": 15213,
+      "sha256": "4a12ce1dc9607ca7075481b69a06305add5cf9da60067ee6827ec8ff819f3748"
     },
     "3D/space-scifi/previews/laser-cannon.png": {
-      "bytes": 11862,
-      "sha256": "eaf915bae95df81d2d97cd9ae6797a915b1ba51d64be76f6a6d68189191a1e7a"
+      "bytes": 12234,
+      "sha256": "07cca9c580b7ff231d74bce7a9b7bdde3ad9c81b466e0e8197d491f4a1c08611"
     },
     "3D/space-scifi/previews/plasma-pistol.png": {
-      "bytes": 11886,
-      "sha256": "6dd2ec2dca1b932f7f39e6e8e0c4494c1ecb3541d7c14a5e544c3f4d1fdf66de"
+      "bytes": 12304,
+      "sha256": "8fd9778f28f7b0abe2dd60bb84c138a39863733c3d465950f7b50ae75f302fee"
     },
     "3D/space-scifi/previews/power-core.png": {
-      "bytes": 17266,
-      "sha256": "becbe87ed0c9afae7a2036235cfcbda9867454ff196b398a57410a112c2880f2"
+      "bytes": 18852,
+      "sha256": "7bfdbc41e8420621dbc85cd47e9a90fdb8844e69e03307356ea2f2290fbc454a"
     },
     "3D/space-scifi/previews/sci-fi-rifle.png": {
-      "bytes": 9222,
-      "sha256": "9c61f4a5030f19c022334df0fd1a64c6e0be83873bb20174099e3dc11bbf0e9c"
+      "bytes": 9496,
+      "sha256": "b46370dc7ca87b59591a2ff98c40295d05ce0f0afc7e8bf810b738a5673d97ce"
     },
     "3D/space-scifi/previews/server-rack-futuristic.png": {
-      "bytes": 12301,
-      "sha256": "26139b2f3459ed6e28795ad5c9c7bdc68e96724d44d955517fcb14a73bde1f62"
+      "bytes": 12617,
+      "sha256": "edba39c9ed963535c29d2bb2e0d729f2ddb34b8d3b8f9e25727942e5c12ff8f9"
     },
     "3D/space-scifi/previews/shield-generator.png": {
-      "bytes": 14920,
-      "sha256": "cb686c4b60c2ee6e7816f677c0a388013c1f4f4edfc5d354c449ae638e2e0965"
+      "bytes": 15415,
+      "sha256": "f735a971a098610ad3a72376a43ba4b10152332518f4a5b0fe19628e2bf014fc"
     },
     "3D/space-scifi/previews/teleporter-pad.png": {
-      "bytes": 17476,
-      "sha256": "35d1b0d50bb065ab6d266a2212660c087553fbdf1d82f28ec600372c5e3e8a5e"
+      "bytes": 18678,
+      "sha256": "2ba815e77d8054c8b6faa2c64872001898145d356530504208a67fcfcd14cfca"
     },
     "3D/space-scifi/previews/terminal-console.png": {
-      "bytes": 10874,
-      "sha256": "309f540241731cebd53947879668eaa4c41a98da9cb4ddbc216d50db0dfc8e46"
+      "bytes": 11141,
+      "sha256": "a8a0bd95a06766064a33d8bfc17c9cd9eb8d357b36122f8fa4d5586ef73f5dea"
     },
     "3D/space-scifi/previews/turret-automated.png": {
-      "bytes": 14292,
-      "sha256": "e99f4b87d444e837d744c0315179f6fa2beaf9e2b38fb308b67cec0d66c9bde2"
+      "bytes": 14595,
+      "sha256": "24636a1edc395ceb29176cc1a0a5e7274df5428ea7712d40801331a250c86efc"
     },
     "3D/space-scifi/previews/warp-beacon.png": {
-      "bytes": 8814,
-      "sha256": "4719feb6b096a7ce3b4232e8fd16773ec55dc7ab913e2d4f2090f09a3ff25e20"
+      "bytes": 9336,
+      "sha256": "c805d14193b6b721fdbf3f56543f53a47845b4979bf177d9a25e82d7d8f8c0c7"
     },
     "3D/space-scifi/sci-fi-rifle.glb": {
       "bytes": 9832,
@@ -3297,8 +4089,8 @@
       "sha256": "3728dedeee4d7839ea11e0a1c8e9666e0830d7e1c36bbecaabd5c3fc7d001d1c"
     },
     "3D/sports/License.txt": {
-      "bytes": 1279,
-      "sha256": "370fc07dfb7d5d2220432d0afe8e503ab693e2009286c21da48949b5ff567e14"
+      "bytes": 17746,
+      "sha256": "e42999697b4f0e063752c308d0cc593bb079eb1f0d3889497efd0cc678221e9a"
     },
     "3D/sports/Readme.md": {
       "bytes": 713,
@@ -3341,76 +4133,72 @@
       "sha256": "b2d2e89ccba641ef04375ed02a4bd503f7505ab3838055cafa0af4e909ed2307"
     },
     "3D/sports/preview.png": {
-      "bytes": 16181,
-      "sha256": "2a0a7a85469d8fed767babfb5a368061a9237f1d7e6f21432d5cf8c08eb0de63"
-    },
-    "3D/sports/preview.webp": {
-      "bytes": 8542,
-      "sha256": "72aca1b82a82ab2cabd1c796ccaeec0c6ea3340bb201025b8192f601a576c9a8"
+      "bytes": 19040,
+      "sha256": "3fb0d2d6817e7b61501bb7c6e2f81709748aac3ac9ff49f6107cecb3c795a4e3"
     },
     "3D/sports/previews/basketball-hoop.png": {
-      "bytes": 8218,
-      "sha256": "b637d9c69b2565d086f52fe9d32b4cb05af44941b394181d9da418e96adaf919"
+      "bytes": 8599,
+      "sha256": "c573c9ec913fc64fdda6070e26afb441b3a646ceee31f3609a2d8b0bafaa141f"
     },
     "3D/sports/previews/basketball.png": {
-      "bytes": 16181,
-      "sha256": "2a0a7a85469d8fed767babfb5a368061a9237f1d7e6f21432d5cf8c08eb0de63"
+      "bytes": 19040,
+      "sha256": "3fb0d2d6817e7b61501bb7c6e2f81709748aac3ac9ff49f6107cecb3c795a4e3"
     },
     "3D/sports/previews/bowling-ball.png": {
-      "bytes": 14072,
-      "sha256": "3479cac1001bec471e650c43cb05c1eaf58d521d02ddd12bd51174c5e83ffbab"
+      "bytes": 16937,
+      "sha256": "4dd769ba35aaf879843906336d8ddfb964839635c0172d8468e97f179011701c"
     },
     "3D/sports/previews/bowling-pin.png": {
-      "bytes": 11579,
-      "sha256": "da1d894dc48ea76f5e69567d9133406aaa7036acc30b7611f4a914f38fa27efc"
+      "bytes": 12746,
+      "sha256": "3c5aeba351b34a8e1355e4a7dd84cb9237920c0d78c82c1319cbb62a1e058ec4"
     },
     "3D/sports/previews/boxing-glove.png": {
-      "bytes": 10972,
-      "sha256": "4c1261975bb96fb270e5550f5e434acd9290c89fac1e42d3eb1d13609f45e280"
+      "bytes": 11134,
+      "sha256": "e8926d5306da6592c8d5055fbb3c544c1206e25dd0b1eae7e901f28565d62d71"
     },
     "3D/sports/previews/football.png": {
-      "bytes": 14108,
-      "sha256": "ead713af9a36f18eb03defe2c54e5f8ece86d5424bfe25313b8b92f44dee20d9"
+      "bytes": 14642,
+      "sha256": "bfca11b5777481b2126e28dac3c64928b9c215c65ec7036942aa1614c2a8919c"
     },
     "3D/sports/previews/golf-club.png": {
-      "bytes": 5770,
-      "sha256": "2aa738c8293b14acf290fc5da4e68bd9999e8cfde83deec79a3912cde981f7ac"
+      "bytes": 5853,
+      "sha256": "af2fc303c6a8ef83bf09f5268279d475935e15257a3c08a98a7062209dba9314"
     },
     "3D/sports/previews/hockey-puck.png": {
-      "bytes": 9637,
-      "sha256": "91e260c220b0a8b6dca21afddaeaee289f984322cb22615435fd0d98359b1521"
+      "bytes": 9744,
+      "sha256": "eafb1c20742f7771f01b70716ec515a19d40f4f6aa78e396ab026bfdde605f44"
     },
     "3D/sports/previews/hockey-stick.png": {
-      "bytes": 6036,
-      "sha256": "8363b1472db8aa81e4a0fb798bab210012c050d7908bf36b1742fd7f424ff9fa"
+      "bytes": 6167,
+      "sha256": "7018453ea22373b2f48733e344ff092f733a53c2692fc26a28b61da429a7fdc9"
     },
     "3D/sports/previews/punching-bag.png": {
-      "bytes": 9758,
-      "sha256": "b99801e7b1570cbbbacf5480ea0b913df287b8558ce6e7e5242edde7d9d11b1d"
+      "bytes": 10230,
+      "sha256": "76a814e41326200acd186938419cfe84df85d86369622099d0a03a50cef69af0"
     },
     "3D/sports/previews/soccer-ball.png": {
-      "bytes": 14874,
-      "sha256": "054454a597a8c3232c22374ccc17594a443221f430ee3d1fa60f66a98861a450"
+      "bytes": 18069,
+      "sha256": "789da85dee0de2a704ff01372f968b655f9eb707f7f95743ece405ef164fae5e"
     },
     "3D/sports/previews/soccer-goal.png": {
-      "bytes": 14564,
-      "sha256": "622fda541266d7fdb642d87158301f751edefcca9a45df677c894076433c3a52"
+      "bytes": 15189,
+      "sha256": "a134fc79d37537dbca6dd917f071da8b09f4b1a67c6a894717b70c9dba253611"
     },
     "3D/sports/previews/tennis-ball.png": {
-      "bytes": 16713,
-      "sha256": "5b24656ec2e8246d4d758c3279093b49fb928a4ec6d02cce0988129d3d9dd611"
+      "bytes": 17566,
+      "sha256": "c75040c2953c2efd9c3360041bb83a70b7c762cf298fd226920b747062d5281a"
     },
     "3D/sports/previews/tennis-racket.png": {
-      "bytes": 10227,
-      "sha256": "0a65f43f2f06f13fd3c3ac624ce957395024c3871ebd6530eecce7419bb01ff0"
+      "bytes": 10716,
+      "sha256": "0c4a7be06f13c9277f0ff39a201266aa10794c784df77f5e3392dbdbf0fe5091"
     },
     "3D/sports/previews/volleyball.png": {
-      "bytes": 17005,
-      "sha256": "70e95dee26d1ba1577c72639dbc02b104425689f4aa5d9e86e6421b53d8b3a97"
+      "bytes": 20423,
+      "sha256": "de61a51baef73528e305ccd6fbd59cc00312df55e2838f961990ba65b98f4a4f"
     },
     "3D/sports/previews/weight-dumbbell.png": {
-      "bytes": 9800,
-      "sha256": "1df0b3dec8852f533f051c6ff9ad0470d92928d30829c57cb78f05b4e730016a"
+      "bytes": 9839,
+      "sha256": "7d57ca3f2aa84a8523ad8c5cedd12306975db90aaf2c5a79f3d6facc0b4a9c23"
     },
     "3D/sports/punching-bag.glb": {
       "bytes": 25828,
@@ -3441,228 +4229,224 @@
       "sha256": "fd104ab7235aa9b3351bbc91818e70298ae7ed5a38aa86e05b55f9dbebcc16f3"
     },
     "3D/weapons/License.txt": {
-      "bytes": 1279,
-      "sha256": "370fc07dfb7d5d2220432d0afe8e503ab693e2009286c21da48949b5ff567e14"
+      "bytes": 17746,
+      "sha256": "e42999697b4f0e063752c308d0cc593bb079eb1f0d3889497efd0cc678221e9a"
     },
     "3D/weapons/Readme.md": {
       "bytes": 883,
       "sha256": "4c71257ae3c10ca37c0d7ce071a6c97fa2901164575490bb61c6b44dc2d4b741"
     },
     "3D/weapons/axe-battle.glb": {
-      "bytes": 12200,
-      "sha256": "dacc76225ea54949792773452ba1e87fc22f91b3a9beb744eed129127590472b"
+      "bytes": 13008,
+      "sha256": "b33cdd0d642ecac0945a1f16f7b8a4801442f61cfc62514c1a387beb7efb6a3c"
     },
     "3D/weapons/axe-hatchet.glb": {
-      "bytes": 7348,
-      "sha256": "a9103d6e5b87c9b57b379dc11b7f6feeb3d66e03619a7fdfa6cb0d7fdba58313"
+      "bytes": 8156,
+      "sha256": "c90724b5fc93f3cdc93dc52154d0ffea1ba0888442d51cf41957eb8b3cf26c7b"
     },
     "3D/weapons/bat.glb": {
-      "bytes": 20268,
-      "sha256": "161c2b375531423bf3a5918addba9e428d1c575b8c44fb9c06c391157980fcc5"
+      "bytes": 21084,
+      "sha256": "74af312377e98f1d5f26aa1e24e7875bd10c1b015faef366a21e851a3242949f"
     },
     "3D/weapons/bow.glb": {
-      "bytes": 11212,
-      "sha256": "ccfeddbfc84cd60c757bc8f3e3162ecca107d53d0a1dbd06fa7ae54b3db26d06"
+      "bytes": 12012,
+      "sha256": "9a368616f195769716b9e7b1957f50b5782fac4de49d1660565355b123ca3b1e"
     },
     "3D/weapons/club-spiked.glb": {
-      "bytes": 11928,
-      "sha256": "b46de9326d9c427931ec054a368cb7b8dfa3896b70baaa809f36c1fa47ac47d8"
+      "bytes": 12736,
+      "sha256": "e94c01b88d08dce43812b0bba9f5704b8d25994e26fb25d439f3f47b8e25e5ea"
     },
     "3D/weapons/dagger.glb": {
-      "bytes": 7280,
-      "sha256": "b338ec30fef04da9c12dca25717200c043ee8968b17151fd5f7ae20a6bcd3d88"
+      "bytes": 7964,
+      "sha256": "232cf8f5eec29ac0ce92953285b5e68609bccbca389ff556924c3608df1884d3"
     },
     "3D/weapons/grenade-frag.glb": {
-      "bytes": 11260,
-      "sha256": "b14a6c4e897305d90d8faa3c359d450d204aac6c977dea210bd0b9183678a9bb"
+      "bytes": 12072,
+      "sha256": "92300679463b1947dbb62808498de66d5730e641ed47c64c4e724b93e77fd8fd"
     },
     "3D/weapons/halberd.glb": {
-      "bytes": 11300,
-      "sha256": "4581ff9ed7439da0413b08832e4c72b80320ce0ca711efdee495acd58c1659e0"
+      "bytes": 12104,
+      "sha256": "2fc8263949ae8320b27bc4a01db303fde224406c7948a04f13d45b875bd9ddca"
     },
     "3D/weapons/hammer-war.glb": {
-      "bytes": 6032,
-      "sha256": "2998c989672b2183ac5c797c5be465af459a512d3b7c482364f4521c3285e191"
+      "bytes": 6824,
+      "sha256": "5b0e2aa3902770db4dd6ea76a1e3a48a273d1b531899eb10dc41d431fa977488"
     },
     "3D/weapons/katana.glb": {
-      "bytes": 8224,
-      "sha256": "5e0cc7d19cc1f84b5f09dd5d52e3e9a61abc079f529b414f894d7f4538327997"
+      "bytes": 9040,
+      "sha256": "d3e4fc56b79b16aa600f2553c9ddfc3a2665159cfc25d07d1d4ce6f7f2fc21b7"
     },
     "3D/weapons/kunai.glb": {
-      "bytes": 11496,
-      "sha256": "217707d7549df6910eda9b07ec30950c2be7c738f265151b46452730970c864a"
+      "bytes": 12312,
+      "sha256": "aa3b6a1f34d43ac82b0d479accee35d6ad6cc6a082252e37cef4805c79517a1d"
     },
     "3D/weapons/mace.glb": {
-      "bytes": 12536,
-      "sha256": "6a588e304ad47d64c3e87ac2e92af979f710f38931737a315e85700a1a964a10"
+      "bytes": 13344,
+      "sha256": "4c3cad681f7b51578c70ec0a3d88f71dd9ac63492f88e6f0fa0c9cbe3d457f66"
     },
     "3D/weapons/nunchaku.glb": {
-      "bytes": 24524,
-      "sha256": "4edfce64073bcdd1329b5089dcd461ead1653d9887d0630dccd33356d7ae2dc7"
+      "bytes": 25344,
+      "sha256": "01eb102fddd9d3597416f6367a6af45e078eef8818be71e6d3c04b4c07f3e2f3"
     },
     "3D/weapons/pistol.glb": {
-      "bytes": 5912,
-      "sha256": "434f1e1eac656a676c874076aaa26ca9cbf50da99789fe078fd1badf95766dc0"
+      "bytes": 6724,
+      "sha256": "f131285a07eaee15e8790b5373afd1f7f32dcb699ef47f96eb8d361ce66fb219"
     },
     "3D/weapons/preview.png": {
-      "bytes": 6560,
-      "sha256": "48f1295e502a67af9955ba7a3b660706d8279cecf599c5c666d7d85e129d1341"
-    },
-    "3D/weapons/preview.webp": {
-      "bytes": 8442,
-      "sha256": "3e207a389f9a3859a5ff7a96b17e2cf88a118090c4981c9b161fc3d61edbb2a4"
+      "bytes": 6901,
+      "sha256": "e0d202f7700fc856a5928a0251ac140047402468df012e4025fbf5ab749bd443"
     },
     "3D/weapons/previews/axe-battle.png": {
-      "bytes": 7581,
-      "sha256": "2f666698c00a0662b56b398983a9bb929e1392dc0e673682a2745517e06b5a08"
+      "bytes": 7703,
+      "sha256": "ee730237c339dd5a3b965c214c5b66a9b3c3192136e425e3338f8de27c9b4085"
     },
     "3D/weapons/previews/axe-hatchet.png": {
-      "bytes": 7569,
-      "sha256": "45e6bbfa3ba900d87f5d204ece0e468f1fd014c893e8e1b74f2827a15a419d19"
+      "bytes": 7725,
+      "sha256": "1e9cb5ccd3864582e4898dfdd973d3ed7bcc425b9007f962369b7a511c3fe7f4"
     },
     "3D/weapons/previews/bat.png": {
-      "bytes": 6786,
-      "sha256": "309d4c6fe1df6734bd75d55d31750cbf24b699eb451604d32ac970d44e9ff0d4"
+      "bytes": 6981,
+      "sha256": "b315b1f37b8b512fcbc2f8f975e6fe31fd5dceae720f4b92bc21b3b4ddd3e10b"
     },
     "3D/weapons/previews/bow.png": {
-      "bytes": 7714,
-      "sha256": "25c7cc09090f89a62ff1d76d2d6de5c233140831c5013b7455c19450718e94d5"
+      "bytes": 7857,
+      "sha256": "b0b94946fc3d6d2e1efe5aa00d63e267bcc7ff76663905d83877e4c073e9541b"
     },
     "3D/weapons/previews/club-spiked.png": {
-      "bytes": 8562,
-      "sha256": "877978d98c7cc3938bb3090cf7e943b383d11c996b17825014cc3a09b4f5890d"
+      "bytes": 8943,
+      "sha256": "9266915740f9f17fb4bb14d26a6aff7ba436dfce75df1370afdee79b9e5e847d"
     },
     "3D/weapons/previews/dagger.png": {
-      "bytes": 6789,
-      "sha256": "7d46a9c4e53ea2d2b27d96399ee20ee5d0018854e7e28b3c10b9fe6960a2652b"
+      "bytes": 7277,
+      "sha256": "4c13e088030dd979878215a09f35eaf88f7ae6a04bff9a480897c45b7aa4ce73"
     },
     "3D/weapons/previews/grenade-frag.png": {
-      "bytes": 10560,
-      "sha256": "83e145b526d8c30cb18c888e216410a51f6464a7158752698b832805c7549ce2"
+      "bytes": 11165,
+      "sha256": "4977440ead06517ef430ae7dedb0ddbb16026804ea0f137d3f5f2222234cb618"
     },
     "3D/weapons/previews/halberd.png": {
-      "bytes": 5826,
-      "sha256": "df660961868d5dc339b40188e330aa8f2429076d669c421fc75170e5c35015c1"
+      "bytes": 5827,
+      "sha256": "f158dfb4bd528d8d853b5668a20153024466c8fd5ae3f958093910270e29b28c"
     },
     "3D/weapons/previews/hammer-war.png": {
-      "bytes": 6682,
-      "sha256": "80b2296e3e901fc899b9d39c56d8fba8ab83861a2bca2e73f3b66e1e47a996aa"
+      "bytes": 6876,
+      "sha256": "07a1ffbe603c677cf0dd615888210800ae36b2f2a75654d9bad83fc0b42482db"
     },
     "3D/weapons/previews/katana.png": {
-      "bytes": 5937,
-      "sha256": "1d194a842476e01eb141e9f31de5e2ce2505a283f8e11d2218ebe13b3ec58b40"
+      "bytes": 6024,
+      "sha256": "89318cba3e37c96f55c30ced7bfd1a4ed07529f675d5142b795a329865572679"
     },
     "3D/weapons/previews/kunai.png": {
-      "bytes": 8615,
-      "sha256": "c52c228382745cd0ae076973a219a6dacd5ce735cc534a831c3309a1d7013708"
+      "bytes": 8987,
+      "sha256": "16d621a472ea1e74496b5d062b4d17574ee0fed5cc660bedf34ef42f2f5df785"
     },
     "3D/weapons/previews/mace.png": {
-      "bytes": 7530,
-      "sha256": "cb952d978bd48fae294c2e73317c3f375b2d41eded173dcd8e4373b705a3b0a8"
+      "bytes": 7976,
+      "sha256": "b22b17446e5b9774a11bca6dac1cc4b8d9aab47a9ea418e00e1a09227f32e58c"
     },
     "3D/weapons/previews/nunchaku.png": {
-      "bytes": 11175,
-      "sha256": "9c378c779c83e9c35b9eabaa0ccd8a7a0ffaf3008ede25bce5ac4945f7b7fd24"
+      "bytes": 11867,
+      "sha256": "4ede4eeb6a8773c5a2b2796893bbf0132577c219c60c5f2998d614576bbfc288"
     },
     "3D/weapons/previews/pistol.png": {
-      "bytes": 9588,
-      "sha256": "f3263441ec1b4ecd4f1908fe57e7198c9104881f2ce1900e5066cebead00be68"
+      "bytes": 10197,
+      "sha256": "327a20ca0e191bcde571004cf63d02bfa1e0701520a36d88436c271a81c14c80"
     },
     "3D/weapons/previews/revolver.png": {
-      "bytes": 9638,
-      "sha256": "35cf3c4a60e84ad5a983c374e61c22f3656bc46f3f7bc084c6f7cf4faa8e2bdc"
+      "bytes": 10164,
+      "sha256": "083ce324ca382f93c0a75d620cd8d6f7b69ab9d85f68950893cc0bfd5e5ea929"
     },
     "3D/weapons/previews/rifle.png": {
-      "bytes": 9168,
-      "sha256": "a63b90bac8493c615f42c159bd39d2f933d9659dde7d1b9069b82f3511d4cc2b"
+      "bytes": 9508,
+      "sha256": "8b3925a17d38f8bb6bb3319af0a316ab2cdef888a01f4b1896ca17038c02d9be"
     },
     "3D/weapons/previews/sai.png": {
-      "bytes": 7969,
-      "sha256": "f5c45d66443a7fcc1da7eee3f59eb70e2d794994b6bf70920f17fa5ca0de6aad"
+      "bytes": 8265,
+      "sha256": "25e61111eca011d266c8fa584c34ac362a464fe38153ba1fb3666193a87328c3"
     },
     "3D/weapons/previews/scythe.png": {
-      "bytes": 8411,
-      "sha256": "67abcf13dec5c4e9321eb3ad2560998b8481dd5fd4c9e2c2a2ba535dac7e9876"
+      "bytes": 8608,
+      "sha256": "8161fb39f435e30815ecda1260699bdd7515e52e2b037e7fc47f77995fe6de76"
     },
     "3D/weapons/previews/shield-riot.png": {
-      "bytes": 7731,
-      "sha256": "c212d2ebdb62f001fc67889d97d2ca7626e8ef3189736f4b02a7a63c6c77e45c"
+      "bytes": 7852,
+      "sha256": "8c4e7e684b38611b8791311974b44553db470703cc8b72e3aaddafe6dd1a1b70"
     },
     "3D/weapons/previews/shotgun.png": {
-      "bytes": 8861,
-      "sha256": "52bfc91656a287aaf2110765bd11fc85674c1aaae35fc34566bdecabf312f968"
+      "bytes": 9359,
+      "sha256": "bcab665d29e71fb3f3cdf757b68b56bd405a7fbdaecdd7ec74dc0b496db41f07"
     },
     "3D/weapons/previews/shuriken.png": {
-      "bytes": 9881,
-      "sha256": "6f0b9165cc3a79ff48200dd50ee5875506825b43182621aea791198cf4fd6e39"
+      "bytes": 10165,
+      "sha256": "cd5ea242a5b1a6946a7bb0c28847cfdcc42b43e85da70f876983bee512ff4d7c"
     },
     "3D/weapons/previews/sniper-rifle.png": {
-      "bytes": 9215,
-      "sha256": "850796f655c9fd6875e112dbf2bcdd8c64f8f27008d794898630d328a1e7b192"
+      "bytes": 9604,
+      "sha256": "247e9da6802e71254e3867afeb0a01a7b5fcb6c7748b0d18385861aa192e33e3"
     },
     "3D/weapons/previews/spear.png": {
-      "bytes": 5341,
-      "sha256": "a5b5fc016b7cc2630e2cb039b5bb315996004c19cb9c508fd648dfb97ca04177"
+      "bytes": 5345,
+      "sha256": "86dae92f00d5265f13aaa2ad7e3f8eacaaca10ae4a2153d12102ebc78c1d8619"
     },
     "3D/weapons/previews/staff.png": {
-      "bytes": 5436,
-      "sha256": "bf55f589df2f11d76f441e0a459018bf67d1637e7abb7e0dd27ba4e5bd8ea0db"
+      "bytes": 5455,
+      "sha256": "d50db52437dbf437f190e3bb416eebd9bbc0e0bdb09a5a4c82ef4739eb6ea749"
     },
     "3D/weapons/previews/submachine-gun.png": {
-      "bytes": 9255,
-      "sha256": "8c53d61c6db8f5d4c03074c1d0f171f706164426479ef28a6b0341888100fce0"
+      "bytes": 9771,
+      "sha256": "5ea23436c5c5135c4a656d541b5de2f782488c45e6bda63e5c8c0a687b363089"
     },
     "3D/weapons/previews/sword.png": {
-      "bytes": 6560,
-      "sha256": "48f1295e502a67af9955ba7a3b660706d8279cecf599c5c666d7d85e129d1341"
+      "bytes": 6901,
+      "sha256": "e0d202f7700fc856a5928a0251ac140047402468df012e4025fbf5ab749bd443"
     },
     "3D/weapons/revolver.glb": {
-      "bytes": 6588,
-      "sha256": "bf58dcd71ddf12f059a156106e9862ad33b76503aa4ed3e79ec651cab35b9392"
+      "bytes": 7400,
+      "sha256": "bf43dfae0b3467cc15862e9dacf4f208df248dd83d8dbcf625493d41bcb68f5b"
     },
     "3D/weapons/rifle.glb": {
-      "bytes": 9196,
-      "sha256": "21532d793ab1e2a21d7ac3379a623667fa36e5a1d0da718c9e85485d453dd41b"
+      "bytes": 10012,
+      "sha256": "19af08867b7803b14105ff5f47555ee500ec5b35969910ed41a34b8aaf264a63"
     },
     "3D/weapons/sai.glb": {
-      "bytes": 14468,
-      "sha256": "7d973762804f088df134236a00074df357bb51956f48ab1b24313fdd20c893d4"
+      "bytes": 15288,
+      "sha256": "78e5b7d55c7f2b4f96d2b7d91b551b17a8facf68d872694046c715fe959a85dd"
     },
     "3D/weapons/scythe.glb": {
-      "bytes": 7880,
-      "sha256": "d4d84366155515e7a079a61edcbb96209ef61afa406318726e4fc28a59a17059"
+      "bytes": 8660,
+      "sha256": "4ca699c601de905dbd848aea0f21f05c706bd71b6ce429cf05cc4898bf4838af"
     },
     "3D/weapons/shield-riot.glb": {
-      "bytes": 5892,
-      "sha256": "32e13269b470d2bb4644c80ddd8c5728f5b4fa8f0565e06dd265b7da218eb7d0"
+      "bytes": 6700,
+      "sha256": "b747732260d3ca2fc74297548e7abed38fa5b717a052218ed5e3394527d01c1c"
     },
     "3D/weapons/shotgun.glb": {
-      "bytes": 9224,
-      "sha256": "e1153d7239f91e085b31335538b920000a835de13dd7b380c3339037c8f2b5d0"
+      "bytes": 10024,
+      "sha256": "45f3fe9d49861e85e292aefeca94c1cdfd1db1e177f34b2d7047be178e1cd3be"
     },
     "3D/weapons/shuriken.glb": {
-      "bytes": 5612,
-      "sha256": "d7da1a200627408c79937fcee80bee2cf47e12dd37105eabbaf21ab8b83665a0"
+      "bytes": 6424,
+      "sha256": "97fe9fbdf1b00e3ff766f9810a352df2cb38aadc0812c7edc78bf8ada60443d7"
     },
     "3D/weapons/sniper-rifle.glb": {
-      "bytes": 16512,
-      "sha256": "7b3e5d51cee9ff118ce4aba98fddbf59009adb6f76dde97684c88e079ab06755"
+      "bytes": 17328,
+      "sha256": "fc77bc81974fdf0ae7df778d741caffecb6461b9c77320c671586d757b707f9b"
     },
     "3D/weapons/spear.glb": {
-      "bytes": 5672,
-      "sha256": "4e91ff8421a184fb21c429694c16ced184d61860f028236fc1e64517f8e1a2f3"
+      "bytes": 6476,
+      "sha256": "7f6682eed49ad79b3f77a553a33671fe92ee36e3e0abb0fa3aa34bbd3fdbb801"
     },
     "3D/weapons/staff.glb": {
-      "bytes": 20540,
-      "sha256": "c767de95896824dc0a43f58ed22f0210c5d1d3359c28aadd3409758fc7c0659c"
+      "bytes": 21356,
+      "sha256": "87ba24200eef8db3df70374f3ff5d493c267c504cb8ae4010539eed46d0ea37a"
     },
     "3D/weapons/submachine-gun.glb": {
-      "bytes": 6576,
-      "sha256": "9b451465a17d7b041f0633b2f316446f4958d4ea24f355e73858a182181742d0"
+      "bytes": 7392,
+      "sha256": "30edba5588539a9988be85a10280023412f0a8dfef61091d3fbc3afbd9a03e5e"
     },
     "3D/weapons/sword.glb": {
-      "bytes": 9524,
-      "sha256": "32e17f78a92388e095b46f37ad32369c0f4829271c7d46d0a5d4343d06e0d078"
+      "bytes": 10228,
+      "sha256": "d3fe2440a9389d06c4bd7a84bf5305cdb41f8e818a431476675f35b69e4b5bf8"
     }
   }
 }

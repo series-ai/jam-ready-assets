@@ -1,0 +1,291 @@
+{
+  "checkedAt": "2026-10-08T16:28:48.639Z",
+  "sourceSHA256": {
+    "runtime/assets.ts": "158357bfbfb9949514bc2d6d2ee455b79bc0c410acbafc93e47da6ab18b4b793",
+    "runtime/camera.ts": "a5dfe0b3210c257539c944707a3e6d7be35cd6c818dccd27a1f9877d5f5063c2",
+    "runtime/cutaway.ts": "f5191c8194f2a62333873c48099640f3db378843391f74cbc5e16d87027822ae",
+    "runtime/district.ts": "196c5671bd0e65a4fbef94fde462f1b2e8d3ecacb896ebb684b0ca1132628241",
+    "runtime/effects.ts": "10a6ffdb766f47568b54036f8275734346ef54b17d56e72a4e05b1cd8bbabd47",
+    "runtime/firearms.json": "6321ecf8b09f222e7720af0741ac4ab138d8b8fe992c16af154a8a76ea583d42",
+    "runtime/index.ts": "c1b6394d823fb6f0b17b67698c556bb3d49df2a6708ae145160d383e3cd85ec3",
+    "runtime/kinetics.ts": "8712470c57527c7c261c67ef98e718e670b9fea29f875ee44556115ebf2898ad",
+    "runtime/layouts.ts": "f3a6c7df9a5504699f4311ad319a88ab7330528d66f5f62d1188607b5b676bd2",
+    "runtime/palette.ts": "a650f29ecaf4daa6ff138c86b6ceba44e2e1fb4f36486b19fad5d17cac359ed6",
+    "runtime/physics.ts": "b6bf62a75608a650c42ac634f7d3b6fc69bd95d5dd8b4aa7a84e0af19ba2e7d3",
+    "runtime/presentation.ts": "78fa996d0da36284fc676086a574a2b3649b0afe8b44c8e779b50c7656754199",
+    "runtime/roles.ts": "5003ee26a43b85486c0c75adfdc6fe993ea4f26c9909d20994985f396c78bf37",
+    "runtime/trails.ts": "291da45bc05d8472040648d23e78ff414d710753257419b94607edde1982d24d",
+    "types.ts": "3a7f9ba8e88e9d75db55c60b94621b2441de39989467eedfd6f1183277e0559d",
+    "manifest.json": "63a309bde3ba07a0e4f879fb629ab9cd7f4eeb11398a3dad987e46d9041f42b3"
+  },
+  "exportedRuntimeTypecheck": true,
+  "pass": true,
+  "checks": [
+    {
+      "name": "stick-standard: copied loader, avatar, animation, and support grip",
+      "pass": true,
+      "details": {
+        "finite": true,
+        "handError": 1.8515279703430814e-7,
+        "clips": 85
+      }
+    },
+    {
+      "name": "stick-runner: copied loader, avatar, animation, and support grip",
+      "pass": true,
+      "details": {
+        "finite": true,
+        "handError": 1.0282696571226765e-7,
+        "clips": 85
+      }
+    },
+    {
+      "name": "stick-fighter: copied loader, avatar, animation, and support grip",
+      "pass": true,
+      "details": {
+        "finite": true,
+        "handError": 3.4885295050733744e-7,
+        "clips": 85
+      }
+    },
+    {
+      "name": "stick-tall: copied loader, avatar, animation, and support grip",
+      "pass": true,
+      "details": {
+        "finite": true,
+        "handError": 3.802158401254222e-7,
+        "clips": 85
+      }
+    },
+    {
+      "name": "stick-compact: copied loader, avatar, animation, and support grip",
+      "pass": true,
+      "details": {
+        "finite": true,
+        "handError": 4.1863352184521865e-7,
+        "clips": 85
+      }
+    },
+    {
+      "name": "stick-heavy: copied loader, avatar, animation, and support grip",
+      "pass": true,
+      "details": {
+        "finite": true,
+        "handError": 3.2331459417434425e-7,
+        "clips": 85
+      }
+    },
+    {
+      "name": "stick-scout: copied loader, avatar, animation, and support grip",
+      "pass": true,
+      "details": {
+        "finite": true,
+        "handError": 1.016015865033521e-7,
+        "clips": 85
+      }
+    },
+    {
+      "name": "stick-acrobat: copied loader, avatar, animation, and support grip",
+      "pass": true,
+      "details": {
+        "finite": true,
+        "handError": 1.473120525356673e-7,
+        "clips": 85
+      }
+    },
+    {
+      "name": "stick-worker: copied loader, avatar, animation, and support grip",
+      "pass": true,
+      "details": {
+        "finite": true,
+        "handError": 1.4599193881437217e-7,
+        "clips": 85
+      }
+    },
+    {
+      "name": "stick-agent: copied loader, avatar, animation, and support grip",
+      "pass": true,
+      "details": {
+        "finite": true,
+        "handError": 3.582207570304733e-7,
+        "clips": 85
+      }
+    },
+    {
+      "name": "stick-striker: copied loader, avatar, animation, and support grip",
+      "pass": true,
+      "details": {
+        "finite": true,
+        "handError": 5.462954815718049e-7,
+        "clips": 85
+      }
+    },
+    {
+      "name": "stick-sentinel: copied loader, avatar, animation, and support grip",
+      "pass": true,
+      "details": {
+        "finite": true,
+        "handError": 5.167650364923298e-7,
+        "clips": 85
+      }
+    },
+    {
+      "name": "stick-standard: copied staff calibration and full-clip bounds",
+      "pass": true,
+      "details": {
+        "axis": [
+          0.00000460210909553169,
+          -8.888641023301185e-7,
+          0.9999999999890152
+        ],
+        "bounds": [
+          [
+            -0.7685174790390601,
+            0.010132798978479645,
+            -0.632972116828726
+          ],
+          [
+            1.1351590763600548,
+            1.8449466946841184,
+            1.361933839033436
+          ]
+        ],
+        "livePoseUnchanged": true
+      }
+    },
+    {
+      "name": "stick-tall: copied staff calibration and full-clip bounds",
+      "pass": true,
+      "details": {
+        "axis": [
+          -0.00000749326900474882,
+          0.000001270171642483915,
+          0.9999999999711188
+        ],
+        "bounds": [
+          [
+            -0.7549584486465991,
+            0.010110756266955227,
+            -0.6361037299765046
+          ],
+          [
+            1.1962437424499188,
+            2.046849523063999,
+            1.4492758163504635
+          ]
+        ],
+        "livePoseUnchanged": true
+      }
+    },
+    {
+      "name": "stick-heavy: copied staff calibration and full-clip bounds",
+      "pass": true,
+      "details": {
+        "axis": [
+          0.000004198364583839065,
+          -8.281726752991666e-7,
+          0.999999999990844
+        ],
+        "bounds": [
+          [
+            -0.7609662989470406,
+            0.010314857173824897,
+            -0.613706913655918
+          ],
+          [
+            1.2090762608633125,
+            1.9097783517461964,
+            1.4455885500624235
+          ]
+        ],
+        "livePoseUnchanged": true
+      }
+    },
+    {
+      "name": "district: copied scene assembly",
+      "pass": true,
+      "details": {
+        "bounds": [
+          [
+            -16.049999237060547,
+            -0.1599999964237213,
+            -14.050000190734863
+          ],
+          [
+            16.049999237060547,
+            10.079999923706055,
+            14.100000381469727
+          ]
+        ]
+      }
+    },
+    {
+      "name": "service-yard: copied scene assembly",
+      "pass": true,
+      "details": {
+        "bounds": [
+          [
+            -12.800000190734863,
+            -0.1599999964237213,
+            -10.050000190734863
+          ],
+          [
+            13.5,
+            9.360000610351562,
+            10
+          ]
+        ]
+      }
+    },
+    {
+      "name": "roof-works: copied scene assembly",
+      "pass": true,
+      "details": {
+        "bounds": [
+          [
+            -12.050000190734863,
+            -0.1599999964237213,
+            -11.5
+          ],
+          [
+            12.800000190734863,
+            10.001542091369629,
+            10
+          ]
+        ]
+      }
+    },
+    {
+      "name": "copied dust shader renders",
+      "pass": true,
+      "details": {
+        "particles": 5,
+        "calls": 2
+      }
+    },
+    {
+      "name": "copied long shot trace keeps both endpoints",
+      "pass": true,
+      "details": {
+        "triangles": 4
+      }
+    },
+    {
+      "name": "copied effects and trails expire",
+      "pass": true,
+      "details": {
+        "trails": 0,
+        "particles": 0
+      }
+    },
+    {
+      "name": "copied action helpers work",
+      "pass": true,
+      "details": {
+        "duration": 0.34
+      }
+    }
+  ],
+  "packVersion": "1.4.5",
+  "errors": []
+}

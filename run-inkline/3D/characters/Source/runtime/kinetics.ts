@@ -87,14 +87,21 @@ const RANGED_RIFLE: ImpactProfile = Object.freeze({ ...RANGED, reach: 18, camera
 const RANGED_BOW: ImpactProfile = Object.freeze({ ...RANGED, reach: 14, recoilDistance: .10, cameraKick: .020, cameraZoom: .007, trailDuration: .17, trailWidth: .065, trailBefore: .03, trailAfter: .08 })
 const MELEE_HEAVY: ImpactProfile = Object.freeze({ ...HEAVY, reach: 1.28, trailWidth: .17 })
 const MELEE_SHORT: ImpactProfile = Object.freeze({ ...MELEE, reach: .86, recoilDistance: .36, recoilDuration: .19, trailWidth: .09 })
-const MELEE_STAFF: ImpactProfile = Object.freeze({ ...MELEE, reach: 1.34, trailWidth: .14 })
+const MELEE_STAFF: ImpactProfile = Object.freeze({
+  ...MELEE, reach: 1.45, hitHold: .065, recoilDistance: .62, recoilLift: .10,
+  cameraKick: .048, cameraZoom: .014, trailWidth: .18,
+})
+const HEAVY_STAFF: ImpactProfile = Object.freeze({
+  ...HEAVY, reach: 1.50, hitHold: .080, recoilDistance: .78, recoilLift: .16,
+  cameraKick: .062, cameraZoom: .018, trailWidth: .20,
+})
 const HEAVY_SHIELD: ImpactProfile = Object.freeze({ ...HEAVY, reach: 1.04, recoilLift: .12, recoilTilt: .16, trailWidth: .12 })
 
 const PROFILES: Record<ProfileName, ImpactProfile> = { light: LIGHT, heavy: HEAVY, kick: KICK, melee: MELEE, ranged: RANGED }
 
-const HEAVY_CLIPS = new Set([
+export const HEAVY_CLIPS = new Set([
   'punch-heavy', 'shoulder-check', 'hammer-overhead', 'hammer-slam',
-  'sword-overhead', 'sword-lunge', 'staff-overhead', 'shield-slam',
+  'sword-overhead', 'sword-lunge', 'staff-overhead', 'staff-sweep', 'shield-slam',
 ])
 const KICK_CLIPS = new Set(['kick-front', 'kick-roundhouse', 'kick-air', 'knee-strike', 'sweep'])
 const RANGED_CLIPS = new Set(['pistol-fire', 'rifle-fire', 'shotgun-fire', 'bow-release', 'throw'])
@@ -127,6 +134,9 @@ function withEquipmentProfile(name: ProfileName, equipmentId: string | null | un
   }
   if (name === 'melee' && id.includes('staff')) {
     return MELEE_STAFF
+  }
+  if (name === 'heavy' && id.includes('staff')) {
+    return HEAVY_STAFF
   }
   if (name === 'heavy' && id.includes('shield')) {
     return HEAVY_SHIELD
@@ -204,4 +214,48 @@ export function sampleKnockdown(profile: ImpactProfile, age: number): RecoilSamp
   return { travel: Math.max(.45, profile.recoilDistance) * slide,
     lift: air < 1 ? Math.sin(Math.PI * air) * Math.min(.12, profile.recoilLift) : 0,
     tilt: 0, done: t >= .38 }
+}
+
+/** Heavy and kick profiles throw a defeated body; lighter strikes drop it close by. */
+const MIGHTY_RECOIL = .6
+const MIGHTY_LAUNCH = 2.8
+/** A lethal hit carries the body until the fall clip reaches the floor, or until it meets a wall first. */
+export interface DeathFlight { readonly distance: number; readonly groundTime: number; readonly lift: number }
+export interface DeathImpact { readonly surface: 'floor' | 'wall'; readonly time: number; readonly distance: number }
+export interface FlightObstacle { readonly minX: number; readonly maxX: number; readonly minY: number; readonly maxY: number; readonly minZ: number; readonly maxZ: number }
+
+export function deathFlight(profile: ImpactProfile, groundTime: number): DeathFlight {
+  if (!Number.isFinite(groundTime) || groundTime <= 0) throw new RangeError('Fall ground time must be finite and positive.')
+  const mighty = profile.recoilDistance >= MIGHTY_RECOIL
+  return { distance: mighty ? profile.recoilDistance * MIGHTY_LAUNCH : Math.max(.45, profile.recoilDistance), groundTime, lift: mighty ? .32 : Math.min(.12, profile.recoilLift) }
+}
+
+const flightEase = (u: number) => 1 - (1 - u) ** 3
+/** Travel stops at `limit` (the impact distance); the body shatters there. */
+export function sampleDeathFlight(flight: DeathFlight, age: number, limit = flight.distance): RecoilSample {
+  if (!Number.isFinite(age)) throw new RangeError('Flight age must be finite.')
+  const u = Math.max(0, Math.min(1, age / flight.groundTime))
+  return { travel: Math.min(limit, flight.distance * flightEase(u)), lift: Math.sin(Math.PI * u) * flight.lift, tilt: 0, done: u >= 1 }
+}
+
+/** First impact along the flight: a wall whose box meets the body's path, else the floor at ground time. */
+export function planDeathImpact(flight: DeathFlight, from: { x: number; y: number; z: number }, direction: { x: number; z: number },
+  obstacles: readonly FlightObstacle[], body = { radius: .22, height: 1.6 }): DeathImpact {
+  const length = Math.hypot(direction.x, direction.z)
+  if (![from.x, from.y, from.z, length].every(Number.isFinite) || length < 1e-4) throw new RangeError('Flight start and direction must be finite and nonzero.')
+  const dx = direction.x / length, dz = direction.z / length
+  let hit = Infinity
+  for (const box of obstacles) {
+    if (box.maxY <= from.y + .1 || box.minY >= from.y + body.height) continue
+    let enter = -Infinity, exit = Infinity
+    for (const [origin, d, min, max] of [[from.x, dx, box.minX - body.radius, box.maxX + body.radius], [from.z, dz, box.minZ - body.radius, box.maxZ + body.radius]] as const) {
+      if (Math.abs(d) < 1e-9) { if (origin < min || origin > max) { enter = Infinity; break } continue }
+      const a = (min - origin) / d, b = (max - origin) / d
+      enter = Math.max(enter, Math.min(a, b)); exit = Math.min(exit, Math.max(a, b))
+    }
+    if (enter <= exit && exit >= 0 && enter <= flight.distance) hit = Math.min(hit, Math.max(0, enter))
+  }
+  if (hit === Infinity) return { surface: 'floor', time: flight.groundTime, distance: flight.distance }
+  // Invert the eased travel to find when the body reaches the wall.
+  return { surface: 'wall', time: flight.groundTime * (1 - Math.cbrt(1 - hit / flight.distance)), distance: hit }
 }

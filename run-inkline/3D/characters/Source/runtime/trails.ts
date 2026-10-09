@@ -1,4 +1,5 @@
 import * as THREE from 'three'
+import { ACCENT, INK, PAPER } from './palette'
 
 const TRAIL_COUNT = 4
 const SAMPLE_COUNT = 16
@@ -25,10 +26,10 @@ export class InkTrails {
   private readonly lineInner = new THREE.Vector3()
   private readonly lineOuter = new THREE.Vector3()
   private readonly mesh: THREE.Mesh
-  private readonly paper = new THREE.Color('#eeece5')
+  private readonly paper = new THREE.Color(PAPER)
   private readonly slots: TrailSlot[] = Array.from({ length: TRAIL_COUNT }, () => ({
     inner: new Float32Array(SAMPLE_COUNT * 3), outer: new Float32Array(SAMPLE_COUNT * 3),
-    times: new Float64Array(SAMPLE_COUNT), color: new THREE.Color('#151716'), head: 0, count: 0, lifetime: .14,
+    times: new Float64Array(SAMPLE_COUNT), color: new THREE.Color(INK), head: 0, count: 0, lifetime: .14,
   }))
   private live = 0
   private disposed = false
@@ -58,12 +59,12 @@ export class InkTrails {
   get activeCount(): number { return this.live }
   get triangleCount(): number { return this.geometry.drawRange.count / 3 }
 
-  sample(index: number, inner: Point, outer: Point, time: number, color = '#151716', lifetime = .14): void {
+  sample(index: number, inner: Point, outer: Point, time: number, color = INK, lifetime = .14): void {
     this.append(index, inner, outer, time, color, lifetime, true)
   }
 
   /** An explicit straight span can exceed the sweep teleport threshold. */
-  line(index: number, from: Point, to: Point, halfWidth: Point, time: number, color = '#d45538', lifetime = .075): void {
+  line(index: number, from: Point, to: Point, halfWidth: Point, time: number, color = ACCENT, lifetime = .075): void {
     if (![halfWidth.x, halfWidth.y, halfWidth.z].every(Number.isFinite) || Math.hypot(halfWidth.x, halfWidth.y, halfWidth.z) <= 0) throw new Error('A line needs a finite nonzero half-width vector.')
     this.clear(index)
     this.lineInner.set(from.x - halfWidth.x, from.y - halfWidth.y, from.z - halfWidth.z)

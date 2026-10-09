@@ -21,6 +21,7 @@ from mathutils import Vector, Matrix
 # 3: InkMat_StructuralGray (#7b8279) - environment frames, rails, and trim
 MAT_CHARCOAL = 1
 MAT_STRUCTURAL_GRAY = 3
+MAT_STEEL = 4
 ENVIRONMENT_CATEGORIES = frozenset({"city", "parkour", "industrial", "sci-fi"})
 
 class TrackFaces:
@@ -238,13 +239,30 @@ def parse_glb_header(glb_path):
 # WEAPONS BUILDERS (26 items)
 # ==============================================================================
 
+def add_blade_tip(bm, base_z, width, thickness, tip_z, mat_idx=0):
+    """Clean flush tapered blade tip that flows from rectangular cross-section to a point without an arrowhead bulge."""
+    w2 = width * 0.5
+    t2 = thickness * 0.5
+    v0 = bm.verts.new((-w2, -t2, base_z))
+    v1 = bm.verts.new((w2, -t2, base_z))
+    v2 = bm.verts.new((w2, t2, base_z))
+    v3 = bm.verts.new((-w2, t2, base_z))
+    v_tip = bm.verts.new((0, 0, tip_z))
+    with TrackFaces(bm, mat_idx):
+        bm.faces.new((v0, v1, v_tip))
+        bm.faces.new((v1, v2, v_tip))
+        bm.faces.new((v2, v3, v_tip))
+        bm.faces.new((v3, v0, v_tip))
+
 def build_sword(bm):
     # Grip at (0,0,0)
     add_cylinder(bm, (0, 0, -0.12), (0, 0, 0.12), radius=0.018, segments=8, mat_idx=1)
     add_sphere(bm, (0, 0, -0.135), radius=0.035, segments=8, ring_count=5, mat_idx=1)
     add_box(bm, (0, 0, 0.13), (0.24, 0.04, 0.025), mat_idx=1)
-    add_box(bm, (0, 0, 0.55), (0.05, 0.012, 0.8), mat_idx=0)
-    add_cone(bm, (0, 0, 0.95), (0, 0, 1.1), r1=0.035, r2=0.0, segments=4, mat_idx=0)
+    # Straight double-edged blade (length 0.78m)
+    add_box(bm, (0, 0, 0.54), (0.05, 0.012, 0.78), mat_idx=0)
+    # Flush tapered tip (removes conical arrowhead bulge)
+    add_blade_tip(bm, base_z=0.93, width=0.05, thickness=0.012, tip_z=1.05, mat_idx=0)
     add_box(bm, (0, 0, 0.22), (0.015, 0.014, 0.12), mat_idx=2)
 
 def build_katana(bm):
@@ -331,8 +349,10 @@ def build_bat(bm):
 def build_dagger(bm):
     add_cylinder(bm, (0, 0, -0.08), (0, 0, 0.05), radius=0.014, segments=8, mat_idx=1)
     add_box(bm, (0, 0, 0.055), (0.08, 0.03, 0.015), mat_idx=1)
-    add_box(bm, (0, 0, 0.18), (0.032, 0.008, 0.22), mat_idx=0)
-    add_cone(bm, (0, 0, 0.29), (0, 0, 0.35), r1=0.018, r2=0.0, segments=4, mat_idx=0)
+    # Straight dagger blade (0.21m)
+    add_box(bm, (0, 0, 0.17), (0.032, 0.008, 0.21), mat_idx=0)
+    # Flush tapered tip (removes conical arrowhead bulge)
+    add_blade_tip(bm, base_z=0.275, width=0.032, thickness=0.008, tip_z=0.34, mat_idx=0)
     add_sphere(bm, (0, 0, -0.09), radius=0.02, segments=6, ring_count=4, mat_idx=2)
 
 def build_axe_battle(bm):
@@ -3035,6 +3055,7 @@ def create_materials():
         ("InkMat_Charcoal", "#181a1b"),
         ("InkMat_SafetyOrange", "#d45538"),
         ("InkMat_StructuralGray", "#7b8279"),
+        ("InkMat_Steel", "#94a3b8"),
     ]
     for idx, (name, hex_val) in enumerate(palette):
         mat = bpy.data.materials.new(name)
@@ -3052,6 +3073,7 @@ def create_materials():
 def main():
     parser = argparse.ArgumentParser(description="Generate Inkline stick-game props and industrial kit")
     parser.add_argument("--out", default="public/assets", help="Output directory for assets")
+    parser.add_argument("--ids", default=None, help="Comma-separated IDs of specific props to generate")
     
     # Parse args after '--'
     cli_args = sys.argv[sys.argv.index("--") + 1:] if "--" in sys.argv else []
@@ -3108,8 +3130,12 @@ def main():
     model_entries = []
     category_tri_max = {cat: 0 for cat in categories}
 
+    target_ids = set(args.ids.split(",")) if args.ids else None
+
     for item in MODELS_CATALOG:
         model_id = item["id"]
+        if target_ids and model_id not in target_ids:
+            continue
         cat = item["category"]
         label = item["label"]
         builder_func = item["builder"]
@@ -3118,12 +3144,12 @@ def main():
         me = bpy.data.meshes.new(f"mesh_{model_id}")
         bm = bmesh.new()
         builder_func(bm)
-        # Held weapons use the near-black ink for a clear silhouette.
+        # Held weapons use cool steel for blades/barrels and near-black ink for grips/hilts.
         # Preserve authored safety-orange accents and leave sports equipment unchanged.
         if cat == "weapons" or (cat == "sci-fi" and "held" in item["tags"]):
             for face in bm.faces:
                 if face.material_index == 0:
-                    face.material_index = MAT_CHARCOAL
+                    face.material_index = MAT_STEEL
         # Keep the near-black ink for figures, weapons, and small authored
         # accents. Environment structure uses the quieter middle gray.
         if cat in ENVIRONMENT_CATEGORIES and "held" not in item["tags"]:
@@ -3140,6 +3166,7 @@ def main():
         obj.data.materials.append(materials[1])
         obj.data.materials.append(materials[2])
         obj.data.materials.append(materials[3])
+        obj.data.materials.append(materials[4])
 
         # Link to active collection for export
         bpy.context.scene.collection.objects.link(obj)
@@ -3224,11 +3251,23 @@ def main():
     bpy.ops.wm.save_as_mainfile(filepath=blend_path)
     print(f"Saved editable source showroom: {blend_path}")
 
-    # Write props.json
+    # Write props.json (merge with existing catalog if selective generation)
     props_json_path = os.path.join(out_dir, "props.json")
+    final_models = model_entries
+    if target_ids and os.path.exists(props_json_path):
+        try:
+            with open(props_json_path, 'r', encoding='utf-8') as f:
+                existing = json.load(f).get("models", [])
+            merged = {m["id"]: m for m in existing}
+            for m in model_entries:
+                merged[m["id"]] = m
+            final_models = [merged[m["id"]] for m in MODELS_CATALOG if m["id"] in merged]
+        except Exception as e:
+            print(f"Warning: could not merge with existing props.json: {e}")
+
     with open(props_json_path, 'w', encoding='utf-8') as f:
-        json.dump({"models": model_entries}, f, indent=2)
-    print(f"Wrote catalog metadata: {props_json_path}")
+        json.dump({"models": final_models}, f, indent=2)
+    print(f"Wrote catalog metadata: {props_json_path} ({len(final_models)} models)")
 
     # Summary Report
     total_size = sum(os.path.getsize(os.path.join(props_dir, f"{m['id']}.glb")) for m in model_entries)

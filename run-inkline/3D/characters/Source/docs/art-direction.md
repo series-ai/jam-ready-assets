@@ -4,9 +4,9 @@ Use a thin black figure with a round head, narrow limbs, and short rounded hands
 
 The style draws from Flash stick-figure animation. The references include Xiao Xiao, Animator vs. Animation, and Shock. Use their clear silhouettes and fast pose changes as direction. Do not copy their characters, scenes, frames, or logos.
 
-Use warm paper (`#eeece5`) for the background. Use off-white (`#eeeae1`) for large object faces. Use charcoal (`#151716`) for figures and held equipment. Use lighter gray for environment structure. Keep large walkable faces light. A black deck must not hide a black foot. Use orange (`#d45538`) for small accents, signals, and selected effects.
+Use the graphic-novel palette in `src/runtime/palette.ts`. Do not write palette colors in other files. Use cool paper (`#f3f4f6`) for the background and cool white (`#f2f4f7`) for large object faces. Use gunmetal for player figures. A dark body color gets a cool lift so that its shadow band, lit band, and pitch-black edge ink show on white. Use vermillion (`#ff2212`) for threats only. Use dark slate (`#383c42`) for structural accents and held equipment. Use structural gray (`#888e96`) for environment frames. Keep large walkable faces light. A dark deck must not hide a dark foot. Use orange (`#d45538`) for small accents, signals, and selected effects.
 
-All model materials are unlit. Avoid photo textures, gloss, bloom, and surface noise. Model useful structure into the silhouette. Use a small number of hard edges to explain depth. Keep construction details large enough to read on a phone.
+All model materials are unlit. Figures use two cel bands and a grazing ink edge from one fixed view-space key light. Props use a fixed world-space key light: top faces are brightest and bottom faces are darkest. The pack GLBs keep their flat source colors. Call `applyFigureShading` and `applyPropShading` to get the runtime look. Avoid photo textures, gloss, bloom, and surface noise. Model useful structure into the silhouette. Use a small number of hard edges to explain depth. Keep construction details large enough to read on a phone.
 
 Industrial parts use a common scale. Main architectural parts follow 2 m and 4 m grids. Some dressing parts have custom dimensions. Use the manifest and supplied scene to check scale and connection points.
 
@@ -16,7 +16,7 @@ The generated [Study 03 reference](reference/study-03.png) guided the shape and 
 
 ## Art review rules
 
-Read the figure before the environment. Keep floor seams thin and low in contrast. Use orange for small points of interest. Avoid large black building faces behind a black character. Keep shadow marks on the support surface when a character jumps.
+Read the figure before the environment. Keep floor seams thin and low in contrast. Use orange for small points of interest. Use red only for threats and strike trails. Avoid large dark building faces behind a gunmetal character. Keep shadow marks on the support surface when a character jumps.
 
 Check preparation, contact, and recovery without effects. Open the elbow and knee shapes. Keep a clear gap between the guard arm and the striking arm. Use a short strike interval and a longer recovery. Check the forward reach in the exported GLB, not only in the source bone angles.
 

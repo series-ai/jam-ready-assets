@@ -1,5 +1,6 @@
 import * as THREE from 'three'
 import { AssetLibrary, addOutlines, bakeStatic, disposeInstance } from './assets'
+import { DISTRICT_OUTLINE, ROUTE_MARK } from './palette'
 import type { WorldCollision, Surface } from './physics'
 import type { Vec3 } from '../types'
 import { CameraClearance } from './camera'
@@ -113,11 +114,11 @@ export async function createDistrict(library: AssetLibrary, overview = false, la
   const clearance = new CameraClearance(objects)
   const root = bakeStatic(objects)
   for (const object of objects) disposeInstance(object)
-  const outlines = addOutlines(root, '#91978f')
+  const outlines = addOutlines(root, DISTRICT_OUTLINE)
   // Sparse painted route marks remain legible without a texture map.
   const marks = new THREE.Group()
   if (overview || layout === 'district') for (let z = overview ? -5 : -10; z <= (overview ? 2 : 10); z += 2) {
-    const mesh = new THREE.Mesh(new THREE.PlaneGeometry(.06, .65), new THREE.MeshBasicMaterial({ color: '#b8b9ae' }))
+    const mesh = new THREE.Mesh(new THREE.PlaneGeometry(.06, .65), new THREE.MeshBasicMaterial({ color: ROUTE_MARK }))
     mesh.rotation.x = -Math.PI / 2; mesh.position.set(0, .005, z); mesh.userData.ownedGeometry = true; marks.add(mesh)
   }
   root.add(marks)

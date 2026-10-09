@@ -8,6 +8,6 @@ The game also permitted horizontal movement during the landing recovery pose. Th
 
 The foot check uses its own list of expected support feet. It checks each exported body at 120 samples per second. It measures horizontal drift and height error for each support foot. The limit is 3 mm. Separate checks cover motion, stance, weapon contact, avatar shape, timing, and the review page. The landing regression tests use the real game update path without a WebGL canvas.
 
-Current evidence and motion films are in [docs/verification/feet](https://github.com/series-ai/run-workshop/blob/main/games/inkline-showcase/docs/verification/feet) and [public/review](https://github.com/series-ai/run-workshop/blob/main/games/inkline-showcase/public/review). The correction retains the 85 clip IDs, durations, and contact times. Earlier performance reports are historical. This release has no new performance measurement. Physical Android performance remains unverified.
+Current evidence and motion films are in `docs/verification/feet` and `public/review`. The correction retains the 85 clip IDs, durations, and contact times. Earlier performance reports are historical. This release has no new performance measurement. Physical Android performance remains unverified.
 
 Two runtime limits remain. Run-to-idle transitions can move the support feet during the short blend. Ramp movement changes the actor’s height without separate terrain targets for each foot. The new flat-ground contact checks do not certify those cases.

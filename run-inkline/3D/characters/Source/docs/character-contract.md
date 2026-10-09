@@ -1,6 +1,6 @@
 # INKLINE character contract
 
-The pack has 12 character GLBs. Each GLB contains the same 85 named animation clips. [public/assets/characters.json](https://github.com/series-ai/run-workshop/blob/main/games/inkline-showcase/public/assets/characters.json) lists model dimensions, mesh counts, clip durations, and loop flags.
+The pack has 12 character GLBs. Each GLB contains the same 85 named animation clips. `public/assets/characters.json` lists model dimensions, mesh counts, clip durations, and loop flags.
 
 ## Coordinates and rig
 
@@ -41,7 +41,7 @@ The quality correction preserves the previous 84 IDs and adds `get-up-forward`. 
 
 The generator authors clips at 30 frames per second and samples the GLB export at 120 Hz. Export-only NLA scaling preserves the previous durations and contact times. Canonical motion data records the action phases and support-foot intervals. A two-bone solve holds each declared support foot to its path. Signed hip corrections keep grounded mesh surfaces at the floor. Airborne intervals retain their authored flight.
 
-The full motion check samples at 60 Hz. The grounded export check samples at 240 Hz and accepts a floor range of -1 mm to 15 mm. A separate support-foot check measures horizontal and vertical drift against each declared plant path. Avatar checks cover the minimum, default, and maximum stroke thickness. See [grounded-export.json](https://github.com/series-ai/run-workshop/blob/main/games/inkline-showcase/docs/verification/kinetic/grounded-export.json), [figure-motion-quality.json](https://github.com/series-ai/run-workshop/blob/main/games/inkline-showcase/scripts/verify-motion-quality.ts), and [avatar-contact.json](https://github.com/series-ai/run-workshop/blob/main/games/inkline-showcase/docs/verification/correction/avatar-contact.json).
+The full motion check samples at 60 Hz. The grounded export check samples at 240 Hz and accepts a floor range of -1 mm to 15 mm. A separate support-foot check measures horizontal and vertical drift against each declared plant path. Avatar checks cover the minimum, default, and maximum stroke thickness. See [grounded-export.json](verification/kinetic/grounded-export.json), the per-sample motion check (regenerable with [verify-motion-quality.ts](../scripts/verify-motion-quality.ts)), and [avatar-contact.json](verification/correction/avatar-contact.json).
 
 Travel loops include a positive `travelSpeed` in metres per second. Use actual movement speed divided by `travelSpeed * avatar.height` as the action playback scale. The authored `motion` metadata uses Blender coordinates, stated in its `coordinateSystem` field. Its phase and plant frame numbers use 30 FPS.
 
@@ -74,9 +74,9 @@ After the animation mixer updates, call `supportEquipment(character, equipment, 
 ## Source and verification
 
 - `public/assets/characters/*.glb`: runtime models and clips.
-- [public/assets/source/characters.blend](https://github.com/series-ai/run-workshop/blob/main/games/inkline-showcase/public/assets/source/characters.blend): editable character source. It contains 85 source actions and 1,020 corrected actions. Each character has 85 named NLA tracks. The tracks are muted in the saved file. Enable one track to inspect that clip.
+- `public/assets/source/characters.blend`: editable character source. It contains 85 source actions and 1,020 corrected actions. Each character has 85 named NLA tracks. The tracks are muted in the saved file. Enable one track to inspect that clip.
 - `scripts/blender/characters.py`: geometry, rig, and animation generator.
-- [public/assets/sample-pose-metrics.json](https://github.com/series-ai/run-workshop/blob/main/games/inkline-showcase/public/assets/sample-pose-metrics.json): sampled pose diagnostics.
+- `public/assets/sample-pose-metrics.json`: sampled pose diagnostics.
 
 Run the generator from the app directory:
 

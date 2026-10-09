@@ -5,9 +5,9 @@ The district contains 148 static placements from 33 prop IDs. The layout include
 ## Files and source
 
 - `src/runtime/district.ts`: source placement, collision, and checkpoint data.
-- [public/assets/industrial-district.json](https://github.com/series-ai/run-workshop/blob/main/games/inkline-showcase/public/assets/industrial-district.json): generated layout and gameplay data.
-- [public/assets/source/industrial-district.blend](https://github.com/series-ai/run-workshop/blob/main/games/inkline-showcase/public/assets/source/industrial-district.blend): editable assembled level.
-- [public/assets/scenes/industrial-district.glb](https://github.com/series-ai/run-workshop/blob/main/games/inkline-showcase/public/assets/scenes/industrial-district.glb): static visual scene.
+- `public/assets/industrial-district.json`: generated layout and gameplay data.
+- `public/assets/source/industrial-district.blend`: editable assembled level.
+- `public/assets/scenes/industrial-district.glb`: static visual scene.
 - `scripts/blender/level.py`: scene generator.
 
 The JSON contains `placements`, `collision`, and `checkpoints`. A placement has a model `id`, position `at`, optional target `size`, and optional `yaw`. Positions and sizes use meters. Yaw uses radians.

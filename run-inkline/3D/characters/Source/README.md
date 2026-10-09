@@ -9,6 +9,7 @@ This directory contains the master consumer manifest, editable Blender sources, 
 - `types.ts`: Common TypeScript interfaces (`PackManifest`, `ModelEntry`, `AvatarConfig`, `StageSettings`).
 - `runtime/`: Modular runtime libraries matching the showcase source structure:
   - `assets.ts`: `AssetLibrary` loader supporting local base URLs or remote mirrors.
+  - `palette.ts`: Graphic-novel palette and cel bands for figures, props, effects, and the stage. `applyFigureShading` and `applyPropShading` apply it to loaded models.
   - `firearms.json`: Shared firearm sizes, grip targets, and support timing. Enable `resolveJsonModule` in the consumer TypeScript configuration.
   - `effects.ts`: `InkEffects` particle manager with 64 procedural presets.
   - `district.ts`: Assembly for Industrial District, Service Yard, and Roof Works.
