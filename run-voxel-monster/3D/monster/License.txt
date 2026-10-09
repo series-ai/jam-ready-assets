@@ -1,6 +1,6 @@
 SPDX-License-Identifier: LicenseRef-RUN-Repository-Supplemental-1.0
 Source: https://github.com/series-ai/run-workshop/tree/main/tools/run-voxel-packs
-Verified-by: run-workshop maintainers, 2026-10-05
+Verified-by: run-workshop maintainers, 2026-10-09
 
 RUN Voxel Packs — Monster 3D models
 Copyright (c) 2026 Series Entertainment, Inc.
