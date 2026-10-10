@@ -1,0 +1,16 @@
+{
+  "source": "https://ansimuz.itch.io/sunny-land-pixel-game-art",
+  "license": "CC0-1.0",
+  "checkedAt": "2026-10-10",
+  "listingImage": {
+    "url": "https://img.itch.zone/aW1nLzI2NTY5MjM2LnBuZw==/original/4eZFq0.png",
+    "sha256": "7b916bf7c2641c64e88b2e9a007ecc6e6977fc53f912332ee857026ed67660f9"
+  },
+  "downloads": [
+    {
+      "filename": "SunnyLand Music.zip",
+      "sha256": "af625bed78bacbb0ee6b77a574b6d0b7a16800e87ed8dd5e2508ecb267e9cc16",
+      "bytes": 34536550
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "source": "https://styloo.itch.io/3dfood",
+  "license": "CC0-1.0",
+  "checkedAt": "2026-10-10",
+  "listingImage": {
+    "url": "https://img.itch.zone/aW1nLzI4NTgxMjczLmpwZw==/original/PMRlnA.jpg",
+    "sha256": "be4e1e208d0dcc3dabd8dcba0ee635a38eb56f3b723025eb52f15591d6c86ebd"
+  },
+  "downloads": [
+    {
+      "filename": "3dFoodStyloo.zip",
+      "sha256": "430431aa5d3f35edced17f2dea1ac95f8954c3a3fef333066dd0f296db603645",
+      "bytes": 20685297
+    }
+  ]
+}

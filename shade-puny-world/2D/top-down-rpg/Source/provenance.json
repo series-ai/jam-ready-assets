@@ -1,0 +1,16 @@
+{
+  "source": "https://merchant-shade.itch.io/16x16-puny-world",
+  "license": "CC0-1.0",
+  "checkedAt": "2026-10-10",
+  "listingImage": {
+    "url": "https://img.itch.zone/aW1nLzEyNjIyNzc1LmdpZg==/original/xDOJz7.gif",
+    "sha256": "a3f32ac1c6fb3f60fef0696b3680195a3fcf678e85e6830cf28a17722ae084e9"
+  },
+  "downloads": [
+    {
+      "filename": "PUNY_WORLD_v1.zip",
+      "sha256": "218429e25d6d1420eb9c126d63dd3d2ca722cac2014ac9e70f39be6efceef1c5",
+      "bytes": 112010
+    }
+  ]
+}

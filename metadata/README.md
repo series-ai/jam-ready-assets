@@ -20,6 +20,10 @@ changes a pack's content version or the legacy schema-v1 manifest.
 - `visual.json`: schema version, publication enable switch and explicit per-hash
   generation invalidations. Empty invalidations reuse approved historical identities.
 
+Labels describe visible artwork. RGB values behind fully transparent pixels are not
+visible colors and must not become color tags. Compare transparent images on a neutral
+background when reviewing labels, and correct any descriptions of hidden background RGB.
+
 Labels are asset facts. They do not determine licences or prove that a file can be used
 independently. Selectability also checks the current category, extension, frame count,
 font and animation paths, and companion descriptors. Dependent or uncertain assets stay

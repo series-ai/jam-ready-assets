@@ -1,0 +1,16 @@
+{
+  "source": "https://screamingbrainstudios.itch.io/iso-town-pack",
+  "license": "CC0-1.0",
+  "checkedAt": "2026-10-10",
+  "listingImage": {
+    "url": "https://img.itch.zone/aW1nLzU3Nzc2NTIuanBn/original/8wiEX8.jpg",
+    "sha256": "ca90a6dbf8258f3ca9048cec03953460ee73a8db91a81210feefc8a70b1d4356"
+  },
+  "downloads": [
+    {
+      "filename": "SBS - Isometric Town Pack.rar",
+      "sha256": "86df678f4ae059ea130f0c134a6525cbdee042240fa38883a9f0488dc9bdd3bd",
+      "bytes": 4171727
+    }
+  ]
+}
