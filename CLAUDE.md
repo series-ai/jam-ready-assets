@@ -49,3 +49,9 @@ tracker and link nothing.
 Follow [the animation grouping rules in AGENTS.md](AGENTS.md#keep-animation-assets-usable-together).
 Preserve complete sheets, keep related frames and companion files together, and verify
 individual selection in the generated catalog before describing a pack as ready for it.
+
+## Adding pack thumbnails
+
+Always follow [the listing-thumbnail rules in AGENTS.md](AGENTS.md#choose-pack-thumbnails-from-the-original-listing).
+Use the original listing's representative cover or gallery image, preserve its source
+and provenance, and check the result at catalog-card size before adding a pack.
