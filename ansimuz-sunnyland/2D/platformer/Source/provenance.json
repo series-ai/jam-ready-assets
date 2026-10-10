@@ -1,0 +1,16 @@
+{
+  "source": "https://ansimuz.itch.io/sunny-land-pixel-game-art",
+  "license": "CC0-1.0",
+  "checkedAt": "2026-10-10",
+  "listingImage": {
+    "url": "https://img.itch.zone/aW1nLzI2NTY5MjM2LnBuZw==/original/4eZFq0.png",
+    "sha256": "7b916bf7c2641c64e88b2e9a007ecc6e6977fc53f912332ee857026ed67660f9"
+  },
+  "downloads": [
+    {
+      "filename": "Sunny-land-files.zip",
+      "sha256": "ec01249ae89bbeef94e7b385e36e28f5616f50998b309df3bbcb608cb0f713af",
+      "bytes": 3546564
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+SPDX-License-Identifier: CC0-1.0
+Source: https://ansimuz.itch.io/sunny-land-pixel-game-art
+Verified-by: run-workshop maintainers, 2026-10-10
+
+Creative Commons Zero 1.0 Universal (CC0 1.0)
+Public Domain Dedication
+https://creativecommons.org/publicdomain/zero/1.0/
+
+You may copy, modify, distribute and use this artwork for any purpose, including commercially, without asking permission or providing attribution.

@@ -1,10 +1,10 @@
 # 🎮 Jam-Ready Assets
 
-A curated, ready-to-use library of **free game art** for building games on the **RUN platform**: **353 asset packs** of 2D sprites, tilesets, 3D models, UI kits, icons, fonts, and audio, organized so you can find what you need in seconds. Drop them straight into your RUN game.
+A curated, ready-to-use library of **free game art** for building games on the **RUN platform**: **365 asset packs** of 2D sprites, tilesets, 3D models, UI kits, icons, fonts, and audio, organized so you can find what you need in seconds. Drop them straight into your RUN game.
 
 > **Free for any RUN game**, personal, educational, or commercial. Modify it freely.
 >
-> There is no single licence across the library. Every pack carries its own `License.txt`, and the library only accepts licences whose obligations RUN.studio can carry into the published game: **CC0 / public domain, MIT, BSD-2-Clause, and the RUN License** (the RUN Repository Supplemental License v1.0 of [run-workshop](https://github.com/series-ai/run-workshop/blob/main/LICENSE.md)). Of 353 packs, 326 are CC0, 4 are MIT (the Proof of Play *Pirate Nation* set), which asks only that you keep the copyright notice that ships with the pack, and 23 are under the RUN License (every *RUN Voxel Packs* leaf and every *INKLINE* leaf), which allows use in RUN projects only until it converts to MIT on January 1, 2028, and asks that the licence file ships with the pack. The avatar rig leaves of the *RUN Voxel Packs* bind to the Pirate Nation skeleton, so their licence file also keeps Proof of Play's MIT notice for that rig data. If a pack under MIT or BSD-2-Clause is added later, RUN.studio copies its licence file into your published project automatically when you import the pack. Leave it where it lands and you are done.
+> There is no single licence across the library. Every pack carries its own `License.txt`, and the library only accepts licences whose obligations RUN.studio can carry into the published game: **CC0 / public domain, MIT, BSD-2-Clause, and the RUN License** (the RUN Repository Supplemental License v1.0 of [run-workshop](https://github.com/series-ai/run-workshop/blob/main/LICENSE.md)). Of 365 packs, 338 are CC0, 4 are MIT (the Proof of Play *Pirate Nation* set), which asks only that you keep the copyright notice that ships with the pack, and 23 are under the RUN License (every *RUN Voxel Packs* leaf and every *INKLINE* leaf), which allows use in RUN projects only until it converts to MIT on January 1, 2028, and asks that the licence file ships with the pack. The avatar rig leaves of the *RUN Voxel Packs* bind to the Pirate Nation skeleton, so their licence file also keeps Proof of Play's MIT notice for that rig data. If a pack under MIT or BSD-2-Clause is added later, RUN.studio copies its licence file into your published project automatically when you import the pack. Leave it where it lands and you are done.
 > Older RUN.studio builds use a CC0-only schema-v1 catalog. Licence-aware builds use schema v2 with immutable per-commit pack manifests, so a non-CC0 pack cannot reach a client that would strip its notice or pair with another revision's notice.
 >
 > The creators below deserve a shout-out either way, see [Credits](#-credits).
@@ -67,17 +67,17 @@ Each pack's licence is verified pack by pack rather than assumed, and named in t
 | **Kenney** | 240 | CC0-1.0 | The legendary *Game Assets All-in-1* - 2D, 3D, UI, icons, fonts & audio, split across every theme | [kenney.nl](https://kenney.nl) |
 | **Kay Lousberg** | 20 | CC0-1.0 | *KayKit* Complete Collection - stylized low-poly 3D kits (dungeon, city, characters, weapons, space…) | [kaylousberg.com](https://kaylousberg.com) |
 | **Isa Lousberg** | 1 | CC0-1.0 | *Tiny Treats* - charming 3D cozy-home & bakery sets | [isalousberg.com](https://www.isalousberg.com) |
-| **Foozle** (commissioned from **Baldur**) | 24 | CC0-1.0 | *Spire* - dark-fantasy 2D enemies, towers, builder & tileset; *Lucifer* - undead & cultist characters, dungeon/lava/exterior tilesets, RPG UI, equipment, pickups & effects | [foozlecc.itch.io](https://foozlecc.itch.io) |
+| **Foozle** (commissioned from **Baldur**) | 26 | CC0-1.0 | *Spire* - dark-fantasy 2D enemies, towers, builder & tileset; *Lucifer* - undead & cultist characters, dungeon/lava/exterior tilesets, RPG UI, equipment, pickups & effects; *Void*: space environments and a ship with animated engines, shields and weapons | [foozlecc.itch.io](https://foozlecc.itch.io) |
 | **Pixel Frog** | 4 | CC0-1.0 | *Pixel Adventure*, *Kings and Pigs*, *Pirate Bomb*, *Treasure Hunters* - polished 2D platformer sets | [pixelfrog-assets.itch.io](https://pixelfrog-assets.itch.io) |
 | **Pixel-boy & AAA** | 1 | CC0-1.0 | *Ninja Adventure* - huge top-down 2D pack (characters, tilesets, FX, music) | [pixel-boy.itch.io](https://pixel-boy.itch.io) |
 | **Estúdio Vaca Roxa** (Bakudas & Gabe Fern) | 2 | CC0-1.0 | *Generic RPG Pack* & *Old West Graphics* - 2D top-down / western | [bakudas.itch.io](https://bakudas.itch.io) |
 | **GrafxKid** | 8 | CC0-1.0 | Sprite Packs, *Rocky Roads*, *Seasonal Tilesets* - versatile 2D platformer art | [grafxkid.itch.io](https://grafxkid.itch.io) |
-| **Shade** | 2 | CC0-1.0 | *Puny Characters* & *Puny Monsters* - 16×16 top-down sprites | [merchant-shade.itch.io](https://merchant-shade.itch.io) |
+| **Shade** | 3 | CC0-1.0 | *Puny Characters*, *Puny Monsters* and *Puny World*: 16 x 16 top-down sprites, overworld terrain, buildings and animated water | [merchant-shade.itch.io](https://merchant-shade.itch.io) |
 | **Alex's Assets** | 2 | CC0-1.0 | *16×16 Outdoors Tileset* & *16×16 RPG Item Pack* | [alexs-assets.itch.io](https://alexs-assets.itch.io) |
 | **Jestan** | 1 | CC0-1.0 | *Classic RPG Tileset* | [jestan.itch.io](https://jestan.itch.io) |
-| **Styloo** | 1 | CC0-1.0 | *Cozy Farm* - 3D farm models (FBX + GLB) | [styloo.itch.io](https://styloo.itch.io) |
+| **Styloo** | 2 | CC0-1.0 | *Cozy Farm* farm models and *3D Food*: 129 hand-painted food models | [styloo.itch.io](https://styloo.itch.io) |
 | **Barker** | 2 | CC0-1.0 | *Cant Stop Now* runner & launcher packs - painted 2D characters, emotes, spritesheets & parallax backgrounds | [series.ai](https://series.ai) |
-| **Luis Zuno (ansimuz)** | 2 | CC0-1.0 | *GothicVania* Cemetery & Patreon Collection - Castlevania-style gothic horror 2D (graveyard scene, demons, ghosts, night town) | [opengameart.org/users/ansimuz](https://opengameart.org/users/ansimuz) |
+| **Luis Zuno (ansimuz)** | 4 | CC0-1.0 | *GothicVania* Cemetery & Patreon Collection - Castlevania-style gothic horror 2D (graveyard scene, demons, ghosts, night town); *SunnyLand* platformer artwork and adventure music | [opengameart.org/users/ansimuz](https://opengameart.org/users/ansimuz) |
 | **Not Jam** | 1 | CC0-1.0 | *Haunted Hotel* - 8×8 horror tileset, enemy spritesheets, pickups, UI & button prompts | [not-jam.itch.io](https://not-jam.itch.io) |
 | **Fava Beans** | 2 | CC0-1.0 | *1-Bit Graveyard* - 205 sprites of tiles, decor & structures, plus a matching 1-bit UI icon set | [opengameart.org](https://opengameart.org/content/1-bit-graveyard-pixel-art-asset-pack) |
 | **0x72** | 1 | CC0-1.0 | *DungeonTileset II* - 16×16 dungeon tiles with skeleton, zombie, demon, ghost & pumpkin-dude monsters | [0x72.itch.io](https://0x72.itch.io) |
@@ -96,6 +96,10 @@ Each pack's licence is verified pack by pack rather than assumed, and named in t
 | **Ritpop** | 1 | CC0-1.0 | Top-down modern home tiles, with walls, windows, kitchen appliances, bathroom fixtures, beds and furniture. | [Original pack](https://opengameart.org/content/modern-houses-tileset-topdown) |
 | **Devil's Workshop** | 1 | CC0-1.0 | Police car, civilian cars, pickup trucks and bus sprites in isometric, side/front and top views. Original individual PNGs, sheets and CSS coordinates are kept together. | [Original pack](https://opengameart.org/content/2d-car-pack-0) |
 | **Segel** | 1 | CC0-1.0 | Side-view city vehicles: two cars, a box truck, a bus, a taxi and a truck, each with ten original PNG frames. | [Original pack](https://opengameart.org/content/2d-horizontal-car) |
+| **VEXED** | 1 | CC0-1.0 | *Bountiful Bits*: 10 x 10 colored and 1-bit RPG tiles | [Original pack](https://v3x3d.itch.io/bountiful-bits) |
+| **Screaming Brain Studios** | 1 | CC0-1.0 | *Isometric Town*: 443 building and roof tiles with two lighting directions | [Original pack](https://screamingbrainstudios.itch.io/iso-town-pack) |
+| **Nieobie** | 1 | CC0-1.0 | *Game Icon Pack*: 815 rounded icons; original PNG and SVG variants retained | [Original pack](https://nieobie.itch.io/free-icons) |
+| **Quaternius** | 3 | CC0-1.0 | *Sushi Restaurant Kit*, *Stylized Nature MegaKit* Standard edition (68 models), and *Ultimate Animated Animals* (12 models) | [Sushi](https://quaternius.com/packs/sushirestaurantkit.html), [Nature](https://quaternius.com/packs/stylizednaturemegakit.html), [Animals](https://quaternius.com/packs/ultimateanimatedanimals.html) |
 
 ---
 

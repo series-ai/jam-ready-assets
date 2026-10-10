@@ -1,0 +1,21 @@
+{
+  "source": "https://nieobie.itch.io/free-icons",
+  "license": "CC0-1.0",
+  "checkedAt": "2026-10-10",
+  "listingImage": {
+    "url": "https://img.itch.zone/aW1nLzI3OTY4MTE3LnBuZw==/original/QhgiSi.png",
+    "sha256": "0603a000fdf4fccf91bf5e90d7a3c197e6d156fa8e57ffc60feb5938096a4dce"
+  },
+  "downloads": [
+    {
+      "filename": "Game-Icon-Pack-v1.4-PNG",
+      "sha256": "1fad085aed041a484510e70b424e0f36d4ae3a30720bf2a574b1c62cb1c44b6b",
+      "bytes": 3506218
+    },
+    {
+      "filename": "Game-Icon-Pack-v1.4-SVG",
+      "sha256": "331a65e60d752e0f2a8d55d9e9b9d14483e9055cdcc43113f7efcbf5d5510dbf",
+      "bytes": 366858
+    }
+  ]
+}

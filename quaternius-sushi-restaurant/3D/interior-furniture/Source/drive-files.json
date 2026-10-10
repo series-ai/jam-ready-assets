@@ -1,0 +1,722 @@
+[
+  {
+    "path": "Decoration/glTF/Decoration_Carpet.gltf",
+    "source": "https://drive.google.com/file/d/141_gqkp_cFIzK4xJ_RLXTbTgbuMxpchX/view",
+    "sha256": "1233022f625ec8133b958fc202dd6b2a1bb8ccd67f51f5271f5c69d2ee7eff4b",
+    "bytes": 12964
+  },
+  {
+    "path": "Decoration/glTF/Decoration_Sign.gltf",
+    "source": "https://drive.google.com/file/d/1bfYMhCD_3gkhBOYKM0YJzGe9HmzLmFkN/view",
+    "sha256": "63fb145b03fd4d2783107948696852803488394876438b9211e61fb935fd6b46",
+    "bytes": 111863
+  },
+  {
+    "path": "Decoration/glTF/Decoration_Sign_2.gltf",
+    "source": "https://drive.google.com/file/d/10gVx5o6dBMSd8cVmTM6eoXjfHMzQBfjF/view",
+    "sha256": "d54f05f223daabd3f582dc058d7ec2143246ce6f81da2fae40109cab9ae6abc1",
+    "bytes": 569712
+  },
+  {
+    "path": "Decoration/glTF/Decoration_Light.gltf",
+    "source": "https://drive.google.com/file/d/1ObA3by5fq1bhCS0E1eTdSuRivbmSjfxG/view",
+    "sha256": "b02996e57afdf686a53cb79a289928f0eba2302b4a2bb3fc727d379f2c5073da",
+    "bytes": 29938
+  },
+  {
+    "path": "Decoration/glTF/Decoration_Sign_3.gltf",
+    "source": "https://drive.google.com/file/d/1c6hDefTHKE5MZfK1FdaWSSSQ-kz94-UD/view",
+    "sha256": "d0329f3470caf6cb4b7b8bee30abc7e778e6f575a49ab14a430e5bdb2ea273fe",
+    "bytes": 203538
+  },
+  {
+    "path": "Decoration/glTF/Decoration_Painting.gltf",
+    "source": "https://drive.google.com/file/d/1RYnNEgZvRyMnE8QrzMQppfXxEjvdswZL/view",
+    "sha256": "53eab4b0f68f10891e90839d32b32fc9f821da7466a01207b53662372fc2d298",
+    "bytes": 50991
+  },
+  {
+    "path": "Decoration/glTF/Decoration_Painting_Small.gltf",
+    "source": "https://drive.google.com/file/d/1mThq-UFfEGeqCJnxfnkOIhreyPl7ifDw/view",
+    "sha256": "a37e89df91581a50d20bbd2f104c3e21a93ab47ac7dc3c3d24fcc22f5b359827",
+    "bytes": 28810
+  },
+  {
+    "path": "Decoration/glTF/Decoration_WallLight.gltf",
+    "source": "https://drive.google.com/file/d/1Kvc7Y-76ei5pM-Q7Oza56eX6-Sk0-j2t/view",
+    "sha256": "30296a2080a4bd9183c6a4e988368a94289f9ae2658fb44d61856ffaea91d0e1",
+    "bytes": 75639
+  },
+  {
+    "path": "Decoration/glTF/Decoration_Bell.gltf",
+    "source": "https://drive.google.com/file/d/1IkBmD9TbGleGLWxv4O0V7-VV_7sQtpZN/view",
+    "sha256": "947e541793bb1612c8e26aad13d0d922205f53a68e09485470b3f29f5a20df34",
+    "bytes": 137137
+  },
+  {
+    "path": "Decoration/glTF/Decoration_SakuraFlower.gltf",
+    "source": "https://drive.google.com/file/d/1vP30XzIiiRHrJ7jOHzG-ZxKccjF8s-8M/view",
+    "sha256": "f4c77a5083f8390650cb246e8c3c9e640a72d31b6e3060cef2b06a94c47292da",
+    "bytes": 74196
+  },
+  {
+    "path": "Decoration/glTF/Decoration_Fish.gltf",
+    "source": "https://drive.google.com/file/d/1aoO6xoZ63FodVIB0Ca69PVqu1f1fBTkm/view",
+    "sha256": "c6d890fc850af82f81f33d98778a82305b5645c3eba58054e00f16c02dc375c6",
+    "bytes": 74126
+  },
+  {
+    "path": "Decoration/glTF/Decoration_Bamboo.gltf",
+    "source": "https://drive.google.com/file/d/19aQ4XULLVAUGodN8YNPdv8T_tGdQJQ5P/view",
+    "sha256": "2a631ac3c8cf4ecdf46ca0e7ffb52400a2ed09285fc0af5826aab1a1487280ae",
+    "bytes": 59581
+  },
+  {
+    "path": "Decoration/glTF/Decoration_Plant2.gltf",
+    "source": "https://drive.google.com/file/d/1h3pLNvN9CuOjWTPNbPThoMLOv0phZHhv/view",
+    "sha256": "4678a6a520e12871d1eb969bc8b28575e1c36dfbb868456bbd5919ae419eb44c",
+    "bytes": 46774
+  },
+  {
+    "path": "Decoration/glTF/Decoration_Plant1.gltf",
+    "source": "https://drive.google.com/file/d/1eje6lIfGFQvTjRpnlh-bKjFKTRtv_tKJ/view",
+    "sha256": "76b80c5e997021d2b61f3014b5fe33f4a7799d2fb4b500b4f6318d6ef15b62d5",
+    "bytes": 37710
+  },
+  {
+    "path": "Decoration/glTF/Decoration_SakuraTree.gltf",
+    "source": "https://drive.google.com/file/d/1inzwmDhNOynjbkprkTn3V50RFHTEBx9S/view",
+    "sha256": "8bc64c9bd97f8e4988b9f4f40dfeab86d715ecf74876f22f3b5f76118cd41c9d",
+    "bytes": 383813
+  },
+  {
+    "path": "Food/glTF/FoodIngredient_SeaUrchin.gltf",
+    "source": "https://drive.google.com/file/d/192GYrjtIR9p1JQcmLylZVJGXTDp4Ab9Q/view",
+    "sha256": "f0cfc1ae7d01d026e4977cb312b5492bbd0831ee18509f6e18f7a440198edfb0",
+    "bytes": 22126
+  },
+  {
+    "path": "Food/glTF/FoodIngredient_Tuna.gltf",
+    "source": "https://drive.google.com/file/d/1jU1H3rcI2pJeNyozm3szEuB6AO4KELu9/view",
+    "sha256": "aec95019a8e23649488470d018d834f0fbc1cde2b8c13f535ecb9fdcc5483746",
+    "bytes": 98027
+  },
+  {
+    "path": "Food/glTF/FoodIngredient_Mackerel.gltf",
+    "source": "https://drive.google.com/file/d/1F7NRIGKtzFqy2sF1r89-7QRbsDAdGs1L/view",
+    "sha256": "ec8405fe3be764a42dc3a308a3d88fd70031197b54cbb1a8d931a5a1436d688c",
+    "bytes": 69224
+  },
+  {
+    "path": "Food/glTF/FoodIngredient_Fish.gltf",
+    "source": "https://drive.google.com/file/d/1TWZKnQbGfOXceIKJIA1f1FVuKwDuCdew/view",
+    "sha256": "87deff2fe091e0ddfb6d0059900fdc2fcb9c62efa8d0f2b00de4b520af89de30",
+    "bytes": 50338
+  },
+  {
+    "path": "Food/glTF/FoodIngredient_SalmonFish.gltf",
+    "source": "https://drive.google.com/file/d/1A1SYunGqLVWwW7MpbVlYd7glZRiaWXon/view",
+    "sha256": "54090a0094348e566eb77866833440d9a8def39a3dcaad343fe0020ee49ecb20",
+    "bytes": 53096
+  },
+  {
+    "path": "Food/glTF/FoodIngredient_Shimesaba.gltf",
+    "source": "https://drive.google.com/file/d/1RqwrorSw55_8BCegvB9PW8xYV07CR4__/view",
+    "sha256": "00887ada19ed1b76b974429725d148210f980cf48a2b7e2e17236e0b933bbe86",
+    "bytes": 306362
+  },
+  {
+    "path": "Food/glTF/FoodIngredient_SeaUrchinOpen.gltf",
+    "source": "https://drive.google.com/file/d/1tRuVOz79j3nFR_ITrXOieVbSRhSQ5NoA/view",
+    "sha256": "f57d94f9c4832a060a6314d8068338b02be9ae188f5fd972aba0465599ad1450",
+    "bytes": 22486
+  },
+  {
+    "path": "Food/glTF/FoodIngredient_Flounder.gltf",
+    "source": "https://drive.google.com/file/d/1TKXI_fQu_eQNEpVcx1tqgZHud-Ycrtnm/view",
+    "sha256": "d263ef7070bd923741491d75c68c0c8fefd815f10db98ce865a47fee03ab65e6",
+    "bytes": 137746
+  },
+  {
+    "path": "Food/glTF/FoodIngredient_Eel.gltf",
+    "source": "https://drive.google.com/file/d/13zE2dgraF38XXi7px_53pi2UN1kSbjHb/view",
+    "sha256": "a2a4ed7eb6025840645ea9b84ccb5199e68a824276fa15ab49864a1a72203eec",
+    "bytes": 86918
+  },
+  {
+    "path": "Food/glTF/FoodIngredient_Octopus.gltf",
+    "source": "https://drive.google.com/file/d/16iKp-iIE57y8fD3VDkv_wiliFXKe9tDr/view",
+    "sha256": "bfde2047eb47a5ca5e4f09ea3235b00c8691e84489b41cb7e7532d99ce0390eb",
+    "bytes": 89194
+  },
+  {
+    "path": "Food/glTF/FoodIngredient_Squid.gltf",
+    "source": "https://drive.google.com/file/d/10OvmPkUrfq9ryC7Nob62ZHvigWSY00Mx/view",
+    "sha256": "47c4135edb72ccc4d10d15a91c36eaab100c3abd2186b73e2b57947081ead46c",
+    "bytes": 83818
+  },
+  {
+    "path": "Food/glTF/FoodIngredient_FishFillet.gltf",
+    "source": "https://drive.google.com/file/d/1a06Vf8e9UV8FbgwPsbDZ26_IQ4VPaoEr/view",
+    "sha256": "35dea4016592b330eb7d80fe6448c939a5c440d30316f1ba75473e048485951b",
+    "bytes": 40361
+  },
+  {
+    "path": "Food/glTF/FoodIngredient_Rice.gltf",
+    "source": "https://drive.google.com/file/d/15MsKSQp0rAlgwcuLGJB65ui7M5yvk0ge/view",
+    "sha256": "d80316ce8c538fad8ad9e9381ee31b443e5e1919722c44bb19c2f612ba121f7f",
+    "bytes": 18845
+  },
+  {
+    "path": "Food/glTF/FoodIngredient_Nori.gltf",
+    "source": "https://drive.google.com/file/d/13bKOuYqwUbBEwuCPgLOGWJw12jst5qjF/view",
+    "sha256": "e4b9c352e7b4249e00824d5e42eb02d789aed0caa914c21b31b21d058dce1b35",
+    "bytes": 11535
+  },
+  {
+    "path": "Food/glTF/FoodIngredient_Ebi.gltf",
+    "source": "https://drive.google.com/file/d/1XsPZ22sfAzZb9IOSa-wtKLHKXqkkEB6t/view",
+    "sha256": "508b6780c2599643062cd83ac97590bf86b2f901fbb6a8942503b8e72eb974d3",
+    "bytes": 35670
+  },
+  {
+    "path": "Food/glTF/FoodIngredient_Tentacle.gltf",
+    "source": "https://drive.google.com/file/d/1vNgKJTwxHwLG1JqXqz8BJQkkCRXTw0LG/view",
+    "sha256": "9b92fc1f3f4f3293ffe60336d4404e184b56ba43eaea518cb6a8e665eb699aeb",
+    "bytes": 63323
+  },
+  {
+    "path": "Food/glTF/FoodIngredient_SlicedCucumber.gltf",
+    "source": "https://drive.google.com/file/d/1iZahRRgNdGxpKAM9-weFarPokx7g2W4V/view",
+    "sha256": "5a24b4d2e5830760203a58e043fa27aaa459b78683a143214edfe6af11f74a3d",
+    "bytes": 26190
+  },
+  {
+    "path": "Food/glTF/FoodIngredient_Salmon.gltf",
+    "source": "https://drive.google.com/file/d/1KfNLZYtl5r_vXfLVqVPvurqHppHmwlPm/view",
+    "sha256": "97a1c247fb7c32e3f79a844e4e2e015b5bec13d3d7db05c60ce7df9bf1b24e7c",
+    "bytes": 57431
+  },
+  {
+    "path": "Food/glTF/FoodIngredient_Cucumber.gltf",
+    "source": "https://drive.google.com/file/d/1nDa4HYBc4qw3pqCKKzX4W9kak47W6hlz/view",
+    "sha256": "fcca24ec548f85cdd048ce7a42fd1de083d65095da98bab0aca8ecce5c3cb5cd",
+    "bytes": 29575
+  },
+  {
+    "path": "Food/glTF/FoodIngredient_Avocado.gltf",
+    "source": "https://drive.google.com/file/d/1usuChXk6C3MO13kXJWGy3kk6kmIZN4NZ/view",
+    "sha256": "167e7801ea0d260c43c926a0e0d4980d0b2213a2fa4d1d48c7d4ef6a97bbad0c",
+    "bytes": 21628
+  },
+  {
+    "path": "Food/glTF/FoodIngredient_Crabsticks.gltf",
+    "source": "https://drive.google.com/file/d/1sNvPja9geS3KRWIwWDV9q6f3yCda3JVY/view",
+    "sha256": "413d285103e90af03ed465e2be033e074d8e7894081b458da4b75485bded281e",
+    "bytes": 32827
+  },
+  {
+    "path": "Food/glTF/Food_Gyoza.gltf",
+    "source": "https://drive.google.com/file/d/10dmdk9yioaTQReWv-ZbrgkNxW24QCc5x/view",
+    "sha256": "088d4cd9264504f54151f915379f354b85a6f08289ee2d35b288e29a9c84aa9c",
+    "bytes": 45343
+  },
+  {
+    "path": "Food/glTF/Food_Chukaman.gltf",
+    "source": "https://drive.google.com/file/d/16eqvFcsIG_xt0NI7kWc75y_JM0Zn2Z6t/view",
+    "sha256": "b386152f7ae52adbd1079bea56986d2acfbaa9240b34ac7edcc14805d240a99a",
+    "bytes": 46459
+  },
+  {
+    "path": "Food/glTF/Food_Wasabi.gltf",
+    "source": "https://drive.google.com/file/d/1XQYgvLDBWaiSkqnKuiMMrGW95hXrBLPa/view",
+    "sha256": "d60049944502f55dee81ea79a1bf9125d1d5af07595331caea8dffc1d59e1551",
+    "bytes": 18413
+  },
+  {
+    "path": "Food/glTF/Food_Onigiri.gltf",
+    "source": "https://drive.google.com/file/d/1BrhCOSBoL48AuCCk1Emr-Ew_OJhDGKFi/view",
+    "sha256": "92d81f2bea3fd4303381ba9cb3aededd1885fae0570b49f5a09a8199c00ee39a",
+    "bytes": 25373
+  },
+  {
+    "path": "Food/glTF/Food_OctopusNigiri.gltf",
+    "source": "https://drive.google.com/file/d/1sfi4UVD_G8KWpmh4cQy_XQl2i7CXMHIA/view",
+    "sha256": "d9709458b86779370468f762ab46f583e6b3b305a6795df47969edd04ea6198b",
+    "bytes": 71222
+  },
+  {
+    "path": "Food/glTF/Food_EbiNigiri.gltf",
+    "source": "https://drive.google.com/file/d/1ai27Y0panYzsXATj4lhIhknwGbwRE3-O/view",
+    "sha256": "c21d91f69c8810e7493fc47e504d0c171179fba49e0817d9db02e91958158709",
+    "bytes": 44623
+  },
+  {
+    "path": "Food/glTF/Food_SalmonNigiri.gltf",
+    "source": "https://drive.google.com/file/d/1eA6gflW8jukl6y0LlwswuLBVYLv7m9PG/view",
+    "sha256": "6388f1cee4a3fac75b441c41faa77c471a6c0b52ab9ad820ce8e9243237dcb2f",
+    "bytes": 38083
+  },
+  {
+    "path": "Food/glTF/Food_MaguroNigiri.gltf",
+    "source": "https://drive.google.com/file/d/1xg5hjQxXWnc72gEFJJa54ZxF5WZ-FJ5u/view",
+    "sha256": "fd221646e03cd9dfd06db00778a286e07cfd13e57dcccef82d83d8a3e0e38ecd",
+    "bytes": 18171
+  },
+  {
+    "path": "Food/glTF/Food_TamagoNigiri.gltf",
+    "source": "https://drive.google.com/file/d/15DCnFuxkPBHFFmEy5_koIcSjK3EYXZMD/view",
+    "sha256": "80c8bce7a1ecc291672d204de109156469be0427f7130b7a2d7e2ba3526aa8f2",
+    "bytes": 25499
+  },
+  {
+    "path": "Food/glTF/Food_SeaUrchinRoll.gltf",
+    "source": "https://drive.google.com/file/d/1PrlhuWNIYUEQeY07mcCnpnksx_GrTCc0/view",
+    "sha256": "eaa893208ac96b9c7d6c8c58146bc671a3db6e6ca05e77b130657e46b46f65e9",
+    "bytes": 70173
+  },
+  {
+    "path": "Food/glTF/Food_Roll.gltf",
+    "source": "https://drive.google.com/file/d/1ED1ESumYXBF5THyKJJPFIDVfzb3YNl2b/view",
+    "sha256": "9fc1ceb85f31d3780891dbe8fa775c505ec650b49f81e41db13d3c1bad598efa",
+    "bytes": 20128
+  },
+  {
+    "path": "Food/glTF/Food_SalmonRoll.gltf",
+    "source": "https://drive.google.com/file/d/1qlpHA49lRbFeC6Np6DK_3WNS4lOkhXXT/view",
+    "sha256": "ae16398ed2e3035492a529b43f140c69254c072bb8153a36c6b351bb85f034f2",
+    "bytes": 47953
+  },
+  {
+    "path": "Food/glTF/Food_Dango.gltf",
+    "source": "https://drive.google.com/file/d/1hPUTVxSJKHjp6LVDkj3_8e8GsaWZFS9o/view",
+    "sha256": "16a72030f24548f797eb5715ef44991aeccf80ad614df194e97b37d2e213ab61",
+    "bytes": 65392
+  },
+  {
+    "path": "Food/glTF/Food_Ramen.gltf",
+    "source": "https://drive.google.com/file/d/1OaCs0PMnI2OuVmkw8N04VPTsSLUDKOCb/view",
+    "sha256": "ca52890827734aab5e5cea2c090dc465f6be9ccff336eaa1e99353a3c806977e",
+    "bytes": 264211
+  },
+  {
+    "path": "Food/glTF/Food_Udon.gltf",
+    "source": "https://drive.google.com/file/d/1w6W2RORLQufkZUSEZv37JEn67alfuKzw/view",
+    "sha256": "3494605da05cccfb103cf1cebc2845783ee972e94008cab03b2dfdf680c91a69",
+    "bytes": 210504
+  },
+  {
+    "path": "Environment/glTF/Wall_Door.gltf",
+    "source": "https://drive.google.com/file/d/166YlHE2YU_GNFkBoPbliCgEd2paJybG3/view",
+    "sha256": "d2174fa5e7074f447110967ab19185d932d793f1cd8a6fdb4565c36da86b9f87",
+    "bytes": 30019
+  },
+  {
+    "path": "Environment/glTF/Environment_Chair2.gltf",
+    "source": "https://drive.google.com/file/d/1ajoiCzO9RNifVwT_gHJSwCdgOxiOnXVV/view",
+    "sha256": "704924889066bb3dd67623cdf2a94f3fa7d6fb651a5d620e5b4fc70e479fd5b9",
+    "bytes": 37398
+  },
+  {
+    "path": "Environment/glTF/Environment_Chair1.gltf",
+    "source": "https://drive.google.com/file/d/1lJoaUhEnR8vS-UPckN7doIuTUmexFK5W/view",
+    "sha256": "c873ab2f2c531f120bb5eb8eb075b702e4cc92c6b67ee15b8f90fb42d2d583ef",
+    "bytes": 26264
+  },
+  {
+    "path": "Environment/glTF/Environment_Stool.gltf",
+    "source": "https://drive.google.com/file/d/1yrV9WiinyEkzWS4o7sVur-unFBgsoPvt/view",
+    "sha256": "3ba32619cc6ed2b1063cbbf41d19bc5a02f66e46c45058cca3e4639320820678",
+    "bytes": 27845
+  },
+  {
+    "path": "Environment/glTF/Environment_WoodenBeam.gltf",
+    "source": "https://drive.google.com/file/d/1y3UQwHZ6_VJ1q2ASKaBNCiOxcd2KwCal/view",
+    "sha256": "a3cc5c0bebb204d03850827bf24d1e93700dc0c84eaa3d3629215014f57fcd0c",
+    "bytes": 8091
+  },
+  {
+    "path": "Environment/glTF/Environment_Bench.gltf",
+    "source": "https://drive.google.com/file/d/16MXnXJIJUXrPQFNwjlZV8PKemAlDWJqX/view",
+    "sha256": "dbc70610817ee7265de1cb13994d4c0f74d3a1e3413ce4d97fd4d9c396aa7e7d",
+    "bytes": 28339
+  },
+  {
+    "path": "Environment/glTF/Environment_Table.gltf",
+    "source": "https://drive.google.com/file/d/1JKqfGCnkDtSz2km2cpYdiE0y56WCWDqP/view",
+    "sha256": "cb019180c08896c8dddf59afd1a6705ec3154d194b44183eb7e44c1412fea34e",
+    "bytes": 28338
+  },
+  {
+    "path": "Environment/glTF/Floor_Wood_Broken.gltf",
+    "source": "https://drive.google.com/file/d/1aq4e7WDW6AXFQ82f9FDoqK9ZoiCcsvVX/view",
+    "sha256": "a6a032601924d84b5d63bf133970907c79568185dfe1474e1e5f3c8dc54ec146",
+    "bytes": 35016
+  },
+  {
+    "path": "Environment/glTF/Floor_Wood.gltf",
+    "source": "https://drive.google.com/file/d/1jj462iZQJA5lNQGdb4R8CraOps4cw4yz/view",
+    "sha256": "ead2e4ceb4aa7ea7efd30cfad7424549aa502c565d4503f7e87a4b9a4cc2d695",
+    "bytes": 30252
+  },
+  {
+    "path": "Environment/glTF/Floor_Kitchen2.gltf",
+    "source": "https://drive.google.com/file/d/19s3OydEN8T4Dxj-K27gOxk9Q5GNJ451u/view",
+    "sha256": "acf1d874936fa49b2f9a0921a5e525ee9cc94d8540ea898e8d378895f312ffb1",
+    "bytes": 15175
+  },
+  {
+    "path": "Environment/glTF/Floor_Kitchen1.gltf",
+    "source": "https://drive.google.com/file/d/1nzH-IkH5O9Mm2t5G7Z3TWk3zpwTJBbCt/view",
+    "sha256": "d5bb662524bc53579448968030e7f6cb5a180557021320a93ed290cb804a1780",
+    "bytes": 16031
+  },
+  {
+    "path": "Environment/glTF/Floor_Tiles.gltf",
+    "source": "https://drive.google.com/file/d/1IQKqnLfM4cd3GBSkxL9kD7EKkI0DR0-j/view",
+    "sha256": "96f5853f6eeaa3f575608ecb15b24f381a1cc0ea1a5f2adcbbb8aa60f995fa30",
+    "bytes": 49090
+  },
+  {
+    "path": "Environment/glTF/Environment_Sofa.gltf",
+    "source": "https://drive.google.com/file/d/1mn5CSBXViuOgFhuDI1muRMMa-33sg6yv/view",
+    "sha256": "b0aada579c9c307c0ec4389af9b541d7c4f0733530a022ab750761c4dc87d3a1",
+    "bytes": 23181
+  },
+  {
+    "path": "Environment/glTF/Wall_RedWood.gltf",
+    "source": "https://drive.google.com/file/d/1aZ4JE264BEjFZmx9yMxPjdLSqm-X0K_p/view",
+    "sha256": "3dfbbd432e4b3bf4193c0a1f8affaa4c53e321ee28abe3948fe931bd5358e9d2",
+    "bytes": 47402
+  },
+  {
+    "path": "Environment/glTF/Environment_ToriiGate.gltf",
+    "source": "https://drive.google.com/file/d/1VvNw1cpTb2Kce3mW4QGR7cC8r8uf6Cl2/view",
+    "sha256": "58c2ba9cc71a95c58f4db827b40a6c87acf423d7ddc8d41fb4e29511fad69f57",
+    "bytes": 22198
+  },
+  {
+    "path": "Environment/glTF/Wall_Shoji.gltf",
+    "source": "https://drive.google.com/file/d/19fn8W-6ThgAWT5rrxpbB9sV4xLs7DZbg/view",
+    "sha256": "330ae2f8030a9ce1233713c0a8dc312b80b08cf8cad72e576abc5b7f60550ddc",
+    "bytes": 41183
+  },
+  {
+    "path": "Environment/glTF/Wall_Shelves.gltf",
+    "source": "https://drive.google.com/file/d/1j-bzM0P3Mx1TyRq4Kplmd7jwnncMzR6_/view",
+    "sha256": "e85ffd0a08f781960e45f0299c29feaccc3fa06a113531a409c86058f38f77f0",
+    "bytes": 39441
+  },
+  {
+    "path": "Environment/glTF/Wall_Shoji_Interior.gltf",
+    "source": "https://drive.google.com/file/d/1a2A1Z9BNY-oJQ0_8dmsW51WKVifeEzHA/view",
+    "sha256": "2a1539a03a55482d1276b4d9ed26b800d134b946a61de0c62c4b836495b29963",
+    "bytes": 20165
+  },
+  {
+    "path": "Environment/glTF/Wall_Stains.gltf",
+    "source": "https://drive.google.com/file/d/1PPim18N0O0f7aDOwvNe78GpzzI36d9_D/view",
+    "sha256": "e9690a12b6df4a5d41c1aedf337d3bc8fbd96879558f1af486ce597561b70e23",
+    "bytes": 38488
+  },
+  {
+    "path": "Environment/glTF/Wall_Normal.gltf",
+    "source": "https://drive.google.com/file/d/1ZdVMyUbMRZ4Dg0rg-ySQQSmpqXVCftnv/view",
+    "sha256": "20617e461c812c8f34841bd73d1e77e39ae4031613b846517efc8b9ff1187fd3",
+    "bytes": 31856
+  },
+  {
+    "path": "Environment/glTF/Environment_Bottle.gltf",
+    "source": "https://drive.google.com/file/d/1IQZRWZcn0l4A5qEMqMJPsrtbUUOXkb83/view",
+    "sha256": "8b19e4cd5a4703093b8877d9219ba7c090078ebc72bf051c2814eeca762ed634",
+    "bytes": 17291
+  },
+  {
+    "path": "Environment/glTF/Environment_Bottles.gltf",
+    "source": "https://drive.google.com/file/d/1uGW-P4_uTzETamsS5H8pSfO-oP43tFtI/view",
+    "sha256": "062c4a2282f3d86147eb98fa3f59be33a9b25ef2e50c5f4576ae7f08473347de",
+    "bytes": 90754
+  },
+  {
+    "path": "Environment/glTF/Environment_Fridge.gltf",
+    "source": "https://drive.google.com/file/d/1Ju9wp0rjCBhlhXkv17jwRRauk1INlVTq/view",
+    "sha256": "86838afce21b10b657ce2b224c1f02e8197e99ff1ce167ed2a7edc5954260e64",
+    "bytes": 77387
+  },
+  {
+    "path": "Environment/glTF/Environment_CanFridge.gltf",
+    "source": "https://drive.google.com/file/d/1GCooorEV7qGxpIgz2RArkTgSX_PWcUzQ/view",
+    "sha256": "902008312369dd810cda148a2da6086b0198490b12d5aef0753abd48f2867eaf",
+    "bytes": 179163
+  },
+  {
+    "path": "Environment/glTF/Environment_KitchenKnives.gltf",
+    "source": "https://drive.google.com/file/d/1WvaT-Ges_ooFDFUksPI6PaML6Io5n59m/view",
+    "sha256": "f7670ee6926c3e8d0905624ed44cc79e168c0130b5e723e06f19827499ed752c",
+    "bytes": 50395
+  },
+  {
+    "path": "Environment/glTF/Environment_Oven.gltf",
+    "source": "https://drive.google.com/file/d/1CIYWByHVOkGSXtx2VPlDLrwSW5ok-zVm/view",
+    "sha256": "d05162fdd6c67cd2556d1c71610b8410abcaa9ec8de6c6c0c853b8b965b456e3",
+    "bytes": 114068
+  },
+  {
+    "path": "Environment/glTF/Environment_Arch.gltf",
+    "source": "https://drive.google.com/file/d/1rJWVwKVrp-oqsQxXInAj1HFMLFSS8548/view",
+    "sha256": "bedc2e2337d22b1e31c39c17c3797503f4dd3489fbc1ad44c2d111377555bdf8",
+    "bytes": 15337
+  },
+  {
+    "path": "Environment/glTF/Environment_Pot_1_Empty.gltf",
+    "source": "https://drive.google.com/file/d/1PxDeuYNbq978CehkRYN6TQgfDtRlGiXn/view",
+    "sha256": "e99df31722a7c1b427efd83a98edb96e66e4ebdd9ef710a3e0867d083c4c450f",
+    "bytes": 44127
+  },
+  {
+    "path": "Environment/glTF/Environment_Pot_1_Filled.gltf",
+    "source": "https://drive.google.com/file/d/1Sn4426fPS35nOnp5RBBNzrssw1jep5l_/view",
+    "sha256": "afd261445549e810c08760b78e3d367beecbe9ad73b99be675839643c3d2b61c",
+    "bytes": 44128
+  },
+  {
+    "path": "Environment/glTF/Environment_Pot_2_Filled.gltf",
+    "source": "https://drive.google.com/file/d/1qS9bM1CGvSCWkKk5zWNJ-SJvXhMka1_z/view",
+    "sha256": "eaf2465b2a05730705496c9d743044e3a1956603d5bde61ae25b759047952453",
+    "bytes": 44149
+  },
+  {
+    "path": "Environment/glTF/Environment_Pot_2_Empty.gltf",
+    "source": "https://drive.google.com/file/d/1ptyCgdB3QkIdV-n65erYlNvtXWxam4Rj/view",
+    "sha256": "64b78418b7bea9ca3230b43500f61c7d985a6adc8f042d75f99c7cba70bef5d6",
+    "bytes": 44147
+  },
+  {
+    "path": "Environment/glTF/Environment_Pan.gltf",
+    "source": "https://drive.google.com/file/d/1d1ACBMSdYHvcsn0iUCIXoHJuO68hJWUN/view",
+    "sha256": "2f2c5076b8a7d79ee6f588d82245141df0e2b77668612d5998c34ce4b982f5b1",
+    "bytes": 27843
+  },
+  {
+    "path": "Environment/glTF/Environment_Plate.gltf",
+    "source": "https://drive.google.com/file/d/1vdueOrd13FXM9BLruOVO0cVWbfiQ8yTh/view",
+    "sha256": "c6312f273f2199331021ebdfda2fe47ca117ae029821c3f0582293f9aba48e2b",
+    "bytes": 20240
+  },
+  {
+    "path": "Environment/glTF/Environment_Bowl.gltf",
+    "source": "https://drive.google.com/file/d/12fjY9dXi8_JuUudedKacl0gDvAksiRTA/view",
+    "sha256": "a179351e4ee67c64306453dc9ce704a2ae56daf85e0e14ef22e21705983ae539",
+    "bytes": 26148
+  },
+  {
+    "path": "Environment/glTF/Environment_WoodenBoard.gltf",
+    "source": "https://drive.google.com/file/d/1YTw4DENNIZHVUZLa9G-Gm9JzrgOj2suU/view",
+    "sha256": "f220ad972cff3cd2e5b0456aefbf8518f2d54ec50dc6b0047c3fcd4667a894a9",
+    "bytes": 11971
+  },
+  {
+    "path": "Environment/glTF/Environment_CuttingTable.gltf",
+    "source": "https://drive.google.com/file/d/1_ImLoIpH_lfumv2FPglfUFz-i3Vqkyne/view",
+    "sha256": "05ff68ed865e833bccca4764ed8f342804ad24bb0c32a67341c5e5f3e56f0e56",
+    "bytes": 36311
+  },
+  {
+    "path": "Environment/glTF/Environment_Cabinet_Corner.gltf",
+    "source": "https://drive.google.com/file/d/1-i1GMs_nihiolk2eHfO9C6q3B5Yx_nM6/view",
+    "sha256": "607057e9ae3120d48967540355d9a9d33fd0b9150dedc55e0930947c04939740",
+    "bytes": 12769
+  },
+  {
+    "path": "Environment/glTF/Environment_Cabinet_Shelves.gltf",
+    "source": "https://drive.google.com/file/d/1pyR-qTq9qmh7_OWslZ4_F-JS-fcw1J2b/view",
+    "sha256": "5e51dec760851c42a07696110f878548a710484e3ac90edc92d2fab7c3806243",
+    "bytes": 21969
+  },
+  {
+    "path": "Environment/glTF/Environment_Cabinet_Doors.gltf",
+    "source": "https://drive.google.com/file/d/19wlvxdnpQkOBusd9KAWJhIWPfV4QGFku/view",
+    "sha256": "784880a6789a670d480d83c907977807af9fba5eaaa8cd33f6462fec395ab535",
+    "bytes": 67363
+  },
+  {
+    "path": "Environment/glTF/Environment_Cabinet_Shelves_2.gltf",
+    "source": "https://drive.google.com/file/d/1XkL2HwObVZ7nE9YgDl5JXLifB4qQUepL/view",
+    "sha256": "5cfe91fc42746e3624e1ca7c908ab1a0e89a27405c72c4b693f9631176e3d816",
+    "bytes": 26836
+  },
+  {
+    "path": "Environment/glTF/Environment_Counter_Sink.gltf",
+    "source": "https://drive.google.com/file/d/19Pi-59bfiy6uIK52Eo4NtW2rNyivDsRL/view",
+    "sha256": "58d779cd427fab3013b93e18f433e0705a024bc8ea0a6127a42079acd406060e",
+    "bytes": 66007
+  },
+  {
+    "path": "Environment/glTF/Environment_Counter_Drawers.gltf",
+    "source": "https://drive.google.com/file/d/17Qw2oS_mfwJW9a2f11NDJAD9TJ1JxxUX/view",
+    "sha256": "16ad56848e38b877719cfd02fab8ff05a6a67ab56ace1e6a158463a1ebddc5f6",
+    "bytes": 60966
+  },
+  {
+    "path": "Environment/glTF/Environment_Counter_Doors.gltf",
+    "source": "https://drive.google.com/file/d/1GdrwQ5lCyh5iYkU2m0Q5V077wgilDez8/view",
+    "sha256": "9f623cfbf2a1f2bc2a3d632f03a55024d7af1af6697e8e8f513b8edd961602c3",
+    "bytes": 60964
+  },
+  {
+    "path": "Environment/glTF/Environment_Counter_Straight.gltf",
+    "source": "https://drive.google.com/file/d/1pkzmq6iDRUb3jREwAGxzNhavyEdB_7Sv/view",
+    "sha256": "2473d293db358c6f798cb699db8e8ae22e875d74b408f82e5d86338ea3d356f2",
+    "bytes": 46704
+  },
+  {
+    "path": "Environment/glTF/Environment_Counter_Corner.gltf",
+    "source": "https://drive.google.com/file/d/1vxAgnen1ywQvQ0vy0NZbYHSgKEML0ehE/view",
+    "sha256": "4b6ca2460c4e691d2355faece7a197a17e5e4a20626730e597b50e4a1c7df4c4",
+    "bytes": 51737
+  },
+  {
+    "path": "Environment/glTF/Environment_Counter_Door.gltf",
+    "source": "https://drive.google.com/file/d/1_dN83V9CFuoQ1yp49f7q883PuTMkdmnl/view",
+    "sha256": "26ca197173d305cd5a40d5341de0ab76e963af45032887596787278198d98377",
+    "bytes": 32986
+  },
+  {
+    "path": "Environment/glTF/Environment_Counter_Straight_2.gltf",
+    "source": "https://drive.google.com/file/d/1PN8r4dafe9RupaRgv2MRFv84f6Iz0pMS/view",
+    "sha256": "3d689693a1d33c9ede9744f3a572da480a65febf892c0a834e81cffc14856da7",
+    "bytes": 62909
+  },
+  {
+    "path": "Environment/glTF/Environment_Counter_End.gltf",
+    "source": "https://drive.google.com/file/d/1BxGiWSn-DEHAoxDL5zHcWucDO3rRQdST/view",
+    "sha256": "799dca540a9f5f7f247773606ba9ca6b0a8126587911bc0f82d7502fffa00526",
+    "bytes": 30158
+  },
+  {
+    "path": "Environment/glTF/Environment_ChukamanSteamer.gltf",
+    "source": "https://drive.google.com/file/d/1fuWpqo_MnCx7RyZxq2mgUiHlLa7nP-XE/view",
+    "sha256": "8b862441726942fe036557db9b6941fc39701dd627339ad65e0e2571fae073b8",
+    "bytes": 348734
+  },
+  {
+    "path": "Environment/glTF/Truck.gltf",
+    "source": "https://drive.google.com/file/d/10egEwg4DUj8R6D4isUrBjhtBYCjlbIHD/view",
+    "sha256": "8dc99dca1717f4e29af3c5d4762585d95798b037b50ccde258a49bf7980ac910",
+    "bytes": 739215
+  },
+  {
+    "path": "Characters/Normal/glTF/Rabbit_Purple.gltf",
+    "source": "https://drive.google.com/file/d/1iFT9Z1i8SBIO-zLsAv8jyprt-SaxswPM/view",
+    "sha256": "fc994bca4ffd7a1f229618f38d3f578ea25753845f2fccc17db18c74bde6740a",
+    "bytes": 2403436
+  },
+  {
+    "path": "Characters/Normal/glTF/Rabbit_Pink.gltf",
+    "source": "https://drive.google.com/file/d/1-vL6s96D4x3AQAQZz22kDeiz9cKqqNFW/view",
+    "sha256": "a04077a74134db4bac82d8e3001002f459846d691fa17e31aeec010b967f7577",
+    "bytes": 2372290
+  },
+  {
+    "path": "Characters/Normal/glTF/Rabbit_Grey.gltf",
+    "source": "https://drive.google.com/file/d/1YiYspetcIA5tBgnLEUIX0oVuopmwqDlu/view",
+    "sha256": "236a5ec62a35a5aad58e04305d003f0be6e734aa1909a2768225674682a6a478",
+    "bytes": 2440655
+  },
+  {
+    "path": "Characters/Normal/glTF/Rabbit_Green.gltf",
+    "source": "https://drive.google.com/file/d/15dZ3EYryEY02DPZav__ICvpD5axb0ZvT/view",
+    "sha256": "b07166cfafce62043d643afb476bea45eff0c85bba9015e64c5ef09745a230ef",
+    "bytes": 2456988
+  },
+  {
+    "path": "Characters/Normal/glTF/Rabbit_Cyan.gltf",
+    "source": "https://drive.google.com/file/d/1mwl92DK3T7MAGKD56IK6S6shpZZ2TqGl/view",
+    "sha256": "0e63813daf3e992a7bfde5264ab7f7b9e77caf8c4d94200d55b28435374702e8",
+    "bytes": 2257032
+  },
+  {
+    "path": "Characters/Normal/glTF/Rabbit_Blond.gltf",
+    "source": "https://drive.google.com/file/d/19JP-PwLN1cGo2JKNn4Gy4BiGBZrn9pDk/view",
+    "sha256": "c1b8f798c1bde42c91f3bc8e9ad566c79533193e393d3e683265280969956c0c",
+    "bytes": 2468506
+  },
+  {
+    "path": "Characters/Normal/glTF/Rabbit_Bald.gltf",
+    "source": "https://drive.google.com/file/d/1wQjcVrhRNS8swyiwmZo4mfksRSUP7eSL/view",
+    "sha256": "f03891a9cb381c1842d78a11d9188f5b856169e36e983ffd7bc32a86c7849b55",
+    "bytes": 2217852
+  },
+  {
+    "path": "Characters/Normal/glTF/Panda.gltf",
+    "source": "https://drive.google.com/file/d/1rPckcgm57066BWMn-tQqX7CcTNPcqsA-/view",
+    "sha256": "82544401968336efd3153e860a0f348fee869b7e79f8591b9a776ada18177519",
+    "bytes": 2240036
+  },
+  {
+    "path": "Characters/With Knife and Pan/glTF/Rabbit_Purple.gltf",
+    "source": "https://drive.google.com/file/d/1ersZhvQ3omzR8c-KLS-93lEbLDug2xeJ/view",
+    "sha256": "d51017b385e393596b4da9187ce6c8c055d33f050008789a474aafe67c29cd08",
+    "bytes": 2464993
+  },
+  {
+    "path": "Characters/With Knife and Pan/glTF/Rabbit_Pink.gltf",
+    "source": "https://drive.google.com/file/d/1QoHFM6MXkZbyJ6ZXyOMIHLbyNVyaSWC-/view",
+    "sha256": "5defde379c4c172a7bb03ceceaa9fbf566506d5ee9c31a6183871db75a4fcd63",
+    "bytes": 582532
+  },
+  {
+    "path": "Characters/With Knife and Pan/glTF/Rabbit_Grey.gltf",
+    "source": "https://drive.google.com/file/d/1-N4QWiFcdw5LcYAQQLV-G23pnAkvFVn1/view",
+    "sha256": "d1603c55cd23c101bffbe5669864ffcb100e6f994be0ccdd82e51d7f0c67aa11",
+    "bytes": 2502212
+  },
+  {
+    "path": "Characters/With Knife and Pan/glTF/Rabbit_Bald.gltf",
+    "source": "https://drive.google.com/file/d/1uQCeElaHZ68W_zXGKDDDzx4Dl3ILQTJG/view",
+    "sha256": "57657aa50bb31026a601f5ff20d917cc5bd5efbc5a2f6bffb8f9ee0666739cf8",
+    "bytes": 2279399
+  },
+  {
+    "path": "Characters/With Knife and Pan/glTF/Rabbit_Blond.gltf",
+    "source": "https://drive.google.com/file/d/1EV2hyinPHIYqmvn1haVmLi6a-T8c8BCo/view",
+    "sha256": "5bbc73ceac8e29787654951faba15b60e988e506224ad0620d8abe387cf8c887",
+    "bytes": 2530063
+  },
+  {
+    "path": "Characters/With Knife and Pan/glTF/Rabbit_Cyan.gltf",
+    "source": "https://drive.google.com/file/d/1HE6QXcKvWfysnmhC7UW-lCpT-arNUSEE/view",
+    "sha256": "f747000d8df9a05b9007a4412e5e58830853da0424dc16307f7baeda95a0cbfc",
+    "bytes": 2318585
+  },
+  {
+    "path": "Characters/With Knife and Pan/glTF/Rabbit_Green.gltf",
+    "source": "https://drive.google.com/file/d/1bHfpVDJckL0a6-8dKYYECQXpfCt_ZziJ/view",
+    "sha256": "ba7f57d39203eee89ae6683a95a078997c26520287244b879498ed48edce410c",
+    "bytes": 667056
+  },
+  {
+    "path": "Characters/With Knife and Pan/glTF/Panda.gltf",
+    "source": "https://drive.google.com/file/d/1o4g1AbRwnHsX8SdlwjaAYUfARXapjTkX/view",
+    "sha256": "5435611ac6943bc15e84df75d22171da279c3fdc6fd762f7cf5475ba1faaf964",
+    "bytes": 2301722
+  },
+  {
+    "path": "Preview.jpg",
+    "source": "https://drive.google.com/file/d/1wcLpa5eze2i9T1e3A5WVtClxVgDnfh0c/view",
+    "sha256": "c070ce96adb6206b81968ed2a88def55d907127aec5dc660dc04fe1b9d34ea25",
+    "bytes": 306677
+  },
+  {
+    "path": "Sushi_Atlas_Help.png",
+    "source": "https://drive.google.com/file/d/1TreFSYpZMYHDX9KXQFM1RXqSUU_n3rvn/view",
+    "sha256": "996eec7642ba53d16e9be114aae1cc00465a8db8359faf39a417ce4aac92f16d",
+    "bytes": 23543
+  },
+  {
+    "path": "Sushi_Atlas.png",
+    "source": "https://drive.google.com/file/d/1T-3NXwFHvAaMTiNcsXDd8kgHDX3WVh7K/view",
+    "sha256": "62118ccee997298c33fcaf2d301ae82bdccdbc5a9c8f0e2719b7ad32032793df",
+    "bytes": 2933
+  }
+]

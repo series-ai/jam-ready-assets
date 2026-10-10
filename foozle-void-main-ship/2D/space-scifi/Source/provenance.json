@@ -1,0 +1,16 @@
+{
+  "source": "https://foozlecc.itch.io/void-main-ship",
+  "license": "CC0-1.0",
+  "checkedAt": "2026-10-10",
+  "listingImage": {
+    "url": "https://img.itch.zone/aW1nLzk4MjA2MDIucG5n/original/rUks2x.png",
+    "sha256": "341c81b636f894e4c25358c7199a8e20e01c8631d2a2909b73a6421cfe3edc36"
+  },
+  "downloads": [
+    {
+      "filename": "Foozle_2DS0011_Void_MainShip.zip",
+      "sha256": "eb0fd960cb7e31c3a58b111d2cbf1de97508b86891913a57c22fdb173cc6a4ca",
+      "bytes": 106513
+    }
+  ]
+}

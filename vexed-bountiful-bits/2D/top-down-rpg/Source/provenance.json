@@ -1,0 +1,16 @@
+{
+  "source": "https://v3x3d.itch.io/bountiful-bits",
+  "license": "CC0-1.0",
+  "checkedAt": "2026-10-10",
+  "listingImage": {
+    "url": "https://img.itch.zone/aW1nLzMyMzY1NzUucG5n/original/IyN1zJ.png",
+    "sha256": "1c9b12fd0d54baa591e9636a60fae8903d32c9f0eb5ff438230cfaa1193b8e49"
+  },
+  "downloads": [
+    {
+      "filename": "Bountiful-Bits-v3.2.zip",
+      "sha256": "39d76f7035b8777f7f86aad0edd38d535c99d3305d37aa572b5dbd910d619cd2",
+      "bytes": 153475
+    }
+  ]
+}

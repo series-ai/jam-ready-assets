@@ -1,0 +1,37 @@
+Hello
+
+If you have problems with some areas like where double faces render is needed, you can always render both faces, disabling backface culling
+
+
+FOR FBX USERS : 
+Metallic, Roughness, Alpha may NOT WORK properly, 
+you may need to re-plug the maps or ADJUST the value.
+
+
+FOR UNITY USERS : 
+If material have alpha : you'll need to enable alpha cliping in the material inspector's tab if there's alpha texture 
+or if old rendering pipeline : change opaque to something :)
+and you guys are also FBX USERS so you'll need to replug the materials if needed
+
+FOR GLTF GLB USERS: 
+nothing to do, should work fine :) maybe adjust roughness and metallic value when there's not texture map for them.
+For GLTF: If the asset folder is not really clean, try to sort by type to make it clean.
+
+
+UNREAL ENGINE :
+If you are using UNREAL ENGINE please USE GLB,GLTF so you don't have to setup all the materials, 
+but if you persist to use fbx files, then when importing, CHECK FLIPPED -Y FOR NORMAL MAP option.
+If you want to import the model without having all the parts separated, just check the option when importing.
+
+
+If you think my work is usefull, conside donate a little cup of coffee on my itch.io page
+that would help me a lot to make more FREE assets
+
+//License is cc0, so you can do whatever you want with it, without any restrictions, credit is not required but always apreciated ! 
+
+https://styloo.itch.io/
+
+:)
+
+if you have any questions: 
+https://discord.gg/4PENNKE6yN
