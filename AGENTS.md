@@ -114,6 +114,31 @@ manifest, with id `<pack>/<bucket>[/<theme>]`.
 - **Update [`README.md`](README.md)** credits + theme lists when you add a new creator or theme.
 - **Don't reference other game engines/platforms** in docs - this library is framed for the RUN platform.
 
+## Choose pack thumbnails from the original listing
+
+For every new or updated pack, open its original creator or storefront listing and
+use the creator's cover image or a representative gallery screenshot for `preview.webp`.
+Prefer an assembled scene or a clear view of the finished assets that shows the pack's
+style and contents at catalog-card size. Check that the image represents the included
+edition and files. A packed atlas, raw spritesheet or contact sheet is a fallback only
+when the listing provides no suitable cover or gallery image.
+
+1. Inspect the listing's cover and gallery before selecting artwork from the download.
+   Confirm the selected image is covered by the pack's accepted licence; record any
+   separate permission in the repository when needed.
+2. Preserve the original downloaded image under the pack leaf's `Source/` directory.
+   Record `sourceUrl` (listing), `imageUrl` (full-size artwork), `sourcePath`,
+   `sourceSha256`, `licenseEvidence` and a factual description in `preview-sources.json`.
+   If no suitable listing image is available, record the reason in that description
+   and select the clearest permitted original artwork. Never silently default to an atlas.
+3. Generate the static WebP using `npm run previews:generate`: preserve the image's
+   composition and aspect ratio, with a maximum dimension of 512 pixels and 100 KiB.
+   Keep preview-only source files under `Source/`; `preview.webp` remains non-runtime.
+4. Inspect the generated image at catalog-card size for readability, recognizable art
+   and faithful representation. Run `npm run previews:check` and build the manifest
+   to confirm its `previewOid` matches the selected derivative. Thumbnail-only changes
+   must preserve runtime files and pack versions.
+
 ## Keep animation assets usable together
 
 An individual selection is one complete, independently usable image. A spritesheet
