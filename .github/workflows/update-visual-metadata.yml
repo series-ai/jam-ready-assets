@@ -43,10 +43,11 @@ jobs:
         shell: bash
         run: |
           mkdir -p "$RUNNER_TEMP/visual-resume"
+          git lfs fetch origin "$(git rev-parse HEAD)" --include='metadata/thumbnails/*.tar' --exclude=''
           if git ls-remote --exit-code --heads origin "$METADATA_BRANCH" >/dev/null 2>&1; then
             git fetch --no-tags origin "$METADATA_BRANCH"
             git rev-parse FETCH_HEAD > "$RUNNER_TEMP/visual-branch-head"
-            git lfs fetch origin "$METADATA_BRANCH" --include='metadata/thumbnails/*.tar' --exclude=''
+            git lfs fetch origin "$(cat "$RUNNER_TEMP/visual-branch-head")" --include='metadata/thumbnails/*.tar' --exclude=''
             git archive FETCH_HEAD metadata | tar -x -C "$RUNNER_TEMP/visual-resume"
           fi
       - name: Generate missing visual metadata
