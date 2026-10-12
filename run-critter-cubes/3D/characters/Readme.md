@@ -2,12 +2,17 @@
 
 Original assets for RUN. Keep License.txt with redistributed files.
 
-Every model is an animated GLB: rigid parts on a node hierarchy with TRS clips
-(no skinning), flat-colour materials, no textures. Units: one die is 2 x 2 x 2.
-+Y is up and the front faces +Z. Everything in Critter Cubes shares one 2-unit
-grid, so animals, dice, terrain cubes and puzzle pieces stack and line up:
-`3D/characters` (the animals), `3D/prototype-blocks` (dice and terrain cubes)
-and `3D/platformer` (puzzle pieces).
+Every model is an animated, meshopt-compressed GLB (load it with the meshopt
+decoder; see "Using them in a game"): rigid parts on a node hierarchy with
+TRS clips (no skinning), flat colour, no textures. A part in several colours
+carries them as vertex colours (`COLOR_0`) on one shared `colors` material,
+so each node is one draw call; single-colour parts keep their own material.
+Units: one die is 2 x 2 x 2. +Y is up and the front faces +Z. Everything in
+Critter Cubes shares one 2-unit grid, so animals, dice, terrain cubes and
+puzzle pieces stack and line up: `3D/characters` (the animals),
+`3D/prototype-blocks` (dice and terrain cubes) and `3D/platformer` (puzzle
+pieces). For loading, draw calls and shadows on phones, read "Using them in
+a game" at the end.
 
 ## Animals (47)
 
@@ -73,7 +78,107 @@ The face is made of nodes under `body`: `eye_l`/`eye_r` (open eyes),
 to 1 to show it. The clips key these into expressions (neutral, playful,
 surprised, scared, happy, excited, oof, dizzy, sleepy, sad); a game can also
 set them directly. Birds have no mouth nodes.
+A part scaled to 0.001 is invisible but still drawn: hide it each frame
+(see "Using them in a game").
+A clip carries only the parts it moves; three.js's mixer holds every other
+part at its rest pose, also while cross-fading.
 
 Other nodes: `root`, `body` (pivot at the bottom centre), the nub feet
 (`foot_fl`, `foot_fr`, `foot_bl`, `foot_br`; `foot_l`, `foot_r` on the birds),
 `ear_l`, `ear_r` and `tail`.
+
+## Using them in a game
+
+RUN games render with three.js. These notes keep a scene of Critter Cubes
+fast on phones.
+
+**Load with the meshopt decoder.** The files are meshopt-compressed
+(`EXT_meshopt_compression`, about 40% smaller to download), so the loader
+needs the decoder, which ships with three.js. Without it the models fail to
+load.
+
+```js
+import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
+import { MeshoptDecoder } from 'three/examples/jsm/libs/meshopt_decoder.module.js';
+const loader = new GLTFLoader().setMeshoptDecoder(MeshoptDecoder);
+```
+
+**How a model is built.** `root` holds `body` (the cube, which carries all
+the travel and height in the clips) and the feet; the face, ears and tail
+hang under `body`. Every part is its own mesh moved by the clips, and
+nothing is skinned, so:
+
+- Load each species once and `clone()` it for every animal. A plain clone
+  works (there is no skeleton to rebind) and shares geometry and materials.
+- Give each animal its own `AnimationMixer`.
+- To tint one animal, clone its material first: every clone of a species
+  shares the same materials.
+
+**Hide the parts a clip has scaled away**, every frame, after
+`mixer.update()`. The spare eyes, mouths, brows and sweat drop sit at 0.001
+scale and are still drawn unless hidden; hiding them takes an animal from
+about 24 draw calls to about 11.
+
+```js
+const parts = [];
+animal.traverse(o => parts.push(o));          // once, after cloning
+
+// each frame
+mixer.update(dt);
+for (const o of parts) o.visible = o.scale.x > 0.01;
+```
+
+**Use a blob shadow, not shadow maps.** Shadow maps draw the whole scene a
+second time. Leave `renderer.shadowMap.enabled` off and put a soft dark disc
+under each animal that follows `body` and shrinks as it leaves the ground:
+
+```js
+// once: one texture, geometry and material shared by every shadow
+const c = document.createElement('canvas');
+c.width = c.height = 64;
+const g = c.getContext('2d');
+const grad = g.createRadialGradient(32, 32, 0, 32, 32, 32);
+grad.addColorStop(0, 'rgba(0,0,0,0.35)');
+grad.addColorStop(1, 'rgba(0,0,0,0)');
+g.fillStyle = grad;
+g.fillRect(0, 0, 64, 64);
+const blobGeo = new THREE.PlaneGeometry(2.6, 2.6).rotateX(-Math.PI / 2);
+const blobMat = new THREE.MeshBasicMaterial({ map: new THREE.CanvasTexture(c), transparent: true, depthWrite: false });
+
+// per animal
+const body = animal.getObjectByName('body');
+const restY = body.position.y;                // before any clip plays
+const shadow = new THREE.Mesh(blobGeo, blobMat);
+animal.add(shadow);
+
+// each frame, after mixer.update()
+const s = 1 / (1 + 0.3 * Math.max(0, body.position.y - restY));
+shadow.position.set(body.position.x, 0.01, body.position.z);
+shadow.scale.set(s, 1, s);
+```
+
+The shadow sits at the animal's base, so on a stack it falls on the cube
+below.
+
+**Budget.** About 100 to 200 draw calls a frame is comfortable on a phone.
+With the hiding above, an animal is about 11, plus 1 for its shadow; a
+terrain cube is 1, and drawn instanced a whole floor of one kind is 1 (see
+`3D/prototype-blocks`). Ten to fifteen animals on screen is comfortable.
+For more, update mixers only for animals on screen.
+
+**Cheaper lighting on low-end phones.** The materials are
+`MeshStandardMaterial` (roughness 0.9, no metal). `MeshLambertMaterial`
+looks close and costs less per pixel. Swap once, on the loaded scene before
+cloning, sharing the replacements:
+
+```js
+const lambert = new Map();
+gltf.scene.traverse(o => {
+  if (!o.isMesh) return;
+  const m = o.material;
+  if (!lambert.has(m)) lambert.set(m, new THREE.MeshLambertMaterial({ name: m.name, color: m.color, vertexColors: m.vertexColors }));
+  o.material = lambert.get(m);
+});
+```
+
+Cap the pixel ratio too: `renderer.setPixelRatio(Math.min(devicePixelRatio, 2))`.
