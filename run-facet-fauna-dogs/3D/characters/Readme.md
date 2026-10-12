@@ -86,6 +86,8 @@ chain them directly: `sit`, then `sit_idle`, then `sit_to_stand`. `jump_up`
 ends 0.25 body lengths higher than it starts (onto a ledge) and `jump_down`
 starts there. Every clip keeps the paws on the floor, or lifts the dog off it
 on purpose.
+A clip carries only the bones it moves; three.js's mixer holds every other
+bone at its rest pose, also while cross-fading.
 
 **Mouth and toys.** The jaw opens in `speak`, `yawn`, `howl`, the toy clips
 and more (it is skinned to the `jaw` bone). Each breed has two empty nodes on
