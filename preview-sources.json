@@ -6513,6 +6513,20 @@
       "height": 512,
       "bytes": 35566,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+    },
+    "run-facet-fauna-cats/3D/characters": {
+      "kind": "derived",
+      "licenseEvidence": "run-facet-fauna-cats/3D/characters/License.txt",
+      "sourceUrl": "https://github.com/series-ai/run-workshop/tree/main/tools/run-cat-pack",
+      "sourcePath": "scripts/preview-inputs/run-facet-fauna-cats-characters.png",
+      "sourceSha256": "ed1810777af1b0147e48f5b74fffa3deaeccc1a283e45a989c8d0fb1a225ca9d",
+      "description": "Assembled scene of ten of the pack's ready-made cat breeds on a warm floor, each frozen mid-clip: sitting, loafing, lying, stretching, a slow blink and a question-mark tail. Rendered from the pack's GLBs with the pack's cover scene.",
+      "outputSha256": "67777d24393c028a4aa4ee01d9b49e53cc939db9163106ce306eb1d8cdcde5bf",
+      "outputSourceSha256": "ed1810777af1b0147e48f5b74fffa3deaeccc1a283e45a989c8d0fb1a225ca9d",
+      "width": 512,
+      "height": 384,
+      "bytes": 14224,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
     }
   }
 }
