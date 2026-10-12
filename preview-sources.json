@@ -6527,6 +6527,20 @@
       "height": 384,
       "bytes": 15262,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+    },
+    "run-chonky-hounds/3D/characters": {
+      "kind": "derived",
+      "licenseEvidence": "run-chonky-hounds/3D/characters/License.txt",
+      "sourceUrl": "https://github.com/series-ai/run-workshop/tree/main/tools/run-dog-pack/chunky-toy",
+      "sourcePath": "scripts/preview-inputs/run-chonky-hounds-characters.png",
+      "sourceSha256": "04bdf75b621b777356d017af038197d6ae465bd6fce61a4fe418047634529530",
+      "description": "The pack's cover: its title over nineteen of the pack's dogs on a pale lawn, each frozen in one of the pack's clips (sitting, play bow, lying down, sploot, paw, bark, point, stretch), some in the pack's collars and bandanas, with the pack's dog house, teepee, hydrant, bowl and toys. Rendered from the pack's GLBs with the pack's coat and wear helpers.",
+      "outputSha256": "bae0b541784931f5975d7f705c2e7cbcf6a77f4598818a5bffad057cf754b460",
+      "outputSourceSha256": "04bdf75b621b777356d017af038197d6ae465bd6fce61a4fe418047634529530",
+      "width": 512,
+      "height": 512,
+      "bytes": 35566,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
     }
   }
 }
