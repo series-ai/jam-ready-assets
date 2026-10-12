@@ -46,9 +46,11 @@ One shared skeleton, six body builds:
 - **kitten** (4): kitten-ginger, kitten-tuxedo, kitten-calico, kitten-fluffy
 
 Each breed is one mesh (about 1,300 triangles) with one material and one
-coat texture about 1,000 texels square: one draw call. The `rig` node (the scene's one child)
-carries extras, `userData` in three.js: `breed`, `build`, `length_m` and
-`looping_clips`.
+coat texture: one draw call. Plain, pointed and softly striped coats are
+about 500 texels square (1 MB of GPU memory); fine tabby, spotted, marbled
+and patched coats about 1,000 (4 MB), where a smaller texture shows.
+The `rig` node (the scene's one child) carries extras, `userData` in
+three.js: `breed`, `build`, `length_m` and `looping_clips`.
 
 ## Clips (30 fps)
 
