@@ -46,7 +46,7 @@ One shared skeleton, six body builds:
 - **kitten** (4): kitten-ginger, kitten-tuxedo, kitten-calico, kitten-fluffy
 
 Each breed is one mesh (about 1,300 triangles) with one material and one
-512-texel coat texture: one draw call. The `rig` node (the scene's one child)
+coat texture about 1,000 texels square: one draw call. The `rig` node (the scene's one child)
 carries extras, `userData` in three.js: `breed`, `build`, `length_m` and
 `looping_clips`.
 
@@ -105,6 +105,8 @@ The skeleton also has an eyelid bone (`lids`, its Y scale closes the eyes),
 ear bones, and two breathing bones under the ribs and belly. The clips drive
 all of them, so blinks, sleeping eyes, ear flicks and breathing play without
 any code.
+A clip carries only the bones it moves; three.js's mixer holds every other
+bone at its rest pose, also while cross-fading.
 
 ## Using them in a game
 

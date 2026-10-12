@@ -131,17 +131,27 @@ export async function loadCatKit(base = './', { layout = 'pack' } = {}) {
     const fur = catalog.coatShell[r.coat] || 'none';
     const B = builds[r.build], H = heads[head];
 
-    const shared = { coat: { value: colour(catalog.colours, r.base, '#999999') },
-                     noseColor: { value: colour(catalog.noseColours, r.nose, catalog.noseColours.pink) },
+    const shared = { coat: { value: new THREE.Color() }, noseColor: { value: new THREE.Color() },
                      eyeColor: { value: new THREE.Color(FIXED.eye) }, inkColor: { value: new THREE.Color(FIXED.ink) },
                      innerColor: { value: new THREE.Color(FIXED.inner) }, shineColor: { value: new THREE.Color(FIXED.shine) } };
-    const layers = (r.layers || '').split('|').filter(Boolean).map(l => l.split(':'));
     [1, 2, 3].forEach(i => {
-      const [pat, col] = layers[i - 1] || [];
-      shared[`color${i}`] = { value: colour(catalog.colours, col, '#ffffff') };
-      shared[`tex${i}`] = { value: masks[pat]?.tex || blank };
-      shared[`mode${i}`] = { value: masks[pat]?.mode || 0 };
+      shared[`color${i}`] = { value: new THREE.Color() };
+      shared[`tex${i}`] = { value: blank };
+      shared[`mode${i}`] = { value: 0 };
     });
+    // Coat colours: base, up to three pattern layers ("pattern:colour|..."), nose.
+    function recolour({ base = r.base, layers = r.layers, nose = r.nose } = {}) {
+      shared.coat.value.copy(colour(catalog.colours, base, '#999999'));
+      shared.noseColor.value.copy(colour(catalog.noseColours, nose, catalog.noseColours.pink));
+      const ls = (layers || '').split('|').filter(Boolean).map(l => l.split(':'));
+      [1, 2, 3].forEach(i => {
+        const [pat, col] = ls[i - 1] || [];
+        shared[`color${i}`].value.copy(colour(catalog.colours, col, '#ffffff'));
+        shared[`tex${i}`].value = masks[pat]?.tex || blank;
+        shared[`mode${i}`].value = masks[pat]?.mode || 0;
+      });
+    }
+    recolour();
 
     // Body: the build's rig, with only this cat's coat shell and tail shown.
     const rig = SkeletonUtils.clone(B.scene);
@@ -201,7 +211,10 @@ export async function loadCatKit(base = './', { layout = 'pack' } = {}) {
     const mixer = new THREE.AnimationMixer(rig);
     let current = null;
     return {
-      object, spec: r, clips: B.clips.map(c => c.name), mixer,
+      object, spec: r, clips: B.clips.map(c => c.name), mixer, length: catalog.sizes[r.size] || 0.55,
+      clip: name => B.clips.find(c => c.name === name), looping: B.looping, headGroup: group,
+      // Repaint the coat: any of { base, layers, nose } (catalog names), e.g. a dye or a breeding result.
+      recolour,
       // Play a clip by name; looping clips (walk, idles...) repeat, the rest hold their last frame.
       play(name, { fade = 0.15 } = {}) {
         const clip = B.clips.find(c => c.name === name);
