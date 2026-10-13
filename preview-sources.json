@@ -6555,6 +6555,20 @@
       "height": 512,
       "bytes": 40732,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+    },
+    "run-terra-tots/3D/characters": {
+      "kind": "derived",
+      "licenseEvidence": "run-terra-tots/3D/characters/License.txt",
+      "sourceUrl": "https://github.com/series-ai/run-workshop/tree/main/games/plant-monsters",
+      "sourcePath": "scripts/preview-inputs/run-terra-tots-characters.png",
+      "sourceSha256": "168860493e9285bd3348dac3c4877d3ea80f36506b32e695eebaa89b4d234245",
+      "description": "The pack's title over its ten characters: a big monstera in an egg pot at the back, then a Thai Constellation monstera, calathea, peace lily, snake plants, ZZ, alocasia, pothos and Calathea 'Dottie' in their pots, on their painted legs. Rendered from the pack's models with its build kit.",
+      "outputSha256": "0a28435a1548dff786d071e8fba0aa2f422ca6a2b480c4f8c5a6927283ce9768",
+      "outputSourceSha256": "168860493e9285bd3348dac3c4877d3ea80f36506b32e695eebaa89b4d234245",
+      "width": 314,
+      "height": 512,
+      "bytes": 19614,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
     }
   }
 }
