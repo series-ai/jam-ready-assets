@@ -1,4 +1,4 @@
-# Critter Cubes 3D/characters
+# Critter Cubes 3D
 
 Original assets for RUN. Keep License.txt with redistributed files.
 
@@ -9,12 +9,17 @@ carries them as vertex colours (`COLOR_0`) on one shared `colors` material,
 so each node is one draw call; single-colour parts keep their own material.
 Units: one die is 2 x 2 x 2. +Y is up and the front faces +Z. Everything in
 Critter Cubes shares one 2-unit grid, so animals, dice, terrain cubes and
-puzzle pieces stack and line up: `3D/characters` (the animals),
-`3D/prototype-blocks` (dice and terrain cubes) and `3D/platformer` (puzzle
-pieces). For loading, draw calls and shadows on phones, read "Using them in
-a game" at the end.
+puzzle pieces stack and line up:
 
-## Animals (47)
+- `animals/`: 47 dice animals with 25 clips and swappable faces each
+- `blocks/`: dice, a tintable cube and 11 terrain cubes
+- `puzzle/`: 9 animated puzzle pieces
+
+For loading, draw calls and shadows on phones, read "Using them in a game" at
+the end.
+
+## Animals (47), in `animals/`
+
 
 Every animal is the same 2 x 2 x 2 cube on tiny nub feet (2.16 tall with the
 feet), so they stack on the grid: stand one on another at y + 2.16. The top
@@ -34,7 +39,7 @@ shapes on purpose, for game rules: nothing sits well on the hedgehog's spines
 or the turtle's round shell, and the crocodile's snout pokes into the cell in
 front.
 
-## Clips (30 fps)
+### Animal clips (30 fps)
 
 | Clip | Loop | What |
 |---|---|---|
@@ -69,7 +74,7 @@ front.
 front, so move the model's origin by the distance when the clip ends. Every
 other clip starts and ends on the spot.
 
-## Faces
+### Faces
 
 The face is made of nodes under `body`: `eye_l`/`eye_r` (open eyes),
 `happy_*`, `line_*`, `x_*` and `spiral_*` (drawn ^, sleepy, X and dizzy eyes),
@@ -87,7 +92,57 @@ Other nodes: `root`, `body` (pivot at the bottom centre), the nub feet
 (`foot_fl`, `foot_fr`, `foot_bl`, `foot_br`; `foot_l`, `foot_r` on the birds),
 `ear_l`, `ear_r` and `tail`.
 
+## Dice and terrain cubes, in `blocks/`
+
+a game" at the end.
+
+15 cubes, each 2 x 2 x 2 sitting flat on the ground (no feet), with the same
+rounded edges as the animals. Stack them at y + 2.
+
+- Dice: `die_white` (red 1), `die_red`, `die_wood`. Opposite faces add up to 7
+  (front 1, back 6, top 2, bottom 5, right 3, left 4).
+- Plain cube: `cube`, white, one material. Tint it any colour by setting its
+  material colour.
+- Terrain: `grass`, `dirt`, `rock`, `sand`, `snow`, `ice`, `water`, `crate`,
+  `hay`, `brick`, `bush`. Sink a row of them by 2 to make a floor whose top is
+  at y = 0.
+
+### Block clips (30 fps)
+
+| Model | Clips |
+|---|---|
+| dice | `roll_in`, `roll`, `roll_side`, `drop`, `place`, `tap`, `spin`, `spin_start`, `spin_loop`, `spin_end` |
+| plain and terrain cubes | `place`, `drop`, `land`, `tap` |
+
+The dice clips match the animals' clips of the same name (same timing and
+root motion: `roll` ends 8 units forward, +Z).
+
+## Puzzle pieces, in `puzzle/`
+
+a game" at the end.
+
+Nine puzzle pieces, each one 2 x 2 cell, for dice to roll, drop and get
+pushed onto. Parts a game may want to recolour are their own nodes, with a
+material per colour (`cap`, `platter`, the `flag_*` segments). Rotate a
+piece to point it (a sideways fan, a conveyor going left).
+
+| Piece | Clips (30 fps) |
+|---|---|
+| `button` | `idle`, `press` (squashes down with a bounce), `held` (loop), `release` |
+| `fan` | `off`, `spin_up`, `on` (loop: blades and rising puffs), `spin_down` |
+| `conveyor` | `run` (loop: chevrons ride the belt forward, toward +Z), `stop` |
+| `spring` | `idle`, `boing` (compress, launch, wobble out) |
+| `gate` | `closed`, `open` (the bars sink into the floor slot), `opened`, `close` |
+| `goal_flag` | `wave` (loop) |
+| `turntable` | `idle`, `turn_left`, `turn_right` (a quarter turn with a little overshoot) |
+| `portal` | `swirl` (loop): a standing ring doorway a die can roll through |
+| `ramp` | none: a gentle wedge two cells long, up to one die's height |
+
+A die standing on a conveyor sits at y = 0.38; on a resting spring, y = 0.84.
+The gate's posts sit outside the cell, so a die fits through the opening.
+
 ## Using them in a game
+
 
 RUN games render with three.js. These notes keep a scene of Critter Cubes
 fast on phones.
@@ -163,7 +218,7 @@ below.
 **Budget.** About 100 to 200 draw calls a frame is comfortable on a phone.
 With the hiding above, an animal is about 11, plus 1 for its shadow; a
 terrain cube is 1, and drawn instanced a whole floor of one kind is 1 (see
-`3D/prototype-blocks`). Ten to fifteen animals on screen is comfortable.
+`blocks/`). Ten to fifteen animals on screen is comfortable.
 For more, update mixers only for animals on screen.
 
 **Cheaper lighting on low-end phones.** The materials are
@@ -182,3 +237,43 @@ gltf.scene.traverse(o => {
 ```
 
 Cap the pixel ratio too: `renderer.setPixelRatio(Math.min(devicePixelRatio, 2))`.
+
+### Dice and terrain cubes
+
+Each cube is a single mesh, `body`, under
+`root`, so a level's blocks are best drawn instanced: one draw call per kind
+of block, however many you place.
+
+```js
+const gltf = await loader.loadAsync('blocks/grass.glb');
+gltf.scene.updateMatrixWorld(true);
+const body = gltf.scene.getObjectByName('body');
+const grass = new THREE.InstancedMesh(body.geometry, body.material, cells.length);
+const m = new THREE.Matrix4();
+cells.forEach(([x, y, z], i) =>          // grid cells; one cube is 2 units
+  grass.setMatrixAt(i, m.makeTranslation(x * 2, y * 2, z * 2).multiply(body.matrixWorld)));
+grass.computeBoundingSphere();
+scene.add(grass);
+```
+
+To play a clip on one block (`drop`, `land`, `tap`), hide its instance
+(scale its matrix to zero), play a normal clone in its place, then put the
+instance back.
+
+Triangle counts vary: `cube` 188, `ice` 728, `hay` 740, `dirt` 888, `sand`
+1.1k, `brick` 2.4k, `rock` 2.5k, dice 2.5k, `crate` 2.9k, `grass` 2.9k,
+`water` 3.1k, `snow` 3.9k, `bush` 4.1k. For large floors on phones, build
+with the light ones and use the heavy ones as accents: a 10 x 10 floor of
+`bush` is 410k triangles, of `dirt` 89k.
+
+The dice move like the animals (their `body` carries the roll and the
+height), so a blob shadow following `body` works the same way.
+
+### Puzzle pieces
+
+Each piece is a few meshes (1 to 6 draw calls); give each animated piece its
+own `AnimationMixer`. Parts that are off (the fan's puffs, the portal's
+sparkles) are scaled to nothing rather than removed, so hide them each frame
+after `mixer.update()`, as with the animals:
+`o.visible = o.scale.x > 0.01`. The `ramp` is a single mesh: draw many of
+them instanced, like the terrain cubes in `blocks/`.

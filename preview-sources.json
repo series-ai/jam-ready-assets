@@ -6500,34 +6500,6 @@
       "bytes": 22902,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
     },
-    "run-critter-cubes/3D/platformer": {
-      "kind": "derived",
-      "licenseEvidence": "run-critter-cubes/3D/platformer/License.txt",
-      "sourceUrl": "https://github.com/series-ai/run-workshop/tree/main/tools/run-dice-animals",
-      "sourcePath": "scripts/preview-inputs/run-critter-cubes-platformer.png",
-      "sourceSha256": "a72abe4cd99b6928cd9fa9bd258c5bd4370bb5975584bf93c8e6e95e24979ae2",
-      "description": "Assembled puzzle level using every puzzle piece in this pack on terrain cubes, with a die on the conveyor. Rendered from the pack's GLBs with the Critter Cubes promo scene.",
-      "outputSha256": "6da011360f2d47beb90d10b6bab2da17cab975badf25ca3ece4fe8c9d7720bd9",
-      "outputSourceSha256": "a72abe4cd99b6928cd9fa9bd258c5bd4370bb5975584bf93c8e6e95e24979ae2",
-      "width": 512,
-      "height": 384,
-      "bytes": 20134,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
-    },
-    "run-critter-cubes/3D/prototype-blocks": {
-      "kind": "derived",
-      "licenseEvidence": "run-critter-cubes/3D/prototype-blocks/License.txt",
-      "sourceUrl": "https://github.com/series-ai/run-workshop/tree/main/tools/run-dice-animals",
-      "sourcePath": "scripts/preview-inputs/run-critter-cubes-prototype-blocks.png",
-      "sourceSha256": "23bc9f852704a0617e23e20279fe579173a4351a187f61bdbd84227d3f75561a",
-      "description": "Assembled scene: a little island of the pack's terrain cubes with the three dice and a tinted plain cube. Rendered from the pack's GLBs with the Critter Cubes promo scene.",
-      "outputSha256": "b3158d5a670f5ca3d8974ecfa8af092d4a10e4ce0269981ba19d544142ec5444",
-      "outputSourceSha256": "23bc9f852704a0617e23e20279fe579173a4351a187f61bdbd84227d3f75561a",
-      "width": 512,
-      "height": 384,
-      "bytes": 15262,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
-    },
     "run-chonky-hounds/3D/characters": {
       "kind": "derived",
       "licenseEvidence": "run-chonky-hounds/3D/characters/License.txt",
