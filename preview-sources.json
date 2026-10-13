@@ -6527,6 +6527,20 @@
       "height": 384,
       "bytes": 14224,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+    },
+    "run-facet-fauna-dogs/3D/characters": {
+      "kind": "derived",
+      "licenseEvidence": "run-facet-fauna-dogs/3D/characters/License.txt",
+      "sourceUrl": "https://github.com/series-ai/run-workshop/tree/main/tools/run-dog-pack",
+      "sourcePath": "scripts/preview-inputs/run-facet-fauna-dogs-characters.png",
+      "sourceSha256": "0d930b079564b7a1a22771f7fba31033f3220ec340733d7ffd39389608acdb6d",
+      "description": "Assembled scene of twelve of the pack's ready-made dog breeds on a warm floor, each frozen mid-clip: a Great Dane, Dalmatian and Poodle sitting, a Golden Retriever in a play bow, a Husky howling, a Beagle sniffing, a Pug tilting its head, a trotting Dachshund and more. Rendered from the pack's GLBs with the pack's cover scene.",
+      "outputSha256": "7251b15e3417412d2f74a17596eec87f15d42f4c16503bd77fc0904301e60e27",
+      "outputSourceSha256": "0d930b079564b7a1a22771f7fba31033f3220ec340733d7ffd39389608acdb6d",
+      "width": 512,
+      "height": 341,
+      "bytes": 11512,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
     }
   }
 }
