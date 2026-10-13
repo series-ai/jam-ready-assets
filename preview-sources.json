@@ -6541,6 +6541,20 @@
       "height": 341,
       "bytes": 11512,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+    },
+    "run-boo-brigade/3D/characters": {
+      "kind": "derived",
+      "licenseEvidence": "run-boo-brigade/3D/characters/License.txt",
+      "sourceUrl": "https://github.com/series-ai/run-workshop/tree/main/tools/run-costume-kids",
+      "sourcePath": "scripts/preview-inputs/run-boo-brigade-characters.png",
+      "sourceSha256": "00903102535cb62b0d657f6ab682d7cb6094ab73d07a987427d6ed22bd23f524",
+      "description": "The pack's cover: its title over a dusk street of the pack's houses, fence, lamp and mailbox, with costume kids from the pack (werewolf, pineapple, bumblebee, jellyfish, vending machine, skeleton, black cat and others) trick-or-treating with their buckets. Rendered from the pack's GLBs.",
+      "outputSha256": "94dc5e180df8f3483213e8b0a57ee69bad5ba1a3f7a65658aab61d55e8db7d9f",
+      "outputSourceSha256": "00903102535cb62b0d657f6ab682d7cb6094ab73d07a987427d6ed22bd23f524",
+      "width": 512,
+      "height": 512,
+      "bytes": 40732,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
     }
   }
 }
