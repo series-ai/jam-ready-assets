@@ -2,7 +2,7 @@ SPDX-License-Identifier: LicenseRef-RUN-Repository-Supplemental-1.0
 Source: https://github.com/series-ai/run-workshop/tree/main/tools/run-dice-animals
 Verified-by: run-workshop maintainers, 2026-10-11
 
-Critter Cubes — Dice animal 3D models
+Critter Cubes — dice animals, dice and terrain cubes, and puzzle pieces
 Copyright (c) 2026 Series Entertainment, Inc.
 Made for the RUN platform. Licensed under the RUN Repository Supplemental
 License v1.0 below: use it in RUN projects; it converts to MIT on January 1,
