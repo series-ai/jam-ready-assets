@@ -6,7 +6,7 @@ import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { execFileSync } from 'node:child_process';
 import sharp from 'sharp';
-import { CURRENT_IDENTITY, validateLabel, validateBinding, cacheEligible, currentLabel, sha256, writeJsonLines, readVisualMetadata } from './visual-metadata.mjs';
+import { CURRENT_IDENTITY, validateLabel, validateBinding, cacheEligible, currentLabel, sha256, writeJsonLines, readVisualMetadata, validateSheetPreview, metadataRevision } from './visual-metadata.mjs';
 import { appendVisualKeywords, buildAssetSearch, singularForms, dependencyEvidence, selectionReason } from './asset-search-catalog.mjs';
 import { writeThumbnailArchive, readThumbnailArchive } from './thumbnail-archive.mjs';
 import { assertSafeSvg, thumbnailFromPng, representativeVisual, decodeVisual, quadrants, pngFrameCount } from './visual-render.mjs';
@@ -268,9 +268,9 @@ test('CSS and resource descriptors keep sibling images together without blocking
     assert.equal(selectionReason(pack, files[3], label(), evidence), null);
   }
 });
-const emit = (t, paths, labelFor = () => ({}), category = '2d', packId = 'example/2D/characters') => {
+const emit = (t, paths, labelFor = () => ({}), category = '2d', packId = 'example/2D/characters', sheetPreviews = {}) => {
   const root = temp(t);
-  const metadata = { labels: new Map(), bindings: new Map(), thumbnails: {}, config: { enabled: true, invalidations: {} } };
+  const metadata = { labels: new Map(), bindings: new Map(), thumbnails: {}, config: { enabled: true, invalidations: {} }, sheetPreviews };
   const files = paths.map((path, i) => {
     const hash = sha256(path);
     metadata.labels.set(hash, label({ oid: hash, keywords: ['robot'], ...labelFor(path) }));
@@ -333,4 +333,61 @@ test('square-frame strips and multi-frame images carry a preview; other shapes s
   assert.deepEqual(items.get('portal.gif').animation, { type: 'animated', frames: 12 });
   for (const path of ['hero_jump.png', 'tiles.png', 'hero_hurt.png']) assert.equal(items.get(path).animation, undefined, path);
   assert.equal(items.get('hero_run.png').selectable, true);
+});
+const sheetPreview = {
+  columns: 8, rows: 3,
+  clips: [{ name: 'Idle', startFrame: 0, frames: 4 }, { name: 'Walk right', startFrame: 8, frames: 8 }, { name: 'Walk left', startFrame: 16, frames: 8 }],
+  source: 'https://example.org/character', note: '24 x 24 cells; idle ends before four empty cells.',
+};
+test('verified sheet clips emit their own ranges without changing the complete source selection', (t) => {
+  const { items, metadata } = emit(t, ['Player.png', 'Unverified.png'], () => ({ kind: 'sheet', dimensions: [192, 72] }),
+    '2d', 'example/2D/characters', { [sha256('Player.png')]: sheetPreview });
+  const item = items.get('Player.png');
+  assert.equal(item.selectable, true);
+  assert.equal(item.oid, sha256('Player.png'));
+  assert.deepEqual(item.animation, { type: 'sheet', frames: 4, columns: 8, rows: 3, clips: sheetPreview.clips });
+  assert.equal(items.get('Unverified.png').animation, undefined);
+  assert.notEqual(metadataRevision(metadata), metadataRevision({ ...metadata, sheetPreviews: {} }));
+});
+test('sheet metadata rejects invalid grids, clips and missing evidence', () => {
+  const source = label({ kind: 'sheet', dimensions: [192, 72] });
+  assert.equal(validateSheetPreview(sheetPreview, source), sheetPreview);
+  for (const patch of [
+    { columns: 0 }, { columns: 7 }, { rows: 5 },
+    { clips: [{ name: 'Idle', startFrame: 22, frames: 4 }] },
+    { clips: [{ name: 'Idle', startFrame: -1, frames: 4 }] },
+    { clips: [{ name: '', startFrame: 0, frames: 4 }] },
+    { clips: [sheetPreview.clips[0], sheetPreview.clips[0]] },
+    { source: 'file:///tmp/source' }, { note: '' },
+  ]) assert.throws(() => validateSheetPreview({ ...sheetPreview, ...patch }, source));
+  assert.throws(() => validateSheetPreview(sheetPreview, undefined));
+  assert.throws(() => validateSheetPreview(sheetPreview, { ...source, frameCount: 2 }));
+});
+
+test('verified rectangular and column-oriented previews preserve their source grid', (t) => {
+  const rectangular = { ...sheetPreview, columns: 4, rows: 4,
+    clips: [{ name: 'Walk', startFrame: 1, frames: 4, stride: 4 }] };
+  const source = label({ kind: 'sheet', dimensions: [128, 64] });
+  validateSheetPreview(rectangular, source);
+  assert.throws(() => validateSheetPreview({ ...rectangular, clips: [{ name: 'Walk', startFrame: 4, frames: 4, stride: 4 }] }, source));
+  assert.throws(() => validateSheetPreview({ ...rectangular, clips: [{ name: 'Walk', startFrame: 0, frames: 4, stride: 0 }] }, source));
+  const { items } = emit(t, ['Walk.png'], () => ({ kind: 'sheet', dimensions: [128, 64] }),
+    '2d', 'example/2D/characters', { [sha256('Walk.png')]: rectangular });
+  assert.deepEqual(items.get('Walk.png').animation.clips, rectangular.clips);
+});
+test('verified independent poses override animation-like names', (t) => {
+  const staticViews = { ...sheetPreview, columns: 4, rows: 1, clips: [] };
+  validateSheetPreview(staticViews, label({ kind: 'sheet', dimensions: [64, 16] }));
+  const { items } = emit(t, ['Idle.png'], () => ({ kind: 'sheet', dimensions: [64, 16] }),
+    '2d', 'example/2D/characters', { [sha256('Idle.png')]: staticViews });
+  assert.equal(items.get('Idle.png').animation, undefined);
+  assert.equal(items.get('Idle.png').selectable, true);
+});
+
+test('packed source rectangles keep variable-size frames inside the image', () => {
+  const source = label({ dimensions: [128, 128] });
+  const packed = { ...sheetPreview, columns: 1, rows: 1, clips: [{ name: 'Explosion', startFrame: 0, frames: 2 }],
+    rects: [{ x: 0, y: 0, width: 32, height: 32 }, { x: 64, y: 64, width: 16, height: 16 }] };
+  validateSheetPreview(packed, source);
+  assert.throws(() => validateSheetPreview({ ...packed, rects: [packed.rects[0], { x: 120, y: 0, width: 16, height: 16 }] }, source));
 });

@@ -17,6 +17,15 @@ changes a pack's content version or the legacy schema-v1 manifest.
   hash prefix. Entries are flat `<thumbnail-sha256>.webp` files. Different sources can
   share an identical thumbnail. Each thumbnail is static, at most 256 pixels per side
   and 40 KiB, with preserved aspect ratio and nearest-neighbor scaling for pixel art.
+- `sheet-previews.json`: source SHA-256 keyed, source-verified frame grids and
+  named clips (`name`, zero-based `startFrame`, `frames`, optional `stride`), with a source URL and layout note.
+  A clip advances through row-major cell indices, using an optional positive `stride`
+  for column-oriented timelines. Packed sheets can provide ordered `rects`
+  (`x`, `y`, `width`, `height`) from their original atlas; those frames share a
+  centered canvas sized to the largest frame instead of being stretched separately. Empty clip lists mark verified independent poses;
+  those images stay static even when their filenames contain animation words.
+  Missing records retain the conservative strip detection. Clip names are source content;
+  unknown clip layouts stay static. Source changes require a new verified hash entry.
 - `visual.json`: schema version, publication enable switch and explicit per-hash
   generation invalidations. Empty invalidations reuse approved historical identities.
 
@@ -114,6 +123,7 @@ sets the switch to false while retaining immutable manifests and objects.
 npm test
 SKIP_PUBLISHED_CHECK=1 node scripts/build-manifest.mjs
 node scripts/check-visual-assets.mjs
+node scripts/audit-animation-previews.mjs
 ```
 
 The last command validates metadata, coverage, every thumbnail archive and emitted search
@@ -122,3 +132,8 @@ bounds. It needs hydrated thumbnail shards, or their LFS objects in the local ca
 label/path snapshot and matching source LFS objects. Its three positional arguments are
 label JSONL gzip, path JSONL gzip, and source LFS object directory. It verifies source
 hashes and regenerates bounded thumbnails without making model calls.
+
+The animation audit reports sheet, sequence and native-animation coverage, named clip
+selectors, verified static poses, and remaining animation-named PNG sheets that need layout
+inspection. A filename match is a review candidate, not proof of animation. Packed atlases,
+independent poses, tile collections and textures must not be turned into guessed loops.

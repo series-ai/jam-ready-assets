@@ -80,10 +80,10 @@ function frameNumber(path) {
 const tagged = (label) => !!label && label.status === 'tagged' && label.confidence !== 'none';
 // Numbered frames of one clip become a single catalog entry led by the first frame; the other
 // frames stay in the catalog for import but are left out of search.
-export function sequenceGroups(pack, files, labelFor, thumbnails, evidence) {
+export function sequenceGroups(pack, files, labelFor, thumbnails, evidence, sheetPreviews = {}) {
   const candidates = new Map();
   for (const file of files) {
-    if (!file.runtime || !/\.(png|jpe?g|svg|webp)$/i.test(file.path) || !hasAnimationWord(file.path)) continue;
+    if (sheetPreviews[file.oid] || !file.runtime || !/\.(png|jpe?g|svg|webp)$/i.test(file.path) || !hasAnimationWord(file.path)) continue;
     const key = numberedKey(file.path);
     if (key === file.path) continue;
     candidates.set(key, [...(candidates.get(key) ?? []), file]);
@@ -107,7 +107,7 @@ export function sequenceGroups(pack, files, labelFor, thumbnails, evidence) {
   }
   return groups;
 }
-export function assetAnimation(pack, file, label, groups, thumbnails, evidence) {
+export function assetAnimation(pack, file, label, groups, thumbnails, evidence, sheetPreviews = {}) {
   const group = groups.get(file.path);
   if (group) {
     if (group.members[0] !== file) return null;
@@ -119,6 +119,12 @@ export function assetAnimation(pack, file, label, groups, thumbnails, evidence) 
   }
   if (!tagged(label)) return null;
   if (label.frameCount > 1) return /\.(gif|webp|png)$/i.test(file.path) ? { type: 'animated', frames: label.frameCount } : null;
+  const preview = sheetPreviews[file.oid];
+  if (preview && /\.png$/i.test(file.path)) {
+    if (!preview.clips.length) return null;
+    return { type: 'sheet', frames: preview.clips[0].frames,
+      columns: preview.columns, rows: preview.rows, clips: preview.clips, ...(preview.rects ? { rects: preview.rects } : {}) };
+  }
   if (!/\.png$/i.test(file.path) || !hasAnimationWord(file.path)) return null;
   // A numbered file that did not group is a sheet only when it was labelled one.
   if ((evidence.numbered.get(numberedKey(file.path)) ?? 0) > 1 && label.kind !== 'sheet') return null;
@@ -145,7 +151,7 @@ export function buildAssetSearch(root, commit, packs, metadata) {
   const coverage = { runtimeImages: 0, labeledImages: 0, thumbnailImages: 0, staleBindings: 0, selectableImages: 0, filenameFallbackImages: 0 };
   for (const { summary: pack, files } of packs) {
     const evidence = dependencyEvidence(files);
-    const groups = sequenceGroups(pack, files, (file) => currentLabel(metadata, pack.id, file), metadata.thumbnails, evidence);
+    const groups = sequenceGroups(pack, files, (file) => currentLabel(metadata, pack.id, file), metadata.thumbnails, evidence, metadata.sheetPreviews);
     for (const file of files) {
       if (!file.runtime || !/\.(png|jpe?g|svg|gif|webp)$/i.test(file.path)) continue;
       coverage.runtimeImages++;
@@ -158,7 +164,7 @@ export function buildAssetSearch(root, commit, packs, metadata) {
       if (!thumbnail) { coverage.filenameFallbackImages++; continue; }
       const id = sha256(`${pack.id}\0${file.path}`);
       const reason = expectedSelectionReason(pack, file, label, evidence, groups);
-      const animation = assetAnimation(pack, file, label, groups, metadata.thumbnails, evidence);
+      const animation = assetAnimation(pack, file, label, groups, metadata.thumbnails, evidence, metadata.sheetPreviews);
       if (!reason) coverage.selectableImages++;
       if (!label || label.confidence === 'none') coverage.filenameFallbackImages++;
       const item = {

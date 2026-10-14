@@ -49,7 +49,7 @@ for (let page = 0; page < Math.ceil(descriptor.assetCount / 16); page++) {
     if (!packEvidence.has(item.packId)) {
       const pack = JSON.parse(readFileSync(join(root, 'manifest/v2/commits', index.commit, 'packs', `${item.packId.replaceAll('/', '--')}.json`), 'utf8'));
       const summary = summaries.get(item.packId), evidence = dependencyEvidence(pack.files);
-      const groups = sequenceGroups(summary, pack.files, (file) => currentLabel(metadata, item.packId, file), metadata.thumbnails, evidence);
+      const groups = sequenceGroups(summary, pack.files, (file) => currentLabel(metadata, item.packId, file), metadata.thumbnails, evidence, metadata.sheetPreviews);
       packEvidence.set(item.packId, { files: new Map(pack.files.map((file) => [file.path, file])), evidence, groups });
     }
     const { files, evidence, groups } = packEvidence.get(item.packId);
@@ -58,7 +58,7 @@ for (let page = 0; page < Math.ceil(descriptor.assetCount / 16); page++) {
     const label = currentLabel(metadata, item.packId, file);
     const reason = expectedSelectionReason(summaries.get(item.packId), file, label, evidence, groups);
     if (item.selectable !== (reason === null) || (item.selectionReason ?? null) !== reason) throw new Error(`Selection grouping mismatch: ${item.packId}/${item.path}`);
-    const animation = assetAnimation(summaries.get(item.packId), file, label, groups, metadata.thumbnails, evidence);
+    const animation = assetAnimation(summaries.get(item.packId), file, label, groups, metadata.thumbnails, evidence, metadata.sheetPreviews);
     if (JSON.stringify(item.animation ?? null) !== JSON.stringify(animation)) throw new Error(`Animation preview mismatch: ${item.packId}/${item.path}`);
     lastId = item.id; count++;
   }
