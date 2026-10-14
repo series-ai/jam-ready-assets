@@ -5,7 +5,8 @@ Original assets for RUN. Keep License.txt with redistributed files.
 Potted houseplants with legs and arms. Each tot is a pot body with a plant
 growing out of the top, chunky limbs with painted markings, and 29 animation
 clips: walks, hops, dances, sitting, hiding in the pot, swinging in a hanging
-planter and more. The leaves follow through on every move. Every GLB is
+planter and more. The leaves follow through on every move: the plant sways as a
+whole and every leaf sways on its own spring as well. Every GLB is
 meshopt-compressed: load it with the meshopt decoder (see "Using them in a
 game").
 
@@ -127,6 +128,7 @@ const tot = new TT.Tot(kit, {
 });
 scene.add(tot.root);
 tot.setPlant('monstera', 1.0);            // grow it (rebuilds the plant)
+tot.mergeMeshes();                        // fewer draw calls (see "Budget"); stays on through setPlant
 // every frame: tot.pose(seconds, 'walk') returns the walking speed, to move tot.root by
 ```
 
@@ -140,6 +142,8 @@ tot.setPlant('monstera', 1.0);            // grow it (rebuilds the plant)
   `TT.who(name)`).
 - **Props and pests:** `TT.PROPS` builds every prop in code, and
   `TT.infest(plant, 'aphid', count)` puts a few bugs on a plant's leaves.
+- **Leaf sway:** every leaf sways on its own by default. Pass
+  `sway: 'plant'` to have the plant sway as one piece.
 
 The kit's markings and some leaf colours use custom shaders, which is why the
 ready-made tots carry them baked into textures instead.
@@ -165,10 +169,15 @@ not `object.clone()`, so each copy gets its own skeleton. Give each tot its own
 only the nodes it moves, so three.js's mixer holds the rest at their rest pose,
 also while cross-fading.
 
-**Budget.** A tot is about 1 MB to download and 40 to 100 draw calls: each
-leaf is its own node so it can sway. On a phone, about 100 to 200 draw calls a
-frame is comfortable, so plan on a handful of tots on screen at once. Update
-mixers only for tots on screen. Pots and props are light, a few draw calls each.
+**Budget.** A ready-made tot is 0.7 to 2.8 MB to download (the pothos, with the
+most leaves, are the biggest) and about 20 to 30 draw calls; variegated plants,
+where every leaf has its own pattern, take up to 50. Everything except the
+limbs is drawn as one skinned mesh per material, and each leaf is a bone of
+that mesh so it can sway on its own. On a phone, about 100 to 200 draw calls a
+frame is comfortable, so plan on 5 to 8 tots on screen. Update mixers only for
+tots on screen. Pots and props are light, a few draw calls each. Kit tots built
+in code draw each leaf separately (40 to 150+ draw calls) until you call
+`tot.mergeMeshes()`.
 
 **Shadows.** On phones, leave shadow maps off and put a soft dark disc under
 each tot instead: a `PlaneGeometry` with a radial-gradient `CanvasTexture`,
