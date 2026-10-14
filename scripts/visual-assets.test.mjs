@@ -353,7 +353,7 @@ test('sheet metadata rejects invalid grids, clips and missing evidence', () => {
   const source = label({ kind: 'sheet', dimensions: [192, 72] });
   assert.equal(validateSheetPreview(sheetPreview, source), sheetPreview);
   for (const patch of [
-    { columns: 0 }, { columns: 7 }, { rows: 2 }, { clips: [] },
+    { columns: 0 }, { columns: 7 }, { rows: 5 },
     { clips: [{ name: 'Idle', startFrame: 22, frames: 4 }] },
     { clips: [{ name: 'Idle', startFrame: -1, frames: 4 }] },
     { clips: [{ name: '', startFrame: 0, frames: 4 }] },
@@ -362,4 +362,32 @@ test('sheet metadata rejects invalid grids, clips and missing evidence', () => {
   ]) assert.throws(() => validateSheetPreview({ ...sheetPreview, ...patch }, source));
   assert.throws(() => validateSheetPreview(sheetPreview, undefined));
   assert.throws(() => validateSheetPreview(sheetPreview, { ...source, frameCount: 2 }));
+});
+
+test('verified rectangular and column-oriented previews preserve their source grid', (t) => {
+  const rectangular = { ...sheetPreview, columns: 4, rows: 4,
+    clips: [{ name: 'Walk', startFrame: 1, frames: 4, stride: 4 }] };
+  const source = label({ kind: 'sheet', dimensions: [128, 64] });
+  validateSheetPreview(rectangular, source);
+  assert.throws(() => validateSheetPreview({ ...rectangular, clips: [{ name: 'Walk', startFrame: 4, frames: 4, stride: 4 }] }, source));
+  assert.throws(() => validateSheetPreview({ ...rectangular, clips: [{ name: 'Walk', startFrame: 0, frames: 4, stride: 0 }] }, source));
+  const { items } = emit(t, ['Walk.png'], () => ({ kind: 'sheet', dimensions: [128, 64] }),
+    '2d', 'example/2D/characters', { [sha256('Walk.png')]: rectangular });
+  assert.deepEqual(items.get('Walk.png').animation.clips, rectangular.clips);
+});
+test('verified independent poses override animation-like names', (t) => {
+  const staticViews = { ...sheetPreview, columns: 4, rows: 1, clips: [] };
+  validateSheetPreview(staticViews, label({ kind: 'sheet', dimensions: [64, 16] }));
+  const { items } = emit(t, ['Idle.png'], () => ({ kind: 'sheet', dimensions: [64, 16] }),
+    '2d', 'example/2D/characters', { [sha256('Idle.png')]: staticViews });
+  assert.equal(items.get('Idle.png').animation, undefined);
+  assert.equal(items.get('Idle.png').selectable, true);
+});
+
+test('packed source rectangles keep variable-size frames inside the image', () => {
+  const source = label({ dimensions: [128, 128] });
+  const packed = { ...sheetPreview, columns: 1, rows: 1, clips: [{ name: 'Explosion', startFrame: 0, frames: 2 }],
+    rects: [{ x: 0, y: 0, width: 32, height: 32 }, { x: 64, y: 64, width: 16, height: 16 }] };
+  validateSheetPreview(packed, source);
+  assert.throws(() => validateSheetPreview({ ...packed, rects: [packed.rects[0], { x: 120, y: 0, width: 16, height: 16 }] }, source));
 });

@@ -179,7 +179,8 @@ Add a positive and a negative regression case when extending these rules.
 
 The same script writes the optional `animation` field that drives previews in the picker:
 `sequence` (frame thumbnails in order), `sheet` (a frame grid) or `animated` (a multi-frame
-GIF, WebP or APNG). Sheets use verified grids and named clips from `metadata/sheet-previews.json` when available.
+GIF, WebP or APNG). Sheets use source-verified grids (including rectangular frames) and named clips from `metadata/sheet-previews.json` when available.
+Column-oriented clips record a stride. Verified pose sheets use an empty clip list.
 Otherwise, detection is limited to a single row or column of square frames with an action
 in its path. Unknown layouts keep a static thumbnail. Named clips require a consumer that
 supports sheet `clips`; update consumers before publishing clip metadata. The catalog

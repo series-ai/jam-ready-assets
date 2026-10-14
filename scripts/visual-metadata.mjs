@@ -56,19 +56,23 @@ export function writeJsonLines(path, rows) {
   renameSync(tmp, path);
 }
 export function validateSheetPreview(preview, label) {
-  if (!preview || !label || label.frameCount !== 1 || label.kind !== 'sheet') fail('sheet preview needs a static sheet label');
-  const { columns, rows, clips, source, note } = preview;
-  if (Object.keys(preview).some((key) => !['columns', 'rows', 'clips', 'source', 'note'].includes(key))) fail('unexpected sheet preview field');
+  if (!preview || !label || label.frameCount !== 1) fail('sheet preview needs a static sheet label');
+  const { columns, rows, clips, source, note, rects } = preview;
+  if (Object.keys(preview).some((key) => !['columns', 'rows', 'clips', 'source', 'note', 'rects'].includes(key))) fail('unexpected sheet preview field');
   if (![columns, rows].every((n) => Number.isSafeInteger(n) && n > 0 && n <= 256)) fail('invalid sheet grid');
   const [width, height] = label.dimensions;
-  if (width % columns || height % rows || width * rows !== height * columns) fail('sheet preview must use whole square frames');
-  if (!Array.isArray(clips) || clips.length < 1 || clips.length > 32) fail('invalid sheet clips');
+  if (width % columns || height % rows) fail('sheet preview must use whole frames');
+  if (rects !== undefined && (!Array.isArray(rects) || rects.length < 2 || rects.length > 128 ||
+    rects.some((r) => !r || ![r.x, r.y, r.width, r.height].every(Number.isSafeInteger) ||
+      r.x < 0 || r.y < 0 || r.width <= 0 || r.height <= 0 || r.x + r.width > width || r.y + r.height > height))) fail('invalid packed frame rectangles');
+  if (!Array.isArray(clips) || clips.length > 32) fail('invalid sheet clips');
   for (const clip of clips) {
-    if (!clip || Object.keys(clip).some((key) => !['name', 'startFrame', 'frames'].includes(key))) fail('invalid sheet clip');
+    if (!clip || Object.keys(clip).some((key) => !['name', 'startFrame', 'frames', 'stride'].includes(key))) fail('invalid sheet clip');
     text(clip.name, 80, 'clip name');
     if (!clip.name.trim() || !Number.isSafeInteger(clip.startFrame) || clip.startFrame < 0 ||
-      !Number.isSafeInteger(clip.frames) || clip.frames < 2 || clip.frames > 32 ||
-      clip.startFrame + clip.frames > columns * rows) fail('invalid sheet clip range');
+      !Number.isSafeInteger(clip.frames) || clip.frames < 2 || clip.frames > 128 ||
+      !Number.isSafeInteger(clip.stride ?? 1) || (clip.stride ?? 1) < 1 ||
+      clip.startFrame + (clip.frames - 1) * (clip.stride ?? 1) >= (rects?.length ?? columns * rows)) fail('invalid sheet clip range');
   }
   if (new Set(clips.map((clip) => clip.name)).size !== clips.length) fail('duplicate sheet clip name');
   text(source, 1024, 'sheet source'); text(note, 500, 'sheet note');
