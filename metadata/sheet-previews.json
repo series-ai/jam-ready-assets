@@ -1,0 +1,142 @@
+{
+  "3fa888685882d8d59baa7e6ba6acfb872a484f8c868e5b33914c559b38a7ec4c": {
+    "columns": 8,
+    "rows": 3,
+    "clips": [
+      {
+        "name": "Idle",
+        "startFrame": 0,
+        "frames": 4
+      },
+      {
+        "name": "Walk right",
+        "startFrame": 8,
+        "frames": 8
+      },
+      {
+        "name": "Walk left",
+        "startFrame": 16,
+        "frames": 8
+      }
+    ],
+    "source": "https://opengameart.org/content/pixelated-employee-character",
+    "note": "The 24 x 24 grid has four occupied idle cells in row one and eight walking cells in each remaining row. Blank cells at the end of row one are excluded."
+  },
+  "ee71a978665c5c375603a4a047d129729e319f03708787279954171caabfd1e3": {
+    "columns": 17,
+    "rows": 1,
+    "clips": [
+      {
+        "name": "Idle",
+        "startFrame": 0,
+        "frames": 17
+      }
+    ],
+    "source": "https://pixelfrog-assets.itch.io/pixel-adventure-1",
+    "note": "The complete horizontal strip uses 32 x 32 frames in left-to-right order."
+  },
+  "d234d94d916a8777341a45ac3120f3aeb1c1e044ce7294d3183dd08e2dce9f42": {
+    "columns": 17,
+    "rows": 1,
+    "clips": [
+      {
+        "name": "Idle",
+        "startFrame": 0,
+        "frames": 17
+      }
+    ],
+    "source": "https://pixelfrog-assets.itch.io/pixel-adventure-1",
+    "note": "The complete horizontal strip uses 32 x 32 frames in left-to-right order."
+  },
+  "d9edb2c3157a28daf47c5f76a3cfb9354e6caa623c364784bfc3c015602e8f05": {
+    "columns": 17,
+    "rows": 1,
+    "clips": [
+      {
+        "name": "Idle",
+        "startFrame": 0,
+        "frames": 17
+      }
+    ],
+    "source": "https://pixelfrog-assets.itch.io/pixel-adventure-1",
+    "note": "The complete horizontal strip uses 32 x 32 frames in left-to-right order."
+  },
+  "a95221be04a4eb2b567f12954257307b4b4a6735373562309a130a88ff978c11": {
+    "columns": 6,
+    "rows": 1,
+    "clips": [
+      {
+        "name": "Collect",
+        "startFrame": 0,
+        "frames": 6
+      }
+    ],
+    "source": "https://pixelfrog-assets.itch.io/pixel-adventure-1",
+    "note": "The complete horizontal strip uses 32 x 32 frames in left-to-right order."
+  },
+  "2db09bbb75304583e2aa87b73c3bcf7cfab829ac23d2fe9cb1b99188cbb39c17": {
+    "columns": 17,
+    "rows": 1,
+    "clips": [
+      {
+        "name": "Idle",
+        "startFrame": 0,
+        "frames": 17
+      }
+    ],
+    "source": "https://pixelfrog-assets.itch.io/pixel-adventure-1",
+    "note": "The complete horizontal strip uses 32 x 32 frames in left-to-right order."
+  },
+  "35216881ce7b8f38397335ea04b159d3340e4b2096d5ba729ed4960de39de5fe": {
+    "columns": 17,
+    "rows": 1,
+    "clips": [
+      {
+        "name": "Idle",
+        "startFrame": 0,
+        "frames": 17
+      }
+    ],
+    "source": "https://pixelfrog-assets.itch.io/pixel-adventure-1",
+    "note": "The complete horizontal strip uses 32 x 32 frames in left-to-right order."
+  },
+  "5638574b3fc7cb471184175d47dcbbee5be4d0cec75d4b7b7bfeae3017077736": {
+    "columns": 17,
+    "rows": 1,
+    "clips": [
+      {
+        "name": "Idle",
+        "startFrame": 0,
+        "frames": 17
+      }
+    ],
+    "source": "https://pixelfrog-assets.itch.io/pixel-adventure-1",
+    "note": "The complete horizontal strip uses 32 x 32 frames in left-to-right order."
+  },
+  "872b73e2631fb8c86b4b90c183be6595401faf5850b5d8527e983e8842617b6d": {
+    "columns": 17,
+    "rows": 1,
+    "clips": [
+      {
+        "name": "Idle",
+        "startFrame": 0,
+        "frames": 17
+      }
+    ],
+    "source": "https://pixelfrog-assets.itch.io/pixel-adventure-1",
+    "note": "The complete horizontal strip uses 32 x 32 frames in left-to-right order."
+  },
+  "19f65cfcf207e6bb493bf5f0cbc806a0b6582d36b60ba9e9f9f3e5d463e82661": {
+    "columns": 17,
+    "rows": 1,
+    "clips": [
+      {
+        "name": "Idle",
+        "startFrame": 0,
+        "frames": 17
+      }
+    ],
+    "source": "https://pixelfrog-assets.itch.io/pixel-adventure-1",
+    "note": "The complete horizontal strip uses 32 x 32 frames in left-to-right order."
+  }
+}

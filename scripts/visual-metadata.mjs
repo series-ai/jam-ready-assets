@@ -55,6 +55,26 @@ export function writeJsonLines(path, rows) {
   writeFileSync(tmp, gzipSync(`${rows.map((r) => JSON.stringify(r)).join('\n')}\n`, { level: 9, mtime: 0 }));
   renameSync(tmp, path);
 }
+export function validateSheetPreview(preview, label) {
+  if (!preview || !label || label.frameCount !== 1 || label.kind !== 'sheet') fail('sheet preview needs a static sheet label');
+  const { columns, rows, clips, source, note } = preview;
+  if (Object.keys(preview).some((key) => !['columns', 'rows', 'clips', 'source', 'note'].includes(key))) fail('unexpected sheet preview field');
+  if (![columns, rows].every((n) => Number.isSafeInteger(n) && n > 0 && n <= 256)) fail('invalid sheet grid');
+  const [width, height] = label.dimensions;
+  if (width % columns || height % rows || width * rows !== height * columns) fail('sheet preview must use whole square frames');
+  if (!Array.isArray(clips) || clips.length < 1 || clips.length > 32) fail('invalid sheet clips');
+  for (const clip of clips) {
+    if (!clip || Object.keys(clip).some((key) => !['name', 'startFrame', 'frames'].includes(key))) fail('invalid sheet clip');
+    text(clip.name, 80, 'clip name');
+    if (!clip.name.trim() || !Number.isSafeInteger(clip.startFrame) || clip.startFrame < 0 ||
+      !Number.isSafeInteger(clip.frames) || clip.frames < 2 || clip.frames > 32 ||
+      clip.startFrame + clip.frames > columns * rows) fail('invalid sheet clip range');
+  }
+  if (new Set(clips.map((clip) => clip.name)).size !== clips.length) fail('duplicate sheet clip name');
+  text(source, 1024, 'sheet source'); text(note, 500, 'sheet note');
+  if (!source.startsWith('https://') || !note.trim()) fail('sheet preview needs source evidence');
+  return preview;
+}
 export function readVisualMetadata(root) {
   const dir = join(root, 'metadata');
   if (!existsSync(join(dir, 'visual.json'))) return { labels: new Map(), bindings: new Map(), thumbnails: {}, config: null };
@@ -82,10 +102,17 @@ export function readVisualMetadata(root) {
   for (const [oid, thumbnail] of Object.entries(thumbnails)) {
     if (!HASH.test(oid) || !HASH.test(thumbnail.oid) || !Number.isInteger(thumbnail.bytes) || thumbnail.bytes < 1 || thumbnail.bytes > 40960 || ![thumbnail.width, thumbnail.height].every((n) => Number.isInteger(n) && n > 0 && n <= 256)) fail('invalid thumbnail');
   }
-  return { labels, bindings, thumbnails, config };
+  const sheetPath = join(dir, 'sheet-previews.json');
+  const sheetPreviews = existsSync(sheetPath) ? JSON.parse(readFileSync(sheetPath, 'utf8')) : {};
+  if (!sheetPreviews || typeof sheetPreviews !== 'object' || Array.isArray(sheetPreviews)) fail('invalid sheet previews');
+  for (const [oid, preview] of Object.entries(sheetPreviews)) {
+    if (!HASH.test(oid)) fail('invalid sheet source hash');
+    validateSheetPreview(preview, labels.get(oid));
+  }
+  return { labels, bindings, thumbnails, config, sheetPreviews };
 }
 export function metadataRevision(metadata) {
-  return sha256(JSON.stringify([metadata.config, [...metadata.labels.values()], [...metadata.bindings.values()], metadata.thumbnails]));
+  return sha256(JSON.stringify([metadata.config, [...metadata.labels.values()], [...metadata.bindings.values()], metadata.thumbnails, metadata.sheetPreviews ?? {}]));
 }
 export function currentLabel(metadata, packId, file) {
   const binding = metadata.bindings.get(`${packId}/${file.path}`);

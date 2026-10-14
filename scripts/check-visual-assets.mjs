@@ -58,7 +58,7 @@ for (let page = 0; page < Math.ceil(descriptor.assetCount / 16); page++) {
     const label = currentLabel(metadata, item.packId, file);
     const reason = expectedSelectionReason(summaries.get(item.packId), file, label, evidence, groups);
     if (item.selectable !== (reason === null) || (item.selectionReason ?? null) !== reason) throw new Error(`Selection grouping mismatch: ${item.packId}/${item.path}`);
-    const animation = assetAnimation(summaries.get(item.packId), file, label, groups, metadata.thumbnails, evidence);
+    const animation = assetAnimation(summaries.get(item.packId), file, label, groups, metadata.thumbnails, evidence, metadata.sheetPreviews);
     if (JSON.stringify(item.animation ?? null) !== JSON.stringify(animation)) throw new Error(`Animation preview mismatch: ${item.packId}/${item.path}`);
     lastId = item.id; count++;
   }

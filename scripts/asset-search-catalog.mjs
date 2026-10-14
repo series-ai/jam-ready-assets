@@ -107,7 +107,7 @@ export function sequenceGroups(pack, files, labelFor, thumbnails, evidence) {
   }
   return groups;
 }
-export function assetAnimation(pack, file, label, groups, thumbnails, evidence) {
+export function assetAnimation(pack, file, label, groups, thumbnails, evidence, sheetPreviews = {}) {
   const group = groups.get(file.path);
   if (group) {
     if (group.members[0] !== file) return null;
@@ -119,6 +119,11 @@ export function assetAnimation(pack, file, label, groups, thumbnails, evidence) 
   }
   if (!tagged(label)) return null;
   if (label.frameCount > 1) return /\.(gif|webp|png)$/i.test(file.path) ? { type: 'animated', frames: label.frameCount } : null;
+  const preview = sheetPreviews[file.oid];
+  if (preview && /\.png$/i.test(file.path)) {
+    return { type: 'sheet', frames: preview.clips[0].frames,
+      columns: preview.columns, rows: preview.rows, clips: preview.clips };
+  }
   if (!/\.png$/i.test(file.path) || !hasAnimationWord(file.path)) return null;
   // A numbered file that did not group is a sheet only when it was labelled one.
   if ((evidence.numbered.get(numberedKey(file.path)) ?? 0) > 1 && label.kind !== 'sheet') return null;
@@ -158,7 +163,7 @@ export function buildAssetSearch(root, commit, packs, metadata) {
       if (!thumbnail) { coverage.filenameFallbackImages++; continue; }
       const id = sha256(`${pack.id}\0${file.path}`);
       const reason = expectedSelectionReason(pack, file, label, evidence, groups);
-      const animation = assetAnimation(pack, file, label, groups, metadata.thumbnails, evidence);
+      const animation = assetAnimation(pack, file, label, groups, metadata.thumbnails, evidence, metadata.sheetPreviews);
       if (!reason) coverage.selectableImages++;
       if (!label || label.confidence === 'none') coverage.filenameFallbackImages++;
       const item = {

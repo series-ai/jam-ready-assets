@@ -17,6 +17,11 @@ changes a pack's content version or the legacy schema-v1 manifest.
   hash prefix. Entries are flat `<thumbnail-sha256>.webp` files. Different sources can
   share an identical thumbnail. Each thumbnail is static, at most 256 pixels per side
   and 40 KiB, with preserved aspect ratio and nearest-neighbor scaling for pixel art.
+- `sheet-previews.json`: source SHA-256 keyed, manually verified square-frame grids and
+  named clips (`name`, zero-based `startFrame`, `frames`), with a source URL and layout note.
+  Each clip is a contiguous row-major range that excludes blank cells and other clips.
+  Missing records retain the conservative strip detection. Clip names are source content;
+  unknown clip layouts stay static. Source changes require a new verified hash entry.
 - `visual.json`: schema version, publication enable switch and explicit per-hash
   generation invalidations. Empty invalidations reuse approved historical identities.
 
