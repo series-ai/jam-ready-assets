@@ -5,6 +5,7 @@ import * as THREE from "three";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
 import * as SkeletonUtils from "three/examples/jsm/utils/SkeletonUtils.js";
 import { RoundedBoxGeometry } from "three/examples/jsm/geometries/RoundedBoxGeometry.js";
+import { mergeGeometries } from "three/examples/jsm/utils/BufferGeometryUtils.js";
 const P = (r, y, tag = "body", sharp) => ({ r, y, tag, sharp });
 function curve(y0, y1, rs, n = 10, tag = "body") {
   const out = [];
@@ -2928,6 +2929,7 @@ function applyFx(m, f, t) {
     d.scale.setScalar((1 - ph) * fl);
   });
 }
+const LEAF_GAIN = 0.7;
 function waggle(m, f, t) {
   var _a, _b;
   const st = (_a = m.group.userData).leaf ?? (_a.leaf = { t, pos: new THREE.Vector3(), vel: new THREE.Vector3(), yaw: 0, springs: /* @__PURE__ */ new Map() });
@@ -2950,28 +2952,33 @@ function waggle(m, f, t) {
   st.yaw = yaw;
   const local = acc.clone().applyQuaternion(q.clone().invert());
   const still = dt === 1 / 60 && reset;
-  let k = 0;
+  const parts = [];
   for (const holder of m.socket.children)
     for (const plant of holder.children)
       for (const part of plant.children) {
-        const q0 = (_b = part.userData).q0 ?? (_b.q0 = part.quaternion.clone());
-        const p = k++ * 1.7;
-        const sp = st.springs.get(part) ?? [0, 0, 0, 0, 0, 0];
-        const stiff = 90 + 50 * Math.sin(p * 2.3) ** 2;
-        const damp = f.leafDamp ?? 4.5;
-        const sway = [f.waggle * Math.sin(t * f.waggleRate * 2.1 + p * 0.7), f.waggle * 0.7 * Math.sin(t * f.waggleRate * 1.6 + p * 1.3), 0];
-        const drive = [THREE.MathUtils.clamp(-local.z * 0.012, -0.5, 0.5) + THREE.MathUtils.clamp(local.y * 0.01, -0.4, 0.4) * (0.6 + 0.4 * Math.sin(p)), THREE.MathUtils.clamp(local.x * 0.012, -0.5, 0.5), THREE.MathUtils.clamp(-yawRate * 0.06, -0.6, 0.6)];
-        if (!still)
-          for (let a = 0; a < 3; a++) {
-            const target = sway[a] + drive[a];
-            const accA = stiff * (target - sp[a]) - damp * sp[3 + a];
-            sp[3 + a] += accA * dt;
-            sp[a] += sp[3 + a] * dt;
-            sp[a] = THREE.MathUtils.clamp(sp[a], -0.7, 0.7);
-          }
-        st.springs.set(part, sp);
-        part.quaternion.copy(q0).premultiply(new THREE.Quaternion().setFromEuler(new THREE.Euler(sp[0], sp[2], sp[1])));
+        parts.push([part, 1]);
+        for (const leaf of part.children) if (leaf.userData.leafSpring) parts.push([leaf, LEAF_GAIN]);
       }
+  let k = 0;
+  for (const [part, gain] of parts) {
+    const q0 = (_b = part.userData).q0 ?? (_b.q0 = part.quaternion.clone());
+    const p = k++ * 1.7;
+    const sp = st.springs.get(part) ?? [0, 0, 0, 0, 0, 0];
+    const stiff = 90 + 50 * Math.sin(p * 2.3) ** 2;
+    const damp = f.leafDamp ?? 4.5;
+    const sway = [f.waggle * Math.sin(t * f.waggleRate * 2.1 + p * 0.7), f.waggle * 0.7 * Math.sin(t * f.waggleRate * 1.6 + p * 1.3), 0];
+    const drive = [THREE.MathUtils.clamp(-local.z * 0.012, -0.5, 0.5) + THREE.MathUtils.clamp(local.y * 0.01, -0.4, 0.4) * (0.6 + 0.4 * Math.sin(p)), THREE.MathUtils.clamp(local.x * 0.012, -0.5, 0.5), THREE.MathUtils.clamp(-yawRate * 0.06, -0.6, 0.6)];
+    if (!still)
+      for (let a = 0; a < 3; a++) {
+        const target = (sway[a] + drive[a]) * gain;
+        const accA = stiff * (target - sp[a]) - damp * sp[3 + a];
+        sp[3 + a] += accA * dt;
+        sp[a] += sp[3 + a] * dt;
+        sp[a] = THREE.MathUtils.clamp(sp[a], -0.7, 0.7);
+      }
+    st.springs.set(part, sp);
+    part.quaternion.copy(q0).premultiply(new THREE.Quaternion().setFromEuler(new THREE.Euler(sp[0], sp[2], sp[1])));
+  }
 }
 function poseMonster(m, t, anim, curvature = 0) {
   return applyPose(m, t, anim, curvature);
@@ -3075,6 +3082,70 @@ function applyPose(m, t, anim, curvature) {
   applyFx(m, f, t);
   waggle(m, f, t);
   return f.speed;
+}
+function mergeMeshes(root, under = [root], skip = () => false) {
+  root.updateMatrixWorld(true);
+  const toRoot = new THREE.Matrix4().copy(root.matrixWorld).invert();
+  const byMat = /* @__PURE__ */ new Map();
+  const visit = (o) => {
+    if (skip(o)) return;
+    o.children.forEach(visit);
+    const m = o;
+    if (!m.isMesh || m.isSkinnedMesh || Array.isArray(m.material) || m.morphTargetInfluences) return;
+    if (Math.abs(m.matrixWorld.determinant()) < 1e-12) return;
+    const list = byMat.get(m.material) ?? [];
+    list.push(m);
+    byMat.set(m.material, list);
+  };
+  under.forEach(visit);
+  const merged = [];
+  for (const [mat2, meshes] of byMat) {
+    if (meshes.length < 2) continue;
+    const colour = meshes.some((m) => m.geometry.getAttribute("color"));
+    const geos = meshes.map((m, bone) => {
+      const src = m.geometry;
+      const g = new THREE.BufferGeometry();
+      const n = src.getAttribute("position").count;
+      for (const k of ["position", "normal", "uv", "color"]) {
+        const a = src.getAttribute(k);
+        const size = k === "uv" ? 2 : 3;
+        const f = new Float32Array(n * size);
+        if (a) for (let i = 0; i < n; i++) for (let j = 0; j < size; j++) f[i * size + j] = a.getComponent(i, j);
+        else if (k === "color") f.fill(1);
+        if (a || k === "color" && colour || k === "uv") g.setAttribute(k, new THREE.BufferAttribute(f, size));
+      }
+      if (!colour) g.deleteAttribute("color");
+      if (!src.getAttribute("normal")) g.computeVertexNormals();
+      g.setIndex(src.index ? Array.from(src.index.array) : Array.from({ length: n }, (_, i) => i));
+      g.applyMatrix4(new THREE.Matrix4().multiplyMatrices(toRoot, m.matrixWorld));
+      if (m.matrixWorld.determinant() < 0) {
+        const ix = g.index.array;
+        for (let i = 0; i < ix.length; i += 3) [ix[i + 1], ix[i + 2]] = [ix[i + 2], ix[i + 1]];
+      }
+      g.setAttribute("skinIndex", new THREE.Uint16BufferAttribute(new Uint16Array(n * 4).map((_, i) => i % 4 ? 0 : bone), 4));
+      g.setAttribute("skinWeight", new THREE.Float32BufferAttribute(new Float32Array(n * 4).map((_, i) => i % 4 ? 0 : 1), 4));
+      return g;
+    });
+    const geo = mergeGeometries(geos);
+    if (!geo) continue;
+    const sm = new THREE.SkinnedMesh(geo, mat2);
+    sm.name = `merged-${mat2.name || "mat"}`;
+    sm.castShadow = meshes[0].castShadow;
+    root.add(sm);
+    sm.updateMatrixWorld(true);
+    sm.bind(new THREE.Skeleton(meshes));
+    for (const m of meshes) m.isMesh = false, m.userData.merged = true;
+    merged.push(sm);
+  }
+  return merged;
+}
+function unmergeMeshes(merged) {
+  for (const sm of merged) {
+    for (const b of sm.skeleton.bones) b.isMesh = true, delete b.userData.merged;
+    sm.removeFromParent();
+    sm.geometry.dispose();
+    sm.skeleton.dispose();
+  }
 }
 const KIT_STALK_UV = { u: 0.16209, vBase: 0.44614, vTip: 0.33626 };
 const UP$2 = new THREE.Vector3(0, 1, 0);
@@ -4755,6 +4826,7 @@ class Tot {
     /** Animation clock offset (so a crowd isn't in sync). */
     __publicField(this, "t0", 0);
     __publicField(this, "r");
+    __publicField(this, "merged", null);
     this.kit = kit;
     this.o = o;
     const pot = buildPot(potById(o.pot ?? "classic"), o.cw ?? 0);
@@ -4777,9 +4849,24 @@ class Tot {
     });
   }
   setPlant(species, age2, sport = false) {
+    const merged = this.merged;
+    if (merged) this.mergeMeshes(false);
     this.holder.clear();
-    this.holder.add(growPlant(this.kit, species, age2, this.r, this.monster.pot.height * SCALE * 0.95, sport));
+    const plant = growPlant(this.kit, species, age2, this.r, this.monster.pot.height * SCALE * 0.95, sport);
+    if ((this.o.sway ?? "leaves") === "leaves") {
+      for (const part of plant.children) for (const leaf of part.children) if (!leaf.isMesh) leaf.userData.leafSpring = true;
+    }
+    this.holder.add(plant);
     this.holder.traverse((x) => x.castShadow = true);
+    if (merged) this.mergeMeshes();
+  }
+  /**
+   * Draw the plant and pot as one mesh per material: a tot drops from 40 to 100+ draw calls to about 20, and moves the
+   * same. Stays on through setPlant. The props (couch, seed pod...) show and hide, so they stay separate.
+   */
+  mergeMeshes(on = true) {
+    if (this.merged) unmergeMeshes(this.merged);
+    this.merged = on ? mergeMeshes(this.root, [this.monster.pot.group], (o) => !!o.userData.fx) : null;
   }
   /** Pose at time t; returns travel speed in scene units / s. */
   pose(t, anim = this.anim) {
@@ -4825,7 +4912,7 @@ function leafSpots(plant, minUp) {
   const nm = new THREE.Matrix3();
   plant.traverse((o) => {
     const mesh = o;
-    if (!mesh.isMesh || mesh.userData.pest) return;
+    if (!(mesh.isMesh || mesh.userData.merged) || mesh.userData.pest) return;
     const pos = mesh.geometry.getAttribute("position");
     if (!pos) return;
     const idx = mesh.geometry.getIndex();
@@ -4968,11 +5055,13 @@ export {
   loadKit,
   loadPackKit,
   look,
+  mergeMeshes,
   pest,
   poseMonster,
   potById,
   rollPestCount,
   rope,
   skinMaterial,
+  unmergeMeshes,
   who
 };
