@@ -37,6 +37,11 @@ const CREATOR_NAMES = {
   alexs: "Alex's Assets", jestan: 'Jestan', styloo: 'Styloo', isa: 'Isa Lousberg',
   proofofplay: 'Proof of Play', 'run-inkline': 'INKLINE contributors',
 };
+/** Packs credited to a named author rather than their slug prefix (the title still drops the prefix). */
+const PACK_CREATORS = {
+  'run-boo-brigade': 'RUN.sterf', 'run-chonky-hounds': 'RUN.sterf', 'run-critter-cubes': 'RUN.sterf',
+  'run-facet-fauna-cats': 'RUN.sterf', 'run-facet-fauna-dogs': 'RUN.sterf', 'run-terra-tots': 'RUN.sterf',
+};
 
 const LICENSE_FILE = /^(licen[cs]e|copying|unlicense)(\.[a-z0-9]+)?$/i;
 const RULES_URL = 'https://github.com/series-ai/jam-ready-assets/blob/main/AGENTS.md#rules-for-agents-modifying-this-repo';
@@ -62,6 +67,7 @@ function classifyLicense(packId, files) {
 }
 
 function creatorOf(slug) {
+  if (PACK_CREATORS[slug]) return { key: slug.split('-')[0], name: PACK_CREATORS[slug] };
   const key = Object.keys(CREATOR_NAMES).find((c) => slug.startsWith(`${c}-`));
   return key
     ? { key, name: CREATOR_NAMES[key] }
