@@ -4,6 +4,7 @@
   "startsAt": "2026-10-01T00:00:00Z",
   "endsAt": "2026-11-04T19:00:00Z",
   "packIds": [
+    "run-boo-brigade/3D/characters",
     "kaykit-halloween/3D/seasonal-holiday",
     "ansimuz-gothicvania-cemetery/2D/seasonal-holiday",
     "kenney-graveyard-kit/3D/seasonal-holiday",
