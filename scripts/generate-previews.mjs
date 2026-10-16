@@ -6,6 +6,7 @@ import sharp from 'sharp';
 import {
   localSourcePath,
   readPreviewSources,
+  selectionRecipeSuffix,
   validateSelection,
   PREVIEW_FILE,
   PREVIEW_MAX_BYTES,
@@ -25,7 +26,7 @@ for (const [id, entry] of Object.entries(config.packs)) {
   );
   if (entry.kind === 'none') continue;
   const output = localSourcePath(root, `${id}/${PREVIEW_FILE}`);
-  const entryRecipe = `${recipe}-frame${entry.frame ?? 0}`;
+  const entryRecipe = `${recipe}${selectionRecipeSuffix(entry)}`;
   if (
     entry.recipe === entryRecipe &&
     entry.outputSourceSha256 === entry.sourceSha256 &&
@@ -41,12 +42,23 @@ for (const [id, entry] of Object.entries(config.packs)) {
   }
   let result;
   for (const quality of [85, 75, 65]) {
-    result = await sharp(input, {
+    let image = sharp(input, {
       page: entry.frame ?? 0,
       pages: 1,
       limitInputPixels: 100_000_000,
-    })
-      .rotate()
+    }).rotate();
+    if (entry.crop) {
+      // Extract on a materialized buffer: sharp applies extract after resize in
+      // one pipeline, and the crop is given in source pixels.
+      const { left, top, size } = entry.crop;
+      image = sharp(await image.toBuffer()).extract({
+        left,
+        top,
+        width: size,
+        height: size,
+      });
+    }
+    result = await image
       .resize(PREVIEW_MAX_DIMENSION, PREVIEW_MAX_DIMENSION, {
         fit: 'inside',
         withoutEnlargement: true,

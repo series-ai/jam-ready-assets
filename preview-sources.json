@@ -74,7 +74,11 @@
       "width": 496,
       "height": 336,
       "bytes": 15662,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
+      "gallery": [
+        "coin.png",
+        "slimetint1.png"
+      ]
     },
     "barker-cant-stop-now-runner/2D/platformer": {
       "kind": "derived",
@@ -171,7 +175,11 @@
       "width": 512,
       "height": 406,
       "bytes": 26192,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
+      "gallery": [
+        "Building Animations/PNGs/Tower Construction.png",
+        "Wisp/Spritesheet/Wisp - Animations.png"
+      ]
     },
     "foozle-spire-enemies-flying/2D/fantasy": {
       "kind": "original",
@@ -186,7 +194,11 @@
       "width": 512,
       "height": 406,
       "bytes": 28550,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
+      "gallery": [
+        "Flying/Spritesheets/Firewasp.png",
+        "Flying/Spritesheets/Flying Locust.png"
+      ]
     },
     "foozle-spire-enemies-ground/2D/fantasy": {
       "kind": "original",
@@ -201,7 +213,11 @@
       "width": 512,
       "height": 406,
       "bytes": 26860,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
+      "gallery": [
+        "Ground/Spritesheets/Firebug.png",
+        "Ground/Spritesheets/Magma Crab.png"
+      ]
     },
     "foozle-spire-tileset/2D/fantasy": {
       "kind": "original",
@@ -321,7 +337,14 @@
       "width": 512,
       "height": 410,
       "bytes": 47614,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
+      "gallery": [
+        "1 - Grassland/Background parts/_Complete_static_BG_(288 x 208).png",
+        "2 - Autumn Forest/Background parts/_Complete_static_BG_(288 x 208).png",
+        "3 - Tropics/Background parts/_Complete_static_BG_(288 x 208).png",
+        "1 - Grassland/Terrain (16 x 16).png",
+        "2 - Autumn Forest/Terrain (16 x 16).png"
+      ]
     },
     "grafxkid-sprite-pack-1/2D/platformer": {
       "kind": "original",
@@ -420,12 +443,21 @@
       "sourcePath": "kaykit-adventurers/3D/characters/contents.png",
       "description": "Original creator pack preview bundled with the licensed asset archive; composition preserved.",
       "sourceSha256": "94b611c9fe92a5cd02354b9c1194feef9663860ab7d2a6a796c60319a5aaa207",
-      "outputSha256": "62dc08629fc8b7511ab3cece4e759ca923ae98107b46368ff80f148b97ff8c53",
+      "outputSha256": "4762fdddafde63994857395eacd91b3381aa6db43eecd7bcd9aa95c3dded19de",
       "outputSourceSha256": "94b611c9fe92a5cd02354b9c1194feef9663860ab7d2a6a796c60319a5aaa207",
       "width": 512,
-      "height": 288,
-      "bytes": 21066,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 21434,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop840_0_1080",
+      "crop": {
+        "left": 840,
+        "top": 0,
+        "size": 1080
+      },
+      "gallery": [
+        "Samples/barbarian.png",
+        "Samples/druid.png"
+      ]
     },
     "kaykit-block-bits/3D/prototype-blocks": {
       "kind": "original",
@@ -434,12 +466,17 @@
       "sourcePath": "kaykit-block-bits/3D/prototype-blocks/sample.png",
       "description": "Original creator pack preview bundled with the licensed asset archive; composition preserved.",
       "sourceSha256": "66f1b97e0b90f32210b7125da31d6f8f7da893fd48099232131af8d005716a85",
-      "outputSha256": "5e86cf9f940c8a88b1e536dc91a4d0d5114a0316fff051d9aefce8fd3e241a01",
+      "outputSha256": "751f8dac4d1fdc84e364fc3a4b04ba40d0f89c3f8778f964cd13d4b9db941d4c",
       "outputSourceSha256": "66f1b97e0b90f32210b7125da31d6f8f7da893fd48099232131af8d005716a85",
       "width": 512,
-      "height": 288,
-      "bytes": 17244,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 30740,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop384_0_929",
+      "crop": {
+        "left": 384,
+        "top": 0,
+        "size": 929
+      }
     },
     "kaykit-character-animations/3D/characters": {
       "kind": "original",
@@ -463,12 +500,21 @@
       "sourcePath": "kaykit-city-builder/3D/city/CityBuilder_Sample_A.jpg",
       "description": "Original creator pack preview bundled with the licensed asset archive; composition preserved.",
       "sourceSha256": "3695aa1ede608ffb3409b11ba5e8a4bb49325d632f0beb1870a956660af485bd",
-      "outputSha256": "3da771ac8acf6d3f60c9bfc418329f7d87b62dc150ef828a89a0a1abdf0763c4",
+      "outputSha256": "9c34844c8fb2617fbc12f80f2b1c0eb760cf27be532ae02766eeb837348f9ae5",
       "outputSourceSha256": "3695aa1ede608ffb3409b11ba5e8a4bb49325d632f0beb1870a956660af485bd",
       "width": 512,
-      "height": 288,
-      "bytes": 23220,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 34848,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop384_0_929",
+      "crop": {
+        "left": 384,
+        "top": 0,
+        "size": 929
+      },
+      "gallery": [
+        "CityBuilder_Contents.jpg",
+        "CityBuilder_Sample_B.jpg"
+      ]
     },
     "kaykit-dungeon/3D/dungeon": {
       "kind": "original",
@@ -477,12 +523,22 @@
       "sourcePath": "kaykit-dungeon/3D/dungeon/Samples/dungeon_remastered_sample1.png",
       "description": "Original creator pack preview bundled with the licensed asset archive; composition preserved.",
       "sourceSha256": "cef42f03e528982ce2630f490e525f44ce39e6a93dfbd296a10cca74f56d7f92",
-      "outputSha256": "9b3fd82fb59e945480d52106c704803861e1d41dd8ec3ab2a341d072ceabc563",
+      "outputSha256": "516d7556ff337fa2634d9caf83968d11fa171a3d6a794e96a2dfeec9f635d16b",
       "outputSourceSha256": "cef42f03e528982ce2630f490e525f44ce39e6a93dfbd296a10cca74f56d7f92",
       "width": 512,
-      "height": 288,
-      "bytes": 15240,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 15524,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop840_0_1080",
+      "crop": {
+        "left": 840,
+        "top": 0,
+        "size": 1080
+      },
+      "gallery": [
+        "Samples/dungeon_remastered_sample13.jpg",
+        "Samples/dungeon_remastered_sample8.png",
+        "update_contents.jpg"
+      ]
     },
     "kaykit-fantasy-weapons/3D/weapons": {
       "kind": "original",
@@ -491,12 +547,17 @@
       "sourcePath": "kaykit-fantasy-weapons/3D/weapons/sample.png",
       "description": "Original creator pack preview bundled with the licensed asset archive; composition preserved.",
       "sourceSha256": "b4423052197e0ed0ec14828f8f5d7023feb0fb0115ac3a7c73b9de3d36e84111",
-      "outputSha256": "077c099d24ed3634648daf4a67c52054ffb14aad8976e527712937357f3ce19e",
+      "outputSha256": "076a6256fcfa6ee9b4dbcf66cd4035cddc14a6cad314086a02039445388598ee",
       "outputSourceSha256": "b4423052197e0ed0ec14828f8f5d7023feb0fb0115ac3a7c73b9de3d36e84111",
       "width": 512,
-      "height": 288,
-      "bytes": 22402,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 25520,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop384_0_929",
+      "crop": {
+        "left": 384,
+        "top": 0,
+        "size": 929
+      }
     },
     "kaykit-forest-nature/3D/nature": {
       "kind": "original",
@@ -505,12 +566,17 @@
       "sourcePath": "kaykit-forest-nature/3D/nature/Samples/Forest_Nature_Pack_sample1.png",
       "description": "Original creator pack preview bundled with the licensed asset archive; composition preserved.",
       "sourceSha256": "9ab67c1101db07743c3d8d9291d657a6b8ed7eac27ac64248f5d2751719b50cb",
-      "outputSha256": "f2eb2098dca8984ca19cde2ae7ccc0edbb13b1f0b13699b61f47cc9db34e9019",
+      "outputSha256": "ad2c447a227f2009af0465e1535b9e4c31721cf21878ba3bf92ccc42ba9a1afc",
       "outputSourceSha256": "9ab67c1101db07743c3d8d9291d657a6b8ed7eac27ac64248f5d2751719b50cb",
       "width": 512,
-      "height": 288,
-      "bytes": 19228,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 19682,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop840_0_1080",
+      "crop": {
+        "left": 840,
+        "top": 0,
+        "size": 1080
+      }
     },
     "kaykit-furniture/3D/interior-furniture": {
       "kind": "original",
@@ -519,12 +585,21 @@
       "sourcePath": "kaykit-furniture/3D/interior-furniture/Furniture_Sample_A.jpg",
       "description": "Original creator pack preview bundled with the licensed asset archive; composition preserved.",
       "sourceSha256": "3573011d09a67cd478d4c9387a7b4c99cbe6c1212977cb154bb79db9a8c1da08",
-      "outputSha256": "1b38fa2d5287c5e646a23b6095c6c55b167122e7ec7d91cb9294f670b40bad3c",
+      "outputSha256": "cd42630b402deddaaa599a24473a1cb7ebb2751c7bedc18c64d25e815fa1fc43",
       "outputSourceSha256": "3573011d09a67cd478d4c9387a7b4c99cbe6c1212977cb154bb79db9a8c1da08",
       "width": 512,
-      "height": 288,
-      "bytes": 17810,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 16818,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop384_0_929",
+      "crop": {
+        "left": 384,
+        "top": 0,
+        "size": 929
+      },
+      "gallery": [
+        "Furniture_Contents.jpg",
+        "Furniture_Sample_B.jpg"
+      ]
     },
     "kaykit-halloween/3D/seasonal-holiday": {
       "kind": "original",
@@ -533,12 +608,21 @@
       "sourcePath": "kaykit-halloween/3D/seasonal-holiday/Halloween_Sample_A.jpg",
       "description": "Original creator pack preview bundled with the licensed asset archive; composition preserved.",
       "sourceSha256": "d8e85faf2da56dae51ea61526a3760b096f23109754a0493082b83ae62919d66",
-      "outputSha256": "342759c9c9401e3ba04bbc3820bf1ba2d5460709b0ed33ff4e2f1df0c78e2498",
+      "outputSha256": "82b8ed37ab1bc68624e2a2bda04f932e194e3eaf136bf00f7bb8c5c90e1fa22f",
       "outputSourceSha256": "d8e85faf2da56dae51ea61526a3760b096f23109754a0493082b83ae62919d66",
       "width": 512,
-      "height": 288,
-      "bytes": 25918,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 39418,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop384_0_929",
+      "crop": {
+        "left": 384,
+        "top": 0,
+        "size": 929
+      },
+      "gallery": [
+        "Halloween_Contents.jpg",
+        "Halloween_Sample_B.jpg"
+      ]
     },
     "kaykit-holiday/3D/seasonal-holiday": {
       "kind": "original",
@@ -547,12 +631,17 @@
       "sourcePath": "kaykit-holiday/3D/seasonal-holiday/sample_A.png",
       "description": "Original creator pack preview bundled with the licensed asset archive; composition preserved.",
       "sourceSha256": "44e35fd39166ac242b4c4a4c366cc3f5bf9a6f7074ece34f0cdfe7d46f510ba5",
-      "outputSha256": "9a3d8519e0181e8aa781db7f6c398d7848f77fbd60af1c8fdf21679624ead214",
+      "outputSha256": "49d4c2912cfa5a1b57f1d3d4cb1f7f10dd29043cb7f3b3d2ab3c2c6316aa720d",
       "outputSourceSha256": "44e35fd39166ac242b4c4a4c366cc3f5bf9a6f7074ece34f0cdfe7d46f510ba5",
       "width": 512,
-      "height": 288,
-      "bytes": 25676,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 37206,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop384_0_929",
+      "crop": {
+        "left": 384,
+        "top": 0,
+        "size": 929
+      }
     },
     "kaykit-medieval-hexagon/3D/strategy-hex": {
       "kind": "original",
@@ -561,12 +650,17 @@
       "sourcePath": "kaykit-medieval-hexagon/3D/strategy-hex/Samples/sample1.jpg",
       "description": "Original creator pack preview bundled with the licensed asset archive; composition preserved.",
       "sourceSha256": "4256b86ae60e11a1b992535e984daa60d62dcdfa9e620f58c12f313af2683d32",
-      "outputSha256": "e4b4f07f52b65ffc85926ed6e26f745ff9657c5e854489620b8e1026e8fb9636",
+      "outputSha256": "11cf18d68a82b89280170706abe00dd74fd3f938ef9264275f3f28dfc1e07599",
       "outputSourceSha256": "4256b86ae60e11a1b992535e984daa60d62dcdfa9e620f58c12f313af2683d32",
       "width": 512,
-      "height": 288,
-      "bytes": 20274,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 20252,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop840_0_1080",
+      "crop": {
+        "left": 840,
+        "top": 0,
+        "size": 1080
+      }
     },
     "kaykit-mystery-monthly-4/3D/misc": {
       "kind": "original",
@@ -581,7 +675,15 @@
       "width": 512,
       "height": 406,
       "bytes": 35916,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
+      "gallery": [
+        "2 - August 2023 - Driver/artwork.png",
+        "3 - September 2023 - Monster Costume/artwork.png",
+        "4 - October 2023 - Werewolf/artwork.png",
+        "5 - November 2023 - Animatronic/artwork.png",
+        "6 - December 2023 - Action Figure/artwork.png",
+        "7 - January 2024 - Space Ranger/artwork.png"
+      ]
     },
     "kaykit-mystery-monthly-5/3D/misc": {
       "kind": "original",
@@ -596,7 +698,15 @@
       "width": 512,
       "height": 406,
       "bytes": 36716,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
+      "gallery": [
+        "10 - April 2025 - Protagonists/artwork.png",
+        "11 - May 2025 - Hiker/artwork.png",
+        "12 - June 2025 - Tiefling/artwork.png",
+        "5 - November 2024 - Witch/artwork.png",
+        "6 - December 2024 - Helpers/artwork.png",
+        "8 - February 2025 - Caveman/artwork.png"
+      ]
     },
     "kaykit-platformer/3D/platformer": {
       "kind": "original",
@@ -605,12 +715,17 @@
       "sourcePath": "kaykit-platformer/3D/platformer/Samples/sample1.png",
       "description": "Original creator pack preview bundled with the licensed asset archive; composition preserved.",
       "sourceSha256": "2c3c9e37792938075298e163282a76093c2881609c7651e895b38a188c305b79",
-      "outputSha256": "9219861ef86e15ccdb9880520c713ac5134b4c30eb91627740c61889db958fe0",
+      "outputSha256": "7106d0ffde3934bcfc45b085ebe923ebdfc0f57ffdbc8ce48d9010cc573c5dbb",
       "outputSourceSha256": "2c3c9e37792938075298e163282a76093c2881609c7651e895b38a188c305b79",
       "width": 512,
-      "height": 288,
-      "bytes": 14244,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 16544,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop630_0_1080",
+      "crop": {
+        "left": 630,
+        "top": 0,
+        "size": 1080
+      }
     },
     "kaykit-prototype-bits/3D/prototype-blocks": {
       "kind": "original",
@@ -619,12 +734,17 @@
       "sourcePath": "kaykit-prototype-bits/3D/prototype-blocks/Prototype_Sample_A.jpg",
       "description": "Original creator pack preview bundled with the licensed asset archive; composition preserved.",
       "sourceSha256": "466791ddf514463d1e8f67a83d55f293f1c8bfebb84a9e492af962a18982b44b",
-      "outputSha256": "d89cf3c4c9d4f017b98690c1fc281108790e6560d12dd016871990f75508e85a",
+      "outputSha256": "9d444e041ee7f6eade8d7b0f4f531ab2e449d1f6f2978299bcea74d4369764e6",
       "outputSourceSha256": "466791ddf514463d1e8f67a83d55f293f1c8bfebb84a9e492af962a18982b44b",
       "width": 512,
-      "height": 288,
-      "bytes": 23634,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 32702,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop384_0_929",
+      "crop": {
+        "left": 384,
+        "top": 0,
+        "size": 929
+      }
     },
     "kaykit-resource-bits/3D/misc": {
       "kind": "original",
@@ -633,12 +753,17 @@
       "sourcePath": "kaykit-resource-bits/3D/misc/sample.png",
       "description": "Original creator pack preview bundled with the licensed asset archive; composition preserved.",
       "sourceSha256": "88d2c87db5f22d407d9076c4b1611a070f63df0aad3b3f14616ded8e03e1e1b6",
-      "outputSha256": "da93ba3f41028642aeda5f19fe2a3bc953fad154f5c286437f6d76fcec0c38c8",
+      "outputSha256": "e1a5089a19cc360b32ce80f409f6cd2e8b71d92dda3c4b8c2294c9a544de0cc7",
       "outputSourceSha256": "88d2c87db5f22d407d9076c4b1611a070f63df0aad3b3f14616ded8e03e1e1b6",
       "width": 512,
-      "height": 288,
-      "bytes": 32920,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 45174,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop384_0_929",
+      "crop": {
+        "left": 384,
+        "top": 0,
+        "size": 929
+      }
     },
     "kaykit-restaurant/3D/food": {
       "kind": "original",
@@ -647,12 +772,21 @@
       "sourcePath": "kaykit-restaurant/3D/food/Restaurant_Sample_A.jpg",
       "description": "Original creator pack preview bundled with the licensed asset archive; composition preserved.",
       "sourceSha256": "1109c2b33fe43112e5e8a4cf36c6022371822522762f26413bdf5529d3124290",
-      "outputSha256": "d4650bdabbc860afb6ea3daa530b0b9bf5ce38e09ae74bc4f92d8a1fcfacd9b7",
+      "outputSha256": "4ffb7f9007aa9c7d63972a89663de18191a56cd8d831b3a599b7719740cc0730",
       "outputSourceSha256": "1109c2b33fe43112e5e8a4cf36c6022371822522762f26413bdf5529d3124290",
       "width": 512,
-      "height": 288,
-      "bytes": 26888,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 38018,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop384_0_929",
+      "crop": {
+        "left": 384,
+        "top": 0,
+        "size": 929
+      },
+      "gallery": [
+        "Restaurant_Sample_B.jpg",
+        "Restaurant_Sample_C.jpg"
+      ]
     },
     "kaykit-rpg-tools/3D/misc": {
       "kind": "original",
@@ -661,12 +795,17 @@
       "sourcePath": "kaykit-rpg-tools/3D/misc/sample.png",
       "description": "Original creator pack preview bundled with the licensed asset archive; composition preserved.",
       "sourceSha256": "fae1960d25b9a4564d637bb93c61c4523d77801d266e14a6a9fb14d3f067e5f5",
-      "outputSha256": "99b8afa4c0b4d96f4756d99ddb713b546abf6c3b865bbd61ebb39437da8427c8",
+      "outputSha256": "e19e05479dc2d172a7925420ca988785301e5584ca88b5dba17e9e2478a440a5",
       "outputSourceSha256": "fae1960d25b9a4564d637bb93c61c4523d77801d266e14a6a9fb14d3f067e5f5",
       "width": 512,
-      "height": 288,
-      "bytes": 22314,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 27104,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop384_0_929",
+      "crop": {
+        "left": 384,
+        "top": 0,
+        "size": 929
+      }
     },
     "kaykit-skeletons/3D/characters": {
       "kind": "original",
@@ -675,12 +814,21 @@
       "sourcePath": "kaykit-skeletons/3D/characters/contents.png",
       "description": "Original creator pack preview bundled with the licensed asset archive; composition preserved.",
       "sourceSha256": "6c8fe8289c507c071eb0fa04afd71110112ce77c406b8f59235cf49c86904722",
-      "outputSha256": "b6af009e12794534f13ccaa3682db8886e6235ae0af7ff27df3f45cd515fe3a4",
+      "outputSha256": "c205f8c11478a4530c2ef917b3bae9c9f90b14951104796049ecb740970abb8b",
       "outputSourceSha256": "6c8fe8289c507c071eb0fa04afd71110112ce77c406b8f59235cf49c86904722",
       "width": 512,
-      "height": 288,
-      "bytes": 20020,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 24132,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop0_0_1080",
+      "crop": {
+        "left": 0,
+        "top": 0,
+        "size": 1080
+      },
+      "gallery": [
+        "Samples/minion.png",
+        "Samples/necromancer.png"
+      ]
     },
     "kaykit-space-base/3D/space-scifi": {
       "kind": "original",
@@ -689,12 +837,17 @@
       "sourcePath": "kaykit-space-base/3D/space-scifi/SpaceBase_Sample_A.jpg",
       "description": "Original creator pack preview bundled with the licensed asset archive; composition preserved.",
       "sourceSha256": "85f7d4863c34a508658b3ec39c23f448d4fe1cd48706f3f5de27a74a355115c9",
-      "outputSha256": "1fc5107d7a1be48d9f10fb2c27f17cce1119bd307629bc6c19bd85e3ac42ed80",
+      "outputSha256": "d621bf8e0297908967d3bfe99c75e16df6ed350f64f289847b868472fae1fd33",
       "outputSourceSha256": "85f7d4863c34a508658b3ec39c23f448d4fe1cd48706f3f5de27a74a355115c9",
       "width": 512,
-      "height": 288,
-      "bytes": 21194,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 27702,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop384_0_929",
+      "crop": {
+        "left": 384,
+        "top": 0,
+        "size": 929
+      }
     },
     "kenney-1-bit-pack/2D/misc": {
       "kind": "original",
@@ -709,7 +862,14 @@
       "height": 287,
       "bytes": 38600,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/1-bit-pack/263abe0f15-1677578508/sample_fantasy.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/1-bit-pack/263abe0f15-1677578508/sample_fantasy.png",
+      "gallery": [
+        "Preview.png",
+        "Sample_interior.png",
+        "Tilesheet/colored-transparent.png",
+        "Tilesheet/colored.png",
+        "Tilemap/tileset_legacy.png"
+      ]
     },
     "kenney-1-bit-platformer-pack/2D/platformer": {
       "kind": "original",
@@ -724,7 +884,12 @@
       "height": 287,
       "bytes": 22264,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/1-bit-platformer-pack/99c0d1a156-1677693069/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/1-bit-platformer-pack/99c0d1a156-1677693069/sample.png",
+      "gallery": [
+        "Preview.png",
+        "Tilemap/monochrome_tilemap.png",
+        "Tilemap/monochrome_tilemap_transparent.png"
+      ]
     },
     "kenney-abstract-platformer/2D/platformer": {
       "kind": "original",
@@ -739,7 +904,15 @@
       "height": 287,
       "bytes": 15454,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/abstract-platformer/c345a6a674-1677579168/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/abstract-platformer/c345a6a674-1677579168/sample.png",
+      "gallery": [
+        "Preview.png",
+        "Sample.png",
+        "Tilesheet/tilesheet_complete_2X.png",
+        "Tilesheet/tilesheet_complete.png",
+        "Spritesheet/spritesheet_complete.png",
+        "Spritesheet/spritesheet_other.png"
+      ]
     },
     "kenney-alien-ufo-pack/2D/space-scifi": {
       "kind": "original",
@@ -754,7 +927,11 @@
       "height": 287,
       "bytes": 10182,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/alien-ufo-pack/ead33b4106-1677667394/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/alien-ufo-pack/ead33b4106-1677667394/sample.png",
+      "gallery": [
+        "Spritesheets/spritesheet_lasers.png",
+        "Preview.png"
+      ]
     },
     "kenney-animal-pack-remastered/2D/nature": {
       "kind": "original",
@@ -769,7 +946,12 @@
       "height": 287,
       "bytes": 25258,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/animal-pack-remastered/e08024dab7-1677666930/preview.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/animal-pack-remastered/e08024dab7-1677666930/preview.png",
+      "gallery": [
+        "Preview.png",
+        "Spritesheet/squareOutline.png",
+        "Spritesheet/roundOutline.png"
+      ]
     },
     "kenney-animal-pack/2D/nature": {
       "kind": "original",
@@ -784,7 +966,12 @@
       "height": 287,
       "bytes": 18322,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/animal-pack/3562615d13-1677669990/preview.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/animal-pack/3562615d13-1677669990/preview.png",
+      "gallery": [
+        "Preview.png",
+        "Spritesheet/round.png",
+        "Spritesheet/round_nodetails.png"
+      ]
     },
     "kenney-animated-characters-bundle/3D/characters": {
       "kind": "original",
@@ -793,12 +980,21 @@
       "sourcePath": "kenney-animated-characters-bundle/3D/characters/Preview/models.png",
       "description": "Original bundled model preview, showing the character models at a larger scale than the full skin inventory.",
       "sourceSha256": "f4db9079dcc30a34533cc93d46ccfcb2c72c66343a2c71d26a4f3d88e9ec23a5",
-      "outputSha256": "9c5523c4fb5877377b76f7cf012da0c042bf3ce0f8594174a7d44a85845ae216",
+      "outputSha256": "43eca43545265242dd34e64db65264baa629ed0f5f8cbb289e355c962e4ef96c",
       "outputSourceSha256": "f4db9079dcc30a34533cc93d46ccfcb2c72c66343a2c71d26a4f3d88e9ec23a5",
       "width": 512,
-      "height": 287,
-      "bytes": 11062,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 23120,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop202_0_515",
+      "crop": {
+        "left": 202,
+        "top": 0,
+        "size": 515
+      },
+      "gallery": [
+        "Preview/items.png",
+        "Preview/skinsA.png"
+      ]
     },
     "kenney-animated-characters-protagonists/3D/characters": {
       "kind": "original",
@@ -852,12 +1048,23 @@
       "sourcePath": "kenney-axonometric-blocks/2D/prototype-blocks/Sample 1.png",
       "description": "Original bundled Kenney sample scene; the legacy pack listing is unavailable. Selected instead of its complete inventory sheet.",
       "sourceSha256": "bce1141b38e23fb15623fe3847e7cd4caf9a791833d7bdd46680dc91062a3006",
-      "outputSha256": "a497259ef6ce90bf16cbdeeb5504f41f88666cd43d35f220fd2e86cb84e4ce0f",
+      "outputSha256": "d068e11445484b9ae54d714dbeca488e2c531d6f4e33e8c05b7273c25e86420e",
       "outputSourceSha256": "bce1141b38e23fb15623fe3847e7cd4caf9a791833d7bdd46680dc91062a3006",
       "width": 512,
-      "height": 287,
-      "bytes": 11688,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 12064,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop202_0_515",
+      "crop": {
+        "left": 202,
+        "top": 0,
+        "size": 515
+      },
+      "gallery": [
+        "Sample 2.png",
+        "Sample 3.png",
+        "Spritesheet/allTiles_sheet.png",
+        "Spritesheet/platformerTiles_sheet.png"
+      ]
     },
     "kenney-background-elements-remastered/2D/platformer": {
       "kind": "original",
@@ -872,7 +1079,15 @@
       "height": 287,
       "bytes": 12772,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/background-elements-remastered/4a6494465e-1677693157/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/background-elements-remastered/4a6494465e-1677693157/sample.png",
+      "gallery": [
+        "Preview.png",
+        "Spritesheet/spritesheet_retina.png",
+        "Spritesheet/spritesheet_default.png",
+        "Backgrounds/backgroundCastles.png",
+        "Backgrounds/backgroundColorDesert.png",
+        "Backgrounds/Elements/cloudLayer1.png"
+      ]
     },
     "kenney-background-elements/2D/platformer": {
       "kind": "original",
@@ -887,7 +1102,14 @@
       "height": 287,
       "bytes": 6818,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/background-elements/9432bf6d7b-1677670389/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/background-elements/9432bf6d7b-1677670389/sample.png",
+      "gallery": [
+        "Preview.png",
+        "Sample.png",
+        "Spritesheet/bgElements_spritesheet.png",
+        "Samples/colored_castle.png",
+        "Samples/colored_desert.png"
+      ]
     },
     "kenney-blaster-kit/3D/space-scifi": {
       "kind": "original",
@@ -911,12 +1133,21 @@
       "sourcePath": "kenney-block-pack-pixel/2D/prototype-blocks/Sample.png",
       "description": "Original bundled Kenney sample scene; the legacy pack listing is unavailable. Selected instead of its complete inventory sheet.",
       "sourceSha256": "568332ad800dad5b6f1e9b280499258faff53f1fb449210b939dccf1563aaaeb",
-      "outputSha256": "973144bb9b57d81ec7b83a0381f1566e6227f56756d71893faaefecd954f743a",
+      "outputSha256": "4a6ec537c06217bfad93ef8cc5f6c727869fdc87ce1348ca339a1af91d686f0b",
       "outputSourceSha256": "568332ad800dad5b6f1e9b280499258faff53f1fb449210b939dccf1563aaaeb",
       "width": 512,
-      "height": 287,
-      "bytes": 24614,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 40754,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop202_0_515",
+      "crop": {
+        "left": 202,
+        "top": 0,
+        "size": 515
+      },
+      "gallery": [
+        "Preview.png",
+        "Sample_transparent.png"
+      ]
     },
     "kenney-block-pack/2D/prototype-blocks": {
       "kind": "original",
@@ -931,7 +1162,15 @@
       "height": 287,
       "bytes": 21864,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/block-pack/375988cd55-1677698768/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/block-pack/375988cd55-1677698768/sample.png",
+      "gallery": [
+        "Preview.png",
+        "Sample.png",
+        "Tilesheet/RPGblocks_tilesheet@2.png",
+        "Spritesheet/RPGblocks_spritesheet@2.png",
+        "Tilesheet/RPGblocks_tilesheet.png",
+        "Spritesheet/RPGblocks_spritesheet.png"
+      ]
     },
     "kenney-blocky-characters/3D/characters": {
       "kind": "original",
@@ -986,6 +1225,11 @@
           "path": "kenney-board-game-icons/icons/PNG/Double (128px)/d20_outline_number.png",
           "sha256": "7a11205b5bba2582b98bc16a27de59fee308e4378b2f308388b7cc65ea48c9df"
         }
+      ],
+      "gallery": [
+        "Tilesheet/iconsDouble.png",
+        "Tilesheet/iconsDefault.png",
+        "Preview.png"
       ]
     },
     "kenney-board-game-info/icons": {
@@ -1041,7 +1285,13 @@
       "height": 287,
       "bytes": 14544,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/boardgame-pack/993d44b363-1677667639/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/boardgame-pack/993d44b363-1677667639/sample.png",
+      "gallery": [
+        "Preview.png",
+        "Sample.png",
+        "Spritesheets/playingCards.png",
+        "Spritesheets/diceRed_border.png"
+      ]
     },
     "kenney-brick-kit/3D/prototype-blocks": {
       "kind": "original",
@@ -1071,7 +1321,11 @@
       "height": 287,
       "bytes": 12550,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/brick-pack/9cebe2fff0-1721806549/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/brick-pack/9cebe2fff0-1721806549/sample.png",
+      "gallery": [
+        "Preview.png",
+        "Spritesheets/spritesheet_bricks.png"
+      ]
     },
     "kenney-building-kit/3D/city": {
       "kind": "original",
@@ -1086,7 +1340,11 @@
       "height": 287,
       "bytes": 14420,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/building-kit/617be3e07b-1718801879/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/building-kit/617be3e07b-1718801879/sample.png",
+      "gallery": [
+        "Preview (Variation A).png",
+        "Preview.png"
+      ]
     },
     "kenney-car-kit/3D/vehicles-racing": {
       "kind": "derived",
@@ -1141,7 +1399,11 @@
       "height": 287,
       "bytes": 26374,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/cartography-pack/84fb590466-1677578188/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/cartography-pack/84fb590466-1677578188/sample.png",
+      "gallery": [
+        "Spritesheet/spritesheet_retina.png",
+        "Spritesheet/spritesheet_default.png"
+      ]
     },
     "kenney-casino-audio/audio": {
       "kind": "original",
@@ -1211,6 +1473,10 @@
           "path": "kenney-character-pack-facial-hair/2D/characters/PNG/Facial hair/Black/facialHair_black (9).png",
           "sha256": "e1d4e7f970fecd32ce2f1739730709485b7355dc3a0efe5bdfc79523d141aaea"
         }
+      ],
+      "gallery": [
+        "Preview.png",
+        "Spritesheet/sheet_facialHair.png"
       ]
     },
     "kenney-character-pack/2D/characters": {
@@ -1220,12 +1486,23 @@
       "sourcePath": "kenney-character-pack/2D/characters/Sample.png",
       "description": "Original bundled Kenney sample scene; the legacy pack listing is unavailable. Selected instead of its complete inventory sheet.",
       "sourceSha256": "081b0238747ce3b74ac670a565bd8d2ca40817cf0f3995181c117a3dfea38d8d",
-      "outputSha256": "fd59c800f214291cb371ab52580889fb7c8a5532e0e7246db5c7e555547c63e3",
+      "outputSha256": "3431c379072bc7aaa9d0c106591e99fb2737d4a9f3564d25edacaa2fe83e9437",
       "outputSourceSha256": "081b0238747ce3b74ac670a565bd8d2ca40817cf0f3995181c117a3dfea38d8d",
       "width": 512,
-      "height": 287,
-      "bytes": 10636,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 13828,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop202_0_515",
+      "crop": {
+        "left": 202,
+        "top": 0,
+        "size": 515
+      },
+      "gallery": [
+        "Instruction.png",
+        "Preview.png",
+        "Spritesheet/sheet_hair.png",
+        "Spritesheet/sheet_shirts.png"
+      ]
     },
     "kenney-city-kit-commercial/3D/city": {
       "kind": "original",
@@ -1240,7 +1517,11 @@
       "height": 287,
       "bytes": 42522,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/city-kit-commercial/ca60ea54ef-1747481474/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/city-kit-commercial/ca60ea54ef-1747481474/sample.png",
+      "gallery": [
+        "Preview (Variation A).png",
+        "Preview (Variation B).png"
+      ]
     },
     "kenney-city-kit-industrial/3D/city": {
       "kind": "original",
@@ -1255,7 +1536,11 @@
       "height": 287,
       "bytes": 42158,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/city-kit-industrial/18dcc5d6ce-1788171818/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/city-kit-industrial/18dcc5d6ce-1788171818/sample.png",
+      "gallery": [
+        "Preview (Variation A).png",
+        "Preview (Variation B).png"
+      ]
     },
     "kenney-city-kit-roads/3D/city": {
       "kind": "original",
@@ -1270,7 +1555,11 @@
       "height": 287,
       "bytes": 27354,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/city-kit-roads/8021370415-1787042780/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/city-kit-roads/8021370415-1787042780/sample.png",
+      "gallery": [
+        "Preview (Variation A).png",
+        "Preview.png"
+      ]
     },
     "kenney-city-kit-suburban/3D/city": {
       "kind": "original",
@@ -1285,7 +1574,11 @@
       "height": 287,
       "bytes": 43570,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/city-kit-suburban/8c3d4e93a3-1745479402/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/city-kit-suburban/8c3d4e93a3-1745479402/sample.png",
+      "gallery": [
+        "Preview (Variation A).png",
+        "Preview (Variation B).png"
+      ]
     },
     "kenney-coaster-kit/3D/misc": {
       "kind": "original",
@@ -1300,7 +1593,11 @@
       "height": 287,
       "bytes": 8408,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/coaster-kit/9b3b95c4c9-1731487885/preview-coaster-monorail.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/coaster-kit/9b3b95c4c9-1731487885/preview-coaster-monorail.png",
+      "gallery": [
+        "Preview (Coaster Flume).png",
+        "Preview (Coaster Hanging).png"
+      ]
     },
     "kenney-crosshair-pack/2D/misc": {
       "kind": "derived",
@@ -1376,6 +1673,11 @@
             "height": 128
           }
         }
+      ],
+      "gallery": [
+        "Tilesheet/crosshairs_tilesheet_black@2.png",
+        "Tilesheet/crosshairs_tilesheet_white@2.png",
+        "Preview.png"
       ]
     },
     "kenney-cube-pets/3D/characters": {
@@ -1471,6 +1773,11 @@
           "path": "kenney-cursor-pixel-pack/ui/Tiles/tile_0032.png",
           "sha256": "444c2c2f6c61727dddd3f6bb0670b36dede33bdba2d37f41cc367db95210065b"
         }
+      ],
+      "gallery": [
+        "Preview.png",
+        "Tilemap/tilemap.png",
+        "Tilemap/tilemap_packed.png"
       ]
     },
     "kenney-desert-shooter-pack/2D/misc": {
@@ -1486,7 +1793,15 @@
       "height": 287,
       "bytes": 34540,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/desert-shooter-pack/a6ead20778-1758814237/sample-a.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/desert-shooter-pack/a6ead20778-1758814237/sample-a.png",
+      "gallery": [
+        "Preview.png",
+        "Sample B.png",
+        "PNG/Tiles/Tilemap/tilemap.png",
+        "PNG/Tiles/Tilemap/tilemap_packed.png",
+        "PNG/Interface/Tilemap/tilemap.png",
+        "PNG/Interface/Tilemap/tilemap_packed.png"
+      ]
     },
     "kenney-development-essentials/2D/prototype-blocks": {
       "kind": "original",
@@ -1525,12 +1840,21 @@
       "sourcePath": "kenney-donuts/2D/food/Sample.png",
       "description": "Original bundled Kenney sample scene; the legacy pack listing is unavailable. Selected instead of its complete inventory sheet.",
       "sourceSha256": "cc67f406d4db71b702ee7c78dfb13a6b779aadf80c3aaedc93bab733c05c5b4c",
-      "outputSha256": "badc5ee05aaa8ad6dcb3e4f1d733facc0b08eae1ee37fc935e848cfcdc382ae9",
+      "outputSha256": "0952fdb93711aeb512061a620d65dc1b17413bfb4683ccf0ad7e5b4d460cd391",
       "outputSourceSha256": "cc67f406d4db71b702ee7c78dfb13a6b779aadf80c3aaedc93bab733c05c5b4c",
       "width": 512,
-      "height": 287,
-      "bytes": 13344,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 18998,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop202_0_515",
+      "crop": {
+        "left": 202,
+        "top": 0,
+        "size": 515
+      },
+      "gallery": [
+        "Preview.png",
+        "Spritesheet/donuts_sheet.png"
+      ]
     },
     "kenney-emote-pack/2D/misc": {
       "kind": "derived",
@@ -1570,6 +1894,11 @@
           "path": "kenney-emote-pack/2D/misc/PNG/Vector/Style 1/emote_sleeps.png",
           "sha256": "96b7cd344dc595374e9cc110fcc490d72843bf5e6323fc66ea0ac91a7215cfdc"
         }
+      ],
+      "gallery": [
+        "Preview.png",
+        "Spritesheets/vector_style1.png",
+        "Spritesheets/vector_style2.png"
       ]
     },
     "kenney-explosion-pack/2D/misc": {
@@ -1579,12 +1908,21 @@
       "sourcePath": "kenney-explosion-pack/2D/misc/Preview.png",
       "description": "Original creator pack preview bundled with the licensed asset archive; composition preserved.",
       "sourceSha256": "052967de4923267b98996e317bddf2e538defb18ae696132fd3d0f3a39836a89",
-      "outputSha256": "2aa10ad3b2cdc505d2bc4fd2e9d8b498d9ae5114544bea1ae56b2ba3a4dfe34c",
+      "outputSha256": "9c52a42cdc82008abd86ef40ab747f96dac91c07580d3c991214238b52b5ccc5",
       "outputSourceSha256": "052967de4923267b98996e317bddf2e538defb18ae696132fd3d0f3a39836a89",
       "width": 512,
-      "height": 287,
-      "bytes": 13154,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 21182,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop202_0_515",
+      "crop": {
+        "left": 202,
+        "top": 0,
+        "size": 515
+      },
+      "gallery": [
+        "Spritesheets/spritesheet_sonicExplosion.png",
+        "Spritesheets/spritesheet_regularExplosion.png"
+      ]
     },
     "kenney-factory-kit/3D/city": {
       "kind": "original",
@@ -1599,7 +1937,11 @@
       "height": 287,
       "bytes": 19246,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/factory-kit/7e1e831724-1777639590/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/factory-kit/7e1e831724-1777639590/sample.png",
+      "gallery": [
+        "Preview (Variation A).png",
+        "Preview.png"
+      ]
     },
     "kenney-fantasy-town-kit/3D/fantasy": {
       "kind": "original",
@@ -1614,7 +1956,11 @@
       "height": 287,
       "bytes": 19216,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/fantasy-town-kit/c13eafebab-1754222363/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/fantasy-town-kit/c13eafebab-1754222363/sample.png",
+      "gallery": [
+        "Preview (Variation A).png",
+        "Preview.png"
+      ]
     },
     "kenney-fantasy-ui-borders/ui": {
       "kind": "original",
@@ -1644,7 +1990,12 @@
       "height": 287,
       "bytes": 20202,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/fish-pack/d45432eddb-1747237954/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/fish-pack/d45432eddb-1747237954/sample.png",
+      "gallery": [
+        "Spritesheet/spritesheet-double.png",
+        "Spritesheet/spritesheet.png",
+        "Preview.png"
+      ]
     },
     "kenney-foley-sounds/audio": {
       "kind": "original",
@@ -1653,12 +2004,17 @@
       "sourcePath": "kenney-foley-sounds/audio/Preview.png",
       "description": "Original creator pack preview bundled with the licensed asset archive; composition preserved.",
       "sourceSha256": "d83eab39f4a13c0755c8822792a5c1de4ed746e9dba6b4bbfb4c407f68cf6903",
-      "outputSha256": "0faea6cf6f16e94ddea1ddf0ac4a0810403456ad142a9775e91aa49d9af98e4b",
+      "outputSha256": "2e52c16246616a56d45d59357ea1e07d57e34feec11ab729f77f5639cbea3af5",
       "outputSourceSha256": "d83eab39f4a13c0755c8822792a5c1de4ed746e9dba6b4bbfb4c407f68cf6903",
-      "width": 512,
-      "height": 307,
-      "bytes": 3138,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "width": 480,
+      "height": 480,
+      "bytes": 4870,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop160_0_480",
+      "crop": {
+        "left": 160,
+        "top": 0,
+        "size": 480
+      }
     },
     "kenney-foliage-pack/2D/nature": {
       "kind": "original",
@@ -1673,7 +2029,13 @@
       "height": 287,
       "bytes": 15002,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/foliage-pack/2041042bf7-1677693469/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/foliage-pack/2041042bf7-1677693469/sample.png",
+      "gallery": [
+        "Preview.png",
+        "Sample.png",
+        "Spritesheet/foliagePack_retina.png",
+        "Spritesheet/foliagePack_default.png"
+      ]
     },
     "kenney-foliage-sprites/2D/nature": {
       "kind": "original",
@@ -1688,7 +2050,12 @@
       "height": 287,
       "bytes": 17582,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/foliage-sprites/634189118b-1677495976/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/foliage-sprites/634189118b-1677495976/sample.png",
+      "gallery": [
+        "Preview.png",
+        "PNG/Shaded/sprite_0100.png",
+        "PNG/Shaded/sprite_0101.png"
+      ]
     },
     "kenney-fonts/fonts": {
       "kind": "original",
@@ -1758,7 +2125,11 @@
       "height": 287,
       "bytes": 19444,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/furniture-kit/4573c6a40b-1677580842/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/furniture-kit/4573c6a40b-1677580842/sample.png",
+      "gallery": [
+        "Preview.png",
+        "Sample.png"
+      ]
     },
     "kenney-game-icons-expansion/icons": {
       "kind": "derived",
@@ -1798,6 +2169,11 @@
           "path": "kenney-game-icons-expansion/icons/PNG/White/2x/fightJoy_27.png",
           "sha256": "98056e673e77306634135b3449bc8efc9b8c7775d1c09f983db06d0dbee665e3"
         }
+      ],
+      "gallery": [
+        "Spritesheet/sheet_black2x.png",
+        "Spritesheet/sheet_white2x.png",
+        "Preview.png"
       ]
     },
     "kenney-game-icons-fighter-expansion/icons": {
@@ -1838,6 +2214,11 @@
           "path": "kenney-game-icons-fighter-expansion/icons/PNG/White/2x/kickLow.png",
           "sha256": "9cf657b78519b5c35610e4983e545cd5673f33c9ffe11099b94ae0abf92b3be7"
         }
+      ],
+      "gallery": [
+        "Preview.png",
+        "Spritesheet/sheet_black2x.png",
+        "Spritesheet/sheet_white2x.png"
       ]
     },
     "kenney-game-icons/icons": {
@@ -1874,6 +2255,11 @@
           "path": "kenney-game-icons/icons/PNG/White/2x/save.png",
           "sha256": "dc15ed8348c2138f609b1cc82ef3be51f90d297c3690f72b733d43896c434166"
         }
+      ],
+      "gallery": [
+        "Preview.png",
+        "Spritesheet/sheet_black2x.png",
+        "Spritesheet/sheet_white2x.png"
       ]
     },
     "kenney-generic-items/2D/misc": {
@@ -1914,6 +2300,11 @@
           "path": "kenney-generic-items/2D/misc/PNG/Colored/genericItem_color_061.png",
           "sha256": "3f6950ef75b3d34818eddf0da91472a9be6ca036dfaa5504adbb7f27d059b939"
         }
+      ],
+      "gallery": [
+        "Spritesheet/genericItems_spritesheet_colored.png",
+        "Spritesheet/genericItems_spritesheet_white.png",
+        "Preview.png"
       ]
     },
     "kenney-googly-eyes/2D/misc": {
@@ -1959,7 +2350,13 @@
       "height": 512,
       "bytes": 23324,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/hexagon-tiles/75f3c33e78-1677669506/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/hexagon-tiles/75f3c33e78-1677669506/sample.png",
+      "gallery": [
+        "Sample.png",
+        "Spritesheet/complete.png",
+        "Preview.png",
+        "Spritesheet/fullTiles.png"
+      ]
     },
     "kenney-hexagon-buildings-pack/2D/strategy-hex": {
       "kind": "original",
@@ -1974,7 +2371,12 @@
       "height": 504,
       "bytes": 11582,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/hexagon-buildings/d6884fb456-1677669578/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/hexagon-buildings/d6884fb456-1677669578/sample.png",
+      "gallery": [
+        "Sample.png",
+        "Spritesheet/sheet.png",
+        "Preview.png"
+      ]
     },
     "kenney-hexagon-kit/3D/strategy-hex": {
       "kind": "original",
@@ -1989,7 +2391,11 @@
       "height": 287,
       "bytes": 18694,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/hexagon-kit/3920b0463b-1706007672/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/hexagon-kit/3920b0463b-1706007672/sample.png",
+      "gallery": [
+        "Preview (Variation A).png",
+        "Preview (Variation B).png"
+      ]
     },
     "kenney-hexagon-pack/2D/strategy-hex": {
       "kind": "original",
@@ -2004,7 +2410,13 @@
       "height": 287,
       "bytes": 28564,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/hexagon-pack/ba67de4094-1677662327/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/hexagon-pack/ba67de4094-1677662327/sample.png",
+      "gallery": [
+        "Preview.png",
+        "Sample.png",
+        "Spritesheets/hexagonAll_sheet.png",
+        "Spritesheets/hexagonBuildings_sheet.png"
+      ]
     },
     "kenney-holiday-kit/3D/seasonal-holiday": {
       "kind": "original",
@@ -2028,12 +2440,24 @@
       "sourcePath": "kenney-holiday-pack-2016/2D/seasonal-holiday/Sample.png",
       "description": "Original bundled Kenney sample scene; the legacy pack listing is unavailable. Selected instead of its complete inventory sheet.",
       "sourceSha256": "9ad4cb2e76bc145e1b4cfb76504f642a00eae2dba419d14d6910ad6a083f888c",
-      "outputSha256": "2e0290b3a470a98593a5880e745f4a6789a8a5c27672b1f23d68344e5c03b228",
+      "outputSha256": "ea7a1c085562bb6b2e6942c2502b2b1ea06c8ccabfecde9f1852192b1958a0f9",
       "outputSourceSha256": "9ad4cb2e76bc145e1b4cfb76504f642a00eae2dba419d14d6910ad6a083f888c",
       "width": 512,
-      "height": 287,
-      "bytes": 21150,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 27950,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop202_0_515",
+      "crop": {
+        "left": 202,
+        "top": 0,
+        "size": 515
+      },
+      "gallery": [
+        "Preview.png",
+        "Tilesheet/topdownPack_tilesheet@2.png",
+        "Spritesheet/hexagonPack_sheet@2.png",
+        "Spritesheet/topdownPack_sheet@2.png",
+        "Tilesheet/voxelPack_tilesheet@2.png"
+      ]
     },
     "kenney-impact-sounds/audio": {
       "kind": "original",
@@ -2088,6 +2512,11 @@
           "path": "kenney-input-prompts-pixel-1-bit/icons/Tiles (White)/tile_0568.png",
           "sha256": "054e7acf77f3f7be41cefb5ad0e0f732f72afec054f8c838bb2fe019a955f15a"
         }
+      ],
+      "gallery": [
+        "Preview.png",
+        "Tilemap/tilemap_black.png",
+        "Tilemap/tilemap_white.png"
       ]
     },
     "kenney-input-prompts-pixel/icons": {
@@ -2128,6 +2557,11 @@
           "path": "kenney-input-prompts-pixel/icons/Tiles/tile_0568.png",
           "sha256": "ee431b81ee1a4f93ac61c0e691b591f52b7440fd34e4b3677e5a90d16ef5d5c4"
         }
+      ],
+      "gallery": [
+        "Preview.png",
+        "Tilemap/tilemap.png",
+        "Tilemap/tilemap_packed.png"
       ]
     },
     "kenney-input-prompts/icons": {
@@ -2168,6 +2602,14 @@
           "path": "kenney-input-prompts/icons/Generic/Double/generic_button_circle_outline.png",
           "sha256": "0bc1afdc544e48947ee3dfb521998f8a9fb030a2a6120471c08181a3bb21fc20"
         }
+      ],
+      "gallery": [
+        "Keyboard & Mouse/keyboard-&-mouse_sheet_double.png",
+        "PlayStation Series/playstation-series_sheet_double.png",
+        "Nintendo Switch 2/nintendo-switch-2_sheet_double.png",
+        "Nintendo Switch/nintendo-switch_sheet_double.png",
+        "Steam Deck/steam-deck_sheet_double.png",
+        "Flairs/flairs_sheet_double.png"
       ]
     },
     "kenney-interface-sounds/audio": {
@@ -2198,7 +2640,15 @@
       "height": 287,
       "bytes": 12548,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/isometric-blocks/80ab4e78eb-1677662255/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/isometric-blocks/80ab4e78eb-1677662255/sample.png",
+      "gallery": [
+        "Sample.png",
+        "Tilesheet/tilesheet_complete_2X.png",
+        "Tilesheet/tilesheet_complete.png",
+        "Spritesheet/allTiles_sheet.png",
+        "Spritesheet/abstractTiles_sheet.png",
+        "Preview.png"
+      ]
     },
     "kenney-isometric-medieval-town/2D/city": {
       "kind": "original",
@@ -2207,12 +2657,17 @@
       "sourcePath": "kenney-isometric-medieval-town/2D/city/Preview.png",
       "description": "Original creator pack preview bundled with the licensed asset archive; composition preserved.",
       "sourceSha256": "58d05414267c81ee67857917a0f4c95ac271f3169126fdd2952ee8c9d8874cb1",
-      "outputSha256": "043fdf42cc1270ad76c7a86ae2d3d9ac143adcfcec6c6b1ba398418ec547d4d1",
+      "outputSha256": "b1bbd6f6a0f6e42bc4486c368811c8a23840e09d46a192028b83add52fa0df68",
       "outputSourceSha256": "58d05414267c81ee67857917a0f4c95ac271f3169126fdd2952ee8c9d8874cb1",
       "width": 512,
-      "height": 287,
-      "bytes": 9800,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 14554,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop202_0_515",
+      "crop": {
+        "left": 202,
+        "top": 0,
+        "size": 515
+      }
     },
     "kenney-isometric-miniature-bases/2D/prototype-blocks": {
       "kind": "original",
@@ -2221,12 +2676,21 @@
       "sourcePath": "kenney-isometric-miniature-bases/2D/prototype-blocks/Sample.png",
       "description": "Original bundled sample scene; clearer at thumbnail size than the website inventory image.",
       "sourceSha256": "b2fb428e62a8c35d6a2264887f823f861ade15f35407343ad880750617b899ad",
-      "outputSha256": "87f841212b030a1d5058daed8a1423a47c6382310dc08a0caf8f2fe0bd8422cd",
+      "outputSha256": "569f5a3cb1c14e08193107f3aa2750717d321e45a55cc354cfb02b4dae18453c",
       "outputSourceSha256": "b2fb428e62a8c35d6a2264887f823f861ade15f35407343ad880750617b899ad",
       "width": 512,
-      "height": 287,
-      "bytes": 22118,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 25654,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop202_0_515",
+      "crop": {
+        "left": 202,
+        "top": 0,
+        "size": 515
+      },
+      "gallery": [
+        "Information.png",
+        "Preview.png"
+      ]
     },
     "kenney-isometric-miniature-dungeon/2D/dungeon": {
       "kind": "original",
@@ -2256,7 +2720,11 @@
       "height": 287,
       "bytes": 56336,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/isometric-miniature-farm/a627feea96-1670690281/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/isometric-miniature-farm/a627feea96-1670690281/sample.png",
+      "gallery": [
+        "Sample.png",
+        "Preview.png"
+      ]
     },
     "kenney-isometric-miniature-library/2D/misc": {
       "kind": "original",
@@ -2280,12 +2748,17 @@
       "sourcePath": "kenney-isometric-miniature-overworld/2D/top-down-rpg/Preview.png",
       "description": "Original creator pack preview bundled with the licensed asset archive; composition preserved.",
       "sourceSha256": "baa90daac7ce061ade21bcd5402d7c9b63d635c888219cdf3b9ffd1f1c1d5a77",
-      "outputSha256": "6578fc333671ba5073aa142e517b385828694c357505557496d87e4a375960f9",
+      "outputSha256": "c0fd07676651f46fbfc6f8aea698ddd06fa897cebf500f491fd11d2195511f06",
       "outputSourceSha256": "baa90daac7ce061ade21bcd5402d7c9b63d635c888219cdf3b9ffd1f1c1d5a77",
       "width": 512,
-      "height": 287,
-      "bytes": 9136,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 16122,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop202_0_515",
+      "crop": {
+        "left": 202,
+        "top": 0,
+        "size": 515
+      }
     },
     "kenney-isometric-miniature-prototype/2D/prototype-blocks": {
       "kind": "original",
@@ -2309,12 +2782,17 @@
       "sourcePath": "kenney-isometric-minigolf/2D/sports/Preview.png",
       "description": "Original creator pack preview bundled with the licensed asset archive; composition preserved.",
       "sourceSha256": "660913f1bcd5ddf5e79e0e2bbfa6ff60a46b4dd8df4e0fee7041f0224497d8d1",
-      "outputSha256": "d7fbb4f9dcc4aa708a3d69d3849da102d3091c783208a1571586594d187e1f43",
+      "outputSha256": "413f20cebf527a473d231e4a13589feee682901a71d3cad84164b56647afcb7a",
       "outputSourceSha256": "660913f1bcd5ddf5e79e0e2bbfa6ff60a46b4dd8df4e0fee7041f0224497d8d1",
       "width": 512,
-      "height": 287,
-      "bytes": 8724,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 13706,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop202_0_515",
+      "crop": {
+        "left": 202,
+        "top": 0,
+        "size": 515
+      }
     },
     "kenney-isometric-modular-buildings/2D/city": {
       "kind": "original",
@@ -2323,12 +2801,17 @@
       "sourcePath": "kenney-isometric-modular-buildings/2D/city/Preview.png",
       "description": "Original creator pack preview bundled with the licensed asset archive; composition preserved.",
       "sourceSha256": "50385fb0ff5a03d926c9b5a022af7edf66696780589b22d02fc368f3ee518b05",
-      "outputSha256": "7547e83100933cfd5750eaa5d307fca38b78d6d444fc924474ec95d03d943b54",
+      "outputSha256": "4880abfb3a70f0cd7e6a1d55e6516ec0992cde980280479759df7e5adc670728",
       "outputSourceSha256": "50385fb0ff5a03d926c9b5a022af7edf66696780589b22d02fc368f3ee518b05",
       "width": 512,
-      "height": 287,
-      "bytes": 10618,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 15672,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop202_0_515",
+      "crop": {
+        "left": 202,
+        "top": 0,
+        "size": 515
+      }
     },
     "kenney-isometric-modular-roads/2D/city": {
       "kind": "derived",
@@ -2408,6 +2891,11 @@
           "path": "kenney-isometric-nature/2D/nature/PNG/naturePack_161_0.png",
           "sha256": "58b48283d6705b4a8c41e65808e10fed70239b2f2f84198e8952162e435544e3"
         }
+      ],
+      "gallery": [
+        "Preview.png",
+        "PNG/naturePack_024_3.png",
+        "PNG/naturePack_025_0.png"
       ]
     },
     "kenney-isometric-space-interior/2D/space-scifi": {
@@ -2463,7 +2951,11 @@
       "height": 287,
       "bytes": 14870,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/isometric-tiles-landscape/3d2ca98635-1677695068/preview.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/isometric-tiles-landscape/3d2ca98635-1677695068/preview.png",
+      "gallery": [
+        "Preview.png",
+        "Spritesheet/landscapeTiles_sheet.png"
+      ]
     },
     "kenney-isometric-tiles-buildings/2D/city": {
       "kind": "original",
@@ -2478,7 +2970,12 @@
       "height": 287,
       "bytes": 12926,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/isometric-tiles-buildings/bac1f1ba5a-1677694980/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/isometric-tiles-buildings/bac1f1ba5a-1677694980/sample.png",
+      "gallery": [
+        "Sample.png",
+        "Spritesheet/buildingTiles_sheet.png",
+        "Preview.png"
+      ]
     },
     "kenney-isometric-tiles-city/2D/city": {
       "kind": "original",
@@ -2493,7 +2990,11 @@
       "height": 287,
       "bytes": 16256,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/isometric-tiles-city/7a380d24eb-1677695022/preview.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/isometric-tiles-city/7a380d24eb-1677695022/preview.png",
+      "gallery": [
+        "Preview.png",
+        "Spritesheet/cityTiles_sheet.png"
+      ]
     },
     "kenney-isometric-tiles-vehicles/2D/vehicles-racing": {
       "kind": "original",
@@ -2508,7 +3009,13 @@
       "height": 287,
       "bytes": 13560,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/isometric-tiles-vehicles/8983055a32-1677695116/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/isometric-tiles-vehicles/8983055a32-1677695116/sample.png",
+      "gallery": [
+        "Preview.png",
+        "Sample.png",
+        "Spritesheet/sheet_allCars.png",
+        "Spritesheet/sheet_black.png"
+      ]
     },
     "kenney-isometric-tower-defense/2D/tower-defense": {
       "kind": "derived",
@@ -2557,12 +3064,21 @@
       "sourcePath": "kenney-isometric-vector-buildings/2D/city/Preview.png",
       "description": "Original creator pack preview bundled with the licensed asset archive; composition preserved.",
       "sourceSha256": "bbe7e415f5f3db2f7dbad20a4afc6a805fb85c4aed664c09e116ca21a24410d8",
-      "outputSha256": "112f11f5e2770cbbf256177b93894074369e626fd4fba2fb744f17fad0eda05c",
+      "outputSha256": "48f229a93e8c0eeb0e313253bd8c261cbf8b9367c48550c9af3b32dadaf1528f",
       "outputSourceSha256": "bbe7e415f5f3db2f7dbad20a4afc6a805fb85c4aed664c09e116ca21a24410d8",
       "width": 512,
-      "height": 287,
-      "bytes": 19672,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 40252,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop202_0_515",
+      "crop": {
+        "left": 202,
+        "top": 0,
+        "size": 515
+      },
+      "gallery": [
+        "Spritesheets/spritesheet_concrete.png",
+        "Spritesheets/spritesheet_sand.png"
+      ]
     },
     "kenney-isometric-vector-roads-base/2D/city": {
       "kind": "original",
@@ -2632,6 +3148,11 @@
           "path": "kenney-isometric-watercraft/2D/vehicles-racing/PNG/watercraftPack_026_0.png",
           "sha256": "0ffc3dd99cd2915577380230a7d1905bddfffba7f140e3b903abc64ab2b7b6df"
         }
+      ],
+      "gallery": [
+        "Preview.png",
+        "Spritesheet/watercraftPack_001_7_sheet.png",
+        "Spritesheet/watercraftPack_002_7_sheet.png"
       ]
     },
     "kenney-jumper-pack/2D/platformer": {
@@ -2647,7 +3168,14 @@
       "height": 287,
       "bytes": 12198,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/jumper-pack/fafcb50fc8-1677666692/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/jumper-pack/fafcb50fc8-1677666692/sample.png",
+      "gallery": [
+        "Sample.png",
+        "PNG/Background/bg_layer2.png",
+        "PNG/Background/bg_layer3.png",
+        "Spritesheets/spritesheet_jumper.png",
+        "Preview.png"
+      ]
     },
     "kenney-letter-tiles-redux/2D/misc": {
       "kind": "original",
@@ -2656,12 +3184,21 @@
       "sourcePath": "kenney-letter-tiles-redux/2D/misc/Preview.png",
       "description": "Original creator pack preview bundled with the licensed asset archive; composition preserved.",
       "sourceSha256": "d28ed65a886f31b70c73c0860249ab4f853dc756c544aa21dc9c6c193f3e4d10",
-      "outputSha256": "59141d4bf8e72a86f1377914ec1e3e4717c2bbff8c034d445545ada8bdcde130",
+      "outputSha256": "3463d080d5f31f63f81cdfabc2b7acf63412c7e1a28b5c436a9bc483e19aca3d",
       "outputSourceSha256": "d28ed65a886f31b70c73c0860249ab4f853dc756c544aa21dc9c6c193f3e4d10",
       "width": 512,
-      "height": 287,
-      "bytes": 12194,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 18802,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop202_0_515",
+      "crop": {
+        "left": 202,
+        "top": 0,
+        "size": 515
+      },
+      "gallery": [
+        "Tilesheet/tilesheet_StyleA.png",
+        "Tilesheet/tilesheet_StyleB.png"
+      ]
     },
     "kenney-letter-tiles/2D/misc": {
       "kind": "original",
@@ -2676,7 +3213,13 @@
       "height": 287,
       "bytes": 8728,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/letter-tiles/6f5e0d27e7-1677670600/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/letter-tiles/6f5e0d27e7-1677670600/sample.png",
+      "gallery": [
+        "Preview.png",
+        "Sample.png",
+        "Spritesheet/box_spritesheet.png",
+        "Spritesheet/metal_spritesheet.png"
+      ]
     },
     "kenney-light-masks/2D/misc": {
       "kind": "derived",
@@ -2731,7 +3274,14 @@
       "height": 287,
       "bytes": 20302,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/map-pack/675a439a24-1677662159/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/map-pack/675a439a24-1677662159/sample.png",
+      "gallery": [
+        "Sample.png",
+        "Tilesheet/mapPack_tilesheet_2X.png",
+        "Tilesheet/mapPack_tilesheet.png",
+        "Spritesheet/mapPack_spritesheet.png",
+        "Preview.png"
+      ]
     },
     "kenney-marble-kit/3D/misc": {
       "kind": "original",
@@ -2770,12 +3320,17 @@
       "sourcePath": "kenney-medieval-weapons/3D/weapons/Preview.png",
       "description": "Original creator pack preview bundled with the licensed asset archive; composition preserved.",
       "sourceSha256": "c6d049c968df181d02b02bd435af92b982b19711d83b814e92dfb19f1328f61e",
-      "outputSha256": "4dce9294daeae7869ab155eee0bb723f054023f752e49a9ed97d5070ce7c8f6e",
+      "outputSha256": "517b5e6279e64392f99e06017e05e5b5d81fc62c99519e5b4734278db369fb05",
       "outputSourceSha256": "c6d049c968df181d02b02bd435af92b982b19711d83b814e92dfb19f1328f61e",
       "width": 512,
-      "height": 287,
-      "bytes": 11938,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 20906,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop202_0_515",
+      "crop": {
+        "left": 202,
+        "top": 0,
+        "size": 515
+      }
     },
     "kenney-micro-roguelike/2D/top-down-rpg": {
       "kind": "original",
@@ -2805,7 +3360,11 @@
       "height": 287,
       "bytes": 17598,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/mini-arcade/a766ceba5b-1720210169/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/mini-arcade/a766ceba5b-1720210169/sample.png",
+      "gallery": [
+        "Preview (Variation A).png",
+        "Preview (Variation B).png"
+      ]
     },
     "kenney-mini-arena/3D/misc": {
       "kind": "original",
@@ -2850,7 +3409,11 @@
       "height": 287,
       "bytes": 14746,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/mini-dungeon/5b23e91c6e-1785314288/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/mini-dungeon/5b23e91c6e-1785314288/sample.png",
+      "gallery": [
+        "Preview (Variation A).png",
+        "Preview.png"
+      ]
     },
     "kenney-mini-market/3D/city": {
       "kind": "original",
@@ -2865,7 +3428,11 @@
       "height": 287,
       "bytes": 16320,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/mini-market/0d36e77964-1729865129/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/mini-market/0d36e77964-1729865129/sample.png",
+      "gallery": [
+        "Preview (Variation A).png",
+        "Preview (Variation B).png"
+      ]
     },
     "kenney-mini-skate/3D/sports": {
       "kind": "original",
@@ -2895,7 +3462,11 @@
       "height": 287,
       "bytes": 12862,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/minigolf-kit/a3692bcf7b-1741163840/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/minigolf-kit/a3692bcf7b-1741163840/sample.png",
+      "gallery": [
+        "Preview (Spline Concave).png",
+        "Preview (Spline Default).png"
+      ]
     },
     "kenney-minimap-pack/2D/top-down-rpg": {
       "kind": "original",
@@ -2925,7 +3496,12 @@
       "height": 287,
       "bytes": 5388,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/mobile-controls/616d64eeba-1754738447/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/mobile-controls/616d64eeba-1754738447/sample.png",
+      "gallery": [
+        "Spritesheets/style-a-large.png",
+        "Spritesheets/style-b-large.png",
+        "Preview.png"
+      ]
     },
     "kenney-modular-buildings/3D/city": {
       "kind": "original",
@@ -2940,7 +3516,11 @@
       "height": 287,
       "bytes": 15404,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/modular-buildings/cbda060603-1707397438/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/modular-buildings/cbda060603-1707397438/sample.png",
+      "gallery": [
+        "Preview (Variation A).png",
+        "Preview (Variation B).png"
+      ]
     },
     "kenney-modular-dungeon-kit/3D/dungeon": {
       "kind": "original",
@@ -2955,7 +3535,11 @@
       "height": 287,
       "bytes": 30376,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/modular-dungeon-kit/fe4b7d1cba-1771926047/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/modular-dungeon-kit/fe4b7d1cba-1771926047/sample.png",
+      "gallery": [
+        "Preview (Variation A).png",
+        "Preview (Variation B).png"
+      ]
     },
     "kenney-modular-space-kit/3D/space-scifi": {
       "kind": "original",
@@ -2970,7 +3554,11 @@
       "height": 287,
       "bytes": 37724,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/modular-space-kit/0d6aef3da9-1771146082/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/modular-space-kit/0d6aef3da9-1771146082/sample.png",
+      "gallery": [
+        "Preview (Variation A).png",
+        "Preview (Variation B).png"
+      ]
     },
     "kenney-monochrome-pirates/2D/pirate": {
       "kind": "original",
@@ -2985,7 +3573,11 @@
       "height": 287,
       "bytes": 21312,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/monochrome-pirates/3565208dc7-1701252754/sample-a.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/monochrome-pirates/3565208dc7-1701252754/sample-a.png",
+      "gallery": [
+        "Preview.png",
+        "Sample B.png"
+      ]
     },
     "kenney-monochrome-rpg-tileset/2D/top-down-rpg": {
       "kind": "original",
@@ -3015,7 +3607,12 @@
       "height": 287,
       "bytes": 18490,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/monster-builder-pack/82ac296d53-1677495442/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/monster-builder-pack/82ac296d53-1677495442/sample.png",
+      "gallery": [
+        "Preview.png",
+        "Spritesheet/spritesheet_double.png",
+        "Spritesheet/spritesheet_default.png"
+      ]
     },
     "kenney-music-jingles/audio": {
       "kind": "original",
@@ -3039,12 +3636,17 @@
       "sourcePath": "kenney-music-loops/audio/Preview.png",
       "description": "Original creator pack preview bundled with the licensed asset archive; composition preserved.",
       "sourceSha256": "6f2f4625b6485a01e81e38976d0ceb4e9ca5c337c2c9ae59b4ce894a4d91f911",
-      "outputSha256": "43606c9d33f630c1610d00f0a2fc769960ae1ef02ac2f3d8f683c480a478dff9",
+      "outputSha256": "be7ba36f13d4cf28d8d47694f886ed678ebde4167df863b1f6018b06324b5e3f",
       "outputSourceSha256": "6f2f4625b6485a01e81e38976d0ceb4e9ca5c337c2c9ae59b4ce894a4d91f911",
-      "width": 512,
-      "height": 307,
-      "bytes": 3110,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "width": 480,
+      "height": 480,
+      "bytes": 4788,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop160_0_480",
+      "crop": {
+        "left": 160,
+        "top": 0,
+        "size": 480
+      }
     },
     "kenney-nature-kit-classic/3D/nature": {
       "kind": "original",
@@ -3053,12 +3655,17 @@
       "sourcePath": "kenney-nature-kit-classic/3D/nature/Sample.png",
       "description": "Original bundled Kenney sample scene; the legacy pack listing is unavailable. Selected instead of its complete inventory sheet.",
       "sourceSha256": "97dadaab6b7df84d50451dde199756a65808fcd59de136ff127928a980017067",
-      "outputSha256": "36ca87f3cf4b5f609b8e567502f7b6de45119f2a131546d091ff9a0ba400bd26",
+      "outputSha256": "41230ff9b663651d537f48269279b1363950fbc4a08db9607b8f3a00d5d2f37a",
       "outputSourceSha256": "97dadaab6b7df84d50451dde199756a65808fcd59de136ff127928a980017067",
       "width": 512,
-      "height": 287,
-      "bytes": 29174,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 63508,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop202_0_515",
+      "crop": {
+        "left": 202,
+        "top": 0,
+        "size": 515
+      }
     },
     "kenney-nature-kit/3D/nature": {
       "kind": "original",
@@ -3088,7 +3695,15 @@
       "height": 287,
       "bytes": 27962,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/new-platformer-pack/85e6d78737-1746559490/sample-a.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/new-platformer-pack/85e6d78737-1746559490/sample-a.png",
+      "gallery": [
+        "Sample B.png",
+        "Spritesheets/spritesheet-tiles-double.png",
+        "Spritesheets/spritesheet-characters-double.png",
+        "Preview (Characters).png",
+        "Sprites/Backgrounds/Double/background_clouds.png",
+        "Sprites/Backgrounds/Double/background_color_desert.png"
+      ]
     },
     "kenney-particle-pack/2D/misc": {
       "kind": "derived",
@@ -3168,6 +3783,11 @@
           "path": "kenney-pattern-pack-lines/2D/misc/PNG/Thick/Default (256px)/pattern_0014.png",
           "sha256": "112cf14ea650773d35992594e65fc23694cdc256d0367a53741ee32f11f3be7b"
         }
+      ],
+      "gallery": [
+        "Preview.png",
+        "Tilesheet/thick_double.png",
+        "Tilesheet/thin_double.png"
       ]
     },
     "kenney-pattern-pack-pixel/2D/misc": {
@@ -3248,6 +3868,11 @@
           "path": "kenney-pattern-pack/2D/misc/PNG/Default/pattern_51.png",
           "sha256": "e277ea0bb77df0ddc1ccee9690338018601b95d5f26c29b67fbce71dec11b450"
         }
+      ],
+      "gallery": [
+        "Preview.png",
+        "Tilesheet/patternPack_tilesheet@2.png",
+        "Tilesheet/patternPack_tilesheet.png"
       ]
     },
     "kenney-physics-assets/2D/prototype-blocks": {
@@ -3263,7 +3888,15 @@
       "height": 287,
       "bytes": 14150,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/physics-assets/1b9cc12e32-1677667199/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/physics-assets/1b9cc12e32-1677667199/sample.png",
+      "gallery": [
+        "Preview.png",
+        "Sample.png",
+        "Spritesheet/spritesheet_elements.png",
+        "PNG/Backgrounds/blue_desert.png",
+        "PNG/Backgrounds/blue_grass.png",
+        "Spritesheet/spritesheet_aliens.png"
+      ]
     },
     "kenney-pico-8-city/2D/city": {
       "kind": "original",
@@ -3323,7 +3956,15 @@
       "height": 287,
       "bytes": 20614,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/pirate-pack/872e1ae7d4-1677579015/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/pirate-pack/872e1ae7d4-1677579015/sample.png",
+      "gallery": [
+        "Sample.png",
+        "Tilesheet/tiles_sheet@2.png",
+        "Spritesheet/shipsMiscellaneous_sheet.png",
+        "Spritesheet/shipsMiscellaneous_sheet@2.png",
+        "Preview.png",
+        "Tilesheet/tiles_sheet.png"
+      ]
     },
     "kenney-pixel-line-platformer/2D/platformer": {
       "kind": "original",
@@ -3353,7 +3994,13 @@
       "height": 287,
       "bytes": 16004,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/pixel-platformer-blocks/dabcca7d17-1668793623/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/pixel-platformer-blocks/dabcca7d17-1668793623/sample.png",
+      "gallery": [
+        "Sample.png",
+        "Preview.png",
+        "Tilemap/marble.png",
+        "Tilemap/rock.png"
+      ]
     },
     "kenney-pixel-platformer-farm-expansion/2D/platformer": {
       "kind": "original",
@@ -3413,7 +4060,11 @@
       "height": 287,
       "bytes": 28130,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/pixel-platformer/bf585643f0-1696667860/samplea.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/pixel-platformer/bf585643f0-1696667860/samplea.png",
+      "gallery": [
+        "SampleA.png",
+        "SampleB.png"
+      ]
     },
     "kenney-pixel-shmup/2D/space-scifi": {
       "kind": "original",
@@ -3428,7 +4079,12 @@
       "height": 287,
       "bytes": 23942,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/pixel-shmup/43204e8358-1677495743/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/pixel-shmup/43204e8358-1677495743/sample.png",
+      "gallery": [
+        "Preview.png",
+        "Tilemap/tiles.png",
+        "Tilemap/tiles_packed.png"
+      ]
     },
     "kenney-pixel-vehicle-pack/2D/vehicles-racing": {
       "kind": "derived",
@@ -3468,6 +4124,11 @@
           "path": "kenney-pixel-vehicle-pack/2D/vehicles-racing/PNG/Cars/taxi.png",
           "sha256": "0f39c03adcfd54066512eafd1a35c75dbb01b367b778880ec6c2e567e4eabd28"
         }
+      ],
+      "gallery": [
+        "Preview.png",
+        "Spritesheet/spritesheet_complete.png",
+        "Spritesheet/spritesheet_cars.png"
       ]
     },
     "kenney-planets/2D/space-scifi": {
@@ -3483,7 +4144,11 @@
       "height": 287,
       "bytes": 15344,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/planets/97e63fa6c0-1677495384/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/planets/97e63fa6c0-1677495384/sample.png",
+      "gallery": [
+        "Planets/planet04.png",
+        "Preview.png"
+      ]
     },
     "kenney-platformer-assets-base/2D/platformer": {
       "kind": "original",
@@ -3498,7 +4163,13 @@
       "height": 512,
       "bytes": 35490,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/platformer-art-deluxe/9566833099-1677696387/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/platformer-art-deluxe/9566833099-1677696387/sample.png",
+      "gallery": [
+        "Preview.png",
+        "Sample.png",
+        "Spritesheet/tiles_sheet.png",
+        "Spritesheet/player_sheet.png"
+      ]
     },
     "kenney-platformer-assets-buildings/2D/platformer": {
       "kind": "original",
@@ -3513,7 +4184,12 @@
       "height": 209,
       "bytes": 14684,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/platformer-art-buildings/16c5e863a1-1677696283/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/platformer-art-buildings/16c5e863a1-1677696283/sample.png",
+      "gallery": [
+        "Sample.png",
+        "Spritesheet/spritesheet.png",
+        "Preview.png"
+      ]
     },
     "kenney-platformer-assets-candy/2D/platformer": {
       "kind": "original",
@@ -3528,7 +4204,12 @@
       "height": 209,
       "bytes": 15548,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/platformer-art-candy/33bea1119a-1677696334/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/platformer-art-candy/33bea1119a-1677696334/sample.png",
+      "gallery": [
+        "Sample.png",
+        "Spritesheet/spritesheet.png",
+        "Preview.png"
+      ]
     },
     "kenney-platformer-assets-extra-animations-enemies/2D/platformer": {
       "kind": "original",
@@ -3543,7 +4224,13 @@
       "height": 303,
       "bytes": 17130,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/platformer-art-extended-enemies/c0bd6a6bbd-1677696515/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/platformer-art-extended-enemies/c0bd6a6bbd-1677696515/sample.png",
+      "gallery": [
+        "Sample.png",
+        "Spritesheets/aliens.png",
+        "Spritesheets/enemies.png",
+        "Preview.png"
+      ]
     },
     "kenney-platformer-assets-holiday/2D/platformer": {
       "kind": "original",
@@ -3558,7 +4245,12 @@
       "height": 209,
       "bytes": 13348,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/platformer-art-winter/aa086c1bbe-1677696897/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/platformer-art-winter/aa086c1bbe-1677696897/sample.png",
+      "gallery": [
+        "Sample.png",
+        "Spritesheet/xmasPack_spritesheet.png",
+        "Preview.png"
+      ]
     },
     "kenney-platformer-assets-ice/2D/platformer": {
       "kind": "original",
@@ -3567,12 +4259,21 @@
       "sourcePath": "kenney-platformer-assets-ice/2D/platformer/Sample.png",
       "description": "Original bundled Kenney sample scene; the legacy pack listing is unavailable. Selected instead of its complete inventory sheet.",
       "sourceSha256": "dcc441f654fa6ac7e313cc182cf6ae1abd3a99755bd75f78df0e65983f988887",
-      "outputSha256": "288758b96897e02d40b16d91b42e95103b80053a0f2cab72ef24393673f12248",
+      "outputSha256": "e2b855786e98875b8ff9c85283ab733225b45077813468b399f74a83037786cf",
       "outputSourceSha256": "dcc441f654fa6ac7e313cc182cf6ae1abd3a99755bd75f78df0e65983f988887",
-      "width": 512,
-      "height": 209,
-      "bytes": 13360,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "width": 322,
+      "height": 322,
+      "bytes": 6522,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop140_0_322",
+      "crop": {
+        "left": 140,
+        "top": 0,
+        "size": 322
+      },
+      "gallery": [
+        "Spritesheet/spritesheet.png",
+        "Preview.png"
+      ]
     },
     "kenney-platformer-assets-mushroom/2D/platformer": {
       "kind": "original",
@@ -3587,7 +4288,13 @@
       "height": 209,
       "bytes": 15288,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/platformer-art-mushrooms/45192deb18-1677696671/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/platformer-art-mushrooms/45192deb18-1677696671/sample.png",
+      "gallery": [
+        "Sample.png",
+        "Backgrounds/bg_castle.png",
+        "Backgrounds/bg_desert.png",
+        "Spritesheet/spritesheet.png"
+      ]
     },
     "kenney-platformer-assets-pixel/2D/platformer": {
       "kind": "original",
@@ -3602,7 +4309,12 @@
       "height": 258,
       "bytes": 15544,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/platformer-art-pixel/e0ce345e1d-1677696731/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/platformer-art-pixel/e0ce345e1d-1677696731/sample.png",
+      "gallery": [
+        "Sample.png",
+        "Spritesheet/tilemap.png",
+        "Spritesheet/tilemap_packed.png"
+      ]
     },
     "kenney-platformer-assets-requests/2D/platformer": {
       "kind": "original",
@@ -3617,7 +4329,12 @@
       "height": 209,
       "bytes": 14116,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/platformer-art-requests/fd618a0ff3-1677696804/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/platformer-art-requests/fd618a0ff3-1677696804/sample.png",
+      "gallery": [
+        "Sample.png",
+        "Spritesheet/spritesheet.png",
+        "Preview.png"
+      ]
     },
     "kenney-platformer-assets-tile-extensions/2D/platformer": {
       "kind": "original",
@@ -3632,7 +4349,13 @@
       "height": 204,
       "bytes": 8104,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/platformer-art-extended-tileset/d9219c6bd7-1677696604/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/platformer-art-extended-tileset/d9219c6bd7-1677696604/sample.png",
+      "gallery": [
+        "Sample.png",
+        "Preview.png",
+        "PNG Cake/Spritesheet/sheet.png",
+        "PNG Castle/Spritesheet/sheet.png"
+      ]
     },
     "kenney-platformer-bricks/2D/platformer": {
       "kind": "original",
@@ -3647,7 +4370,13 @@
       "height": 287,
       "bytes": 9456,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/platformer-bricks/32780c823f-1677668014/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/platformer-bricks/32780c823f-1677668014/sample.png",
+      "gallery": [
+        "Sample.png",
+        "Tilesheet/tilesheet.png",
+        "Spritesheet/platformerBricks_sheet.png",
+        "Preview.png"
+      ]
     },
     "kenney-platformer-characters-1/2D/platformer": {
       "kind": "original",
@@ -3662,7 +4391,12 @@
       "height": 287,
       "bytes": 13972,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/platformer-characters/753f647f75-1677693764/preview.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/platformer-characters/753f647f75-1677693764/preview.png",
+      "gallery": [
+        "Preview.png",
+        "PNG/Adventurer/adventurer_tilesheet.png",
+        "PNG/Female/female_tilesheet.png"
+      ]
     },
     "kenney-platformer-kit/3D/platformer": {
       "kind": "original",
@@ -3677,7 +4411,11 @@
       "height": 287,
       "bytes": 21994,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/platformer-kit/12fa6cafde-1775122247/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/platformer-kit/12fa6cafde-1775122247/sample.png",
+      "gallery": [
+        "Preview (Variation A).png",
+        "Preview.png"
+      ]
     },
     "kenney-platformer-pack-industrial/2D/platformer": {
       "kind": "original",
@@ -3692,7 +4430,15 @@
       "height": 287,
       "bytes": 14952,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/platformer-pack-industrial/54dd538533-1677696004/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/platformer-pack-industrial/54dd538533-1677696004/sample.png",
+      "gallery": [
+        "Sample.png",
+        "Tilesheet/platformerPack_industrial_tilesheet@2.png",
+        "Spritesheet/platformIndustrial_sheet@2.png",
+        "Tilesheet/platformerPack_industrial_tilesheet.png",
+        "Preview.png",
+        "Spritesheet/platformIndustrial_sheet.png"
+      ]
     },
     "kenney-platformer-pack-medieval/2D/platformer": {
       "kind": "original",
@@ -3707,7 +4453,13 @@
       "height": 287,
       "bytes": 15904,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/platformer-pack-medieval/8b7a0413b4-1677696126/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/platformer-pack-medieval/8b7a0413b4-1677696126/sample.png",
+      "gallery": [
+        "Sample.png",
+        "Spritesheet/medieval_spritesheet.png",
+        "Tilesheet/medieval_tilesheet.png",
+        "Preview.png"
+      ]
     },
     "kenney-platformer-pack-nautical/2D/platformer": {
       "kind": "original",
@@ -3716,12 +4468,22 @@
       "sourcePath": "kenney-platformer-pack-nautical/2D/platformer/Sample.png",
       "description": "Original bundled Kenney sample scene; the legacy pack listing is unavailable. Selected instead of its complete inventory sheet.",
       "sourceSha256": "704711aaa018df5acb104ff811f574a1b49428de1d4d28d657da2adc24b32458",
-      "outputSha256": "e22bac164c2dd57329e84976ba80d26c5e3c9f0b599eceeedda52355663df5ba",
+      "outputSha256": "0a8811842b90bd3db2dde7bb0c6c5cf11eb37615f2a4022e0cae08e28527be3f",
       "outputSourceSha256": "704711aaa018df5acb104ff811f574a1b49428de1d4d28d657da2adc24b32458",
       "width": 512,
-      "height": 287,
-      "bytes": 13036,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 19358,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop202_0_515",
+      "crop": {
+        "left": 202,
+        "top": 0,
+        "size": 515
+      },
+      "gallery": [
+        "Spritesheet/nautical_spritesheet.png",
+        "Tilesheet/nautical_tilesheet.png",
+        "Preview.png"
+      ]
     },
     "kenney-platformer-pack-remastered/2D/platformer": {
       "kind": "original",
@@ -3730,12 +4492,25 @@
       "sourcePath": "kenney-platformer-pack-remastered/2D/platformer/Sample1.png",
       "description": "Original bundled sample scene; clearer at thumbnail size than the website inventory image.",
       "sourceSha256": "595296a94b6ff0f61523aaad5e1a4979dcf7a9b8acc401ef2a1c34ad2baa246f",
-      "outputSha256": "f29433bf7031f396443f6ec5620c2ce25888d132d467ba16c8b2dd6d9e820176",
+      "outputSha256": "1f985fc6fa5945a288d3cd6927bc4ac357332f8d83d9446665ce4a6b8dc068af",
       "outputSourceSha256": "595296a94b6ff0f61523aaad5e1a4979dcf7a9b8acc401ef2a1c34ad2baa246f",
       "width": 512,
-      "height": 287,
-      "bytes": 9416,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 10190,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop202_0_515",
+      "crop": {
+        "left": 202,
+        "top": 0,
+        "size": 515
+      },
+      "gallery": [
+        "Sample2.png",
+        "Spritesheets/spritesheet_complete.png",
+        "Spritesheets/spritesheet_enemies.png",
+        "PNG/Backgrounds/blue_desert.png",
+        "PNG/Backgrounds/blue_grass.png",
+        "Changes.png"
+      ]
     },
     "kenney-playing-cards-pack/2D/misc": {
       "kind": "derived",
@@ -3775,6 +4550,12 @@
           "path": "kenney-playing-cards-pack/2D/misc/PNG/Cards (large)/card_back.png",
           "sha256": "a2ab56d55cd08b99933f8997d46b6907ea0b62082931e7adb8b31b9e000ae3c8"
         }
+      ],
+      "gallery": [
+        "Preview A.png",
+        "Preview B.png",
+        "Tilesheet/cardsMedium_tilemap.png",
+        "Tilesheet/cardsMedium_tilemap_packed.png"
       ]
     },
     "kenney-prototype-kit/3D/prototype-blocks": {
@@ -3790,7 +4571,11 @@
       "height": 287,
       "bytes": 24412,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/prototype-kit/6ed928c9d0-1724832070/preview.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/prototype-kit/6ed928c9d0-1724832070/preview.png",
+      "gallery": [
+        "Preview (Variation A).png",
+        "Preview (Variation B).png"
+      ]
     },
     "kenney-prototype-textures/2D/prototype-blocks": {
       "kind": "original",
@@ -3820,7 +4605,13 @@
       "height": 304,
       "bytes": 15920,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/puzzle-pack-1/0a346f5b0c-1677669227/sample.jpg"
+      "imageUrl": "https://kenney.nl/media/pages/assets/puzzle-pack-1/0a346f5b0c-1677669227/sample.jpg",
+      "gallery": [
+        "Sample.png",
+        "Spritesheet/spritesheet_double.png",
+        "Preview.png",
+        "Spritesheet/spritesheet_default.png"
+      ]
     },
     "kenney-puzzle-pack-2/2D/misc": {
       "kind": "original",
@@ -3835,7 +4626,13 @@
       "height": 287,
       "bytes": 21418,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/puzzle-pack-2/8b9c51463a-1677667469/sample1.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/puzzle-pack-2/8b9c51463a-1677667469/sample1.png",
+      "gallery": [
+        "Sample1.png",
+        "Sample2.png",
+        "Spritesheet/spritesheet_pipes.png",
+        "Spritesheet/spritesheet_tilesOranges.png"
+      ]
     },
     "kenney-racing-kit-early-access/3D/vehicles-racing": {
       "kind": "original",
@@ -3844,12 +4641,17 @@
       "sourcePath": "kenney-racing-kit-early-access/3D/vehicles-racing/Preview.png",
       "description": "Original creator pack preview bundled with the licensed asset archive; composition preserved.",
       "sourceSha256": "63ce966e1049e38cffa68b40c298a070a50c2973eb97c65dc811564b231b3e9b",
-      "outputSha256": "80c2adff64c185ccae19fbfa2f6e138de1bfc3339c7bd35539c479d85f948b09",
+      "outputSha256": "f544c8637c24c82431be8b1e1c392a1701d2d6a91e1efc715c063aaf4965ae73",
       "outputSourceSha256": "63ce966e1049e38cffa68b40c298a070a50c2973eb97c65dc811564b231b3e9b",
       "width": 512,
-      "height": 287,
-      "bytes": 22066,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 37956,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop202_0_515",
+      "crop": {
+        "left": 202,
+        "top": 0,
+        "size": 515
+      }
     },
     "kenney-racing-kit/3D/vehicles-racing": {
       "kind": "original",
@@ -3879,7 +4681,12 @@
       "height": 287,
       "bytes": 28480,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/racing-pack/a747dc19d4-1677662439/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/racing-pack/a747dc19d4-1677662439/sample.png",
+      "gallery": [
+        "Preview.png",
+        "Spritesheets/spritesheet_tiles.png",
+        "Spritesheets/spritesheet_objects.png"
+      ]
     },
     "kenney-ranks-pack/2D/misc": {
       "kind": "derived",
@@ -3919,6 +4726,11 @@
           "path": "kenney-ranks-pack/2D/misc/PNG/Retina/Gold/rank035.png",
           "sha256": "318273b1172591bb49b9528eb7825fd9e39b64cde078dae48e9e1a6de73813db"
         }
+      ],
+      "gallery": [
+        "Preview.png",
+        "Tilesheet/retina_black.png",
+        "Tilesheet/retina_bronze.png"
       ]
     },
     "kenney-retro-fantasy-kit/3D/fantasy": {
@@ -3943,12 +4755,17 @@
       "sourcePath": "kenney-retro-sounds-1/audio/Preview.png",
       "description": "Original creator pack preview bundled with the licensed asset archive; composition preserved.",
       "sourceSha256": "2fc3b0349e6b2a1f88bf2ec0a3f6ef40af27c0906ab67fd38019555a396a1c2a",
-      "outputSha256": "65865703c75f67b0bf3d0eeaa94a66d72e0707737092e0f24e58120903db4de9",
+      "outputSha256": "e31da29cb92fd84d1159b711d01eb526e38d81e95bf3562d47bea84a0c2fca8d",
       "outputSourceSha256": "2fc3b0349e6b2a1f88bf2ec0a3f6ef40af27c0906ab67fd38019555a396a1c2a",
-      "width": 512,
-      "height": 307,
-      "bytes": 3342,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "width": 480,
+      "height": 480,
+      "bytes": 5152,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop160_0_480",
+      "crop": {
+        "left": 160,
+        "top": 0,
+        "size": 480
+      }
     },
     "kenney-retro-sounds-2/audio": {
       "kind": "original",
@@ -3957,12 +4774,17 @@
       "sourcePath": "kenney-retro-sounds-2/audio/Preview.png",
       "description": "Original creator pack preview bundled with the licensed asset archive; composition preserved.",
       "sourceSha256": "f1fdfbb7368351c58bcd9cf3e237ecd1c6c64bf468184a79584e47b472158a4e",
-      "outputSha256": "b73896ec517367b800a08d4f67def80fd7339ed7fa645f0137e2c0470318593f",
+      "outputSha256": "e341dccb4195e59fd1633825fc9a0c45132bb8843d7cf0cec92ed9812b079735",
       "outputSourceSha256": "f1fdfbb7368351c58bcd9cf3e237ecd1c6c64bf468184a79584e47b472158a4e",
-      "width": 512,
-      "height": 307,
-      "bytes": 3444,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "width": 480,
+      "height": 480,
+      "bytes": 5408,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop160_0_480",
+      "crop": {
+        "left": 160,
+        "top": 0,
+        "size": 480
+      }
     },
     "kenney-retro-textures-fantasy/2D/fantasy": {
       "kind": "original",
@@ -4016,12 +4838,17 @@
       "sourcePath": "kenney-road-textures-classic/2D/city/Preview.png",
       "description": "Original creator pack preview bundled with the licensed asset archive; composition preserved.",
       "sourceSha256": "6d5e20b6e086828c8cc955cea4723c598a6963bb1bfe947b4bb24da1eed1e239",
-      "outputSha256": "b06d6696847588239921a97909bd02d261020e2db241b304fa1fd5ad294336ca",
+      "outputSha256": "4034b67eee4ebbc9e97d39d8a500664ec66cca15d9f1a04ffd305efe9571e53e",
       "outputSourceSha256": "6d5e20b6e086828c8cc955cea4723c598a6963bb1bfe947b4bb24da1eed1e239",
       "width": 512,
-      "height": 287,
-      "bytes": 15946,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 23582,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop202_0_515",
+      "crop": {
+        "left": 202,
+        "top": 0,
+        "size": 515
+      }
     },
     "kenney-road-textures/2D/city": {
       "kind": "original",
@@ -4051,7 +4878,13 @@
       "height": 287,
       "bytes": 9082,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/robot-pack/1d807747c9-1677670207/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/robot-pack/1d807747c9-1677670207/sample.png",
+      "gallery": [
+        "Preview.png",
+        "Sample.png",
+        "Spritesheet/spritesheet_robotsSide.png",
+        "Spritesheet/spritesheet_robotsTop.png"
+      ]
     },
     "kenney-roguelike-base-pack/2D/top-down-rpg": {
       "kind": "original",
@@ -4066,7 +4899,13 @@
       "height": 287,
       "bytes": 21600,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/roguelike-rpg-pack/6b88b8d663-1677697411/sample1.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/roguelike-rpg-pack/6b88b8d663-1677697411/sample1.png",
+      "gallery": [
+        "Preview.png",
+        "Sample1.png",
+        "Spritesheet/roguelikeSheet_magenta.png",
+        "Spritesheet/roguelikeSheet_transparent.png"
+      ]
     },
     "kenney-roguelike-characters-pack/2D/top-down-rpg": {
       "kind": "original",
@@ -4081,7 +4920,11 @@
       "height": 287,
       "bytes": 14528,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/roguelike-characters/da661e4fb3-1677694932/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/roguelike-characters/da661e4fb3-1677694932/sample.png",
+      "gallery": [
+        "Sample.png",
+        "Preview.png"
+      ]
     },
     "kenney-roguelike-city-pack/2D/top-down-rpg": {
       "kind": "original",
@@ -4096,7 +4939,12 @@
       "height": 287,
       "bytes": 24340,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/roguelike-modern-city/69c121b8ae-1677694738/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/roguelike-modern-city/69c121b8ae-1677694738/sample.png",
+      "gallery": [
+        "Preview.png",
+        "Tilemap/tilemap.png",
+        "Tilemap/tilemap_packed.png"
+      ]
     },
     "kenney-roguelike-dungeon-pack/2D/top-down-rpg": {
       "kind": "original",
@@ -4111,7 +4959,13 @@
       "height": 287,
       "bytes": 9724,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/roguelike-caves-dungeons/154aef76de-1677694827/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/roguelike-caves-dungeons/154aef76de-1677694827/sample.png",
+      "gallery": [
+        "Sample.png",
+        "Preview.png",
+        "Spritesheet/roguelikeDungeon_magenta.png",
+        "Spritesheet/roguelikeDungeon_transparent.png"
+      ]
     },
     "kenney-roguelike-interior-pack/2D/top-down-rpg": {
       "kind": "original",
@@ -4126,7 +4980,12 @@
       "height": 287,
       "bytes": 8950,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/roguelike-indoors/3c041db86f-1677694884/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/roguelike-indoors/3c041db86f-1677694884/sample.png",
+      "gallery": [
+        "Preview.png",
+        "Tilesheets/roguelikeIndoor_magenta.png",
+        "Tilesheets/roguelikeIndoor_transparent.png"
+      ]
     },
     "kenney-rolling-ball-assets/2D/sports": {
       "kind": "original",
@@ -4141,7 +5000,12 @@
       "height": 287,
       "bytes": 11878,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/rolling-ball-assets/41181d8cea-1677495687/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/rolling-ball-assets/41181d8cea-1677495687/sample.png",
+      "gallery": [
+        "Preview.png",
+        "Spritesheet/rollingBall_sheet@2.png",
+        "Spritesheet/rollingBall_sheet.png"
+      ]
     },
     "kenney-rpg-audio/audio": {
       "kind": "original",
@@ -4165,12 +5029,22 @@
       "sourcePath": "kenney-rpg-tiles-vector/2D/top-down-rpg/Sample.png",
       "description": "Original bundled Kenney sample scene; the legacy pack listing is unavailable. Selected instead of its complete inventory sheet.",
       "sourceSha256": "cab7539003ef93163d1542d474176dca78a0f9176dccb5aa9379debb01abf394",
-      "outputSha256": "4be3fa58aedaf291ca97ff13e16679b3d8a6674d289b23b5b6750a6f93700c22",
+      "outputSha256": "be68d2231b4c2077abc50ffc107c6b835dcf7809e75c346b55dd790fafeecd1d",
       "outputSourceSha256": "cab7539003ef93163d1542d474176dca78a0f9176dccb5aa9379debb01abf394",
       "width": 512,
-      "height": 287,
-      "bytes": 17102,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 21134,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop202_0_515",
+      "crop": {
+        "left": 202,
+        "top": 0,
+        "size": 515
+      },
+      "gallery": [
+        "Tilesheet/RPGpack_sheet_2X.png",
+        "Tilesheet/RPGpack_sheet.png",
+        "Preview.png"
+      ]
     },
     "kenney-rpg-urban-pack/2D/top-down-rpg": {
       "kind": "original",
@@ -4185,7 +5059,13 @@
       "height": 287,
       "bytes": 30024,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/rpg-urban-pack/ddc38bb8e5-1677578571/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/rpg-urban-pack/ddc38bb8e5-1677578571/sample.png",
+      "gallery": [
+        "Sample.png",
+        "Preview.png",
+        "Tilemap/tilemap.png",
+        "Tilemap/tilemap_packed.png"
+      ]
     },
     "kenney-rts-medieval-pixel/2D/strategy-hex": {
       "kind": "original",
@@ -4194,12 +5074,17 @@
       "sourcePath": "kenney-rts-medieval-pixel/2D/strategy-hex/Sample.png",
       "description": "Original bundled Kenney sample scene; the legacy pack listing is unavailable. Selected instead of its complete inventory sheet.",
       "sourceSha256": "d4358b46574fdb26ce860515db3160bab9d5d194b9dbfb32e48dcc771d7c41e4",
-      "outputSha256": "294dd6e4e6b261bae4f0908df625c4030545fb17e18387092bcfce0c728ba3d3",
+      "outputSha256": "f7654c29f23e7d40ae42bdaf210704f4e53c87470cfb310a3ef29f65af136096",
       "outputSourceSha256": "d4358b46574fdb26ce860515db3160bab9d5d194b9dbfb32e48dcc771d7c41e4",
       "width": 512,
-      "height": 287,
-      "bytes": 23860,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 42000,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop202_0_515",
+      "crop": {
+        "left": 202,
+        "top": 0,
+        "size": 515
+      }
     },
     "kenney-rts-medieval/2D/strategy-hex": {
       "kind": "original",
@@ -4214,7 +5099,15 @@
       "height": 287,
       "bytes": 22718,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/medieval-rts/fdf8b5d6e5-1677693585/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/medieval-rts/fdf8b5d6e5-1677693585/sample.png",
+      "gallery": [
+        "Sample.png",
+        "Tilesheet/RTS_medieval@2.png",
+        "Tilesheet/medieval_tilesheet.png",
+        "Spritesheet/medievalRTS_spritesheet@2.png",
+        "Preview.png",
+        "Spritesheet/medievalRTS_spritesheet.png"
+      ]
     },
     "kenney-rts-sci-fi/2D/space-scifi": {
       "kind": "original",
@@ -4229,7 +5122,15 @@
       "height": 287,
       "bytes": 21156,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/sci-fi-rts/f4e82fcedc-1677693646/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/sci-fi-rts/f4e82fcedc-1677693646/sample.png",
+      "gallery": [
+        "Sample.png",
+        "Tilesheet/scifi_tilesheet@2.png",
+        "Spritesheet/scifiRTS_spritesheet@2.png",
+        "Tilesheet/scifi_tilesheet.png",
+        "Preview.png",
+        "Spritesheet/scifiRTS_spritesheet.png"
+      ]
     },
     "kenney-rune-pack/2D/fantasy": {
       "kind": "derived",
@@ -4269,6 +5170,14 @@
           "path": "kenney-rune-pack/2D/fantasy/PNG/Blue/Tile/runeBlue_tile_031.png",
           "sha256": "6f042261cf69504bae29595cd20db08bcd60ed875e56cad16420c9e7c542393f"
         }
+      ],
+      "gallery": [
+        "Preview.png",
+        "Spritesheet/Black/runeBlack_slabOutline_sheet.png",
+        "Spritesheet/Blue/runeBlue_slabOutline_sheet.png",
+        "Spritesheet/Black/runeBlack_rectangleOutline_sheet.png",
+        "Spritesheet/Blue/runeBlue_rectangleOutline_sheet.png",
+        "Spritesheet/Grey/runeGrey_slab_sheet.png"
       ]
     },
     "kenney-sci-fi-sounds/audio": {
@@ -4299,7 +5208,12 @@
       "height": 287,
       "bytes": 31520,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/scribble-dungeons/5b084d9272-1674932853/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/scribble-dungeons/5b084d9272-1674932853/sample.png",
+      "gallery": [
+        "Preview.png",
+        "Tilesheet/tilesheet@2.png",
+        "Tilesheet/tilesheet.png"
+      ]
     },
     "kenney-scribble-platformer/2D/platformer": {
       "kind": "original",
@@ -4314,7 +5228,12 @@
       "height": 287,
       "bytes": 20586,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/scribble-platformer/d6a0e3a9ac-1674932930/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/scribble-platformer/d6a0e3a9ac-1674932930/sample.png",
+      "gallery": [
+        "Spritesheet/spritesheet_retina.png",
+        "Spritesheet/spritesheet_default.png",
+        "Preview.png"
+      ]
     },
     "kenney-shape-characters/2D/characters": {
       "kind": "original",
@@ -4329,7 +5248,12 @@
       "height": 287,
       "bytes": 10600,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/shape-characters/f7aa93d6d0-1698339460/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/shape-characters/f7aa93d6d0-1698339460/sample.png",
+      "gallery": [
+        "Spritesheet/spritesheet_double.png",
+        "Preview.png",
+        "Spritesheet/spritesheet_default.png"
+      ]
     },
     "kenney-shooting-gallery/2D/misc": {
       "kind": "original",
@@ -4344,7 +5268,13 @@
       "height": 287,
       "bytes": 21028,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/shooting-gallery/dcd0ff0bca-1677662383/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/shooting-gallery/dcd0ff0bca-1677662383/sample.png",
+      "gallery": [
+        "Preview.png",
+        "Sample.png",
+        "Spritesheets/spritesheet_stall.png",
+        "Spritesheets/spritesheet_objects.png"
+      ]
     },
     "kenney-simple-space/2D/space-scifi": {
       "kind": "original",
@@ -4359,7 +5289,14 @@
       "height": 287,
       "bytes": 11848,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/simple-space/489b432d65-1677578140/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/simple-space/489b432d65-1677578140/sample.png",
+      "gallery": [
+        "Preview.png",
+        "Tilesheet/simpleSpace_tilesheet@2.png",
+        "Spritesheet/simpleSpace_sheet@2.png",
+        "Tilesheet/simpleSpace_tilesheet.png",
+        "Spritesheet/simpleSpace_sheet.png"
+      ]
     },
     "kenney-simplified-platformer-pack/2D/platformer": {
       "kind": "original",
@@ -4374,7 +5311,12 @@
       "height": 287,
       "bytes": 16328,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/simplified-platformer-pack/241001fae8-1677693195/preview.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/simplified-platformer-pack/241001fae8-1677693195/preview.png",
+      "gallery": [
+        "Preview.png",
+        "Tilesheet/platformPack_tilesheet@2.png",
+        "Tilesheet/platformPack_tilesheet.png"
+      ]
     },
     "kenney-sketch-desert/2D/city": {
       "kind": "original",
@@ -4485,7 +5427,15 @@
       "height": 287,
       "bytes": 12624,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/sokoban/8ed55d0eea-1677579116/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/sokoban/8ed55d0eea-1677579116/sample.png",
+      "gallery": [
+        "Preview.png",
+        "Sample.png",
+        "Tilesheet/sokoban_tilesheet@2.png",
+        "Spritesheet/sokoban_spritesheet@2.png",
+        "Tilesheet/sokoban_tilesheet.png",
+        "Spritesheet/sokoban_spritesheet.png"
+      ]
     },
     "kenney-space-kit/3D/space-scifi": {
       "kind": "original",
@@ -4500,7 +5450,11 @@
       "height": 287,
       "bytes": 19008,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/space-kit/28e67de6d9-1677698968/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/space-kit/28e67de6d9-1677698968/sample.png",
+      "gallery": [
+        "Preview.png",
+        "Sample.png"
+      ]
     },
     "kenney-space-shooter-extension/2D/space-scifi": {
       "kind": "original",
@@ -4515,7 +5469,13 @@
       "height": 287,
       "bytes": 17616,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/space-shooter-extension/9187f6d608-1677693514/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/space-shooter-extension/9187f6d608-1677693514/sample.png",
+      "gallery": [
+        "Sample.png",
+        "Spritesheet/spaceShooter2_spritesheet_2X.png",
+        "Spritesheet/spaceShooter2_spritesheet.png",
+        "Preview.png"
+      ]
     },
     "kenney-space-shooter-remastered/2D/space-scifi": {
       "kind": "original",
@@ -4530,7 +5490,14 @@
       "height": 307,
       "bytes": 8652,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/space-shooter-remastered/3a292e0d18-1677669436/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/space-shooter-remastered/3a292e0d18-1677669436/sample.png",
+      "gallery": [
+        "Preview.png",
+        "Sample.png",
+        "Spritesheet/sheet.png",
+        "Backgrounds/black.png",
+        "Backgrounds/blue.png"
+      ]
     },
     "kenney-space-station-kit/3D/space-scifi": {
       "kind": "original",
@@ -4545,7 +5512,11 @@
       "height": 287,
       "bytes": 20974,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/space-station-kit/a795b59757-1712749915/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/space-station-kit/a795b59757-1712749915/sample.png",
+      "gallery": [
+        "Preview (Variation A).png",
+        "Preview.png"
+      ]
     },
     "kenney-splat-pack/2D/misc": {
       "kind": "derived",
@@ -4600,7 +5571,15 @@
       "height": 287,
       "bytes": 11272,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/sports-pack/31866d3abe-1677693275/sample1.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/sports-pack/31866d3abe-1677693275/sample1.png",
+      "gallery": [
+        "Preview.png",
+        "Sample1.png",
+        "Tilesheet/groundBeige_blue.png",
+        "Tilesheet/groundBeige_red.png",
+        "Spritesheet/sheet_charactersEquipment.png",
+        "Spritesheet/sheet_characters.png"
+      ]
     },
     "kenney-survival-kit/3D/nature": {
       "kind": "original",
@@ -4615,7 +5594,11 @@
       "height": 287,
       "bytes": 15312,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/survival-kit/4c1d761236-1712149236/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/survival-kit/4c1d761236-1712149236/sample.png",
+      "gallery": [
+        "Preview (Variation A).png",
+        "Preview.png"
+      ]
     },
     "kenney-synth-voice-1/audio": {
       "kind": "original",
@@ -4624,12 +5607,17 @@
       "sourcePath": "kenney-synth-voice-1/audio/Preview.png",
       "description": "Original creator pack preview bundled with the licensed asset archive; composition preserved.",
       "sourceSha256": "40c34d2de121e3aa5ea9d2dc55629f0cb89b0790b65adb600e6dfb5e6cc601fe",
-      "outputSha256": "c9135b087e026f53f3a774388b2b17fc0a1f0c3fb345fcbc1f789967352b41f4",
+      "outputSha256": "752be4af3ab415cbb7c71043b2284c6059328bc51feca9a7705500798d0fc17c",
       "outputSourceSha256": "40c34d2de121e3aa5ea9d2dc55629f0cb89b0790b65adb600e6dfb5e6cc601fe",
-      "width": 512,
-      "height": 307,
-      "bytes": 3166,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "width": 480,
+      "height": 480,
+      "bytes": 4932,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop160_0_480",
+      "crop": {
+        "left": 160,
+        "top": 0,
+        "size": 480
+      }
     },
     "kenney-synth-voice-2/audio": {
       "kind": "original",
@@ -4638,12 +5626,17 @@
       "sourcePath": "kenney-synth-voice-2/audio/Preview.png",
       "description": "Original creator pack preview bundled with the licensed asset archive; composition preserved.",
       "sourceSha256": "40c34d2de121e3aa5ea9d2dc55629f0cb89b0790b65adb600e6dfb5e6cc601fe",
-      "outputSha256": "c9135b087e026f53f3a774388b2b17fc0a1f0c3fb345fcbc1f789967352b41f4",
+      "outputSha256": "752be4af3ab415cbb7c71043b2284c6059328bc51feca9a7705500798d0fc17c",
       "outputSourceSha256": "40c34d2de121e3aa5ea9d2dc55629f0cb89b0790b65adb600e6dfb5e6cc601fe",
-      "width": 512,
-      "height": 307,
-      "bytes": 3166,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "width": 480,
+      "height": 480,
+      "bytes": 4932,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop160_0_480",
+      "crop": {
+        "left": 160,
+        "top": 0,
+        "size": 480
+      }
     },
     "kenney-tank-pack/2D/vehicles-racing": {
       "kind": "original",
@@ -4652,12 +5645,22 @@
       "sourcePath": "kenney-tank-pack/2D/vehicles-racing/Sample.png",
       "description": "Original bundled Kenney sample scene; the legacy pack listing is unavailable. Selected instead of its complete inventory sheet.",
       "sourceSha256": "8449a44571891bf0c628d9b49ffd3d09debcccc09ddced9e417f8d0954e0115a",
-      "outputSha256": "96e52f5fd569527e3120704e03d1b5e9a774858fee594f84302dee0930433731",
+      "outputSha256": "abc2e574a359d201402463a4c4d544f510cdc6d8cd97e1b6a4adf41524cdf3d6",
       "outputSourceSha256": "8449a44571891bf0c628d9b49ffd3d09debcccc09ddced9e417f8d0954e0115a",
       "width": 512,
-      "height": 287,
-      "bytes": 11344,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 15220,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop202_0_515",
+      "crop": {
+        "left": 202,
+        "top": 0,
+        "size": 515
+      },
+      "gallery": [
+        "Spritesheet/tanks_spritesheetRetina.png",
+        "Spritesheet/tanks_spritesheetDefault.png",
+        "Preview.png"
+      ]
     },
     "kenney-tappy-plane/2D/platformer": {
       "kind": "original",
@@ -4672,7 +5675,13 @@
       "height": 287,
       "bytes": 11280,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/tappy-plane/fb84b4c2ee-1677700398/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/tappy-plane/fb84b4c2ee-1677700398/sample.png",
+      "gallery": [
+        "Preview.png",
+        "Spritesheet/sheet.png",
+        "PNG/background.png",
+        "Spritesheet/planes.png"
+      ]
     },
     "kenney-tiny-battle/2D/top-down-rpg": {
       "kind": "original",
@@ -4687,7 +5696,12 @@
       "height": 287,
       "bytes": 49046,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/tiny-battle/a33076fa44-1691487572/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/tiny-battle/a33076fa44-1691487572/sample.png",
+      "gallery": [
+        "Preview.png",
+        "Tilemap/tilemap.png",
+        "Tilemap/tilemap_packed.png"
+      ]
     },
     "kenney-tiny-dungeon/2D/dungeon": {
       "kind": "original",
@@ -4702,7 +5716,12 @@
       "height": 287,
       "bytes": 31634,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/tiny-dungeon/8c4f705db0-1674742412/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/tiny-dungeon/8c4f705db0-1674742412/sample.png",
+      "gallery": [
+        "Preview.png",
+        "Tilemap/tilemap.png",
+        "Tilemap/tilemap_packed.png"
+      ]
     },
     "kenney-tiny-ski/2D/sports": {
       "kind": "original",
@@ -4717,7 +5736,12 @@
       "height": 287,
       "bytes": 26312,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/tiny-ski/05dca5ebc4-1680201502/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/tiny-ski/05dca5ebc4-1680201502/sample.png",
+      "gallery": [
+        "Preview.png",
+        "Tilemap/tilemap.png",
+        "Tilemap/tilemap_packed.png"
+      ]
     },
     "kenney-tiny-town/2D/top-down-rpg": {
       "kind": "original",
@@ -4732,7 +5756,12 @@
       "height": 287,
       "bytes": 42708,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/tiny-town/e241a9f6c0-1674742338/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/tiny-town/e241a9f6c0-1674742338/sample.png",
+      "gallery": [
+        "Preview.png",
+        "Tilemap/tilemap.png",
+        "Tilemap/tilemap_packed.png"
+      ]
     },
     "kenney-toon-characters/2D/characters": {
       "kind": "original",
@@ -4747,7 +5776,13 @@
       "height": 287,
       "bytes": 16784,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/toon-characters/90a61601f7-1677693113/preview.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/toon-characters/90a61601f7-1677693113/preview.png",
+      "gallery": [
+        "Female adventurer/Tilesheet/character_femaleAdventurer_sheetHD.png",
+        "Female person/Tilesheet/character_femalePerson_sheetHD.png",
+        "Male adventurer/Tilesheet/character_maleAdventurer_sheet.png",
+        "Male person/Tilesheet/character_malePerson_sheet.png"
+      ]
     },
     "kenney-topdown-shooter-pixel/2D/misc": {
       "kind": "original",
@@ -4756,12 +5791,22 @@
       "sourcePath": "kenney-topdown-shooter-pixel/2D/misc/Sample.png",
       "description": "Original bundled Kenney sample scene; the legacy pack listing is unavailable. Selected instead of its complete inventory sheet.",
       "sourceSha256": "47b5fa9dee0791680fe60ea8d002f89de3fd2b082231913bf929144a1e5f1cf7",
-      "outputSha256": "a5cad6f6073771d9cb10bf861b336ac3a5a0a8a74bcf03eba3a4d5ee434baa07",
+      "outputSha256": "e2b9bd81052831fed1a231499b7bbd23f72916eea5222883757063f0a2b8a0cb",
       "outputSourceSha256": "47b5fa9dee0791680fe60ea8d002f89de3fd2b082231913bf929144a1e5f1cf7",
       "width": 512,
-      "height": 287,
-      "bytes": 15906,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 21354,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop202_0_515",
+      "crop": {
+        "left": 202,
+        "top": 0,
+        "size": 515
+      },
+      "gallery": [
+        "Preview.png",
+        "Tilesheet/tilesheet_magenta.png",
+        "Tilesheet/tilesheet_transparent.png"
+      ]
     },
     "kenney-topdown-shooter/2D/misc": {
       "kind": "original",
@@ -4776,7 +5821,15 @@
       "height": 287,
       "bytes": 18986,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/top-down-shooter/7922719534-1677694680/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/top-down-shooter/7922719534-1677694680/sample.png",
+      "gallery": [
+        "Preview.png",
+        "Sample.png",
+        "Tilesheet/tilesheet_complete_2X.png",
+        "Spritesheet/spritesheet_tiles.png",
+        "Tilesheet/tilesheet_complete.png",
+        "Spritesheet/spritesheet_characters.png"
+      ]
     },
     "kenney-topdown-tanks-remastered/2D/vehicles-racing": {
       "kind": "original",
@@ -4791,7 +5844,14 @@
       "height": 287,
       "bytes": 25596,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/top-down-tanks-remastered/eed7ec6571-1677666778/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/top-down-tanks-remastered/eed7ec6571-1677666778/sample.png",
+      "gallery": [
+        "Spritesheet/allSprites_retina.png",
+        "Tilesheet/terrainTiles_retina.png",
+        "Spritesheet/onlyObjects_retina.png",
+        "Preview.png",
+        "Tilesheet/terrainTiles_default.png"
+      ]
     },
     "kenney-topdown-tanks/2D/vehicles-racing": {
       "kind": "original",
@@ -4806,7 +5866,11 @@
       "height": 287,
       "bytes": 13960,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/top-down-tanks/23b047722f-1677699016/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/top-down-tanks/23b047722f-1677699016/sample.png",
+      "gallery": [
+        "Sample.png",
+        "Spritesheet/sheet_tanks.png"
+      ]
     },
     "kenney-tower-defense-classic/3D/tower-defense": {
       "kind": "original",
@@ -4815,12 +5879,17 @@
       "sourcePath": "kenney-tower-defense-classic/3D/tower-defense/Sample.png",
       "description": "Original bundled Kenney sample scene; the legacy pack listing is unavailable. Selected instead of its complete inventory sheet.",
       "sourceSha256": "4127ed20d42fb36ca81be47d531e310c232cf8911d0d598464dd69259fb6d61b",
-      "outputSha256": "7f1bf0a32bb16547d77bb340e0631127e8bd60b956c1320542488b3c53820c1c",
+      "outputSha256": "f8ab195fad89901197d8d71965dbb60daf36d14ed68b56380033b353e27fd7b6",
       "outputSourceSha256": "4127ed20d42fb36ca81be47d531e310c232cf8911d0d598464dd69259fb6d61b",
       "width": 512,
-      "height": 287,
-      "bytes": 11572,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 20704,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop202_0_515",
+      "crop": {
+        "left": 202,
+        "top": 0,
+        "size": 515
+      }
     },
     "kenney-tower-defense-kit/3D/tower-defense": {
       "kind": "original",
@@ -4850,7 +5919,13 @@
       "height": 287,
       "bytes": 10690,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/tower-defense/9eb3e62ac1-1677699065/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/tower-defense/9eb3e62ac1-1677699065/sample.png",
+      "gallery": [
+        "Sample.png",
+        "Tilesheet/towerDefense_tilesheet@2.png",
+        "Tilesheet/towerDefense_tilesheet.png",
+        "Preview.png"
+      ]
     },
     "kenney-toy-car-kit/3D/vehicles-racing": {
       "kind": "original",
@@ -4865,7 +5940,11 @@
       "height": 287,
       "bytes": 14028,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/toy-car-kit/17be15ec2b-1736346119/preview.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/toy-car-kit/17be15ec2b-1736346119/preview.png",
+      "gallery": [
+        "Preview (Track Narrow).png",
+        "Preview (Track Road Narrow).png"
+      ]
     },
     "kenney-train-kit/3D/vehicles-racing": {
       "kind": "original",
@@ -4880,7 +5959,11 @@
       "height": 287,
       "bytes": 23492,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/train-kit/625675b011-1722429699/preview.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/train-kit/625675b011-1722429699/preview.png",
+      "gallery": [
+        "Preview (Railroad Damaged).png",
+        "Preview (Railroad Rail).png"
+      ]
     },
     "kenney-ui-adventure-pack/ui": {
       "kind": "original",
@@ -4889,12 +5972,21 @@
       "sourcePath": "kenney-ui-adventure-pack/ui/Sample.png",
       "description": "Original bundled Kenney sample scene; the legacy pack listing is unavailable. Selected instead of its complete inventory sheet.",
       "sourceSha256": "72a5c6a4d908df207366d3b9f37f53b5f0884f18ab2c178c4af62ead50141a8b",
-      "outputSha256": "2ccf3c63d1a5552f23bd6b08a33a41205b88aa5b052ce8ff506bf5cef9debbed",
+      "outputSha256": "006f9724e498293c62f29c554f0a605372c5ba753ba080033fdb8626b5656e64",
       "outputSourceSha256": "72a5c6a4d908df207366d3b9f37f53b5f0884f18ab2c178c4af62ead50141a8b",
       "width": 512,
-      "height": 326,
-      "bytes": 5886,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 8454,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop200_0_700",
+      "crop": {
+        "left": 200,
+        "top": 0,
+        "size": 700
+      },
+      "gallery": [
+        "Preview.png",
+        "Spritesheet/uipack_rpg_sheet.png"
+      ]
     },
     "kenney-ui-audio/audio": {
       "kind": "original",
@@ -4924,7 +6016,12 @@
       "height": 287,
       "bytes": 14310,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/ui-pack-adventure/6ee19514ca-1723597272/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/ui-pack-adventure/6ee19514ca-1723597272/sample.png",
+      "gallery": [
+        "Preview.png",
+        "Spritesheet/spritesheet-double.png",
+        "Spritesheet/spritesheet-default.png"
+      ]
     },
     "kenney-ui-pack-pixel-adventure/ui": {
       "kind": "original",
@@ -4939,7 +6036,14 @@
       "height": 287,
       "bytes": 16170,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/ui-pack-pixel-adventure/07714c9849-1725434429/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/ui-pack-pixel-adventure/07714c9849-1725434429/sample.png",
+      "gallery": [
+        "Preview.png",
+        "Tilesheets/Large tiles/Thick outline/tilemap.png",
+        "Tilesheets/Large tiles/Thin outline/tilemap.png",
+        "Tilesheets/Large tiles/Thick outline/tilemap_packed.png",
+        "Tilesheets/Large tiles/Thin outline/tilemap_packed.png"
+      ]
     },
     "kenney-ui-pack-sci-fi/ui": {
       "kind": "original",
@@ -4954,7 +6058,11 @@
       "height": 287,
       "bytes": 11642,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/ui-pack-sci-fi/00227142e5-1724181103/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/ui-pack-sci-fi/00227142e5-1724181103/sample.png",
+      "gallery": [
+        "Preview.png",
+        "Spritesheet/uipackSpace_sheet.png"
+      ]
     },
     "kenney-ui-pack/ui": {
       "kind": "original",
@@ -4969,7 +6077,12 @@
       "height": 287,
       "bytes": 13156,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/ui-pack/249266460a-1718203984/sample.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/ui-pack/249266460a-1718203984/sample.png",
+      "gallery": [
+        "Preview.png",
+        "Spritesheet/greySheet.png",
+        "Spritesheet/blueSheet.png"
+      ]
     },
     "kenney-ui-pixel-pack/ui": {
       "kind": "derived",
@@ -5045,6 +6158,11 @@
             "height": 53
           }
         }
+      ],
+      "gallery": [
+        "Preview.png",
+        "Spritesheet/UIpackSheet_magenta.png",
+        "Spritesheet/UIpackSheet_transparent.png"
       ]
     },
     "kenney-voiceover-pack-fighter/audio": {
@@ -5111,6 +6229,13 @@
           "path": "kenney-voxel-expansion-pack/2D/prototype-blocks/PNG/Retina/item_clamOpen.png",
           "sha256": "69c532f5809223a4018f3feca54ec54520ef188c51ed51b4711ee97c873d4d43"
         }
+      ],
+      "gallery": [
+        "Preview.png",
+        "Tilesheet/voxelExpansion_tilesheet@2.png",
+        "Spritesheet/voxelExpansion_spritesheet@2.png",
+        "Tilesheet/voxelExpansion_tilesheet.png",
+        "Spritesheet/voxelExpansion_spritesheet.png"
       ]
     },
     "kenney-voxel-pack/2D/prototype-blocks": {
@@ -5126,7 +6251,15 @@
       "height": 287,
       "bytes": 25190,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://kenney.nl/media/pages/assets/voxel-pack/52a25234a4-1677662495/sample_2d.png"
+      "imageUrl": "https://kenney.nl/media/pages/assets/voxel-pack/52a25234a4-1677662495/sample_2d.png",
+      "gallery": [
+        "Preview.png",
+        "Sample_3D.png",
+        "Spritesheets/spritesheet_items.png",
+        "Spritesheets/spritesheet_tiles.png",
+        "PNG/Other/skybox_sideClouds.png",
+        "PNG/Other/skybox_side.png"
+      ]
     },
     "kenney-watercraft-pack/3D/vehicles-racing": {
       "kind": "original",
@@ -5207,7 +6340,11 @@
       "width": 315,
       "height": 250,
       "bytes": 27708,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
+      "gallery": [
+        "Sprites/14-TileSets/Terrain (32x32).png",
+        "Sprites/14-TileSets/Decorations (32x32).png"
+      ]
     },
     "ninja-adventure/2D/top-down-rpg": {
       "kind": "original",
@@ -5216,12 +6353,25 @@
       "sourcePath": "ninja-adventure/2D/top-down-rpg/Example 1.gif",
       "description": "Original creator pack preview bundled with the licensed asset archive; composition preserved.",
       "sourceSha256": "c89a9c2ef27e696c0664cf55af733739edb2240481909b3f4f15be8e606c911f",
-      "outputSha256": "b15d2e0919ff351bd225450f90df1d4e888a275c2c547a1153c68365c25817aa",
+      "outputSha256": "e05f0ca8e269dcd0624c0666a4ba6759f6a1bee06127bf7184777747f421ec51",
       "outputSourceSha256": "c89a9c2ef27e696c0664cf55af733739edb2240481909b3f4f15be8e606c911f",
       "width": 512,
-      "height": 281,
-      "bytes": 33384,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 37192,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop286_0_698",
+      "crop": {
+        "left": 286,
+        "top": 0,
+        "size": 698
+      },
+      "gallery": [
+        "MusicCover.png",
+        "Example 5 ( Old Version).png",
+        "Items/AllPreview.png",
+        "FX/AllPreview.png",
+        "Backgrounds/Tilesets/TilesetHouse.png",
+        "Actor/Boss/DragonBlue/Preview.png"
+      ]
     },
     "pirate-bomb/2D/platformer": {
       "kind": "original",
@@ -5251,7 +6401,12 @@
       "width": 512,
       "height": 406,
       "bytes": 24412,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
+      "gallery": [
+        "20 Enemies.png",
+        "Hello.png",
+        "Terrain/Terrain (16x16).png"
+      ]
     },
     "proofofplay-pirate-nation/3D/pirate": {
       "kind": "derived",
@@ -5266,7 +6421,15 @@
       "width": 512,
       "height": 512,
       "bytes": 27038,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
+      "gallery": [
+        "animals/Previews/animals-animal-gull-flying.jpg",
+        "animals/Previews/animals-animal-gull.jpg",
+        "buildings/Previews/buildings-bldg-3x3-teslacoil.jpg",
+        "buildings/Previews/buildings-bldg-5x5-bank.jpg",
+        "characters-skins/Previews/characters-skins-avatar-animation-all-023.jpg",
+        "characters-skins/Previews/characters-skins-avatar-catrinapirate.jpg"
+      ]
     },
     "proofofplay-pirate-nation/audio": {
       "kind": "derived",
@@ -5310,7 +6473,11 @@
       "width": 512,
       "height": 512,
       "bytes": 33500,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
+      "gallery": [
+        "branding-menu-background.png",
+        "ui-portraits-captainhightide-01.png"
+      ]
     },
     "puny-characters/2D/top-down-rpg": {
       "kind": "original",
@@ -5325,7 +6492,11 @@
       "width": 512,
       "height": 512,
       "bytes": 23882,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
+      "gallery": [
+        "Archer-Green.png",
+        "Archer-Purple.png"
+      ]
     },
     "puny-monsters/2D/top-down-rpg": {
       "kind": "derived",
@@ -5431,7 +6602,11 @@
       "width": 496,
       "height": 496,
       "bytes": 11006,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
+      "gallery": [
+        "Black-Panther-32x32.png",
+        "Blonde-Dog-32x32.png"
+      ]
     },
     "tiny-treats/3D/interior-furniture": {
       "kind": "original",
@@ -5446,7 +6621,15 @@
       "width": 512,
       "height": 288,
       "bytes": 26296,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
+      "gallery": [
+        "Baked Goods/sample.png",
+        "Bakery Building/overview.png",
+        "Bakery Interior/overview_1.1.png",
+        "Bubbly Bathroom/sample.png",
+        "Fun Playground/sample.png",
+        "Homely House/overview.png"
+      ]
     },
     "treasure-hunters/2D/platformer": {
       "kind": "original",
@@ -5476,7 +6659,13 @@
       "width": 512,
       "height": 318,
       "bytes": 28056,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
+      "gallery": [
+        "Generic Old West Graphicis/Atlas.png",
+        "Generic Old West Graphicis/Buildings/buildings.png",
+        "Generic Old West Graphicis/Mobs/Cactus/Cactus Back Sheet.png",
+        "Generic Old West Graphicis/Mobs/Cactus/Cactus Front Sheet.png"
+      ]
     },
     "foozle-lucifer-necromancer/2D/characters": {
       "kind": "original",
@@ -5626,7 +6815,11 @@
       "width": 512,
       "height": 406,
       "bytes": 37612,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
+      "gallery": [
+        "DungeonTileset Mockup.png",
+        "Png/DungeonTileset.png"
+      ]
     },
     "foozle-lucifer-lava-tileset/2D/dungeon": {
       "kind": "original",
@@ -5641,7 +6834,11 @@
       "width": 512,
       "height": 406,
       "bytes": 46946,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
+      "gallery": [
+        "LavaMockup.png",
+        "LavaDungeonTileset.png"
+      ]
     },
     "foozle-lucifer-exterior-tileset/2D/fantasy": {
       "kind": "original",
@@ -5716,7 +6913,13 @@
       "width": 512,
       "height": 406,
       "bytes": 46362,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
+      "gallery": [
+        "HUD/HUD Mockup.png",
+        "Login Screen/Png/Login screen1.png",
+        "Login Screen/Png/Login screen10.png",
+        "Skill Icons/spritesheet.png"
+      ]
     },
     "notjam-haunted-hotel/2D/seasonal-holiday": {
       "kind": "original",
@@ -5804,7 +7007,12 @@
       "width": 315,
       "height": 250,
       "bytes": 8266,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
+      "gallery": [
+        "Skeleton_Pack_3_Golden/Skeleton_Pack_3_Golden_Preview.png",
+        "Skeleton_Pack_1_Bone/Skeleton_Pack_1_Preview.png",
+        "Skeleton_Pack_2_Moss/Skeleton_Pack_2_Moss_Preview.png"
+      ]
     },
     "ansimuz-gothicvania-cemetery/2D/seasonal-holiday": {
       "kind": "original",
@@ -5819,7 +7027,11 @@
       "width": 315,
       "height": 250,
       "bytes": 11778,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
+      "gallery": [
+        "PNG/Environment/background.png",
+        "PNG/Environment/tileset-sliced.png"
+      ]
     },
     "ansimuz-gothicvania-collection/2D/fantasy": {
       "kind": "original",
@@ -5834,7 +7046,15 @@
       "width": 512,
       "height": 406,
       "bytes": 23150,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
+      "gallery": [
+        "night-town-background-files/night-town-background-previewx2.png",
+        "Gothic-Castle-Files/PNG/layers/gothic-castle-background.png",
+        "Gothic-Castle-Files/PNG/layers/gothic-castle-tileset.png",
+        "Hell-Beast-Files/PNG/with-stroke/hell-beast-burn.png",
+        "Hell-Beast-Files/PNG/without-stroke/hell-beast-burn.png",
+        "night-town-background-files/layers/night-town-background-clouds.png"
+      ]
     },
     "favabeans-1-bit-graveyard/2D/seasonal-holiday": {
       "kind": "original",
@@ -5876,7 +7096,15 @@
       "width": 512,
       "height": 512,
       "bytes": 20586,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
+      "gallery": [
+        "animated-props/Previews/fantasy-animated-props-bell-frame.jpg",
+        "animated-props/Previews/fantasy-animated-props-bubbling-cauldron.jpg",
+        "terrain-nature/Previews/fantasy-terrain-nature-elven-tree.jpg",
+        "terrain-nature/Previews/fantasy-terrain-nature-fairy-ring.jpg",
+        "vehicles/Previews/fantasy-vehicles-ballista-cart.jpg",
+        "vehicles/Previews/fantasy-vehicles-covered-wagon.jpg"
+      ]
     },
     "run-voxel-fantasy/3D/characters": {
       "kind": "derived",
@@ -5890,7 +7118,12 @@
       "width": 512,
       "height": 256,
       "bytes": 10974,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
+      "gallery": [
+        "avatar/Previews/fantasy-avatar-parts.jpg",
+        "characters-skins/Previews/fantasy-characters-skins-dark-knight.jpg",
+        "characters-skins/Previews/fantasy-characters-skins-druid.jpg"
+      ]
     },
     "run-voxel-fantasy/icons": {
       "kind": "derived",
@@ -5904,7 +7137,11 @@
       "width": 512,
       "height": 512,
       "bytes": 17466,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
+      "gallery": [
+        "icon-fantasy-animated-props-rune-portal.png",
+        "icon-fantasy-animated-props-scrying-orb.png"
+      ]
     },
     "run-voxel-fantasy/ui": {
       "kind": "derived",
@@ -5932,7 +7169,15 @@
       "width": 512,
       "height": 512,
       "bytes": 24074,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
+      "gallery": [
+        "animated-props/Previews/space-animated-props-airlock-door.jpg",
+        "animated-props/Previews/space-animated-props-cryo-pod.jpg",
+        "props/Previews/space-props-vending-machine.jpg",
+        "props/Previews/space-props-water-recycler.jpg",
+        "terrain-nature/Previews/space-terrain-nature-alien-plant.jpg",
+        "terrain-nature/Previews/space-terrain-nature-crystal-cluster.jpg"
+      ]
     },
     "run-voxel-space/3D/characters": {
       "kind": "derived",
@@ -5946,7 +7191,12 @@
       "width": 512,
       "height": 256,
       "bytes": 10014,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
+      "gallery": [
+        "avatar/Previews/space-avatar-parts.jpg",
+        "characters-skins/Previews/space-characters-skins-android.jpg",
+        "characters-skins/Previews/space-characters-skins-astronaut.jpg"
+      ]
     },
     "run-voxel-space/icons": {
       "kind": "derived",
@@ -5960,7 +7210,11 @@
       "width": 512,
       "height": 512,
       "bytes": 18542,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
+      "gallery": [
+        "icon-space-animated-props-airlock-door.png",
+        "icon-space-animated-props-laser-turret.png"
+      ]
     },
     "run-voxel-space/ui": {
       "kind": "derived",
@@ -5988,7 +7242,15 @@
       "width": 512,
       "height": 512,
       "bytes": 20352,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
+      "gallery": [
+        "animated-props/Previews/monster-animated-props-chained-coffin.jpg",
+        "animated-props/Previews/monster-animated-props-chandelier.jpg",
+        "terrain-nature/Previews/monster-terrain-nature-dead-tree.jpg",
+        "terrain-nature/Previews/monster-terrain-nature-grave-mound.jpg",
+        "vehicles/Previews/monster-vehicles-bone-cart.jpg",
+        "vehicles/Previews/monster-vehicles-ghost-ship.jpg"
+      ]
     },
     "run-voxel-monster/3D/characters": {
       "kind": "derived",
@@ -6002,7 +7264,12 @@
       "width": 512,
       "height": 256,
       "bytes": 8648,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
+      "gallery": [
+        "avatar/Previews/monster-avatar-parts.jpg",
+        "characters-skins/Previews/monster-characters-skins-frankenstein.jpg",
+        "characters-skins/Previews/monster-characters-skins-mummy.jpg"
+      ]
     },
     "run-voxel-monster/icons": {
       "kind": "derived",
@@ -6044,7 +7311,15 @@
       "width": 512,
       "height": 512,
       "bytes": 21468,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
+      "gallery": [
+        "animated-props/Previews/apocalypse-animated-props-bear-trap.jpg",
+        "animated-props/Previews/apocalypse-animated-props-burning-barrel.jpg",
+        "buildings/Previews/apocalypse-buildings-brick-warehouse.jpg",
+        "buildings/Previews/apocalypse-buildings-bunker.jpg",
+        "creatures/Previews/apocalypse-creatures-crow.jpg",
+        "creatures/Previews/apocalypse-creatures-mutant-behemoth.jpg"
+      ]
     },
     "run-voxel-post-apocalypse/3D/characters": {
       "kind": "derived",
@@ -6058,7 +7333,12 @@
       "width": 512,
       "height": 256,
       "bytes": 9876,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
+      "gallery": [
+        "avatar/Previews/apocalypse-avatar-parts.jpg",
+        "characters-skins/Previews/apocalypse-characters-skins-hazmat.jpg",
+        "characters-skins/Previews/apocalypse-characters-skins-mechanic.jpg"
+      ]
     },
     "run-voxel-post-apocalypse/icons": {
       "kind": "derived",
@@ -6100,7 +7380,11 @@
       "width": 248,
       "height": 512,
       "bytes": 11696,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
+      "gallery": [
+        "arrow-trail.png",
+        "blade-contact.png"
+      ]
     },
     "run-inkline/3D/characters": {
       "kind": "derived",
@@ -6194,12 +7478,17 @@
       "sourceSha256": "8910c95589d5cfe6bedfb4a05e82e1094d842001fc5cdc4e6078e0fb2773a0ef",
       "description": "Original creator artwork for this pack, preserved without recomposition.",
       "imageUrl": "https://opengameart.org/sites/default/files/spr_Officer_preview1_0.gif",
-      "outputSha256": "4365e55d7a4a5d1bbb9c90f7f0691b97df5e371f70eeb409a4ce74d4ba27ab8d",
+      "outputSha256": "0e9e994546410553fd2144a79a7fa104775eb29efcfbd13330d2168ccf30f7b8",
       "outputSourceSha256": "8910c95589d5cfe6bedfb4a05e82e1094d842001fc5cdc4e6078e0fb2773a0ef",
       "width": 512,
-      "height": 284,
-      "bytes": 28866,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 36056,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop0_0_541",
+      "crop": {
+        "left": 0,
+        "top": 0,
+        "size": 541
+      }
     },
     "afh-pixelated-employee/2D/characters": {
       "kind": "original",
@@ -6224,12 +7513,17 @@
       "sourceSha256": "ece3acf9e052d5e5c1fea3141eea9d397770ef98d19fcbc4833bdd44fb8e36e1",
       "description": "Original creator artwork for this pack, preserved without recomposition.",
       "imageUrl": "https://opengameart.org/sites/default/files/humanx3.gif",
-      "outputSha256": "692bdfd1fe0b2354288999eec947be5d173168c2c230b23aafd72ed79faa71c0",
+      "outputSha256": "34f84dcbf4365bbd95c018020bcc35ab3ab230e7e5fee043ec5d4c325d88c57c",
       "outputSourceSha256": "ece3acf9e052d5e5c1fea3141eea9d397770ef98d19fcbc4833bdd44fb8e36e1",
-      "width": 300,
+      "width": 240,
       "height": 240,
-      "bytes": 10582,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "bytes": 9428,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop30_0_240",
+      "crop": {
+        "left": 30,
+        "top": 0,
+        "size": 240
+      }
     },
     "no2games-office-space/2D/city": {
       "kind": "original",
@@ -6238,13 +7532,18 @@
       "sourcePath": "no2games-office-space/2D/city/Source/original-listing-preview.png",
       "sourceSha256": "ae97c2cee20b25d4eab81557e4d12f421f9f0e901ce45669e8ad3788c42264fe",
       "description": "Creator listing preview showing an assembled office interior.",
-      "outputSha256": "4130406865f6453850f5a402cc05d82dcb036d9c9109f153eb55d4d72cb0a4df",
+      "outputSha256": "61b9aeb683a2717eef543b430828f4952fa05955345f39365a6d5aa44f57a3c7",
       "outputSourceSha256": "ae97c2cee20b25d4eab81557e4d12f421f9f0e901ce45669e8ad3788c42264fe",
-      "width": 219,
+      "width": 185,
       "height": 185,
-      "bytes": 3286,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://opengameart.org/sites/default/files/office-space-preview.PNG"
+      "bytes": 2534,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop17_0_185",
+      "imageUrl": "https://opengameart.org/sites/default/files/office-space-preview.PNG",
+      "crop": {
+        "left": 17,
+        "top": 0,
+        "size": 185
+      }
     },
     "semtex99-office-appliances/2D/city": {
       "kind": "original",
@@ -6268,13 +7567,18 @@
       "sourcePath": "ritpop-modern-houses/2D/city/Source/original-listing-preview.png",
       "sourceSha256": "2d79098335b700d9b9fd37e9fc63e5fb573126d982610c37be107298587e500b",
       "description": "Creator listing preview showing an assembled modern house exterior.",
-      "outputSha256": "0ac4da31ff1cd077a3cbb5226880c00fe61069cf0d7facc68478a922d9c91772",
+      "outputSha256": "13cef26d94ca14a93b2fa69d093ab15b1d0905dda31d078a78cf9952a232bb4d",
       "outputSourceSha256": "2d79098335b700d9b9fd37e9fc63e5fb573126d982610c37be107298587e500b",
-      "width": 263,
+      "width": 215,
       "height": 215,
-      "bytes": 9278,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
-      "imageUrl": "https://opengameart.org/sites/default/files/imagem1.png"
+      "bytes": 8072,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop24_0_215",
+      "imageUrl": "https://opengameart.org/sites/default/files/imagem1.png",
+      "crop": {
+        "left": 24,
+        "top": 0,
+        "size": 215
+      }
     },
     "devilsworkshop-2d-car-pack/2D/vehicles-racing": {
       "kind": "original",
@@ -6284,12 +7588,22 @@
       "sourceSha256": "2c6df7a09449f2b64184990a1b957f1d1b713f882b930492a1cad8b396024d83",
       "description": "Original creator artwork for this pack, preserved without recomposition.",
       "imageUrl": "https://opengameart.org/sites/default/files/2d_Car_Pack_OGA.png",
-      "outputSha256": "f69d3973f63153ce56a43d90c74175527e240e9c99c042bb6c1f4f64ba53f65f",
+      "outputSha256": "2c7fa825cf7af5af5d65a5443ee65767a8e838c14da79fbab4cec82658bf85ac",
       "outputSourceSha256": "2c6df7a09449f2b64184990a1b957f1d1b713f882b930492a1cad8b396024d83",
-      "width": 512,
-      "height": 406,
-      "bytes": 27750,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "width": 440,
+      "height": 440,
+      "bytes": 29986,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop95_60_440",
+      "crop": {
+        "left": 95,
+        "top": 60,
+        "size": 440
+      },
+      "gallery": [
+        "City-Traffic-Vehicles/bus/Spritesheet-Frames/sprites.png",
+        "City-Traffic-Vehicles/car01/Spritesheet-Frames/isosprites.png",
+        "City-Traffic-Vehicles/car01/Spritesheet-Frames/sprites.png"
+      ]
     },
     "segel-horizontal-city-vehicles/2D/vehicles-racing": {
       "kind": "original",
@@ -6329,12 +7643,25 @@
       "sourcePath": "vexed-bountiful-bits/2D/top-down-rpg/Source/listing-preview.png",
       "sourceSha256": "1c9b12fd0d54baa591e9636a60fae8903d32c9f0eb5ff438230cfaa1193b8e49",
       "description": "Original listing artwork representing the included Bountiful Bits pack.",
-      "outputSha256": "04fb0e85ae58818235955d82f3e8a0136f693fe6c4c471252c5b7cc9ab81cc07",
+      "outputSha256": "135aef8d117ba5e41ba40ced48d206703e1475f98e141ed1865d4945a70c6ab1",
       "outputSourceSha256": "1c9b12fd0d54baa591e9636a60fae8903d32c9f0eb5ff438230cfaa1193b8e49",
       "width": 512,
-      "height": 352,
-      "bytes": 30612,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 30748,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop125_0_550",
+      "crop": {
+        "left": 125,
+        "top": 0,
+        "size": 550
+      },
+      "gallery": [
+        "1-Bit/Full.png",
+        "1-Bit/no-background/Full-no-bg.png",
+        "1-Bit/Civilized.png",
+        "1-Bit/no-background/Civilized-no-bg.png",
+        "Colored/Natural.png",
+        "Colored/no-background/Natural-no-bg.png"
+      ]
     },
     "ansimuz-sunnyland/2D/platformer": {
       "kind": "original",
@@ -6344,12 +7671,23 @@
       "sourcePath": "ansimuz-sunnyland/2D/platformer/Source/listing-preview.png",
       "sourceSha256": "7b916bf7c2641c64e88b2e9a007ecc6e6977fc53f912332ee857026ed67660f9",
       "description": "Original listing artwork representing the included SunnyLand pack.",
-      "outputSha256": "e7da909cc8df6559a3b6ac8f036103586f986c7dbfe761aa317f15faf2a38c5e",
+      "outputSha256": "37453403565216026b86b1541053528c2bb861e169613e52022e86226cc4a537",
       "outputSourceSha256": "7b916bf7c2641c64e88b2e9a007ecc6e6977fc53f912332ee857026ed67660f9",
-      "width": 512,
-      "height": 406,
-      "bytes": 31084,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "width": 500,
+      "height": 500,
+      "bytes": 30938,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop65_0_500",
+      "crop": {
+        "left": 65,
+        "top": 0,
+        "size": 500
+      },
+      "gallery": [
+        "environment/tileset.png",
+        "environment/Background/props.png",
+        "Characters/Foxy/atlas.png",
+        "environment/Background/middle.png"
+      ]
     },
     "foozle-void-environment/2D/space-scifi": {
       "kind": "original",
@@ -6359,12 +7697,17 @@
       "sourcePath": "foozle-void-environment/2D/space-scifi/Source/listing-preview.png",
       "sourceSha256": "11330382b8b79b71fef5cea04e046a9fe04e63e4d29d53b7d377b3f2cb9dd2cb",
       "description": "Original listing artwork representing the included Void: Environment pack.",
-      "outputSha256": "93ec22e9ed027bc67143e22f46a9d609285e2a488fe08b6b19a35e4bf6171f58",
+      "outputSha256": "09f143613e72a40166452d3e78e8b4129deb52c1848ecaf601b6c69627d1fc66",
       "outputSourceSha256": "11330382b8b79b71fef5cea04e046a9fe04e63e4d29d53b7d377b3f2cb9dd2cb",
-      "width": 512,
-      "height": 406,
-      "bytes": 19778,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "width": 500,
+      "height": 500,
+      "bytes": 21152,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop65_0_500",
+      "crop": {
+        "left": 65,
+        "top": 0,
+        "size": 500
+      }
     },
     "foozle-void-main-ship/2D/space-scifi": {
       "kind": "original",
@@ -6374,12 +7717,17 @@
       "sourcePath": "foozle-void-main-ship/2D/space-scifi/Source/listing-preview.png",
       "sourceSha256": "341c81b636f894e4c25358c7199a8e20e01c8631d2a2909b73a6421cfe3edc36",
       "description": "Original listing artwork representing the included Void: Main Ship pack.",
-      "outputSha256": "e3657564fda9309722b5855d1a4fb209fe1503d4fe9f8ba5a4b0b90eab90acce",
+      "outputSha256": "53dd6f23dcab6f53ffb849bb92c7de6008f03c812e7a755cf4e0acd77b323275",
       "outputSourceSha256": "341c81b636f894e4c25358c7199a8e20e01c8631d2a2909b73a6421cfe3edc36",
-      "width": 512,
-      "height": 406,
-      "bytes": 17922,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "width": 500,
+      "height": 500,
+      "bytes": 18980,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop65_0_500",
+      "crop": {
+        "left": 65,
+        "top": 0,
+        "size": 500
+      }
     },
     "screamingbrain-isometric-town/2D/city": {
       "kind": "original",
@@ -6389,12 +7737,17 @@
       "sourcePath": "screamingbrain-isometric-town/2D/city/Source/listing-preview.jpg",
       "sourceSha256": "ca90a6dbf8258f3ca9048cec03953460ee73a8db91a81210feefc8a70b1d4356",
       "description": "Original listing artwork representing the included Isometric Town pack.",
-      "outputSha256": "b204858a1c45f5a92b0017ce9af32b65f030005b8c5b795f69ff20d06ba3a481",
+      "outputSha256": "664d468ce9571619bba1e99cce2bf6ec6b57bfd29e09602052e87d7f9eb9af39",
       "outputSourceSha256": "ca90a6dbf8258f3ca9048cec03953460ee73a8db91a81210feefc8a70b1d4356",
-      "width": 512,
-      "height": 357,
-      "bytes": 30222,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "width": 404,
+      "height": 404,
+      "bytes": 30370,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop88_0_404",
+      "crop": {
+        "left": 88,
+        "top": 0,
+        "size": 404
+      }
     },
     "nieobie-game-icons/icons": {
       "kind": "original",
@@ -6404,12 +7757,17 @@
       "sourcePath": "nieobie-game-icons/icons/Source/listing-preview.png",
       "sourceSha256": "0603a000fdf4fccf91bf5e90d7a3c197e6d156fa8e57ffc60feb5938096a4dce",
       "description": "Original listing artwork representing the included Game Icon Pack pack.",
-      "outputSha256": "ad0777246cac527de4265345fae83d2871546c8b3588fec2f7ca0a80732d2c2f",
+      "outputSha256": "73089d8e8e9eb0eb23da36cce3714798b4dbd5c09c9f2a30de72c31064674d98",
       "outputSourceSha256": "0603a000fdf4fccf91bf5e90d7a3c197e6d156fa8e57ffc60feb5938096a4dce",
-      "width": 512,
-      "height": 406,
-      "bytes": 11776,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "width": 507,
+      "height": 507,
+      "bytes": 14322,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop66_0_507",
+      "crop": {
+        "left": 66,
+        "top": 0,
+        "size": 507
+      }
     },
     "styloo-food/3D/food": {
       "kind": "original",
@@ -6419,12 +7777,17 @@
       "sourcePath": "styloo-food/3D/food/Source/listing-preview.jpg",
       "sourceSha256": "be4e1e208d0dcc3dabd8dcba0ee635a38eb56f3b723025eb52f15591d6c86ebd",
       "description": "Original listing artwork representing the included 3D Food pack.",
-      "outputSha256": "a7ffa8dae7b81b67e594bc652603ced3f43bde1b2bd914e9a865916157002e7a",
+      "outputSha256": "b57305fa3c3b7d76148506ab74f27159e12a82dab1a45289df26b2002c137c17",
       "outputSourceSha256": "be4e1e208d0dcc3dabd8dcba0ee635a38eb56f3b723025eb52f15591d6c86ebd",
       "width": 512,
-      "height": 406,
-      "bytes": 58056,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 67394,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop130_0_1000",
+      "crop": {
+        "left": 130,
+        "top": 0,
+        "size": 1000
+      }
     },
     "quaternius-sushi-restaurant/3D/interior-furniture": {
       "kind": "original",
@@ -6434,12 +7797,17 @@
       "sourcePath": "quaternius-sushi-restaurant/3D/interior-furniture/Source/listing-preview.jpg",
       "sourceSha256": "c070ce96adb6206b81968ed2a88def55d907127aec5dc660dc04fe1b9d34ea25",
       "description": "Original listing artwork representing the included Sushi Restaurant pack.",
-      "outputSha256": "5fd17f9ca5aa15f321ab1635bef94fd0e896d96f197996ee997053c1b9dcfc7c",
+      "outputSha256": "8073be9b440ddbcb32d04bb5c3b2dff678884d91b152dfb414048ea9c435f000",
       "outputSourceSha256": "c070ce96adb6206b81968ed2a88def55d907127aec5dc660dc04fe1b9d34ea25",
       "width": 512,
-      "height": 288,
-      "bytes": 24634,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 26710,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop420_0_1080",
+      "crop": {
+        "left": 420,
+        "top": 0,
+        "size": 1080
+      }
     },
     "quaternius-stylized-nature/3D/nature": {
       "kind": "original",
@@ -6449,12 +7817,17 @@
       "sourcePath": "quaternius-stylized-nature/3D/nature/Source/listing-preview.jpg",
       "sourceSha256": "c5aa736558b19d9c7b8b035bba9b9ee44a79826c17402667a361e59627918357",
       "description": "Original listing forest scene, also included in the free Standard download.",
-      "outputSha256": "7adac75deea19c1e67b0d00c8fabd7ca98f4cc7a4c81435e1d3d853ac6b81ba5",
+      "outputSha256": "f3560f517eef598f1bc2d945c267a0f32ce3e8bf6fb9a119ac58a33a53d04c15",
       "outputSourceSha256": "c5aa736558b19d9c7b8b035bba9b9ee44a79826c17402667a361e59627918357",
       "width": 512,
-      "height": 288,
-      "bytes": 40962,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 54482,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop420_0_1080",
+      "crop": {
+        "left": 420,
+        "top": 0,
+        "size": 1080
+      }
     },
     "quaternius-animated-animals/3D/characters": {
       "kind": "original",
@@ -6464,12 +7837,17 @@
       "sourcePath": "quaternius-animated-animals/3D/characters/Source/listing-preview.jpg",
       "sourceSha256": "b825534044848c69edb11e1d911f704fd3be3256dcb333b9c31e927fbf36eb88",
       "description": "Original listing artwork representing the included Ultimate Animated Animals pack.",
-      "outputSha256": "352a2edf4640079d16fd80bac4b75ad40e65898f87eb94cfa281428bdfaf089b",
+      "outputSha256": "f45dc23e139d35bc2d8e26be5bd886b051c31b863c5dd77e076cc6625def199f",
       "outputSourceSha256": "b825534044848c69edb11e1d911f704fd3be3256dcb333b9c31e927fbf36eb88",
       "width": 512,
-      "height": 288,
-      "bytes": 36910,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "height": 512,
+      "bytes": 45132,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop420_0_1080",
+      "crop": {
+        "left": 420,
+        "top": 0,
+        "size": 1080
+      }
     },
     "ansimuz-sunnyland/audio": {
       "kind": "original",
@@ -6479,12 +7857,17 @@
       "sourcePath": "ansimuz-sunnyland/audio/Source/listing-preview.png",
       "sourceSha256": "7b916bf7c2641c64e88b2e9a007ecc6e6977fc53f912332ee857026ed67660f9",
       "description": "Original listing artwork representing the included SunnyLand pack.",
-      "outputSha256": "e7da909cc8df6559a3b6ac8f036103586f986c7dbfe761aa317f15faf2a38c5e",
+      "outputSha256": "37453403565216026b86b1541053528c2bb861e169613e52022e86226cc4a537",
       "outputSourceSha256": "7b916bf7c2641c64e88b2e9a007ecc6e6977fc53f912332ee857026ed67660f9",
-      "width": 512,
-      "height": 406,
-      "bytes": 31084,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "width": 500,
+      "height": 500,
+      "bytes": 30938,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop65_0_500",
+      "crop": {
+        "left": 65,
+        "top": 0,
+        "size": 500
+      }
     },
     "run-critter-cubes/3D/characters": {
       "kind": "derived",
