@@ -13,7 +13,7 @@ import { join, extname, basename } from 'node:path';
 import { ALLOWED_LICENSES, inspectLicenseText, legacyCompatiblePacks } from './license-policy.mjs';
 import { isBackfilled, isShallowClone, packAddedAt, preReorgPackPaths } from './pack-dates.mjs';
 import { readFeaturedCuration } from './featured.mjs';
-import { PREVIEW_FILE, readPreviewSources, selectPreview } from './preview-policy.mjs';
+import { PREVIEW_FILE, readPreviewSources, selectGallery, selectPreview } from './preview-policy.mjs';
 import { packKeywords } from './pack-keywords.mjs';
 import { packVersion } from './pack-version.mjs';
 import { readVisualMetadata, currentLabel } from './visual-metadata.mjs';
@@ -254,6 +254,7 @@ for (const top of readdirSync(ROOT, { withFileTypes: true })) {
     }
     const { key: creatorKey, name: creator } = creatorOf(slug);
     const preview = selectPreview(id, category, entries, previewSources[id]);
+    const galleryOids = selectGallery(id, entries, previewSources[id]?.gallery);
     const assetEntries = entries.filter((entry) => entry.path !== PREVIEW_FILE);
     const audioPreview = category === 'audio'
       ? (runtime.find((e) => ['.ogg', '.mp3'].includes(extname(e.path).toLowerCase())) ?? null)
@@ -285,6 +286,7 @@ for (const top of readdirSync(ROOT, { withFileTypes: true })) {
       totalBytes: assetEntries.reduce((s, e) => s + e.bytes, 0),
       previewOid: preview?.oid ?? null,
       audioPreviewOid: audioPreview?.oid ?? null,
+      ...(galleryOids.length > 0 ? { galleryOids } : {}),
       ...(addedAt ? { addedAt } : {}),
       ...(addedAt && isBackfilled(addedAt) ? { backfilled: true } : {}),
     };
