@@ -1,0 +1,24 @@
+SPDX-License-Identifier: CC0-1.0
+Source: https://quaternius.com/packs/universalanimationlibrary.html
+Verified-by: run-workshop maintainers, 2026-10-26
+
+Creative Commons Zero 1.0 Universal (CC0 1.0)
+Public Domain Dedication
+https://creativecommons.org/publicdomain/zero/1.0/
+
+You may copy, modify, distribute and use this artwork for any purpose, including commercially, without asking permission or providing attribution.
+
+--- License text as supplied by the creator ---
+
+-------------------------------------------------------
+License:
+CC0 1.0 Universal (CC0 1.0) 
+Public Domain Dedication
+https://creativecommons.org/publicdomain/zero/1.0/
+
+------------------------------------------------------
+Models by @Quaternius
+Consider supporting me on Patreon!
+
+https://www.patreon.com/quaternius
+
