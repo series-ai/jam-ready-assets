@@ -1,0 +1,362 @@
+{
+  "generator": "Mochimon",
+  "image": "samurai-emotes.png",
+  "roles": "samurai-emotes.roles.png",
+  "frameWidth": 41,
+  "frameHeight": 53,
+  "columns": 16,
+  "rows": 28,
+  "anchor": {
+    "x": 20,
+    "y": 48
+  },
+  "fps": 12,
+  "animations": [
+    {
+      "name": "love-0",
+      "motion": "love",
+      "direction": 0,
+      "directions": 4,
+      "row": 0,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "love-1",
+      "motion": "love",
+      "direction": 1,
+      "directions": 4,
+      "row": 1,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "love-2",
+      "motion": "love",
+      "direction": 2,
+      "directions": 4,
+      "row": 2,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "love-3",
+      "motion": "love",
+      "direction": 3,
+      "directions": 4,
+      "row": 3,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "angry-0",
+      "motion": "angry",
+      "direction": 0,
+      "directions": 4,
+      "row": 4,
+      "frames": 12,
+      "loop": true
+    },
+    {
+      "name": "angry-1",
+      "motion": "angry",
+      "direction": 1,
+      "directions": 4,
+      "row": 5,
+      "frames": 12,
+      "loop": true
+    },
+    {
+      "name": "angry-2",
+      "motion": "angry",
+      "direction": 2,
+      "directions": 4,
+      "row": 6,
+      "frames": 12,
+      "loop": true
+    },
+    {
+      "name": "angry-3",
+      "motion": "angry",
+      "direction": 3,
+      "directions": 4,
+      "row": 7,
+      "frames": 12,
+      "loop": true
+    },
+    {
+      "name": "sad-0",
+      "motion": "sad",
+      "direction": 0,
+      "directions": 4,
+      "row": 8,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "sad-1",
+      "motion": "sad",
+      "direction": 1,
+      "directions": 4,
+      "row": 9,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "sad-2",
+      "motion": "sad",
+      "direction": 2,
+      "directions": 4,
+      "row": 10,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "sad-3",
+      "motion": "sad",
+      "direction": 3,
+      "directions": 4,
+      "row": 11,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "surprised-0",
+      "motion": "surprised",
+      "direction": 0,
+      "directions": 4,
+      "row": 12,
+      "frames": 12,
+      "loop": true
+    },
+    {
+      "name": "surprised-1",
+      "motion": "surprised",
+      "direction": 1,
+      "directions": 4,
+      "row": 13,
+      "frames": 12,
+      "loop": true
+    },
+    {
+      "name": "surprised-2",
+      "motion": "surprised",
+      "direction": 2,
+      "directions": 4,
+      "row": 14,
+      "frames": 12,
+      "loop": true
+    },
+    {
+      "name": "surprised-3",
+      "motion": "surprised",
+      "direction": 3,
+      "directions": 4,
+      "row": 15,
+      "frames": 12,
+      "loop": true
+    },
+    {
+      "name": "alert-0",
+      "motion": "alert",
+      "direction": 0,
+      "directions": 4,
+      "row": 16,
+      "frames": 12,
+      "loop": true
+    },
+    {
+      "name": "alert-1",
+      "motion": "alert",
+      "direction": 1,
+      "directions": 4,
+      "row": 17,
+      "frames": 12,
+      "loop": true
+    },
+    {
+      "name": "alert-2",
+      "motion": "alert",
+      "direction": 2,
+      "directions": 4,
+      "row": 18,
+      "frames": 12,
+      "loop": true
+    },
+    {
+      "name": "alert-3",
+      "motion": "alert",
+      "direction": 3,
+      "directions": 4,
+      "row": 19,
+      "frames": 12,
+      "loop": true
+    },
+    {
+      "name": "confused-0",
+      "motion": "confused",
+      "direction": 0,
+      "directions": 4,
+      "row": 20,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "confused-1",
+      "motion": "confused",
+      "direction": 1,
+      "directions": 4,
+      "row": 21,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "confused-2",
+      "motion": "confused",
+      "direction": 2,
+      "directions": 4,
+      "row": 22,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "confused-3",
+      "motion": "confused",
+      "direction": 3,
+      "directions": 4,
+      "row": 23,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "talk-0",
+      "motion": "talk",
+      "direction": 0,
+      "directions": 4,
+      "row": 24,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "talk-1",
+      "motion": "talk",
+      "direction": 1,
+      "directions": 4,
+      "row": 25,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "talk-2",
+      "motion": "talk",
+      "direction": 2,
+      "directions": 4,
+      "row": 26,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "talk-3",
+      "motion": "talk",
+      "direction": 3,
+      "directions": 4,
+      "row": 27,
+      "frames": 16,
+      "loop": true
+    }
+  ],
+  "look": {
+    "size": "1x",
+    "body": "strong",
+    "ears": "cat",
+    "coat": "TORTIE",
+    "hat": "KABUTO",
+    "eyewear": "NONE",
+    "clothes": "NONE",
+    "feet": "nubs",
+    "tail": "swoop"
+  },
+  "palette": {
+    "colours": 32,
+    "theme": "TOKYO",
+    "outline": "#22181c",
+    "eye": "#22181c",
+    "ramps": [
+      [
+        "#fff4e2",
+        "#e8ceb2",
+        "#d0a882"
+      ],
+      [
+        "#f2a23c",
+        "#be702b",
+        "#8a3d1a"
+      ],
+      [
+        "#4a5ea8",
+        "#303c71",
+        "#151a3a"
+      ],
+      [
+        "#e8435a",
+        "#a9293c",
+        "#6a0f1e"
+      ],
+      [
+        "#f7c6d4",
+        "#de98ae",
+        "#c46a88"
+      ],
+      [
+        "#a8e0c8",
+        "#6cad96",
+        "#2f7a64"
+      ],
+      [
+        "#fff4e2",
+        "#d0a882"
+      ],
+      [
+        "#f2a23c",
+        "#8a3d1a"
+      ],
+      [
+        "#4a5ea8",
+        "#303c71",
+        "#151a3a"
+      ],
+      [
+        "#e8435a",
+        "#6a0f1e"
+      ],
+      [
+        "#f7c6d4",
+        "#c46a88"
+      ],
+      [
+        "#a8e0c8",
+        "#2f7a64"
+      ]
+    ],
+    "assign": {
+      "fur": 0,
+      "mark": 1,
+      "gear": 2,
+      "gearLight": 0,
+      "clothes": 3,
+      "accent": 2
+    }
+  },
+  "roleMap": {
+    "format": "red channel = code, alpha 0 = empty",
+    "codes": "0 outline, 1 eye, 2 + role * 8 + shade (shade 0 lightest .. 4 darkest)",
+    "roles": [
+      "fur",
+      "mark",
+      "gear",
+      "gearLight",
+      "clothes",
+      "accent"
+    ]
+  }
+}

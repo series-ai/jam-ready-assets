@@ -41,6 +41,7 @@ const CREATOR_NAMES = {
 const PACK_CREATORS = {
   'run-boo-brigade': 'RUN.sterf', 'run-chonky-hounds': 'RUN.sterf', 'run-critter-cubes': 'RUN.sterf',
   'run-facet-fauna-cats': 'RUN.sterf', 'run-facet-fauna-dogs': 'RUN.sterf', 'run-terra-tots': 'RUN.sterf',
+  'run-mochimon-2d-characters': 'RUN.sterf', 'run-mochimon-2d-food': 'RUN.sterf', 'run-mochimon-ui': 'RUN.sterf',
 };
 
 const LICENSE_FILE = /^(licen[cs]e|copying|unlicense)(\.[a-z0-9]+)?$/i;

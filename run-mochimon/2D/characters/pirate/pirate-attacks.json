@@ -1,0 +1,578 @@
+{
+  "generator": "Mochimon",
+  "image": "pirate-attacks.png",
+  "roles": "pirate-attacks.roles.png",
+  "frameWidth": 88,
+  "frameHeight": 71,
+  "columns": 24,
+  "rows": 52,
+  "anchor": {
+    "x": 44,
+    "y": 56
+  },
+  "fps": 12,
+  "animations": [
+    {
+      "name": "slash-0",
+      "motion": "slash",
+      "direction": 0,
+      "directions": 4,
+      "row": 0,
+      "frames": 14,
+      "loop": true
+    },
+    {
+      "name": "slash-1",
+      "motion": "slash",
+      "direction": 1,
+      "directions": 4,
+      "row": 1,
+      "frames": 14,
+      "loop": true
+    },
+    {
+      "name": "slash-2",
+      "motion": "slash",
+      "direction": 2,
+      "directions": 4,
+      "row": 2,
+      "frames": 14,
+      "loop": true
+    },
+    {
+      "name": "slash-3",
+      "motion": "slash",
+      "direction": 3,
+      "directions": 4,
+      "row": 3,
+      "frames": 14,
+      "loop": true
+    },
+    {
+      "name": "swipe-0",
+      "motion": "swipe",
+      "direction": 0,
+      "directions": 4,
+      "row": 4,
+      "frames": 14,
+      "loop": true
+    },
+    {
+      "name": "swipe-1",
+      "motion": "swipe",
+      "direction": 1,
+      "directions": 4,
+      "row": 5,
+      "frames": 14,
+      "loop": true
+    },
+    {
+      "name": "swipe-2",
+      "motion": "swipe",
+      "direction": 2,
+      "directions": 4,
+      "row": 6,
+      "frames": 14,
+      "loop": true
+    },
+    {
+      "name": "swipe-3",
+      "motion": "swipe",
+      "direction": 3,
+      "directions": 4,
+      "row": 7,
+      "frames": 14,
+      "loop": true
+    },
+    {
+      "name": "punch-0",
+      "motion": "punch",
+      "direction": 0,
+      "directions": 4,
+      "row": 8,
+      "frames": 12,
+      "loop": true
+    },
+    {
+      "name": "punch-1",
+      "motion": "punch",
+      "direction": 1,
+      "directions": 4,
+      "row": 9,
+      "frames": 12,
+      "loop": true
+    },
+    {
+      "name": "punch-2",
+      "motion": "punch",
+      "direction": 2,
+      "directions": 4,
+      "row": 10,
+      "frames": 12,
+      "loop": true
+    },
+    {
+      "name": "punch-3",
+      "motion": "punch",
+      "direction": 3,
+      "directions": 4,
+      "row": 11,
+      "frames": 12,
+      "loop": true
+    },
+    {
+      "name": "one-two-0",
+      "motion": "one-two",
+      "direction": 0,
+      "directions": 4,
+      "row": 12,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "one-two-1",
+      "motion": "one-two",
+      "direction": 1,
+      "directions": 4,
+      "row": 13,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "one-two-2",
+      "motion": "one-two",
+      "direction": 2,
+      "directions": 4,
+      "row": 14,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "one-two-3",
+      "motion": "one-two",
+      "direction": 3,
+      "directions": 4,
+      "row": 15,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "spear-0",
+      "motion": "spear",
+      "direction": 0,
+      "directions": 4,
+      "row": 16,
+      "frames": 14,
+      "loop": true
+    },
+    {
+      "name": "spear-1",
+      "motion": "spear",
+      "direction": 1,
+      "directions": 4,
+      "row": 17,
+      "frames": 14,
+      "loop": true
+    },
+    {
+      "name": "spear-2",
+      "motion": "spear",
+      "direction": 2,
+      "directions": 4,
+      "row": 18,
+      "frames": 14,
+      "loop": true
+    },
+    {
+      "name": "spear-3",
+      "motion": "spear",
+      "direction": 3,
+      "directions": 4,
+      "row": 19,
+      "frames": 14,
+      "loop": true
+    },
+    {
+      "name": "fireball-0",
+      "motion": "fireball",
+      "direction": 0,
+      "directions": 4,
+      "row": 20,
+      "frames": 14,
+      "loop": true
+    },
+    {
+      "name": "fireball-1",
+      "motion": "fireball",
+      "direction": 1,
+      "directions": 4,
+      "row": 21,
+      "frames": 14,
+      "loop": true
+    },
+    {
+      "name": "fireball-2",
+      "motion": "fireball",
+      "direction": 2,
+      "directions": 4,
+      "row": 22,
+      "frames": 14,
+      "loop": true
+    },
+    {
+      "name": "fireball-3",
+      "motion": "fireball",
+      "direction": 3,
+      "directions": 4,
+      "row": 23,
+      "frames": 14,
+      "loop": true
+    },
+    {
+      "name": "beam-0",
+      "motion": "beam",
+      "direction": 0,
+      "directions": 4,
+      "row": 24,
+      "frames": 24,
+      "loop": true
+    },
+    {
+      "name": "beam-1",
+      "motion": "beam",
+      "direction": 1,
+      "directions": 4,
+      "row": 25,
+      "frames": 24,
+      "loop": true
+    },
+    {
+      "name": "beam-2",
+      "motion": "beam",
+      "direction": 2,
+      "directions": 4,
+      "row": 26,
+      "frames": 24,
+      "loop": true
+    },
+    {
+      "name": "beam-3",
+      "motion": "beam",
+      "direction": 3,
+      "directions": 4,
+      "row": 27,
+      "frames": 24,
+      "loop": true
+    },
+    {
+      "name": "sweep-0",
+      "motion": "sweep",
+      "direction": 0,
+      "directions": 4,
+      "row": 28,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "sweep-1",
+      "motion": "sweep",
+      "direction": 1,
+      "directions": 4,
+      "row": 29,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "sweep-2",
+      "motion": "sweep",
+      "direction": 2,
+      "directions": 4,
+      "row": 30,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "sweep-3",
+      "motion": "sweep",
+      "direction": 3,
+      "directions": 4,
+      "row": 31,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "shoot-0",
+      "motion": "shoot",
+      "direction": 0,
+      "directions": 4,
+      "row": 32,
+      "frames": 24,
+      "loop": true
+    },
+    {
+      "name": "shoot-1",
+      "motion": "shoot",
+      "direction": 1,
+      "directions": 4,
+      "row": 33,
+      "frames": 24,
+      "loop": true
+    },
+    {
+      "name": "shoot-2",
+      "motion": "shoot",
+      "direction": 2,
+      "directions": 4,
+      "row": 34,
+      "frames": 24,
+      "loop": true
+    },
+    {
+      "name": "shoot-3",
+      "motion": "shoot",
+      "direction": 3,
+      "directions": 4,
+      "row": 35,
+      "frames": 24,
+      "loop": true
+    },
+    {
+      "name": "knockback-0",
+      "motion": "knockback",
+      "direction": 0,
+      "directions": 4,
+      "row": 36,
+      "frames": 10,
+      "loop": true
+    },
+    {
+      "name": "knockback-1",
+      "motion": "knockback",
+      "direction": 1,
+      "directions": 4,
+      "row": 37,
+      "frames": 10,
+      "loop": true
+    },
+    {
+      "name": "knockback-2",
+      "motion": "knockback",
+      "direction": 2,
+      "directions": 4,
+      "row": 38,
+      "frames": 10,
+      "loop": true
+    },
+    {
+      "name": "knockback-3",
+      "motion": "knockback",
+      "direction": 3,
+      "directions": 4,
+      "row": 39,
+      "frames": 10,
+      "loop": true
+    },
+    {
+      "name": "faceplant-0",
+      "motion": "faceplant",
+      "direction": 0,
+      "directions": 4,
+      "row": 40,
+      "frames": 24,
+      "loop": true
+    },
+    {
+      "name": "faceplant-1",
+      "motion": "faceplant",
+      "direction": 1,
+      "directions": 4,
+      "row": 41,
+      "frames": 24,
+      "loop": true
+    },
+    {
+      "name": "faceplant-2",
+      "motion": "faceplant",
+      "direction": 2,
+      "directions": 4,
+      "row": 42,
+      "frames": 24,
+      "loop": true
+    },
+    {
+      "name": "faceplant-3",
+      "motion": "faceplant",
+      "direction": 3,
+      "directions": 4,
+      "row": 43,
+      "frames": 24,
+      "loop": true
+    },
+    {
+      "name": "slashed-0",
+      "motion": "slashed",
+      "direction": 0,
+      "directions": 4,
+      "row": 44,
+      "frames": 20,
+      "loop": true
+    },
+    {
+      "name": "slashed-1",
+      "motion": "slashed",
+      "direction": 1,
+      "directions": 4,
+      "row": 45,
+      "frames": 20,
+      "loop": true
+    },
+    {
+      "name": "slashed-2",
+      "motion": "slashed",
+      "direction": 2,
+      "directions": 4,
+      "row": 46,
+      "frames": 20,
+      "loop": true
+    },
+    {
+      "name": "slashed-3",
+      "motion": "slashed",
+      "direction": 3,
+      "directions": 4,
+      "row": 47,
+      "frames": 20,
+      "loop": true
+    },
+    {
+      "name": "shot-0",
+      "motion": "shot",
+      "direction": 0,
+      "directions": 4,
+      "row": 48,
+      "frames": 20,
+      "loop": true
+    },
+    {
+      "name": "shot-1",
+      "motion": "shot",
+      "direction": 1,
+      "directions": 4,
+      "row": 49,
+      "frames": 20,
+      "loop": true
+    },
+    {
+      "name": "shot-2",
+      "motion": "shot",
+      "direction": 2,
+      "directions": 4,
+      "row": 50,
+      "frames": 20,
+      "loop": true
+    },
+    {
+      "name": "shot-3",
+      "motion": "shot",
+      "direction": 3,
+      "directions": 4,
+      "row": 51,
+      "frames": 20,
+      "loop": true
+    }
+  ],
+  "look": {
+    "size": "1x",
+    "body": "round",
+    "ears": "cat",
+    "coat": "TUXEDO",
+    "hat": "PIRATE HAT",
+    "eyewear": "NONE",
+    "clothes": "NONE",
+    "feet": "nubs",
+    "tail": "curl"
+  },
+  "palette": {
+    "colours": 32,
+    "theme": "TOKYO",
+    "outline": "#22181c",
+    "eye": "#22181c",
+    "ramps": [
+      [
+        "#fff4e2",
+        "#e8ceb2",
+        "#d0a882"
+      ],
+      [
+        "#f2a23c",
+        "#be702b",
+        "#8a3d1a"
+      ],
+      [
+        "#4a5ea8",
+        "#303c71",
+        "#151a3a"
+      ],
+      [
+        "#e8435a",
+        "#a9293c",
+        "#6a0f1e"
+      ],
+      [
+        "#f7c6d4",
+        "#de98ae",
+        "#c46a88"
+      ],
+      [
+        "#a8e0c8",
+        "#6cad96",
+        "#2f7a64"
+      ],
+      [
+        "#fff4e2",
+        "#d0a882"
+      ],
+      [
+        "#f2a23c",
+        "#8a3d1a"
+      ],
+      [
+        "#4a5ea8",
+        "#303c71",
+        "#151a3a"
+      ],
+      [
+        "#e8435a",
+        "#6a0f1e"
+      ],
+      [
+        "#f7c6d4",
+        "#c46a88"
+      ],
+      [
+        "#a8e0c8",
+        "#2f7a64"
+      ]
+    ],
+    "assign": {
+      "fur": 0,
+      "mark": 1,
+      "gear": 2,
+      "gearLight": 0,
+      "clothes": 3,
+      "accent": 2
+    }
+  },
+  "roleMap": {
+    "format": "red channel = code, alpha 0 = empty",
+    "codes": "0 outline, 1 eye, 2 + role * 8 + shade (shade 0 lightest .. 4 darkest)",
+    "roles": [
+      "fur",
+      "mark",
+      "gear",
+      "gearLight",
+      "clothes",
+      "accent"
+    ]
+  }
+}

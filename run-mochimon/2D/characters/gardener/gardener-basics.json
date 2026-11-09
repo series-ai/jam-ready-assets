@@ -1,0 +1,587 @@
+{
+  "generator": "Mochimon",
+  "image": "gardener-basics.png",
+  "roles": "gardener-basics.roles.png",
+  "frameWidth": 51,
+  "frameHeight": 57,
+  "columns": 32,
+  "rows": 53,
+  "anchor": {
+    "x": 25,
+    "y": 47
+  },
+  "fps": 12,
+  "animations": [
+    {
+      "name": "idle-0",
+      "motion": "idle",
+      "direction": 0,
+      "directions": 4,
+      "row": 0,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "idle-1",
+      "motion": "idle",
+      "direction": 1,
+      "directions": 4,
+      "row": 1,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "idle-2",
+      "motion": "idle",
+      "direction": 2,
+      "directions": 4,
+      "row": 2,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "idle-3",
+      "motion": "idle",
+      "direction": 3,
+      "directions": 4,
+      "row": 3,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "walk-0",
+      "motion": "walk",
+      "direction": 0,
+      "directions": 4,
+      "row": 4,
+      "frames": 8,
+      "loop": true
+    },
+    {
+      "name": "walk-1",
+      "motion": "walk",
+      "direction": 1,
+      "directions": 4,
+      "row": 5,
+      "frames": 8,
+      "loop": true
+    },
+    {
+      "name": "walk-2",
+      "motion": "walk",
+      "direction": 2,
+      "directions": 4,
+      "row": 6,
+      "frames": 8,
+      "loop": true
+    },
+    {
+      "name": "walk-3",
+      "motion": "walk",
+      "direction": 3,
+      "directions": 4,
+      "row": 7,
+      "frames": 8,
+      "loop": true
+    },
+    {
+      "name": "walk side-0",
+      "motion": "walk side",
+      "direction": 0,
+      "directions": 4,
+      "row": 8,
+      "frames": 8,
+      "loop": true
+    },
+    {
+      "name": "walk side-1",
+      "motion": "walk side",
+      "direction": 1,
+      "directions": 4,
+      "row": 9,
+      "frames": 8,
+      "loop": true
+    },
+    {
+      "name": "walk side-2",
+      "motion": "walk side",
+      "direction": 2,
+      "directions": 4,
+      "row": 10,
+      "frames": 8,
+      "loop": true
+    },
+    {
+      "name": "walk side-3",
+      "motion": "walk side",
+      "direction": 3,
+      "directions": 4,
+      "row": 11,
+      "frames": 8,
+      "loop": true
+    },
+    {
+      "name": "run-0",
+      "motion": "run",
+      "direction": 0,
+      "directions": 4,
+      "row": 12,
+      "frames": 8,
+      "loop": true
+    },
+    {
+      "name": "run-1",
+      "motion": "run",
+      "direction": 1,
+      "directions": 4,
+      "row": 13,
+      "frames": 8,
+      "loop": true
+    },
+    {
+      "name": "run-2",
+      "motion": "run",
+      "direction": 2,
+      "directions": 4,
+      "row": 14,
+      "frames": 8,
+      "loop": true
+    },
+    {
+      "name": "run-3",
+      "motion": "run",
+      "direction": 3,
+      "directions": 4,
+      "row": 15,
+      "frames": 8,
+      "loop": true
+    },
+    {
+      "name": "jump-0",
+      "motion": "jump",
+      "direction": 0,
+      "directions": 4,
+      "row": 16,
+      "frames": 12,
+      "loop": true
+    },
+    {
+      "name": "jump-1",
+      "motion": "jump",
+      "direction": 1,
+      "directions": 4,
+      "row": 17,
+      "frames": 12,
+      "loop": true
+    },
+    {
+      "name": "jump-2",
+      "motion": "jump",
+      "direction": 2,
+      "directions": 4,
+      "row": 18,
+      "frames": 12,
+      "loop": true
+    },
+    {
+      "name": "jump-3",
+      "motion": "jump",
+      "direction": 3,
+      "directions": 4,
+      "row": 19,
+      "frames": 12,
+      "loop": true
+    },
+    {
+      "name": "sit-0",
+      "motion": "sit",
+      "direction": 0,
+      "directions": 4,
+      "row": 20,
+      "frames": 24,
+      "loop": true
+    },
+    {
+      "name": "sit-1",
+      "motion": "sit",
+      "direction": 1,
+      "directions": 4,
+      "row": 21,
+      "frames": 24,
+      "loop": true
+    },
+    {
+      "name": "sit-2",
+      "motion": "sit",
+      "direction": 2,
+      "directions": 4,
+      "row": 22,
+      "frames": 24,
+      "loop": true
+    },
+    {
+      "name": "sit-3",
+      "motion": "sit",
+      "direction": 3,
+      "directions": 4,
+      "row": 23,
+      "frames": 24,
+      "loop": true
+    },
+    {
+      "name": "lie down-0",
+      "motion": "lie down",
+      "direction": 0,
+      "directions": 4,
+      "row": 24,
+      "frames": 24,
+      "loop": true
+    },
+    {
+      "name": "lie down-1",
+      "motion": "lie down",
+      "direction": 1,
+      "directions": 4,
+      "row": 25,
+      "frames": 24,
+      "loop": true
+    },
+    {
+      "name": "lie down-2",
+      "motion": "lie down",
+      "direction": 2,
+      "directions": 4,
+      "row": 26,
+      "frames": 24,
+      "loop": true
+    },
+    {
+      "name": "lie down-3",
+      "motion": "lie down",
+      "direction": 3,
+      "directions": 4,
+      "row": 27,
+      "frames": 24,
+      "loop": true
+    },
+    {
+      "name": "pick up-0",
+      "motion": "pick up",
+      "direction": 0,
+      "directions": 4,
+      "row": 28,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "pick up-1",
+      "motion": "pick up",
+      "direction": 1,
+      "directions": 4,
+      "row": 29,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "pick up-2",
+      "motion": "pick up",
+      "direction": 2,
+      "directions": 4,
+      "row": 30,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "pick up-3",
+      "motion": "pick up",
+      "direction": 3,
+      "directions": 4,
+      "row": 31,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "eat-0",
+      "motion": "eat",
+      "direction": 0,
+      "directions": 4,
+      "row": 32,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "eat-1",
+      "motion": "eat",
+      "direction": 1,
+      "directions": 4,
+      "row": 33,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "eat-2",
+      "motion": "eat",
+      "direction": 2,
+      "directions": 4,
+      "row": 34,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "eat-3",
+      "motion": "eat",
+      "direction": 3,
+      "directions": 4,
+      "row": 35,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "celebrate-0",
+      "motion": "celebrate",
+      "direction": 0,
+      "directions": 4,
+      "row": 36,
+      "frames": 12,
+      "loop": true
+    },
+    {
+      "name": "celebrate-1",
+      "motion": "celebrate",
+      "direction": 1,
+      "directions": 4,
+      "row": 37,
+      "frames": 12,
+      "loop": true
+    },
+    {
+      "name": "celebrate-2",
+      "motion": "celebrate",
+      "direction": 2,
+      "directions": 4,
+      "row": 38,
+      "frames": 12,
+      "loop": true
+    },
+    {
+      "name": "celebrate-3",
+      "motion": "celebrate",
+      "direction": 3,
+      "directions": 4,
+      "row": 39,
+      "frames": 12,
+      "loop": true
+    },
+    {
+      "name": "hurt-0",
+      "motion": "hurt",
+      "direction": 0,
+      "directions": 4,
+      "row": 40,
+      "frames": 10,
+      "loop": true
+    },
+    {
+      "name": "hurt-1",
+      "motion": "hurt",
+      "direction": 1,
+      "directions": 4,
+      "row": 41,
+      "frames": 10,
+      "loop": true
+    },
+    {
+      "name": "hurt-2",
+      "motion": "hurt",
+      "direction": 2,
+      "directions": 4,
+      "row": 42,
+      "frames": 10,
+      "loop": true
+    },
+    {
+      "name": "hurt-3",
+      "motion": "hurt",
+      "direction": 3,
+      "directions": 4,
+      "row": 43,
+      "frames": 10,
+      "loop": true
+    },
+    {
+      "name": "death-0",
+      "motion": "death",
+      "direction": 0,
+      "directions": 4,
+      "row": 44,
+      "frames": 20,
+      "loop": true
+    },
+    {
+      "name": "death-1",
+      "motion": "death",
+      "direction": 1,
+      "directions": 4,
+      "row": 45,
+      "frames": 20,
+      "loop": true
+    },
+    {
+      "name": "death-2",
+      "motion": "death",
+      "direction": 2,
+      "directions": 4,
+      "row": 46,
+      "frames": 20,
+      "loop": true
+    },
+    {
+      "name": "death-3",
+      "motion": "death",
+      "direction": 3,
+      "directions": 4,
+      "row": 47,
+      "frames": 20,
+      "loop": true
+    },
+    {
+      "name": "spin",
+      "motion": "spin",
+      "direction": 0,
+      "directions": 1,
+      "row": 48,
+      "frames": 32,
+      "loop": true
+    },
+    {
+      "name": "faces-0",
+      "motion": "faces",
+      "direction": 0,
+      "directions": 4,
+      "row": 49,
+      "frames": 8,
+      "loop": true
+    },
+    {
+      "name": "faces-1",
+      "motion": "faces",
+      "direction": 1,
+      "directions": 4,
+      "row": 50,
+      "frames": 8,
+      "loop": true
+    },
+    {
+      "name": "faces-2",
+      "motion": "faces",
+      "direction": 2,
+      "directions": 4,
+      "row": 51,
+      "frames": 8,
+      "loop": true
+    },
+    {
+      "name": "faces-3",
+      "motion": "faces",
+      "direction": 3,
+      "directions": 4,
+      "row": 52,
+      "frames": 8,
+      "loop": true
+    }
+  ],
+  "look": {
+    "size": "1x",
+    "body": "cozy",
+    "ears": "dog",
+    "coat": "SPOTS",
+    "hat": "SPROUT",
+    "eyewear": "NONE",
+    "clothes": "NONE",
+    "feet": "nubs",
+    "tail": "dog"
+  },
+  "palette": {
+    "colours": 32,
+    "theme": "TOKYO",
+    "outline": "#22181c",
+    "eye": "#22181c",
+    "ramps": [
+      [
+        "#fff4e2",
+        "#e8ceb2",
+        "#d0a882"
+      ],
+      [
+        "#f2a23c",
+        "#be702b",
+        "#8a3d1a"
+      ],
+      [
+        "#4a5ea8",
+        "#303c71",
+        "#151a3a"
+      ],
+      [
+        "#e8435a",
+        "#a9293c",
+        "#6a0f1e"
+      ],
+      [
+        "#f7c6d4",
+        "#de98ae",
+        "#c46a88"
+      ],
+      [
+        "#a8e0c8",
+        "#6cad96",
+        "#2f7a64"
+      ],
+      [
+        "#fff4e2",
+        "#d0a882"
+      ],
+      [
+        "#f2a23c",
+        "#8a3d1a"
+      ],
+      [
+        "#4a5ea8",
+        "#303c71",
+        "#151a3a"
+      ],
+      [
+        "#e8435a",
+        "#6a0f1e"
+      ],
+      [
+        "#f7c6d4",
+        "#c46a88"
+      ],
+      [
+        "#a8e0c8",
+        "#2f7a64"
+      ]
+    ],
+    "assign": {
+      "fur": 0,
+      "mark": 1,
+      "gear": 2,
+      "gearLight": 0,
+      "clothes": 3,
+      "accent": 2
+    }
+  },
+  "roleMap": {
+    "format": "red channel = code, alpha 0 = empty",
+    "codes": "0 outline, 1 eye, 2 + role * 8 + shade (shade 0 lightest .. 4 darkest)",
+    "roles": [
+      "fur",
+      "mark",
+      "gear",
+      "gearLight",
+      "clothes",
+      "accent"
+    ]
+  }
+}
