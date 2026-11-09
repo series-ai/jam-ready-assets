@@ -6695,6 +6695,48 @@
       "height": 288,
       "bytes": 13090,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+    },
+    "run-mochimon/2D/characters": {
+      "kind": "derived",
+      "licenseEvidence": "run-mochimon/2D/characters/License.txt",
+      "sourceUrl": "https://w.run/run.sterf/mochimon",
+      "sourcePath": "scripts/preview-inputs/run-mochimon-characters.png",
+      "sourceSha256": "436e7be5b1199cec222011d4efaeb48e6b0ebe64c8e0af71dc08adb7775d7654",
+      "description": "Assembled scene of nine of the pack's ready-made characters standing idle: a ginger tabby wizard, a pirate captain, a pink bunny idol, a chef, a fox-eared ninja, a robot, a calico princess, a mint frog in a scarf and a red horned imp. Composed from the pack's sprite sheets at a whole-pixel scale.",
+      "outputSha256": "01bb9dc5323756e2d42ef0d51f136b88099192e60143706843f4e9c035bde7d4",
+      "outputSourceSha256": "436e7be5b1199cec222011d4efaeb48e6b0ebe64c8e0af71dc08adb7775d7654",
+      "width": 510,
+      "height": 510,
+      "bytes": 19442,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+    },
+    "run-mochimon/2D/food": {
+      "kind": "derived",
+      "licenseEvidence": "run-mochimon/2D/food/License.txt",
+      "sourceUrl": "https://w.run/run.sterf/mochimon",
+      "sourcePath": "scripts/preview-inputs/run-mochimon-food.png",
+      "sourceSha256": "1ed659f3b97f8c7f0aed748c7c902d59f77653f35dbd220ec3e4375f18231967",
+      "description": "Assembled scene of twelve of the pack's dishes at their normal size: tuna, hamachi and unagi nigiri, tamago, ikura, a rainbow roll, onigiri, ebi ten roll, dango, taiyaki, matcha ice and purin. Composed from the pack's sprites at a whole-pixel scale.",
+      "outputSha256": "26d077aa62ab38adba0f32e539d9ddedaaf6ec08cbc668a71747cb048cceb499",
+      "outputSourceSha256": "1ed659f3b97f8c7f0aed748c7c902d59f77653f35dbd220ec3e4375f18231967",
+      "width": 512,
+      "height": 512,
+      "bytes": 8014,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+    },
+    "run-mochimon/ui": {
+      "kind": "derived",
+      "licenseEvidence": "run-mochimon/ui/License.txt",
+      "sourceUrl": "https://w.run/run.sterf/mochimon",
+      "sourcePath": "scripts/preview-inputs/run-mochimon-ui.png",
+      "sourceSha256": "068a1cff5a3bc0c806a89846b73ac4a413a94bc95960348e94024f77603d459d",
+      "description": "Assembled scene of six of the pack's speech, thought and shout bubbles above sixteen of its UI icons (heart, star, coin, gem, key, potion, sword, shield, trophy, fire, bolt, flag, check, cross, music and clock). Composed from the pack's sprites at a whole-pixel scale.",
+      "outputSha256": "4bbd5df7459e4e15ad71e5347df3cad9cb024f401bbc8952b33bbef33dffd63d",
+      "outputSourceSha256": "068a1cff5a3bc0c806a89846b73ac4a413a94bc95960348e94024f77603d459d",
+      "width": 512,
+      "height": 512,
+      "bytes": 5040,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
     }
   }
 }

@@ -1,0 +1,470 @@
+{
+  "generator": "Mochimon",
+  "image": "gardener-actions.png",
+  "roles": "gardener-actions.roles.png",
+  "frameWidth": 88,
+  "frameHeight": 69,
+  "columns": 24,
+  "rows": 40,
+  "anchor": {
+    "x": 44,
+    "y": 54
+  },
+  "fps": 12,
+  "animations": [
+    {
+      "name": "party-0",
+      "motion": "party",
+      "direction": 0,
+      "directions": 4,
+      "row": 0,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "party-1",
+      "motion": "party",
+      "direction": 1,
+      "directions": 4,
+      "row": 1,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "party-2",
+      "motion": "party",
+      "direction": 2,
+      "directions": 4,
+      "row": 2,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "party-3",
+      "motion": "party",
+      "direction": 3,
+      "directions": 4,
+      "row": 3,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "wand-0",
+      "motion": "wand",
+      "direction": 0,
+      "directions": 4,
+      "row": 4,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "wand-1",
+      "motion": "wand",
+      "direction": 1,
+      "directions": 4,
+      "row": 5,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "wand-2",
+      "motion": "wand",
+      "direction": 2,
+      "directions": 4,
+      "row": 6,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "wand-3",
+      "motion": "wand",
+      "direction": 3,
+      "directions": 4,
+      "row": 7,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "water-0",
+      "motion": "water",
+      "direction": 0,
+      "directions": 4,
+      "row": 8,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "water-1",
+      "motion": "water",
+      "direction": 1,
+      "directions": 4,
+      "row": 9,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "water-2",
+      "motion": "water",
+      "direction": 2,
+      "directions": 4,
+      "row": 10,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "water-3",
+      "motion": "water",
+      "direction": 3,
+      "directions": 4,
+      "row": 11,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "dig-0",
+      "motion": "dig",
+      "direction": 0,
+      "directions": 4,
+      "row": 12,
+      "frames": 12,
+      "loop": true
+    },
+    {
+      "name": "dig-1",
+      "motion": "dig",
+      "direction": 1,
+      "directions": 4,
+      "row": 13,
+      "frames": 12,
+      "loop": true
+    },
+    {
+      "name": "dig-2",
+      "motion": "dig",
+      "direction": 2,
+      "directions": 4,
+      "row": 14,
+      "frames": 12,
+      "loop": true
+    },
+    {
+      "name": "dig-3",
+      "motion": "dig",
+      "direction": 3,
+      "directions": 4,
+      "row": 15,
+      "frames": 12,
+      "loop": true
+    },
+    {
+      "name": "chop-0",
+      "motion": "chop",
+      "direction": 0,
+      "directions": 4,
+      "row": 16,
+      "frames": 12,
+      "loop": true
+    },
+    {
+      "name": "chop-1",
+      "motion": "chop",
+      "direction": 1,
+      "directions": 4,
+      "row": 17,
+      "frames": 12,
+      "loop": true
+    },
+    {
+      "name": "chop-2",
+      "motion": "chop",
+      "direction": 2,
+      "directions": 4,
+      "row": 18,
+      "frames": 12,
+      "loop": true
+    },
+    {
+      "name": "chop-3",
+      "motion": "chop",
+      "direction": 3,
+      "directions": 4,
+      "row": 19,
+      "frames": 12,
+      "loop": true
+    },
+    {
+      "name": "fish-0",
+      "motion": "fish",
+      "direction": 0,
+      "directions": 4,
+      "row": 20,
+      "frames": 24,
+      "loop": true
+    },
+    {
+      "name": "fish-1",
+      "motion": "fish",
+      "direction": 1,
+      "directions": 4,
+      "row": 21,
+      "frames": 24,
+      "loop": true
+    },
+    {
+      "name": "fish-2",
+      "motion": "fish",
+      "direction": 2,
+      "directions": 4,
+      "row": 22,
+      "frames": 24,
+      "loop": true
+    },
+    {
+      "name": "fish-3",
+      "motion": "fish",
+      "direction": 3,
+      "directions": 4,
+      "row": 23,
+      "frames": 24,
+      "loop": true
+    },
+    {
+      "name": "sleep-0",
+      "motion": "sleep",
+      "direction": 0,
+      "directions": 4,
+      "row": 24,
+      "frames": 24,
+      "loop": true
+    },
+    {
+      "name": "sleep-1",
+      "motion": "sleep",
+      "direction": 1,
+      "directions": 4,
+      "row": 25,
+      "frames": 24,
+      "loop": true
+    },
+    {
+      "name": "sleep-2",
+      "motion": "sleep",
+      "direction": 2,
+      "directions": 4,
+      "row": 26,
+      "frames": 24,
+      "loop": true
+    },
+    {
+      "name": "sleep-3",
+      "motion": "sleep",
+      "direction": 3,
+      "directions": 4,
+      "row": 27,
+      "frames": 24,
+      "loop": true
+    },
+    {
+      "name": "wave-0",
+      "motion": "wave",
+      "direction": 0,
+      "directions": 4,
+      "row": 28,
+      "frames": 12,
+      "loop": true
+    },
+    {
+      "name": "wave-1",
+      "motion": "wave",
+      "direction": 1,
+      "directions": 4,
+      "row": 29,
+      "frames": 12,
+      "loop": true
+    },
+    {
+      "name": "wave-2",
+      "motion": "wave",
+      "direction": 2,
+      "directions": 4,
+      "row": 30,
+      "frames": 12,
+      "loop": true
+    },
+    {
+      "name": "wave-3",
+      "motion": "wave",
+      "direction": 3,
+      "directions": 4,
+      "row": 31,
+      "frames": 12,
+      "loop": true
+    },
+    {
+      "name": "dance-0",
+      "motion": "dance",
+      "direction": 0,
+      "directions": 4,
+      "row": 32,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "dance-1",
+      "motion": "dance",
+      "direction": 1,
+      "directions": 4,
+      "row": 33,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "dance-2",
+      "motion": "dance",
+      "direction": 2,
+      "directions": 4,
+      "row": 34,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "dance-3",
+      "motion": "dance",
+      "direction": 3,
+      "directions": 4,
+      "row": 35,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "broom-0",
+      "motion": "broom",
+      "direction": 0,
+      "directions": 4,
+      "row": 36,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "broom-1",
+      "motion": "broom",
+      "direction": 1,
+      "directions": 4,
+      "row": 37,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "broom-2",
+      "motion": "broom",
+      "direction": 2,
+      "directions": 4,
+      "row": 38,
+      "frames": 16,
+      "loop": true
+    },
+    {
+      "name": "broom-3",
+      "motion": "broom",
+      "direction": 3,
+      "directions": 4,
+      "row": 39,
+      "frames": 16,
+      "loop": true
+    }
+  ],
+  "look": {
+    "size": "1x",
+    "body": "cozy",
+    "ears": "dog",
+    "coat": "SPOTS",
+    "hat": "SPROUT",
+    "eyewear": "NONE",
+    "clothes": "NONE",
+    "feet": "nubs",
+    "tail": "dog"
+  },
+  "palette": {
+    "colours": 32,
+    "theme": "TOKYO",
+    "outline": "#22181c",
+    "eye": "#22181c",
+    "ramps": [
+      [
+        "#fff4e2",
+        "#e8ceb2",
+        "#d0a882"
+      ],
+      [
+        "#f2a23c",
+        "#be702b",
+        "#8a3d1a"
+      ],
+      [
+        "#4a5ea8",
+        "#303c71",
+        "#151a3a"
+      ],
+      [
+        "#e8435a",
+        "#a9293c",
+        "#6a0f1e"
+      ],
+      [
+        "#f7c6d4",
+        "#de98ae",
+        "#c46a88"
+      ],
+      [
+        "#a8e0c8",
+        "#6cad96",
+        "#2f7a64"
+      ],
+      [
+        "#fff4e2",
+        "#d0a882"
+      ],
+      [
+        "#f2a23c",
+        "#8a3d1a"
+      ],
+      [
+        "#4a5ea8",
+        "#303c71",
+        "#151a3a"
+      ],
+      [
+        "#e8435a",
+        "#6a0f1e"
+      ],
+      [
+        "#f7c6d4",
+        "#c46a88"
+      ],
+      [
+        "#a8e0c8",
+        "#2f7a64"
+      ]
+    ],
+    "assign": {
+      "fur": 0,
+      "mark": 1,
+      "gear": 2,
+      "gearLight": 0,
+      "clothes": 3,
+      "accent": 2
+    }
+  },
+  "roleMap": {
+    "format": "red channel = code, alpha 0 = empty",
+    "codes": "0 outline, 1 eye, 2 + role * 8 + shade (shade 0 lightest .. 4 darkest)",
+    "roles": [
+      "fur",
+      "mark",
+      "gear",
+      "gearLight",
+      "clothes",
+      "accent"
+    ]
+  }
+}

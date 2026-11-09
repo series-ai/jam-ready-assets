@@ -1,0 +1,566 @@
+{
+  "generator": "Mochimon",
+  "bubbles": [
+    {
+      "file": "bubbles/speech-blank.png",
+      "shape": "speech",
+      "mark": "blank",
+      "w": 21,
+      "h": 26,
+      "anchor": [
+        4,
+        20
+      ]
+    },
+    {
+      "file": "bubbles/speech-exclaim.png",
+      "shape": "speech",
+      "mark": "!",
+      "w": 21,
+      "h": 27,
+      "anchor": [
+        4,
+        21
+      ]
+    },
+    {
+      "file": "bubbles/speech-question.png",
+      "shape": "speech",
+      "mark": "?",
+      "w": 21,
+      "h": 27,
+      "anchor": [
+        4,
+        21
+      ]
+    },
+    {
+      "file": "bubbles/speech-exclaim-question.png",
+      "shape": "speech",
+      "mark": "!?",
+      "w": 24,
+      "h": 27,
+      "anchor": [
+        5,
+        21
+      ]
+    },
+    {
+      "file": "bubbles/speech-dots.png",
+      "shape": "speech",
+      "mark": "...",
+      "w": 24,
+      "h": 26,
+      "anchor": [
+        5,
+        20
+      ]
+    },
+    {
+      "file": "bubbles/speech-heart.png",
+      "shape": "speech",
+      "mark": "heart",
+      "w": 23,
+      "h": 27,
+      "anchor": [
+        5,
+        21
+      ]
+    },
+    {
+      "file": "bubbles/speech-note.png",
+      "shape": "speech",
+      "mark": "note",
+      "w": 22,
+      "h": 27,
+      "anchor": [
+        4,
+        21
+      ]
+    },
+    {
+      "file": "bubbles/speech-anger.png",
+      "shape": "speech",
+      "mark": "anger",
+      "w": 21,
+      "h": 26,
+      "anchor": [
+        4,
+        20
+      ]
+    },
+    {
+      "file": "bubbles/speech-sweat.png",
+      "shape": "speech",
+      "mark": "sweat",
+      "w": 21,
+      "h": 26,
+      "anchor": [
+        4,
+        20
+      ]
+    },
+    {
+      "file": "bubbles/speech-zzz.png",
+      "shape": "speech",
+      "mark": "zzz",
+      "w": 21,
+      "h": 28,
+      "anchor": [
+        4,
+        22
+      ]
+    },
+    {
+      "file": "bubbles/speech-star.png",
+      "shape": "speech",
+      "mark": "star",
+      "w": 21,
+      "h": 26,
+      "anchor": [
+        4,
+        20
+      ]
+    },
+    {
+      "file": "bubbles/thought-blank.png",
+      "shape": "thought",
+      "mark": "blank",
+      "w": 21,
+      "h": 26,
+      "anchor": [
+        6,
+        22
+      ]
+    },
+    {
+      "file": "bubbles/thought-exclaim.png",
+      "shape": "thought",
+      "mark": "!",
+      "w": 21,
+      "h": 27,
+      "anchor": [
+        6,
+        23
+      ]
+    },
+    {
+      "file": "bubbles/thought-question.png",
+      "shape": "thought",
+      "mark": "?",
+      "w": 21,
+      "h": 27,
+      "anchor": [
+        6,
+        23
+      ]
+    },
+    {
+      "file": "bubbles/thought-exclaim-question.png",
+      "shape": "thought",
+      "mark": "!?",
+      "w": 24,
+      "h": 27,
+      "anchor": [
+        7,
+        23
+      ]
+    },
+    {
+      "file": "bubbles/thought-dots.png",
+      "shape": "thought",
+      "mark": "...",
+      "w": 24,
+      "h": 26,
+      "anchor": [
+        7,
+        22
+      ]
+    },
+    {
+      "file": "bubbles/thought-heart.png",
+      "shape": "thought",
+      "mark": "heart",
+      "w": 23,
+      "h": 27,
+      "anchor": [
+        6,
+        23
+      ]
+    },
+    {
+      "file": "bubbles/thought-note.png",
+      "shape": "thought",
+      "mark": "note",
+      "w": 22,
+      "h": 27,
+      "anchor": [
+        6,
+        23
+      ]
+    },
+    {
+      "file": "bubbles/thought-anger.png",
+      "shape": "thought",
+      "mark": "anger",
+      "w": 21,
+      "h": 26,
+      "anchor": [
+        6,
+        22
+      ]
+    },
+    {
+      "file": "bubbles/thought-sweat.png",
+      "shape": "thought",
+      "mark": "sweat",
+      "w": 21,
+      "h": 26,
+      "anchor": [
+        6,
+        22
+      ]
+    },
+    {
+      "file": "bubbles/thought-zzz.png",
+      "shape": "thought",
+      "mark": "zzz",
+      "w": 21,
+      "h": 28,
+      "anchor": [
+        6,
+        24
+      ]
+    },
+    {
+      "file": "bubbles/thought-star.png",
+      "shape": "thought",
+      "mark": "star",
+      "w": 21,
+      "h": 26,
+      "anchor": [
+        6,
+        22
+      ]
+    },
+    {
+      "file": "bubbles/shout-blank.png",
+      "shape": "shout",
+      "mark": "blank",
+      "w": 21,
+      "h": 26,
+      "anchor": [
+        5,
+        16
+      ]
+    },
+    {
+      "file": "bubbles/shout-exclaim.png",
+      "shape": "shout",
+      "mark": "!",
+      "w": 21,
+      "h": 27,
+      "anchor": [
+        5,
+        17
+      ]
+    },
+    {
+      "file": "bubbles/shout-question.png",
+      "shape": "shout",
+      "mark": "?",
+      "w": 21,
+      "h": 27,
+      "anchor": [
+        5,
+        17
+      ]
+    },
+    {
+      "file": "bubbles/shout-exclaim-question.png",
+      "shape": "shout",
+      "mark": "!?",
+      "w": 24,
+      "h": 27,
+      "anchor": [
+        6,
+        17
+      ]
+    },
+    {
+      "file": "bubbles/shout-dots.png",
+      "shape": "shout",
+      "mark": "...",
+      "w": 24,
+      "h": 26,
+      "anchor": [
+        6,
+        16
+      ]
+    },
+    {
+      "file": "bubbles/shout-heart.png",
+      "shape": "shout",
+      "mark": "heart",
+      "w": 23,
+      "h": 27,
+      "anchor": [
+        5,
+        17
+      ]
+    },
+    {
+      "file": "bubbles/shout-note.png",
+      "shape": "shout",
+      "mark": "note",
+      "w": 22,
+      "h": 27,
+      "anchor": [
+        5,
+        17
+      ]
+    },
+    {
+      "file": "bubbles/shout-anger.png",
+      "shape": "shout",
+      "mark": "anger",
+      "w": 21,
+      "h": 26,
+      "anchor": [
+        5,
+        16
+      ]
+    },
+    {
+      "file": "bubbles/shout-sweat.png",
+      "shape": "shout",
+      "mark": "sweat",
+      "w": 21,
+      "h": 26,
+      "anchor": [
+        5,
+        16
+      ]
+    },
+    {
+      "file": "bubbles/shout-zzz.png",
+      "shape": "shout",
+      "mark": "zzz",
+      "w": 21,
+      "h": 28,
+      "anchor": [
+        5,
+        18
+      ]
+    },
+    {
+      "file": "bubbles/shout-star.png",
+      "shape": "shout",
+      "mark": "star",
+      "w": 21,
+      "h": 26,
+      "anchor": [
+        5,
+        16
+      ]
+    }
+  ],
+  "icons": [
+    {
+      "file": "icons/heart.png",
+      "name": "heart",
+      "w": 11,
+      "h": 10
+    },
+    {
+      "file": "icons/star.png",
+      "name": "star",
+      "w": 11,
+      "h": 10
+    },
+    {
+      "file": "icons/coin.png",
+      "name": "coin",
+      "w": 11,
+      "h": 11
+    },
+    {
+      "file": "icons/gem.png",
+      "name": "gem",
+      "w": 11,
+      "h": 9
+    },
+    {
+      "file": "icons/key.png",
+      "name": "key",
+      "w": 11,
+      "h": 7
+    },
+    {
+      "file": "icons/lock.png",
+      "name": "lock",
+      "w": 9,
+      "h": 9
+    },
+    {
+      "file": "icons/check.png",
+      "name": "check",
+      "w": 11,
+      "h": 9
+    },
+    {
+      "file": "icons/cross.png",
+      "name": "cross",
+      "w": 11,
+      "h": 11
+    },
+    {
+      "file": "icons/plus.png",
+      "name": "plus",
+      "w": 11,
+      "h": 9
+    },
+    {
+      "file": "icons/minus.png",
+      "name": "minus",
+      "w": 11,
+      "h": 5
+    },
+    {
+      "file": "icons/right.png",
+      "name": "right",
+      "w": 11,
+      "h": 9
+    },
+    {
+      "file": "icons/left.png",
+      "name": "left",
+      "w": 11,
+      "h": 9
+    },
+    {
+      "file": "icons/down.png",
+      "name": "down",
+      "w": 9,
+      "h": 11
+    },
+    {
+      "file": "icons/up.png",
+      "name": "up",
+      "w": 9,
+      "h": 11
+    },
+    {
+      "file": "icons/play.png",
+      "name": "play",
+      "w": 8,
+      "h": 9
+    },
+    {
+      "file": "icons/pause.png",
+      "name": "pause",
+      "w": 9,
+      "h": 9
+    },
+    {
+      "file": "icons/gear.png",
+      "name": "gear",
+      "w": 11,
+      "h": 11
+    },
+    {
+      "file": "icons/home.png",
+      "name": "home",
+      "w": 11,
+      "h": 10
+    },
+    {
+      "file": "icons/clock.png",
+      "name": "clock",
+      "w": 11,
+      "h": 10
+    },
+    {
+      "file": "icons/potion.png",
+      "name": "potion",
+      "w": 10,
+      "h": 10
+    },
+    {
+      "file": "icons/sword.png",
+      "name": "sword",
+      "w": 11,
+      "h": 11
+    },
+    {
+      "file": "icons/shield.png",
+      "name": "shield",
+      "w": 11,
+      "h": 10
+    },
+    {
+      "file": "icons/mail.png",
+      "name": "mail",
+      "w": 11,
+      "h": 8
+    },
+    {
+      "file": "icons/info.png",
+      "name": "info",
+      "w": 11,
+      "h": 10
+    },
+    {
+      "file": "icons/bag.png",
+      "name": "bag",
+      "w": 11,
+      "h": 10
+    },
+    {
+      "file": "icons/trophy.png",
+      "name": "trophy",
+      "w": 11,
+      "h": 10
+    },
+    {
+      "file": "icons/bolt.png",
+      "name": "bolt",
+      "w": 9,
+      "h": 10
+    },
+    {
+      "file": "icons/fire.png",
+      "name": "fire",
+      "w": 11,
+      "h": 11
+    },
+    {
+      "file": "icons/flag.png",
+      "name": "flag",
+      "w": 10,
+      "h": 9
+    },
+    {
+      "file": "icons/pin.png",
+      "name": "pin",
+      "w": 9,
+      "h": 9
+    },
+    {
+      "file": "icons/music.png",
+      "name": "music",
+      "w": 10,
+      "h": 8
+    },
+    {
+      "file": "icons/search.png",
+      "name": "search",
+      "w": 10,
+      "h": 10
+    }
+  ],
+  "palette": {
+    "colours": 32,
+    "theme": "TOKYO"
+  }
+}
