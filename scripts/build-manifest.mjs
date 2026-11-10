@@ -35,7 +35,8 @@ const CREATOR_NAMES = {
   kenney: 'Kenney', kaykit: 'KayKit', 'pixel-frog': 'Pixel Frog', grafxkid: 'GrafxKid',
   foozle: 'Foozle', 'pixel-boy': 'Pixel-boy', bakudas: 'Estúdio Vaca Roxa', shade: 'Shade',
   alexs: "Alex's Assets", jestan: 'Jestan', styloo: 'Styloo', isa: 'Isa Lousberg',
-  proofofplay: 'Proof of Play', 'run-inkline': 'INKLINE contributors',
+  proofofplay: 'Proof of Play', 'run-inkline': 'INKLINE contributors', angais: 'Angais',
+  codepawl: 'CodePawl',
 };
 /** Packs credited to a named author rather than their slug prefix (the title still drops the prefix). */
 const PACK_CREATORS = {
