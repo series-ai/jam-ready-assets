@@ -52,6 +52,7 @@ test('preview-only edits keep runtime files, versions, counts, bytes and legacy 
           licenseEvidence: `${id}/License.txt`,
           description: 'Original artwork',
           outputSha256: hash(image),
+          gallery: ['sprite.png'],
         },
       },
     };
@@ -83,6 +84,8 @@ test('preview-only edits keep runtime files, versions, counts, bytes and legacy 
       `manifest/v2/commits/${first.commit}/packs/example--2D--misc.json`,
     );
     const firstFiles = JSON.parse(readFileSync(filesPath)).files;
+    // The gallery names a runtime file, so the index carries its existing object id.
+    assert.deepEqual(first.packs[0].galleryOids, [hash(sprite)]);
     const updated = await sharp(image).negate().webp().toBuffer();
     writeFileSync(join(root, id, 'preview.webp'), updated);
     config.packs[id].outputSha256 = hash(updated);
@@ -124,13 +127,16 @@ test('preview-only edits keep runtime files, versions, counts, bytes and legacy 
   }
 });
 
-test('mirror sends preview-only WebP with immutable caching before publishing the index', () => {
+test('mirror sends the preview WebP and non-runtime gallery images with immutable caching before publishing the index', () => {
   const root = mkdtempSync(join(tmpdir(), 'asset-preview-mirror-'));
   try {
     const id = 'example/2D/misc';
     const commit = 'abc123';
     const bytes = Buffer.from('already validated WebP fixture');
     const oid = hash(bytes);
+    const sample = Buffer.from('creator sample scene, not a runtime file');
+    const sampleOid = hash(sample);
+    const source = Buffer.from('editable source art, not in the gallery');
     for (const dir of [
       id,
       'bin',
@@ -139,16 +145,25 @@ test('mirror sends preview-only WebP with immutable caching before publishing th
     ])
       mkdirSync(join(root, dir), { recursive: true });
     writeFileSync(join(root, id, 'preview.webp'), bytes);
+    writeFileSync(join(root, id, 'Sample.png'), sample);
+    writeFileSync(join(root, id, 'source.jpg'), source);
     writeFileSync(
       join(root, 'manifest/v2/index.json'),
-      JSON.stringify({ commit, packs: [{ id, previewOid: oid }] }),
+      JSON.stringify({
+        commit,
+        packs: [{ id, previewOid: oid, galleryOids: [sampleOid] }],
+      }),
     );
     writeFileSync(
       join(root, `manifest/v2/commits/${commit}/packs/example.json`),
       JSON.stringify({
         id,
         version: 'unchanged',
-        files: [{ path: 'preview.webp', oid, runtime: false }],
+        files: [
+          { path: 'preview.webp', oid, runtime: false },
+          { path: 'Sample.png', oid: sampleOid, runtime: false },
+          { path: 'source.jpg', oid: hash(source), runtime: false },
+        ],
       }),
     );
     const log = join(root, 'commands.jsonl');
@@ -179,6 +194,9 @@ test('mirror sends preview-only WebP with immutable caching before publishing th
       c.args.includes('--content-type=image/webp'),
     );
     assert.ok(upload >= 0);
+    // The gallery's sample scene is published; other non-runtime art is not.
+    assert.ok(commands.some((c) => c.args.includes('--content-type=image/png')));
+    assert.ok(!commands.some((c) => c.args.includes('--content-type=image/jpeg')));
     assert.ok(
       commands[upload].args.includes(
         '--cache-control=public, max-age=31536000, immutable',
@@ -196,6 +214,48 @@ test('mirror sends preview-only WebP with immutable caching before publishing th
         c.args.some((arg) => arg.includes('print-access-token')),
       ),
     );
+  } finally {
+    rmSync(root, { recursive: true, force: true });
+  }
+});
+
+test('a crop squares the thumbnail and names itself in the recipe', async () => {
+  const root = mkdtempSync(join(tmpdir(), 'asset-preview-crop-'));
+  try {
+    const id = 'example/2D/misc';
+    mkdirSync(join(root, id), { recursive: true });
+    const source = await sharp({
+      create: { width: 900, height: 500, channels: 3, background: 'blue' },
+    })
+      .png()
+      .toBuffer();
+    writeFileSync(join(root, id, 'Sample.png'), source);
+    const selection = {
+      kind: 'original',
+      sourcePath: `${id}/Sample.png`,
+      sourceSha256: hash(source),
+      sourceUrl: 'https://example.org/assets',
+      licenseEvidence: `${id}/License.txt`,
+      description: 'Bundled sample scene',
+      crop: { left: 200, top: 0, size: 500 },
+    };
+    writeFileSync(
+      join(root, 'preview-sources.json'),
+      JSON.stringify({ schemaVersion: 1, packs: { [id]: selection } }),
+    );
+    run(root, 'generate-previews.mjs');
+    const written = JSON.parse(
+      readFileSync(join(root, 'preview-sources.json')),
+    ).packs[id];
+    const output = readFileSync(join(root, id, 'preview.webp'));
+    const metadata = await sharp(output).metadata();
+    assert.equal(metadata.width, 500);
+    assert.equal(metadata.height, 500);
+    assert.equal(written.width, 500);
+    assert.equal(written.outputSha256, hash(output));
+    assert.match(written.recipe, /-frame0-crop200_0_500$/);
+    const report = run(root, 'check-previews.mjs');
+    assert.doesNotMatch(report, /not square/);
   } finally {
     rmSync(root, { recursive: true, force: true });
   }

@@ -37,7 +37,9 @@ const versionedPackDir = join(ROOT, 'manifest/v2/commits', index.commit, 'packs'
 for (const packFile of readdirSync(versionedPackDir)) {
   const pack = JSON.parse(readFileSync(join(versionedPackDir, packFile), 'utf8'));
   const summary = byId.get(pack.id);
-  const previewOids = new Set([summary?.previewOid, summary?.audioPreviewOid].filter(Boolean));
+  const previewOids = new Set(
+    [summary?.previewOid, summary?.audioPreviewOid, ...(summary?.galleryOids ?? [])].filter(Boolean),
+  );
   for (const f of pack.files) {
     if (f.runtime || f.license || previewOids.has(f.oid)) {
       wanted.set(f.oid, { repoPath: `${pack.id}/${f.path}`, ext: extname(f.path).toLowerCase() });

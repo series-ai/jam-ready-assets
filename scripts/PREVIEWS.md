@@ -74,6 +74,54 @@ files record exact source paths and SHA-256 hashes. Pirate Nation's three visual
 proofs reuse previously reviewed outputs; their pinned remote URLs and
 the original proof provenance are retained here.
 
+## Square thumbnails
+
+Studio shows every thumbnail in a square tile. A landscape image still works, since Studio
+letterboxes it over a blurred copy of itself, but a square one fills the card. Make new
+thumbnails square, and square an existing one whenever you touch it.
+
+Add a `crop` to the pack's selection: `{ "left": 384, "top": 0, "size": 929 }`, a square in
+the source image's own pixels, cut before the 512px resize. A changed crop changes the
+recipe, so `npm run previews:generate` rebuilds that pack and leaves the rest alone.
+
+- Start from the centre of the image and move the square until no logo, wordmark, badge or
+  caption is cut through. A whole mark is fine. Half a word reads as a mistake.
+- When a corner badge and an opposite corner label leave no full-height square clear of
+  both, use a smaller square anchored to the top (KayKit samples crop to 86% of the height).
+- Don't crop a wordmark that is wider than any square, or an inventory sheet into
+  unreadable slivers. Leave that image landscape and note it in the PR.
+
+`npm run previews:check` reports how many previews are still not square. It is advisory:
+it never fails CI.
+
+## Gallery images
+
+The pack preview in Studio is a carousel: the thumbnail first, then up to six more images.
+List them as `gallery` on the pack's selection, as pack-relative paths of the pack's own
+files, in display order:
+
+```json
+"gallery": ["SampleA.png", "SampleB.png"]
+```
+
+Each one must be a PNG, JPEG, WebP or GIF of at most 1 MiB, and may be any image in the
+pack except the licence notice and `preview.webp`. A creator's sample scene is often not a
+runtime file; the mirror publishes every gallery image the same way it publishes the
+thumbnail. The manifest builder rejects anything else.
+
+Choose images that show what the pack contains: sample scenes and mockups first, then
+sheets and backgrounds whose art is readable at about 384px. A gallery needs at least two
+such images; a pack with fewer keeps just its thumbnail rather than padding the carousel
+with a lone sprite. Never use an animation strip (it reads as a sliver), a colour palette
+or swatch atlas, a UV or skin texture, the thumbnail's own source image, or several colour
+variants of the same sheet. In a 3D pack only rendered previews qualify.
+
+The first galleries were picked with those rules from the visual labels in `metadata/`
+(kind `preview`, then `sheet` and `background`, at least 160px on the short side), then
+reviewed as contact sheets. Edit any pack's list by hand; a hand-written list is kept as is.
+Without a `gallery`, Studio guesses from the pack's runtime files, so a pack whose images
+are all weak is better left without one.
+
 ## Publication and rollback
 
 PR validation fetches only the committed WebP derivatives and verifies their hashes,
@@ -82,7 +130,8 @@ checkout. Normal CI never scrapes or generates artwork.
 
 The existing mirror publishes new immutable objects with `image/webp` and a one-year
 cache lifetime before switching either catalog index. Studio continues reading
-`previewOid` through `previewUrl`; no schema or backend rollout is required. Catalog
+`previewOid` through `previewUrl`; no schema or backend rollout is required. `galleryOids`
+is optional: a Studio worker that predates it ignores the field. Catalog
 caches can take 10-15 minutes to refresh. Revert the selection and derivative together
 to roll back. Preserve all old objects and runtime pack URLs.
 

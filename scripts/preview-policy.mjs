@@ -5,6 +5,11 @@ export const PREVIEW_FILE = 'preview.webp';
 export const PREVIEW_MAX_BYTES = 100 * 1024;
 export const PREVIEW_MAX_DIMENSION = 512;
 const HASH = /^[a-f0-9]{64}$/;
+// Studio's preview carousel shows the thumbnail plus at most this many gallery images.
+export const GALLERY_MAX_IMAGES = 6;
+// Gallery images are served as the original file, so keep them light.
+export const GALLERY_MAX_BYTES = 1024 * 1024;
+const GALLERY_IMAGE = /\.(png|jpe?g|webp|gif)$/i;
 
 export function localSourcePath(root, path) {
   if (typeof path !== 'string' || !path || path.includes('\\'))
@@ -43,6 +48,19 @@ export function validateSelection(id, selection, category) {
   ) {
     throw new Error(`${id}: frame must be a non-negative integer`);
   }
+  if (selection.crop !== undefined) {
+    const { left, top, size } = selection.crop ?? {};
+    if (
+      Object.keys(selection.crop).length !== 3 ||
+      ![left, top].every((n) => Number.isInteger(n) && n >= 0) ||
+      !Number.isInteger(size) ||
+      size <= 0
+    ) {
+      throw new Error(
+        `${id}: crop must be { left, top, size } in source pixels, a square`,
+      );
+    }
+  }
   if (
     !['original', 'derived'].includes(selection.kind) ||
     !selection.sourcePath ||
@@ -55,6 +73,47 @@ export function validateSelection(id, selection, category) {
       `${id}: preview needs source path, SHA-256, URL, description and licence evidence`,
     );
   }
+}
+
+/**
+ * The recipe tail that names what was cut from the source: the GIF frame and,
+ * for a squared thumbnail, the crop square. A changed crop regenerates the image.
+ */
+export function selectionRecipeSuffix(selection) {
+  const crop = selection.crop
+    ? `-crop${selection.crop.left}_${selection.crop.top}_${selection.crop.size}`
+    : '';
+  return `-frame${selection.frame ?? 0}${crop}`;
+}
+
+/**
+ * The carousel images: pack-relative paths of the pack's own image files, in
+ * display order. A creator's sample scene is often not a runtime file, so any
+ * pack image qualifies except the licence notice and the thumbnail; the mirror
+ * publishes a gallery image the same way it publishes the thumbnail.
+ */
+export function selectGallery(id, entries, gallery) {
+  if (gallery === undefined) return [];
+  if (
+    !Array.isArray(gallery) ||
+    gallery.length === 0 ||
+    gallery.length > GALLERY_MAX_IMAGES ||
+    new Set(gallery).size !== gallery.length
+  ) {
+    throw new Error(
+      `${id}: gallery must list 1-${GALLERY_MAX_IMAGES} distinct pack file paths`,
+    );
+  }
+  return gallery.map((path) => {
+    const entry = entries.find((candidate) => candidate.path === path);
+    if (!entry || entry.license || path === PREVIEW_FILE)
+      throw new Error(`${id}: gallery image ${path} is not an image file of this pack`);
+    if (!GALLERY_IMAGE.test(path))
+      throw new Error(`${id}: gallery image ${path} is not a PNG, JPEG, WebP or GIF`);
+    if (entry.bytes > GALLERY_MAX_BYTES)
+      throw new Error(`${id}: gallery image ${path} is over 1 MiB`);
+    return entry.oid;
+  });
 }
 
 /** Select only the reviewed derivative. Never guess from a texture or sprite filename. */
