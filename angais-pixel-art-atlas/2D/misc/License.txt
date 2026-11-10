@@ -1,0 +1,19 @@
+SPDX-License-Identifier: CC0-1.0
+Source: https://huggingface.co/datasets/Angais/pixel-art-atlas-1.4m
+Verified-by: run-workshop maintainers, 2026-11-09
+
+Creative Commons Zero 1.0 Universal (CC0 1.0)
+Public Domain Dedication
+https://creativecommons.org/publicdomain/zero/1.0/
+
+You may copy, modify, distribute and use this artwork for any purpose, including commercially, without asking permission or providing attribution.
+
+This pack holds one 16 x 16 sprite for each of the 6,194 subjects in Pixel Art Atlas, the same sprite the Pixel Art Atlas Models pack builds each model from. Files are named for their subject. The sprites are unchanged.
+
+--- License text as supplied by the creator ---
+
+CC0 1.0 Universal
+
+Angais dedicates the sprites, captions and collection to the public domain under CC0 1.0 to the fullest extent possible. This applies only to rights Angais holds. It does not waive third-party rights or license Krea model weights. See the dataset card for provenance and applicable Krea terms.
+
+Full legal text: https://creativecommons.org/publicdomain/zero/1.0/legalcode
