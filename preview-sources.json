@@ -8115,6 +8115,28 @@
       "height": 512,
       "bytes": 18020,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+    },
+    "run-glowdrop-critters/3D/nature": {
+      "kind": "derived",
+      "licenseEvidence": "run-glowdrop-critters/3D/nature/License.txt",
+      "sourceUrl": "https://github.com/series-ai/run-workshop/tree/main/tools/run-theme-packs/glowdrop",
+      "sourcePath": "scripts/preview-inputs/run-glowdrop-critters-nature.png",
+      "sourceSha256": "b99979e1b2b1ca248170392a90f8f5622903a9fec861c89815534a84c740182c",
+      "description": "The pack's cover: its title over a night glade of the pack's glowing mushrooms (giant umbrella, lantern cap, moon disc, puffball, fairy ring, pixie cup), plants (moonflower, glow bulb, cattail, fern) and a glow pond, with moon, comb and crown jellies, an anglerfish and fireflies floating above. Rendered from the pack's own models.",
+      "gallery": [
+        "Previews/mushrooms.jpg",
+        "Previews/plants-and-corals.jpg",
+        "Previews/jellyfish.jpg",
+        "Previews/sea-critters.jpg",
+        "Previews/bugs.jpg",
+        "Previews/collecting-and-habitat.jpg"
+      ],
+      "outputSha256": "5df95f9f3b3dd55711f4be62adf98a69b21cd056ce046a910a749f02a765c4d5",
+      "outputSourceSha256": "b99979e1b2b1ca248170392a90f8f5622903a9fec861c89815534a84c740182c",
+      "width": 512,
+      "height": 512,
+      "bytes": 17240,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
     }
   }
 }
