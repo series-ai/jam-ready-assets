@@ -8095,18 +8095,25 @@
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
     },
     "codepawl-pixel-art-atlas-models/3D/misc": {
-      "kind": "original",
+      "kind": "derived",
       "licenseEvidence": "codepawl-pixel-art-atlas-models/3D/misc/License.txt",
       "sourceUrl": "https://huggingface.co/datasets/codepawl/pixel-atlas-glb",
-      "sourcePath": "codepawl-pixel-art-atlas-models/3D/misc/Source/listing-banner.png",
-      "sourceSha256": "4d5f5f413980436cabf166c4a424b9f9520f015567ea39cae2b006747b82af78",
-      "description": "Dataset banner from the creator: a pile of the pack's low-poly pixel models (chests, potions, tools, weapons, food, lanterns, creatures) on a dark background.",
-      "imageUrl": "https://huggingface.co/datasets/codepawl/pixel-atlas-glb/resolve/main/assets/banner.png",
-      "outputSha256": "cffaaa349a17281e31a58bf82663e34f536b79efb2dd0743422a99e4e5833cc1",
-      "outputSourceSha256": "4d5f5f413980436cabf166c4a424b9f9520f015567ea39cae2b006747b82af78",
+      "sourcePath": "scripts/preview-inputs/codepawl-pixel-art-atlas-models.png",
+      "sourceSha256": "af01d548d1da3f685265debdda3b122a2448d5e0e2861bcd7ba3b48d9be48c4a",
+      "description": "A treasure chest, wizard, sword, crystal ball, beetle, potion, bonsai tree, birthday cake and pirate from the pack, rendered from the pack's models.",
+      "gallery": [
+        "Previews/treasure-and-magic.webp",
+        "Previews/characters.webp",
+        "Previews/creatures.webp",
+        "Previews/weapons-and-armour.webp",
+        "Previews/food.webp",
+        "Previews/nature.webp"
+      ],
+      "outputSha256": "a62adea89ff3dfc83b1bc14b3692a20fa3b7c1272ff82bfeab38344aef38d13c",
+      "outputSourceSha256": "af01d548d1da3f685265debdda3b122a2448d5e0e2861bcd7ba3b48d9be48c4a",
       "width": 512,
-      "height": 482,
-      "bytes": 35038,
+      "height": 512,
+      "bytes": 18020,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
     }
   }
