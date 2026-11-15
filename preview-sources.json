@@ -8137,6 +8137,27 @@
       "height": 512,
       "bytes": 28940,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+    },
+    "run-bean-squad/3D/characters": {
+      "kind": "derived",
+      "licenseEvidence": "run-bean-squad/3D/characters/License.txt",
+      "sourceUrl": "https://github.com/series-ai/run-workshop/tree/main/tools/run-bean-people",
+      "sourcePath": "scripts/preview-inputs/run-bean-squad-characters.png",
+      "sourceSha256": "97d0a3e64990e209e94bab19e880acc0ff0fe490f9fb9a4ed01b5fe0deead03a",
+      "description": "The pack's cover: its title over a crowd of tall boxy art-toy beans from the pack, led by a red devil bean with horns, an angry glowing screen face and the number 66, fists raised. Behind it, beans in hoodies, a puffer vest and coveralls, with a crown, a halo, a sprout and an antenna, printed and screen faces, and toy weapons including a bazooka and a raygun. Rendered from the pack's GLBs.",
+      "gallery": [
+        "Previews/weapons.webp",
+        "Previews/faces.webp",
+        "Previews/outfits.webp",
+        "Previews/finishes.webp",
+        "Previews/action.webp"
+      ],
+      "outputSha256": "05a79bf5bea19e4ef0bb0f764a985ad0b51eec8f5777df8e50bb05a382040ed0",
+      "outputSourceSha256": "97d0a3e64990e209e94bab19e880acc0ff0fe490f9fb9a4ed01b5fe0deead03a",
+      "width": 512,
+      "height": 512,
+      "bytes": 29788,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
     }
   }
 }
