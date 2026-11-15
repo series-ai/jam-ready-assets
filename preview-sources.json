@@ -8121,8 +8121,8 @@
       "licenseEvidence": "run-glowdrop-critters/3D/nature/License.txt",
       "sourceUrl": "https://github.com/series-ai/run-workshop/tree/main/tools/run-theme-packs/glowdrop",
       "sourcePath": "scripts/preview-inputs/run-glowdrop-critters-nature.png",
-      "sourceSha256": "b99979e1b2b1ca248170392a90f8f5622903a9fec861c89815534a84c740182c",
-      "description": "The pack's cover: its title over a night glade of the pack's glowing mushrooms (giant umbrella, lantern cap, moon disc, puffball, fairy ring, pixie cup), plants (moonflower, glow bulb, cattail, fern) and a glow pond, with moon, comb and crown jellies, an anglerfish and fireflies floating above. Rendered from the pack's own models.",
+      "sourceSha256": "1dd997f0fe769713c69be2a1e302061abf8d817b457c0d3c4a26ca6c446bae5b",
+      "description": "The pack's cover: the Glowdrop Critters logo along the bottom of a fully lit night glade built from the pack's own models: a giant umbrella mushroom, lantern caps, a moon disc, a puffball, a fairy ring, a moonflower, glow bulb, cattails and a fern around a glow pond, with moon, comb, crown, box and lion's mane jellies, an anglerfish, a glow guppy and fireflies floating above.",
       "gallery": [
         "Previews/mushrooms.jpg",
         "Previews/plants-and-corals.jpg",
@@ -8131,11 +8131,11 @@
         "Previews/bugs.jpg",
         "Previews/collecting-and-habitat.jpg"
       ],
-      "outputSha256": "5df95f9f3b3dd55711f4be62adf98a69b21cd056ce046a910a749f02a765c4d5",
-      "outputSourceSha256": "b99979e1b2b1ca248170392a90f8f5622903a9fec861c89815534a84c740182c",
+      "outputSha256": "1d49e0a5321119a889f1f1559780266698debe9940beaf4476cb9a8e6f8cfedc",
+      "outputSourceSha256": "1dd997f0fe769713c69be2a1e302061abf8d817b457c0d3c4a26ca6c446bae5b",
       "width": 512,
       "height": 512,
-      "bytes": 17240,
+      "bytes": 28940,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
     }
   }
