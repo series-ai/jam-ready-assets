@@ -8312,6 +8312,27 @@
       "height": 512,
       "bytes": 28334,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+    },
+    "run-furries-unleashed/3D/characters": {
+      "kind": "derived",
+      "licenseEvidence": "run-furries-unleashed/3D/characters/License.txt",
+      "sourceUrl": "https://github.com/series-ai/run-workshop/tree/main/tools/run-furry-avatars",
+      "sourcePath": "scripts/preview-inputs/run-furries-unleashed-characters.png",
+      "sourceSha256": "57e7260b8b4cc64b365e7098f983ef3d9378b892fce4b7c7353fe1e6a46b80ff",
+      "description": "The pack's cover: its title over a brawl of chunky toon-shaded anthro characters from the pack. In front, a grey husky lands a claw swipe with a blue swing trail while a lion reels back from it; behind them a blue dragon rears to bite, a tiger swipes from the left and a fox swipes from the right. Rendered from the pack's GLBs.",
+      "gallery": [
+        "Previews/hybrids.webp",
+        "Previews/species.webp",
+        "Previews/mix.webp",
+        "Previews/action.webp",
+        "Previews/moves.webp"
+      ],
+      "outputSha256": "8afd3baced883fa62866d03e60257c360742d79bc6d94245626b030a99e82e19",
+      "outputSourceSha256": "57e7260b8b4cc64b365e7098f983ef3d9378b892fce4b7c7353fe1e6a46b80ff",
+      "width": 512,
+      "height": 512,
+      "bytes": 40554,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
     }
   }
 }
