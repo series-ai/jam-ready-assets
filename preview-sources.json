@@ -8158,6 +8158,20 @@
       "height": 512,
       "bytes": 29788,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+    },
+    "run-chonky-cats/3D/characters": {
+      "kind": "derived",
+      "licenseEvidence": "run-chonky-cats/3D/characters/License.txt",
+      "sourceUrl": "https://github.com/series-ai/run-workshop/tree/main/tools/run-dog-pack/chonky-cats",
+      "sourcePath": "scripts/preview-inputs/run-chonky-cats-characters.png",
+      "sourceSha256": "4d71f3a61f309055a0f2ca099e20bed32c34b416e6c06c481fe5d9139050d922",
+      "description": "The pack's cover: its title in candy-coloured balloon letters, with cat ears on the C, under a crowd of chunky toy cats from the pack on a pale blush floor. Kittens with big round eyes sit in front (a sphynx, a calico, a munchkin in a gingham neckerchief, a mi-ke and a black kitten with a bell collar) among a ball of yarn, a croissant toy and a toy mouse. Behind them a Persian, a tuxedo, a British blue with a bell collar, a Siamese and a ginger and white cat, a Maine coon walking out of a pineapple house, a ginger tabby in a fruit tart bed and a strawberry cave. Rendered from the pack's GLBs.",
+      "outputSha256": "80f94833e190bf24f9f3554b2c68abf6e74b2e563d2c82e110285663df6a1e50",
+      "outputSourceSha256": "4d71f3a61f309055a0f2ca099e20bed32c34b416e6c06c481fe5d9139050d922",
+      "width": 512,
+      "height": 512,
+      "bytes": 39316,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
     }
   }
 }

@@ -44,6 +44,7 @@ const PACK_CREATORS = {
   'run-facet-fauna-cats': 'RUN.sterf', 'run-facet-fauna-dogs': 'RUN.sterf', 'run-glowdrop-critters': 'RUN.sterf',
   'run-terra-tots': 'RUN.sterf',
   'run-bean-squad': 'RUN.sterf',
+  'run-chonky-cats': 'RUN.sterf',
 };
 
 const LICENSE_FILE = /^(licen[cs]e|copying|unlicense)(\.[a-z0-9]+)?$/i;
