@@ -1,12 +1,11 @@
 SPDX-License-Identifier: LicenseRef-RUN-Repository-Supplemental-1.0
-Source: https://github.com/series-ai/run-workshop/tree/main/tools/run-voxel-packs
-Verified-by: run-workshop maintainers, 2026-10-09
+Source: https://github.com/series-ai/run-workshop/blob/main/LICENSE.md
+Verified-by: run-workshop maintainers, 2026-11-15
 
-RUN Voxel Packs — Post-Apocalypse icons
 Copyright (c) 2026 Series Entertainment, Inc.
-Made for the RUN platform. Licensed under the RUN Repository Supplemental
-License v1.0 below: use it in RUN projects; it converts to MIT on January 1,
-2028.
+Licensed under the RUN License, the RUN Repository Supplemental License v1.0 of
+run-workshop: https://github.com/series-ai/run-workshop/blob/main/LICENSE.md
+Its full text follows, unchanged, because the licence ships with the files.
 
 RUN Repository Supplemental License v1.0
 
