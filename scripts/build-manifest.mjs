@@ -44,6 +44,17 @@ const PACK_CREATORS = {
   'run-facet-fauna-cats': 'RUN.sterf', 'run-facet-fauna-dogs': 'RUN.sterf', 'run-glowdrop-critters': 'RUN.sterf',
   'run-terra-tots': 'RUN.sterf',
   'run-bean-squad': 'RUN.sterf',
+  'run-kit-kids-playground-pals': 'RUN.sterf',
+  'run-kit-kids-retro-rewind': 'RUN.sterf',
+  'run-kit-kids-time-travellers': 'RUN.sterf',
+  'run-kit-kids-quest-crew': 'RUN.sterf',
+  'run-kit-kids-alien-invasion': 'RUN.sterf',
+  'run-kit-kids-animal-antics': 'RUN.sterf',
+  'run-kit-kids-heist-crew': 'RUN.sterf',
+  'run-kit-kids-farmhands': 'RUN.sterf',
+  'run-kit-kids-snow-day': 'RUN.sterf',
+  'run-kit-kids-sleepover': 'RUN.sterf',
+  'run-kit-kids-holiday-cheer': 'RUN.sterf',
 };
 
 const LICENSE_FILE = /^(licen[cs]e|copying|unlicense)(\.[a-z0-9]+)?$/i;
