@@ -8339,8 +8339,8 @@
       "licenseEvidence": "run-wasteland-wheels/3D/vehicles-racing/License.txt",
       "sourceUrl": "https://github.com/series-ai/run-workshop/tree/main/tools/run-monster-trucks",
       "sourcePath": "scripts/preview-inputs/run-wasteland-wheels-vehicles-racing.png",
-      "sourceSha256": "d6d5ca94e9e54c993c843598d38098e850a98cd369d6df566c7cb64038837dbc",
-      "description": "The pack's cover: its title in orange stencil letters over a convoy of toy-proportioned wasteland vehicles from the pack charging across a sunset desert, kicking up dust. A yellow school bus on monster-truck wheels with longhorns on the bumper leads, flanked by a caged buggy on spiked wheels, a chopper, a dirt bike, a red muscle car, a pink ice-cream van on tank treads and a semi pulling a tanker. Rendered from the pack's GLBs.",
+      "sourceSha256": "4bf35b755fa9a2c7197aa9e449ced546ca3e5158baa280d3642c47235356fb0e",
+      "description": "The pack's cover: its title in orange stencil letters over toy-proportioned wasteland vehicles from the pack charging across a sunset desert, kicking up dust. A yellow school bus on monster-truck wheels with longhorns on the bumper leads, a pink ice-cream van on tank treads just behind it on the right, a caged buggy on spiked wheels on the left, a dirt bike and a chopper out front, and a long convoy of semis, buses, muscle cars and more trailing back to the horizon. Rendered from the pack's GLBs.",
       "gallery": [
         "Previews/lineup.webp",
         "Previews/mix.webp",
@@ -8348,11 +8348,11 @@
         "Previews/parts.webp",
         "Previews/trailers.webp"
       ],
-      "outputSha256": "f711ce965bcd6251aa859974807a67f31e6df0a3507339c6c170a699e857c03e",
-      "outputSourceSha256": "d6d5ca94e9e54c993c843598d38098e850a98cd369d6df566c7cb64038837dbc",
+      "outputSha256": "2095aa3c1436b11ff2b38a0a3ea6ea8a63ec753f2895c2b81aedf2054ba9d084",
+      "outputSourceSha256": "4bf35b755fa9a2c7197aa9e449ced546ca3e5158baa280d3642c47235356fb0e",
       "width": 512,
       "height": 512,
-      "bytes": 35312,
+      "bytes": 40846,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
     }
   }
