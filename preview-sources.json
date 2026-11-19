@@ -8333,6 +8333,27 @@
       "height": 512,
       "bytes": 40554,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+    },
+    "run-wasteland-wheels/3D/vehicles-racing": {
+      "kind": "derived",
+      "licenseEvidence": "run-wasteland-wheels/3D/vehicles-racing/License.txt",
+      "sourceUrl": "https://github.com/series-ai/run-workshop/tree/main/tools/run-monster-trucks",
+      "sourcePath": "scripts/preview-inputs/run-wasteland-wheels-vehicles-racing.png",
+      "sourceSha256": "9d84b23c6f5f938f12d67ae31289faff394201c0c5372e03f8b8d9cab9a8d2e6",
+      "description": "The pack's cover: its title in orange stencil letters over toy-proportioned wasteland vehicles from the pack charging across a sunset desert, kicking up dust. A big yellow school bus on monster-truck wheels with longhorns on the bumper leads, rising above the horizon, with a pink ice-cream van on tank treads just behind it on the right, a caged buggy and a dirt bike on the left, a chopper out front on the right, and a convoy of trucks trailing back toward the horizon between them. Rendered from the pack's GLBs.",
+      "gallery": [
+        "Previews/lineup.webp",
+        "Previews/mix.webp",
+        "Previews/wheels.webp",
+        "Previews/parts.webp",
+        "Previews/trailers.webp"
+      ],
+      "outputSha256": "900d759ac42d5a8e60828e108e1ec267706dc5db2f2a4bb18db50260d737522e",
+      "outputSourceSha256": "9d84b23c6f5f938f12d67ae31289faff394201c0c5372e03f8b8d9cab9a8d2e6",
+      "width": 512,
+      "height": 512,
+      "bytes": 39488,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
     }
   }
 }
