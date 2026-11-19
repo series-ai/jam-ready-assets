@@ -8508,6 +8508,238 @@
       "height": 512,
       "bytes": 15972,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+    },
+    "run-chisel-core/3D/characters": {
+      "kind": "derived",
+      "licenseEvidence": "run-chisel-core/3D/characters/License.txt",
+      "sourceUrl": "https://github.com/series-ai/run-workshop/tree/main/tools/run-chisel-packs",
+      "sourcePath": "scripts/preview-inputs/run-chisel-core--3D--characters.png",
+      "sourceSha256": "42392c708e07dbd8db5fe08421691f5fb70af4515a9c910f6ca7573726feaa42",
+      "description": "Square preview grid of RUN Chisel assets included in this pack, rendered by the showcase thumbnail pipeline.",
+      "gallery": [
+        "Previews/body_athletic.jpg",
+        "Previews/body_slim.jpg",
+        "Previews/hair_ponytail.jpg",
+        "Previews/hair_swept.jpg",
+        "Previews/head_hero.jpg",
+        "Previews/legs_core_shorts.jpg"
+      ],
+      "outputSha256": "c1b32872809a96036efc9fe0e25bc9302c32bfa6cb7c1e172be3a2ecf4a2fb31",
+      "outputSourceSha256": "42392c708e07dbd8db5fe08421691f5fb70af4515a9c910f6ca7573726feaa42",
+      "width": 512,
+      "height": 512,
+      "bytes": 9332,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+    },
+    "run-chisel-medieval/3D/characters": {
+      "kind": "derived",
+      "licenseEvidence": "run-chisel-medieval/3D/characters/License.txt",
+      "sourceUrl": "https://github.com/series-ai/run-workshop/tree/main/tools/run-chisel-packs",
+      "sourcePath": "scripts/preview-inputs/run-chisel-medieval--3D--characters.png",
+      "sourceSha256": "7b5bf641f374b0cc3c6a61ad0828efca9e6cb4c0133e361201756c5489120ebb",
+      "description": "Square preview grid of RUN Chisel assets included in this pack, rendered by the showcase thumbnail pipeline.",
+      "gallery": [
+        "Previews/back_medieval_cloak.jpg",
+        "Previews/headwear_great_helm.jpg",
+        "Previews/legs_medieval_breeches.jpg",
+        "Previews/torso_medieval_knight.jpg",
+        "Previews/torso_medieval_tunic.jpg",
+        "held/Previews/held_heater_shield.jpg"
+      ],
+      "outputSha256": "43dc3f7d2996c1dc4037bd8b9daaaee8e03c94cfd1c5150875793da382d1a165",
+      "outputSourceSha256": "7b5bf641f374b0cc3c6a61ad0828efca9e6cb4c0133e361201756c5489120ebb",
+      "width": 512,
+      "height": 512,
+      "bytes": 8248,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+    },
+    "run-chisel-medieval/3D/medieval": {
+      "kind": "derived",
+      "licenseEvidence": "run-chisel-medieval/3D/medieval/License.txt",
+      "sourceUrl": "https://github.com/series-ai/run-workshop/tree/main/tools/run-chisel-packs",
+      "sourcePath": "scripts/preview-inputs/run-chisel-medieval--3D--medieval.png",
+      "sourceSha256": "f35f5cdf93a65d6d4fe7932ddd6ad9907ddef43c14c62c01e53ff8cc064c438b",
+      "description": "Square preview grid of RUN Chisel assets included in this pack, rendered by the showcase thumbnail pipeline.",
+      "gallery": [
+        "props/Previews/prop_barrel.jpg",
+        "props/Previews/prop_crate.jpg",
+        "props/Previews/prop_war_banner.jpg",
+        "props/Previews/prop_weapon_rack.jpg"
+      ],
+      "outputSha256": "966aa62761087b346093fcda6b52bccecca2164f77b66b0b0d7f23d2de003227",
+      "outputSourceSha256": "f35f5cdf93a65d6d4fe7932ddd6ad9907ddef43c14c62c01e53ff8cc064c438b",
+      "width": 512,
+      "height": 512,
+      "bytes": 7692,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+    },
+    "run-chisel-ww2/3D/characters": {
+      "kind": "derived",
+      "licenseEvidence": "run-chisel-ww2/3D/characters/License.txt",
+      "sourceUrl": "https://github.com/series-ai/run-workshop/tree/main/tools/run-chisel-packs",
+      "sourcePath": "scripts/preview-inputs/run-chisel-ww2--3D--characters.png",
+      "sourceSha256": "234a766bcb9ecb3a7282419a1c2138c17064ce5ad59af51b43de11f25a0ca321",
+      "description": "Square preview grid of RUN Chisel assets included in this pack, rendered by the showcase thumbnail pipeline.",
+      "gallery": [
+        "Previews/back_ww2_field_pack.jpg",
+        "Previews/headwear_m1_helmet.jpg",
+        "Previews/legs_ww2_field_trousers.jpg",
+        "Previews/torso_ww2_field_jacket.jpg",
+        "held/Previews/held_ammo_can.jpg",
+        "held/Previews/held_rifle.jpg"
+      ],
+      "outputSha256": "361b7d64d5e765201407eb4a8fa3d18bedc98125c5ca3434afd9633aaabc76aa",
+      "outputSourceSha256": "234a766bcb9ecb3a7282419a1c2138c17064ce5ad59af51b43de11f25a0ca321",
+      "width": 512,
+      "height": 512,
+      "bytes": 7644,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+    },
+    "run-chisel-ww2/3D/ww2": {
+      "kind": "derived",
+      "licenseEvidence": "run-chisel-ww2/3D/ww2/License.txt",
+      "sourceUrl": "https://github.com/series-ai/run-workshop/tree/main/tools/run-chisel-packs",
+      "sourcePath": "scripts/preview-inputs/run-chisel-ww2--3D--ww2.png",
+      "sourceSha256": "ffc58a1f478cd3dfbfa71ace0982e3a407836519e43bc6e3d157844f07eef45f",
+      "description": "Square preview grid of RUN Chisel assets included in this pack, rendered by the showcase thumbnail pipeline.",
+      "gallery": [
+        "props/Previews/prop_ammo_crate.jpg",
+        "props/Previews/prop_field_radio.jpg",
+        "props/Previews/prop_jerrycan.jpg",
+        "props/Previews/prop_sandbag_wall.jpg"
+      ],
+      "outputSha256": "9eab60fea17e39aea2640b9e6608778b22966253bf59335c008a865ab3b8d6a1",
+      "outputSourceSha256": "ffc58a1f478cd3dfbfa71ace0982e3a407836519e43bc6e3d157844f07eef45f",
+      "width": 512,
+      "height": 512,
+      "bytes": 6570,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+    },
+    "run-chisel-sim/3D/characters": {
+      "kind": "derived",
+      "licenseEvidence": "run-chisel-sim/3D/characters/License.txt",
+      "sourceUrl": "https://github.com/series-ai/run-workshop/tree/main/tools/run-chisel-packs",
+      "sourcePath": "scripts/preview-inputs/run-chisel-sim--3D--characters.png",
+      "sourceSha256": "82f321fad4363d29489dedade833addd2c0eaa4be2c59235baae1dad0d61ef97",
+      "description": "Square preview grid of RUN Chisel assets included in this pack, rendered by the showcase thumbnail pipeline.",
+      "gallery": [
+        "Previews/back_sim_daypack.jpg",
+        "Previews/headwear_sim_beanie.jpg",
+        "Previews/legs_sim_jeans.jpg",
+        "Previews/torso_sim_blazer.jpg",
+        "Previews/torso_sim_varsity.jpg",
+        "held/Previews/held_coffee_cup.jpg"
+      ],
+      "outputSha256": "9d6a212a9474c47d9b0f28877f7938c5eb8220fc7d4ab390f444ca1cf634765b",
+      "outputSourceSha256": "82f321fad4363d29489dedade833addd2c0eaa4be2c59235baae1dad0d61ef97",
+      "width": 512,
+      "height": 512,
+      "bytes": 9376,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+    },
+    "run-chisel-sim/3D/sim": {
+      "kind": "derived",
+      "licenseEvidence": "run-chisel-sim/3D/sim/License.txt",
+      "sourceUrl": "https://github.com/series-ai/run-workshop/tree/main/tools/run-chisel-packs",
+      "sourcePath": "scripts/preview-inputs/run-chisel-sim--3D--sim.png",
+      "sourceSha256": "0f5b489ae5c76dbb42e3b4fafb3bdd87f1b891acc22298fb5ff7e23a88db98d8",
+      "description": "Square preview grid of RUN Chisel assets included in this pack, rendered by the showcase thumbnail pipeline.",
+      "gallery": [
+        "props/Previews/prop_cafe_table.jpg",
+        "props/Previews/prop_park_bench.jpg",
+        "props/Previews/prop_planter.jpg",
+        "props/Previews/prop_street_bollard.jpg"
+      ],
+      "outputSha256": "d18e0603be69170676c1cdece9368334a7a30a95abf8636c951dc1c2737d58fa",
+      "outputSourceSha256": "0f5b489ae5c76dbb42e3b4fafb3bdd87f1b891acc22298fb5ff7e23a88db98d8",
+      "width": 512,
+      "height": 512,
+      "bytes": 8362,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+    },
+    "run-chisel-cyberpunk/3D/characters": {
+      "kind": "derived",
+      "licenseEvidence": "run-chisel-cyberpunk/3D/characters/License.txt",
+      "sourceUrl": "https://github.com/series-ai/run-workshop/tree/main/tools/run-chisel-packs",
+      "sourcePath": "scripts/preview-inputs/run-chisel-cyberpunk--3D--characters.png",
+      "sourceSha256": "95f3d25d057bdd6618483eb9005b4b8679cd5a015278cb8e816e1d89a2af078e",
+      "description": "Square preview grid of RUN Chisel assets included in this pack, rendered by the showcase thumbnail pipeline.",
+      "gallery": [
+        "Previews/back_cyber_deck.jpg",
+        "Previews/headwear_cyber_helm.jpg",
+        "Previews/legs_cyber_cargo.jpg",
+        "Previews/torso_cyber_edgerunner.jpg",
+        "Previews/torso_cyber_netrunner.jpg",
+        "held/Previews/held_holo_deck.jpg"
+      ],
+      "outputSha256": "ff8cd94948abb41a18d92f7edec09e1c587ebceea6247598f9d2dae81c77348b",
+      "outputSourceSha256": "95f3d25d057bdd6618483eb9005b4b8679cd5a015278cb8e816e1d89a2af078e",
+      "width": 512,
+      "height": 512,
+      "bytes": 8738,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+    },
+    "run-chisel-cyberpunk/3D/cyberpunk": {
+      "kind": "derived",
+      "licenseEvidence": "run-chisel-cyberpunk/3D/cyberpunk/License.txt",
+      "sourceUrl": "https://github.com/series-ai/run-workshop/tree/main/tools/run-chisel-packs",
+      "sourcePath": "scripts/preview-inputs/run-chisel-cyberpunk--3D--cyberpunk.png",
+      "sourceSha256": "ddc61ef8b99665f8597841bdd1c67d71bd5d5967384ae03f0d75cab3571b513a",
+      "description": "Square preview grid of RUN Chisel assets included in this pack, rendered by the showcase thumbnail pipeline.",
+      "gallery": [
+        "props/Previews/prop_cyber_crate.jpg",
+        "props/Previews/prop_holo_kiosk.jpg",
+        "props/Previews/prop_neon_bollard.jpg",
+        "props/Previews/prop_server_terminal.jpg"
+      ],
+      "outputSha256": "ca48488a6303664b676446377218117468a4073aedb28f2054bd19ddfd3c5a53",
+      "outputSourceSha256": "ddc61ef8b99665f8597841bdd1c67d71bd5d5967384ae03f0d75cab3571b513a",
+      "width": 512,
+      "height": 512,
+      "bytes": 7992,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+    },
+    "run-chisel-monsters/3D/characters": {
+      "kind": "derived",
+      "licenseEvidence": "run-chisel-monsters/3D/characters/License.txt",
+      "sourceUrl": "https://github.com/series-ai/run-workshop/tree/main/tools/run-chisel-packs",
+      "sourcePath": "scripts/preview-inputs/run-chisel-monsters--3D--characters.png",
+      "sourceSha256": "8d46f8dcfb8e59bfbb5d665fc3fcd49298bf81a8117459bfb1c4bd3cbe728749",
+      "description": "Square preview grid of RUN Chisel assets included in this pack, rendered by the showcase thumbnail pipeline.",
+      "gallery": [
+        "Previews/back_orc_trophy.jpg",
+        "Previews/body_dire_wolf.jpg",
+        "Previews/body_orc.jpg",
+        "Previews/hair_orc_mohawk.jpg",
+        "Previews/headwear_orc_horned.jpg",
+        "Previews/torso_troll_hide.jpg"
+      ],
+      "outputSha256": "018d84bb239742496b5875fb0af426edbf4beae7aa7dacc3317f18c3814ccd45",
+      "outputSourceSha256": "8d46f8dcfb8e59bfbb5d665fc3fcd49298bf81a8117459bfb1c4bd3cbe728749",
+      "width": 512,
+      "height": 512,
+      "bytes": 9772,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+    },
+    "run-chisel-monsters/3D/monsters": {
+      "kind": "derived",
+      "licenseEvidence": "run-chisel-monsters/3D/monsters/License.txt",
+      "sourceUrl": "https://github.com/series-ai/run-workshop/tree/main/tools/run-chisel-packs",
+      "sourcePath": "scripts/preview-inputs/run-chisel-monsters--3D--monsters.png",
+      "sourceSha256": "fa50af2a59b8c68b0819f43aa13c86f91a16d7637c1c6d41cdb2d571d657c9a1",
+      "description": "Square preview grid of RUN Chisel assets included in this pack, rendered by the showcase thumbnail pipeline.",
+      "gallery": [
+        "props/Previews/prop_bone_pile.jpg",
+        "props/Previews/prop_orc_totem.jpg",
+        "props/Previews/prop_spider_egg_sac.jpg",
+        "props/Previews/prop_spiked_barricade.jpg"
+      ],
+      "outputSha256": "c2eeb79fedf00857720d99cbd17de6f502e9431c5beb5ebf94df94c2ad86cf03",
+      "outputSourceSha256": "fa50af2a59b8c68b0819f43aa13c86f91a16d7637c1c6d41cdb2d571d657c9a1",
+      "width": 512,
+      "height": 512,
+      "bytes": 9436,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
     }
   }
 }
