@@ -1,0 +1,15 @@
+SPDX-License-Identifier: CC0-1.0
+Source: https://github.com/series-ai/run-workshop/tree/main/tools/run-chisel-packs
+Verified-by: run-workshop maintainers, 2026-11-19
+
+Creative Commons Zero v1.0 Universal (CC0 1.0 Public Domain Dedication)
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Contains:
+- Canonical 53-joint Quaternius UAL1 armature & 89 CC0 motion clips:
+  * 43 clips from Quaternius Universal Animation Library Standard (CC0-1.0)
+  * 42 unique clips retargeted from Quaternius Universal Animation Library 2 (CC0-1.0)
+  * 4 two-handed rifle clips (Ranged_2H_Aiming/Reload/Shoot/Shooting) retargeted
+    from KayKit Character Animations - CombatRanged (CC0-1.0)
+- Stylized faceted procedural low-poly base bodies, heads, and hair
+  authored for RUN Chisel Packs (dedicated to CC0-1.0).
