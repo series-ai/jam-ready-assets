@@ -8704,7 +8704,7 @@
       "licenseEvidence": "run-chisel-monsters/3D/characters/License.txt",
       "sourceUrl": "https://github.com/series-ai/run-workshop/tree/main/tools/run-chisel-packs",
       "sourcePath": "scripts/preview-inputs/run-chisel-monsters--3D--characters.png",
-      "sourceSha256": "8d46f8dcfb8e59bfbb5d665fc3fcd49298bf81a8117459bfb1c4bd3cbe728749",
+      "sourceSha256": "4d66d6d7a6cb17d2f4dae667fabd5d11859f94694dff7f63d91c37c137d9a147",
       "description": "Square preview grid of RUN Chisel assets included in this pack, rendered by the showcase thumbnail pipeline.",
       "gallery": [
         "Previews/back_orc_trophy.jpg",
@@ -8714,11 +8714,11 @@
         "Previews/headwear_orc_horned.jpg",
         "Previews/torso_troll_hide.jpg"
       ],
-      "outputSha256": "018d84bb239742496b5875fb0af426edbf4beae7aa7dacc3317f18c3814ccd45",
-      "outputSourceSha256": "8d46f8dcfb8e59bfbb5d665fc3fcd49298bf81a8117459bfb1c4bd3cbe728749",
+      "outputSha256": "d61d794f95904ee7fa74a676ae834ad61b0c128bafe0fefa92070faf95bfff36",
+      "outputSourceSha256": "4d66d6d7a6cb17d2f4dae667fabd5d11859f94694dff7f63d91c37c137d9a147",
       "width": 512,
       "height": 512,
-      "bytes": 9772,
+      "bytes": 9836,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
     },
     "run-chisel-monsters/3D/monsters": {
