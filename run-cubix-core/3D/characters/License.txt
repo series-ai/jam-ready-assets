@@ -1,12 +1,14 @@
 SPDX-License-Identifier: CC0-1.0
 Source: https://github.com/series-ai/run-workshop/tree/main/tools/run-voxel-characters
-Verified-by: run-workshop maintainers, 2026-11-19
+Verified-by: run-workshop maintainers, 2026-11-20
 
 Creative Commons Zero v1.0 Universal (CC0 1.0 Public Domain Dedication)
 https://creativecommons.org/publicdomain/zero/1.0/
 
 Contains:
-- Canonical 53-joint Quaternius UAL1 armature & 43 CC0 motion clips
-  (Quaternius Universal Animation Library Standard, CC0-1.0)
+- Canonical 53-joint Quaternius UAL1 armature & 95 CC0 motion clips:
+  - 43 clips from Quaternius Universal Animation Library Standard (CC0-1.0)
+  - 42 clips from Quaternius Universal Animation Library 2 (CC0-1.0)
+  - 10 two-handed Melee_2H_* / Ranged_2H_* clips from KayKit Character Animations (CC0-1.0)
 - Procedural orthogonal voxel base bodies, heads, and hair
   authored for RUN Cubix (dedicated to CC0-1.0).
