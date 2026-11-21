@@ -8811,7 +8811,7 @@
       "licenseEvidence": "run-cubix-core/3D/prototype-blocks/License.txt",
       "sourceUrl": "https://github.com/series-ai/run-workshop/tree/main/tools/run-voxel-characters",
       "sourcePath": "run-cubix-core/3D/prototype-blocks/Previews/Motor pool.jpg",
-      "sourceSha256": "002eac54fdb8e611dc74b2680fdc1196f5c5cfa6281b213d49a60e68e42cb168",
+      "sourceSha256": "d0b37858abcbf220c7d387de4a8569b886013ac3aa383ebff62df24e90f02a24",
       "description": "Motor pool with a workshop and a vehicle test lane in the RUN Cubix Core level kit.",
       "crop": {
         "left": 358,
@@ -8824,11 +8824,11 @@
         "Previews/Training lanes.jpg",
         "Previews/Lubricant store.jpg"
       ],
-      "outputSha256": "55fecc0c80346bdfd3f2a87416174b975dd575d538b7ee61b29b5ba7a8058e36",
-      "outputSourceSha256": "002eac54fdb8e611dc74b2680fdc1196f5c5cfa6281b213d49a60e68e42cb168",
+      "outputSha256": "560eb4a7429a47024dfc0baf5a8fc8ede00f0da6c602ca6c44f7d32b2ea0796f",
+      "outputSourceSha256": "d0b37858abcbf220c7d387de4a8569b886013ac3aa383ebff62df24e90f02a24",
       "width": 512,
       "height": 512,
-      "bytes": 23422,
+      "bytes": 23560,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop358_0_719"
     }
   }
