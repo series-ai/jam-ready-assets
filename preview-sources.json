@@ -8387,15 +8387,26 @@
       "kind": "derived",
       "licenseEvidence": "run-cubix-heist/3D/heist/License.txt",
       "sourceUrl": "https://github.com/series-ai/run-workshop/tree/main/tools/run-voxel-characters",
-      "sourcePath": ".preview-sources/run-cubix-heist--3D--heist.png",
-      "sourceSha256": "d84f6bb2b20c9ce176926f745e726ddcc864aab8a119e0ef2db5e4d40a9b80ed",
-      "description": "Diorama render of RUN Cubix Heist & Demolition scene and world props.",
-      "outputSha256": "fb9d0a3e6fb47bb15a8ef5cedb4f5f62b0edd18061f24cff28fe237852012594",
-      "outputSourceSha256": "d84f6bb2b20c9ce176926f745e726ddcc864aab8a119e0ef2db5e4d40a9b80ed",
+      "sourcePath": "run-cubix-heist/3D/heist/Previews/Print works alley.jpg",
+      "sourceSha256": "e7643a2df5aa6de87dc0ee260d1d7c4bc7d56b71b594dbab90d4cdeb5ba27f3f",
+      "description": "The print works loading alley, press room, and dispatch office in the RUN Cubix Heist level kit.",
+      "crop": {
+        "left": 294,
+        "top": 0,
+        "size": 719
+      },
+      "gallery": [
+        "Previews/Print works alley.jpg",
+        "Previews/Rotary press line.jpg",
+        "Previews/Loading street.jpg",
+        "Previews/Dispatch office.jpg"
+      ],
+      "outputSha256": "3ef26c31fb664b34e62bd85b5cc6b31244fc61962e1ea32e1d4d38fa21849c4a",
+      "outputSourceSha256": "e7643a2df5aa6de87dc0ee260d1d7c4bc7d56b71b594dbab90d4cdeb5ba27f3f",
       "width": 512,
       "height": 512,
-      "bytes": 11266,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "bytes": 27674,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop294_0_719"
     },
     "run-cubix-industrial/3D/characters": {
       "kind": "derived",
@@ -8415,15 +8426,26 @@
       "kind": "derived",
       "licenseEvidence": "run-cubix-industrial/3D/industrial/License.txt",
       "sourceUrl": "https://github.com/series-ai/run-workshop/tree/main/tools/run-voxel-characters",
-      "sourcePath": ".preview-sources/run-cubix-industrial--3D--industrial.png",
-      "sourceSha256": "b389de910be2d9f620640b33c55aa6336d615b8b9f033be5e67a5fa18c7e73d8",
-      "description": "Diorama render of RUN Cubix Workshop & Industrial scene and world props.",
-      "outputSha256": "0b82bc7057d7a8218274588b6b7c7320a7a53ccef96f8bde122f036ecac19ea7",
-      "outputSourceSha256": "b389de910be2d9f620640b33c55aa6336d615b8b9f033be5e67a5fa18c7e73d8",
+      "sourcePath": "run-cubix-industrial/3D/industrial/Previews/Foundry rail yard.jpg",
+      "sourceSha256": "432df512735f0bbfa97287c6ce14c66c0c16dd3ad11647d6c3587b850bf3cd8a",
+      "description": "Rail yard, casting floor, and cooling station in the RUN Cubix Industrial level kit.",
+      "crop": {
+        "left": 307,
+        "top": 0,
+        "size": 719
+      },
+      "gallery": [
+        "Previews/Foundry rail yard.jpg",
+        "Previews/Casting floor.jpg",
+        "Previews/Crane runway.jpg",
+        "Previews/Cooling water station.jpg"
+      ],
+      "outputSha256": "83a30ecc050452d37b000b86fc9c7fdb8cfa56f39dca8e16214d841cc43210e7",
+      "outputSourceSha256": "432df512735f0bbfa97287c6ce14c66c0c16dd3ad11647d6c3587b850bf3cd8a",
       "width": 512,
       "height": 512,
-      "bytes": 10166,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "bytes": 17708,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop307_0_719"
     },
     "run-cubix-security/3D/characters": {
       "kind": "derived",
@@ -8443,15 +8465,26 @@
       "kind": "derived",
       "licenseEvidence": "run-cubix-security/3D/security/License.txt",
       "sourceUrl": "https://github.com/series-ai/run-workshop/tree/main/tools/run-voxel-characters",
-      "sourcePath": ".preview-sources/run-cubix-security--3D--security.png",
-      "sourceSha256": "c02077ff376b0a5771259f67a000e25b813b990fc4e181c80de2349f46551c3f",
-      "description": "Diorama render of RUN Cubix Security & Cyber-Tech scene and world props.",
-      "outputSha256": "92be8ee7b1f9177e43d0de375388e8471bf846d9f4f31e771dc9826df749435f",
-      "outputSourceSha256": "c02077ff376b0a5771259f67a000e25b813b990fc4e181c80de2349f46551c3f",
+      "sourcePath": "run-cubix-security/3D/security/Previews/Passenger drop off.jpg",
+      "sourceSha256": "d99138c28b157a30e9bec7c12a6bbc0228a9836cc6b8b052cfe1f363c1936f1c",
+      "description": "Passenger drop-off lane and terminal interior in the RUN Cubix Security level kit.",
+      "crop": {
+        "left": 255,
+        "top": 0,
+        "size": 719
+      },
+      "gallery": [
+        "Previews/Passenger drop off.jpg",
+        "Previews/Baggage screening.jpg",
+        "Previews/Sorting deck.jpg",
+        "Previews/Arrivals waiting room.jpg"
+      ],
+      "outputSha256": "2bbb2f311d9743a584d07a609a35c091f20d1f98842b857f6099b0a863639fb7",
+      "outputSourceSha256": "d99138c28b157a30e9bec7c12a6bbc0228a9836cc6b8b052cfe1f363c1936f1c",
       "width": 512,
       "height": 512,
-      "bytes": 9392,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "bytes": 25880,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop255_0_719"
     },
     "run-cubix-creatures/3D/characters": {
       "kind": "derived",
@@ -8471,15 +8504,26 @@
       "kind": "derived",
       "licenseEvidence": "run-cubix-creatures/3D/creatures/License.txt",
       "sourceUrl": "https://github.com/series-ai/run-workshop/tree/main/tools/run-voxel-characters",
-      "sourcePath": ".preview-sources/run-cubix-creatures--3D--creatures.png",
-      "sourceSha256": "e893971a28a991301120f04b360e9a2d842e22aa2cd5614565388216b2bc9091",
-      "description": "Diorama render of RUN Cubix Voxel Beasts & Bots and world props.",
-      "outputSha256": "afa7791bef644160c6931f559c68d66d4ef0ab1297f1283c10fcbf880682ff09",
-      "outputSourceSha256": "e893971a28a991301120f04b360e9a2d842e22aa2cd5614565388216b2bc9091",
+      "sourcePath": "run-cubix-creatures/3D/creatures/Previews/Creek crossing.jpg",
+      "sourceSha256": "8146a68ce66a34ea66c12af1a9bcc3ed6597c206a6269addae0fe3ee18085518",
+      "description": "A timber bridge, watchtower, and ranger lodge in the RUN Cubix Creatures level kit.",
+      "crop": {
+        "left": 307,
+        "top": 0,
+        "size": 719
+      },
+      "gallery": [
+        "Previews/Creek crossing.jpg",
+        "Previews/Ranger lodge.jpg",
+        "Previews/Survey map table.jpg",
+        "Previews/Kingfisher blind.jpg"
+      ],
+      "outputSha256": "84d452b1822f5f7ed276b22ec6e922e50ecf13c2c9a4cd0b9c0c275d25f02c7b",
+      "outputSourceSha256": "8146a68ce66a34ea66c12af1a9bcc3ed6597c206a6269addae0fe3ee18085518",
       "width": 512,
       "height": 512,
-      "bytes": 15408,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "bytes": 18086,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop307_0_719"
     },
     "run-cubix-fantasy/3D/characters": {
       "kind": "derived",
@@ -8499,15 +8543,26 @@
       "kind": "derived",
       "licenseEvidence": "run-cubix-fantasy/3D/fantasy/License.txt",
       "sourceUrl": "https://github.com/series-ai/run-workshop/tree/main/tools/run-voxel-characters",
-      "sourcePath": ".preview-sources/run-cubix-fantasy--3D--fantasy.png",
-      "sourceSha256": "04b6d958cd91bdae8d57babe2624508e2dbfc8fd8c64e752408a0127e8e98378",
-      "description": "Diorama render of RUN Cubix Fantasy & Medieval scene and world props.",
-      "outputSha256": "56b17fd9996ee8cff58ad229841aca77fa8457340a8c3b95a6fdd987d46364fc",
-      "outputSourceSha256": "04b6d958cd91bdae8d57babe2624508e2dbfc8fd8c64e752408a0127e8e98378",
+      "sourcePath": "run-cubix-fantasy/3D/fantasy/Previews/Bakehouse street.jpg",
+      "sourceSha256": "91bb716625bcf9b52710426bf652cd8044a6fe87809634eb52b40fcc2e5aca9b",
+      "description": "A bakehouse and market street with a pear garden, wool shop, and coppersmith in the RUN Cubix Fantasy level kit.",
+      "crop": {
+        "left": 294,
+        "top": 0,
+        "size": 719
+      },
+      "gallery": [
+        "Previews/Bakehouse street.jpg",
+        "Previews/Guild ovens.jpg",
+        "Previews/Market approach.jpg",
+        "Previews/Coppersmith court.jpg"
+      ],
+      "outputSha256": "aacebcfeb6eb34cd1c91d2f4bb93cb9d7757db9f52cd637bac019a03cdaf987b",
+      "outputSourceSha256": "91bb716625bcf9b52710426bf652cd8044a6fe87809634eb52b40fcc2e5aca9b",
       "width": 512,
       "height": 512,
-      "bytes": 15972,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "bytes": 22784,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop294_0_719"
     },
     "run-chisel-core/3D/characters": {
       "kind": "derived",
@@ -8750,6 +8805,31 @@
       "height": 512,
       "bytes": 10226,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+    },
+    "run-cubix-core/3D/prototype-blocks": {
+      "kind": "derived",
+      "licenseEvidence": "run-cubix-core/3D/prototype-blocks/License.txt",
+      "sourceUrl": "https://github.com/series-ai/run-workshop/tree/main/tools/run-voxel-characters",
+      "sourcePath": "run-cubix-core/3D/prototype-blocks/Previews/Motor pool.jpg",
+      "sourceSha256": "002eac54fdb8e611dc74b2680fdc1196f5c5cfa6281b213d49a60e68e42cb168",
+      "description": "Motor pool with a workshop and a vehicle test lane in the RUN Cubix Core level kit.",
+      "crop": {
+        "left": 358,
+        "top": 0,
+        "size": 719
+      },
+      "gallery": [
+        "Previews/Motor pool.jpg",
+        "Previews/Wheel lift.jpg",
+        "Previews/Training lanes.jpg",
+        "Previews/Lubricant store.jpg"
+      ],
+      "outputSha256": "55fecc0c80346bdfd3f2a87416174b975dd575d538b7ee61b29b5ba7a8058e36",
+      "outputSourceSha256": "002eac54fdb8e611dc74b2680fdc1196f5c5cfa6281b213d49a60e68e42cb168",
+      "width": 512,
+      "height": 512,
+      "bytes": 23422,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop358_0_719"
     }
   }
 }

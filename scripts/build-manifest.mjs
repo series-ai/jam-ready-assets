@@ -15,6 +15,7 @@ import { isBackfilled, isShallowClone, packAddedAt, preReorgPackPaths } from './
 import { readFeaturedCuration } from './featured.mjs';
 import { PREVIEW_FILE, readPreviewSources, selectGallery, selectPreview } from './preview-policy.mjs';
 import { packKeywords } from './pack-keywords.mjs';
+import { validateCubixScene } from './cubix-voxel-scene.mjs';
 import { packVersion } from './pack-version.mjs';
 import { readVisualMetadata, currentLabel } from './visual-metadata.mjs';
 import { appendVisualKeywords, buildAssetSearch } from './asset-search-catalog.mjs';
@@ -237,7 +238,8 @@ for (const top of readdirSync(ROOT, { withFileTypes: true })) {
   // qualifies each slug by bucket (and theme, for two themes in one bucket).
   for (const leaf of leaves) {
     const bucketSlug = `${top.name}-${leaf.bucket.toLowerCase()}`;
-    const slug = leaves.length === 1
+    // Keep the Core character slug after the addition of the world leaf.
+    const slug = leaves.length === 1 || leaf.id === 'run-cubix-core/3D/characters'
       ? top.name
       : leaves.filter((other) => other.bucket === leaf.bucket).length === 1
         ? bucketSlug
@@ -257,11 +259,31 @@ for (const top of readdirSync(ROOT, { withFileTypes: true })) {
         .filter((f) => !f.skippedDir && extname(f.path).toLowerCase() === '.glb')
         .map((f) => (f.path.includes('/') ? f.path.slice(0, f.path.lastIndexOf('/')) : '')),
     );
-    const entries = files.map((f) => ({
-      path: f.path,
-      ...sizeAndOid(f.abs),
-      runtime: isRuntime(f, category, packHasOggOrMp3, glbDirs),
-    }));
+    // Cubix games can build the demo from its voxel cells or load its mesh.
+    const hasCubixDemo = category === '3d' && id.startsWith('run-cubix-')
+      && files.some((file) => !file.skippedDir && file.path === 'level-kit/demo.glb');
+    const entries = files.map((f) => {
+      const voxelScene = hasCubixDemo && f.path === 'level-kit/demo.voxels.json';
+      const preview = hasCubixDemo && f.path.startsWith('Previews/');
+      return {
+        path: f.path,
+        ...sizeAndOid(f.abs),
+        runtime: voxelScene || (!preview && isRuntime(f, category, packHasOggOrMp3, glbDirs)),
+      };
+    });
+    if (hasCubixDemo) {
+      const mesh = entries.find((entry) => entry.path === 'level-kit/demo.glb');
+      try {
+        if (!entries.some((entry) => entry.path === 'level-kit/demo.voxels.json')) {
+          throw new Error('missing demo.voxels.json');
+        }
+        const raw = JSON.parse(readFileSync(join(ROOT, id, 'level-kit/demo.voxels.json'), 'utf8'));
+        validateCubixScene(raw, mesh.lfs ? undefined : readFileSync(join(ROOT, id, mesh.path)));
+      } catch (error) {
+        rejected.push({ id, error: `${id}/level-kit: ${error.message}` });
+        continue;
+      }
+    }
     const runtime = entries.filter((e) => e.runtime);
     const verdict = classifyLicense(id, files);
     if (verdict.error) {
