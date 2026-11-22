@@ -1,6 +1,6 @@
 SPDX-License-Identifier: LicenseRef-RUN-Repository-Supplemental-1.0
 Source: https://github.com/series-ai/run-workshop/tree/main/tools/run-chisel-packs
-Verified-by: run-workshop maintainers, 2026-11-20
+Verified-by: run-workshop maintainers, 2026-11-21
 
 RUN Chisel Packs — WW2 Frontline character parts & held items
 Copyright (c) 2026 Series Entertainment, Inc.
