@@ -8537,7 +8537,10 @@
       "width": 512,
       "height": 512,
       "bytes": 19282,
-      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0",
+      "gallery": [
+        "Previews/Sorceress.jpg"
+      ]
     },
     "run-cubix-fantasy/3D/fantasy": {
       "kind": "derived",
