@@ -1,3 +1,5 @@
+import { isDeepStrictEqual } from 'node:util';
+
 function requireField(valid, message) {
   if (!valid) throw new Error(message);
 }
@@ -125,4 +127,32 @@ export function validateCubixScene(doc, glb) {
       'placement.turn must be a quarter-turn index from 0 to 3');
   }
   if (glb !== undefined) validateDemoGlb(glb, doc.prefabs, doc.scene.placements);
+}
+
+
+export const CUBIX_GAMEPLAY_PATH = 'level-kit/gameplay.json';
+
+const gameAssetPaths = {
+  prop: /^level-kit\/[a-z0-9_]+\.glb$/,
+  vehicle: /^(level-kit\/[a-z0-9_]+\.glb|vehicles\/[a-z0-9_]+\.(glb|voxels\.json))$/,
+  actor: /^actors\/[a-z0-9_]+\.(glb|voxels\.json)$/,
+  equipment: /^equipment\/[a-z0-9_]+\.(glb|voxels\.json)$/,
+};
+
+export function cubixGameplayRuntime(raw, gameplay, availablePaths) {
+  requireField(record(gameplay) && gameplay.format === 'cubix-gameplay-board'
+    && gameplay.version === 1 && gameplay.key === raw.pack && record(gameplay.assets),
+  'expected cubix-gameplay-board version 1 for this pack');
+  requireField(isDeepStrictEqual(gameplay, raw.scene.gameplay), 'gameplay document differs from the voxel scene');
+  const runtime = new Set([CUBIX_GAMEPLAY_PATH]);
+  for (const [id, asset] of Object.entries(gameplay.assets)) {
+    const rule = record(asset) && Object.hasOwn(gameAssetPaths, asset.type) && gameAssetPaths[asset.type];
+    requireField(rule && record(asset.files) && Object.keys(asset.files).length > 0, `${id}: invalid gameplay asset`);
+    for (const path of Object.values(asset.files)) {
+      requireField(typeof path === 'string' && rule.test(path), `${id}: invalid gameplay asset path`);
+      requireField(availablePaths.has(path), `missing gameplay asset ${id}: ${path}`);
+      if (path.endsWith('.voxels.json')) runtime.add(path);
+    }
+  }
+  return runtime;
 }

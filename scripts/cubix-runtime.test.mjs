@@ -136,6 +136,26 @@ test('mirrors and versions the paired Cubix voxel scene', (t) => {
   writeFileSync(join(root, cubix, 'level-kit/demo.glb'), demoGlb(['bench']));
   rmSync(join(root, cubix, voxelScene));
   rejectedWith(/missing demo.voxels.json/i);
+
+  const raw = voxelDocument();
+  const gear = 'equipment/lantern.voxels.json';
+  const gameplay = 'level-kit/gameplay.json';
+  raw.scene.gameplay = {
+    format: 'cubix-gameplay-board', version: 1, key: raw.pack,
+    assets: { lantern: { type: 'equipment', files: { mesh: 'equipment/lantern.glb', voxels: gear } } },
+  };
+  mkdirSync(join(root, cubix, 'equipment'));
+  writeFileSync(join(root, cubix, 'equipment/lantern.glb'), 'item mesh');
+  writeFileSync(join(root, cubix, gear), '{}');
+  writeFileSync(join(root, cubix, gameplay), JSON.stringify(raw.scene.gameplay));
+  writeFileSync(join(root, cubix, voxelScene), JSON.stringify(raw));
+  build();
+  const runtime = files(cubix).filter((file) => file.runtime).map((file) => file.path);
+  assert.ok(runtime.includes(gameplay), 'Publish the gameplay document');
+  assert.ok(runtime.includes(gear), 'Publish the item voxel cells');
+  rmSync(join(root, cubix, gear));
+  rejectedWith(/missing gameplay asset.*lantern/i);
+
 });
 
 test('checks Cubix v1 tuples, cell bounds, palette codes and placements', () => {
