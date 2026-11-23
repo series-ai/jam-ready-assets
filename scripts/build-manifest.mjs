@@ -15,7 +15,7 @@ import { isBackfilled, isShallowClone, packAddedAt, preReorgPackPaths } from './
 import { readFeaturedCuration } from './featured.mjs';
 import { PREVIEW_FILE, readPreviewSources, selectGallery, selectPreview } from './preview-policy.mjs';
 import { packKeywords } from './pack-keywords.mjs';
-import { validateCubixScene } from './cubix-voxel-scene.mjs';
+import { CUBIX_GAMEPLAY_PATH, cubixGameplayRuntime, validateCubixScene } from './cubix-voxel-scene.mjs';
 import { packVersion } from './pack-version.mjs';
 import { readVisualMetadata, currentLabel } from './visual-metadata.mjs';
 import { appendVisualKeywords, buildAssetSearch } from './asset-search-catalog.mjs';
@@ -279,6 +279,14 @@ for (const top of readdirSync(ROOT, { withFileTypes: true })) {
         }
         const raw = JSON.parse(readFileSync(join(ROOT, id, 'level-kit/demo.voxels.json'), 'utf8'));
         validateCubixScene(raw, mesh.lfs ? undefined : readFileSync(join(ROOT, id, mesh.path)));
+        const availablePaths = new Set(files.filter((file) => !file.skippedDir).map((file) => file.path));
+        if (raw.scene.gameplay || availablePaths.has(CUBIX_GAMEPLAY_PATH)) {
+          const gameplay = JSON.parse(readFileSync(join(ROOT, id, CUBIX_GAMEPLAY_PATH), 'utf8'));
+          const boardFiles = cubixGameplayRuntime(raw, gameplay, availablePaths);
+          for (const entry of entries) {
+            if (boardFiles.has(entry.path)) entry.runtime = true;
+          }
+        }
       } catch (error) {
         rejected.push({ id, error: `${id}/level-kit: ${error.message}` });
         continue;
