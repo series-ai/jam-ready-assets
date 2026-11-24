@@ -8961,6 +8961,26 @@
       "height": 512,
       "bytes": 39680,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0-crop315_0_810"
+    },
+    "run-cubix-siege/3D/fantasy": {
+      "kind": "derived",
+      "licenseEvidence": "run-cubix-siege/3D/fantasy/License.txt",
+      "sourceUrl": "https://github.com/series-ai/run-workshop/tree/main/tools/run-voxel-characters",
+      "sourcePath": "run-cubix-siege/3D/fantasy/Source/Kit cover.jpg",
+      "sourceSha256": "bd8176887d96c965c98eb202474652073ece5b39a98729d481d2615ae6caaa35",
+      "description": "A sunlit square: the siege tavern and the apothecary with the wizard tower foot behind, a produce stall, a street lamp, an autumn oak, and two wizards and two goblins in front with their staffs, club, shield, and axe.",
+      "gallery": [
+        "Previews/Full kit.jpg",
+        "Previews/Siege buildings.jpg",
+        "Previews/Market props.jpg",
+        "Previews/Wizards and goblins.jpg"
+      ],
+      "outputSha256": "6f05c0bbfa67ece960d2704ddf419bea82c3aa03d5188ad77a48814ecde9c586",
+      "outputSourceSha256": "bd8176887d96c965c98eb202474652073ece5b39a98729d481d2615ae6caaa35",
+      "width": 512,
+      "height": 512,
+      "bytes": 30398,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
     }
   }
 }
