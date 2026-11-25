@@ -2803,6 +2803,101 @@ export const KIT = {
    "set": "wedge",
    "floorY": 16
   },
+  "highspeed-double-deck-power-car": {
+   "file": "high-speed-trains/highspeed-double-deck-power-car.glb",
+   "scaleClass": "vehicle-large",
+   "kind": "power-car",
+   "L": 160,
+   "couplers": {
+    "f": -93,
+    "r": 67
+   },
+   "guides": [
+    -43,
+    43
+   ],
+   "bogies": [
+    "bogie-f",
+    "bogie-r"
+   ],
+   "wheels": {
+    "wheel-f1": 6,
+    "wheel-f2": 6,
+    "wheel-r1": 6,
+    "wheel-r2": 6
+   },
+   "powered": true,
+   "paint": "skin",
+   "trim": "blue",
+   "accent": "gold",
+   "clips": [
+    "move",
+    "open",
+    "close"
+   ],
+   "traction": "electric",
+   "set": "double-deck",
+   "floorY": 16,
+   "decks": 2,
+   "liveries": {
+    "yellow-line": {
+     "paint": "skin",
+     "trim": "blue",
+     "accent": "gold"
+    },
+    "pink-line": {
+     "paint": "skin",
+     "trim": "blue",
+     "accent": "pink"
+    }
+   }
+  },
+  "highspeed-double-deck-car": {
+   "file": "high-speed-trains/highspeed-double-deck-car.glb",
+   "scaleClass": "vehicle-large",
+   "kind": "coach",
+   "L": 160,
+   "couplers": {
+    "f": -80,
+    "r": 80
+   },
+   "guides": [
+    -52,
+    52
+   ],
+   "bogies": [
+    "bogie-f",
+    "bogie-r"
+   ],
+   "wheels": {
+    "wheel-f1": 6,
+    "wheel-f2": 6,
+    "wheel-r1": 6,
+    "wheel-r2": 6
+   },
+   "powered": false,
+   "paint": "skin",
+   "trim": "blue",
+   "accent": "gold",
+   "clips": [
+    "move"
+   ],
+   "set": "double-deck",
+   "floorY": 16,
+   "decks": 2,
+   "liveries": {
+    "yellow-line": {
+     "paint": "skin",
+     "trim": "blue",
+     "accent": "gold"
+    },
+    "pink-line": {
+     "paint": "skin",
+     "trim": "blue",
+     "accent": "pink"
+    }
+   }
+  },
   "tram-heritage": {
    "file": "trams-metro/tram-heritage.glb",
    "scaleClass": "vehicle-large",

@@ -60,6 +60,8 @@ export class TrainAudio {
     this.take = 0;
     this.hornsAuto = true; // trains sound their horns now and then on their own
     this.ambience = true; // the countryside: a breeze, birdsong and its bed
+    this.trainVolume = 1; // the two mixer levels, 0..1 (setVolumes)
+    this.ambienceVolume = 0.45;
     this.daylight = 1; // 1 day .. 0 night: the birds go quiet after dark
   }
 
@@ -70,6 +72,10 @@ export class TrainAudio {
       this.master = this.ctx.createGain();
       this.master.gain.value = this.volume;
       this.master.connect(this.ctx.destination);
+      // trains and stations on one bus, the countryside on another, each with its own level
+      this.fxBus = this.ctx.createGain();
+      this.fxBus.gain.value = this.trainVolume;
+      this.fxBus.connect(this.master);
     }
     await this.ctx.resume();
     this.enabled = true;
@@ -95,7 +101,7 @@ export class TrainAudio {
     if (this.amb) return;
     const ctx = this.ctx;
     const bus = ctx.createGain();
-    bus.gain.value = this.ambience ? 1 : 0;
+    bus.gain.value = this.ambience ? this.ambienceVolume : 0;
     bus.connect(this.master);
     this.amb = { bus, beds: [], birdIn: 1.5, t: 0 };
     const takes = await this._load('countryside-ambience-loop');
@@ -149,7 +155,7 @@ export class TrainAudio {
     if (!a) return;
     const now = this.ctx.currentTime;
     a.t += dt;
-    a.bus.gain.setTargetAtTime(this.ambience ? 1 : 0, now, 0.4);
+    a.bus.gain.setTargetAtTime(this.ambience ? this.ambienceVolume : 0, now, 0.4);
     const day = Math.max(0, Math.min(1, this.daylight));
     for (const g of a.beds) g.gain.setTargetAtTime(0.35 + 0.55 * day, now, 1.5); // its birdsong thins after dark
     // the breeze: slow overlapping swells, a little brighter in a gust
@@ -160,8 +166,15 @@ export class TrainAudio {
     a.birdIn -= dt;
     if (a.birdIn <= 0) {
       a.birdIn = (0.6 + Math.random() * 3.4) / Math.max(0.25, day);
-      if (day > 0.2 && this.ambience) this._bird((0.05 + Math.random() * 0.13) * day);
+      if (day > 0.2 && this.ambience && this.ambienceVolume > 0.01) this._bird((0.05 + Math.random() * 0.13) * day);
     }
+  }
+
+  /** Mixer levels, 0..1: { trains } for trains and stations, { ambience } for the countryside. */
+  setVolumes({ trains, ambience } = {}) {
+    if (trains !== undefined) this.trainVolume = trains;
+    if (ambience !== undefined) this.ambienceVolume = ambience;
+    if (this.fxBus) this.fxBus.gain.setTargetAtTime(this.trainVolume, this.ctx.currentTime, 0.05);
   }
 
   stop() {
@@ -193,7 +206,7 @@ export class TrainAudio {
     src.playbackRate.value = rate;
     const g = this.ctx.createGain();
     g.gain.value = gain;
-    src.connect(g).connect(this.master);
+    src.connect(g).connect(this.fxBus);
     src.start(Math.max(at, this.ctx.currentTime));
     return src;
   }
@@ -207,7 +220,7 @@ export class TrainAudio {
     src.playbackRate.value = rate;
     const g = this.ctx.createGain();
     g.gain.value = gain;
-    src.connect(g).connect(this.master);
+    src.connect(g).connect(this.fxBus);
     src.start(Math.max(at, this.ctx.currentTime));
   }
 
@@ -221,7 +234,7 @@ export class TrainAudio {
     lp.Q.value = 0.7;
     const g = this.ctx.createGain();
     g.gain.value = 0;
-    src.connect(lp).connect(g).connect(this.master);
+    src.connect(lp).connect(g).connect(this.fxBus);
     src.start();
     return Promise.resolve({ src, g, lp });
   }
@@ -234,7 +247,7 @@ export class TrainAudio {
     src.loop = true;
     const g = this.ctx.createGain();
     g.gain.value = 0;
-    src.connect(g).connect(this.master);
+    src.connect(g).connect(this.fxBus);
     src.start();
     return { src, g };
   }
