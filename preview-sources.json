@@ -8981,6 +8981,42 @@
       "height": 512,
       "bytes": 30398,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+    },
+    "run-trainspotter/3D/vehicles-racing": {
+      "kind": "derived",
+      "licenseEvidence": "run-trainspotter/3D/vehicles-racing/License.txt",
+      "sourceUrl": "https://github.com/series-ai/run-workshop/tree/main/tools/run-trainspotter",
+      "sourcePath": "scripts/preview-inputs/run-trainspotter-vehicles-racing.png",
+      "sourceSha256": "24dd4bb6671f9e0b01a49c07dd42971383f63a31fe63650483ae004d32f5f9ca",
+      "description": "The pack's cover: its title in yellow block letters with a dark outline over a 'Voxel railway kit' tag, above three voxel trains from the pack side by side on parallel tracks across green grass under a blue sky. A green express steam engine with its tender leads on the right, a white round-nosed bullet train with a blue stripe runs beside it on the left, and red and silver carriages, a teal container wagon and a red-nosed express trail behind. Rendered from the pack's GLBs.",
+      "gallery": [
+        "Previews/layout.webp",
+        "Previews/steam.webp",
+        "Previews/traction.webp",
+        "Previews/passenger.webp",
+        "Previews/freight.webp",
+        "Previews/track.webp"
+      ],
+      "outputSha256": "aa72c53d2304b0bb4d1289fcaba7b3564cb6e60875c059a5e75dc3a169ad93c0",
+      "outputSourceSha256": "24dd4bb6671f9e0b01a49c07dd42971383f63a31fe63650483ae004d32f5f9ca",
+      "width": 512,
+      "height": 512,
+      "bytes": 33942,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+    },
+    "run-trainspotter/audio": {
+      "kind": "derived",
+      "licenseEvidence": "run-trainspotter/audio/License.txt",
+      "sourceUrl": "https://github.com/series-ai/run-workshop/tree/main/tools/run-trainspotter",
+      "sourcePath": "scripts/preview-inputs/run-trainspotter-audio.png",
+      "sourceSha256": "b4879701b35fc03f8c0da46a5663eb5ae0ab5c9219b5c3b929cbca0788c8513c",
+      "description": "The sound pack's cover: the Trainspotter title in yellow block letters over a 'Train sound effects' tag and a yellow equaliser badge of seven bars, above the same three voxel trains from the Trainspotter kit on parallel tracks: a green express steam engine, a white bullet train with a blue stripe, and carriages and wagons behind. Rendered from the kit's GLBs.",
+      "outputSha256": "09caefd4dd4c6056d9c1cf2e1c32d0a1714a341ad793e5c323e75de1487193ac",
+      "outputSourceSha256": "b4879701b35fc03f8c0da46a5663eb5ae0ab5c9219b5c3b929cbca0788c8513c",
+      "width": 512,
+      "height": 512,
+      "bytes": 35796,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
     }
   }
 }
