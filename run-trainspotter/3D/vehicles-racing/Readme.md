@@ -3,13 +3,14 @@
 Original assets for RUN. Keep License.txt with redistributed files.
 
 **Lay track, run trains.** A voxel railway kit: track that snaps together on a
-45-degree grid, 61 locomotives, carriages, wagons, trams and metro cars from
+45-degree grid, 63 locomotives, carriages, wagons, trams and metro cars from
 every era, and the stations, signals, bridges, tunnels, towns and scenery to
 build a whole model railway. Made for route-building board games, railway
 management games and train-driving games.
 
 The trains follow well-known real types (a green express steam engine, a
-streamlined diesel, a round-nosed bullet train, stainless commuter sets) under
+streamlined diesel, a round-nosed bullet train, a long-nosed double-deck
+bullet train, stainless commuter sets) under
 plain descriptive names, in the chunky RUN voxel style.
 
 The sounds that go with it are in this pack's audio folder
