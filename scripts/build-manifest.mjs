@@ -58,6 +58,8 @@ const PACK_CREATORS = {
   'run-kit-kids-holiday-cheer': 'RUN.sterf',
   'run-furries-unleashed': 'RUN.sterf',
   'run-wasteland-wheels': 'RUN.sterf',
+  'run-trainspotter-3d': 'RUN.hugh3',
+  'run-trainspotter-audio': 'RUN.hugh3',
 };
 
 const LICENSE_FILE = /^(licen[cs]e|copying|unlicense)(\.[a-z0-9]+)?$/i;
