@@ -1,0 +1,1129 @@
+{
+  "biomes": [
+    {
+      "theme": "temperate",
+      "label": "Temperate Frontier",
+      "atlas": "tilesets/tileset-temperate.png",
+      "hazardAnim": "tilesets/hazard-anim-temperate.png",
+      "bridgeH": "tilesets/bridge-temperate-h.png",
+      "bridgeV": "tilesets/bridge-temperate-v.png",
+      "ramps": {
+        "S": "tilesets/ramp-temperate-S.png",
+        "N": "tilesets/ramp-temperate-N.png",
+        "E": "tilesets/ramp-temperate-E.png",
+        "W": "tilesets/ramp-temperate-W.png"
+      }
+    },
+    {
+      "theme": "tundra",
+      "label": "Frost-Basalt Tundra",
+      "atlas": "tilesets/tileset-tundra.png",
+      "hazardAnim": "tilesets/hazard-anim-tundra.png",
+      "bridgeH": "tilesets/bridge-tundra-h.png",
+      "bridgeV": "tilesets/bridge-tundra-v.png",
+      "ramps": {
+        "S": "tilesets/ramp-tundra-S.png",
+        "N": "tilesets/ramp-tundra-N.png",
+        "E": "tilesets/ramp-tundra-E.png",
+        "W": "tilesets/ramp-tundra-W.png"
+      }
+    },
+    {
+      "theme": "volcanic",
+      "label": "Obsidian Ashlands",
+      "atlas": "tilesets/tileset-volcanic.png",
+      "hazardAnim": "tilesets/hazard-anim-volcanic.png",
+      "bridgeH": "tilesets/bridge-volcanic-h.png",
+      "bridgeV": "tilesets/bridge-volcanic-v.png",
+      "ramps": {
+        "S": "tilesets/ramp-volcanic-S.png",
+        "N": "tilesets/ramp-volcanic-N.png",
+        "E": "tilesets/ramp-volcanic-E.png",
+        "W": "tilesets/ramp-volcanic-W.png"
+      }
+    },
+    {
+      "theme": "desert",
+      "label": "Solaris Sun-Dunes",
+      "atlas": "tilesets/tileset-desert.png",
+      "hazardAnim": "tilesets/hazard-anim-desert.png",
+      "bridgeH": "tilesets/bridge-desert-h.png",
+      "bridgeV": "tilesets/bridge-desert-v.png",
+      "ramps": {
+        "S": "tilesets/ramp-desert-S.png",
+        "N": "tilesets/ramp-desert-N.png",
+        "E": "tilesets/ramp-desert-E.png",
+        "W": "tilesets/ramp-desert-W.png"
+      }
+    }
+  ],
+  "objects": [
+    {
+      "id": "mineral-blue",
+      "name": "Mineral Cluster",
+      "category": "resource",
+      "biome": "any",
+      "stateMode": "depletion",
+      "stateLabels": [
+        "full",
+        "mid",
+        "low",
+        "depleted"
+      ],
+      "blocksMovement": true,
+      "blocksVision": false,
+      "cellW": 16,
+      "cellH": 14,
+      "frames": 4,
+      "sheet": "objects/obj-mineral-blue.png"
+    },
+    {
+      "id": "mineral-gold",
+      "name": "Rich Gold Crystals",
+      "category": "resource",
+      "biome": "any",
+      "stateMode": "depletion",
+      "stateLabels": [
+        "full",
+        "mid",
+        "low",
+        "depleted"
+      ],
+      "blocksMovement": true,
+      "blocksVision": false,
+      "cellW": 16,
+      "cellH": 14,
+      "frames": 4,
+      "sheet": "objects/obj-mineral-gold.png"
+    },
+    {
+      "id": "gas-geyser",
+      "name": "Plasma Gas Geyser",
+      "category": "resource",
+      "biome": "any",
+      "stateMode": "animated",
+      "stateLabels": [
+        "plume_0",
+        "plume_1",
+        "plume_2"
+      ],
+      "blocksMovement": true,
+      "blocksVision": false,
+      "cellW": 16,
+      "cellH": 14,
+      "frames": 3,
+      "sheet": "objects/obj-gas-geyser.png"
+    },
+    {
+      "id": "magma-vent",
+      "name": "Geothermal Vent",
+      "category": "resource",
+      "biome": "volcanic",
+      "stateMode": "animated",
+      "stateLabels": [
+        "vent_0",
+        "vent_1",
+        "vent_2"
+      ],
+      "blocksMovement": true,
+      "blocksVision": false,
+      "cellW": 16,
+      "cellH": 13,
+      "frames": 3,
+      "sheet": "objects/obj-magma-vent.png"
+    },
+    {
+      "id": "obstacle-rocks",
+      "name": "Destructible Rocks",
+      "category": "obstacle",
+      "biome": "temperate",
+      "stateMode": "damage",
+      "stateLabels": [
+        "intact",
+        "cracked",
+        "rubble"
+      ],
+      "blocksMovement": true,
+      "blocksVision": false,
+      "cellW": 24,
+      "cellH": 13,
+      "frames": 3,
+      "sheet": "objects/obj-obstacle-rocks.png"
+    },
+    {
+      "id": "obstacle-barricade",
+      "name": "Steel Barricade",
+      "category": "obstacle",
+      "biome": "any",
+      "stateMode": "damage",
+      "stateLabels": [
+        "intact",
+        "cracked",
+        "rubble"
+      ],
+      "blocksMovement": true,
+      "blocksVision": false,
+      "cellW": 24,
+      "cellH": 12,
+      "frames": 3,
+      "sheet": "objects/obj-obstacle-barricade.png"
+    },
+    {
+      "id": "obstacle-pillar",
+      "name": "Collapsed Pillar",
+      "category": "obstacle",
+      "biome": "desert",
+      "stateMode": "damage",
+      "stateLabels": [
+        "intact",
+        "cracked",
+        "rubble"
+      ],
+      "blocksMovement": true,
+      "blocksVision": false,
+      "cellW": 24,
+      "cellH": 12,
+      "frames": 3,
+      "sheet": "objects/obj-obstacle-pillar.png"
+    },
+    {
+      "id": "obstacle-ribwall",
+      "name": "Calcified Rib-Gate",
+      "category": "obstacle",
+      "biome": "any",
+      "stateMode": "damage",
+      "stateLabels": [
+        "intact",
+        "cracked",
+        "rubble"
+      ],
+      "blocksMovement": true,
+      "blocksVision": false,
+      "cellW": 24,
+      "cellH": 12,
+      "frames": 3,
+      "sheet": "objects/obj-obstacle-ribwall.png"
+    },
+    {
+      "id": "neutral-watchtower",
+      "name": "Horizon Watchtower",
+      "category": "objective",
+      "biome": "any",
+      "stateMode": "animated",
+      "stateLabels": [
+        "scan_L",
+        "scan_C",
+        "scan_R"
+      ],
+      "blocksMovement": true,
+      "blocksVision": false,
+      "cellW": 16,
+      "cellH": 15,
+      "frames": 3,
+      "sheet": "objects/obj-neutral-watchtower.png"
+    },
+    {
+      "id": "neutral-shrine",
+      "name": "Relic Relay Shrine",
+      "category": "objective",
+      "biome": "any",
+      "stateMode": "animated",
+      "stateLabels": [
+        "pulse_0",
+        "pulse_1",
+        "pulse_2"
+      ],
+      "blocksMovement": true,
+      "blocksVision": false,
+      "cellW": 14,
+      "cellH": 14,
+      "frames": 3,
+      "sheet": "objects/obj-neutral-shrine.png"
+    },
+    {
+      "id": "neutral-medpad",
+      "name": "Field Repair Pad",
+      "category": "objective",
+      "biome": "any",
+      "stateMode": "animated",
+      "stateLabels": [
+        "idle",
+        "pulse"
+      ],
+      "blocksMovement": false,
+      "blocksVision": false,
+      "cellW": 14,
+      "cellH": 12,
+      "frames": 2,
+      "sheet": "objects/obj-neutral-medpad.png"
+    },
+    {
+      "id": "tree-pine",
+      "name": "Frontier Pine",
+      "category": "flora",
+      "biome": "temperate",
+      "stateMode": "static",
+      "stateLabels": [
+        "idle"
+      ],
+      "blocksMovement": true,
+      "blocksVision": false,
+      "cellW": 13,
+      "cellH": 16,
+      "frames": 1,
+      "sheet": "objects/obj-tree-pine.png"
+    },
+    {
+      "id": "tree-oak",
+      "name": "Meadow Oak",
+      "category": "flora",
+      "biome": "temperate",
+      "stateMode": "static",
+      "stateLabels": [
+        "idle"
+      ],
+      "blocksMovement": true,
+      "blocksVision": false,
+      "cellW": 14,
+      "cellH": 14,
+      "frames": 1,
+      "sheet": "objects/obj-tree-oak.png"
+    },
+    {
+      "id": "brush-reeds",
+      "name": "Sight-Blocker Reeds",
+      "category": "flora",
+      "biome": "temperate",
+      "stateMode": "static",
+      "stateLabels": [
+        "idle"
+      ],
+      "blocksMovement": false,
+      "blocksVision": true,
+      "cellW": 15,
+      "cellH": 11,
+      "frames": 1,
+      "sheet": "objects/obj-brush-reeds.png"
+    },
+    {
+      "id": "rock-mossy",
+      "name": "Mossy Boulder",
+      "category": "flora",
+      "biome": "temperate",
+      "stateMode": "static",
+      "stateLabels": [
+        "idle"
+      ],
+      "blocksMovement": true,
+      "blocksVision": false,
+      "cellW": 14,
+      "cellH": 11,
+      "frames": 1,
+      "sheet": "objects/obj-rock-mossy.png"
+    },
+    {
+      "id": "fallen-log",
+      "name": "Fallen Timber",
+      "category": "flora",
+      "biome": "temperate",
+      "stateMode": "static",
+      "stateLabels": [
+        "idle"
+      ],
+      "blocksMovement": true,
+      "blocksVision": false,
+      "cellW": 17,
+      "cellH": 9,
+      "frames": 1,
+      "sheet": "objects/obj-fallen-log.png"
+    },
+    {
+      "id": "tree-frost-pine",
+      "name": "Frost Pine",
+      "category": "flora",
+      "biome": "tundra",
+      "stateMode": "static",
+      "stateLabels": [
+        "idle"
+      ],
+      "blocksMovement": true,
+      "blocksVision": false,
+      "cellW": 13,
+      "cellH": 16,
+      "frames": 1,
+      "sheet": "objects/obj-tree-frost-pine.png"
+    },
+    {
+      "id": "ice-spire",
+      "name": "Glacial Spire",
+      "category": "flora",
+      "biome": "tundra",
+      "stateMode": "static",
+      "stateLabels": [
+        "idle"
+      ],
+      "blocksMovement": true,
+      "blocksVision": false,
+      "cellW": 14,
+      "cellH": 14,
+      "frames": 1,
+      "sheet": "objects/obj-ice-spire.png"
+    },
+    {
+      "id": "rock-frozen",
+      "name": "Permafrost Crag",
+      "category": "flora",
+      "biome": "tundra",
+      "stateMode": "static",
+      "stateLabels": [
+        "idle"
+      ],
+      "blocksMovement": true,
+      "blocksVision": false,
+      "cellW": 14,
+      "cellH": 11,
+      "frames": 1,
+      "sheet": "objects/obj-rock-frozen.png"
+    },
+    {
+      "id": "tree-charred",
+      "name": "Charred Deadwood",
+      "category": "flora",
+      "biome": "volcanic",
+      "stateMode": "static",
+      "stateLabels": [
+        "idle"
+      ],
+      "blocksMovement": true,
+      "blocksVision": false,
+      "cellW": 14,
+      "cellH": 14,
+      "frames": 1,
+      "sheet": "objects/obj-tree-charred.png"
+    },
+    {
+      "id": "obsidian-spire",
+      "name": "Obsidian Spire",
+      "category": "flora",
+      "biome": "volcanic",
+      "stateMode": "static",
+      "stateLabels": [
+        "idle"
+      ],
+      "blocksMovement": true,
+      "blocksVision": false,
+      "cellW": 14,
+      "cellH": 14,
+      "frames": 1,
+      "sheet": "objects/obj-obsidian-spire.png"
+    },
+    {
+      "id": "basalt-arch",
+      "name": "Basalt Rib-Arch",
+      "category": "flora",
+      "biome": "volcanic",
+      "stateMode": "static",
+      "stateLabels": [
+        "idle"
+      ],
+      "blocksMovement": true,
+      "blocksVision": false,
+      "cellW": 16,
+      "cellH": 11,
+      "frames": 1,
+      "sheet": "objects/obj-basalt-arch.png"
+    },
+    {
+      "id": "ash-crater",
+      "name": "Ember Fissure",
+      "category": "flora",
+      "biome": "volcanic",
+      "stateMode": "static",
+      "stateLabels": [
+        "idle"
+      ],
+      "blocksMovement": false,
+      "blocksVision": false,
+      "cellW": 14,
+      "cellH": 10,
+      "frames": 1,
+      "sheet": "objects/obj-ash-crater.png"
+    },
+    {
+      "id": "tree-palm",
+      "name": "Oasis Palm",
+      "category": "flora",
+      "biome": "desert",
+      "stateMode": "static",
+      "stateLabels": [
+        "idle"
+      ],
+      "blocksMovement": true,
+      "blocksVision": false,
+      "cellW": 15,
+      "cellH": 14,
+      "frames": 1,
+      "sheet": "objects/obj-tree-palm.png"
+    },
+    {
+      "id": "ruin-obelisk",
+      "name": "Broken Obelisk",
+      "category": "flora",
+      "biome": "desert",
+      "stateMode": "static",
+      "stateLabels": [
+        "idle"
+      ],
+      "blocksMovement": true,
+      "blocksVision": false,
+      "cellW": 14,
+      "cellH": 14,
+      "frames": 1,
+      "sheet": "objects/obj-ruin-obelisk.png"
+    },
+    {
+      "id": "ruin-arch",
+      "name": "Sunken Sun-Arch",
+      "category": "flora",
+      "biome": "desert",
+      "stateMode": "static",
+      "stateLabels": [
+        "idle"
+      ],
+      "blocksMovement": false,
+      "blocksVision": false,
+      "cellW": 16,
+      "cellH": 11,
+      "frames": 1,
+      "sheet": "objects/obj-ruin-arch.png"
+    },
+    {
+      "id": "desert-cactus",
+      "name": "Dune Cactus",
+      "category": "flora",
+      "biome": "desert",
+      "stateMode": "static",
+      "stateLabels": [
+        "idle"
+      ],
+      "blocksMovement": true,
+      "blocksVision": false,
+      "cellW": 14,
+      "cellH": 12,
+      "frames": 1,
+      "sheet": "objects/obj-desert-cactus.png"
+    },
+    {
+      "id": "wreck-tank",
+      "name": "Wrecked Siege Hull",
+      "category": "wreckage",
+      "biome": "any",
+      "stateMode": "static",
+      "stateLabels": [
+        "idle"
+      ],
+      "blocksMovement": true,
+      "blocksVision": false,
+      "cellW": 18,
+      "cellH": 13,
+      "frames": 1,
+      "sheet": "objects/obj-wreck-tank.png"
+    },
+    {
+      "id": "wreck-droppod",
+      "name": "Crashed Drop-Pod",
+      "category": "wreckage",
+      "biome": "any",
+      "stateMode": "static",
+      "stateLabels": [
+        "idle"
+      ],
+      "blocksMovement": true,
+      "blocksVision": false,
+      "cellW": 14,
+      "cellH": 12,
+      "frames": 1,
+      "sheet": "objects/obj-wreck-droppod.png"
+    },
+    {
+      "id": "prop-crates",
+      "name": "Supply Crate Stack",
+      "category": "wreckage",
+      "biome": "any",
+      "stateMode": "static",
+      "stateLabels": [
+        "idle"
+      ],
+      "blocksMovement": true,
+      "blocksVision": false,
+      "cellW": 14,
+      "cellH": 12,
+      "frames": 1,
+      "sheet": "objects/obj-prop-crates.png"
+    },
+    {
+      "id": "fossil-leviathan",
+      "name": "Leviathan Fossil",
+      "category": "wreckage",
+      "biome": "desert",
+      "stateMode": "static",
+      "stateLabels": [
+        "idle"
+      ],
+      "blocksMovement": true,
+      "blocksVision": false,
+      "cellW": 24,
+      "cellH": 11,
+      "frames": 1,
+      "sheet": "objects/obj-fossil-leviathan.png"
+    }
+  ],
+  "neutrals": [
+    {
+      "id": "N01",
+      "name": "Meadow Boar",
+      "role": "Critter (Temperate)",
+      "layer": "ground",
+      "twoLayer": false,
+      "cellW": 15,
+      "cellH": 12,
+      "cols": 12,
+      "sheet": "neutrals/N01-meadow-boar-8way.png",
+      "muzzleRel8": {
+        "N": [
+          0,
+          0
+        ],
+        "NE": [
+          0,
+          0
+        ],
+        "E": [
+          0,
+          0
+        ],
+        "SE": [
+          0,
+          0
+        ],
+        "S": [
+          0,
+          0
+        ],
+        "SW": [
+          0,
+          0
+        ],
+        "W": [
+          0,
+          0
+        ],
+        "NW": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "N02",
+      "name": "Canyon Scuttler",
+      "role": "Critter (Desert)",
+      "layer": "ground",
+      "twoLayer": false,
+      "cellW": 15,
+      "cellH": 12,
+      "cols": 12,
+      "sheet": "neutrals/N02-canyon-scuttler-8way.png",
+      "muzzleRel8": {
+        "N": [
+          0,
+          0
+        ],
+        "NE": [
+          0,
+          0
+        ],
+        "E": [
+          0,
+          0
+        ],
+        "SE": [
+          0,
+          0
+        ],
+        "S": [
+          0,
+          0
+        ],
+        "SW": [
+          0,
+          0
+        ],
+        "W": [
+          0,
+          0
+        ],
+        "NW": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "N03",
+      "name": "Frost Yeti-Ram",
+      "role": "Critter (Tundra)",
+      "layer": "ground",
+      "twoLayer": false,
+      "cellW": 16,
+      "cellH": 14,
+      "cols": 12,
+      "sheet": "neutrals/N03-frost-yeti-ram-8way.png",
+      "muzzleRel8": {
+        "N": [
+          0,
+          0
+        ],
+        "NE": [
+          0,
+          0
+        ],
+        "E": [
+          0,
+          0
+        ],
+        "SE": [
+          0,
+          0
+        ],
+        "S": [
+          0,
+          0
+        ],
+        "SW": [
+          0,
+          0
+        ],
+        "W": [
+          0,
+          0
+        ],
+        "NW": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "N04",
+      "name": "Ash-Salamander",
+      "role": "Critter (Volcanic)",
+      "layer": "ground",
+      "twoLayer": false,
+      "cellW": 17,
+      "cellH": 12,
+      "cols": 12,
+      "sheet": "neutrals/N04-ash-salamander-8way.png",
+      "muzzleRel8": {
+        "N": [
+          0,
+          0
+        ],
+        "NE": [
+          0,
+          0
+        ],
+        "E": [
+          0,
+          0
+        ],
+        "SE": [
+          0,
+          0
+        ],
+        "S": [
+          0,
+          0
+        ],
+        "SW": [
+          0,
+          0
+        ],
+        "W": [
+          0,
+          0
+        ],
+        "NW": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "N05",
+      "name": "Cliff Hawk",
+      "role": "Critter (Air)",
+      "layer": "air",
+      "twoLayer": false,
+      "cellW": 18,
+      "cellH": 14,
+      "cols": 12,
+      "sheet": "neutrals/N05-cliff-hawk-8way.png",
+      "muzzleRel8": {
+        "N": [
+          0,
+          0
+        ],
+        "NE": [
+          0,
+          0
+        ],
+        "E": [
+          0,
+          0
+        ],
+        "SE": [
+          0,
+          0
+        ],
+        "S": [
+          0,
+          0
+        ],
+        "SW": [
+          0,
+          0
+        ],
+        "W": [
+          0,
+          0
+        ],
+        "NW": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "N06",
+      "name": "Drift-Lantern",
+      "role": "Critter (Air)",
+      "layer": "air",
+      "twoLayer": false,
+      "cellW": 16,
+      "cellH": 16,
+      "cols": 12,
+      "sheet": "neutrals/N06-drift-lantern-8way.png",
+      "muzzleRel8": {
+        "N": [
+          0,
+          0
+        ],
+        "NE": [
+          0,
+          0
+        ],
+        "E": [
+          0,
+          0
+        ],
+        "SE": [
+          0,
+          0
+        ],
+        "S": [
+          0,
+          0
+        ],
+        "SW": [
+          0,
+          0
+        ],
+        "W": [
+          0,
+          0
+        ],
+        "NW": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "N07",
+      "name": "Stone Golem",
+      "role": "Guardian (Heavy)",
+      "layer": "ground",
+      "twoLayer": false,
+      "cellW": 24,
+      "cellH": 23,
+      "cols": 12,
+      "sheet": "neutrals/N07-stone-golem-8way.png",
+      "muzzleRel8": {
+        "N": [
+          0,
+          0
+        ],
+        "NE": [
+          0,
+          0
+        ],
+        "E": [
+          0,
+          0
+        ],
+        "SE": [
+          0,
+          0
+        ],
+        "S": [
+          0,
+          0
+        ],
+        "SW": [
+          0,
+          0
+        ],
+        "W": [
+          0,
+          0
+        ],
+        "NW": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "N08",
+      "name": "Magma Elemental",
+      "role": "Guardian (Volcanic)",
+      "layer": "ground",
+      "twoLayer": false,
+      "cellW": 22,
+      "cellH": 21,
+      "cols": 12,
+      "sheet": "neutrals/N08-magma-elemental-8way.png",
+      "muzzleRel8": {
+        "N": [
+          0,
+          0
+        ],
+        "NE": [
+          0,
+          0
+        ],
+        "E": [
+          0,
+          0
+        ],
+        "SE": [
+          0,
+          0
+        ],
+        "S": [
+          0,
+          0
+        ],
+        "SW": [
+          0,
+          0
+        ],
+        "W": [
+          0,
+          0
+        ],
+        "NW": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "N09",
+      "name": "Frost Stalker",
+      "role": "Guardian (Tundra)",
+      "layer": "ground",
+      "twoLayer": false,
+      "cellW": 21,
+      "cellH": 16,
+      "cols": 12,
+      "sheet": "neutrals/N09-frost-stalker-8way.png",
+      "muzzleRel8": {
+        "N": [
+          0,
+          0
+        ],
+        "NE": [
+          0,
+          0
+        ],
+        "E": [
+          0,
+          0
+        ],
+        "SE": [
+          0,
+          0
+        ],
+        "S": [
+          0,
+          0
+        ],
+        "SW": [
+          0,
+          0
+        ],
+        "W": [
+          0,
+          0
+        ],
+        "NW": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "N10",
+      "name": "Dune Wyrm",
+      "role": "Guardian (Desert)",
+      "layer": "ground",
+      "twoLayer": false,
+      "cellW": 21,
+      "cellH": 20,
+      "cols": 12,
+      "sheet": "neutrals/N10-dune-wyrm-8way.png",
+      "muzzleRel8": {
+        "N": [
+          1,
+          -14
+        ],
+        "NE": [
+          5,
+          -13
+        ],
+        "E": [
+          8,
+          -10
+        ],
+        "SE": [
+          6,
+          -6
+        ],
+        "S": [
+          0,
+          -4
+        ],
+        "SW": [
+          -5,
+          -6
+        ],
+        "W": [
+          -7,
+          -9
+        ],
+        "NW": [
+          -5,
+          -13
+        ]
+      }
+    },
+    {
+      "id": "N11",
+      "name": "Auto-Sentry Relic",
+      "role": "Guardian (2-Layer)",
+      "layer": "ground",
+      "twoLayer": true,
+      "cellW": 18,
+      "cellH": 18,
+      "cols": 12,
+      "sheet": "neutrals/N11-auto-sentry-relic-8way.png",
+      "hullSheet": "neutrals/N11-auto-sentry-relic-hull.png",
+      "turretSheet": "neutrals/N11-auto-sentry-relic-turret.png",
+      "shadowSheet": "neutrals/N11-auto-sentry-relic-shadow.png",
+      "muzzleRel8": {
+        "N": [
+          0,
+          -11
+        ],
+        "NE": [
+          5,
+          -10
+        ],
+        "E": [
+          7,
+          -6
+        ],
+        "SE": [
+          5,
+          -3
+        ],
+        "S": [
+          0,
+          -1
+        ],
+        "SW": [
+          -5,
+          -2
+        ],
+        "W": [
+          -7,
+          -6
+        ],
+        "NW": [
+          -5,
+          -10
+        ]
+      }
+    },
+    {
+      "id": "N12",
+      "name": "Rogue Scrapper",
+      "role": "Guardian (2-Layer)",
+      "layer": "ground",
+      "twoLayer": true,
+      "cellW": 21,
+      "cellH": 21,
+      "cols": 12,
+      "sheet": "neutrals/N12-rogue-scrapper-8way.png",
+      "hullSheet": "neutrals/N12-rogue-scrapper-hull.png",
+      "turretSheet": "neutrals/N12-rogue-scrapper-turret.png",
+      "shadowSheet": "neutrals/N12-rogue-scrapper-shadow.png",
+      "muzzleRel8": {
+        "N": [
+          5,
+          -13
+        ],
+        "NE": [
+          8,
+          -10
+        ],
+        "E": [
+          8,
+          -5
+        ],
+        "SE": [
+          3,
+          -2
+        ],
+        "S": [
+          -4,
+          -3
+        ],
+        "SW": [
+          -8,
+          -6
+        ],
+        "W": [
+          -7,
+          -10
+        ],
+        "NW": [
+          -2,
+          -14
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,526 @@
+[
+  {
+    "id": "V01",
+    "archetype": "melee",
+    "colorTheme": "kinetic"
+  },
+  {
+    "id": "V02",
+    "archetype": "support_utility",
+    "colorTheme": "plasma"
+  },
+  {
+    "id": "V03",
+    "archetype": "support_utility",
+    "colorTheme": "heal"
+  },
+  {
+    "id": "V04",
+    "archetype": "hitscan_burst",
+    "colorTheme": "kinetic",
+    "burstCount": 3
+  },
+  {
+    "id": "V05",
+    "archetype": "hitscan_burst",
+    "colorTheme": "kinetic",
+    "burstCount": 2
+  },
+  {
+    "id": "V06",
+    "archetype": "hitscan_burst",
+    "colorTheme": "kinetic",
+    "burstCount": 4
+  },
+  {
+    "id": "V07",
+    "archetype": "explosive_aoe",
+    "colorTheme": "kinetic",
+    "aoeRadiusPx": 9,
+    "leavesHazard": "scorch"
+  },
+  {
+    "id": "V08",
+    "archetype": "rail_pierce",
+    "colorTheme": "plasma"
+  },
+  {
+    "id": "V09",
+    "archetype": "cone_flame",
+    "colorTheme": "flame",
+    "leavesHazard": "burn"
+  },
+  {
+    "id": "V10",
+    "archetype": "support_utility",
+    "colorTheme": "heal"
+  },
+  {
+    "id": "V11",
+    "archetype": "support_utility",
+    "colorTheme": "plasma"
+  },
+  {
+    "id": "V12",
+    "archetype": "ballistic_arc",
+    "colorTheme": "kinetic",
+    "aoeRadiusPx": 12,
+    "leavesHazard": "scorch"
+  },
+  {
+    "id": "V13",
+    "archetype": "hitscan_burst",
+    "colorTheme": "kinetic",
+    "burstCount": 4,
+    "aoeRadiusPx": 6
+  },
+  {
+    "id": "V14",
+    "archetype": "hitscan_burst",
+    "colorTheme": "kinetic",
+    "burstCount": 3
+  },
+  {
+    "id": "V15",
+    "archetype": "hitscan_burst",
+    "colorTheme": "kinetic",
+    "burstCount": 2
+  },
+  {
+    "id": "V16",
+    "archetype": "explosive_aoe",
+    "colorTheme": "kinetic",
+    "aoeRadiusPx": 14,
+    "leavesHazard": "scorch"
+  },
+  {
+    "id": "V17",
+    "archetype": "homing_missile",
+    "colorTheme": "kinetic",
+    "burstCount": 2,
+    "aoeRadiusPx": 7
+  },
+  {
+    "id": "V18",
+    "archetype": "rail_pierce",
+    "colorTheme": "plasma"
+  },
+  {
+    "id": "V19",
+    "archetype": "homing_missile",
+    "colorTheme": "kinetic",
+    "burstCount": 2
+  },
+  {
+    "id": "V20",
+    "archetype": "hitscan_burst",
+    "colorTheme": "kinetic",
+    "burstCount": 4
+  },
+  {
+    "id": "V21",
+    "archetype": "ballistic_arc",
+    "colorTheme": "kinetic",
+    "aoeRadiusPx": 14,
+    "leavesHazard": "scorch"
+  },
+  {
+    "id": "V22",
+    "archetype": "homing_missile",
+    "colorTheme": "kinetic",
+    "burstCount": 4,
+    "aoeRadiusPx": 8
+  },
+  {
+    "id": "V23",
+    "archetype": "hitscan_burst",
+    "colorTheme": "kinetic",
+    "burstCount": 2
+  },
+  {
+    "id": "V24",
+    "archetype": "beam_ramp",
+    "colorTheme": "plasma",
+    "rampTiers": [
+      1,
+      2.2,
+      4
+    ],
+    "aoeRadiusPx": 10
+  },
+  {
+    "id": "K01",
+    "archetype": "melee",
+    "colorTheme": "acid"
+  },
+  {
+    "id": "K02",
+    "archetype": "melee",
+    "colorTheme": "earth"
+  },
+  {
+    "id": "K03",
+    "archetype": "support_utility",
+    "colorTheme": "acid"
+  },
+  {
+    "id": "K04",
+    "archetype": "melee",
+    "colorTheme": "earth"
+  },
+  {
+    "id": "K05",
+    "archetype": "melee",
+    "colorTheme": "earth"
+  },
+  {
+    "id": "K06",
+    "archetype": "explosive_aoe",
+    "colorTheme": "acid",
+    "aoeRadiusPx": 13,
+    "leavesHazard": "acid_pool"
+  },
+  {
+    "id": "K07",
+    "archetype": "projectile_dot",
+    "colorTheme": "acid",
+    "leavesHazard": "acid_pool"
+  },
+  {
+    "id": "K08",
+    "archetype": "projectile_dot",
+    "colorTheme": "earth",
+    "burstCount": 3
+  },
+  {
+    "id": "K09",
+    "archetype": "projectile_dot",
+    "colorTheme": "acid",
+    "leavesHazard": "acid_pool"
+  },
+  {
+    "id": "K10",
+    "archetype": "support_utility",
+    "colorTheme": "acid",
+    "aoeRadiusPx": 14
+  },
+  {
+    "id": "K11",
+    "archetype": "beam_ramp",
+    "colorTheme": "acid",
+    "rampTiers": [
+      1,
+      1.8,
+      2.8
+    ]
+  },
+  {
+    "id": "K12",
+    "archetype": "rail_pierce",
+    "colorTheme": "earth"
+  },
+  {
+    "id": "K13",
+    "archetype": "melee",
+    "colorTheme": "earth",
+    "aoeRadiusPx": 8
+  },
+  {
+    "id": "K14",
+    "archetype": "projectile_dot",
+    "colorTheme": "acid",
+    "leavesHazard": "acid_pool"
+  },
+  {
+    "id": "K15",
+    "archetype": "melee",
+    "colorTheme": "earth"
+  },
+  {
+    "id": "K16",
+    "archetype": "melee",
+    "colorTheme": "earth",
+    "aoeRadiusPx": 12
+  },
+  {
+    "id": "K17",
+    "archetype": "ballistic_arc",
+    "colorTheme": "acid",
+    "aoeRadiusPx": 14,
+    "leavesHazard": "acid_pool"
+  },
+  {
+    "id": "K18",
+    "archetype": "melee",
+    "colorTheme": "acid",
+    "aoeRadiusPx": 10
+  },
+  {
+    "id": "K19",
+    "archetype": "projectile_dot",
+    "colorTheme": "acid"
+  },
+  {
+    "id": "K20",
+    "archetype": "projectile_dot",
+    "colorTheme": "acid",
+    "burstCount": 2
+  },
+  {
+    "id": "K21",
+    "archetype": "homing_missile",
+    "colorTheme": "acid",
+    "burstCount": 2
+  },
+  {
+    "id": "K22",
+    "archetype": "swarm_launch",
+    "colorTheme": "acid",
+    "burstCount": 4
+  },
+  {
+    "id": "K23",
+    "archetype": "swarm_launch",
+    "colorTheme": "acid",
+    "burstCount": 6
+  },
+  {
+    "id": "K24",
+    "archetype": "beam_ramp",
+    "colorTheme": "acid",
+    "rampTiers": [
+      1,
+      2,
+      3.5
+    ],
+    "leavesHazard": "acid_pool"
+  },
+  {
+    "id": "S01",
+    "archetype": "support_utility",
+    "colorTheme": "plasma"
+  },
+  {
+    "id": "S02",
+    "archetype": "support_utility",
+    "colorTheme": "plasma"
+  },
+  {
+    "id": "S03",
+    "archetype": "beam_ramp",
+    "colorTheme": "plasma",
+    "rampTiers": [
+      1,
+      1.5,
+      2.2
+    ]
+  },
+  {
+    "id": "S04",
+    "archetype": "melee",
+    "colorTheme": "plasma"
+  },
+  {
+    "id": "S05",
+    "archetype": "melee",
+    "colorTheme": "plasma"
+  },
+  {
+    "id": "S06",
+    "archetype": "melee",
+    "colorTheme": "plasma"
+  },
+  {
+    "id": "S07",
+    "archetype": "chain_arc",
+    "colorTheme": "plasma",
+    "chainBounces": 3
+  },
+  {
+    "id": "S08",
+    "archetype": "rail_pierce",
+    "colorTheme": "plasma"
+  },
+  {
+    "id": "S09",
+    "archetype": "chain_arc",
+    "colorTheme": "plasma",
+    "chainBounces": 2
+  },
+  {
+    "id": "S10",
+    "archetype": "support_utility",
+    "colorTheme": "emp",
+    "aoeRadiusPx": 14
+  },
+  {
+    "id": "S11",
+    "archetype": "melee",
+    "colorTheme": "plasma"
+  },
+  {
+    "id": "S12",
+    "archetype": "support_utility",
+    "colorTheme": "emp",
+    "aoeRadiusPx": 16
+  },
+  {
+    "id": "S13",
+    "archetype": "hitscan_burst",
+    "colorTheme": "plasma",
+    "burstCount": 2
+  },
+  {
+    "id": "S14",
+    "archetype": "hitscan_burst",
+    "colorTheme": "plasma",
+    "burstCount": 3
+  },
+  {
+    "id": "S15",
+    "archetype": "projectile_dot",
+    "colorTheme": "plasma"
+  },
+  {
+    "id": "S16",
+    "archetype": "beam_ramp",
+    "colorTheme": "plasma",
+    "rampTiers": [
+      1,
+      2,
+      3.5
+    ],
+    "aoeRadiusPx": 9
+  },
+  {
+    "id": "S17",
+    "archetype": "explosive_aoe",
+    "colorTheme": "plasma",
+    "aoeRadiusPx": 10
+  },
+  {
+    "id": "S18",
+    "archetype": "beam_ramp",
+    "colorTheme": "plasma",
+    "rampTiers": [
+      1,
+      2.2,
+      3.8
+    ],
+    "aoeRadiusPx": 11
+  },
+  {
+    "id": "S19",
+    "archetype": "hitscan_burst",
+    "colorTheme": "plasma",
+    "burstCount": 2
+  },
+  {
+    "id": "S20",
+    "archetype": "rail_pierce",
+    "colorTheme": "plasma"
+  },
+  {
+    "id": "S21",
+    "archetype": "beam_ramp",
+    "colorTheme": "plasma",
+    "rampTiers": [
+      1,
+      1.8,
+      3.2
+    ]
+  },
+  {
+    "id": "S22",
+    "archetype": "swarm_launch",
+    "colorTheme": "plasma",
+    "burstCount": 6
+  },
+  {
+    "id": "S23",
+    "archetype": "chain_arc",
+    "colorTheme": "plasma",
+    "chainBounces": 4
+  },
+  {
+    "id": "S24",
+    "archetype": "beam_ramp",
+    "colorTheme": "plasma",
+    "rampTiers": [
+      1,
+      2.5,
+      4.5
+    ],
+    "aoeRadiusPx": 14
+  },
+  {
+    "id": "N01",
+    "archetype": "melee",
+    "colorTheme": "earth"
+  },
+  {
+    "id": "N02",
+    "archetype": "melee",
+    "colorTheme": "earth"
+  },
+  {
+    "id": "N03",
+    "archetype": "melee",
+    "colorTheme": "earth"
+  },
+  {
+    "id": "N04",
+    "archetype": "cone_flame",
+    "colorTheme": "flame"
+  },
+  {
+    "id": "N05",
+    "archetype": "melee",
+    "colorTheme": "earth"
+  },
+  {
+    "id": "N06",
+    "archetype": "support_utility",
+    "colorTheme": "emp"
+  },
+  {
+    "id": "N07",
+    "archetype": "melee",
+    "colorTheme": "earth",
+    "aoeRadiusPx": 11
+  },
+  {
+    "id": "N08",
+    "archetype": "cone_flame",
+    "colorTheme": "flame",
+    "aoeRadiusPx": 11,
+    "leavesHazard": "burn"
+  },
+  {
+    "id": "N09",
+    "archetype": "melee",
+    "colorTheme": "plasma"
+  },
+  {
+    "id": "N10",
+    "archetype": "projectile_dot",
+    "colorTheme": "earth",
+    "aoeRadiusPx": 8
+  },
+  {
+    "id": "N11",
+    "archetype": "beam_ramp",
+    "colorTheme": "flame",
+    "rampTiers": [
+      1,
+      1.9,
+      3.2
+    ]
+  },
+  {
+    "id": "N12",
+    "archetype": "hitscan_burst",
+    "colorTheme": "kinetic",
+    "burstCount": 4
+  }
+]

@@ -9017,6 +9017,46 @@
       "height": 512,
       "bytes": 35796,
       "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+    },
+    "run-micro-rts/2D/space-scifi": {
+      "kind": "derived",
+      "licenseEvidence": "run-micro-rts/2D/space-scifi/License.txt",
+      "sourceUrl": "https://github.com/series-ai/run-workshop/tree/main/tools/micro-rts",
+      "sourcePath": "scripts/preview-inputs/run-micro-rts--2D--space-scifi.png",
+      "sourceSha256": "ec4b723b7c8dcaf5753186a3a5b8a19ce1f6708744f3865493183aa7cb8868b5",
+      "description": "Square pixel-art preview of RUN Micro-RTS combining a combined-arms battle scene, grounded faction buildings, and 4 planet biome tilesets.",
+      "gallery": [
+        "Samples/battle-scene.png",
+        "Samples/buildings-overview.png",
+        "Samples/environment-biomes.png",
+        "Samples/environment-objects.png",
+        "Samples/neutral-units.png",
+        "Samples/combat-vfx.png"
+      ],
+      "outputSha256": "0efafce18fbae88e8a8bc5420ef183dd47ba3e048a79c8a21088804ee1e47c54",
+      "outputSourceSha256": "ec4b723b7c8dcaf5753186a3a5b8a19ce1f6708744f3865493183aa7cb8868b5",
+      "width": 512,
+      "height": 512,
+      "bytes": 89876,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
+    },
+    "run-micro-rts/ui": {
+      "kind": "derived",
+      "licenseEvidence": "run-micro-rts/ui/License.txt",
+      "sourceUrl": "https://github.com/series-ai/run-workshop/tree/main/tools/micro-rts",
+      "sourcePath": "scripts/preview-inputs/run-micro-rts--ui.png",
+      "sourceSha256": "4ae2607e319efff49c16b1c6c2f2f82275c604269ecfbec7d27e9968cecff876",
+      "description": "Square pixel-art preview of RUN Micro-RTS UI chrome showing 4x4 perspective selection rings, 8 tactical cursors, 5 world order markers, and 12 HUD icons.",
+      "gallery": [
+        "Samples/ui-chrome-showcase.png",
+        "Samples/ui-chrome-overview.png"
+      ],
+      "outputSha256": "24bb65da18831463a0eeefe50d804602e9be5773d00f9dec66bc444c029ec5c3",
+      "outputSourceSha256": "4ae2607e319efff49c16b1c6c2f2f82275c604269ecfbec7d27e9968cecff876",
+      "width": 512,
+      "height": 512,
+      "bytes": 18570,
+      "recipe": "sharp-0.34.5-webp-1.6.0-512-fit-inside-q85-75-65-v1-frame0"
     }
   }
 }

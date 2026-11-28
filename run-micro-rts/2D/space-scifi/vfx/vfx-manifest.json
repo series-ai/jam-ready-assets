@@ -1,0 +1,192 @@
+[
+  {
+    "id": "proj-shell",
+    "name": "Tank Shell / Slug",
+    "category": "projectile",
+    "outline": true,
+    "cellW": 6,
+    "cellH": 5,
+    "frames": 2,
+    "sheet": "proj-shell.png"
+  },
+  {
+    "id": "proj-missile",
+    "name": "Homing Missile",
+    "category": "projectile",
+    "outline": true,
+    "cellW": 6,
+    "cellH": 3,
+    "frames": 2,
+    "sheet": "proj-missile.png"
+  },
+  {
+    "id": "proj-mortar",
+    "name": "Artillery Bomb",
+    "category": "projectile",
+    "outline": true,
+    "cellW": 6,
+    "cellH": 6,
+    "frames": 2,
+    "sheet": "proj-mortar.png"
+  },
+  {
+    "id": "proj-acid",
+    "name": "Corrosive Acid Glob",
+    "category": "projectile",
+    "outline": true,
+    "cellW": 7,
+    "cellH": 5,
+    "frames": 2,
+    "sheet": "proj-acid.png"
+  },
+  {
+    "id": "proj-quill",
+    "name": "Bone Spine Dart",
+    "category": "projectile",
+    "outline": true,
+    "cellW": 7,
+    "cellH": 5,
+    "frames": 1,
+    "sheet": "proj-quill.png"
+  },
+  {
+    "id": "proj-plasma",
+    "name": "Solaris Plasma Orb",
+    "category": "projectile",
+    "outline": true,
+    "cellW": 6,
+    "cellH": 5,
+    "frames": 2,
+    "sheet": "proj-plasma.png"
+  },
+  {
+    "id": "proj-interceptor",
+    "name": "Micro-Interceptor (4x4)",
+    "category": "projectile",
+    "outline": true,
+    "cellW": 6,
+    "cellH": 5,
+    "frames": 2,
+    "sheet": "proj-interceptor.png"
+  },
+  {
+    "id": "slash-claw",
+    "name": "Bone Claw Cleave",
+    "category": "slash",
+    "outline": false,
+    "cellW": 11,
+    "cellH": 11,
+    "frames": 4,
+    "sheet": "slash-claw.png"
+  },
+  {
+    "id": "slash-psi",
+    "name": "Psi-Blade Arc",
+    "category": "slash",
+    "outline": false,
+    "cellW": 11,
+    "cellH": 11,
+    "frames": 4,
+    "sheet": "slash-psi.png"
+  },
+  {
+    "id": "slash-slam",
+    "name": "Seismic Ground Slam",
+    "category": "slash",
+    "outline": false,
+    "cellW": 14,
+    "cellH": 7,
+    "frames": 3,
+    "sheet": "slash-slam.png"
+  },
+  {
+    "id": "fx-hitscan-spark",
+    "name": "Hitscan Impact Spark",
+    "category": "explosion",
+    "outline": false,
+    "cellW": 3,
+    "cellH": 3,
+    "frames": 3,
+    "sheet": "fx-hitscan-spark.png"
+  },
+  {
+    "id": "fx-explosion-sm",
+    "name": "Small Explosion",
+    "category": "explosion",
+    "outline": false,
+    "cellW": 7,
+    "cellH": 3,
+    "frames": 4,
+    "sheet": "fx-explosion-sm.png"
+  },
+  {
+    "id": "fx-explosion-lg",
+    "name": "AOE Artillery Blast",
+    "category": "explosion",
+    "outline": false,
+    "cellW": 9,
+    "cellH": 5,
+    "frames": 5,
+    "sheet": "fx-explosion-lg.png"
+  },
+  {
+    "id": "fx-acid-splash",
+    "name": "Acid Splash & Puddle",
+    "category": "explosion",
+    "outline": false,
+    "cellW": 9,
+    "cellH": 5,
+    "frames": 4,
+    "sheet": "fx-acid-splash.png"
+  },
+  {
+    "id": "fx-psi-burst",
+    "name": "Plasma / Psi Burst",
+    "category": "explosion",
+    "outline": false,
+    "cellW": 9,
+    "cellH": 5,
+    "frames": 4,
+    "sheet": "fx-psi-burst.png"
+  },
+  {
+    "id": "fx-shield-ripple",
+    "name": "Shield Absorb Ripple",
+    "category": "status",
+    "outline": false,
+    "cellW": 8,
+    "cellH": 5,
+    "frames": 3,
+    "sheet": "fx-shield-ripple.png"
+  },
+  {
+    "id": "fx-emp-nova",
+    "name": "EMP / Null Shockwave",
+    "category": "status",
+    "outline": false,
+    "cellW": 13,
+    "cellH": 5,
+    "frames": 3,
+    "sheet": "fx-emp-nova.png"
+  },
+  {
+    "id": "fx-heal-plus",
+    "name": "Heal / Repair Cross",
+    "category": "status",
+    "outline": false,
+    "cellW": 5,
+    "cellH": 5,
+    "frames": 3,
+    "sheet": "fx-heal-plus.png"
+  },
+  {
+    "id": "fx-smoke-puff",
+    "name": "Missile Contrail Specks",
+    "category": "status",
+    "outline": false,
+    "cellW": 3,
+    "cellH": 3,
+    "frames": 4,
+    "sheet": "fx-smoke-puff.png"
+  }
+]

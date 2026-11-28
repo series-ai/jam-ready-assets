@@ -1,0 +1,30 @@
+{
+  "id": "micro-rts",
+  "name": "RUN Micro-RTS",
+  "version": "0.1.0",
+  "pixelGrid": "8x8",
+  "factions": [
+    "vanguard",
+    "kraxen",
+    "solaris",
+    "neutral"
+  ],
+  "counts": {
+    "factionUnits": 72,
+    "factionTwoLayerUnits": 12,
+    "buildings": 24,
+    "biomes": 4,
+    "terrainObjects": 31,
+    "neutralUnits": 12,
+    "neutralTwoLayerUnits": 2,
+    "vfxStrips": 19,
+    "unitAttackProfiles": 84
+  },
+  "manifests": {
+    "units": "units/roster-manifest.json",
+    "buildings": "buildings/buildings-manifest.json",
+    "environment": "environment/env-manifest.json",
+    "vfx": "vfx/vfx-manifest.json",
+    "unitAttacks": "vfx/unit-attacks.json"
+  }
+}
