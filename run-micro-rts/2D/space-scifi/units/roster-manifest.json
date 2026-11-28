@@ -1,0 +1,5680 @@
+[
+  {
+    "id": "V01",
+    "name": "Rig-Bot",
+    "faction": "vanguard",
+    "role": "Worker",
+    "layer": "ground",
+    "twoLayer": false,
+    "special": "worker",
+    "source": "rig-baked",
+    "cellW": 14,
+    "cellH": 12,
+    "cols": 12,
+    "sheet": "units/vanguard/V01-rig-bot-8way.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        0
+      ],
+      "NE": [
+        0,
+        0
+      ],
+      "E": [
+        0,
+        0
+      ],
+      "SE": [
+        0,
+        0
+      ],
+      "S": [
+        0,
+        0
+      ],
+      "SW": [
+        0,
+        0
+      ],
+      "W": [
+        0,
+        0
+      ],
+      "NW": [
+        0,
+        0
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        7,
+        8
+      ],
+      "NE": [
+        7,
+        8
+      ],
+      "E": [
+        7,
+        8
+      ],
+      "SE": [
+        7,
+        8
+      ],
+      "S": [
+        7,
+        8
+      ],
+      "SW": [
+        7,
+        8
+      ],
+      "W": [
+        7,
+        8
+      ],
+      "NW": [
+        7,
+        8
+      ]
+    }
+  },
+  {
+    "id": "V02",
+    "name": "Hover-Mule",
+    "faction": "vanguard",
+    "role": "Worker",
+    "layer": "ground",
+    "twoLayer": false,
+    "special": "worker",
+    "source": "rig-baked",
+    "cellW": 18,
+    "cellH": 15,
+    "cols": 12,
+    "sheet": "units/vanguard/V02-hover-mule-8way.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        -7
+      ],
+      "NE": [
+        4,
+        -5
+      ],
+      "E": [
+        6,
+        -3
+      ],
+      "SE": [
+        4,
+        0
+      ],
+      "S": [
+        0,
+        1
+      ],
+      "SW": [
+        -4,
+        0
+      ],
+      "W": [
+        -6,
+        -3
+      ],
+      "NW": [
+        -4,
+        -5
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        9,
+        4
+      ],
+      "NE": [
+        13,
+        6
+      ],
+      "E": [
+        15,
+        8
+      ],
+      "SE": [
+        13,
+        11
+      ],
+      "S": [
+        9,
+        12
+      ],
+      "SW": [
+        5,
+        11
+      ],
+      "W": [
+        3,
+        8
+      ],
+      "NW": [
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "id": "V03",
+    "name": "Exo-Engi",
+    "faction": "vanguard",
+    "role": "Worker",
+    "layer": "ground",
+    "twoLayer": false,
+    "special": "worker",
+    "source": "rig-baked",
+    "cellW": 16,
+    "cellH": 14,
+    "cols": 12,
+    "sheet": "units/vanguard/V03-exo-engi-8way.png",
+    "muzzleRel8": {
+      "N": [
+        2,
+        -8
+      ],
+      "NE": [
+        5,
+        -6
+      ],
+      "E": [
+        5,
+        -3
+      ],
+      "SE": [
+        3,
+        0
+      ],
+      "S": [
+        -1,
+        0
+      ],
+      "SW": [
+        -5,
+        -1
+      ],
+      "W": [
+        -6,
+        -4
+      ],
+      "NW": [
+        -3,
+        -7
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        10,
+        2
+      ],
+      "NE": [
+        13,
+        4
+      ],
+      "E": [
+        13,
+        7
+      ],
+      "SE": [
+        11,
+        10
+      ],
+      "S": [
+        7,
+        10
+      ],
+      "SW": [
+        3,
+        9
+      ],
+      "W": [
+        2,
+        6
+      ],
+      "NW": [
+        5,
+        3
+      ]
+    }
+  },
+  {
+    "id": "V04",
+    "name": "Trooper",
+    "faction": "vanguard",
+    "role": "Tier-1 Line",
+    "layer": "ground",
+    "twoLayer": false,
+    "source": "rig-baked",
+    "cellW": 16,
+    "cellH": 14,
+    "cols": 12,
+    "sheet": "units/vanguard/V04-trooper-8way.png",
+    "muzzleRel8": {
+      "N": [
+        1,
+        -8
+      ],
+      "NE": [
+        5,
+        -6
+      ],
+      "E": [
+        5,
+        -3
+      ],
+      "SE": [
+        3,
+        0
+      ],
+      "S": [
+        -1,
+        0
+      ],
+      "SW": [
+        -5,
+        -1
+      ],
+      "W": [
+        -6,
+        -4
+      ],
+      "NW": [
+        -3,
+        -7
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        9,
+        2
+      ],
+      "NE": [
+        13,
+        4
+      ],
+      "E": [
+        13,
+        7
+      ],
+      "SE": [
+        11,
+        10
+      ],
+      "S": [
+        7,
+        10
+      ],
+      "SW": [
+        3,
+        9
+      ],
+      "W": [
+        2,
+        6
+      ],
+      "NW": [
+        5,
+        3
+      ]
+    }
+  },
+  {
+    "id": "V05",
+    "name": "Breacher",
+    "faction": "vanguard",
+    "role": "Tier-1 Line",
+    "layer": "ground",
+    "twoLayer": false,
+    "source": "rig-baked",
+    "cellW": 17,
+    "cellH": 14,
+    "cols": 12,
+    "sheet": "units/vanguard/V05-breacher-8way.png",
+    "muzzleRel8": {
+      "N": [
+        3,
+        -8
+      ],
+      "NE": [
+        6,
+        -5
+      ],
+      "E": [
+        6,
+        -2
+      ],
+      "SE": [
+        3,
+        0
+      ],
+      "S": [
+        -2,
+        0
+      ],
+      "SW": [
+        -5,
+        -2
+      ],
+      "W": [
+        -5,
+        -5
+      ],
+      "NW": [
+        -2,
+        -8
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        11,
+        2
+      ],
+      "NE": [
+        14,
+        5
+      ],
+      "E": [
+        14,
+        8
+      ],
+      "SE": [
+        11,
+        10
+      ],
+      "S": [
+        6,
+        10
+      ],
+      "SW": [
+        3,
+        8
+      ],
+      "W": [
+        3,
+        5
+      ],
+      "NW": [
+        6,
+        2
+      ]
+    }
+  },
+  {
+    "id": "V06",
+    "name": "Drop-Scout",
+    "faction": "vanguard",
+    "role": "Tier-1 Line",
+    "layer": "ground",
+    "twoLayer": false,
+    "source": "rig-baked",
+    "cellW": 17,
+    "cellH": 14,
+    "cols": 12,
+    "sheet": "units/vanguard/V06-drop-scout-8way.png",
+    "muzzleRel8": {
+      "N": [
+        3,
+        -8
+      ],
+      "NE": [
+        5,
+        -6
+      ],
+      "E": [
+        6,
+        -3
+      ],
+      "SE": [
+        4,
+        0
+      ],
+      "S": [
+        -1,
+        0
+      ],
+      "SW": [
+        -4,
+        -2
+      ],
+      "W": [
+        -5,
+        -4
+      ],
+      "NW": [
+        -3,
+        -7
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        11,
+        2
+      ],
+      "NE": [
+        13,
+        4
+      ],
+      "E": [
+        14,
+        7
+      ],
+      "SE": [
+        12,
+        10
+      ],
+      "S": [
+        7,
+        10
+      ],
+      "SW": [
+        4,
+        8
+      ],
+      "W": [
+        3,
+        6
+      ],
+      "NW": [
+        5,
+        3
+      ]
+    }
+  },
+  {
+    "id": "V07",
+    "name": "Heavy",
+    "faction": "vanguard",
+    "role": "Ranged",
+    "layer": "ground",
+    "twoLayer": false,
+    "source": "rig-baked",
+    "cellW": 17,
+    "cellH": 14,
+    "cols": 12,
+    "sheet": "units/vanguard/V07-heavy-8way.png",
+    "muzzleRel8": {
+      "N": [
+        2,
+        -9
+      ],
+      "NE": [
+        6,
+        -7
+      ],
+      "E": [
+        6,
+        -4
+      ],
+      "SE": [
+        4,
+        -2
+      ],
+      "S": [
+        -1,
+        -1
+      ],
+      "SW": [
+        -5,
+        -3
+      ],
+      "W": [
+        -5,
+        -6
+      ],
+      "NW": [
+        -2,
+        -9
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        10,
+        1
+      ],
+      "NE": [
+        14,
+        3
+      ],
+      "E": [
+        14,
+        6
+      ],
+      "SE": [
+        12,
+        8
+      ],
+      "S": [
+        7,
+        9
+      ],
+      "SW": [
+        3,
+        7
+      ],
+      "W": [
+        3,
+        4
+      ],
+      "NW": [
+        6,
+        1
+      ]
+    }
+  },
+  {
+    "id": "V08",
+    "name": "Rail-Sniper",
+    "faction": "vanguard",
+    "role": "Ranged",
+    "layer": "ground",
+    "twoLayer": false,
+    "source": "rig-baked",
+    "cellW": 18,
+    "cellH": 14,
+    "cols": 12,
+    "sheet": "units/vanguard/V08-rail-sniper-8way.png",
+    "muzzleRel8": {
+      "N": [
+        1,
+        -8
+      ],
+      "NE": [
+        6,
+        -6
+      ],
+      "E": [
+        7,
+        -3
+      ],
+      "SE": [
+        4,
+        0
+      ],
+      "S": [
+        -1,
+        1
+      ],
+      "SW": [
+        -6,
+        -1
+      ],
+      "W": [
+        -7,
+        -5
+      ],
+      "NW": [
+        -4,
+        -8
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        10,
+        2
+      ],
+      "NE": [
+        15,
+        4
+      ],
+      "E": [
+        16,
+        7
+      ],
+      "SE": [
+        13,
+        10
+      ],
+      "S": [
+        8,
+        11
+      ],
+      "SW": [
+        3,
+        9
+      ],
+      "W": [
+        2,
+        5
+      ],
+      "NW": [
+        5,
+        2
+      ]
+    }
+  },
+  {
+    "id": "V09",
+    "name": "Flamer-Exo",
+    "faction": "vanguard",
+    "role": "Ranged",
+    "layer": "ground",
+    "twoLayer": false,
+    "source": "rig-baked",
+    "cellW": 17,
+    "cellH": 14,
+    "cols": 12,
+    "sheet": "units/vanguard/V09-flamer-exo-8way.png",
+    "muzzleRel8": {
+      "N": [
+        2,
+        -8
+      ],
+      "NE": [
+        6,
+        -6
+      ],
+      "E": [
+        6,
+        -3
+      ],
+      "SE": [
+        4,
+        0
+      ],
+      "S": [
+        -1,
+        1
+      ],
+      "SW": [
+        -5,
+        -1
+      ],
+      "W": [
+        -6,
+        -4
+      ],
+      "NW": [
+        -4,
+        -7
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        10,
+        2
+      ],
+      "NE": [
+        14,
+        4
+      ],
+      "E": [
+        14,
+        7
+      ],
+      "SE": [
+        12,
+        10
+      ],
+      "S": [
+        7,
+        11
+      ],
+      "SW": [
+        3,
+        9
+      ],
+      "W": [
+        2,
+        6
+      ],
+      "NW": [
+        4,
+        3
+      ]
+    }
+  },
+  {
+    "id": "V10",
+    "name": "Field Medic",
+    "faction": "vanguard",
+    "role": "Specialist",
+    "layer": "ground",
+    "twoLayer": false,
+    "source": "rig-baked",
+    "cellW": 17,
+    "cellH": 15,
+    "cols": 12,
+    "sheet": "units/vanguard/V10-field-medic-8way.png",
+    "muzzleRel8": {
+      "N": [
+        -1,
+        -8
+      ],
+      "NE": [
+        4,
+        -7
+      ],
+      "E": [
+        6,
+        -5
+      ],
+      "SE": [
+        5,
+        -2
+      ],
+      "S": [
+        2,
+        0
+      ],
+      "SW": [
+        -3,
+        -1
+      ],
+      "W": [
+        -5,
+        -3
+      ],
+      "NW": [
+        -4,
+        -6
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        7,
+        3
+      ],
+      "NE": [
+        12,
+        4
+      ],
+      "E": [
+        14,
+        6
+      ],
+      "SE": [
+        13,
+        9
+      ],
+      "S": [
+        10,
+        11
+      ],
+      "SW": [
+        5,
+        10
+      ],
+      "W": [
+        3,
+        8
+      ],
+      "NW": [
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "id": "V11",
+    "name": "Aegis Drone",
+    "faction": "vanguard",
+    "role": "Specialist",
+    "layer": "air",
+    "twoLayer": false,
+    "source": "rig-baked",
+    "cellW": 18,
+    "cellH": 16,
+    "cols": 12,
+    "sheet": "units/vanguard/V11-aegis-drone-8way.png",
+    "muzzleRel8": {
+      "N": [
+        2,
+        -4
+      ],
+      "NE": [
+        2,
+        -4
+      ],
+      "E": [
+        2,
+        -4
+      ],
+      "SE": [
+        2,
+        -5
+      ],
+      "S": [
+        2,
+        -4
+      ],
+      "SW": [
+        2,
+        -5
+      ],
+      "W": [
+        2,
+        -4
+      ],
+      "NW": [
+        2,
+        -5
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        11,
+        5
+      ],
+      "NE": [
+        11,
+        5
+      ],
+      "E": [
+        11,
+        5
+      ],
+      "SE": [
+        11,
+        4
+      ],
+      "S": [
+        11,
+        5
+      ],
+      "SW": [
+        11,
+        4
+      ],
+      "W": [
+        11,
+        5
+      ],
+      "NW": [
+        11,
+        4
+      ]
+    }
+  },
+  {
+    "id": "V12",
+    "name": "Mortar-Rig",
+    "faction": "vanguard",
+    "role": "Specialist",
+    "layer": "ground",
+    "twoLayer": true,
+    "source": "rig-baked",
+    "cellW": 18,
+    "cellH": 17,
+    "cols": 12,
+    "sheet": "units/vanguard/V12-mortar-rig-8way.png",
+    "hullSheet": "units/vanguard/V12-mortar-rig-hull.png",
+    "turretSheet": "units/vanguard/V12-mortar-rig-turret.png",
+    "shadowSheet": "units/vanguard/V12-mortar-rig-shadow.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        -12
+      ],
+      "NE": [
+        4,
+        -11
+      ],
+      "E": [
+        6,
+        -9
+      ],
+      "SE": [
+        4,
+        -7
+      ],
+      "S": [
+        0,
+        -5
+      ],
+      "SW": [
+        -4,
+        -7
+      ],
+      "W": [
+        -6,
+        -9
+      ],
+      "NW": [
+        -4,
+        -11
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        9,
+        1
+      ],
+      "NE": [
+        13,
+        2
+      ],
+      "E": [
+        15,
+        4
+      ],
+      "SE": [
+        13,
+        6
+      ],
+      "S": [
+        9,
+        8
+      ],
+      "SW": [
+        5,
+        6
+      ],
+      "W": [
+        3,
+        4
+      ],
+      "NW": [
+        5,
+        2
+      ]
+    }
+  },
+  {
+    "id": "V13",
+    "name": "Flak Halftrack",
+    "faction": "vanguard",
+    "role": "Raider / AA",
+    "layer": "ground",
+    "twoLayer": true,
+    "source": "rig-baked",
+    "cellW": 21,
+    "cellH": 18,
+    "cols": 12,
+    "sheet": "units/vanguard/V13-flak-halftrack-8way.png",
+    "hullSheet": "units/vanguard/V13-flak-halftrack-hull.png",
+    "turretSheet": "units/vanguard/V13-flak-halftrack-turret.png",
+    "shadowSheet": "units/vanguard/V13-flak-halftrack-shadow.png",
+    "muzzleRel8": {
+      "N": [
+        1,
+        -13
+      ],
+      "NE": [
+        6,
+        -11
+      ],
+      "E": [
+        8,
+        -8
+      ],
+      "SE": [
+        6,
+        -4
+      ],
+      "S": [
+        1,
+        -2
+      ],
+      "SW": [
+        -5,
+        -4
+      ],
+      "W": [
+        -8,
+        -8
+      ],
+      "NW": [
+        -5,
+        -11
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        11,
+        1
+      ],
+      "NE": [
+        16,
+        3
+      ],
+      "E": [
+        18,
+        6
+      ],
+      "SE": [
+        16,
+        10
+      ],
+      "S": [
+        11,
+        12
+      ],
+      "SW": [
+        5,
+        10
+      ],
+      "W": [
+        2,
+        6
+      ],
+      "NW": [
+        5,
+        3
+      ]
+    }
+  },
+  {
+    "id": "V14",
+    "name": "Strider Mech",
+    "faction": "vanguard",
+    "role": "Raider / AA",
+    "layer": "ground",
+    "twoLayer": true,
+    "source": "rig-baked",
+    "cellW": 19,
+    "cellH": 20,
+    "cols": 12,
+    "sheet": "units/vanguard/V14-strider-mech-8way.png",
+    "hullSheet": "units/vanguard/V14-strider-mech-hull.png",
+    "turretSheet": "units/vanguard/V14-strider-mech-turret.png",
+    "shadowSheet": "units/vanguard/V14-strider-mech-shadow.png",
+    "muzzleRel8": {
+      "N": [
+        1,
+        -12
+      ],
+      "NE": [
+        6,
+        -11
+      ],
+      "E": [
+        7,
+        -8
+      ],
+      "SE": [
+        5,
+        -4
+      ],
+      "S": [
+        1,
+        -3
+      ],
+      "SW": [
+        -4,
+        -4
+      ],
+      "W": [
+        -6,
+        -8
+      ],
+      "NW": [
+        -5,
+        -11
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        10,
+        3
+      ],
+      "NE": [
+        15,
+        4
+      ],
+      "E": [
+        16,
+        7
+      ],
+      "SE": [
+        14,
+        11
+      ],
+      "S": [
+        10,
+        12
+      ],
+      "SW": [
+        5,
+        11
+      ],
+      "W": [
+        3,
+        7
+      ],
+      "NW": [
+        4,
+        4
+      ]
+    }
+  },
+  {
+    "id": "V15",
+    "name": "Hover-Trike",
+    "faction": "vanguard",
+    "role": "Raider / AA",
+    "layer": "ground",
+    "twoLayer": false,
+    "source": "rig-baked",
+    "cellW": 21,
+    "cellH": 16,
+    "cols": 12,
+    "sheet": "units/vanguard/V15-hover-trike-8way.png",
+    "muzzleRel8": {
+      "N": [
+        1,
+        -8
+      ],
+      "NE": [
+        6,
+        -5
+      ],
+      "E": [
+        8,
+        -2
+      ],
+      "SE": [
+        6,
+        1
+      ],
+      "S": [
+        1,
+        2
+      ],
+      "SW": [
+        -5,
+        1
+      ],
+      "W": [
+        -7,
+        -2
+      ],
+      "NW": [
+        -5,
+        -6
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        11,
+        4
+      ],
+      "NE": [
+        16,
+        7
+      ],
+      "E": [
+        18,
+        10
+      ],
+      "SE": [
+        16,
+        13
+      ],
+      "S": [
+        11,
+        14
+      ],
+      "SW": [
+        5,
+        13
+      ],
+      "W": [
+        3,
+        10
+      ],
+      "NW": [
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "id": "V16",
+    "name": "Siege Tank",
+    "faction": "vanguard",
+    "role": "Heavy Ground",
+    "layer": "ground",
+    "twoLayer": true,
+    "source": "hand-authored",
+    "cellW": 24,
+    "cellH": 22,
+    "cols": 12,
+    "sheet": "units/vanguard/V16-siege-tank-8way.png",
+    "hullSheet": "units/vanguard/V16-siege-tank-hull.png",
+    "turretSheet": "units/vanguard/V16-siege-tank-turret.png",
+    "shadowSheet": "units/vanguard/V16-siege-tank-shadow.png",
+    "muzzleRel8": {
+      "N": [
+        -1,
+        -6
+      ],
+      "NE": [
+        8,
+        -6
+      ],
+      "E": [
+        8,
+        -2
+      ],
+      "SE": [
+        7,
+        3
+      ],
+      "S": [
+        -1,
+        9
+      ],
+      "SW": [
+        -8,
+        3
+      ],
+      "W": [
+        -9,
+        -2
+      ],
+      "NW": [
+        -9,
+        -6
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        11,
+        2
+      ],
+      "NE": [
+        20,
+        3
+      ],
+      "E": [
+        21,
+        7
+      ],
+      "SE": [
+        19,
+        12
+      ],
+      "S": [
+        11,
+        17
+      ],
+      "SW": [
+        4,
+        12
+      ],
+      "W": [
+        2,
+        7
+      ],
+      "NW": [
+        3,
+        3
+      ]
+    }
+  },
+  {
+    "id": "V17",
+    "name": "Goliath Walker",
+    "faction": "vanguard",
+    "role": "Heavy Ground",
+    "layer": "ground",
+    "twoLayer": true,
+    "source": "rig-baked",
+    "cellW": 23,
+    "cellH": 23,
+    "cols": 12,
+    "sheet": "units/vanguard/V17-goliath-walker-8way.png",
+    "hullSheet": "units/vanguard/V17-goliath-walker-hull.png",
+    "turretSheet": "units/vanguard/V17-goliath-walker-turret.png",
+    "shadowSheet": "units/vanguard/V17-goliath-walker-shadow.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        -15
+      ],
+      "NE": [
+        6,
+        -13
+      ],
+      "E": [
+        8,
+        -9
+      ],
+      "SE": [
+        6,
+        -5
+      ],
+      "S": [
+        1,
+        -4
+      ],
+      "SW": [
+        -5,
+        -5
+      ],
+      "W": [
+        -7,
+        -9
+      ],
+      "NW": [
+        -6,
+        -12
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        11,
+        3
+      ],
+      "NE": [
+        17,
+        5
+      ],
+      "E": [
+        19,
+        9
+      ],
+      "SE": [
+        17,
+        13
+      ],
+      "S": [
+        12,
+        14
+      ],
+      "SW": [
+        6,
+        13
+      ],
+      "W": [
+        4,
+        9
+      ],
+      "NW": [
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "id": "V18",
+    "name": "Rail-Crawler",
+    "faction": "vanguard",
+    "role": "Heavy Ground",
+    "layer": "ground",
+    "twoLayer": true,
+    "source": "rig-baked",
+    "cellW": 26,
+    "cellH": 21,
+    "cols": 12,
+    "sheet": "units/vanguard/V18-rail-crawler-8way.png",
+    "hullSheet": "units/vanguard/V18-rail-crawler-hull.png",
+    "turretSheet": "units/vanguard/V18-rail-crawler-turret.png",
+    "shadowSheet": "units/vanguard/V18-rail-crawler-shadow.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        -13
+      ],
+      "NE": [
+        7,
+        -11
+      ],
+      "E": [
+        10,
+        -6
+      ],
+      "SE": [
+        8,
+        -1
+      ],
+      "S": [
+        0,
+        1
+      ],
+      "SW": [
+        -8,
+        -1
+      ],
+      "W": [
+        -11,
+        -6
+      ],
+      "NW": [
+        -8,
+        -11
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        13,
+        3
+      ],
+      "NE": [
+        20,
+        5
+      ],
+      "E": [
+        23,
+        10
+      ],
+      "SE": [
+        21,
+        15
+      ],
+      "S": [
+        13,
+        17
+      ],
+      "SW": [
+        5,
+        15
+      ],
+      "W": [
+        2,
+        10
+      ],
+      "NW": [
+        5,
+        5
+      ]
+    }
+  },
+  {
+    "id": "V19",
+    "name": "Dart Fighter",
+    "faction": "vanguard",
+    "role": "Light Air",
+    "layer": "air",
+    "twoLayer": false,
+    "source": "rig-baked",
+    "cellW": 18,
+    "cellH": 16,
+    "cols": 12,
+    "sheet": "units/vanguard/V19-dart-fighter-8way.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        -7
+      ],
+      "NE": [
+        5,
+        -7
+      ],
+      "E": [
+        6,
+        -4
+      ],
+      "SE": [
+        5,
+        0
+      ],
+      "S": [
+        0,
+        1
+      ],
+      "SW": [
+        -5,
+        0
+      ],
+      "W": [
+        -7,
+        -3
+      ],
+      "NW": [
+        -5,
+        -7
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        9,
+        2
+      ],
+      "NE": [
+        14,
+        2
+      ],
+      "E": [
+        15,
+        5
+      ],
+      "SE": [
+        14,
+        9
+      ],
+      "S": [
+        9,
+        10
+      ],
+      "SW": [
+        4,
+        9
+      ],
+      "W": [
+        2,
+        6
+      ],
+      "NW": [
+        4,
+        2
+      ]
+    }
+  },
+  {
+    "id": "V20",
+    "name": "Wasp Rotor",
+    "faction": "vanguard",
+    "role": "Light Air",
+    "layer": "air",
+    "twoLayer": false,
+    "special": "rotor",
+    "source": "rig-baked",
+    "cellW": 18,
+    "cellH": 16,
+    "cols": 12,
+    "sheet": "units/vanguard/V20-wasp-rotor-8way.png",
+    "overlaySheet": "units/vanguard/V20-wasp-rotor-rotors.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        -7
+      ],
+      "NE": [
+        4,
+        -6
+      ],
+      "E": [
+        6,
+        -3
+      ],
+      "SE": [
+        4,
+        0
+      ],
+      "S": [
+        0,
+        2
+      ],
+      "SW": [
+        -4,
+        0
+      ],
+      "W": [
+        -6,
+        -3
+      ],
+      "NW": [
+        -4,
+        -6
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        9,
+        2
+      ],
+      "NE": [
+        13,
+        3
+      ],
+      "E": [
+        15,
+        6
+      ],
+      "SE": [
+        13,
+        9
+      ],
+      "S": [
+        9,
+        11
+      ],
+      "SW": [
+        5,
+        9
+      ],
+      "W": [
+        3,
+        6
+      ],
+      "NW": [
+        5,
+        3
+      ]
+    }
+  },
+  {
+    "id": "V21",
+    "name": "Bomber Wing",
+    "faction": "vanguard",
+    "role": "Light Air",
+    "layer": "air",
+    "twoLayer": false,
+    "source": "rig-baked",
+    "cellW": 21,
+    "cellH": 17,
+    "cols": 12,
+    "sheet": "units/vanguard/V21-bomber-wing-8way.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        -2
+      ],
+      "NE": [
+        1,
+        -3
+      ],
+      "E": [
+        2,
+        -2
+      ],
+      "SE": [
+        1,
+        -2
+      ],
+      "S": [
+        1,
+        -2
+      ],
+      "SW": [
+        0,
+        -1
+      ],
+      "W": [
+        -1,
+        -2
+      ],
+      "NW": [
+        0,
+        -3
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        10,
+        7
+      ],
+      "NE": [
+        11,
+        6
+      ],
+      "E": [
+        12,
+        7
+      ],
+      "SE": [
+        11,
+        7
+      ],
+      "S": [
+        11,
+        7
+      ],
+      "SW": [
+        10,
+        8
+      ],
+      "W": [
+        9,
+        7
+      ],
+      "NW": [
+        10,
+        6
+      ]
+    }
+  },
+  {
+    "id": "V22",
+    "name": "Valkyrie",
+    "faction": "vanguard",
+    "role": "Heavy Air",
+    "layer": "air",
+    "twoLayer": false,
+    "source": "hand-authored",
+    "cellW": 20,
+    "cellH": 16,
+    "cols": 12,
+    "sheet": "units/vanguard/V22-valkyrie-8way.png"
+  },
+  {
+    "id": "V23",
+    "name": "Drop-Barge",
+    "faction": "vanguard",
+    "role": "Heavy Air",
+    "layer": "air",
+    "twoLayer": false,
+    "source": "rig-baked",
+    "cellW": 26,
+    "cellH": 20,
+    "cols": 12,
+    "sheet": "units/vanguard/V23-drop-barge-8way.png",
+    "muzzleRel8": {
+      "N": [
+        1,
+        -10
+      ],
+      "NE": [
+        7,
+        -8
+      ],
+      "E": [
+        9,
+        -3
+      ],
+      "SE": [
+        7,
+        1
+      ],
+      "S": [
+        0,
+        3
+      ],
+      "SW": [
+        -7,
+        1
+      ],
+      "W": [
+        -9,
+        -3
+      ],
+      "NW": [
+        -7,
+        -8
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        14,
+        1
+      ],
+      "NE": [
+        20,
+        3
+      ],
+      "E": [
+        22,
+        8
+      ],
+      "SE": [
+        20,
+        12
+      ],
+      "S": [
+        13,
+        14
+      ],
+      "SW": [
+        6,
+        12
+      ],
+      "W": [
+        4,
+        8
+      ],
+      "NW": [
+        6,
+        3
+      ]
+    }
+  },
+  {
+    "id": "V24",
+    "name": "Sky-Dreadnought",
+    "faction": "vanguard",
+    "role": "Heavy Air",
+    "layer": "air",
+    "twoLayer": false,
+    "source": "rig-baked",
+    "cellW": 28,
+    "cellH": 21,
+    "cols": 12,
+    "sheet": "units/vanguard/V24-sky-dreadnought-8way.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        -11
+      ],
+      "NE": [
+        8,
+        -10
+      ],
+      "E": [
+        11,
+        -4
+      ],
+      "SE": [
+        8,
+        1
+      ],
+      "S": [
+        0,
+        3
+      ],
+      "SW": [
+        -8,
+        1
+      ],
+      "W": [
+        -11,
+        -4
+      ],
+      "NW": [
+        -8,
+        -10
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        14,
+        1
+      ],
+      "NE": [
+        22,
+        2
+      ],
+      "E": [
+        25,
+        8
+      ],
+      "SE": [
+        22,
+        13
+      ],
+      "S": [
+        14,
+        15
+      ],
+      "SW": [
+        6,
+        13
+      ],
+      "W": [
+        3,
+        8
+      ],
+      "NW": [
+        6,
+        2
+      ]
+    }
+  },
+  {
+    "id": "K01",
+    "name": "Grub-Mite",
+    "faction": "kraxen",
+    "role": "Worker",
+    "layer": "ground",
+    "twoLayer": false,
+    "special": "worker",
+    "source": "rig-baked",
+    "cellW": 15,
+    "cellH": 12,
+    "cols": 12,
+    "sheet": "units/kraxen/K01-grub-mite-8way.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        0
+      ],
+      "NE": [
+        0,
+        0
+      ],
+      "E": [
+        0,
+        0
+      ],
+      "SE": [
+        0,
+        0
+      ],
+      "S": [
+        0,
+        0
+      ],
+      "SW": [
+        0,
+        0
+      ],
+      "W": [
+        0,
+        0
+      ],
+      "NW": [
+        0,
+        0
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        7,
+        8
+      ],
+      "NE": [
+        7,
+        8
+      ],
+      "E": [
+        7,
+        8
+      ],
+      "SE": [
+        7,
+        8
+      ],
+      "S": [
+        7,
+        8
+      ],
+      "SW": [
+        7,
+        8
+      ],
+      "W": [
+        7,
+        8
+      ],
+      "NW": [
+        7,
+        8
+      ]
+    }
+  },
+  {
+    "id": "K02",
+    "name": "Tusk-Digger",
+    "faction": "kraxen",
+    "role": "Worker",
+    "layer": "ground",
+    "twoLayer": false,
+    "special": "worker",
+    "source": "rig-baked",
+    "cellW": 16,
+    "cellH": 13,
+    "cols": 12,
+    "sheet": "units/kraxen/K02-tusk-digger-8way.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        0
+      ],
+      "NE": [
+        0,
+        0
+      ],
+      "E": [
+        0,
+        0
+      ],
+      "SE": [
+        0,
+        0
+      ],
+      "S": [
+        0,
+        0
+      ],
+      "SW": [
+        0,
+        0
+      ],
+      "W": [
+        0,
+        0
+      ],
+      "NW": [
+        0,
+        0
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        8,
+        9
+      ],
+      "NE": [
+        8,
+        9
+      ],
+      "E": [
+        8,
+        9
+      ],
+      "SE": [
+        8,
+        9
+      ],
+      "S": [
+        8,
+        9
+      ],
+      "SW": [
+        8,
+        9
+      ],
+      "W": [
+        8,
+        9
+      ],
+      "NW": [
+        8,
+        9
+      ]
+    }
+  },
+  {
+    "id": "K03",
+    "name": "Spore-Carrier",
+    "faction": "kraxen",
+    "role": "Worker",
+    "layer": "air",
+    "twoLayer": false,
+    "special": "worker",
+    "source": "rig-baked",
+    "cellW": 17,
+    "cellH": 16,
+    "cols": 12,
+    "sheet": "units/kraxen/K03-spore-carrier-8way.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        0
+      ],
+      "NE": [
+        4,
+        -7
+      ],
+      "E": [
+        4,
+        -6
+      ],
+      "SE": [
+        3,
+        -4
+      ],
+      "S": [
+        0,
+        -3
+      ],
+      "SW": [
+        -2,
+        -4
+      ],
+      "W": [
+        -3,
+        -5
+      ],
+      "NW": [
+        -3,
+        -7
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        8,
+        9
+      ],
+      "NE": [
+        12,
+        2
+      ],
+      "E": [
+        12,
+        3
+      ],
+      "SE": [
+        11,
+        5
+      ],
+      "S": [
+        8,
+        6
+      ],
+      "SW": [
+        6,
+        5
+      ],
+      "W": [
+        5,
+        4
+      ],
+      "NW": [
+        5,
+        2
+      ]
+    }
+  },
+  {
+    "id": "K04",
+    "name": "Swarmling",
+    "faction": "kraxen",
+    "role": "Tier-1 Swarm",
+    "layer": "ground",
+    "twoLayer": false,
+    "source": "rig-baked",
+    "cellW": 16,
+    "cellH": 13,
+    "cols": 12,
+    "sheet": "units/kraxen/K04-swarmling-8way.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        0
+      ],
+      "NE": [
+        0,
+        0
+      ],
+      "E": [
+        0,
+        0
+      ],
+      "SE": [
+        0,
+        0
+      ],
+      "S": [
+        0,
+        0
+      ],
+      "SW": [
+        0,
+        0
+      ],
+      "W": [
+        0,
+        0
+      ],
+      "NW": [
+        0,
+        0
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        8,
+        9
+      ],
+      "NE": [
+        8,
+        9
+      ],
+      "E": [
+        8,
+        9
+      ],
+      "SE": [
+        8,
+        9
+      ],
+      "S": [
+        8,
+        9
+      ],
+      "SW": [
+        8,
+        9
+      ],
+      "W": [
+        8,
+        9
+      ],
+      "NW": [
+        8,
+        9
+      ]
+    }
+  },
+  {
+    "id": "K05",
+    "name": "Mantis-Ripper",
+    "faction": "kraxen",
+    "role": "Tier-1 Swarm",
+    "layer": "ground",
+    "twoLayer": false,
+    "source": "rig-baked",
+    "cellW": 17,
+    "cellH": 15,
+    "cols": 12,
+    "sheet": "units/kraxen/K05-mantis-ripper-8way.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        0
+      ],
+      "NE": [
+        0,
+        0
+      ],
+      "E": [
+        0,
+        0
+      ],
+      "SE": [
+        0,
+        0
+      ],
+      "S": [
+        0,
+        0
+      ],
+      "SW": [
+        0,
+        0
+      ],
+      "W": [
+        0,
+        0
+      ],
+      "NW": [
+        0,
+        0
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        8,
+        11
+      ],
+      "NE": [
+        8,
+        11
+      ],
+      "E": [
+        8,
+        11
+      ],
+      "SE": [
+        8,
+        11
+      ],
+      "S": [
+        8,
+        11
+      ],
+      "SW": [
+        8,
+        11
+      ],
+      "W": [
+        8,
+        11
+      ],
+      "NW": [
+        8,
+        11
+      ]
+    }
+  },
+  {
+    "id": "K06",
+    "name": "Bile-Tick",
+    "faction": "kraxen",
+    "role": "Tier-1 Swarm",
+    "layer": "ground",
+    "twoLayer": false,
+    "source": "rig-baked",
+    "cellW": 17,
+    "cellH": 15,
+    "cols": 12,
+    "sheet": "units/kraxen/K06-bile-tick-8way.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        -4
+      ],
+      "NE": [
+        0,
+        -4
+      ],
+      "E": [
+        1,
+        -4
+      ],
+      "SE": [
+        1,
+        -4
+      ],
+      "S": [
+        1,
+        -4
+      ],
+      "SW": [
+        0,
+        -4
+      ],
+      "W": [
+        1,
+        -4
+      ],
+      "NW": [
+        1,
+        -4
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        8,
+        7
+      ],
+      "NE": [
+        8,
+        7
+      ],
+      "E": [
+        9,
+        7
+      ],
+      "SE": [
+        9,
+        7
+      ],
+      "S": [
+        9,
+        7
+      ],
+      "SW": [
+        8,
+        7
+      ],
+      "W": [
+        9,
+        7
+      ],
+      "NW": [
+        9,
+        7
+      ]
+    }
+  },
+  {
+    "id": "K07",
+    "name": "Stalker",
+    "faction": "kraxen",
+    "role": "Ranged",
+    "layer": "ground",
+    "twoLayer": false,
+    "source": "rig-baked",
+    "cellW": 15,
+    "cellH": 12,
+    "cols": 12,
+    "sheet": "units/kraxen/K07-stalker-8way.png",
+    "muzzleRel8": {
+      "N": [
+        1,
+        -6
+      ],
+      "NE": [
+        5,
+        -6
+      ],
+      "E": [
+        6,
+        -3
+      ],
+      "SE": [
+        5,
+        -1
+      ],
+      "S": [
+        0,
+        1
+      ],
+      "SW": [
+        -4,
+        -1
+      ],
+      "W": [
+        -5,
+        -3
+      ],
+      "NW": [
+        -4,
+        -6
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        8,
+        2
+      ],
+      "NE": [
+        12,
+        2
+      ],
+      "E": [
+        13,
+        5
+      ],
+      "SE": [
+        12,
+        7
+      ],
+      "S": [
+        7,
+        9
+      ],
+      "SW": [
+        3,
+        7
+      ],
+      "W": [
+        2,
+        5
+      ],
+      "NW": [
+        3,
+        2
+      ]
+    }
+  },
+  {
+    "id": "K08",
+    "name": "Quill-Fiend",
+    "faction": "kraxen",
+    "role": "Ranged",
+    "layer": "ground",
+    "twoLayer": false,
+    "source": "rig-baked",
+    "cellW": 15,
+    "cellH": 13,
+    "cols": 12,
+    "sheet": "units/kraxen/K08-quill-fiend-8way.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        -8
+      ],
+      "NE": [
+        4,
+        -7
+      ],
+      "E": [
+        5,
+        -5
+      ],
+      "SE": [
+        4,
+        -3
+      ],
+      "S": [
+        1,
+        -2
+      ],
+      "SW": [
+        -3,
+        -3
+      ],
+      "W": [
+        -4,
+        -5
+      ],
+      "NW": [
+        -3,
+        -7
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        7,
+        1
+      ],
+      "NE": [
+        11,
+        2
+      ],
+      "E": [
+        12,
+        4
+      ],
+      "SE": [
+        11,
+        6
+      ],
+      "S": [
+        8,
+        7
+      ],
+      "SW": [
+        4,
+        6
+      ],
+      "W": [
+        3,
+        4
+      ],
+      "NW": [
+        4,
+        2
+      ]
+    }
+  },
+  {
+    "id": "K09",
+    "name": "Venom-Cobra",
+    "faction": "kraxen",
+    "role": "Ranged",
+    "layer": "ground",
+    "twoLayer": false,
+    "source": "rig-baked",
+    "cellW": 18,
+    "cellH": 17,
+    "cols": 12,
+    "sheet": "units/kraxen/K09-venom-cobra-8way.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        -11
+      ],
+      "NE": [
+        5,
+        -11
+      ],
+      "E": [
+        6,
+        -8
+      ],
+      "SE": [
+        5,
+        -4
+      ],
+      "S": [
+        0,
+        -3
+      ],
+      "SW": [
+        -5,
+        -4
+      ],
+      "W": [
+        -7,
+        -7
+      ],
+      "NW": [
+        -5,
+        -11
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        9,
+        2
+      ],
+      "NE": [
+        14,
+        2
+      ],
+      "E": [
+        15,
+        5
+      ],
+      "SE": [
+        14,
+        9
+      ],
+      "S": [
+        9,
+        10
+      ],
+      "SW": [
+        4,
+        9
+      ],
+      "W": [
+        2,
+        6
+      ],
+      "NW": [
+        4,
+        2
+      ]
+    }
+  },
+  {
+    "id": "K10",
+    "name": "Spore-Mantis",
+    "faction": "kraxen",
+    "role": "Specialist",
+    "layer": "ground",
+    "twoLayer": false,
+    "source": "rig-baked",
+    "cellW": 16,
+    "cellH": 16,
+    "cols": 12,
+    "sheet": "units/kraxen/K10-spore-mantis-8way.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        -10
+      ],
+      "NE": [
+        1,
+        -9
+      ],
+      "E": [
+        2,
+        -9
+      ],
+      "SE": [
+        2,
+        -8
+      ],
+      "S": [
+        0,
+        -7
+      ],
+      "SW": [
+        -2,
+        -8
+      ],
+      "W": [
+        -2,
+        -8
+      ],
+      "NW": [
+        -1,
+        -9
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        8,
+        2
+      ],
+      "NE": [
+        9,
+        3
+      ],
+      "E": [
+        10,
+        3
+      ],
+      "SE": [
+        10,
+        4
+      ],
+      "S": [
+        8,
+        5
+      ],
+      "SW": [
+        6,
+        4
+      ],
+      "W": [
+        6,
+        4
+      ],
+      "NW": [
+        7,
+        3
+      ]
+    }
+  },
+  {
+    "id": "K11",
+    "name": "Leech-Weaver",
+    "faction": "kraxen",
+    "role": "Specialist",
+    "layer": "air",
+    "twoLayer": false,
+    "source": "rig-baked",
+    "cellW": 19,
+    "cellH": 17,
+    "cols": 12,
+    "sheet": "units/kraxen/K11-leech-weaver-8way.png",
+    "muzzleRel8": {
+      "N": [
+        1,
+        -3
+      ],
+      "NE": [
+        4,
+        -3
+      ],
+      "E": [
+        5,
+        -1
+      ],
+      "SE": [
+        4,
+        1
+      ],
+      "S": [
+        0,
+        2
+      ],
+      "SW": [
+        -3,
+        1
+      ],
+      "W": [
+        -4,
+        -1
+      ],
+      "NW": [
+        -3,
+        -3
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        10,
+        6
+      ],
+      "NE": [
+        13,
+        6
+      ],
+      "E": [
+        14,
+        8
+      ],
+      "SE": [
+        13,
+        10
+      ],
+      "S": [
+        9,
+        11
+      ],
+      "SW": [
+        6,
+        10
+      ],
+      "W": [
+        5,
+        8
+      ],
+      "NW": [
+        6,
+        6
+      ]
+    }
+  },
+  {
+    "id": "K12",
+    "name": "Burrow-Lurker",
+    "faction": "kraxen",
+    "role": "Specialist",
+    "layer": "ground",
+    "twoLayer": false,
+    "source": "rig-baked",
+    "cellW": 18,
+    "cellH": 15,
+    "cols": 12,
+    "sheet": "units/kraxen/K12-burrow-lurker-8way.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        -9
+      ],
+      "NE": [
+        4,
+        -9
+      ],
+      "E": [
+        6,
+        -6
+      ],
+      "SE": [
+        4,
+        -3
+      ],
+      "S": [
+        0,
+        -2
+      ],
+      "SW": [
+        -5,
+        -3
+      ],
+      "W": [
+        -6,
+        -6
+      ],
+      "NW": [
+        -4,
+        -9
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        9,
+        2
+      ],
+      "NE": [
+        13,
+        2
+      ],
+      "E": [
+        15,
+        5
+      ],
+      "SE": [
+        13,
+        8
+      ],
+      "S": [
+        9,
+        9
+      ],
+      "SW": [
+        4,
+        8
+      ],
+      "W": [
+        3,
+        5
+      ],
+      "NW": [
+        5,
+        2
+      ]
+    }
+  },
+  {
+    "id": "K13",
+    "name": "Scarab Roller",
+    "faction": "kraxen",
+    "role": "Raider / AA",
+    "layer": "ground",
+    "twoLayer": false,
+    "source": "rig-baked",
+    "cellW": 20,
+    "cellH": 16,
+    "cols": 12,
+    "sheet": "units/kraxen/K13-scarab-roller-8way.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        0
+      ],
+      "NE": [
+        0,
+        0
+      ],
+      "E": [
+        0,
+        0
+      ],
+      "SE": [
+        0,
+        0
+      ],
+      "S": [
+        0,
+        0
+      ],
+      "SW": [
+        0,
+        0
+      ],
+      "W": [
+        0,
+        0
+      ],
+      "NW": [
+        0,
+        0
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        10,
+        12
+      ],
+      "NE": [
+        10,
+        12
+      ],
+      "E": [
+        10,
+        12
+      ],
+      "SE": [
+        10,
+        12
+      ],
+      "S": [
+        10,
+        12
+      ],
+      "SW": [
+        10,
+        12
+      ],
+      "W": [
+        10,
+        12
+      ],
+      "NW": [
+        10,
+        12
+      ]
+    }
+  },
+  {
+    "id": "K14",
+    "name": "Scorpion-Lash",
+    "faction": "kraxen",
+    "role": "Raider / AA",
+    "layer": "ground",
+    "twoLayer": true,
+    "source": "rig-baked",
+    "cellW": 20,
+    "cellH": 17,
+    "cols": 12,
+    "sheet": "units/kraxen/K14-scorpion-lash-8way.png",
+    "hullSheet": "units/kraxen/K14-scorpion-lash-hull.png",
+    "turretSheet": "units/kraxen/K14-scorpion-lash-turret.png",
+    "shadowSheet": "units/kraxen/K14-scorpion-lash-shadow.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        -12
+      ],
+      "NE": [
+        4,
+        -11
+      ],
+      "E": [
+        6,
+        -8
+      ],
+      "SE": [
+        4,
+        -5
+      ],
+      "S": [
+        0,
+        -4
+      ],
+      "SW": [
+        -4,
+        -5
+      ],
+      "W": [
+        -6,
+        -8
+      ],
+      "NW": [
+        -4,
+        -11
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        10,
+        1
+      ],
+      "NE": [
+        14,
+        2
+      ],
+      "E": [
+        16,
+        5
+      ],
+      "SE": [
+        14,
+        8
+      ],
+      "S": [
+        10,
+        9
+      ],
+      "SW": [
+        6,
+        8
+      ],
+      "W": [
+        4,
+        5
+      ],
+      "NW": [
+        6,
+        2
+      ]
+    }
+  },
+  {
+    "id": "K15",
+    "name": "Sail-Hound",
+    "faction": "kraxen",
+    "role": "Raider / AA",
+    "layer": "ground",
+    "twoLayer": false,
+    "source": "rig-baked",
+    "cellW": 20,
+    "cellH": 15,
+    "cols": 12,
+    "sheet": "units/kraxen/K15-sail-hound-8way.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        0
+      ],
+      "NE": [
+        0,
+        0
+      ],
+      "E": [
+        0,
+        0
+      ],
+      "SE": [
+        0,
+        0
+      ],
+      "S": [
+        0,
+        0
+      ],
+      "SW": [
+        0,
+        0
+      ],
+      "W": [
+        0,
+        0
+      ],
+      "NW": [
+        0,
+        0
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        10,
+        11
+      ],
+      "NE": [
+        10,
+        11
+      ],
+      "E": [
+        10,
+        11
+      ],
+      "SE": [
+        10,
+        11
+      ],
+      "S": [
+        10,
+        11
+      ],
+      "SW": [
+        10,
+        11
+      ],
+      "W": [
+        10,
+        11
+      ],
+      "NW": [
+        10,
+        11
+      ]
+    }
+  },
+  {
+    "id": "K16",
+    "name": "Behemoth",
+    "faction": "kraxen",
+    "role": "Heavy Ground",
+    "layer": "ground",
+    "twoLayer": false,
+    "source": "hand-authored",
+    "cellW": 22,
+    "cellH": 20,
+    "cols": 12,
+    "sheet": "units/kraxen/K16-behemoth-8way.png"
+  },
+  {
+    "id": "K17",
+    "name": "Artillery Beetle",
+    "faction": "kraxen",
+    "role": "Heavy Ground",
+    "layer": "ground",
+    "twoLayer": true,
+    "source": "rig-baked",
+    "cellW": 22,
+    "cellH": 20,
+    "cols": 12,
+    "sheet": "units/kraxen/K17-artillery-beetle-8way.png",
+    "hullSheet": "units/kraxen/K17-artillery-beetle-hull.png",
+    "turretSheet": "units/kraxen/K17-artillery-beetle-turret.png",
+    "shadowSheet": "units/kraxen/K17-artillery-beetle-shadow.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        -14
+      ],
+      "NE": [
+        4,
+        -13
+      ],
+      "E": [
+        6,
+        -11
+      ],
+      "SE": [
+        4,
+        -8
+      ],
+      "S": [
+        0,
+        -7
+      ],
+      "SW": [
+        -4,
+        -8
+      ],
+      "W": [
+        -6,
+        -10
+      ],
+      "NW": [
+        -4,
+        -13
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        11,
+        1
+      ],
+      "NE": [
+        15,
+        2
+      ],
+      "E": [
+        17,
+        4
+      ],
+      "SE": [
+        15,
+        7
+      ],
+      "S": [
+        11,
+        8
+      ],
+      "SW": [
+        7,
+        7
+      ],
+      "W": [
+        5,
+        5
+      ],
+      "NW": [
+        7,
+        2
+      ]
+    }
+  },
+  {
+    "id": "K18",
+    "name": "Bone-Centipede",
+    "faction": "kraxen",
+    "role": "Heavy Ground",
+    "layer": "ground",
+    "twoLayer": false,
+    "special": "centipede",
+    "source": "rig-baked",
+    "cellW": 24,
+    "cellH": 19,
+    "cols": 12,
+    "sheet": "units/kraxen/K18-bone-centipede-8way.png",
+    "bodySheet": "units/kraxen/K18-bone-centipede-body.png",
+    "tailSheet": "units/kraxen/K18-bone-centipede-tail.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        0
+      ],
+      "NE": [
+        0,
+        0
+      ],
+      "E": [
+        0,
+        0
+      ],
+      "SE": [
+        0,
+        0
+      ],
+      "S": [
+        0,
+        0
+      ],
+      "SW": [
+        0,
+        0
+      ],
+      "W": [
+        0,
+        0
+      ],
+      "NW": [
+        0,
+        0
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        12,
+        15
+      ],
+      "NE": [
+        12,
+        15
+      ],
+      "E": [
+        12,
+        15
+      ],
+      "SE": [
+        12,
+        15
+      ],
+      "S": [
+        12,
+        15
+      ],
+      "SW": [
+        12,
+        15
+      ],
+      "W": [
+        12,
+        15
+      ],
+      "NW": [
+        12,
+        15
+      ]
+    }
+  },
+  {
+    "id": "K19",
+    "name": "Bio-Wyvern",
+    "faction": "kraxen",
+    "role": "Light Air",
+    "layer": "air",
+    "twoLayer": false,
+    "source": "rig-baked",
+    "cellW": 20,
+    "cellH": 16,
+    "cols": 12,
+    "sheet": "units/kraxen/K19-bio-wyvern-8way.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        -8
+      ],
+      "NE": [
+        5,
+        -7
+      ],
+      "E": [
+        7,
+        -4
+      ],
+      "SE": [
+        5,
+        0
+      ],
+      "S": [
+        0,
+        1
+      ],
+      "SW": [
+        -5,
+        0
+      ],
+      "W": [
+        -8,
+        -4
+      ],
+      "NW": [
+        -5,
+        -7
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        10,
+        1
+      ],
+      "NE": [
+        15,
+        2
+      ],
+      "E": [
+        17,
+        5
+      ],
+      "SE": [
+        15,
+        9
+      ],
+      "S": [
+        10,
+        10
+      ],
+      "SW": [
+        5,
+        9
+      ],
+      "W": [
+        2,
+        5
+      ],
+      "NW": [
+        5,
+        2
+      ]
+    }
+  },
+  {
+    "id": "K20",
+    "name": "Locust-Wasp",
+    "faction": "kraxen",
+    "role": "Light Air",
+    "layer": "air",
+    "twoLayer": false,
+    "source": "rig-baked",
+    "cellW": 18,
+    "cellH": 16,
+    "cols": 12,
+    "sheet": "units/kraxen/K20-locust-wasp-8way.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        -8
+      ],
+      "NE": [
+        4,
+        -7
+      ],
+      "E": [
+        6,
+        -4
+      ],
+      "SE": [
+        5,
+        -1
+      ],
+      "S": [
+        0,
+        1
+      ],
+      "SW": [
+        -5,
+        -1
+      ],
+      "W": [
+        -7,
+        -4
+      ],
+      "NW": [
+        -5,
+        -7
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        9,
+        1
+      ],
+      "NE": [
+        13,
+        2
+      ],
+      "E": [
+        15,
+        5
+      ],
+      "SE": [
+        14,
+        8
+      ],
+      "S": [
+        9,
+        10
+      ],
+      "SW": [
+        4,
+        8
+      ],
+      "W": [
+        2,
+        5
+      ],
+      "NW": [
+        4,
+        2
+      ]
+    }
+  },
+  {
+    "id": "K21",
+    "name": "Sickle-Swallow",
+    "faction": "kraxen",
+    "role": "Light Air",
+    "layer": "air",
+    "twoLayer": false,
+    "source": "rig-baked",
+    "cellW": 20,
+    "cellH": 16,
+    "cols": 12,
+    "sheet": "units/kraxen/K21-sickle-swallow-8way.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        -7
+      ],
+      "NE": [
+        4,
+        -6
+      ],
+      "E": [
+        5,
+        -4
+      ],
+      "SE": [
+        4,
+        -1
+      ],
+      "S": [
+        0,
+        0
+      ],
+      "SW": [
+        -4,
+        -1
+      ],
+      "W": [
+        -5,
+        -4
+      ],
+      "NW": [
+        -4,
+        -6
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        10,
+        2
+      ],
+      "NE": [
+        14,
+        3
+      ],
+      "E": [
+        15,
+        5
+      ],
+      "SE": [
+        14,
+        8
+      ],
+      "S": [
+        10,
+        9
+      ],
+      "SW": [
+        6,
+        8
+      ],
+      "W": [
+        5,
+        5
+      ],
+      "NW": [
+        6,
+        3
+      ]
+    }
+  },
+  {
+    "id": "K22",
+    "name": "Brood-Manta",
+    "faction": "kraxen",
+    "role": "Heavy Air",
+    "layer": "air",
+    "twoLayer": false,
+    "source": "rig-baked",
+    "cellW": 26,
+    "cellH": 21,
+    "cols": 12,
+    "sheet": "units/kraxen/K22-brood-manta-8way.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        -10
+      ],
+      "NE": [
+        7,
+        -9
+      ],
+      "E": [
+        10,
+        -4
+      ],
+      "SE": [
+        7,
+        0
+      ],
+      "S": [
+        0,
+        2
+      ],
+      "SW": [
+        -7,
+        0
+      ],
+      "W": [
+        -10,
+        -4
+      ],
+      "NW": [
+        -7,
+        -9
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        13,
+        2
+      ],
+      "NE": [
+        20,
+        3
+      ],
+      "E": [
+        23,
+        8
+      ],
+      "SE": [
+        20,
+        12
+      ],
+      "S": [
+        13,
+        14
+      ],
+      "SW": [
+        6,
+        12
+      ],
+      "W": [
+        3,
+        8
+      ],
+      "NW": [
+        6,
+        3
+      ]
+    }
+  },
+  {
+    "id": "K23",
+    "name": "Hive-Zeppelin",
+    "faction": "kraxen",
+    "role": "Heavy Air",
+    "layer": "air",
+    "twoLayer": false,
+    "source": "rig-baked",
+    "cellW": 25,
+    "cellH": 21,
+    "cols": 12,
+    "sheet": "units/kraxen/K23-hive-zeppelin-8way.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        0
+      ],
+      "NE": [
+        0,
+        0
+      ],
+      "E": [
+        7,
+        -6
+      ],
+      "SE": [
+        5,
+        -3
+      ],
+      "S": [
+        0,
+        -2
+      ],
+      "SW": [
+        -3,
+        -3
+      ],
+      "W": [
+        -6,
+        -5
+      ],
+      "NW": [
+        0,
+        0
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        12,
+        12
+      ],
+      "NE": [
+        12,
+        12
+      ],
+      "E": [
+        19,
+        6
+      ],
+      "SE": [
+        17,
+        9
+      ],
+      "S": [
+        12,
+        10
+      ],
+      "SW": [
+        9,
+        9
+      ],
+      "W": [
+        6,
+        7
+      ],
+      "NW": [
+        12,
+        12
+      ]
+    }
+  },
+  {
+    "id": "K24",
+    "name": "Leviathan-Wyrm",
+    "faction": "kraxen",
+    "role": "Heavy Air",
+    "layer": "air",
+    "twoLayer": false,
+    "source": "rig-baked",
+    "cellW": 26,
+    "cellH": 19,
+    "cols": 12,
+    "sheet": "units/kraxen/K24-leviathan-wyrm-8way.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        0
+      ],
+      "NE": [
+        7,
+        -9
+      ],
+      "E": [
+        10,
+        -5
+      ],
+      "SE": [
+        8,
+        0
+      ],
+      "S": [
+        0,
+        2
+      ],
+      "SW": [
+        -8,
+        0
+      ],
+      "W": [
+        -10,
+        -5
+      ],
+      "NW": [
+        -8,
+        -9
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        13,
+        11
+      ],
+      "NE": [
+        20,
+        2
+      ],
+      "E": [
+        23,
+        6
+      ],
+      "SE": [
+        21,
+        11
+      ],
+      "S": [
+        13,
+        13
+      ],
+      "SW": [
+        5,
+        11
+      ],
+      "W": [
+        3,
+        6
+      ],
+      "NW": [
+        5,
+        2
+      ]
+    }
+  },
+  {
+    "id": "S01",
+    "name": "Sun-Wisp",
+    "faction": "solaris",
+    "role": "Worker",
+    "layer": "air",
+    "twoLayer": false,
+    "special": "worker",
+    "source": "rig-baked",
+    "cellW": 16,
+    "cellH": 14,
+    "cols": 12,
+    "sheet": "units/solaris/S01-sun-wisp-8way.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        -7
+      ],
+      "NE": [
+        3,
+        -6
+      ],
+      "E": [
+        5,
+        -4
+      ],
+      "SE": [
+        4,
+        -2
+      ],
+      "S": [
+        0,
+        -1
+      ],
+      "SW": [
+        -4,
+        -2
+      ],
+      "W": [
+        -5,
+        -4
+      ],
+      "NW": [
+        -4,
+        -6
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        8,
+        1
+      ],
+      "NE": [
+        11,
+        2
+      ],
+      "E": [
+        13,
+        4
+      ],
+      "SE": [
+        12,
+        6
+      ],
+      "S": [
+        8,
+        7
+      ],
+      "SW": [
+        4,
+        6
+      ],
+      "W": [
+        3,
+        4
+      ],
+      "NW": [
+        4,
+        2
+      ]
+    }
+  },
+  {
+    "id": "S02",
+    "name": "Glyph-Servitor",
+    "faction": "solaris",
+    "role": "Worker",
+    "layer": "air",
+    "twoLayer": false,
+    "special": "worker",
+    "source": "rig-baked",
+    "cellW": 16,
+    "cellH": 15,
+    "cols": 12,
+    "sheet": "units/solaris/S02-glyph-servitor-8way.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        -7
+      ],
+      "NE": [
+        4,
+        -6
+      ],
+      "E": [
+        4,
+        -5
+      ],
+      "SE": [
+        3,
+        -3
+      ],
+      "S": [
+        0,
+        -2
+      ],
+      "SW": [
+        -3,
+        -3
+      ],
+      "W": [
+        -4,
+        -4
+      ],
+      "NW": [
+        -4,
+        -7
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        8,
+        1
+      ],
+      "NE": [
+        12,
+        2
+      ],
+      "E": [
+        12,
+        3
+      ],
+      "SE": [
+        11,
+        5
+      ],
+      "S": [
+        8,
+        6
+      ],
+      "SW": [
+        5,
+        5
+      ],
+      "W": [
+        4,
+        4
+      ],
+      "NW": [
+        4,
+        1
+      ]
+    }
+  },
+  {
+    "id": "S03",
+    "name": "Prism-Scribe",
+    "faction": "solaris",
+    "role": "Worker",
+    "layer": "air",
+    "twoLayer": false,
+    "special": "worker",
+    "source": "rig-baked",
+    "cellW": 17,
+    "cellH": 15,
+    "cols": 12,
+    "sheet": "units/solaris/S03-prism-scribe-8way.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        0
+      ],
+      "NE": [
+        5,
+        -5
+      ],
+      "E": [
+        6,
+        -3
+      ],
+      "SE": [
+        5,
+        0
+      ],
+      "S": [
+        0,
+        1
+      ],
+      "SW": [
+        -4,
+        0
+      ],
+      "W": [
+        -5,
+        -3
+      ],
+      "NW": [
+        -4,
+        -5
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        8,
+        8
+      ],
+      "NE": [
+        13,
+        3
+      ],
+      "E": [
+        14,
+        5
+      ],
+      "SE": [
+        13,
+        8
+      ],
+      "S": [
+        8,
+        9
+      ],
+      "SW": [
+        4,
+        8
+      ],
+      "W": [
+        3,
+        5
+      ],
+      "NW": [
+        4,
+        3
+      ]
+    }
+  },
+  {
+    "id": "S04",
+    "name": "Blade",
+    "faction": "solaris",
+    "role": "Tier-1 Line",
+    "layer": "ground",
+    "twoLayer": false,
+    "source": "rig-baked",
+    "cellW": 19,
+    "cellH": 15,
+    "cols": 12,
+    "sheet": "units/solaris/S04-blade-8way.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        0
+      ],
+      "NE": [
+        0,
+        0
+      ],
+      "E": [
+        0,
+        0
+      ],
+      "SE": [
+        0,
+        0
+      ],
+      "S": [
+        0,
+        0
+      ],
+      "SW": [
+        0,
+        0
+      ],
+      "W": [
+        0,
+        0
+      ],
+      "NW": [
+        0,
+        0
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        9,
+        11
+      ],
+      "NE": [
+        9,
+        11
+      ],
+      "E": [
+        9,
+        11
+      ],
+      "SE": [
+        9,
+        11
+      ],
+      "S": [
+        9,
+        11
+      ],
+      "SW": [
+        9,
+        11
+      ],
+      "W": [
+        9,
+        11
+      ],
+      "NW": [
+        9,
+        11
+      ]
+    }
+  },
+  {
+    "id": "S05",
+    "name": "Sun-Lancer",
+    "faction": "solaris",
+    "role": "Tier-1 Line",
+    "layer": "ground",
+    "twoLayer": false,
+    "source": "rig-baked",
+    "cellW": 18,
+    "cellH": 16,
+    "cols": 12,
+    "sheet": "units/solaris/S05-sun-lancer-8way.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        0
+      ],
+      "NE": [
+        0,
+        0
+      ],
+      "E": [
+        0,
+        0
+      ],
+      "SE": [
+        0,
+        0
+      ],
+      "S": [
+        0,
+        0
+      ],
+      "SW": [
+        0,
+        0
+      ],
+      "W": [
+        0,
+        0
+      ],
+      "NW": [
+        0,
+        0
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        9,
+        12
+      ],
+      "NE": [
+        9,
+        12
+      ],
+      "E": [
+        9,
+        12
+      ],
+      "SE": [
+        9,
+        12
+      ],
+      "S": [
+        9,
+        12
+      ],
+      "SW": [
+        9,
+        12
+      ],
+      "W": [
+        9,
+        12
+      ],
+      "NW": [
+        9,
+        12
+      ]
+    }
+  },
+  {
+    "id": "S06",
+    "name": "Aegis-Guard",
+    "faction": "solaris",
+    "role": "Tier-1 Line",
+    "layer": "ground",
+    "twoLayer": false,
+    "source": "rig-baked",
+    "cellW": 17,
+    "cellH": 14,
+    "cols": 12,
+    "sheet": "units/solaris/S06-aegis-guard-8way.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        0
+      ],
+      "NE": [
+        0,
+        0
+      ],
+      "E": [
+        0,
+        0
+      ],
+      "SE": [
+        0,
+        0
+      ],
+      "S": [
+        0,
+        0
+      ],
+      "SW": [
+        0,
+        0
+      ],
+      "W": [
+        0,
+        0
+      ],
+      "NW": [
+        0,
+        0
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        8,
+        10
+      ],
+      "NE": [
+        8,
+        10
+      ],
+      "E": [
+        8,
+        10
+      ],
+      "SE": [
+        8,
+        10
+      ],
+      "S": [
+        8,
+        10
+      ],
+      "SW": [
+        8,
+        10
+      ],
+      "W": [
+        8,
+        10
+      ],
+      "NW": [
+        8,
+        10
+      ]
+    }
+  },
+  {
+    "id": "S07",
+    "name": "Arcanist",
+    "faction": "solaris",
+    "role": "Ranged",
+    "layer": "ground",
+    "twoLayer": false,
+    "source": "rig-baked",
+    "cellW": 17,
+    "cellH": 15,
+    "cols": 12,
+    "sheet": "units/solaris/S07-arcanist-8way.png",
+    "muzzleRel8": {
+      "N": [
+        3,
+        -10
+      ],
+      "NE": [
+        6,
+        -9
+      ],
+      "E": [
+        6,
+        -7
+      ],
+      "SE": [
+        3,
+        -5
+      ],
+      "S": [
+        -2,
+        -5
+      ],
+      "SW": [
+        -5,
+        -7
+      ],
+      "W": [
+        -5,
+        -9
+      ],
+      "NW": [
+        -1,
+        -10
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        11,
+        1
+      ],
+      "NE": [
+        14,
+        2
+      ],
+      "E": [
+        14,
+        4
+      ],
+      "SE": [
+        11,
+        6
+      ],
+      "S": [
+        6,
+        6
+      ],
+      "SW": [
+        3,
+        4
+      ],
+      "W": [
+        3,
+        2
+      ],
+      "NW": [
+        7,
+        1
+      ]
+    }
+  },
+  {
+    "id": "S08",
+    "name": "Solar-Archer",
+    "faction": "solaris",
+    "role": "Ranged",
+    "layer": "ground",
+    "twoLayer": false,
+    "source": "rig-baked",
+    "cellW": 18,
+    "cellH": 15,
+    "cols": 12,
+    "sheet": "units/solaris/S08-solar-archer-8way.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        -9
+      ],
+      "NE": [
+        5,
+        -8
+      ],
+      "E": [
+        7,
+        -4
+      ],
+      "SE": [
+        5,
+        -1
+      ],
+      "S": [
+        0,
+        1
+      ],
+      "SW": [
+        -5,
+        -1
+      ],
+      "W": [
+        -7,
+        -4
+      ],
+      "NW": [
+        -5,
+        -8
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        9,
+        2
+      ],
+      "NE": [
+        14,
+        3
+      ],
+      "E": [
+        16,
+        7
+      ],
+      "SE": [
+        14,
+        10
+      ],
+      "S": [
+        9,
+        12
+      ],
+      "SW": [
+        4,
+        10
+      ],
+      "W": [
+        2,
+        7
+      ],
+      "NW": [
+        4,
+        3
+      ]
+    }
+  },
+  {
+    "id": "S09",
+    "name": "Shard-Adept",
+    "faction": "solaris",
+    "role": "Ranged",
+    "layer": "ground",
+    "twoLayer": false,
+    "source": "rig-baked",
+    "cellW": 15,
+    "cellH": 14,
+    "cols": 12,
+    "sheet": "units/solaris/S09-shard-adept-8way.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        -8
+      ],
+      "NE": [
+        3,
+        -7
+      ],
+      "E": [
+        5,
+        -5
+      ],
+      "SE": [
+        4,
+        -3
+      ],
+      "S": [
+        1,
+        -2
+      ],
+      "SW": [
+        -3,
+        -3
+      ],
+      "W": [
+        -4,
+        -5
+      ],
+      "NW": [
+        -3,
+        -7
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        7,
+        2
+      ],
+      "NE": [
+        10,
+        3
+      ],
+      "E": [
+        12,
+        5
+      ],
+      "SE": [
+        11,
+        7
+      ],
+      "S": [
+        8,
+        8
+      ],
+      "SW": [
+        4,
+        7
+      ],
+      "W": [
+        3,
+        5
+      ],
+      "NW": [
+        4,
+        3
+      ]
+    }
+  },
+  {
+    "id": "S10",
+    "name": "Orrery Weaver",
+    "faction": "solaris",
+    "role": "Specialist",
+    "layer": "air",
+    "twoLayer": false,
+    "source": "rig-baked",
+    "cellW": 15,
+    "cellH": 15,
+    "cols": 12,
+    "sheet": "units/solaris/S10-orrery-weaver-8way.png",
+    "muzzleRel8": {
+      "N": [
+        1,
+        -7
+      ],
+      "NE": [
+        2,
+        -6
+      ],
+      "E": [
+        2,
+        -6
+      ],
+      "SE": [
+        2,
+        -6
+      ],
+      "S": [
+        1,
+        -6
+      ],
+      "SW": [
+        0,
+        -6
+      ],
+      "W": [
+        0,
+        -6
+      ],
+      "NW": [
+        1,
+        -7
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        8,
+        1
+      ],
+      "NE": [
+        9,
+        2
+      ],
+      "E": [
+        9,
+        2
+      ],
+      "SE": [
+        9,
+        2
+      ],
+      "S": [
+        8,
+        2
+      ],
+      "SW": [
+        7,
+        2
+      ],
+      "W": [
+        7,
+        2
+      ],
+      "NW": [
+        8,
+        1
+      ]
+    }
+  },
+  {
+    "id": "S11",
+    "name": "Mirage-Wraith",
+    "faction": "solaris",
+    "role": "Specialist",
+    "layer": "ground",
+    "twoLayer": false,
+    "source": "rig-baked",
+    "cellW": 16,
+    "cellH": 13,
+    "cols": 12,
+    "sheet": "units/solaris/S11-mirage-wraith-8way.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        0
+      ],
+      "NE": [
+        0,
+        0
+      ],
+      "E": [
+        0,
+        0
+      ],
+      "SE": [
+        0,
+        0
+      ],
+      "S": [
+        0,
+        0
+      ],
+      "SW": [
+        0,
+        0
+      ],
+      "W": [
+        0,
+        0
+      ],
+      "NW": [
+        0,
+        0
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        8,
+        9
+      ],
+      "NE": [
+        8,
+        9
+      ],
+      "E": [
+        8,
+        9
+      ],
+      "SE": [
+        8,
+        9
+      ],
+      "S": [
+        8,
+        9
+      ],
+      "SW": [
+        8,
+        9
+      ],
+      "W": [
+        8,
+        9
+      ],
+      "NW": [
+        8,
+        9
+      ]
+    }
+  },
+  {
+    "id": "S12",
+    "name": "Null-Beacon",
+    "faction": "solaris",
+    "role": "Specialist",
+    "layer": "air",
+    "twoLayer": false,
+    "source": "rig-baked",
+    "cellW": 18,
+    "cellH": 17,
+    "cols": 12,
+    "sheet": "units/solaris/S12-null-beacon-8way.png",
+    "muzzleRel8": {
+      "N": [
+        2,
+        -6
+      ],
+      "NE": [
+        2,
+        -6
+      ],
+      "E": [
+        2,
+        -6
+      ],
+      "SE": [
+        2,
+        -6
+      ],
+      "S": [
+        2,
+        -6
+      ],
+      "SW": [
+        1,
+        -5
+      ],
+      "W": [
+        1,
+        -6
+      ],
+      "NW": [
+        1,
+        -6
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        11,
+        3
+      ],
+      "NE": [
+        11,
+        3
+      ],
+      "E": [
+        11,
+        3
+      ],
+      "SE": [
+        11,
+        3
+      ],
+      "S": [
+        11,
+        3
+      ],
+      "SW": [
+        10,
+        4
+      ],
+      "W": [
+        10,
+        3
+      ],
+      "NW": [
+        10,
+        3
+      ]
+    }
+  },
+  {
+    "id": "S13",
+    "name": "Sun-Chariot",
+    "faction": "solaris",
+    "role": "Raider / AA",
+    "layer": "ground",
+    "twoLayer": false,
+    "source": "rig-baked",
+    "cellW": 19,
+    "cellH": 14,
+    "cols": 12,
+    "sheet": "units/solaris/S13-sun-chariot-8way.png",
+    "muzzleRel8": {
+      "N": [
+        1,
+        -7
+      ],
+      "NE": [
+        6,
+        -5
+      ],
+      "E": [
+        7,
+        -2
+      ],
+      "SE": [
+        6,
+        1
+      ],
+      "S": [
+        1,
+        2
+      ],
+      "SW": [
+        -5,
+        1
+      ],
+      "W": [
+        -7,
+        -2
+      ],
+      "NW": [
+        -5,
+        -6
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        10,
+        3
+      ],
+      "NE": [
+        15,
+        5
+      ],
+      "E": [
+        16,
+        8
+      ],
+      "SE": [
+        15,
+        11
+      ],
+      "S": [
+        10,
+        12
+      ],
+      "SW": [
+        4,
+        11
+      ],
+      "W": [
+        2,
+        8
+      ],
+      "NW": [
+        4,
+        4
+      ]
+    }
+  },
+  {
+    "id": "S14",
+    "name": "Quad-Strider",
+    "faction": "solaris",
+    "role": "Raider / AA",
+    "layer": "ground",
+    "twoLayer": true,
+    "source": "rig-baked",
+    "cellW": 18,
+    "cellH": 16,
+    "cols": 12,
+    "sheet": "units/solaris/S14-quad-strider-8way.png",
+    "hullSheet": "units/solaris/S14-quad-strider-hull.png",
+    "turretSheet": "units/solaris/S14-quad-strider-turret.png",
+    "shadowSheet": "units/solaris/S14-quad-strider-shadow.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        -10
+      ],
+      "NE": [
+        4,
+        -9
+      ],
+      "E": [
+        6,
+        -6
+      ],
+      "SE": [
+        5,
+        -3
+      ],
+      "S": [
+        0,
+        -2
+      ],
+      "SW": [
+        -5,
+        -3
+      ],
+      "W": [
+        -6,
+        -6
+      ],
+      "NW": [
+        -4,
+        -9
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        9,
+        2
+      ],
+      "NE": [
+        13,
+        3
+      ],
+      "E": [
+        15,
+        6
+      ],
+      "SE": [
+        14,
+        9
+      ],
+      "S": [
+        9,
+        10
+      ],
+      "SW": [
+        4,
+        9
+      ],
+      "W": [
+        3,
+        6
+      ],
+      "NW": [
+        5,
+        3
+      ]
+    }
+  },
+  {
+    "id": "S15",
+    "name": "Tri-Skimmer",
+    "faction": "solaris",
+    "role": "Raider / AA",
+    "layer": "ground",
+    "twoLayer": false,
+    "source": "rig-baked",
+    "cellW": 18,
+    "cellH": 15,
+    "cols": 12,
+    "sheet": "units/solaris/S15-tri-skimmer-8way.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        -7
+      ],
+      "NE": [
+        5,
+        -6
+      ],
+      "E": [
+        6,
+        -3
+      ],
+      "SE": [
+        5,
+        1
+      ],
+      "S": [
+        0,
+        2
+      ],
+      "SW": [
+        -5,
+        1
+      ],
+      "W": [
+        -7,
+        -2
+      ],
+      "NW": [
+        -5,
+        -6
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        9,
+        4
+      ],
+      "NE": [
+        14,
+        5
+      ],
+      "E": [
+        15,
+        8
+      ],
+      "SE": [
+        14,
+        12
+      ],
+      "S": [
+        9,
+        13
+      ],
+      "SW": [
+        4,
+        12
+      ],
+      "W": [
+        2,
+        9
+      ],
+      "NW": [
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "id": "S16",
+    "name": "Colossus",
+    "faction": "solaris",
+    "role": "Heavy Ground",
+    "layer": "ground",
+    "twoLayer": true,
+    "source": "rig-baked",
+    "cellW": 20,
+    "cellH": 21,
+    "cols": 12,
+    "sheet": "units/solaris/S16-colossus-8way.png",
+    "hullSheet": "units/solaris/S16-colossus-hull.png",
+    "turretSheet": "units/solaris/S16-colossus-turret.png",
+    "shadowSheet": "units/solaris/S16-colossus-shadow.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        -14
+      ],
+      "NE": [
+        4,
+        -13
+      ],
+      "E": [
+        5,
+        -10
+      ],
+      "SE": [
+        4,
+        -7
+      ],
+      "S": [
+        0,
+        -6
+      ],
+      "SW": [
+        -4,
+        -7
+      ],
+      "W": [
+        -6,
+        -10
+      ],
+      "NW": [
+        -4,
+        -13
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        10,
+        2
+      ],
+      "NE": [
+        14,
+        3
+      ],
+      "E": [
+        15,
+        6
+      ],
+      "SE": [
+        14,
+        9
+      ],
+      "S": [
+        10,
+        10
+      ],
+      "SW": [
+        6,
+        9
+      ],
+      "W": [
+        4,
+        6
+      ],
+      "NW": [
+        6,
+        3
+      ]
+    }
+  },
+  {
+    "id": "S17",
+    "name": "Sun-Golem",
+    "faction": "solaris",
+    "role": "Heavy Ground",
+    "layer": "ground",
+    "twoLayer": true,
+    "source": "rig-baked",
+    "cellW": 23,
+    "cellH": 23,
+    "cols": 12,
+    "sheet": "units/solaris/S17-sun-golem-8way.png",
+    "hullSheet": "units/solaris/S17-sun-golem-hull.png",
+    "turretSheet": "units/solaris/S17-sun-golem-turret.png",
+    "shadowSheet": "units/solaris/S17-sun-golem-shadow.png",
+    "muzzleRel8": {
+      "N": [
+        1,
+        -13
+      ],
+      "NE": [
+        7,
+        -11
+      ],
+      "E": [
+        7,
+        -9
+      ],
+      "SE": [
+        5,
+        -5
+      ],
+      "S": [
+        0,
+        -4
+      ],
+      "SW": [
+        -4,
+        -5
+      ],
+      "W": [
+        -6,
+        -8
+      ],
+      "NW": [
+        -7,
+        -10
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        12,
+        5
+      ],
+      "NE": [
+        18,
+        7
+      ],
+      "E": [
+        18,
+        9
+      ],
+      "SE": [
+        16,
+        13
+      ],
+      "S": [
+        11,
+        14
+      ],
+      "SW": [
+        7,
+        13
+      ],
+      "W": [
+        5,
+        10
+      ],
+      "NW": [
+        4,
+        8
+      ]
+    }
+  },
+  {
+    "id": "S18",
+    "name": "Obelisk-Barge",
+    "faction": "solaris",
+    "role": "Heavy Ground",
+    "layer": "ground",
+    "twoLayer": true,
+    "source": "rig-baked",
+    "cellW": 26,
+    "cellH": 20,
+    "cols": 12,
+    "sheet": "units/solaris/S18-obelisk-barge-8way.png",
+    "hullSheet": "units/solaris/S18-obelisk-barge-hull.png",
+    "turretSheet": "units/solaris/S18-obelisk-barge-turret.png",
+    "shadowSheet": "units/solaris/S18-obelisk-barge-shadow.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        -13
+      ],
+      "NE": [
+        8,
+        -12
+      ],
+      "E": [
+        10,
+        -7
+      ],
+      "SE": [
+        8,
+        -1
+      ],
+      "S": [
+        0,
+        1
+      ],
+      "SW": [
+        -8,
+        -1
+      ],
+      "W": [
+        -11,
+        -7
+      ],
+      "NW": [
+        -8,
+        -12
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        13,
+        2
+      ],
+      "NE": [
+        21,
+        3
+      ],
+      "E": [
+        23,
+        8
+      ],
+      "SE": [
+        21,
+        14
+      ],
+      "S": [
+        13,
+        16
+      ],
+      "SW": [
+        5,
+        14
+      ],
+      "W": [
+        2,
+        8
+      ],
+      "NW": [
+        5,
+        3
+      ]
+    }
+  },
+  {
+    "id": "S19",
+    "name": "Crescent-Dart",
+    "faction": "solaris",
+    "role": "Light Air",
+    "layer": "air",
+    "twoLayer": false,
+    "source": "rig-baked",
+    "cellW": 18,
+    "cellH": 17,
+    "cols": 12,
+    "sheet": "units/solaris/S19-crescent-dart-8way.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        -8
+      ],
+      "NE": [
+        4,
+        -7
+      ],
+      "E": [
+        6,
+        -4
+      ],
+      "SE": [
+        4,
+        -1
+      ],
+      "S": [
+        0,
+        0
+      ],
+      "SW": [
+        -4,
+        -1
+      ],
+      "W": [
+        -6,
+        -4
+      ],
+      "NW": [
+        -4,
+        -7
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        9,
+        1
+      ],
+      "NE": [
+        13,
+        2
+      ],
+      "E": [
+        15,
+        5
+      ],
+      "SE": [
+        13,
+        8
+      ],
+      "S": [
+        9,
+        9
+      ],
+      "SW": [
+        5,
+        8
+      ],
+      "W": [
+        3,
+        5
+      ],
+      "NW": [
+        5,
+        2
+      ]
+    }
+  },
+  {
+    "id": "S20",
+    "name": "Sun-Scythe",
+    "faction": "solaris",
+    "role": "Light Air",
+    "layer": "air",
+    "twoLayer": false,
+    "source": "rig-baked",
+    "cellW": 18,
+    "cellH": 16,
+    "cols": 12,
+    "sheet": "units/solaris/S20-sun-scythe-8way.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        -8
+      ],
+      "NE": [
+        5,
+        -7
+      ],
+      "E": [
+        6,
+        -4
+      ],
+      "SE": [
+        5,
+        0
+      ],
+      "S": [
+        0,
+        1
+      ],
+      "SW": [
+        -5,
+        0
+      ],
+      "W": [
+        -7,
+        -4
+      ],
+      "NW": [
+        -5,
+        -7
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        9,
+        1
+      ],
+      "NE": [
+        14,
+        2
+      ],
+      "E": [
+        15,
+        5
+      ],
+      "SE": [
+        14,
+        9
+      ],
+      "S": [
+        9,
+        10
+      ],
+      "SW": [
+        4,
+        9
+      ],
+      "W": [
+        2,
+        5
+      ],
+      "NW": [
+        4,
+        2
+      ]
+    }
+  },
+  {
+    "id": "S21",
+    "name": "Solar-Sloop",
+    "faction": "solaris",
+    "role": "Light Air",
+    "layer": "air",
+    "twoLayer": false,
+    "source": "rig-baked",
+    "cellW": 20,
+    "cellH": 19,
+    "cols": 12,
+    "sheet": "units/solaris/S21-solar-sloop-8way.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        -8
+      ],
+      "NE": [
+        5,
+        -7
+      ],
+      "E": [
+        7,
+        -3
+      ],
+      "SE": [
+        5,
+        0
+      ],
+      "S": [
+        0,
+        2
+      ],
+      "SW": [
+        -5,
+        0
+      ],
+      "W": [
+        -7,
+        -3
+      ],
+      "NW": [
+        -5,
+        -7
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        10,
+        3
+      ],
+      "NE": [
+        15,
+        4
+      ],
+      "E": [
+        17,
+        8
+      ],
+      "SE": [
+        15,
+        11
+      ],
+      "S": [
+        10,
+        13
+      ],
+      "SW": [
+        5,
+        11
+      ],
+      "W": [
+        3,
+        8
+      ],
+      "NW": [
+        5,
+        4
+      ]
+    }
+  },
+  {
+    "id": "S22",
+    "name": "Sky-Carrier",
+    "faction": "solaris",
+    "role": "Heavy Air",
+    "layer": "air",
+    "twoLayer": false,
+    "source": "hand-authored",
+    "cellW": 18,
+    "cellH": 14,
+    "cols": 12,
+    "sheet": "units/solaris/S22-sky-carrier-8way.png"
+  },
+  {
+    "id": "S23",
+    "name": "Solar-Ark",
+    "faction": "solaris",
+    "role": "Heavy Air",
+    "layer": "air",
+    "twoLayer": false,
+    "source": "rig-baked",
+    "cellW": 27,
+    "cellH": 20,
+    "cols": 12,
+    "sheet": "units/solaris/S23-solar-ark-8way.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        0
+      ],
+      "NE": [
+        8,
+        -9
+      ],
+      "E": [
+        11,
+        -4
+      ],
+      "SE": [
+        8,
+        1
+      ],
+      "S": [
+        0,
+        3
+      ],
+      "SW": [
+        -7,
+        1
+      ],
+      "W": [
+        -10,
+        -4
+      ],
+      "NW": [
+        -7,
+        -9
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        13,
+        11
+      ],
+      "NE": [
+        21,
+        2
+      ],
+      "E": [
+        24,
+        7
+      ],
+      "SE": [
+        21,
+        12
+      ],
+      "S": [
+        13,
+        14
+      ],
+      "SW": [
+        6,
+        12
+      ],
+      "W": [
+        3,
+        7
+      ],
+      "NW": [
+        6,
+        2
+      ]
+    }
+  },
+  {
+    "id": "S24",
+    "name": "Astrolabe-Flagship",
+    "faction": "solaris",
+    "role": "Heavy Air",
+    "layer": "air",
+    "twoLayer": false,
+    "source": "rig-baked",
+    "cellW": 26,
+    "cellH": 19,
+    "cols": 12,
+    "sheet": "units/solaris/S24-astrolabe-flagship-8way.png",
+    "muzzleRel8": {
+      "N": [
+        0,
+        -10
+      ],
+      "NE": [
+        7,
+        -9
+      ],
+      "E": [
+        10,
+        -4
+      ],
+      "SE": [
+        7,
+        1
+      ],
+      "S": [
+        0,
+        3
+      ],
+      "SW": [
+        -7,
+        1
+      ],
+      "W": [
+        -10,
+        -4
+      ],
+      "NW": [
+        -7,
+        -9
+      ]
+    },
+    "muzzleCell8": {
+      "N": [
+        13,
+        1
+      ],
+      "NE": [
+        20,
+        2
+      ],
+      "E": [
+        23,
+        7
+      ],
+      "SE": [
+        20,
+        12
+      ],
+      "S": [
+        13,
+        14
+      ],
+      "SW": [
+        6,
+        12
+      ],
+      "W": [
+        3,
+        7
+      ],
+      "NW": [
+        6,
+        2
+      ]
+    }
+  }
+]

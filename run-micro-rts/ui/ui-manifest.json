@@ -1,0 +1,279 @@
+{
+  "selectionRings": [
+    {
+      "id": "sel-sm",
+      "cellW": 14,
+      "cellH": 9,
+      "states": [
+        "selected",
+        "hover",
+        "enemy",
+        "ally"
+      ],
+      "sheet": "selection-rings/sel-sm.png"
+    },
+    {
+      "id": "sel-md",
+      "cellW": 20,
+      "cellH": 12,
+      "states": [
+        "selected",
+        "hover",
+        "enemy",
+        "ally"
+      ],
+      "sheet": "selection-rings/sel-md.png"
+    },
+    {
+      "id": "sel-lg",
+      "cellW": 26,
+      "cellH": 15,
+      "states": [
+        "selected",
+        "hover",
+        "enemy",
+        "ally"
+      ],
+      "sheet": "selection-rings/sel-lg.png"
+    },
+    {
+      "id": "sel-bldg",
+      "cellW": 36,
+      "cellH": 20,
+      "states": [
+        "selected",
+        "hover",
+        "enemy",
+        "ally"
+      ],
+      "sheet": "selection-rings/sel-bldg.png"
+    }
+  ],
+  "sprites": [
+    {
+      "id": "cursor-default",
+      "name": "Pointer",
+      "category": "cursor",
+      "cellW": 12,
+      "cellH": 12,
+      "frames": 1,
+      "sheet": "cursors/cursor-default.png"
+    },
+    {
+      "id": "cursor-attack",
+      "name": "Attack Reticle",
+      "category": "cursor",
+      "cellW": 12,
+      "cellH": 10,
+      "frames": 2,
+      "sheet": "cursors/cursor-attack.png"
+    },
+    {
+      "id": "cursor-move",
+      "name": "Move Order",
+      "category": "cursor",
+      "cellW": 12,
+      "cellH": 10,
+      "frames": 2,
+      "sheet": "cursors/cursor-move.png"
+    },
+    {
+      "id": "cursor-gather",
+      "name": "Gather Minerals",
+      "category": "cursor",
+      "cellW": 12,
+      "cellH": 10,
+      "frames": 2,
+      "sheet": "cursors/cursor-gather.png"
+    },
+    {
+      "id": "cursor-repair",
+      "name": "Repair / Wrench",
+      "category": "cursor",
+      "cellW": 12,
+      "cellH": 10,
+      "frames": 2,
+      "sheet": "cursors/cursor-repair.png"
+    },
+    {
+      "id": "cursor-patrol",
+      "name": "Patrol Arrows",
+      "category": "cursor",
+      "cellW": 12,
+      "cellH": 10,
+      "frames": 1,
+      "sheet": "cursors/cursor-patrol.png"
+    },
+    {
+      "id": "cursor-ability",
+      "name": "Ability AOE",
+      "category": "cursor",
+      "cellW": 12,
+      "cellH": 10,
+      "frames": 2,
+      "sheet": "cursors/cursor-ability.png"
+    },
+    {
+      "id": "cursor-invalid",
+      "name": "Blocked / Invalid",
+      "category": "cursor",
+      "cellW": 10,
+      "cellH": 10,
+      "frames": 1,
+      "sheet": "cursors/cursor-invalid.png"
+    },
+    {
+      "id": "order-move-ping",
+      "name": "Move Ping",
+      "category": "marker",
+      "cellW": 10,
+      "cellH": 6,
+      "frames": 4,
+      "sheet": "markers/order-move-ping.png"
+    },
+    {
+      "id": "order-attack-ping",
+      "name": "Attack Ping",
+      "category": "marker",
+      "cellW": 10,
+      "cellH": 6,
+      "frames": 4,
+      "sheet": "markers/order-attack-ping.png"
+    },
+    {
+      "id": "rally-flag",
+      "name": "Rally Point Flag",
+      "category": "marker",
+      "cellW": 12,
+      "cellH": 10,
+      "frames": 3,
+      "sheet": "markers/rally-flag.png"
+    },
+    {
+      "id": "build-grid-ok",
+      "name": "Valid Build Tile",
+      "category": "marker",
+      "cellW": 8,
+      "cellH": 8,
+      "frames": 1,
+      "sheet": "markers/build-grid-ok.png"
+    },
+    {
+      "id": "build-grid-bad",
+      "name": "Blocked Build Tile",
+      "category": "marker",
+      "cellW": 8,
+      "cellH": 8,
+      "frames": 1,
+      "sheet": "markers/build-grid-bad.png"
+    },
+    {
+      "id": "icon-mineral",
+      "name": "Minerals",
+      "category": "icon",
+      "cellW": 12,
+      "cellH": 9,
+      "frames": 1,
+      "sheet": "icons/icon-mineral.png"
+    },
+    {
+      "id": "icon-gold",
+      "name": "Rich Gold",
+      "category": "icon",
+      "cellW": 12,
+      "cellH": 9,
+      "frames": 1,
+      "sheet": "icons/icon-gold.png"
+    },
+    {
+      "id": "icon-gas",
+      "name": "Plasma Gas",
+      "category": "icon",
+      "cellW": 12,
+      "cellH": 9,
+      "frames": 1,
+      "sheet": "icons/icon-gas.png"
+    },
+    {
+      "id": "icon-supply",
+      "name": "Supply Cap",
+      "category": "icon",
+      "cellW": 12,
+      "cellH": 9,
+      "frames": 1,
+      "sheet": "icons/icon-supply.png"
+    },
+    {
+      "id": "icon-move",
+      "name": "Move (M)",
+      "category": "icon",
+      "cellW": 12,
+      "cellH": 9,
+      "frames": 1,
+      "sheet": "icons/icon-move.png"
+    },
+    {
+      "id": "icon-stop",
+      "name": "Stop (S)",
+      "category": "icon",
+      "cellW": 12,
+      "cellH": 9,
+      "frames": 1,
+      "sheet": "icons/icon-stop.png"
+    },
+    {
+      "id": "icon-hold",
+      "name": "Hold (H)",
+      "category": "icon",
+      "cellW": 12,
+      "cellH": 9,
+      "frames": 1,
+      "sheet": "icons/icon-hold.png"
+    },
+    {
+      "id": "icon-attack",
+      "name": "Attack (A)",
+      "category": "icon",
+      "cellW": 12,
+      "cellH": 9,
+      "frames": 1,
+      "sheet": "icons/icon-attack.png"
+    },
+    {
+      "id": "icon-patrol",
+      "name": "Patrol (P)",
+      "category": "icon",
+      "cellW": 12,
+      "cellH": 9,
+      "frames": 1,
+      "sheet": "icons/icon-patrol.png"
+    },
+    {
+      "id": "icon-build",
+      "name": "Build (B)",
+      "category": "icon",
+      "cellW": 12,
+      "cellH": 9,
+      "frames": 1,
+      "sheet": "icons/icon-build.png"
+    },
+    {
+      "id": "icon-repair",
+      "name": "Repair (R)",
+      "category": "icon",
+      "cellW": 12,
+      "cellH": 9,
+      "frames": 1,
+      "sheet": "icons/icon-repair.png"
+    },
+    {
+      "id": "icon-rally",
+      "name": "Rally (Y)",
+      "category": "icon",
+      "cellW": 12,
+      "cellH": 9,
+      "frames": 1,
+      "sheet": "icons/icon-rally.png"
+    }
+  ]
+}
